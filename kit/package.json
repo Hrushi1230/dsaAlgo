@@ -1,0 +1,13 @@
+{
+  "name": "@dsa/kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shared chalkboard visual kit for DSA explainer videos (theme, chalk components, animation + audio-sync helpers). Single source of truth — imported by every video.",
+  "peerDependencies": {
+    "@remotion/google-fonts": ">=4",
+    "react": ">=19",
+    "react-dom": ">=19",
+    "remotion": ">=4",
+    "roughjs": ">=4"
+  }
+}

@@ -1,0 +1,46 @@
+# ==========================================
+# User Requested Exclusions
+# ==========================================
+# Exclude question directory (all problem folders, audio, sync, etc.)
+questions/
+questions
+
+# Exclude remotion public directory and root public junction (all heavy assets, audio, video)
+public/
+public
+remotion-project/public/
+remotion-project/public
+
+# ==========================================
+# Dependencies
+# ==========================================
+node_modules/
+*/node_modules/
+
+# ==========================================
+# Remotion & Media Render Outputs
+# ==========================================
+build/
+out/
+output/
+stills/
+remotion-project/build/
+remotion-project/out/
+.remotion/
+*.mp4
+
+# ==========================================
+# Temporary & Scratch Files
+# ==========================================
+scratch/
+*.log
+.git_submodule_backup/
+*/.git_submodule_backup/
+
+# ==========================================
+# Environment & OS Files
+# ==========================================
+.env
+.env*.local
+.DS_Store
+Thumbs.db

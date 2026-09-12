@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520"><defs>
+<filter id="roughInk" x="-20%" y="-20%" width="140%" height="140%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.018 0.055" numOctaves="2" seed="11" result="noise"/>
+  <feDisplacementMap in="SourceGraphic" in2="noise" scale="2.8" xChannelSelector="R" yChannelSelector="G"/>
+</filter>
+<filter id="roughPencil" x="-20%" y="-20%" width="140%" height="140%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.025 0.07" numOctaves="2" seed="7" result="noise"/>
+  <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.6" xChannelSelector="R" yChannelSelector="G"/>
+</filter></defs><g filter="url(#roughInk)"><path d="M112 321 C322 236 515 249 705 280 C928 316 1120 297 1462 218" fill="none" stroke="#26364A" stroke-width="86" stroke-linecap="round"/><path d="M125 343 C352 296 602 301 824 327 C1038 352 1230 337 1468 276" fill="none" stroke="#334E68" stroke-opacity=".55" stroke-width="17" stroke-linecap="round"/><path d="M180 372 C390 336 670 359 935 352" fill="none" stroke="#26364A" stroke-opacity=".25" stroke-width="7" stroke-linecap="round"/><circle cx="159" cy="257" r="8" fill="#26364A" opacity=".7"/><circle cx="1420" cy="310" r="5" fill="#26364A" opacity=".55"/></g></svg>

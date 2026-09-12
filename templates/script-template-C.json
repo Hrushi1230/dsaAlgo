@@ -1,0 +1,108 @@
+{
+  "$schema": "Script template — Type C (brute → better → optimal, 10 scenes)",
+  "question": {
+    "title": "",
+    "pattern": "",
+    "pattern_number": 0,
+    "question_number": 0,
+    "leetcode": 0,
+    "difficulty": "Easy | Medium | Hard",
+    "technique": "",
+    "companies": []
+  },
+  "approach_type": "C",
+  "approach_count": 3,
+  "scene_count": 10,
+  "scenes": [
+    {
+      "id": "01-hook",
+      "beat": "HOOK",
+      "narration": "",
+      "visual_intent": "",
+      "notes": "Concrete failure case. No definitions. No 'in this video'."
+    },
+    {
+      "id": "02-cold-open",
+      "beat": "COLD_OPEN",
+      "recall_from": "",
+      "narration": "",
+      "visual_intent": ""
+    },
+    {
+      "id": "03-predict",
+      "beat": "PREDICT",
+      "narration": "",
+      "visual_intent": "Question on screen, 3-second countdown. NEVER shorten."
+    },
+    {
+      "id": "04-trace-brute",
+      "beat": "TRACE_BRUTE",
+      "approach": "brute",
+      "narration": "",
+      "visual_intent": "Show brute force working step by step",
+      "code": "",
+      "test_data": {}
+    },
+    {
+      "id": "05-why-not-brute",
+      "beat": "WHY_NOT_BRUTE",
+      "narration": "",
+      "visual_intent": "Complexity curve: state O(), draw curve, counter, verdict",
+      "complexity_curve": {
+        "bigO": "",
+        "highlight_n": 10000,
+        "counter_target": 0,
+        "counter_label": "",
+        "verdict": "Too slow. Can we do better?"
+      }
+    },
+    {
+      "id": "06-trace-better",
+      "beat": "TRACE_BETTER",
+      "approach": "better",
+      "narration": "",
+      "visual_intent": "First improvement — introduces new concept",
+      "code": "",
+      "test_data": {}
+    },
+    {
+      "id": "07-why-not-better",
+      "beat": "WHY_NOT_BETTER",
+      "narration": "",
+      "visual_intent": "Complexity curve: better curve + remaining flaw (e.g. space cost)",
+      "complexity_curve": {
+        "bigO": "",
+        "highlight_n": 10000,
+        "counter_target": 0,
+        "counter_label": "",
+        "verdict": ""
+      }
+    },
+    {
+      "id": "08-trace-optimal",
+      "beat": "TRACE_OPTIMAL",
+      "approach": "optimal",
+      "narration": "",
+      "visual_intent": "Final technique — best possible solution",
+      "code": "",
+      "test_data": {}
+    },
+    {
+      "id": "09-misconception",
+      "beat": "MISCONCEPTION",
+      "narration": "",
+      "visual_intent": "Wrong model about the OPTIMAL approach, then correct model"
+    },
+    {
+      "id": "10-complexity",
+      "beat": "COMPLEXITY",
+      "narration": "",
+      "visual_intent": "All 3 curves overlaid, 3-column card, practice set",
+      "complexities": {
+        "brute": { "time": "", "space": "" },
+        "better": { "time": "", "space": "" },
+        "optimal": { "time": "", "space": "" }
+      }
+    }
+  ]
+}

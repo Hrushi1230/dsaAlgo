@@ -1,0 +1,56 @@
+{
+  "$schema": "Script template for Code With Animation DSA videos",
+  "question": {
+    "title": "",
+    "pattern": "",
+    "pattern_number": 0,
+    "question_number": 0,
+    "leetcode": 0,
+    "difficulty": "Easy | Medium | Hard",
+    "technique": "",
+    "companies": []
+  },
+  "scenes": [
+    {
+      "id": "01-hook",
+      "beat": "HOOK",
+      "narration": "",
+      "visual_intent": "",
+      "notes": "Concrete failure case. No definitions. No 'in this video'."
+    },
+    {
+      "id": "02-cold-open",
+      "beat": "COLD OPEN",
+      "recall_from": "",
+      "narration": "",
+      "visual_intent": ""
+    },
+    {
+      "id": "03-predict",
+      "beat": "PREDICT",
+      "narration": "",
+      "visual_intent": "Question on screen, 3-second countdown. NEVER shorten."
+    },
+    {
+      "id": "04-trace",
+      "beat": "TRACE",
+      "narration": "",
+      "visual_intent": "",
+      "code": "",
+      "test_data": {},
+      "complexity": ""
+    },
+    {
+      "id": "05-misconception",
+      "beat": "MISCONCEPTION",
+      "narration": "",
+      "visual_intent": "Wrong model FIRST, then correct model"
+    },
+    {
+      "id": "06-complexity",
+      "beat": "COMPLEXITY",
+      "narration": "",
+      "visual_intent": "Derivation FIRST, then O() values, then problem set"
+    }
+  ]
+}
