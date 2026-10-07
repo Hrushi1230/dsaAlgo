@@ -1,561 +1,370 @@
-# AGENTS.md — Code With Animation · DSA Video Production
+# Code With Animation — DSA Production Rules V2
 
-## WHO WE ARE
-Channel: **Code With Animation**
-Content: DSA educational videos — 227 curated problems across 19 pattern groups
-Tech: Remotion (React) for animation
-Code Language: **Python** (all code in videos is Python — no JavaScript, no C++, no Java)
-Voice: **Female** — human-recorded (not TTS)
-Audience: **Indian CS students** (2nd/3rd year BTech, preparing for placements)
-Language: **Indian English** — natural, conversational, how an Indian teacher actually speaks in a classroom
+> Repository-wide operating contract for the long-form DSA course.
+> This file is intentionally short. Detailed behavior lives in routed skills.
 
----
+## 1. Project boundary
 
-## ABSOLUTE RULES
+This repository is for the **long-form Code With Animation DSA course**.
 
-### Rule 1: DO NOT GUESS
-- Never guess an API, prop, hex colour, font size, frame count, or duration
-- If not 100% certain → look it up or ASK
-- Before Remotion code → READ `docs/remotionskills.md`
-- Before visual decisions → USE the `@dsa/kit` chalkboard components
-- If `remotionskills.md` and your instinct disagree → **remotionskills.md wins**
+**Shorts are NOT part of this project.**
+Do not create:
+- Shorts scenes
+- Shorts design systems
+- Shorts folders
+- Shorts skills
+- Shorts SEO artifacts
 
-### Rule 2: DO NOT AI-SLOP
-- No filler: "In this video we will learn about..."
-- No placeholders: "[insert here]", "lorem ipsum"
-- No vague language — every word precise and actionable
-- No hallucinated APIs, features, or capabilities
-- No over-explanation of obvious things
-- No unnecessary verbosity or repetition
-- No generic code comments that restate what the code does
-
-### Rule 3: ALWAYS CHECK RULES BEFORE ACTING
-1. Read THIS FILE first
-2. Read `docs/remotionskills.md` Parts 2 + 9 before any Remotion code
-3. Read `@dsa/kit` (e.g. `kit/lib/theme.ts`) before any visual decisions
-4. Never invent a hex colour — use the chalk palette from the kit
-5. Never invent a font size — use the type scale from the kit
-6. Never invent a frame count — derive from audio sync JSON
-
-### Rule 4: FOLLOW THE ROADMAP — NO SHORTCUTS
-```
-STEP 0  : Pick question (from docs/dsa.md)
-STEP 0.5: Question Analysis — decide Type A/B/C + scene count → human approves
-STEP 1  : Write full script (all scenes per type) → human approves
-STEP 2  : Human records audio (one MP3 per scene)
-STEP 3  : Audio → word-level JSON (tools/audio-to-json.py) — per scene
-STEP 4  : Sync plan (frame-by-frame) → human approves — per scene
-STEP 5  : Build animation → human approves — per scene
-STEP 6  : Assemble all scenes → final render → human approves
-```
-NEVER skip a step. NEVER combine steps. NEVER auto-proceed.
-
-### Rule 5: HUMAN APPROVES EVERYTHING
-- Type decision (Step 0.5) → STOP, wait for approval
-- Script → STOP, wait for approval
-- Scene plan → STOP, wait for approval
-- Animation code → STOP, wait for approval
-- Never proceed to next step without explicit human "approved" or "go"
-
-### Rule 6: ONE IDEA PER FRAME
-- Never animate two unrelated things simultaneously
-- State change first, THEN position change — never both in same frames
-- If it looks busy → split into separate steps
-
-### Rule 7: REUSE FROM kit/ — NEVER REINVENT
-- Check `kit/components/` before creating ANY visual element
-- If a component doesn't exist → build it IN `kit/components/` (never inside a question folder)
-- Question folders contain ONLY question-specific code and data
-
-### Rule 8: VERIFY BEFORE CLAIMING DONE
-- Run the Part 9 anti-pattern checklist from `docs/remotionskills.md`
-- Render stills at start, middle, end of each scene
-- Check all layers are named
-- Check safe area compliance
-- No CSS transitions, no CSS animations, no @keyframes
-- No Math.random() — use random('seed')
-- All interpolate() calls clamped both ends
-
-### Rule 9: ANIMATION SYNCS TO YOUR VOICE
-- Animation timing comes from sync JSON (Step 3 output)
-- Frame numbers derived from YOUR spoken words
-- Your natural pauses = hold time for viewers to read
-- Never invent timing — derive everything from audio timestamps
-
-### Rule 10: QUESTION FOLDER ISOLATION
-- Each question = its own folder under `questions/`
-- Contains: analysis.json, script.json, audio/, sync/, plans/, src/, output/
-- Never mix files between question folders
-- Shared code lives ONLY in `kit/`
+unless the repository scope is explicitly changed later.
 
 ---
 
-## APPROACH DECISION SYSTEM (Step 0.5)
+## 2. Permanent production pipeline
 
-Every question needs 1, 2, or 3 approaches. The number of approaches determines the video type and scene count. **This is decided BEFORE writing the script.**
+For every roadmap problem, use this exact order:
 
-### The Three Video Types
-
-| Type | Approaches | Scenes | When |
-|:---|:---|:---|:---|
-| **A** | 1 (direct optimal) | **7** | Technique IS the lesson. No useful brute force. |
-| **B** | 2 (brute → optimal) | **10** | Brute force teaches WHY the optimal exists. |
-| **C** | 3 (brute → better → optimal) | **13** | Each step teaches a DISTINCT concept. |
-
-### The 5 Decision Rules
-
-**Rule D1: Does the brute force teach "WHY we need this technique?"**
-```
-YES → Include brute force (Type B or C)
-NO  → Direct optimal (Type A)
-```
-
-**Rule D2: Does the "better" middle approach teach a DISTINCT new concept?**
-```
-YES → Type C (3 approaches)
-NO  → Type B (2 approaches) or Type A
-```
-
-**Rule D3: DP problems use the natural DP progression**
-```
-Recursion (brute) → Memoization (better) → Tabulation (optimal) → Space Opt (bonus)
-= Type C naturally
+```text
+ROADMAP
+→ CODEBASE AUDIT
+→ PROBLEM RESEARCH
+→ APPROACH SELECTION
+→ MASTER TESTCASE
+→ ACTUAL DRY RUN
+→ INDEPENDENT DRY-RUN RECHECK
+→ VERIFIED TRACE
+→ TEACHING ARCHITECTURE
+→ SCRIPT
+→ SCRIPT VERIFICATION
+→ MP3
+→ EXACT WORD-SYNC JSON
+→ FRAME-WISE SCENE PLAN
+→ REUSE / EXTEND / CREATE DELTA
+→ ANTIGRAVITY IMPLEMENTATION
+→ CRITICAL-FRAME REVIEW
+→ ALGORITHM QA
+→ DESIGN QA
+→ MOTION QA
+→ FINAL RENDER
+→ SEO
+→ ROADMAP UPDATE
 ```
 
-**Rule D4: Data structure problems use Type A**
-- Stack, Trie, Heap problems where the data structure IS the lesson
-- No meaningful brute force alternative exists
-
-**Rule D5: When in doubt, fewer approaches = better for beginners**
-- One deeply understood approach beats three surface-level approaches
-- If brute force doesn't leave a gap in understanding when skipped → Type A
-
-### Question Analysis Output (analysis.json)
-
-Before writing the script, produce `analysis.json`:
-```json
-{
-  "question": "Two Sum",
-  "leetcode": 1,
-  "approach_type": "B",
-  "scene_count": 10,
-  "approaches": {
-    "brute": {
-      "technique": "Nested loops checking every pair",
-      "time": "O(n²)", "space": "O(1)",
-      "teaches": "Shows why checking all pairs is wasteful"
-    },
-    "optimal": {
-      "technique": "HashMap complement lookup",
-      "time": "O(n)", "space": "O(n)"
-    }
-  },
-  "reason": "Brute O(n²) nested loops creates the 'why HashMap?' moment"
-}
-```
+Do not silently skip a stage.
 
 ---
 
-## SCENE STRUCTURES — BY VIDEO TYPE
+## 3. Absolute no-guess rule
 
-### Core Rule 1: TRACE = Visual Only, CODE = Implementation Only
+Never invent:
+- the next roadmap problem
+- algorithm behavior
+- iteration order
+- pointer values
+- intermediate states
+- swaps
+- lookup results
+- complexity
+- component existence
+- asset existence
+- audio timing
+- frame timing
+- theme colors
+- typography
+- repository paths
 
-Every approach has TWO dedicated scenes:
-1. **TRACE** — Visual walkthrough ONLY. Array cards, pointers, animations. NO code shown.
-2. **CODE** — Write the code line by line with explanation. NO visual walkthrough.
-
-This separation reduces cognitive overload: the viewer understands the IDEA first (TRACE), then learns HOW TO WRITE IT (CODE).
-
-### Core Rule 2: After Each Approach Code → Show Complexity Curve
-
-After every approach's code scene, a dedicated **WHY-NOT** scene shows:
-1. The complexity stated — "This approach is O of n squared"
-2. The curve drawn — animated graph showing growth
-3. The concrete number — "For n = 10,000, that's 100 MILLION operations"
-4. The verdict — "Too slow. Can we do better?"
-
-This creates the motivation for the next approach through visual proof.
-
-### Type A — Direct Optimal (7 Scenes)
-
-```
-01-hook          │ HOOK           │ Concrete failure / shock
-02-cold-open     │ COLD_OPEN      │ SRS recall from earlier pattern
-03-predict       │ PREDICT        │ Question + 3-sec countdown
-04-trace         │ TRACE          │ Visual walkthrough of the optimal approach (NO code)
-05-code          │ CODE           │ Write the code line by line with explanation
-06-misconception │ MISCONCEPTION  │ Common wrong model → correct model
-07-complexity    │ COMPLEXITY     │ Derivation + curve + practice set
-```
-
-Audio files:
-```
-audio/01-hook.mp3
-audio/02-cold-open.mp3
-audio/03-predict.mp3
-audio/04-trace.mp3
-audio/05-code.mp3
-audio/06-misconception.mp3
-audio/07-complexity.mp3
-```
-
-### Type B — Brute → Optimal (10 Scenes)
-
-```
-01-hook          │ HOOK           │ Concrete failure case
-02-cold-open     │ COLD_OPEN      │ SRS recall from earlier pattern
-03-predict       │ PREDICT        │ Question + 3-sec countdown
-04-trace-brute   │ TRACE_BRUTE    │ Brute force visual walkthrough — step by step (NO code)
-05-code-brute    │ CODE_BRUTE     │ Write the brute force code line by line
-06-why-not-brute │ WHY_NOT_BRUTE  │ ⚡ COMPLEXITY CURVE: O(n²) drawn, counter, verdict
-07-trace-optimal │ TRACE_OPTIMAL  │ Optimal visual walkthrough — same data, better technique (NO code)
-08-code-optimal  │ CODE_OPTIMAL   │ Write the optimal code line by line
-09-misconception │ MISCONCEPTION  │ Common wrong model about the optimal
-10-complexity    │ COMPLEXITY     │ FINAL: both curves overlaid, comparison card, practice set
-```
-
-Audio files:
-```
-audio/01-hook.mp3
-audio/02-cold-open.mp3
-audio/03-predict.mp3
-audio/04-trace-brute.mp3
-audio/05-code-brute.mp3
-audio/06-why-not-brute.mp3
-audio/07-trace-optimal.mp3
-audio/08-code-optimal.mp3
-audio/09-misconception.mp3
-audio/10-complexity.mp3
-```
-
-### Type C — Brute → Better → Optimal (13 Scenes)
-
-```
-01-hook              │ HOOK              │ Concrete failure case
-02-cold-open         │ COLD_OPEN         │ SRS recall from earlier pattern
-03-predict           │ PREDICT           │ Question + 3-sec countdown
-04-trace-brute       │ TRACE_BRUTE       │ Brute force visual walkthrough (NO code)
-05-code-brute        │ CODE_BRUTE        │ Write the brute force code line by line
-06-why-not-brute     │ WHY_NOT_BRUTE     │ ⚡ COMPLEXITY CURVE: brute curve + verdict
-07-trace-better      │ TRACE_BETTER      │ Better approach visual walkthrough (NO code)
-08-code-better       │ CODE_BETTER       │ Write the better approach code line by line
-09-why-not-better    │ WHY_NOT_BETTER    │ ⚡ COMPLEXITY CURVE: better curve + remaining flaw
-10-trace-optimal     │ TRACE_OPTIMAL     │ Optimal visual walkthrough (NO code)
-11-code-optimal      │ CODE_OPTIMAL      │ Write the optimal code line by line
-12-misconception     │ MISCONCEPTION     │ Common wrong model about the optimal
-13-complexity        │ COMPLEXITY        │ FINAL: all 3 curves overlaid, 3-column card, practice set
-```
-
-Audio files:
-```
-audio/01-hook.mp3
-audio/02-cold-open.mp3
-audio/03-predict.mp3
-audio/04-trace-brute.mp3
-audio/05-code-brute.mp3
-audio/06-why-not-brute.mp3
-audio/07-trace-better.mp3
-audio/08-code-better.mp3
-audio/09-why-not-better.mp3
-audio/10-trace-optimal.mp3
-audio/11-code-optimal.mp3
-audio/12-misconception.mp3
-audio/13-complexity.mp3
-```
+When a required fact is not verified, stop that stage and inspect the authoritative source.
 
 ---
 
-## WHY-NOT COMPLEXITY CURVE SCENE — Visual Spec
+## 4. Source-of-truth hierarchy
 
-This is a dedicated beat type. Use components from `kit/components/`.
+### Algorithm truth
+1. exact problem statement / constraints
+2. selected implementation
+3. exact testcase
+4. verified dry-run trace
 
-### Layout (full-width hero, no split)
+If narration or animation disagrees with the verified trace, narration/animation is wrong.
 
-```
-┌──────────────────────────────────────────────────────────┐
-│                                                          │
-│  "Brute Force: O(n²)"                                   │
-│   56px Inter semibold, #F0F0FF                           │
-│                                                          │
-│  ┌──────────────────────────────────────────────┐        │
-│  │  Operations ▲                        ╱       │        │
-│  │             │                      ╱         │        │
-│  │             │                   ╱  ← CORAL   │        │
-│  │             │                ╱     #FF6B6B   │        │
-│  │             │            ╱                   │        │
-│  │             │       ╱                        │        │
-│  │             │  ╱                             │        │
-│  │             └──────────────────────► n       │        │
-│  │               100  1K  10K  100K  1M         │        │
-│  └──────────────────────────────────────────────┘        │
-│                                                          │
-│  ┌─────────────────────────────────────┐                 │
-│  │  n = 10,000                         │                 │
-│  │  Operations: 100,000,000            │  ← animates up  │
-│  │  "That's 100 MILLION comparisons"   │                 │
-│  └─────────────────────────────────────┘                 │
-│                                                          │
-│  "Too slow. Can we do better?"                           │
-│   48px Inter, #FF6B6B (coral)                            │
-│                                                          │
-└──────────────────────────────────────────────────────────┘
-```
+### Audio timing truth
+1. final approved script
+2. rendered MP3
+3. exact word-sync JSON
+4. scene plan
 
-### Animation sequence (synced to voice)
-1. Title fades in (word stagger)
-2. Graph axes draw in
-3. **Curve draws left to right** — dot follows the curve tip
-4. Vertical dotted line drops at highlighted n value
-5. **Counter animates** — numbers roll up to final count
-6. Verdict text appears in coral/gold
+Do not create the final timed scene plan before exact sync data exists.
 
-### Curve colours by approach
-- **Brute force curve**: Coral `#FF6B6B`
-- **Better approach curve**: Gold `#FFB800`
-- **Optimal curve**: Mint `#2ED8A3`
-- **Past approaches (dimmed)**: Excluded state `#4A3F6B`
+### Visual truth
+1. current `@dsa/kit` / shared project theme
+2. canonical Design Bible
+3. canonical Motion Bible
+4. canonical Morphing Bible
+5. canonical SVG Animation Bible
+6. relevant Data Structure Visual Grammar
 
-### For WHY-NOT-BETTER (Type C only)
-- Brute curve shown dimmed in background
-- Better curve draws in gold
-- Verdict is about the remaining flaw: "O(n) time ✓ but O(n) extra space"
+Skills do not invent a second palette.
 
-### For FINAL COMPLEXITY scene
-- All curves overlaid on same graph
-- Past approaches dimmed, optimal bright mint (drawn last, glowing)
-- Below: side-by-side complexity card (2 or 3 columns) + practice set chips
-
-### Shared Component: ComplexityCurve
-
-Reused across ALL videos, leveraging chalkboard primitives.
-
-```
-Props:
-  curves: Array<{
-    label: string        // "Brute Force", "Better", "Optimal"
-    bigO: string         // "O(n²)", "O(n)", "O(n log n)"
-    fn: (n) => number    // math function for plotting
-    color: string        // stroke colour from theme
-    dimmed: boolean      // true for past approaches
-    drawAtFrame: number  // when to start drawing
-  }>
-  highlightN: number     // which n to highlight (e.g., 10000)
-  counterTarget: number  // what counter animates to
-  counterLabel: string   // "100 MILLION comparisons"
-  verdict: string        // "Too slow. Can we do better?"
-  verdictColor: string   // coral or gold
-```
+### Repository truth
+Actual files and imports in the repository beat remembered filenames or chat history.
 
 ---
 
-## MANDATORY SKILL: remotionskills.md
+## 5. Responsibility split
 
-**Before writing ANY Remotion animation code, you MUST read `docs/remotionskills.md`.**
+### ChatGPT / planning side owns
+- roadmap lookup
+- problem research
+- approach selection
+- testcase design
+- complete dry runs
+- dry-run verification
+- teaching architecture
+- script
+- script verification
+- sync interpretation
+- word/phrase-to-frame planning
+- frame-wise scene plans
+- motion/morph/SVG choreography specification
+- REUSE / EXTEND / CREATE decisions
+- implementation handoff
+- review of renders/stills
+- algorithm/design/motion QA
+- SEO
 
-This file contains:
-- **Part 0**: TL;DR setup commands
-- **Part 1**: The 12 official Remotion Agent Skills and when to use each
-- **Part 2**: The 6 non-negotiable laws (violating = broken renders)
-- **Part 3**: Verified animation primitives (interpolate, Easing, spring)
-- **Part 4**: Timeline structure (Sequence, Series, TransitionSeries)
-- **Part 5**: Text, fonts, layout, media, layering
-- **Part 6**: Scene grammar — beat structure (see SCENE STRUCTURES above for updated beats)
-- **Part 7**: Reusable DSA primitive components + step-driven trace pattern
-- **Part 8**: AI narration pipeline (audio-driven timeline via calculateMetadata)
-- **Part 9**: Anti-patterns checklist (24 items — check ALL before committing)
-- **Part 10**: Rendering (local, batch, Lambda)
-- **Part 11**: Prompt template for per-video generation
+### Antigravity owns
+- all repository code edits
+- component implementation
+- refactors
+- SVG source implementation
+- Remotion scenes/compositions
+- typecheck/lint/build fixes
+- render generation
+- validators/tools
+- commits
 
-**The 6 Laws from remotionskills.md (summary — read full file for details):**
-1. All motion is a pure function of `useCurrentFrame()` — no CSS animations
-2. Determinism — `random('seed')`, never `Math.random()`
-3. Always clamp `interpolate()` on both ends
-4. Inline `interpolate()` in `style`, use individual transform properties
-5. `name=` on every layer (Sequence, Interactive.*, Audio, Video)
-6. Assets in `public/`, referenced via `staticFile()`
-
----
-
-## DESIGN SYSTEM: Chalkboard Kit (@dsa/kit)
-
-**Concept**: A shared chalkboard visual kit for DSA explainer videos.
-**Location**: `kit/` directory.
-
-- Use the components from `kit/components/` (e.g. `ChalkText`, `RoughBox`, `RoughLine`, `MiniGraph`).
-- Use the theme and style tokens from `kit/lib/theme.ts` and `kit/lib/styleTokens.ts`.
-- Do not invent new colors or fonts. All visual elements must strictly adhere to the chalkboard aesthetic defined in the kit.
+Do not make Antigravity invent teaching logic that should have been defined in the plan.
 
 ---
 
-## FILE READING ORDER (for every task)
-1. `.agents/AGENTS.md` (this file)
-2. `.agents/skills/dsa-scriptwriting/SKILL.md` (BEFORE any script writing — tone, pacing, format)
-3. `.agents/skills/dsa-scene-planning/SKILL.md` (BEFORE any scene planning — pedagogical philosophy, center stage, optical centering, exact audio sync)
-4. `docs/remotionskills.md` (Parts 2 + 9 minimum)
-5. `kit/lib/theme.ts` (colour, type, layout tokens)
-6. `docs/dsa.md` (for the specific question's content)
-7. The question's `analysis.json` (approach type + scene count)
-8. The question's `script.json`
-9. The question's `sync/*.json` files
+## 6. Mandatory skill routing
+
+Use the relevant skill before producing each artifact:
+
+- overall stage control → `dsa-production`
+- existing-code inspection → `dsa-codebase-audit`
+- problem/approach/testcase analysis → `dsa-problem-analysis`
+- exact algorithm execution → `dsa-dry-run`
+- narration → `dsa-scriptwriting`
+- MP3/sync interpretation → `dsa-audio-sync`
+- timed visual choreography → `dsa-scene-planning`
+- motion choreography / semantic motion → `dsa-motion-design`
+- morph / identity transformation design → `dsa-morph-design`
+- SVG path animation / draw / erase / trace / arrowhead → `dsa-svg-animation`
+- implementation specification → `dsa-antigravity-handoff`
+- result review → `dsa-review-qa`
 
 ---
 
-## SCENE PLANNING & PEDAGOGICAL ANIMATION RULES (Step 4)
+## 7. Dry-run-first gate
 
-**MANDATORY**: Before writing ANY scene plan (`plans/*-plan.md`), read `.agents/skills/dsa-scene-planning/SKILL.md`.
+No algorithm narration may be written until:
 
-### Core Rule P1: NO SPOILERS / NO PRE-RENDERED PANELS
-- **Never reveal the punchline or winning state at Frame 0.**
-- In **Misconception scenes**: The viewer must be 100% focused on the **Wrong Model** on Center Stage first. The head-to-head split comparison appears ONLY when the speaker explicitly contrasts the two approaches at the act boundary.
-- In **Trace scenes**: Pointers and cards reveal state only as the teacher steps through the element in audio.
-- In **Why-Not scenes**: Complexity graph curve and operations counter animate only when the teacher states the Big-O and the operations count.
+```text
+algorithm
+→ complete dry run
+→ independent re-run
+→ exact match
+→ VERIFIED
+```
 
-### Core Rule P2: CENTER STAGE FIRST (Zero Dead Space)
-- When presenting a single concept, array, or problem state, it must occupy the **Center Stage** of the chalkboard (`x: center`, generous width `800px–1200px`).
-- **Never squeeze elements into the top third of the screen leaving a 600px void at the bottom.**
-- Transition from Center Stage to Split Screen or Multi-Column layout smoothly only at the exact act boundary where the narration transitions to comparison.
-
-### Core Rule P3: TRUE OPTICAL VERTICAL CENTERING (1080p Canvas)
-In Remotion compositions at `1920 × 1080`:
-- **Top Pill Badge**: `Y: 28px – 70px` (`top: 28px`, centered)
-- **Hero Title & Subtitle**: `Y: 95px – 210px` (`fontSize: 48px–54px` hand font)
-- **Main Hero Stage** (Arrays, Trees, Graphs, Tables): `Y: 300px – 600px` (Optical Center)
-  - 6-card array: Card dimensions `120px × 130px`, gap `24px` (total width `840px`), card font `52px–56px` mono bold.
-  - Side-by-side arrays: Card dimensions `88px–96px × 96px–104px`, gap `12px–14px`.
-- **Callout Banners & State Feedback**: `Y: 640px – 780px` (`padding: 16px 42px`, `fontSize: 32px–36px` hand font, glowing border).
-- **Bottom Captions Safe Zone**: `Y: 960px – 1040px` (`bottom: 30px–40px`).
-
-### Core Rule P4: EXACT AUDIO SYNCHRONIZATION
-- Derive EVERY start frame, transition frame, and duration from the word timestamps in `sync/<scene>.json`.
-- Visual events (pointer drops, arrows, highlights, question marks, stamps, strikes) MUST trigger on the exact syllable the teacher speaks.
-- Teacher's natural speech pauses (`...`) provide the visual hold time for students to digest the concept.
-
-### Core Rule P5: ONE IDEA PER FRAME
-- Never animate two unrelated state changes simultaneously.
-- State change first (e.g. card highlights, question mark appears), THEN pointer movement — never both in the same frames.
-- If an act feels visually cluttered, split it into sequential sub-beats.
+Every spoken algorithmic claim must be supported by the verified trace.
 
 ---
 
-## SCRIPT WRITING RULES
+## 8. Audio-first timing gate
 
-### Language & Voice
-- **Indian English** — natural, conversational, the way an Indian teacher speaks in class
-- NOT American/British formal English. NOT textbook English.
-- Use phrases Indian students actually say: "basically", "right?", "see", "na?", "let's say", "think about it"
-- Say "O of n squared" not "O(n²)"
-- Natural pauses marked as "..."
-- **Female voice** — warm, clear, like a senior explaining to juniors
-- Script should sound **human-written** — if it sounds like AI wrote it, rewrite it
-- No filler: "In this video we will learn about..." — BANNED
-- No textbook tone: "An anagram is defined as..." — BANNED
-- Every sentence teaches something. Zero fluff.
+The pipeline stays:
 
-### Script Tone Examples
+```text
+SCRIPT
+→ MP3
+→ EXACT WORD SYNC
+→ FRAME PLAN
+```
 
-**❌ AI-sounding (BANNED):**
-> "In this video, we will learn about the Valid Anagram problem. An anagram is a word formed by rearranging the letters of another word."
+No provisional or guessed word timing is accepted as the final scene plan.
 
-**✅ Human Indian English (CORRECT):**
-> "Your friend sends you a word... you jumble the letters and send it back. Same letters, different order. That's an anagram. Simple, right? But how do you CHECK if two words are anagrams... using code?"
-
-### Trace Scenes — FULL Walkthrough, NO Shortcuts
-- Walk through EVERY SINGLE OPERATION. Not 2-3 steps and "similarly for the rest."
-- If the array has 7 elements, trace all 7. If there are 15 comparisons, show all 15.
-- Students learn by watching the COMPLETE process — skipping steps creates gaps
-- The narration should call out each step: "a... is a in the set? No. Add a. ... n... is n in the set? No. Add n."
-- If the trace would be too long (20+ steps), pick a SMALLER test case — never skip steps on the chosen test case
-
-### Code Scenes — Python Only
-- All code is **Python**. No JavaScript, C++, or Java.
-- Write clean, readable Python — the kind you'd write in a real interview
-- Use Pythonic idioms: list comprehensions, `Counter`, `sorted()`, `enumerate()`
-- Explain each line as it appears — what it does and WHY
-- Highlight the "aha" moments: "See this line? This is where the magic happens."
-
-### Predict Scene — Question Format
-- Show the problem statement clearly
-- Show the test data with example input/output
-- Ask the viewer: "How would you solve this?" or "What approach would you use?"
-- **3-second silent countdown** — 3... 2... 1. SACRED. Never shorten.
-- Optionally, give a HINT: "Think about what data structure could help here..." (before countdown)
-- After countdown, transition to the first approach
-
-### Beat-Specific Rules
-- Beat structure adapts to video type (7 / 10 / 13 scenes — see SCENE STRUCTURES above)
-- TRACE scenes = visual walkthrough ONLY, no code shown
-- CODE scenes = write code line by line with explanation, no visual walkthrough
-- Hook = concrete failure case, no definitions, no "in this video"
-- Predict = question + optional hint + 3-second hold, NEVER shortened
-- Misconception = wrong model BEFORE correct model
-- WHY-NOT scenes = state complexity, draw curve, show concrete number, give verdict
+If only MP3 is available but exact word timestamps are not available, do not guess them.
 
 ---
 
-## QUESTION FOLDER STRUCTURE
+## 9. Frame-plan gate
 
-### Type A (7 scenes)
-```
-questions/<pattern>/<number>-<slug>/
-├── analysis.json          ← approach type + reasoning
-├── script.json            ← 7-scene script
-├── audio/
-│   ├── 01-hook.mp3
-│   ├── 02-cold-open.mp3
-│   ├── 03-predict.mp3
-│   ├── 04-trace.mp3
-│   ├── 05-code.mp3
-│   ├── 06-misconception.mp3
-│   └── 07-complexity.mp3
-├── sync/                  ← one JSON per audio file
-├── plans/                 ← one plan per scene
-├── src/                   ← Remotion components per scene
-└── output/                ← rendered frames + final video
+A final scene plan must be implementation-ready.
+
+It must define:
+- exact total frames
+- exact frame ranges
+- spoken phrase/word anchor
+- trace step IDs
+- visible state before action
+- cause/decision
+- motion
+- state after action
+- persistence/cleanup
+- transition
+- REUSE / EXTEND / CREATE
+
+“Animate this nicely” is invalid.
+
+---
+
+## 10. Remotion determinism
+
+Production animations must be frame-derived and deterministic.
+
+Do not introduce:
+- `Math.random()` for render state
+- `Date.now()` for render state
+- CSS `transition`
+- CSS `animation`
+- CSS `@keyframes`
+- timing based on wall-clock state
+
+Reuse existing deterministic project helpers first.
+
+---
+
+## 11. Design consistency rule
+
+Different data structures may have different visual behavior.
+
+They must not have different course identities.
+
+The following remain globally consistent unless the Design Bible explicitly changes them:
+- board identity
+- typography
+- semantic colors
+- caption treatment
+- spacing hierarchy
+- line/stroke character
+- transition personality
+- code presentation
+- title system
+
+---
+
+## 12. Motion meaning rule
+
+Motion must do at least one of these:
+1. teach algorithm state
+2. show cause → effect
+3. direct attention
+4. preserve semantic continuity during transition
+
+If motion does none of these, remove it.
+
+---
+
+## 13. Reuse rule
+
+Before requesting a new shared component, inspect the codebase.
+
+Every implementation handoff must classify required pieces as:
+
+```text
+REUSE
+EXTEND
+CREATE
+DO NOT TOUCH
 ```
 
-### Type B (10 scenes)
-```
-questions/<pattern>/<number>-<slug>/
-├── analysis.json
-├── script.json            ← 10-scene script
-├── audio/
-│   ├── 01-hook.mp3
-│   ├── 02-cold-open.mp3
-│   ├── 03-predict.mp3
-│   ├── 04-trace-brute.mp3
-│   ├── 05-code-brute.mp3
-│   ├── 06-why-not-brute.mp3
-│   ├── 07-trace-optimal.mp3
-│   ├── 08-code-optimal.mp3
-│   ├── 09-misconception.mp3
-│   └── 10-complexity.mp3
-├── sync/
-├── plans/
-├── src/
-└── output/
-```
+Never invent existing filenames.
 
-### Type C (13 scenes)
+---
+
+## 14. Completion rule
+
+A scene is not complete because it compiles.
+
+Approval requires:
+- algorithm state matches verified trace
+- exact audio timing is respected
+- critical frames reviewed
+- design consistency passes
+- motion causality passes
+- transitions pass
+- no new unsupported visual language
+- build/typecheck/required validators pass
+
+---
+
+## 15. Current course roadmap
+
+The uploaded 227-problem roadmap is authoritative for question order.
+
+Current state:
+- #010 Longest Consecutive Sequence — complete/regression reference
+- #011 Sort Colors (LC 75) — complete
+- #012 Next Permutation (LC 31) — complete (all 10 scenes & master video assembled)
+- #013 Set Matrix Zeroes (LC 73) — implementation complete (all 13 scenes coded in Remotion; master video render pending)
+- #014 Rotate Image (LC 48) — complete (all 13 scenes coded & master 2K video rendered)
+- #015 Spiral Matrix (LC 54) — next production problem
+
+Do not infer a different next problem.
+
+---
+
+## 16. Center-stage spatial composition & zero-collision invariants
+
+Every scene must obey the course visual layout laws:
+
+### Vertical canvas distribution
+- Never cram all visual elements into the top 30-40% of the 1080p canvas while leaving a massive empty green void below.
+- The visual hierarchy must be harmoniously distributed across the center vertical zone (Y: 130 to Y: 750), with balanced breathing room above and 250-320px of breathing room above bottom captions (Y: 980).
+
+### Zero-collision law
+- **Array Track Top Clearance**: Track title headers placed above `ArrayTrackV2` must have `marginBottom >= 44px` whenever top partition brackets are present (which sit at `top: -34px`).
+- **Array Track Bottom Clearance**: Any card container or callout box placed below `ArrayTrackV2` must start with at least `50px to 60px` vertical clearance below the bottom-most element of the track (indices or pointer labels). A card border must NEVER cut through slot index labels (`idx [0] .. idx [9]`) or pointer arrows.
+- **Bounding Box Alignment**: Card widths must harmonize with the array track width (e.g. 1244px bounding box for a 10-slot array).
+
+### Mandatory framewise anchor plan schema
+Every scene plan must document every single anchor using the 9 mandatory sections:
+```text
+ANCHOR:
+WHAT APPEARS NOW:
+CENTER-STAGE HERO:
+CAUSE:
+EFFECT / MOTION:
+WHAT MUST NOT APPEAR YET:
+COMPREHENSION HOLD:
+CLEANUP / EXIT:
+PERSISTENT STATE:
 ```
-questions/<pattern>/<number>-<slug>/
-├── analysis.json
-├── script.json            ← 13-scene script
-├── audio/
-│   ├── 01-hook.mp3
-│   ├── 02-cold-open.mp3
-│   ├── 03-predict.mp3
-│   ├── 04-trace-brute.mp3
-│   ├── 05-code-brute.mp3
-│   ├── 06-why-not-brute.mp3
-│   ├── 07-trace-better.mp3
-│   ├── 08-code-better.mp3
-│   ├── 09-why-not-better.mp3
-│   ├── 10-trace-optimal.mp3
-│   ├── 11-code-optimal.mp3
-│   ├── 12-misconception.mp3
-│   └── 13-complexity.mp3
-├── sync/
-├── plans/
-├── src/
-└── output/
+No anchor or frame range may be skipped or guessed.
+
+---
+
+## 17. Production video rendering rules (2K & 4K scaling)
+
+All course visual scenes are authored in a **1920 × 1080** pixel coordinate space.
+
+### The Zero-Void Scaling Law
+- **NEVER** use `--width` or `--height` CLI flags to upscale renders (e.g. `--width=2560 --height=1440` is strictly FORBIDDEN). Doing so expands the browser viewport without scaling the React layout, boxing the 1080p UI into the top-left and leaving a massive 640px empty right void and 360px bottom void.
+- **ALWAYS** use the `--scale` CLI flag for high-resolution video exports:
+  - **2K (2560 × 1440 / 1440p QHD)**: `--scale=1.3333333333333333`
+  - **4K (3840 × 2160 / 2160p UHD)**: `--scale=2`
+  - **1080p (1920 × 1080 / Full HD)**: default (omit or `--scale=1`)
+
+### Standard Production Render Command
+```bash
+# 1. Ensure build is fresh
+npm run build
+
+# 2. Render master video at 2K with 12 concurrency
+npx remotion render build <CompId> <out.mp4> --scale=1.3333333333333333 --concurrency=12 --gl=angle --overwrite
 ```
+- Always pass `--gl=angle` for Chromium GPU hardware acceleration on Windows.
+- Always use `--concurrency=12` for parallel worker throughput.
+
+

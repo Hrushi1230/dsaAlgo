@@ -24,6 +24,8 @@ export const RoughBox: React.FC<{
   fill?: string;
   seed?: number;
   strokeWidth?: number;
+  /** Roughness factor (default: 1.6) */
+  roughness?: number;
 }> = ({
   width,
   height,

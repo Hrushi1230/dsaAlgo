@@ -1,13 +1,11 @@
 /**
  * SceneTitleCard.tsx — Architectural Precision Blackboard Transition Bumper
  *
- * State-of-the-art transition card with:
- *   - Precision laser-chalk framing and crosshairs (+)
- *   - 100% handcrafted vector SVG chalk icons (no emojis)
- *   - Blueprint drafting grid background watermark
- *   - Intelligent scene keyword mapping & color taxonomy
- *   - High-contrast technical metadata bar in monospace
- *   - Pure Remotion spring physics & clamped animations
+ * STATUS (Foundation V2): MAJOR TRANSITION ONLY.
+ * Reserved for major milestone breaks: entering a major new approach, entering
+ * code after long reasoning, final recap, or major pattern chapter breaks.
+ * NOT for every 20-40s scene. For lightweight beat labeling without a full-screen
+ * bumper, use SceneLabelStrip or SceneEdgeTitle to preserve visual continuity.
  */
 import React from "react";
 import {

@@ -82,7 +82,7 @@ export const Captions: React.FC<{
       <span
         key={i}
         style={{
-          color: active ? theme.pivot : "#FFFFFF",
+          color: active ? theme.pivot : theme.chalkText,
           opacity: active ? 1 : 0.82,
           textShadow: active
             ? `0 0 14px rgba(255, 209, 102, 0.7), 0 2px 6px rgba(0,0,0,0.9)`

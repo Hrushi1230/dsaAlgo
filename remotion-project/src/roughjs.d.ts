@@ -21,6 +21,7 @@ declare module "roughjs" {
 
   interface RoughGenerator {
     rectangle(x: number, y: number, w: number, h: number, options?: Options): Drawable;
+    circle(cx: number, cy: number, diameter: number, options?: Options): Drawable;
     line(x1: number, y1: number, x2: number, y2: number, options?: Options): Drawable;
     ellipse(cx: number, cy: number, w: number, h: number, options?: Options): Drawable;
     curve(points: [number, number][], options?: Options): Drawable;

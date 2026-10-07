@@ -1,13 +1,11 @@
 /**
  * QuestionCard.tsx — Architectural Precision Chalkboard Problem Opener
  *
- * Balanced, high-density problem card with ZERO dead space:
- *   - Optically centered compact frame (1520px x 680px)
- *   - Unified top toolbar with Pattern, LeetCode #, Difficulty, and Python Signature
- *   - High-contrast problem statement quote box
- *   - Side-by-side well-fitted example cards with glowing array chips and explanations
- *   - Tight bottom footer with constraints & goal badge
- *   - 100% dynamic for Arrays, Strings, Trees, and generic inputs.
+ * STATUS (Foundation V2): LEGACY / FALLBACK ONLY.
+ * Retained for backwards compatibility with legacy question scenes (001–004).
+ * For new DSA questions (Phase 2+), use ProblemOpenerShell with data-structure
+ * specific openers (e.g., ArrayProblemOpener) where the data structure itself
+ * is the hero rather than a generic problem dashboard.
  */
 import React from "react";
 import { AbsoluteFill, useCurrentFrame, interpolate, spring } from "remotion";
@@ -89,7 +87,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
   });
 
   // Difficulty semantic color
-  let diffColor = theme.good;
+  let diffColor: string = theme.good;
   if (difficulty === "MEDIUM") diffColor = theme.pivot;
   if (difficulty === "HARD") diffColor = theme.warn;
 
@@ -539,3 +537,5 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
     </AbsoluteFill>
   );
 };
+
+export const LegacyQuestionCard = QuestionCard;

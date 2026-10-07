@@ -3,18 +3,27 @@ import { useCurrentFrame, interpolate } from "remotion";
 import { interpolatePath } from "@remotion/paths";
 import { CHALK_FILTER_STRONG_ID } from "../lib/chalk";
 import { EASE } from "../lib/anim";
+import { theme } from "../lib/theme";
 
 /**
- * SvgMorph — Smooth SVG path morphing component for @dsa/kit.
+ * SvgMorph — Low-level SVG path geometry primitive for @dsa/kit.
  *
- * Uses @remotion/paths `interpolatePath()` to smoothly transition
- * between two SVG path shapes. All motion is a pure function of
- * useCurrentFrame() — no CSS animations, no state.
+ * Uses @remotion/paths `interpolatePath()` to smoothly interpolate
+ * between two SVG path "d" strings. All motion is a pure function of
+ * useCurrentFrame() — deterministic, seek-safe, no CSS transitions.
  *
- * Usage examples:
- * - Scene 02: Frequency bars morph into HashMap key-value rows
- * - Scene 09: Sorted array cards morph back to unsorted positions
- * - Scene 06/10: Complexity curve shape transitions
+ * CANONICAL SEMANTIC RULE (docs/MORPHING_BIBLE_V2.md):
+ * SvgMorph is a GEOMETRY primitive, NOT an identity resolver.
+ * Use ONLY for Transition Class T3 (TRUE_PATH_MORPH) where:
+ *   - Identity relation is SAME (same continuous entity / relation)
+ *   - Cardinality is strictly 1→1
+ *   - Endpoints remain semantically aligned throughout the morph
+ *
+ * DO NOT USE FOR:
+ *   - Array elements reordering (Use T1 MOVE / Relayout)
+ *   - Cloning or projecting into sets (Use T5 CLONE / PROJECT)
+ *   - Representation handoffs like trace-to-code (Use T8 HANDOFF)
+ *   - Unrelated visual state replacements (Use T9 REPLACE)
  */
 export const SvgMorph: React.FC<{
   /** SVG path "d" string for the source shape */
@@ -42,7 +51,7 @@ export const SvgMorph: React.FC<{
   toPath,
   startFrame = 0,
   durationInFrames = 30,
-  stroke = "#F8F6F0",
+  stroke = theme.chalkText,
   strokeWidth = 3,
   fill = "none",
   width,

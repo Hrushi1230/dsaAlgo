@@ -1,157 +1,404 @@
 ---
 name: dsa-scene-planning
-description: Comprehensive scene planning and animation choreography guide for Code With Animation DSA videos. MUST be read before creating ANY scene plan (*-plan.md). Covers pedagogical philosophy, center-stage rules, optical vertical centering on 1080p, exact audio synchronization, beat choreography, and plan template.
+description: Creates exact audio-synchronized frame-wise scene choreography for long-form Code With Animation DSA videos. Must be read before every final *-plan.md.
 ---
 
-# DSA Scene Planning & Animation Choreography Skill — Code With Animation
+# DSA Scene Planning V2
 
-> **WHEN TO USE:** Read this skill BEFORE creating ANY scene plan (`plans/*-plan.md`) in Step 4 of the roadmap. Every time. No exceptions.
+## Input gate
 
----
+Do not create the final timed plan without:
 
-## Part 1 — Pedagogical Philosophy & Core Principles
+- verified trace
+- verified script
+- final MP3
+- validated exact word-sync JSON
+- relevant codebase audit
+- current shared visual system
+- relevant motion/data-structure rules
 
-### 1.1 No Premature Spoilers / No Pre-Rendered Panels
-- **Never reveal the punchline or winning state at Frame 0.**
-- In **Misconception scenes**: The viewer must be 100% focused on the **Wrong Model** on Center Stage first. The head-to-head split comparison appears ONLY when the speaker explicitly contrasts the two approaches.
-- In **Trace scenes**: Pointers and cards reveal state only as the teacher steps through the element in audio.
-- In **Why-Not scenes**: Complexity graph curve and operations counter animate only when the teacher states the Big-O and the operations count.
+## Planning truth
 
-### 1.2 Center Stage First (Zero Dead Space)
-- When presenting a single concept, array, or problem state, it must occupy the **Center Stage** of the chalkboard (`x: center`, generous width `800px–1200px`).
-- **Never squeeze elements into the top third of the screen leaving a 600px void at the bottom.**
-- Transition from Center Stage to Split Screen or Multi-Column layout smoothly only at the exact act boundary where the narration transitions to comparison.
+Every scene duration and audio anchor comes from exact sync data.
 
-### 1.3 True Optical Vertical Centering (1080p Canvas)
-In Remotion compositions at `1920 × 1080`:
-- **Top Pill Badge**: `Y: 28px – 70px` (`top: 28px`, centered)
-- **Hero Title & Subtitle**: `Y: 95px – 210px` (`fontSize: 48px–54px` hand font)
-- **Main Hero Stage** (Arrays, Trees, Graphs, Tables): `Y: 300px – 600px` (Optical Center)
-  - 6-card array: Card dimensions `120px × 130px`, gap `24px` (total width `840px`), card font `52px–56px` mono bold.
-  - Side-by-side arrays: Card dimensions `88px–96px × 96px–104px`, gap `12px–14px`.
-- **Callout Banners & State Feedback**: `Y: 640px – 780px` (`padding: 16px 42px`, `fontSize: 32px–36px` hand font, glowing border).
-- **Bottom Captions Safe Zone**: `Y: 960px – 1040px` (`bottom: 30px–40px`).
-
-### 1.4 Exact Audio Synchronization
-- Derive EVERY start frame, transition frame, and duration from the word timestamps in `sync/<scene>.json`.
-- Visual events (pointer drops, arrows, highlights, question marks, stamps, strikes) MUST trigger on the exact syllable the teacher speaks.
-- Teacher's natural speech pauses (`...`) provide the visual hold time for students to digest the concept.
-
-### 1.5 One Idea Per Frame
-- Never animate two unrelated state changes simultaneously.
-- State change first (e.g. card highlights, question mark appears), THEN pointer movement — never both in the same frames.
-- If an act feels visually cluttered, split it into sequential sub-beats.
-
-### 1.6 The 8 Hard-Learned Anti-Patterns & Prevention Rules
-1. **Pre-rendered Slide Syndrome (Static Presenter)**: NEVER show full structures at frame 0. Faint empty shells first, populate strictly on the exact spoken syllable.
-2. **Premature Answer Spoilers**: NEVER highlight the answer/winning element in gold/yellow during Hook or early beats.
-3. **Layout Jitter & Horizontal Shifting**: NEVER use auto-flex insertion. ALWAYS use **Fixed-Width Slot Containers** with predefined absolute slot coordinates so cards never jump horizontally when adjacent cards appear.
-4. **1080p Canvas Top Squish**: NEVER squeeze elements in top 350px. Main hero stage must occupy Optical Center (`y: 360..540`).
-5. **Ignored Audio Pauses**: NEVER waste audio pauses > 300ms. Choreograph them for line completion, shell preparation, or concept absorption.
-6. **Instant 0-Frame Cuts on Strikes**: Chalk strikes MUST use `RoughLine` with `writeProgress()` across 15–25 frames with micro chalk dust.
-7. **Simultaneous Motion Clutter**: Separate state change from movement. Never animate pointer, counter, color, and text in the same frames.
-8. **Ad-hoc Hardcoded Colors**: Strict adherence to chalkboard kit tokens (`theme.boardBg`, `theme.chalkText`, `theme.pivot`, `theme.good`, `theme.warn`, `theme.cyan`, `theme.purple`).
+Never estimate the final scene length.
 
 ---
 
-## Part 2 — Standard Scene Plan Template
+# Part 1 — Pedagogical rules
 
-Every scene plan under `questions/<pattern>/<slug>/plans/<scene>-plan.md` MUST follow this exact structure:
+## No premature spoilers
 
-```markdown
-# Scene <Number> · <BEAT_TYPE> — Animation Plan
+Do not show:
+- final winner
+- final answer
+- optimal invariant
+- winning complexity
 
-**<Question Name> · LC #<Number> · Type <A/B/C>**  
-**Audio**: `<scene>.mp3` — <Duration> s — **<Total Frames> frames** @ 30 fps  
-**Goal**: <Clear 1-2 sentence pedagogical goal describing what this scene teaches>
+before narration creates it.
+
+## Center-stage first
+
+One concept should own the center stage.
+
+Do not create dashboard-like multi-card layouts merely to fill space.
+
+## One primary idea per beat
+
+Default:
+
+```text
+cause / observation
+→ state reaction
+→ short hold
+→ movement/mutation
+→ settle
+```
+
+Do not animate pointer, counter, text, color and camera simultaneously unless they are one inseparable semantic event.
+
+## Trace scenes
+
+- zero code
+- complete visual execution
+- no skipped algorithm operations
+- state follows verified trace exactly
+
+## Code scenes
+
+- implementation explanation
+- active line character by character typewritten
+- visual explanation supports the code line
+- do not re-run the complete trace
+
+## Why-not / derivation scenes
+
+- limitation must be concrete
+- complexity must be derived
+- next idea must come from the limitation
+
+## Complexity scenes
+
+- explain total work
+- compare meaningful approaches only
+- do not infer complexity from nested-loop appearance alone
 
 ---
 
-## 🎯 Pedagogical Philosophy & Core Rules
+# Part 2 — Current optical layout contract
 
-1. **NO SPOILERS / NO PRE-RENDERED PANELS**:
-   - <Specific rule about what remains hidden and when it reveals>
+Until the canonical Design Bible replaces these values, preserve the current accepted 1920×1080 optical zones from the existing planning skill:
 
-2. **CENTER STAGE FIRST**:
-   - <Specific layout and centering approach for this beat>
+```text
+Top badge:       Y 28–70
+Hero title:      Y 95–210
+Main hero stage: Y 300–600
+Callout/state:   Y 640–780
+Captions:        Y 960–1040
+```
 
-3. **EXACT AUDIO SYNC**:
-   - <Derivation from sync JSON>
+These are current layout constraints, not permission to invent new palette values.
+
+For a standard 6-card center array, the existing skill uses approximately:
+
+```text
+card: 120×130
+gap: 24
+```
+
+Only reuse this where it fits the actual structure. Do not force all arrays into the same card size.
+
+## Palette
+
+Do not copy the old raw colors from the previous `SKILL.md`.
+
+Use the actual current shared project theme / `@dsa/kit` tokens.
+
+No raw new brand color is introduced in the scene plan.
 
 ---
 
-## ⏱ Audio Breakdown & Act-by-Act Flow
+# Part 3 — Mandatory Scene Contract
 
-| Act | Frame Range | Spoken Text & Beat | Visual Choreography (Center Stage & Exact Timings) |
-|:---|:---|:---|:---|
-| **Act 1** | **F0–F...** | *"<Narration text>"* | **<Visual action 1>**: Detailed step-by-step breakdown with exact frame checkpoints.<br>• F...: Element 1 appears...<br>• F...: State change... |
-| **Act 2** | **F...–F...** | *"<Narration text>"* | **<Visual action 2>**: ... |
+Every final scene plan begins with:
+
+```text
+SCENE:
+QUESTION:
+BEAT TYPE:
+AUDIO FILE:
+SYNC FILE:
+FPS:
+TOTAL FRAMES:
+PEDAGOGICAL GOAL:
+TRACE STEP IDS:
+DATA STRUCTURE:
+
+REUSE:
+EXTEND:
+CREATE:
+DO NOT TOUCH:
+
+MOTION SEMANTICS:
+MORPH SEMANTICS:
+SVG SEMANTICS:
+
+TRANSITION IN:
+TRANSITION OUT:
+FORBIDDEN:
+```
+
+If a field does not apply, explicitly write `N/A`.
 
 ---
 
-## 📐 Layout Specifications (1080p Canvas)
+# Part 4 — Exact audio breakdown
 
-- **Top Badge**: `y: 28..70`, Center aligned
-- **Hero Title**: `y: 95..180`, Font size 50 hand font
-- **Main Hero Visual Container**: `y: 300..600`, Center aligned (`x: center`, card dimensions, gap, fonts)
-- **Callout / Feedback Banner**: `y: 640..780`, Center aligned
-- **Captions Safe Zone**: `y: 960..1040`
+Create an audio-anchor table before choreography based on the validated exact sync data and semantic anchor manifest:
+
+| Anchor ID | Word Index / ID | Frame Range | Spoken text | Trace IDs | Teaching purpose |
+|---|---|---|---|---|---|
+
+Include meaningful pauses (categorized as micro/natural/teaching/major per V2 Audio Sync Bible).
 
 ---
 
-## 🎨 Color Palette & Theme Tokens
+# Part 5 — Frame-wise choreography
 
-- Background: `theme.boardBg` (`#1A1726`)
-- Chalk Text: `theme.chalkText` (`#F8F6F0`)
-- Accent / Good: `theme.good` (`#3CE5A7`)
-- Warning / Flaw: `theme.warn` (`#FF7675`)
-- Pivot / Highlight: `theme.pivot` (`#FFD166`)
-- Secondary: `theme.cyan` (`#55E6D0`) / `theme.purple` (`#D8B4E2`)
+A final plan must be detailed enough that implementation does not invent timing.
+
+Bad:
+
+```text
+F300–F420 — swap values and move pointer.
+```
+
+Good:
+
+```text
+F300–F309 — nums[mid] receives compare focus.
+F310–F320 — spoken decision resolves; target partition reacts.
+F321–F332 — comprehension hold; no pointer movement.
+F333–F344 — both values lift from their fixed slots.
+F345–F368 — values travel on separate crossing arcs.
+F369–F380 — values land in target slots.
+F381–F392 — slot/partition semantic state settles.
+F393–F405 — only now does the pointer move, because the swap is complete.
+```
+
+Exact windows must be derived from the scene audio anchors and available pauses.
+
+### Motion Contract requirements per primary beat
+
+Per Foundation V2 Motion Bible, each primary motion beat must explicitly document:
+
+```text
+SEMANTIC ACTION:
+CAUSE:
+STATE REACTION:
+HOLD:
+MOVE / MUTATION:
+SETTLE:
+MECHANIC:
 ```
 
 ---
 
-## Part 3 — Beat-Specific Planning Checklist
+# Part 6 — Fixed-slot rule
 
-### 1. HOOK Scene Plan
-- [ ] Starts with concrete failure / shock moment (e.g. FAANG whiteboard setup, TLE on massive testcase).
-- [ ] No definitions, no "In this video".
-- [ ] Shows the dilemma in the first 3 seconds.
+Do not use auto-flex insertion for algorithm structures whose identity must remain stable.
 
-### 2. COLD OPEN Scene Plan
-- [ ] Spaced Repetition System (SRS) recall from previous pattern/question.
-- [ ] Quick flash comparison card.
+Arrays, pointer lanes, table rows and comparable repeated structures should have deterministic positions.
 
-### 3. PREDICT Scene Plan
-- [ ] Problem statement clearly visible.
-- [ ] Test array with input/output displayed prominently.
-- [ ] **3-second silent countdown (3... 2... 1...) strictly preserved**.
+This prevents:
+- horizontal jitter
+- pointer misalignment
+- accidental state teleportation
 
-### 4. TRACE Scene Plan
-- [ ] Visual walkthrough ONLY. Zero code shown.
-- [ ] Complete step-by-step trace of every single operation on chosen testcase (no skipped steps).
-- [ ] Pointers, visited markers, and accumulators update in exact sync with voice.
+---
 
-### 5. CODE Scene Plan
-- [ ] Implementation explanation ONLY. Zero visual walkthrough.
-- [ ] Line-by-line typewriter code reveal with blinking cursor.
-- [ ] Active explanation card below code dynamically explains what the active line does and why.
-- [ ] Python only.
+# Part 7 — Pause use
 
-### 6. WHY-NOT Scene Plan
-- [ ] Stated Big-O complexity badge.
-- [ ] Animated complexity curve graph drawing left-to-right.
-- [ ] Animated operations counter rolling up to real numbers (e.g. $n=10,000 \to 100,000,000$).
-- [ ] Decisive verdict in coral/gold ("Too slow. Can we do better?").
+Audio pauses >300ms are valuable.
 
-### 7. MISCONCEPTION Scene Plan
-- [ ] Wrong model debunked on Center Stage first (No spoilers of optimal solution).
-- [ ] Concrete visual proof of why wrong model fails (e.g. index destruction, ordering violation).
-- [ ] Clumsy workaround shown with its penalties.
-- [ ] Head-to-head split comparison only reveals at act boundary.
-- [ ] 3 Pillars of Victory + Grand Verdict Stamp.
+Use them intentionally for:
+- comprehension
+- completed stroke
+- state settle
+- transitioning focus
+- preparing an empty shell
 
-### 8. COMPLEXITY Scene Plan
-- [ ] Derivation breakdown (Time & Space).
-- [ ] Multi-curve overlay graph with past approaches dimmed and optimal glowing in mint.
-- [ ] Side-by-side summary cards + practice problem chips.
+Do not automatically animate during every pause.
+
+A still hold can be the correct teaching choice.
+
+---
+
+# Part 8 — Chalk / stroke behavior
+
+Existing accepted rule:
+- chalk strikes should draw over time, not appear instantly
+- use current shared rough/chalk primitives where available
+- the old skill suggested ~15–25 frames for strikes; exact duration must still fit audio
+
+Do not recreate rough/chalk effects locally when shared components exist.
+
+---
+
+# Part 9 — Transition continuity
+
+Prefer semantic continuity.
+
+If an object remains conceptually the same across scenes/acts:
+- preserve position/identity when useful
+- morph or move it rather than destroy/recreate
+
+Do not morph unrelated concepts only for spectacle.
+
+## Morph / transformation contract
+
+For non-trivial transformations, the plan must define:
+
+```text
+MORPH ID
+SOURCE
+TARGET
+SOURCE SEMANTIC ID
+TARGET SEMANTIC ID
+IDENTITY RELATION
+CARDINALITY
+SOURCE PERSISTS
+TRANSITION CLASS
+AUDIO ANCHOR
+TRACE STEP
+MECHANIC
+```
+
+Route semantic decisions through `dsa-morph-design` and `docs/MORPHING_BIBLE_V2.md`.
+
+## SVG Action Contract
+
+For non-trivial SVG action, the plan must define:
+
+```text
+SVG ACTION ID:
+SEMANTIC ROLE:
+SVG CLASS:
+PATH ID:
+SOURCE:
+TARGET:
+AUTHORED DIRECTION:
+VISIBLE DIRECTION:
+AUDIO ANCHOR:
+TRACE STEP:
+START FRAME:
+END FRAME:
+DIRECTION:
+PATH LENGTH SOURCE:
+ARROW TYPE:
+LAYER:
+MECHANIC:
+REUSE / EXTEND / CREATE:
+```
+
+Route semantic decisions through `dsa-svg-animation` and `docs/SVG_ANIMATION_BIBLE_V2.md`.
+
+---
+
+# Part 10 — REUSE / EXTEND / CREATE
+
+Every plan names verified implementation building blocks.
+
+### REUSE
+Use unchanged.
+
+### EXTEND
+Explain exactly which missing capability is needed.
+
+### CREATE
+Only when repository audit proved the semantic primitive does not exist.
+
+### DO NOT TOUCH
+Shared files that should remain stable in this implementation.
+
+---
+
+# Part 11 — Critical-frame checklist
+
+Every scene plan declares frames for review:
+
+```text
+ENTRY
+FIRST IMPORTANT STATE
+FIRST DECISION
+FIRST MUTATION
+MOST COMPLEX MID-SCENE STATE
+FINAL ALGORITHM STATE
+TRANSITION OUT
+```
+
+For code scenes also include:
+```text
+FIRST CODE LINE
+KEY LINE
+FINAL CODE STATE
+```
+
+---
+
+# Part 12 — Scene-type checklist
+
+## HOOK / INTRO
+- question/dilemma quickly
+- no answer spoiler
+
+## UNDERSTAND
+- exact problem semantics
+- input/output
+- no algorithm spoiler unless script explicitly starts it
+
+## TRACE
+- visual only
+- all operations
+- trace-accurate
+
+## CODE
+- code only as primary teaching object
+- line-by-line causality
+
+## WHY-NOT
+- concrete failure
+- derived cost
+- natural next question
+
+## OPTIMAL IDEA
+- derive invariant/rule
+- prove rule visually before large trace
+
+## COMPLEXITY
+- derive rather than announce
+- compare past methods accurately
+
+## RECAP / ROADMAP
+- summarize learned transformation
+- update exact roadmap state
+- no guessed next question
+
+---
+
+# Part 13 — Final plan QA
+
+Before handoff:
+
+- [ ] total frames equal sync duration frames
+- [ ] all anchor frames come from sync
+- [ ] algorithm mutations cite trace IDs
+- [ ] no hidden skipped operation in complete trace
+- [ ] cause occurs before movement
+- [ ] no premature answer
+- [ ] positions are deterministic
+- [ ] shared components were audited
+- [ ] no new raw palette invented
+- [ ] important pauses are intentional
+- [ ] critical review frames are listed
+- [ ] transition out is explicit

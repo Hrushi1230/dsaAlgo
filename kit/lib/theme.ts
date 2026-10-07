@@ -1,4 +1,4 @@
-import { HAND_FONT } from "./fonts";
+import { HAND_FONT, DISPLAY_FONT } from "./fonts";
 
 /**
  * Visual theme for Code With Animation DSA Explainer Videos.
@@ -31,11 +31,16 @@ export const theme = {
   cyan: "#5CE1E6", // Ice Cyan (11.1:1 AAA) — secondary pointers (j, right, aux)
   purple: "#D8B4E2", // Powdery Lilac (8.9:1 AAA) — HashSets, HashMaps, memory
   better: "#FFA94D", // Amber Sunset (9.5:1 AAA) — better approach curve
+  bad: "#EB5757",    // Error Red (7.3:1 AAA) — rejected, incorrect, failure
+  accent: "#FFD166", // Accent Gold (alias of pivot for SVG/proof highlights)
 
   // Legacy semantic aliases (for backwards compatibility across kit)
   smaller: "#3CE5A7",
   bigger: "#FF7675",
   lockedDim: 0.4,
+  emerald: "#3CE5A7",
+  gold: "#FFD166",
+  chalkboard: "#19523C",
 
   // Markers
   pointer: "#FFD166",
@@ -46,7 +51,9 @@ export const theme = {
 } as const;
 
 export const fonts = {
-  /** Chalk/handwriting font for board titles + narration text (Patrick Hand via google-fonts). */
+  /** Display / brush font for problem titles + major milestone headings (Caveat Bold). */
+  display: DISPLAY_FONT,
+  /** Chalk/handwriting font for board titles + narration text (Patrick Hand). */
   hand: HAND_FONT,
   /** Clean monospace for code + numbers (legibility). */
   mono: '"SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace',

@@ -10,4 +10,4 @@ import { Config } from "@remotion/cli/config";
 Config.setRspack(true);
 Config.setVideoImageFormat("jpeg");
 Config.setOverwriteOutput(true);
-Config.setScale(4 / 3);
+Config.setScale(1);

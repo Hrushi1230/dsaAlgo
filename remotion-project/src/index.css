@@ -6,6 +6,14 @@
   font-display: block;
 }
 
+@font-face {
+  font-family: 'Caveat';
+  src: url('../public/fonts/Caveat-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: block;
+}
+
 body {
   margin: 0;
   padding: 0;

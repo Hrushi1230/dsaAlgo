@@ -1,6 +1,14 @@
+/**
+ * @dsa/kit - Legacy Audio Sync Helpers
+ *
+ * Preserved for backward compatibility with existing scenes.
+ * For new Foundation V2 scenes, use `@dsa/kit/lib/audioSyncV2` which implements
+ * the exact sync architecture with stable word IDs and semantic anchor manifests.
+ */
+
 const FPS_VAL = 30;
 
-type WordSync = {
+export type WordSync = {
   word: string;
   start: number;
   end: number;
@@ -9,18 +17,18 @@ type WordSync = {
 export type SyncData = Record<string, WordSync[]>;
 
 /**
- * Build the word→frame helpers for one video, bound to that video's sync data.
- * Each video wires its own `syncData.json` in a thin local `lib/audioSync.ts`:
+ * Legacy word→frame helper factory bound to segment-based sync dictionary.
  *
- *   import { createWordFrameHelpers } from "@dsa/kit/lib/audioSync";
- *   const syncData = require("./syncData.json");
- *   export const { getWordFrame, getWordEndFrame } = createWordFrameHelpers(syncData);
+ * @deprecated For new Foundation V2 scenes, use `createSyncHelpersV2` from
+ * `@dsa/kit/lib/audioSyncV2`, which uses stable word indices and semantic anchor
+ * manifests rather than ambiguous text-prefix search.
  */
 export function createWordFrameHelpers(syncDataRaw: SyncData) {
   /**
    * Returns the exact frame number for the START of a specific word in the
-   * narration audio. Two-pass search: exact prefix match first (so "Gone"
-   * never matches a search for "One"), then substring fallback.
+   * narration audio. Two-pass search: exact prefix match first, then substring fallback.
+   *
+   * @deprecated Use `wordStartFrame` or `anchorFrame` from V2 sync helpers.
    */
   function getWordFrame(
     segment: string,
@@ -55,7 +63,11 @@ export function createWordFrameHelpers(syncDataRaw: SyncData) {
     return 0;
   }
 
-  /** Returns the END frame of a specific word (useful for hold calculations). */
+  /**
+   * Returns the END frame of a specific word (useful for hold calculations).
+   *
+   * @deprecated Use `wordEndFrame` or `anchorFrame` with edge: 'end' from V2 sync helpers.
+   */
   function getWordEndFrame(
     segment: string,
     wordPrefix: string,

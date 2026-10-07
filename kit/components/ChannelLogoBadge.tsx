@@ -8,7 +8,7 @@
  */
 import React from "react";
 import { useCurrentFrame } from "remotion";
-import { fonts } from "../lib/theme";
+import { theme, fonts } from "../lib/theme";
 
 export interface ChannelLogoBadgeProps {
   size?: number;
@@ -71,7 +71,7 @@ export const ChannelLogoBadge: React.FC<ChannelLogoBadgeProps> = ({
           cy={radius}
           r={radius - 4}
           fill="none"
-          stroke="rgba(244, 241, 232, 0.4)"
+          stroke={theme.chalkDim}
           strokeWidth="1.5"
         />
 
@@ -81,12 +81,12 @@ export const ChannelLogoBadge: React.FC<ChannelLogoBadgeProps> = ({
           cy={radius}
           r={radius - 22}
           fill="none"
-          stroke="rgba(244, 241, 232, 0.3)"
+          stroke={theme.chalkDim}
           strokeWidth="1.2"
           strokeDasharray="4,4"
         />
 
-        {/* ROTATING CIRCULAR TEXT LAYER — PURE WHITE */}
+        {/* ROTATING CIRCULAR TEXT LAYER — THEME CHALK TEXT */}
         <g
           style={{
             transformOrigin: `${radius}px ${radius}px`,
@@ -94,7 +94,7 @@ export const ChannelLogoBadge: React.FC<ChannelLogoBadgeProps> = ({
           }}
         >
           <text
-            fill="#FFFFFF"
+            fill={theme.chalkText}
             fontSize="10"
             fontFamily={fonts.mono}
             fontWeight="bold"
@@ -107,13 +107,13 @@ export const ChannelLogoBadge: React.FC<ChannelLogoBadgeProps> = ({
           </text>
         </g>
 
-        {/* CENTER MONOGRAM EMBLEM — PURE WHITE & GOLD ACCENT */}
+        {/* CENTER MONOGRAM EMBLEM — THEME CHALK TEXT */}
         <g>
           <text
             x={radius}
             y={radius + 6}
             textAnchor="middle"
-            fill="#FFFFFF"
+            fill={theme.chalkText}
             fontFamily={fonts.hand}
             fontSize="22"
             fontWeight="bold"

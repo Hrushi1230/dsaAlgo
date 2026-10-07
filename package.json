@@ -7,7 +7,9 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate:v2": "node tools/validate-v2.mjs",
+    "validate:v2:full": "node tools/validate-v2.mjs --full"
   },
   "keywords": [],
   "author": "",

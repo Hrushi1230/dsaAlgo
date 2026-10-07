@@ -98,8 +98,8 @@ export const HashSetTable: React.FC<HashSetTableProps> = ({
             queryState === "found"
               ? theme.good
               : queryState === "scanning"
-              ? "#00D4FF"
-              : "rgba(244, 241, 232, 0.3)"
+              ? theme.cyan
+              : "rgba(248, 246, 240, 0.3)"
           }`,
           boxShadow: "0 10px 30px rgba(0, 0, 0, 0.4)",
         }}
@@ -114,7 +114,7 @@ export const HashSetTable: React.FC<HashSetTableProps> = ({
             fontFamily: fonts.mono,
             fontSize: 22,
             fontWeight: "bold",
-            color: "#00D4FF",
+            color: theme.cyan,
             textAlign: "center",
           }}
         >
@@ -148,18 +148,18 @@ export const HashSetTable: React.FC<HashSetTableProps> = ({
                 backgroundColor: isMatchedSlot
                   ? "rgba(92, 224, 134, 0.28)"
                   : isScanning
-                  ? "rgba(0, 212, 255, 0.22)"
+                  ? "rgba(92, 225, 230, 0.22)"
                   : hasValue
-                  ? "rgba(244, 241, 232, 0.1)"
+                  ? "rgba(248, 246, 240, 0.08)"
                   : "rgba(0, 0, 0, 0.15)",
                 border: `2px ${hasValue ? "solid" : "dashed"} ${
                   isMatchedSlot
                     ? theme.good
                     : isScanning
-                    ? "#00D4FF"
+                    ? theme.cyan
                     : hasValue
                     ? theme.chalkText
-                    : "rgba(244, 241, 232, 0.2)"
+                    : "rgba(248, 246, 240, 0.2)"
                 }`,
                 fontFamily: fonts.mono,
                 fontSize: 34,

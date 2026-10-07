@@ -1,27 +1,23 @@
-const { execSync } = require('child_process');
-const path = require('path');
-const fs = require('fs');
+import { execSync } from "child_process";
+import fs from "fs";
+import path from "path";
 
-const outDir = path.join(__dirname, '../questions/01-arrays-hashing/008-product-of-array-except-self/output');
+const frames = [180, 290, 600, 780, 980, 1300, 1620, 1890, 2200, 2500, 2680, 2950, 3200];
+const outDir = path.resolve("remotion-project/out");
+
 if (!fs.existsSync(outDir)) {
   fs.mkdirSync(outDir, { recursive: true });
 }
 
-const frames = [700, 800, 920, 940, 1520, 1640, 1660];
-const comp = '008-Scene06-DiscoveryPrefixSuffix';
-const remotionDir = path.join(__dirname, '../remotion-project');
+console.log(`Rendering ${frames.length} review stills for 012-Scene06-OptimalIdea...`);
 
-console.log(`Re-rendering ${frames.length} stills for ${comp}...`);
 for (const f of frames) {
-  const outFile = path.join(outDir, `still-008-s06-f${f}.png`);
-  console.log(`Rendering frame ${f}...`);
-  try {
-    execSync(`npx remotion still ${comp} "${outFile}" --frame=${f} --log=warn`, {
-      cwd: remotionDir,
-      stdio: 'inherit',
-    });
-  } catch (err) {
-    console.error(`Failed at frame ${f}:`, err.message);
-  }
+  const outFile = path.join(outDir, `s06_f${f}.png`);
+  console.log(`Rendering frame ${f} -> ${outFile}`);
+  execSync(
+    `npx remotion still 012-Scene06-OptimalIdea "${outFile}" --frame=${f}`,
+    { cwd: "remotion-project", stdio: "inherit" }
+  );
 }
-console.log('Done re-rendering arithmetic stills!');
+
+console.log("All Scene 06 stills rendered successfully!");

@@ -7,8 +7,8 @@ import { EASE } from "../lib/anim";
 
 export const RoughCurve: React.FC<{
   points: [number, number][];
-  width: number;
-  height: number;
+  width?: number;
+  height?: number;
   startFrame?: number;
   durationInFrames?: number;
   stroke?: string;
@@ -16,8 +16,8 @@ export const RoughCurve: React.FC<{
   seed?: number;
 }> = ({
   points,
-  width,
-  height,
+  width = 1920,
+  height = 1080,
   startFrame = 0,
   durationInFrames = 30,
   stroke = theme.good,

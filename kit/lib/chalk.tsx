@@ -66,7 +66,7 @@ export const ChalkFilters: React.FC = () => (
 export const ChalkboardBackground: React.FC = () => (
   <AbsoluteFill>
     {/* base green — uniform, no vignette so color weight is even everywhere */}
-    <AbsoluteFill style={{ backgroundColor: theme.boardBg }} />
+    <AbsoluteFill style={{ backgroundColor: theme.boardBg }} from={18} />
     {/* very faint, even chalk-dust grain (uniform across the whole board) */}
     <AbsoluteFill style={{ opacity: 0.04 }}>
       <svg width="100%" height="100%">

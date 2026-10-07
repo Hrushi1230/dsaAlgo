@@ -1,0 +1,174 @@
+import json
+
+anchors_data = {
+    "version": 2,
+    "scene": "06-method2-trace",
+    "audio_file": "06-method2-trace.mp3",
+    "duration_ms": 246200,
+    "duration_frames": 7386,
+    "fps": 30,
+    "anchor_count": 26,
+    "anchors": {
+        "S06_A01_IN_PLACE_INTRO": {
+            "start_frame": 0,
+            "end_frame": 210,
+            "phrase": "Now, we use only the original matrix. Think of the matrix as layers.",
+            "note": "5x5 Matrix enters center stage. Single buffer constraint established."
+        },
+        "S06_A02_LAYER_BREAKDOWN": {
+            "start_frame": 211,
+            "end_frame": 603,
+            "phrase": "For our 5 by 5 matrix, the outside border is the first layer. Inside that, the 3 by 3 border is the second layer, and the center is left alone.",
+            "note": "Concentric rings highlighted: Outer 5x5 (16 cells), Inner 3x3 (8 cells), Center (1 cell)."
+        },
+        "S06_A03_OUTER_CYCLE1_FOCUS": {
+            "start_frame": 604,
+            "end_frame": 1005,
+            "phrase": "Let's begin. With the outer layer, the first four connected positions contain top, 1, right, 5, bottom, 25, left, 21.",
+            "note": "Outer Layer Cycle 1 corners: 1, 5, 25, 21 light up."
+        },
+        "S06_A04_ROTATION_DIRECTION": {
+            "start_frame": 1006,
+            "end_frame": 1258,
+            "phrase": "For clockwise rotation, top must go to right, right must go to bottom, bottom must go to left, and left must go to top.",
+            "note": "Clockwise directional flow arrows connecting corners."
+        },
+        "S06_A05_OVERWRITE_HAZARD": {
+            "start_frame": 1259,
+            "end_frame": 1480,
+            "phrase": "But we cannot write top into right first, because we would destroy the old right value.",
+            "note": "Hazard warning: Writing 1 directly into (0,4) destroys 5."
+        },
+        "S06_A06_SAVE_TOP": {
+            "start_frame": 1481,
+            "end_frame": 1611,
+            "phrase": "So save the top value. Save 1.",
+            "note": "top_val = matrix[0][0] = 1 saved into memory variable."
+        },
+        "S06_A07_MOVE_LEFT_TO_TOP": {
+            "start_frame": 1612,
+            "end_frame": 1749,
+            "phrase": "Now move 21 from left into top,",
+            "note": "21 glides from (4,0) into (0,0)."
+        },
+        "S06_A08_MOVE_BOTTOM_TO_LEFT": {
+            "start_frame": 1750,
+            "end_frame": 1885,
+            "phrase": "then move 25 from bottom into left,",
+            "note": "25 glides from (4,4) into (4,0)."
+        },
+        "S06_A09_MOVE_RIGHT_TO_BOTTOM": {
+            "start_frame": 1886,
+            "end_frame": 2023,
+            "phrase": "then move 5 from right into bottom.",
+            "note": "5 glides from (0,4) into (4,4)."
+        },
+        "S06_A10_MOVE_TEMP_TO_RIGHT": {
+            "start_frame": 2024,
+            "end_frame": 2185,
+            "phrase": "And finally, move the save value, 1, into right.",
+            "note": "Saved top_val 1 glides into (0,4)."
+        },
+        "S06_A11_OUTER_CYCLE1_COMPLETE": {
+            "start_frame": 2186,
+            "end_frame": 2396,
+            "phrase": "The first four -position cycle is complete. The four corners are now in their final rotated positions.",
+            "note": "Cycle 1 complete: corners verified (21, 1, 5, 25)."
+        },
+        "S06_A12_OUTER_CYCLE2_STEP": {
+            "start_frame": 2397,
+            "end_frame": 2712,
+            "phrase": "Move one position to the right along the top edge. The next connected values are 2, 10, 24, 16.",
+            "note": "Offset i=1: connected positions (0,1)=2, (1,4)=10, (4,3)=24, (3,0)=16 highlighted."
+        },
+        "S06_A13_OUTER_CYCLE2_EXECUTE": {
+            "start_frame": 2713,
+            "end_frame": 3250,
+            "phrase": "Save 2, 16 moves from left into top. 24 moves from bottom into left. 10 moves from right into bottom. And save 2 moves into right. Second cycle complete.",
+            "note": "Cycle 2 executed: top_val=2, 16->(0,1), 24->(3,0), 10->(4,3), saved 2->(1,4)."
+        },
+        "S06_A14_OUTER_CYCLE3_STEP": {
+            "start_frame": 3251,
+            "end_frame": 3484,
+            "phrase": "Move one more position. Now the connected values are 3, 15, 23, 11.",
+            "note": "Offset i=2: connected positions (0,2)=3, (2,4)=15, (4,2)=23, (2,0)=11 highlighted."
+        },
+        "S06_A15_OUTER_CYCLE3_EXECUTE": {
+            "start_frame": 3485,
+            "end_frame": 3907,
+            "phrase": "Save 3, 11 moves into top. 23 moves into left. 15 moves into bottom. And save 3 moves into right. Third cycle complete.",
+            "note": "Cycle 3 executed: top_val=3, 11->(0,2), 23->(2,0), 15->(4,2), saved 3->(2,4)."
+        },
+        "S06_A16_OUTER_CYCLE4_STEP": {
+            "start_frame": 3908,
+            "end_frame": 4166,
+            "phrase": "One final cycle for the outer layer. The connected values are 4, 20, 22, 6.",
+            "note": "Offset i=3: connected positions (0,3)=4, (3,4)=20, (4,1)=22, (1,0)=6 highlighted."
+        },
+        "S06_A17_OUTER_CYCLE4_EXECUTE": {
+            "start_frame": 4167,
+            "end_frame": 4498,
+            "phrase": "Save 4, 6 moves into top. 22 moves into left. 20 moves into bottom. And save 4 moves into right.",
+            "note": "Cycle 4 executed: top_val=4, 6->(0,3), 22->(1,0), 20->(4,1), saved 4->(3,4)."
+        },
+        "S06_A18_OUTER_LAYER_COMPLETE": {
+            "start_frame": 4499,
+            "end_frame": 4901,
+            "phrase": "Now the entire outer layer is complete. Every value on this border is already in its final rotated position. So we do not touch this layer again.",
+            "note": "All 16 outer border cells glow Green and lock."
+        },
+        "S06_A19_INNER_LAYER_INTRO": {
+            "start_frame": 4902,
+            "end_frame": 5251,
+            "phrase": "Now move one layer inward. The inner layer is a 3 by 3 border. Its first connected values are 7, 9, 19, 17.",
+            "note": "Inward transition: layer=1 (bounds top=1, bottom=3, left=1, right=3). Corners: 7, 9, 19, 17 highlighted."
+        },
+        "S06_A20_INNER_CYCLE1_EXECUTE": {
+            "start_frame": 5252,
+            "end_frame": 5671,
+            "phrase": "Save 7, 17 moves into top. 19 moves into left. 9 moves into bottom. And save 7 moves into right. First inner cycle complete.",
+            "note": "Inner Cycle 1 executed: top_val=7, 17->(1,1), 19->(3,1), 9->(3,3), saved 7->(1,3)."
+        },
+        "S06_A21_INNER_CYCLE2_STEP": {
+            "start_frame": 5672,
+            "end_frame": 5926,
+            "phrase": "Now the final four position cycle. The values are 8, 14, 18, 12.",
+            "note": "Inner Cycle 2 offset i=1: positions (1,2)=8, (2,3)=14, (3,2)=18, (2,1)=12 highlighted."
+        },
+        "S06_A22_INNER_CYCLE2_EXECUTE": {
+            "start_frame": 5927,
+            "end_frame": 6358,
+            "phrase": "Save 8, 12 moves into top. 18 moves into left. 14 moves into bottom. And save 8 moves into right. The inner layer is now complete.",
+            "note": "Inner Cycle 2 executed: top_val=8, 12->(1,2), 18->(2,1), 14->(3,2), saved 8->(2,3). Inner ring complete!"
+        },
+        "S06_A23_CENTER_ELEMENT": {
+            "start_frame": 6359,
+            "end_frame": 6668,
+            "phrase": "And 13. The center value was never part of any four position cycle. So it remained exactly where it started.",
+            "note": "Center element (2,2)=13 highlighted. 1x1 core has no cycles, stays unchanged."
+        },
+        "S06_A24_FULL_ROTATION_VERIFICATION": {
+            "start_frame": 6669,
+            "end_frame": 6943,
+            "phrase": "The entire matrix has now been rotated 90 degrees clockwise without creating another matrix.",
+            "note": "Full matrix verified: all 25 values match rotated result in-place."
+        },
+        "S06_A25_ALGORITHM_SUMMARY": {
+            "start_frame": 6944,
+            "end_frame": 7258,
+            "phrase": "The pattern is finish one four position cycle safely, continue across the layer, finish the complete layer, then move inward.",
+            "note": "Summary of Concentric Rings algorithm & loop structure."
+        },
+        "S06_A26_CODE_HANDOFF": {
+            "start_frame": 7259,
+            "end_frame": 7386,
+            "phrase": "Now let's translate that exact movement into code.",
+            "note": "Handoff to Scene 07 (Method 2 Code)."
+        }
+    }
+}
+
+with open('questions/01-arrays-hashing/014-rotate-image/sync/06-method2-trace.anchors.json', 'w', encoding='utf-8') as f:
+    json.dump(anchors_data, f, indent=2)
+
+print("Generated sync/06-method2-trace.anchors.json with 26 anchors!")
