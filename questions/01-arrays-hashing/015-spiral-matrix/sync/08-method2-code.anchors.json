@@ -1,0 +1,227 @@
+{
+  "scene": "S08",
+  "duration_frames": 3655,
+  "duration_ms": 121820,
+  "anchors": [
+    {
+      "id": "S08_BOUND_START",
+      "phrase": "The code starts with... the four boundaries.",
+      "start_word": "The",
+      "start_ms": 0,
+      "start_frame": 0,
+      "end_word": "boundaries.",
+      "end_ms": 2620,
+      "end_frame": 79
+    },
+    {
+      "id": "S08_BOUND_VALUES",
+      "phrase": "`top` and `left` begin at zero. `bottom` is `m - 1`. And `right` is `n - 1`.",
+      "start_word": "Top",
+      "start_ms": 3040,
+      "start_frame": 91,
+      "end_word": "1.",
+      "end_ms": 9400,
+      "end_frame": 282
+    },
+    {
+      "id": "S08_VALID_LOOP",
+      "phrase": "The main loop continues only while... the active rectangle is valid.",
+      "start_word": "The",
+      "start_ms": 9840,
+      "start_frame": 295,
+      "end_word": "valid.",
+      "end_ms": 14160,
+      "end_frame": 425
+    },
+    {
+      "id": "S08_CONDITION",
+      "phrase": "`top <= bottom`... and... `left <= right`.",
+      "start_word": "top",
+      "start_ms": 15900,
+      "start_frame": 477,
+      "end_word": "right.",
+      "end_ms": 22160,
+      "end_frame": 665
+    },
+    {
+      "id": "S08_ORDER",
+      "phrase": "Inside the loop... we follow the same order as our trace.",
+      "start_word": "Inside",
+      "start_ms": 22940,
+      "start_frame": 688,
+      "end_word": "trace.",
+      "end_ms": 26480,
+      "end_frame": 794
+    },
+    {
+      "id": "S08_PATTERN",
+      "phrase": "Consume an edge... shrink that boundary... validate... and continue.",
+      "start_word": "Consume",
+      "start_ms": 27180,
+      "start_frame": 815,
+      "end_word": "continue.",
+      "end_ms": 31960,
+      "end_frame": 959
+    },
+    {
+      "id": "S08_TOP_CHECK",
+      "phrase": "After the top edge... we check whether any rows remain.",
+      "start_word": "After",
+      "start_ms": 32760,
+      "start_frame": 983,
+      "end_word": "remain.",
+      "end_ms": 36180,
+      "end_frame": 1085
+    },
+    {
+      "id": "S08_RIGHT_CHECK",
+      "phrase": "After the right edge... we check whether any columns remain.",
+      "start_word": "After",
+      "start_ms": 37200,
+      "start_frame": 1116,
+      "end_word": "remain.",
+      "end_ms": 40980,
+      "end_frame": 1229
+    },
+    {
+      "id": "S08_BOTTOM_CHECK",
+      "phrase": "After the bottom edge... we check the rows again.",
+      "start_word": "After",
+      "start_ms": 41700,
+      "start_frame": 1251,
+      "end_word": "again.",
+      "end_ms": 44900,
+      "end_frame": 1347
+    },
+    {
+      "id": "S08_LEFT_NO_CHECK",
+      "phrase": "After the left edge... we do not need another separate check.",
+      "start_word": "After",
+      "start_ms": 45500,
+      "start_frame": 1365,
+      "end_word": "check.",
+      "end_ms": 49220,
+      "end_frame": 1477
+    },
+    {
+      "id": "S08_WHY",
+      "phrase": "Why?",
+      "start_word": "Why?",
+      "start_ms": 49840,
+      "start_frame": 1495,
+      "end_word": "Why?",
+      "end_ms": 50380,
+      "end_frame": 1511
+    },
+    {
+      "id": "S08_WHILE_RETURN",
+      "phrase": "Because execution returns to the main `while` condition",
+      "start_word": "Because",
+      "start_ms": 50800,
+      "start_frame": 1524,
+      "end_word": "condition.",
+      "end_ms": 54100,
+      "end_frame": 1623
+    },
+    {
+      "id": "S08_BOTH",
+      "phrase": "that condition validates both row... and column boundaries... before the next round begins.",
+      "start_word": "that",
+      "start_ms": 55340,
+      "start_frame": 1660,
+      "end_word": "begins.",
+      "end_ms": 61500,
+      "end_frame": 1845
+    },
+    {
+      "id": "S08_PY_DETAIL",
+      "phrase": "There is one more Python detail... that is easy to get wrong.",
+      "start_word": "There",
+      "start_ms": 62420,
+      "start_frame": 1873,
+      "end_word": "wrong.",
+      "end_ms": 66280,
+      "end_frame": 1988
+    },
+    {
+      "id": "S08_BOTTOM_RANGE",
+      "phrase": "`range(right, left - 1, -1)`.",
+      "start_word": "range",
+      "start_ms": 70480,
+      "start_frame": 2114,
+      "end_word": "1.",
+      "end_ms": 74900,
+      "end_frame": 2247
+    },
+    {
+      "id": "S08_LEFT_RANGE",
+      "phrase": "`range(bottom, top - 1, -1)`.",
+      "start_word": "range",
+      "start_ms": 78300,
+      "start_frame": 2349,
+      "end_word": "1.",
+      "end_ms": 82560,
+      "end_frame": 2477
+    },
+    {
+      "id": "S08_EXCLUSIVE",
+      "phrase": "Python does not include the stop value in `range`.",
+      "start_word": "Python",
+      "start_ms": 83060,
+      "start_frame": 2492,
+      "end_word": "range.",
+      "end_ms": 85400,
+      "end_frame": 2562
+    },
+    {
+      "id": "S08_LEFT_MINUS",
+      "phrase": "`left - 1`... lets us include the `left` boundary.",
+      "start_word": "left",
+      "start_ms": 86280,
+      "start_frame": 2588,
+      "end_word": "boundary.",
+      "end_ms": 89620,
+      "end_frame": 2689
+    },
+    {
+      "id": "S08_TOP_MINUS",
+      "phrase": "`top - 1`... lets us include the `top` boundary.",
+      "start_word": "top",
+      "start_ms": 91280,
+      "start_frame": 2738,
+      "end_word": "boundary.",
+      "end_ms": 94960,
+      "end_frame": 2849
+    },
+    {
+      "id": "S08_PROTECT",
+      "phrase": "These checks and reverse ranges... are what protect us from... off-by-one errors... and duplicate values.",
+      "start_word": "the",
+      "start_ms": 94080,
+      "start_frame": 2822,
+      "end_word": "duplicate",
+      "end_ms": 101800,
+      "end_frame": 3054
+    },
+    {
+      "id": "S08_TIME",
+      "phrase": "Every matrix cell is appended once. So the time complexity is... `O(m \u00d7 n)`.",
+      "start_word": "Every",
+      "start_ms": 103080,
+      "start_frame": 3092,
+      "end_word": "N.",
+      "end_ms": 111920,
+      "end_frame": 3358
+    },
+    {
+      "id": "S08_SPACE",
+      "phrase": "apart from the output list... we keep only a constant number of variables. So the auxiliary space is... `O(1)`.",
+      "start_word": "apart",
+      "start_ms": 113120,
+      "start_frame": 3394,
+      "end_word": "1.",
+      "end_ms": 121820,
+      "end_frame": 3655
+    }
+  ]
+}

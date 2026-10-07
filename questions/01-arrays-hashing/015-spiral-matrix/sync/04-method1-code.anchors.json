@@ -1,0 +1,239 @@
+{
+  "scene": "04-method1-code",
+  "total_frames": 3094,
+  "duration_ms": 103120,
+  "fps": 30,
+  "anchor_count": 23,
+  "anchors": [
+    {
+      "id": "S04_INTRO",
+      "phrase": "First,",
+      "start_word_idx": 0,
+      "end_word_idx": 0,
+      "start_frame": 0,
+      "end_frame": 16,
+      "start_ms": 0,
+      "end_ms": 520
+    },
+    {
+      "id": "S04_DIMS",
+      "phrase": "we store the number of rows and columns.",
+      "start_word_idx": 1,
+      "end_word_idx": 8,
+      "start_frame": 29,
+      "end_frame": 90,
+      "start_ms": 980,
+      "end_ms": 3000
+    },
+    {
+      "id": "S04_DIRS",
+      "phrase": "Then we keep the four directions in clockwise order.",
+      "start_word_idx": 9,
+      "end_word_idx": 17,
+      "start_frame": 103,
+      "end_frame": 219,
+      "start_ms": 3440,
+      "end_ms": 7300
+    },
+    {
+      "id": "S04_DIR_WORDS",
+      "phrase": "Right, down, left, and up.",
+      "start_word_idx": 18,
+      "end_word_idx": 22,
+      "start_frame": 238,
+      "end_frame": 326,
+      "start_ms": 7920,
+      "end_ms": 10880
+    },
+    {
+      "id": "S04_VISITED",
+      "phrase": "We also create a visited matrix with the same dimensions as the input.",
+      "start_word_idx": 23,
+      "end_word_idx": 35,
+      "start_frame": 347,
+      "end_frame": 489,
+      "start_ms": 11560,
+      "end_ms": 16300
+    },
+    {
+      "id": "S04_START_STATE",
+      "phrase": "Our row and column start at zero. And direction zero means right.",
+      "start_word_idx": 36,
+      "end_word_idx": 47,
+      "start_frame": 507,
+      "end_frame": 656,
+      "start_ms": 16900,
+      "end_ms": 21880
+    },
+    {
+      "id": "S04_LOOP",
+      "phrase": "The loop allows exactly m times n visits, one for every matrix cell.",
+      "start_word_idx": 48,
+      "end_word_idx": 60,
+      "start_frame": 671,
+      "end_frame": 865,
+      "start_ms": 22360,
+      "end_ms": 28820
+    },
+    {
+      "id": "S04_PROCESS",
+      "phrase": "For the current cell, we add its value to the answer and mark it visited.",
+      "start_word_idx": 61,
+      "end_word_idx": 75,
+      "start_frame": 880,
+      "end_frame": 1027,
+      "start_ms": 29340,
+      "end_ms": 34220
+    },
+    {
+      "id": "S04_IMPORTANT_CHECK",
+      "phrase": "Then there is one small but important check.",
+      "start_word_idx": 76,
+      "end_word_idx": 83,
+      "start_frame": 1051,
+      "end_frame": 1120,
+      "start_ms": 35020,
+      "end_ms": 37340
+    },
+    {
+      "id": "S04_ALL_VALUES",
+      "phrase": "If the answer already contains all m times n values, we stop immediately.",
+      "start_word_idx": 84,
+      "end_word_idx": 96,
+      "start_frame": 1144,
+      "end_frame": 1334,
+      "start_ms": 38120,
+      "end_ms": 44460
+    },
+    {
+      "id": "S04_WHY",
+      "phrase": "Why?",
+      "start_word_idx": 97,
+      "end_word_idx": 97,
+      "start_frame": 1359,
+      "end_frame": 1375,
+      "start_ms": 45300,
+      "end_ms": 45840
+    },
+    {
+      "id": "S04_NO_NEXT",
+      "phrase": "Because after the final valid cell, there is no next unvisited cell to move to.",
+      "start_word_idx": 98,
+      "end_word_idx": 112,
+      "start_frame": 1378,
+      "end_frame": 1557,
+      "start_ms": 45920,
+      "end_ms": 51900
+    },
+    {
+      "id": "S04_WITHOUT",
+      "phrase": "Without this check, we would unnecessarily try to calculate another move.",
+      "start_word_idx": 113,
+      "end_word_idx": 123,
+      "start_frame": 1569,
+      "end_frame": 1703,
+      "start_ms": 52300,
+      "end_ms": 56760
+    },
+    {
+      "id": "S04_NEXTCALC",
+      "phrase": "Otherwise, we calculate the next row and column using the current direction.",
+      "start_word_idx": 124,
+      "end_word_idx": 135,
+      "start_frame": 1726,
+      "end_frame": 1895,
+      "start_ms": 57540,
+      "end_ms": 63160
+    },
+    {
+      "id": "S04_IFCOND",
+      "phrase": "If that next position is outside the matrix or already visited,",
+      "start_word_idx": 136,
+      "end_word_idx": 146,
+      "start_frame": 1920,
+      "end_frame": 2070,
+      "start_ms": 64000,
+      "end_ms": 69000
+    },
+    {
+      "id": "S04_ROTATE",
+      "phrase": "we rotate the direction once",
+      "start_word_idx": 147,
+      "end_word_idx": 151,
+      "start_frame": 2090,
+      "end_frame": 2141,
+      "start_ms": 69660,
+      "end_ms": 71360
+    },
+    {
+      "id": "S04_RECALC",
+      "phrase": "and calculate the next position again.",
+      "start_word_idx": 152,
+      "end_word_idx": 157,
+      "start_frame": 2153,
+      "end_frame": 2225,
+      "start_ms": 71780,
+      "end_ms": 74160
+    },
+    {
+      "id": "S04_MOVE",
+      "phrase": "Then we move there.",
+      "start_word_idx": 158,
+      "end_word_idx": 161,
+      "start_frame": 2235,
+      "end_frame": 2276,
+      "start_ms": 74500,
+      "end_ms": 75860
+    },
+    {
+      "id": "S04_MATCH",
+      "phrase": "That is exactly the rule. We just traced.",
+      "start_word_idx": 162,
+      "end_word_idx": 169,
+      "start_frame": 2290,
+      "end_frame": 2364,
+      "start_ms": 76320,
+      "end_ms": 78800
+    },
+    {
+      "id": "S04_TIME",
+      "phrase": "Every cell enters the answer once. So the time complexity is O m times n.",
+      "start_word_idx": 170,
+      "end_word_idx": 184,
+      "start_frame": 2375,
+      "end_frame": 2558,
+      "start_ms": 79160,
+      "end_ms": 85280
+    },
+    {
+      "id": "S04_SPACE",
+      "phrase": "But the visited matrix also stores m times n states. So the auxiliary space is O m times n.",
+      "start_word_idx": 185,
+      "end_word_idx": 203,
+      "start_frame": 2578,
+      "end_frame": 2814,
+      "start_ms": 85940,
+      "end_ms": 93800
+    },
+    {
+      "id": "S04_TIME_OPTIMAL",
+      "phrase": "The time is already optimal for reading every cell.",
+      "start_word_idx": 204,
+      "end_word_idx": 212,
+      "start_frame": 2832,
+      "end_frame": 2934,
+      "start_ms": 94400,
+      "end_ms": 97800
+    },
+    {
+      "id": "S04_QUESTION",
+      "phrase": "But now the question is, do we really need this visited matrix?",
+      "start_word_idx": 213,
+      "end_word_idx": 224,
+      "start_frame": 2953,
+      "end_frame": 3094,
+      "start_ms": 98420,
+      "end_ms": 103120
+    }
+  ]
+}

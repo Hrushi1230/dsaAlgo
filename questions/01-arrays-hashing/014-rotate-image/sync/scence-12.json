@@ -1,0 +1,770 @@
+{
+  "audio_file": "12-complexity.mp3",
+  "duration_ms": 40640,
+  "duration_frames": 1219,
+  "fps": 30,
+  "word_count": 75,
+  "words": [
+    {
+      "word": "Let's",
+      "start_ms": 0,
+      "end_ms": 340,
+      "start_frame": 0,
+      "end_frame": 10
+    },
+    {
+      "word": "compare.",
+      "start_ms": 340,
+      "end_ms": 780,
+      "start_frame": 10,
+      "end_frame": 23
+    },
+    {
+      "word": "The",
+      "start_ms": 1320,
+      "end_ms": 1320,
+      "start_frame": 40,
+      "end_frame": 40
+    },
+    {
+      "word": "three",
+      "start_ms": 1320,
+      "end_ms": 1580,
+      "start_frame": 40,
+      "end_frame": 47
+    },
+    {
+      "word": "methods,",
+      "start_ms": 1580,
+      "end_ms": 2060,
+      "start_frame": 47,
+      "end_frame": 62
+    },
+    {
+      "word": "one",
+      "start_ms": 2560,
+      "end_ms": 2760,
+      "start_frame": 77,
+      "end_frame": 83
+    },
+    {
+      "word": "final",
+      "start_ms": 2760,
+      "end_ms": 3160,
+      "start_frame": 83,
+      "end_frame": 95
+    },
+    {
+      "word": "time.",
+      "start_ms": 3160,
+      "end_ms": 3680,
+      "start_frame": 95,
+      "end_frame": 110
+    },
+    {
+      "word": "Method",
+      "start_ms": 4080,
+      "end_ms": 4180,
+      "start_frame": 122,
+      "end_frame": 125
+    },
+    {
+      "word": "one",
+      "start_ms": 4180,
+      "end_ms": 4700,
+      "start_frame": 125,
+      "end_frame": 141
+    },
+    {
+      "word": "uses",
+      "start_ms": 4700,
+      "end_ms": 5180,
+      "start_frame": 141,
+      "end_frame": 155
+    },
+    {
+      "word": "another",
+      "start_ms": 5180,
+      "end_ms": 5780,
+      "start_frame": 155,
+      "end_frame": 173
+    },
+    {
+      "word": "n",
+      "start_ms": 5780,
+      "end_ms": 6480,
+      "start_frame": 173,
+      "end_frame": 194
+    },
+    {
+      "word": "by",
+      "start_ms": 6480,
+      "end_ms": 6720,
+      "start_frame": 194,
+      "end_frame": 202
+    },
+    {
+      "word": "n",
+      "start_ms": 6720,
+      "end_ms": 6980,
+      "start_frame": 202,
+      "end_frame": 209
+    },
+    {
+      "word": "matrix",
+      "start_ms": 6980,
+      "end_ms": 7480,
+      "start_frame": 209,
+      "end_frame": 224
+    },
+    {
+      "word": "time.",
+      "start_ms": 7480,
+      "end_ms": 8240,
+      "start_frame": 224,
+      "end_frame": 247
+    },
+    {
+      "word": "O",
+      "start_ms": 8920,
+      "end_ms": 9060,
+      "start_frame": 268,
+      "end_frame": 272
+    },
+    {
+      "word": "of",
+      "start_ms": 9060,
+      "end_ms": 9180,
+      "start_frame": 272,
+      "end_frame": 275
+    },
+    {
+      "word": "n",
+      "start_ms": 9180,
+      "end_ms": 9380,
+      "start_frame": 275,
+      "end_frame": 281
+    },
+    {
+      "word": "squared,",
+      "start_ms": 9380,
+      "end_ms": 10040,
+      "start_frame": 281,
+      "end_frame": 301
+    },
+    {
+      "word": "extra",
+      "start_ms": 10580,
+      "end_ms": 10700,
+      "start_frame": 317,
+      "end_frame": 321
+    },
+    {
+      "word": "space,",
+      "start_ms": 10700,
+      "end_ms": 11220,
+      "start_frame": 321,
+      "end_frame": 337
+    },
+    {
+      "word": "O",
+      "start_ms": 11600,
+      "end_ms": 11820,
+      "start_frame": 348,
+      "end_frame": 355
+    },
+    {
+      "word": "of",
+      "start_ms": 11820,
+      "end_ms": 11940,
+      "start_frame": 355,
+      "end_frame": 358
+    },
+    {
+      "word": "n",
+      "start_ms": 11940,
+      "end_ms": 12160,
+      "start_frame": 358,
+      "end_frame": 365
+    },
+    {
+      "word": "squared.",
+      "start_ms": 12160,
+      "end_ms": 12720,
+      "start_frame": 365,
+      "end_frame": 382
+    },
+    {
+      "word": "Method",
+      "start_ms": 13080,
+      "end_ms": 13280,
+      "start_frame": 392,
+      "end_frame": 398
+    },
+    {
+      "word": "two",
+      "start_ms": 13280,
+      "end_ms": 13920,
+      "start_frame": 398,
+      "end_frame": 418
+    },
+    {
+      "word": "rotates",
+      "start_ms": 13920,
+      "end_ms": 14480,
+      "start_frame": 418,
+      "end_frame": 434
+    },
+    {
+      "word": "four",
+      "start_ms": 14480,
+      "end_ms": 14840,
+      "start_frame": 434,
+      "end_frame": 445
+    },
+    {
+      "word": "connected",
+      "start_ms": 14840,
+      "end_ms": 15220,
+      "start_frame": 445,
+      "end_frame": 457
+    },
+    {
+      "word": "values",
+      "start_ms": 15220,
+      "end_ms": 15860,
+      "start_frame": 457,
+      "end_frame": 476
+    },
+    {
+      "word": "directly",
+      "start_ms": 15860,
+      "end_ms": 16520,
+      "start_frame": 476,
+      "end_frame": 496
+    },
+    {
+      "word": "inside",
+      "start_ms": 16520,
+      "end_ms": 17020,
+      "start_frame": 496,
+      "end_frame": 511
+    },
+    {
+      "word": "the",
+      "start_ms": 17020,
+      "end_ms": 17540,
+      "start_frame": 511,
+      "end_frame": 526
+    },
+    {
+      "word": "matrix",
+      "start_ms": 17540,
+      "end_ms": 17940,
+      "start_frame": 526,
+      "end_frame": 538
+    },
+    {
+      "word": "time.",
+      "start_ms": 17940,
+      "end_ms": 18700,
+      "start_frame": 538,
+      "end_frame": 561
+    },
+    {
+      "word": "O",
+      "start_ms": 19380,
+      "end_ms": 19600,
+      "start_frame": 581,
+      "end_frame": 588
+    },
+    {
+      "word": "of",
+      "start_ms": 19600,
+      "end_ms": 19740,
+      "start_frame": 588,
+      "end_frame": 592
+    },
+    {
+      "word": "n",
+      "start_ms": 19740,
+      "end_ms": 19980,
+      "start_frame": 592,
+      "end_frame": 599
+    },
+    {
+      "word": "squared,",
+      "start_ms": 19980,
+      "end_ms": 20480,
+      "start_frame": 599,
+      "end_frame": 614
+    },
+    {
+      "word": "extra",
+      "start_ms": 21140,
+      "end_ms": 21320,
+      "start_frame": 634,
+      "end_frame": 640
+    },
+    {
+      "word": "space,",
+      "start_ms": 21320,
+      "end_ms": 21960,
+      "start_frame": 640,
+      "end_frame": 659
+    },
+    {
+      "word": "O",
+      "start_ms": 22680,
+      "end_ms": 22960,
+      "start_frame": 680,
+      "end_frame": 689
+    },
+    {
+      "word": "of",
+      "start_ms": 22960,
+      "end_ms": 23160,
+      "start_frame": 689,
+      "end_frame": 695
+    },
+    {
+      "word": "one.",
+      "start_ms": 23160,
+      "end_ms": 23620,
+      "start_frame": 695,
+      "end_frame": 709
+    },
+    {
+      "word": "Method",
+      "start_ms": 24160,
+      "end_ms": 24520,
+      "start_frame": 725,
+      "end_frame": 736
+    },
+    {
+      "word": "three",
+      "start_ms": 24520,
+      "end_ms": 25420,
+      "start_frame": 736,
+      "end_frame": 763
+    },
+    {
+      "word": "transposes,",
+      "start_ms": 25420,
+      "end_ms": 26780,
+      "start_frame": 763,
+      "end_frame": 803
+    },
+    {
+      "word": "then",
+      "start_ms": 27300,
+      "end_ms": 27480,
+      "start_frame": 819,
+      "end_frame": 824
+    },
+    {
+      "word": "reverses",
+      "start_ms": 27480,
+      "end_ms": 28120,
+      "start_frame": 824,
+      "end_frame": 844
+    },
+    {
+      "word": "every",
+      "start_ms": 28120,
+      "end_ms": 28440,
+      "start_frame": 844,
+      "end_frame": 853
+    },
+    {
+      "word": "row",
+      "start_ms": 28440,
+      "end_ms": 28780,
+      "start_frame": 853,
+      "end_frame": 863
+    },
+    {
+      "word": "time.",
+      "start_ms": 28780,
+      "end_ms": 29860,
+      "start_frame": 863,
+      "end_frame": 896
+    },
+    {
+      "word": "O",
+      "start_ms": 30630,
+      "end_ms": 31060,
+      "start_frame": 919,
+      "end_frame": 932
+    },
+    {
+      "word": "of",
+      "start_ms": 31060,
+      "end_ms": 31260,
+      "start_frame": 932,
+      "end_frame": 938
+    },
+    {
+      "word": "n",
+      "start_ms": 31260,
+      "end_ms": 31500,
+      "start_frame": 938,
+      "end_frame": 945
+    },
+    {
+      "word": "squared,",
+      "start_ms": 31500,
+      "end_ms": 32260,
+      "start_frame": 945,
+      "end_frame": 968
+    },
+    {
+      "word": "extra",
+      "start_ms": 32860,
+      "end_ms": 33060,
+      "start_frame": 986,
+      "end_frame": 992
+    },
+    {
+      "word": "space,",
+      "start_ms": 33060,
+      "end_ms": 33600,
+      "start_frame": 992,
+      "end_frame": 1008
+    },
+    {
+      "word": "O",
+      "start_ms": 34120,
+      "end_ms": 34360,
+      "start_frame": 1024,
+      "end_frame": 1031
+    },
+    {
+      "word": "of",
+      "start_ms": 34360,
+      "end_ms": 34580,
+      "start_frame": 1031,
+      "end_frame": 1037
+    },
+    {
+      "word": "one.",
+      "start_ms": 34580,
+      "end_ms": 34880,
+      "start_frame": 1037,
+      "end_frame": 1046
+    },
+    {
+      "word": "So",
+      "start_ms": 35500,
+      "end_ms": 35660,
+      "start_frame": 1065,
+      "end_frame": 1070
+    },
+    {
+      "word": "both",
+      "start_ms": 35660,
+      "end_ms": 36000,
+      "start_frame": 1070,
+      "end_frame": 1080
+    },
+    {
+      "word": "in",
+      "start_ms": 36000,
+      "end_ms": 36420,
+      "start_frame": 1080,
+      "end_frame": 1093
+    },
+    {
+      "word": "-place",
+      "start_ms": 36420,
+      "end_ms": 36640,
+      "start_frame": 1093,
+      "end_frame": 1099
+    },
+    {
+      "word": "methods",
+      "start_ms": 36640,
+      "end_ms": 37160,
+      "start_frame": 1099,
+      "end_frame": 1115
+    },
+    {
+      "word": "have",
+      "start_ms": 37160,
+      "end_ms": 37820,
+      "start_frame": 1115,
+      "end_frame": 1135
+    },
+    {
+      "word": "the",
+      "start_ms": 37820,
+      "end_ms": 38000,
+      "start_frame": 1135,
+      "end_frame": 1140
+    },
+    {
+      "word": "required",
+      "start_ms": 38000,
+      "end_ms": 38620,
+      "start_frame": 1140,
+      "end_frame": 1159
+    },
+    {
+      "word": "constant",
+      "start_ms": 38620,
+      "end_ms": 39540,
+      "start_frame": 1159,
+      "end_frame": 1186
+    },
+    {
+      "word": "extra",
+      "start_ms": 39540,
+      "end_ms": 40200,
+      "start_frame": 1186,
+      "end_frame": 1206
+    },
+    {
+      "word": "space.",
+      "start_ms": 40200,
+      "end_ms": 40640,
+      "start_frame": 1206,
+      "end_frame": 1219
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Let's compare.",
+      "start_ms": 0,
+      "end_ms": 780,
+      "start_frame": 0,
+      "end_frame": 23,
+      "word_count": 2
+    },
+    {
+      "text": "The three methods, one final time.",
+      "start_ms": 1320,
+      "end_ms": 3680,
+      "start_frame": 40,
+      "end_frame": 110,
+      "word_count": 6
+    },
+    {
+      "text": "Method one uses another n by n matrix time.",
+      "start_ms": 4080,
+      "end_ms": 8240,
+      "start_frame": 122,
+      "end_frame": 247,
+      "word_count": 9
+    },
+    {
+      "text": "O of n squared, extra space, O of n squared.",
+      "start_ms": 8920,
+      "end_ms": 12720,
+      "start_frame": 268,
+      "end_frame": 382,
+      "word_count": 10
+    },
+    {
+      "text": "Method two rotates four connected values directly inside the matrix time.",
+      "start_ms": 13080,
+      "end_ms": 18700,
+      "start_frame": 392,
+      "end_frame": 561,
+      "word_count": 11
+    },
+    {
+      "text": "O of n squared, extra space, O of one.",
+      "start_ms": 19380,
+      "end_ms": 23620,
+      "start_frame": 581,
+      "end_frame": 709,
+      "word_count": 9
+    },
+    {
+      "text": "Method three transposes, then reverses every row time.",
+      "start_ms": 24160,
+      "end_ms": 29860,
+      "start_frame": 725,
+      "end_frame": 896,
+      "word_count": 8
+    },
+    {
+      "text": "O of n squared, extra space, O of one.",
+      "start_ms": 30630,
+      "end_ms": 34880,
+      "start_frame": 919,
+      "end_frame": 1046,
+      "word_count": 9
+    },
+    {
+      "text": "So both in -place methods have the required constant extra space.",
+      "start_ms": 35500,
+      "end_ms": 40640,
+      "start_frame": 1065,
+      "end_frame": 1219,
+      "word_count": 11
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "compare.",
+      "before_word": "The",
+      "start_ms": 780,
+      "end_ms": 1320,
+      "duration_ms": 540,
+      "start_frame": 23,
+      "end_frame": 40,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "methods,",
+      "before_word": "one",
+      "start_ms": 2060,
+      "end_ms": 2560,
+      "duration_ms": 500,
+      "start_frame": 62,
+      "end_frame": 77,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "time.",
+      "before_word": "Method",
+      "start_ms": 3680,
+      "end_ms": 4080,
+      "duration_ms": 400,
+      "start_frame": 110,
+      "end_frame": 122,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "time.",
+      "before_word": "O",
+      "start_ms": 8240,
+      "end_ms": 8920,
+      "duration_ms": 680,
+      "start_frame": 247,
+      "end_frame": 268,
+      "duration_frames": 21
+    },
+    {
+      "after_word": "squared,",
+      "before_word": "extra",
+      "start_ms": 10040,
+      "end_ms": 10580,
+      "duration_ms": 540,
+      "start_frame": 301,
+      "end_frame": 317,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "space,",
+      "before_word": "O",
+      "start_ms": 11220,
+      "end_ms": 11600,
+      "duration_ms": 380,
+      "start_frame": 337,
+      "end_frame": 348,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "squared.",
+      "before_word": "Method",
+      "start_ms": 12720,
+      "end_ms": 13080,
+      "duration_ms": 360,
+      "start_frame": 382,
+      "end_frame": 392,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "time.",
+      "before_word": "O",
+      "start_ms": 18700,
+      "end_ms": 19380,
+      "duration_ms": 680,
+      "start_frame": 561,
+      "end_frame": 581,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "squared,",
+      "before_word": "extra",
+      "start_ms": 20480,
+      "end_ms": 21140,
+      "duration_ms": 660,
+      "start_frame": 614,
+      "end_frame": 634,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "space,",
+      "before_word": "O",
+      "start_ms": 21960,
+      "end_ms": 22680,
+      "duration_ms": 720,
+      "start_frame": 659,
+      "end_frame": 680,
+      "duration_frames": 21
+    },
+    {
+      "after_word": "one.",
+      "before_word": "Method",
+      "start_ms": 23620,
+      "end_ms": 24160,
+      "duration_ms": 540,
+      "start_frame": 709,
+      "end_frame": 725,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "transposes,",
+      "before_word": "then",
+      "start_ms": 26780,
+      "end_ms": 27300,
+      "duration_ms": 520,
+      "start_frame": 803,
+      "end_frame": 819,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "time.",
+      "before_word": "O",
+      "start_ms": 29860,
+      "end_ms": 30630,
+      "duration_ms": 770,
+      "start_frame": 896,
+      "end_frame": 919,
+      "duration_frames": 23
+    },
+    {
+      "after_word": "squared,",
+      "before_word": "extra",
+      "start_ms": 32260,
+      "end_ms": 32860,
+      "duration_ms": 600,
+      "start_frame": 968,
+      "end_frame": 986,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "space,",
+      "before_word": "O",
+      "start_ms": 33600,
+      "end_ms": 34120,
+      "duration_ms": 520,
+      "start_frame": 1008,
+      "end_frame": 1024,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "one.",
+      "before_word": "So",
+      "start_ms": 34880,
+      "end_ms": 35500,
+      "duration_ms": 620,
+      "start_frame": 1046,
+      "end_frame": 1065,
+      "duration_frames": 19
+    }
+  ]
+}

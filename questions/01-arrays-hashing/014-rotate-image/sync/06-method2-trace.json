@@ -1,0 +1,4654 @@
+{
+  "audio_file": "06-method2-trace.mp3",
+  "duration_ms": 246200,
+  "duration_frames": 7386,
+  "fps": 30,
+  "word_count": 451,
+  "words": [
+    {
+      "word": "Now,",
+      "start_ms": 0,
+      "end_ms": 540,
+      "start_frame": 0,
+      "end_frame": 16
+    },
+    {
+      "word": "we",
+      "start_ms": 940,
+      "end_ms": 1200,
+      "start_frame": 28,
+      "end_frame": 36
+    },
+    {
+      "word": "use",
+      "start_ms": 1200,
+      "end_ms": 1500,
+      "start_frame": 36,
+      "end_frame": 45
+    },
+    {
+      "word": "only",
+      "start_ms": 1500,
+      "end_ms": 2120,
+      "start_frame": 45,
+      "end_frame": 64
+    },
+    {
+      "word": "the",
+      "start_ms": 2120,
+      "end_ms": 2700,
+      "start_frame": 64,
+      "end_frame": 81
+    },
+    {
+      "word": "original",
+      "start_ms": 2700,
+      "end_ms": 3180,
+      "start_frame": 81,
+      "end_frame": 95
+    },
+    {
+      "word": "matrix.",
+      "start_ms": 3180,
+      "end_ms": 3760,
+      "start_frame": 95,
+      "end_frame": 113
+    },
+    {
+      "word": "Think",
+      "start_ms": 4040,
+      "end_ms": 4260,
+      "start_frame": 121,
+      "end_frame": 128
+    },
+    {
+      "word": "of",
+      "start_ms": 4260,
+      "end_ms": 4420,
+      "start_frame": 128,
+      "end_frame": 133
+    },
+    {
+      "word": "the",
+      "start_ms": 4420,
+      "end_ms": 4580,
+      "start_frame": 133,
+      "end_frame": 137
+    },
+    {
+      "word": "matrix",
+      "start_ms": 4580,
+      "end_ms": 5100,
+      "start_frame": 137,
+      "end_frame": 153
+    },
+    {
+      "word": "as",
+      "start_ms": 5100,
+      "end_ms": 5840,
+      "start_frame": 153,
+      "end_frame": 175
+    },
+    {
+      "word": "layers.",
+      "start_ms": 5840,
+      "end_ms": 6280,
+      "start_frame": 175,
+      "end_frame": 188
+    },
+    {
+      "word": "For",
+      "start_ms": 7020,
+      "end_ms": 7180,
+      "start_frame": 211,
+      "end_frame": 215
+    },
+    {
+      "word": "our",
+      "start_ms": 7180,
+      "end_ms": 7460,
+      "start_frame": 215,
+      "end_frame": 224
+    },
+    {
+      "word": "5",
+      "start_ms": 7460,
+      "end_ms": 7740,
+      "start_frame": 224,
+      "end_frame": 232
+    },
+    {
+      "word": "by",
+      "start_ms": 7740,
+      "end_ms": 7960,
+      "start_frame": 232,
+      "end_frame": 239
+    },
+    {
+      "word": "5",
+      "start_ms": 7960,
+      "end_ms": 8340,
+      "start_frame": 239,
+      "end_frame": 250
+    },
+    {
+      "word": "matrix,",
+      "start_ms": 8340,
+      "end_ms": 8920,
+      "start_frame": 250,
+      "end_frame": 268
+    },
+    {
+      "word": "the",
+      "start_ms": 9340,
+      "end_ms": 9500,
+      "start_frame": 280,
+      "end_frame": 285
+    },
+    {
+      "word": "outside",
+      "start_ms": 9500,
+      "end_ms": 9960,
+      "start_frame": 285,
+      "end_frame": 299
+    },
+    {
+      "word": "border",
+      "start_ms": 9960,
+      "end_ms": 10440,
+      "start_frame": 299,
+      "end_frame": 313
+    },
+    {
+      "word": "is",
+      "start_ms": 10440,
+      "end_ms": 11200,
+      "start_frame": 313,
+      "end_frame": 336
+    },
+    {
+      "word": "the",
+      "start_ms": 11200,
+      "end_ms": 11440,
+      "start_frame": 336,
+      "end_frame": 343
+    },
+    {
+      "word": "first",
+      "start_ms": 11440,
+      "end_ms": 11780,
+      "start_frame": 343,
+      "end_frame": 353
+    },
+    {
+      "word": "layer.",
+      "start_ms": 11780,
+      "end_ms": 12160,
+      "start_frame": 353,
+      "end_frame": 365
+    },
+    {
+      "word": "Inside",
+      "start_ms": 12800,
+      "end_ms": 13240,
+      "start_frame": 384,
+      "end_frame": 397
+    },
+    {
+      "word": "that,",
+      "start_ms": 13240,
+      "end_ms": 13680,
+      "start_frame": 397,
+      "end_frame": 410
+    },
+    {
+      "word": "the",
+      "start_ms": 14140,
+      "end_ms": 14360,
+      "start_frame": 424,
+      "end_frame": 431
+    },
+    {
+      "word": "3",
+      "start_ms": 14360,
+      "end_ms": 14540,
+      "start_frame": 431,
+      "end_frame": 436
+    },
+    {
+      "word": "by",
+      "start_ms": 14540,
+      "end_ms": 14780,
+      "start_frame": 436,
+      "end_frame": 443
+    },
+    {
+      "word": "3",
+      "start_ms": 14780,
+      "end_ms": 15040,
+      "start_frame": 443,
+      "end_frame": 451
+    },
+    {
+      "word": "border",
+      "start_ms": 15040,
+      "end_ms": 15500,
+      "start_frame": 451,
+      "end_frame": 465
+    },
+    {
+      "word": "is",
+      "start_ms": 15500,
+      "end_ms": 16200,
+      "start_frame": 465,
+      "end_frame": 486
+    },
+    {
+      "word": "the",
+      "start_ms": 16200,
+      "end_ms": 16480,
+      "start_frame": 486,
+      "end_frame": 494
+    },
+    {
+      "word": "second",
+      "start_ms": 16480,
+      "end_ms": 16720,
+      "start_frame": 494,
+      "end_frame": 502
+    },
+    {
+      "word": "layer,",
+      "start_ms": 16720,
+      "end_ms": 17100,
+      "start_frame": 502,
+      "end_frame": 513
+    },
+    {
+      "word": "and",
+      "start_ms": 17500,
+      "end_ms": 17700,
+      "start_frame": 525,
+      "end_frame": 531
+    },
+    {
+      "word": "the",
+      "start_ms": 17700,
+      "end_ms": 17920,
+      "start_frame": 531,
+      "end_frame": 538
+    },
+    {
+      "word": "center",
+      "start_ms": 17920,
+      "end_ms": 18300,
+      "start_frame": 538,
+      "end_frame": 549
+    },
+    {
+      "word": "is",
+      "start_ms": 18300,
+      "end_ms": 18880,
+      "start_frame": 549,
+      "end_frame": 566
+    },
+    {
+      "word": "left",
+      "start_ms": 18880,
+      "end_ms": 19180,
+      "start_frame": 566,
+      "end_frame": 575
+    },
+    {
+      "word": "alone.",
+      "start_ms": 19180,
+      "end_ms": 19480,
+      "start_frame": 575,
+      "end_frame": 584
+    },
+    {
+      "word": "Let's",
+      "start_ms": 20120,
+      "end_ms": 20480,
+      "start_frame": 604,
+      "end_frame": 614
+    },
+    {
+      "word": "begin.",
+      "start_ms": 20480,
+      "end_ms": 20960,
+      "start_frame": 614,
+      "end_frame": 629
+    },
+    {
+      "word": "With",
+      "start_ms": 21640,
+      "end_ms": 21860,
+      "start_frame": 649,
+      "end_frame": 656
+    },
+    {
+      "word": "the",
+      "start_ms": 21860,
+      "end_ms": 22120,
+      "start_frame": 656,
+      "end_frame": 664
+    },
+    {
+      "word": "outer",
+      "start_ms": 22120,
+      "end_ms": 22340,
+      "start_frame": 664,
+      "end_frame": 670
+    },
+    {
+      "word": "layer,",
+      "start_ms": 22340,
+      "end_ms": 22840,
+      "start_frame": 670,
+      "end_frame": 685
+    },
+    {
+      "word": "the",
+      "start_ms": 23580,
+      "end_ms": 23760,
+      "start_frame": 707,
+      "end_frame": 713
+    },
+    {
+      "word": "first",
+      "start_ms": 23760,
+      "end_ms": 24080,
+      "start_frame": 713,
+      "end_frame": 722
+    },
+    {
+      "word": "four",
+      "start_ms": 24080,
+      "end_ms": 24420,
+      "start_frame": 722,
+      "end_frame": 733
+    },
+    {
+      "word": "connected",
+      "start_ms": 24420,
+      "end_ms": 24820,
+      "start_frame": 733,
+      "end_frame": 745
+    },
+    {
+      "word": "positions",
+      "start_ms": 24820,
+      "end_ms": 25420,
+      "start_frame": 745,
+      "end_frame": 763
+    },
+    {
+      "word": "contain",
+      "start_ms": 25420,
+      "end_ms": 25960,
+      "start_frame": 763,
+      "end_frame": 779
+    },
+    {
+      "word": "top,",
+      "start_ms": 25960,
+      "end_ms": 26740,
+      "start_frame": 779,
+      "end_frame": 802
+    },
+    {
+      "word": "1,",
+      "start_ms": 27220,
+      "end_ms": 27740,
+      "start_frame": 817,
+      "end_frame": 832
+    },
+    {
+      "word": "right,",
+      "start_ms": 28260,
+      "end_ms": 28600,
+      "start_frame": 848,
+      "end_frame": 858
+    },
+    {
+      "word": "5,",
+      "start_ms": 28900,
+      "end_ms": 29380,
+      "start_frame": 867,
+      "end_frame": 881
+    },
+    {
+      "word": "bottom,",
+      "start_ms": 29580,
+      "end_ms": 29940,
+      "start_frame": 887,
+      "end_frame": 898
+    },
+    {
+      "word": "25,",
+      "start_ms": 30360,
+      "end_ms": 30860,
+      "start_frame": 911,
+      "end_frame": 926
+    },
+    {
+      "word": "left,",
+      "start_ms": 31520,
+      "end_ms": 31900,
+      "start_frame": 946,
+      "end_frame": 957
+    },
+    {
+      "word": "21.",
+      "start_ms": 32280,
+      "end_ms": 32780,
+      "start_frame": 968,
+      "end_frame": 983
+    },
+    {
+      "word": "For",
+      "start_ms": 33540,
+      "end_ms": 33780,
+      "start_frame": 1006,
+      "end_frame": 1013
+    },
+    {
+      "word": "clockwise",
+      "start_ms": 33780,
+      "end_ms": 34260,
+      "start_frame": 1013,
+      "end_frame": 1028
+    },
+    {
+      "word": "rotation,",
+      "start_ms": 34260,
+      "end_ms": 35020,
+      "start_frame": 1028,
+      "end_frame": 1051
+    },
+    {
+      "word": "top",
+      "start_ms": 35260,
+      "end_ms": 35520,
+      "start_frame": 1058,
+      "end_frame": 1066
+    },
+    {
+      "word": "must",
+      "start_ms": 35520,
+      "end_ms": 35800,
+      "start_frame": 1066,
+      "end_frame": 1074
+    },
+    {
+      "word": "go",
+      "start_ms": 35800,
+      "end_ms": 36040,
+      "start_frame": 1074,
+      "end_frame": 1081
+    },
+    {
+      "word": "to",
+      "start_ms": 36040,
+      "end_ms": 36220,
+      "start_frame": 1081,
+      "end_frame": 1087
+    },
+    {
+      "word": "right,",
+      "start_ms": 36220,
+      "end_ms": 36440,
+      "start_frame": 1087,
+      "end_frame": 1093
+    },
+    {
+      "word": "right",
+      "start_ms": 36680,
+      "end_ms": 36960,
+      "start_frame": 1100,
+      "end_frame": 1109
+    },
+    {
+      "word": "must",
+      "start_ms": 36960,
+      "end_ms": 37220,
+      "start_frame": 1109,
+      "end_frame": 1117
+    },
+    {
+      "word": "go",
+      "start_ms": 37220,
+      "end_ms": 37420,
+      "start_frame": 1117,
+      "end_frame": 1123
+    },
+    {
+      "word": "to",
+      "start_ms": 37420,
+      "end_ms": 37560,
+      "start_frame": 1123,
+      "end_frame": 1127
+    },
+    {
+      "word": "bottom,",
+      "start_ms": 37560,
+      "end_ms": 37900,
+      "start_frame": 1127,
+      "end_frame": 1137
+    },
+    {
+      "word": "bottom",
+      "start_ms": 38320,
+      "end_ms": 38600,
+      "start_frame": 1150,
+      "end_frame": 1158
+    },
+    {
+      "word": "must",
+      "start_ms": 38600,
+      "end_ms": 38840,
+      "start_frame": 1158,
+      "end_frame": 1165
+    },
+    {
+      "word": "go",
+      "start_ms": 38840,
+      "end_ms": 39040,
+      "start_frame": 1165,
+      "end_frame": 1171
+    },
+    {
+      "word": "to",
+      "start_ms": 39040,
+      "end_ms": 39200,
+      "start_frame": 1171,
+      "end_frame": 1176
+    },
+    {
+      "word": "left,",
+      "start_ms": 39200,
+      "end_ms": 39600,
+      "start_frame": 1176,
+      "end_frame": 1188
+    },
+    {
+      "word": "and",
+      "start_ms": 40060,
+      "end_ms": 40220,
+      "start_frame": 1202,
+      "end_frame": 1207
+    },
+    {
+      "word": "left",
+      "start_ms": 40220,
+      "end_ms": 40440,
+      "start_frame": 1207,
+      "end_frame": 1213
+    },
+    {
+      "word": "must",
+      "start_ms": 40440,
+      "end_ms": 40740,
+      "start_frame": 1213,
+      "end_frame": 1222
+    },
+    {
+      "word": "go",
+      "start_ms": 40740,
+      "end_ms": 40960,
+      "start_frame": 1222,
+      "end_frame": 1229
+    },
+    {
+      "word": "to",
+      "start_ms": 40960,
+      "end_ms": 41180,
+      "start_frame": 1229,
+      "end_frame": 1235
+    },
+    {
+      "word": "top.",
+      "start_ms": 41180,
+      "end_ms": 41480,
+      "start_frame": 1235,
+      "end_frame": 1244
+    },
+    {
+      "word": "But",
+      "start_ms": 41980,
+      "end_ms": 42140,
+      "start_frame": 1259,
+      "end_frame": 1264
+    },
+    {
+      "word": "we",
+      "start_ms": 42140,
+      "end_ms": 42380,
+      "start_frame": 1264,
+      "end_frame": 1271
+    },
+    {
+      "word": "cannot",
+      "start_ms": 42380,
+      "end_ms": 42760,
+      "start_frame": 1271,
+      "end_frame": 1283
+    },
+    {
+      "word": "write",
+      "start_ms": 42760,
+      "end_ms": 43880,
+      "start_frame": 1283,
+      "end_frame": 1316
+    },
+    {
+      "word": "top",
+      "start_ms": 43880,
+      "end_ms": 44180,
+      "start_frame": 1316,
+      "end_frame": 1325
+    },
+    {
+      "word": "into",
+      "start_ms": 44180,
+      "end_ms": 44500,
+      "start_frame": 1325,
+      "end_frame": 1335
+    },
+    {
+      "word": "right",
+      "start_ms": 44500,
+      "end_ms": 44760,
+      "start_frame": 1335,
+      "end_frame": 1343
+    },
+    {
+      "word": "first,",
+      "start_ms": 44760,
+      "end_ms": 45220,
+      "start_frame": 1343,
+      "end_frame": 1357
+    },
+    {
+      "word": "because",
+      "start_ms": 45600,
+      "end_ms": 45900,
+      "start_frame": 1368,
+      "end_frame": 1377
+    },
+    {
+      "word": "we",
+      "start_ms": 45900,
+      "end_ms": 46140,
+      "start_frame": 1377,
+      "end_frame": 1384
+    },
+    {
+      "word": "would",
+      "start_ms": 46140,
+      "end_ms": 46280,
+      "start_frame": 1384,
+      "end_frame": 1388
+    },
+    {
+      "word": "destroy",
+      "start_ms": 46280,
+      "end_ms": 46820,
+      "start_frame": 1388,
+      "end_frame": 1405
+    },
+    {
+      "word": "the",
+      "start_ms": 46820,
+      "end_ms": 47520,
+      "start_frame": 1405,
+      "end_frame": 1426
+    },
+    {
+      "word": "old",
+      "start_ms": 47520,
+      "end_ms": 47820,
+      "start_frame": 1426,
+      "end_frame": 1435
+    },
+    {
+      "word": "right",
+      "start_ms": 47820,
+      "end_ms": 48120,
+      "start_frame": 1435,
+      "end_frame": 1444
+    },
+    {
+      "word": "value.",
+      "start_ms": 48120,
+      "end_ms": 48620,
+      "start_frame": 1444,
+      "end_frame": 1459
+    },
+    {
+      "word": "So",
+      "start_ms": 49360,
+      "end_ms": 49900,
+      "start_frame": 1481,
+      "end_frame": 1497
+    },
+    {
+      "word": "save",
+      "start_ms": 49900,
+      "end_ms": 50360,
+      "start_frame": 1497,
+      "end_frame": 1511
+    },
+    {
+      "word": "the",
+      "start_ms": 50360,
+      "end_ms": 50600,
+      "start_frame": 1511,
+      "end_frame": 1518
+    },
+    {
+      "word": "top",
+      "start_ms": 50600,
+      "end_ms": 50820,
+      "start_frame": 1518,
+      "end_frame": 1525
+    },
+    {
+      "word": "value.",
+      "start_ms": 50820,
+      "end_ms": 51420,
+      "start_frame": 1525,
+      "end_frame": 1543
+    },
+    {
+      "word": "Save",
+      "start_ms": 51820,
+      "end_ms": 52380,
+      "start_frame": 1555,
+      "end_frame": 1571
+    },
+    {
+      "word": "1.",
+      "start_ms": 52380,
+      "end_ms": 53360,
+      "start_frame": 1571,
+      "end_frame": 1601
+    },
+    {
+      "word": "Now",
+      "start_ms": 53750,
+      "end_ms": 54220,
+      "start_frame": 1612,
+      "end_frame": 1627
+    },
+    {
+      "word": "move",
+      "start_ms": 54220,
+      "end_ms": 54740,
+      "start_frame": 1627,
+      "end_frame": 1642
+    },
+    {
+      "word": "21",
+      "start_ms": 54740,
+      "end_ms": 55560,
+      "start_frame": 1642,
+      "end_frame": 1667
+    },
+    {
+      "word": "from",
+      "start_ms": 55560,
+      "end_ms": 56240,
+      "start_frame": 1667,
+      "end_frame": 1687
+    },
+    {
+      "word": "left",
+      "start_ms": 56240,
+      "end_ms": 56840,
+      "start_frame": 1687,
+      "end_frame": 1705
+    },
+    {
+      "word": "into",
+      "start_ms": 56840,
+      "end_ms": 57500,
+      "start_frame": 1705,
+      "end_frame": 1725
+    },
+    {
+      "word": "top,",
+      "start_ms": 57500,
+      "end_ms": 57920,
+      "start_frame": 1725,
+      "end_frame": 1738
+    },
+    {
+      "word": "then",
+      "start_ms": 58340,
+      "end_ms": 58440,
+      "start_frame": 1750,
+      "end_frame": 1753
+    },
+    {
+      "word": "move",
+      "start_ms": 58440,
+      "end_ms": 58800,
+      "start_frame": 1753,
+      "end_frame": 1764
+    },
+    {
+      "word": "25",
+      "start_ms": 58800,
+      "end_ms": 59860,
+      "start_frame": 1764,
+      "end_frame": 1796
+    },
+    {
+      "word": "from",
+      "start_ms": 59860,
+      "end_ms": 60680,
+      "start_frame": 1796,
+      "end_frame": 1820
+    },
+    {
+      "word": "bottom",
+      "start_ms": 60680,
+      "end_ms": 61120,
+      "start_frame": 1820,
+      "end_frame": 1834
+    },
+    {
+      "word": "into",
+      "start_ms": 61350,
+      "end_ms": 61820,
+      "start_frame": 1840,
+      "end_frame": 1855
+    },
+    {
+      "word": "left,",
+      "start_ms": 61820,
+      "end_ms": 62300,
+      "start_frame": 1855,
+      "end_frame": 1869
+    },
+    {
+      "word": "then",
+      "start_ms": 62880,
+      "end_ms": 63140,
+      "start_frame": 1886,
+      "end_frame": 1894
+    },
+    {
+      "word": "move",
+      "start_ms": 63140,
+      "end_ms": 63580,
+      "start_frame": 1894,
+      "end_frame": 1907
+    },
+    {
+      "word": "5",
+      "start_ms": 63580,
+      "end_ms": 64660,
+      "start_frame": 1907,
+      "end_frame": 1940
+    },
+    {
+      "word": "from",
+      "start_ms": 64660,
+      "end_ms": 65280,
+      "start_frame": 1940,
+      "end_frame": 1958
+    },
+    {
+      "word": "right",
+      "start_ms": 65280,
+      "end_ms": 65860,
+      "start_frame": 1958,
+      "end_frame": 1976
+    },
+    {
+      "word": "into",
+      "start_ms": 65860,
+      "end_ms": 66320,
+      "start_frame": 1976,
+      "end_frame": 1990
+    },
+    {
+      "word": "bottom.",
+      "start_ms": 66320,
+      "end_ms": 66800,
+      "start_frame": 1990,
+      "end_frame": 2004
+    },
+    {
+      "word": "And",
+      "start_ms": 67460,
+      "end_ms": 67580,
+      "start_frame": 2024,
+      "end_frame": 2027
+    },
+    {
+      "word": "finally,",
+      "start_ms": 67580,
+      "end_ms": 68220,
+      "start_frame": 2027,
+      "end_frame": 2047
+    },
+    {
+      "word": "move",
+      "start_ms": 68680,
+      "end_ms": 68940,
+      "start_frame": 2060,
+      "end_frame": 2068
+    },
+    {
+      "word": "the",
+      "start_ms": 68940,
+      "end_ms": 69200,
+      "start_frame": 2068,
+      "end_frame": 2076
+    },
+    {
+      "word": "save",
+      "start_ms": 69200,
+      "end_ms": 69380,
+      "start_frame": 2076,
+      "end_frame": 2081
+    },
+    {
+      "word": "value,",
+      "start_ms": 69380,
+      "end_ms": 69980,
+      "start_frame": 2081,
+      "end_frame": 2099
+    },
+    {
+      "word": "1,",
+      "start_ms": 70500,
+      "end_ms": 71080,
+      "start_frame": 2115,
+      "end_frame": 2132
+    },
+    {
+      "word": "into",
+      "start_ms": 71380,
+      "end_ms": 71700,
+      "start_frame": 2141,
+      "end_frame": 2151
+    },
+    {
+      "word": "right.",
+      "start_ms": 71700,
+      "end_ms": 72020,
+      "start_frame": 2151,
+      "end_frame": 2161
+    },
+    {
+      "word": "The",
+      "start_ms": 72860,
+      "end_ms": 73020,
+      "start_frame": 2186,
+      "end_frame": 2191
+    },
+    {
+      "word": "first",
+      "start_ms": 73020,
+      "end_ms": 73300,
+      "start_frame": 2191,
+      "end_frame": 2199
+    },
+    {
+      "word": "four",
+      "start_ms": 73300,
+      "end_ms": 73580,
+      "start_frame": 2199,
+      "end_frame": 2207
+    },
+    {
+      "word": "-position",
+      "start_ms": 73580,
+      "end_ms": 74000,
+      "start_frame": 2207,
+      "end_frame": 2220
+    },
+    {
+      "word": "cycle",
+      "start_ms": 74000,
+      "end_ms": 74420,
+      "start_frame": 2220,
+      "end_frame": 2233
+    },
+    {
+      "word": "is",
+      "start_ms": 74420,
+      "end_ms": 74940,
+      "start_frame": 2233,
+      "end_frame": 2248
+    },
+    {
+      "word": "complete.",
+      "start_ms": 74940,
+      "end_ms": 75360,
+      "start_frame": 2248,
+      "end_frame": 2261
+    },
+    {
+      "word": "The",
+      "start_ms": 75840,
+      "end_ms": 76020,
+      "start_frame": 2275,
+      "end_frame": 2281
+    },
+    {
+      "word": "four",
+      "start_ms": 76020,
+      "end_ms": 76220,
+      "start_frame": 2281,
+      "end_frame": 2287
+    },
+    {
+      "word": "corners",
+      "start_ms": 76220,
+      "end_ms": 76700,
+      "start_frame": 2287,
+      "end_frame": 2301
+    },
+    {
+      "word": "are",
+      "start_ms": 76700,
+      "end_ms": 77200,
+      "start_frame": 2301,
+      "end_frame": 2316
+    },
+    {
+      "word": "now",
+      "start_ms": 77200,
+      "end_ms": 77460,
+      "start_frame": 2316,
+      "end_frame": 2324
+    },
+    {
+      "word": "in",
+      "start_ms": 77460,
+      "end_ms": 77620,
+      "start_frame": 2324,
+      "end_frame": 2329
+    },
+    {
+      "word": "their",
+      "start_ms": 77620,
+      "end_ms": 77860,
+      "start_frame": 2329,
+      "end_frame": 2336
+    },
+    {
+      "word": "final",
+      "start_ms": 77860,
+      "end_ms": 78280,
+      "start_frame": 2336,
+      "end_frame": 2348
+    },
+    {
+      "word": "rotated",
+      "start_ms": 78280,
+      "end_ms": 78860,
+      "start_frame": 2348,
+      "end_frame": 2366
+    },
+    {
+      "word": "positions.",
+      "start_ms": 78860,
+      "end_ms": 79500,
+      "start_frame": 2366,
+      "end_frame": 2385
+    },
+    {
+      "word": "Move",
+      "start_ms": 79890,
+      "end_ms": 80380,
+      "start_frame": 2397,
+      "end_frame": 2411
+    },
+    {
+      "word": "one",
+      "start_ms": 80380,
+      "end_ms": 80620,
+      "start_frame": 2411,
+      "end_frame": 2419
+    },
+    {
+      "word": "position",
+      "start_ms": 80620,
+      "end_ms": 81220,
+      "start_frame": 2419,
+      "end_frame": 2437
+    },
+    {
+      "word": "to",
+      "start_ms": 81220,
+      "end_ms": 81660,
+      "start_frame": 2437,
+      "end_frame": 2450
+    },
+    {
+      "word": "the",
+      "start_ms": 81660,
+      "end_ms": 81820,
+      "start_frame": 2450,
+      "end_frame": 2455
+    },
+    {
+      "word": "right",
+      "start_ms": 81820,
+      "end_ms": 82220,
+      "start_frame": 2455,
+      "end_frame": 2467
+    },
+    {
+      "word": "along",
+      "start_ms": 82220,
+      "end_ms": 82760,
+      "start_frame": 2467,
+      "end_frame": 2483
+    },
+    {
+      "word": "the",
+      "start_ms": 82760,
+      "end_ms": 82980,
+      "start_frame": 2483,
+      "end_frame": 2489
+    },
+    {
+      "word": "top",
+      "start_ms": 82980,
+      "end_ms": 83200,
+      "start_frame": 2489,
+      "end_frame": 2496
+    },
+    {
+      "word": "edge.",
+      "start_ms": 83200,
+      "end_ms": 83600,
+      "start_frame": 2496,
+      "end_frame": 2508
+    },
+    {
+      "word": "The",
+      "start_ms": 84140,
+      "end_ms": 84220,
+      "start_frame": 2524,
+      "end_frame": 2527
+    },
+    {
+      "word": "next",
+      "start_ms": 84220,
+      "end_ms": 84520,
+      "start_frame": 2527,
+      "end_frame": 2536
+    },
+    {
+      "word": "connected",
+      "start_ms": 84520,
+      "end_ms": 84940,
+      "start_frame": 2536,
+      "end_frame": 2548
+    },
+    {
+      "word": "values",
+      "start_ms": 84940,
+      "end_ms": 85440,
+      "start_frame": 2548,
+      "end_frame": 2563
+    },
+    {
+      "word": "are",
+      "start_ms": 85440,
+      "end_ms": 86140,
+      "start_frame": 2563,
+      "end_frame": 2584
+    },
+    {
+      "word": "2,",
+      "start_ms": 86140,
+      "end_ms": 86640,
+      "start_frame": 2584,
+      "end_frame": 2599
+    },
+    {
+      "word": "10,",
+      "start_ms": 87020,
+      "end_ms": 87520,
+      "start_frame": 2611,
+      "end_frame": 2626
+    },
+    {
+      "word": "24,",
+      "start_ms": 88000,
+      "end_ms": 88560,
+      "start_frame": 2640,
+      "end_frame": 2657
+    },
+    {
+      "word": "16.",
+      "start_ms": 89080,
+      "end_ms": 89820,
+      "start_frame": 2672,
+      "end_frame": 2695
+    },
+    {
+      "word": "Save",
+      "start_ms": 90420,
+      "end_ms": 90660,
+      "start_frame": 2713,
+      "end_frame": 2720
+    },
+    {
+      "word": "2,",
+      "start_ms": 90660,
+      "end_ms": 91560,
+      "start_frame": 2720,
+      "end_frame": 2747
+    },
+    {
+      "word": "16.",
+      "start_ms": 91660,
+      "end_ms": 92560,
+      "start_frame": 2750,
+      "end_frame": 2777
+    },
+    {
+      "word": "Moves",
+      "start_ms": 93060,
+      "end_ms": 93220,
+      "start_frame": 2792,
+      "end_frame": 2797
+    },
+    {
+      "word": "from",
+      "start_ms": 93220,
+      "end_ms": 93440,
+      "start_frame": 2797,
+      "end_frame": 2803
+    },
+    {
+      "word": "left",
+      "start_ms": 93440,
+      "end_ms": 93840,
+      "start_frame": 2803,
+      "end_frame": 2815
+    },
+    {
+      "word": "into",
+      "start_ms": 93840,
+      "end_ms": 94420,
+      "start_frame": 2815,
+      "end_frame": 2833
+    },
+    {
+      "word": "top.",
+      "start_ms": 94420,
+      "end_ms": 94820,
+      "start_frame": 2833,
+      "end_frame": 2845
+    },
+    {
+      "word": "24",
+      "start_ms": 95700,
+      "end_ms": 96060,
+      "start_frame": 2871,
+      "end_frame": 2882
+    },
+    {
+      "word": "moves",
+      "start_ms": 96060,
+      "end_ms": 97040,
+      "start_frame": 2882,
+      "end_frame": 2911
+    },
+    {
+      "word": "from",
+      "start_ms": 97040,
+      "end_ms": 97280,
+      "start_frame": 2911,
+      "end_frame": 2918
+    },
+    {
+      "word": "bottom",
+      "start_ms": 97280,
+      "end_ms": 97740,
+      "start_frame": 2918,
+      "end_frame": 2932
+    },
+    {
+      "word": "into",
+      "start_ms": 97740,
+      "end_ms": 98480,
+      "start_frame": 2932,
+      "end_frame": 2954
+    },
+    {
+      "word": "left.",
+      "start_ms": 98480,
+      "end_ms": 98920,
+      "start_frame": 2954,
+      "end_frame": 2968
+    },
+    {
+      "word": "10",
+      "start_ms": 99500,
+      "end_ms": 100320,
+      "start_frame": 2985,
+      "end_frame": 3010
+    },
+    {
+      "word": "moves",
+      "start_ms": 100320,
+      "end_ms": 100940,
+      "start_frame": 3010,
+      "end_frame": 3028
+    },
+    {
+      "word": "from",
+      "start_ms": 100940,
+      "end_ms": 101180,
+      "start_frame": 3028,
+      "end_frame": 3035
+    },
+    {
+      "word": "right",
+      "start_ms": 101180,
+      "end_ms": 101740,
+      "start_frame": 3035,
+      "end_frame": 3052
+    },
+    {
+      "word": "into",
+      "start_ms": 101740,
+      "end_ms": 102260,
+      "start_frame": 3052,
+      "end_frame": 3068
+    },
+    {
+      "word": "bottom.",
+      "start_ms": 102260,
+      "end_ms": 102660,
+      "start_frame": 3068,
+      "end_frame": 3080
+    },
+    {
+      "word": "And",
+      "start_ms": 103040,
+      "end_ms": 103320,
+      "start_frame": 3091,
+      "end_frame": 3100
+    },
+    {
+      "word": "save",
+      "start_ms": 103320,
+      "end_ms": 103580,
+      "start_frame": 3100,
+      "end_frame": 3107
+    },
+    {
+      "word": "2",
+      "start_ms": 103580,
+      "end_ms": 104460,
+      "start_frame": 3107,
+      "end_frame": 3134
+    },
+    {
+      "word": "moves",
+      "start_ms": 104460,
+      "end_ms": 104980,
+      "start_frame": 3134,
+      "end_frame": 3149
+    },
+    {
+      "word": "into",
+      "start_ms": 104980,
+      "end_ms": 105240,
+      "start_frame": 3149,
+      "end_frame": 3157
+    },
+    {
+      "word": "right.",
+      "start_ms": 105240,
+      "end_ms": 105720,
+      "start_frame": 3157,
+      "end_frame": 3172
+    },
+    {
+      "word": "Second",
+      "start_ms": 106380,
+      "end_ms": 106640,
+      "start_frame": 3191,
+      "end_frame": 3199
+    },
+    {
+      "word": "cycle",
+      "start_ms": 106640,
+      "end_ms": 107160,
+      "start_frame": 3199,
+      "end_frame": 3215
+    },
+    {
+      "word": "complete.",
+      "start_ms": 107160,
+      "end_ms": 107920,
+      "start_frame": 3215,
+      "end_frame": 3238
+    },
+    {
+      "word": "Move",
+      "start_ms": 108360,
+      "end_ms": 108800,
+      "start_frame": 3251,
+      "end_frame": 3264
+    },
+    {
+      "word": "one",
+      "start_ms": 108800,
+      "end_ms": 109120,
+      "start_frame": 3264,
+      "end_frame": 3274
+    },
+    {
+      "word": "more",
+      "start_ms": 109120,
+      "end_ms": 109380,
+      "start_frame": 3274,
+      "end_frame": 3281
+    },
+    {
+      "word": "position.",
+      "start_ms": 109380,
+      "end_ms": 110020,
+      "start_frame": 3281,
+      "end_frame": 3301
+    },
+    {
+      "word": "Now",
+      "start_ms": 110620,
+      "end_ms": 110760,
+      "start_frame": 3319,
+      "end_frame": 3323
+    },
+    {
+      "word": "the",
+      "start_ms": 110760,
+      "end_ms": 111000,
+      "start_frame": 3323,
+      "end_frame": 3330
+    },
+    {
+      "word": "connected",
+      "start_ms": 111000,
+      "end_ms": 111300,
+      "start_frame": 3330,
+      "end_frame": 3339
+    },
+    {
+      "word": "values",
+      "start_ms": 111300,
+      "end_ms": 111720,
+      "start_frame": 3339,
+      "end_frame": 3352
+    },
+    {
+      "word": "are",
+      "start_ms": 111720,
+      "end_ms": 112060,
+      "start_frame": 3352,
+      "end_frame": 3362
+    },
+    {
+      "word": "3,",
+      "start_ms": 112060,
+      "end_ms": 112440,
+      "start_frame": 3362,
+      "end_frame": 3373
+    },
+    {
+      "word": "15,",
+      "start_ms": 112480,
+      "end_ms": 113200,
+      "start_frame": 3374,
+      "end_frame": 3396
+    },
+    {
+      "word": "23,",
+      "start_ms": 113620,
+      "end_ms": 114160,
+      "start_frame": 3409,
+      "end_frame": 3425
+    },
+    {
+      "word": "11.",
+      "start_ms": 114660,
+      "end_ms": 115240,
+      "start_frame": 3440,
+      "end_frame": 3457
+    },
+    {
+      "word": "Save",
+      "start_ms": 116160,
+      "end_ms": 116260,
+      "start_frame": 3485,
+      "end_frame": 3488
+    },
+    {
+      "word": "3,",
+      "start_ms": 116260,
+      "end_ms": 117280,
+      "start_frame": 3488,
+      "end_frame": 3518
+    },
+    {
+      "word": "11.",
+      "start_ms": 117360,
+      "end_ms": 118100,
+      "start_frame": 3521,
+      "end_frame": 3543
+    },
+    {
+      "word": "Moves",
+      "start_ms": 118620,
+      "end_ms": 118900,
+      "start_frame": 3559,
+      "end_frame": 3567
+    },
+    {
+      "word": "into",
+      "start_ms": 118900,
+      "end_ms": 119120,
+      "start_frame": 3567,
+      "end_frame": 3574
+    },
+    {
+      "word": "top.",
+      "start_ms": 119120,
+      "end_ms": 119520,
+      "start_frame": 3574,
+      "end_frame": 3586
+    },
+    {
+      "word": "23",
+      "start_ms": 120060,
+      "end_ms": 120520,
+      "start_frame": 3602,
+      "end_frame": 3616
+    },
+    {
+      "word": "moves",
+      "start_ms": 120520,
+      "end_ms": 121100,
+      "start_frame": 3616,
+      "end_frame": 3633
+    },
+    {
+      "word": "into",
+      "start_ms": 121100,
+      "end_ms": 121360,
+      "start_frame": 3633,
+      "end_frame": 3641
+    },
+    {
+      "word": "left.",
+      "start_ms": 121360,
+      "end_ms": 121780,
+      "start_frame": 3641,
+      "end_frame": 3653
+    },
+    {
+      "word": "15",
+      "start_ms": 122280,
+      "end_ms": 122860,
+      "start_frame": 3668,
+      "end_frame": 3686
+    },
+    {
+      "word": "moves",
+      "start_ms": 122860,
+      "end_ms": 123500,
+      "start_frame": 3686,
+      "end_frame": 3705
+    },
+    {
+      "word": "into",
+      "start_ms": 123500,
+      "end_ms": 123780,
+      "start_frame": 3705,
+      "end_frame": 3713
+    },
+    {
+      "word": "bottom.",
+      "start_ms": 123780,
+      "end_ms": 124160,
+      "start_frame": 3713,
+      "end_frame": 3725
+    },
+    {
+      "word": "And",
+      "start_ms": 124880,
+      "end_ms": 125080,
+      "start_frame": 3746,
+      "end_frame": 3752
+    },
+    {
+      "word": "save",
+      "start_ms": 125080,
+      "end_ms": 125300,
+      "start_frame": 3752,
+      "end_frame": 3759
+    },
+    {
+      "word": "3",
+      "start_ms": 125300,
+      "end_ms": 126080,
+      "start_frame": 3759,
+      "end_frame": 3782
+    },
+    {
+      "word": "moves",
+      "start_ms": 126080,
+      "end_ms": 126680,
+      "start_frame": 3782,
+      "end_frame": 3800
+    },
+    {
+      "word": "into",
+      "start_ms": 126680,
+      "end_ms": 126960,
+      "start_frame": 3800,
+      "end_frame": 3809
+    },
+    {
+      "word": "right.",
+      "start_ms": 126960,
+      "end_ms": 127460,
+      "start_frame": 3809,
+      "end_frame": 3824
+    },
+    {
+      "word": "Third",
+      "start_ms": 128220,
+      "end_ms": 128500,
+      "start_frame": 3847,
+      "end_frame": 3855
+    },
+    {
+      "word": "cycle",
+      "start_ms": 128500,
+      "end_ms": 129020,
+      "start_frame": 3855,
+      "end_frame": 3871
+    },
+    {
+      "word": "complete.",
+      "start_ms": 129020,
+      "end_ms": 129700,
+      "start_frame": 3871,
+      "end_frame": 3891
+    },
+    {
+      "word": "One",
+      "start_ms": 130280,
+      "end_ms": 130600,
+      "start_frame": 3908,
+      "end_frame": 3918
+    },
+    {
+      "word": "final",
+      "start_ms": 130600,
+      "end_ms": 130900,
+      "start_frame": 3918,
+      "end_frame": 3927
+    },
+    {
+      "word": "cycle",
+      "start_ms": 130900,
+      "end_ms": 131560,
+      "start_frame": 3927,
+      "end_frame": 3947
+    },
+    {
+      "word": "for",
+      "start_ms": 131560,
+      "end_ms": 132120,
+      "start_frame": 3947,
+      "end_frame": 3964
+    },
+    {
+      "word": "the",
+      "start_ms": 132120,
+      "end_ms": 132320,
+      "start_frame": 3964,
+      "end_frame": 3970
+    },
+    {
+      "word": "outer",
+      "start_ms": 132320,
+      "end_ms": 132540,
+      "start_frame": 3970,
+      "end_frame": 3976
+    },
+    {
+      "word": "layer.",
+      "start_ms": 132540,
+      "end_ms": 132860,
+      "start_frame": 3976,
+      "end_frame": 3986
+    },
+    {
+      "word": "The",
+      "start_ms": 133040,
+      "end_ms": 133500,
+      "start_frame": 3991,
+      "end_frame": 4005
+    },
+    {
+      "word": "connected",
+      "start_ms": 133500,
+      "end_ms": 133920,
+      "start_frame": 4005,
+      "end_frame": 4018
+    },
+    {
+      "word": "values",
+      "start_ms": 133920,
+      "end_ms": 134380,
+      "start_frame": 4018,
+      "end_frame": 4031
+    },
+    {
+      "word": "are",
+      "start_ms": 134380,
+      "end_ms": 134980,
+      "start_frame": 4031,
+      "end_frame": 4049
+    },
+    {
+      "word": "4,",
+      "start_ms": 134980,
+      "end_ms": 135640,
+      "start_frame": 4049,
+      "end_frame": 4069
+    },
+    {
+      "word": "20,",
+      "start_ms": 135740,
+      "end_ms": 136380,
+      "start_frame": 4072,
+      "end_frame": 4091
+    },
+    {
+      "word": "22,",
+      "start_ms": 136760,
+      "end_ms": 137180,
+      "start_frame": 4103,
+      "end_frame": 4115
+    },
+    {
+      "word": "6.",
+      "start_ms": 137900,
+      "end_ms": 138520,
+      "start_frame": 4137,
+      "end_frame": 4156
+    },
+    {
+      "word": "Save",
+      "start_ms": 138900,
+      "end_ms": 139180,
+      "start_frame": 4167,
+      "end_frame": 4175
+    },
+    {
+      "word": "4,",
+      "start_ms": 139180,
+      "end_ms": 140240,
+      "start_frame": 4175,
+      "end_frame": 4207
+    },
+    {
+      "word": "6.",
+      "start_ms": 140440,
+      "end_ms": 141160,
+      "start_frame": 4213,
+      "end_frame": 4235
+    },
+    {
+      "word": "Moves",
+      "start_ms": 141500,
+      "end_ms": 141740,
+      "start_frame": 4245,
+      "end_frame": 4252
+    },
+    {
+      "word": "into",
+      "start_ms": 141740,
+      "end_ms": 141980,
+      "start_frame": 4252,
+      "end_frame": 4259
+    },
+    {
+      "word": "top.",
+      "start_ms": 141980,
+      "end_ms": 142280,
+      "start_frame": 4259,
+      "end_frame": 4268
+    },
+    {
+      "word": "22",
+      "start_ms": 142780,
+      "end_ms": 143300,
+      "start_frame": 4283,
+      "end_frame": 4299
+    },
+    {
+      "word": "moves",
+      "start_ms": 143300,
+      "end_ms": 143980,
+      "start_frame": 4299,
+      "end_frame": 4319
+    },
+    {
+      "word": "into",
+      "start_ms": 143980,
+      "end_ms": 144220,
+      "start_frame": 4319,
+      "end_frame": 4327
+    },
+    {
+      "word": "left.",
+      "start_ms": 144220,
+      "end_ms": 144580,
+      "start_frame": 4327,
+      "end_frame": 4337
+    },
+    {
+      "word": "20",
+      "start_ms": 145120,
+      "end_ms": 145660,
+      "start_frame": 4354,
+      "end_frame": 4370
+    },
+    {
+      "word": "moves",
+      "start_ms": 145660,
+      "end_ms": 146260,
+      "start_frame": 4370,
+      "end_frame": 4388
+    },
+    {
+      "word": "into",
+      "start_ms": 146260,
+      "end_ms": 146460,
+      "start_frame": 4388,
+      "end_frame": 4394
+    },
+    {
+      "word": "bottom.",
+      "start_ms": 146460,
+      "end_ms": 146800,
+      "start_frame": 4394,
+      "end_frame": 4404
+    },
+    {
+      "word": "And",
+      "start_ms": 147360,
+      "end_ms": 147560,
+      "start_frame": 4421,
+      "end_frame": 4427
+    },
+    {
+      "word": "save",
+      "start_ms": 147560,
+      "end_ms": 147680,
+      "start_frame": 4427,
+      "end_frame": 4430
+    },
+    {
+      "word": "4",
+      "start_ms": 147680,
+      "end_ms": 148100,
+      "start_frame": 4430,
+      "end_frame": 4443
+    },
+    {
+      "word": "moves",
+      "start_ms": 148100,
+      "end_ms": 148660,
+      "start_frame": 4443,
+      "end_frame": 4460
+    },
+    {
+      "word": "into",
+      "start_ms": 148660,
+      "end_ms": 148920,
+      "start_frame": 4460,
+      "end_frame": 4468
+    },
+    {
+      "word": "right.",
+      "start_ms": 148920,
+      "end_ms": 149220,
+      "start_frame": 4468,
+      "end_frame": 4477
+    },
+    {
+      "word": "Now",
+      "start_ms": 149960,
+      "end_ms": 150360,
+      "start_frame": 4499,
+      "end_frame": 4511
+    },
+    {
+      "word": "the",
+      "start_ms": 150360,
+      "end_ms": 150900,
+      "start_frame": 4511,
+      "end_frame": 4527
+    },
+    {
+      "word": "entire",
+      "start_ms": 150900,
+      "end_ms": 151500,
+      "start_frame": 4527,
+      "end_frame": 4545
+    },
+    {
+      "word": "outer",
+      "start_ms": 151500,
+      "end_ms": 151900,
+      "start_frame": 4545,
+      "end_frame": 4557
+    },
+    {
+      "word": "layer",
+      "start_ms": 151900,
+      "end_ms": 152200,
+      "start_frame": 4557,
+      "end_frame": 4566
+    },
+    {
+      "word": "is",
+      "start_ms": 152200,
+      "end_ms": 152800,
+      "start_frame": 4566,
+      "end_frame": 4584
+    },
+    {
+      "word": "complete.",
+      "start_ms": 152800,
+      "end_ms": 153320,
+      "start_frame": 4584,
+      "end_frame": 4600
+    },
+    {
+      "word": "Every",
+      "start_ms": 153780,
+      "end_ms": 154260,
+      "start_frame": 4613,
+      "end_frame": 4628
+    },
+    {
+      "word": "value",
+      "start_ms": 154260,
+      "end_ms": 154620,
+      "start_frame": 4628,
+      "end_frame": 4639
+    },
+    {
+      "word": "on",
+      "start_ms": 154620,
+      "end_ms": 154840,
+      "start_frame": 4639,
+      "end_frame": 4645
+    },
+    {
+      "word": "this",
+      "start_ms": 154840,
+      "end_ms": 155080,
+      "start_frame": 4645,
+      "end_frame": 4652
+    },
+    {
+      "word": "border",
+      "start_ms": 155080,
+      "end_ms": 155460,
+      "start_frame": 4652,
+      "end_frame": 4664
+    },
+    {
+      "word": "is",
+      "start_ms": 155460,
+      "end_ms": 156000,
+      "start_frame": 4664,
+      "end_frame": 4680
+    },
+    {
+      "word": "already",
+      "start_ms": 156000,
+      "end_ms": 156480,
+      "start_frame": 4680,
+      "end_frame": 4694
+    },
+    {
+      "word": "in",
+      "start_ms": 156820,
+      "end_ms": 157280,
+      "start_frame": 4705,
+      "end_frame": 4718
+    },
+    {
+      "word": "its",
+      "start_ms": 157280,
+      "end_ms": 157540,
+      "start_frame": 4718,
+      "end_frame": 4726
+    },
+    {
+      "word": "final",
+      "start_ms": 157540,
+      "end_ms": 157940,
+      "start_frame": 4726,
+      "end_frame": 4738
+    },
+    {
+      "word": "rotated",
+      "start_ms": 157940,
+      "end_ms": 158500,
+      "start_frame": 4738,
+      "end_frame": 4755
+    },
+    {
+      "word": "position.",
+      "start_ms": 158500,
+      "end_ms": 159080,
+      "start_frame": 4755,
+      "end_frame": 4772
+    },
+    {
+      "word": "So",
+      "start_ms": 159560,
+      "end_ms": 159980,
+      "start_frame": 4787,
+      "end_frame": 4799
+    },
+    {
+      "word": "we",
+      "start_ms": 159980,
+      "end_ms": 160120,
+      "start_frame": 4799,
+      "end_frame": 4804
+    },
+    {
+      "word": "do",
+      "start_ms": 160120,
+      "end_ms": 160320,
+      "start_frame": 4804,
+      "end_frame": 4810
+    },
+    {
+      "word": "not",
+      "start_ms": 160320,
+      "end_ms": 160480,
+      "start_frame": 4810,
+      "end_frame": 4814
+    },
+    {
+      "word": "touch",
+      "start_ms": 160480,
+      "end_ms": 160960,
+      "start_frame": 4814,
+      "end_frame": 4829
+    },
+    {
+      "word": "this",
+      "start_ms": 160960,
+      "end_ms": 161720,
+      "start_frame": 4829,
+      "end_frame": 4852
+    },
+    {
+      "word": "layer",
+      "start_ms": 161720,
+      "end_ms": 162020,
+      "start_frame": 4852,
+      "end_frame": 4861
+    },
+    {
+      "word": "again.",
+      "start_ms": 162020,
+      "end_ms": 162660,
+      "start_frame": 4861,
+      "end_frame": 4880
+    },
+    {
+      "word": "Now",
+      "start_ms": 163400,
+      "end_ms": 163860,
+      "start_frame": 4902,
+      "end_frame": 4916
+    },
+    {
+      "word": "move",
+      "start_ms": 163860,
+      "end_ms": 164540,
+      "start_frame": 4916,
+      "end_frame": 4936
+    },
+    {
+      "word": "one",
+      "start_ms": 164540,
+      "end_ms": 164920,
+      "start_frame": 4936,
+      "end_frame": 4948
+    },
+    {
+      "word": "layer",
+      "start_ms": 164920,
+      "end_ms": 165200,
+      "start_frame": 4948,
+      "end_frame": 4956
+    },
+    {
+      "word": "inward.",
+      "start_ms": 165200,
+      "end_ms": 165760,
+      "start_frame": 4956,
+      "end_frame": 4973
+    },
+    {
+      "word": "The",
+      "start_ms": 166120,
+      "end_ms": 166380,
+      "start_frame": 4984,
+      "end_frame": 4991
+    },
+    {
+      "word": "inner",
+      "start_ms": 166380,
+      "end_ms": 166600,
+      "start_frame": 4991,
+      "end_frame": 4998
+    },
+    {
+      "word": "layer",
+      "start_ms": 166600,
+      "end_ms": 166860,
+      "start_frame": 4998,
+      "end_frame": 5006
+    },
+    {
+      "word": "is",
+      "start_ms": 166860,
+      "end_ms": 167420,
+      "start_frame": 5006,
+      "end_frame": 5023
+    },
+    {
+      "word": "a",
+      "start_ms": 167420,
+      "end_ms": 167700,
+      "start_frame": 5023,
+      "end_frame": 5031
+    },
+    {
+      "word": "3",
+      "start_ms": 167700,
+      "end_ms": 167880,
+      "start_frame": 5031,
+      "end_frame": 5036
+    },
+    {
+      "word": "by",
+      "start_ms": 167880,
+      "end_ms": 168100,
+      "start_frame": 5036,
+      "end_frame": 5043
+    },
+    {
+      "word": "3",
+      "start_ms": 168100,
+      "end_ms": 168380,
+      "start_frame": 5043,
+      "end_frame": 5051
+    },
+    {
+      "word": "border.",
+      "start_ms": 168380,
+      "end_ms": 168740,
+      "start_frame": 5051,
+      "end_frame": 5062
+    },
+    {
+      "word": "Its",
+      "start_ms": 169200,
+      "end_ms": 169460,
+      "start_frame": 5076,
+      "end_frame": 5084
+    },
+    {
+      "word": "first",
+      "start_ms": 169460,
+      "end_ms": 169660,
+      "start_frame": 5084,
+      "end_frame": 5090
+    },
+    {
+      "word": "connected",
+      "start_ms": 169660,
+      "end_ms": 170000,
+      "start_frame": 5090,
+      "end_frame": 5100
+    },
+    {
+      "word": "values",
+      "start_ms": 170000,
+      "end_ms": 170420,
+      "start_frame": 5100,
+      "end_frame": 5113
+    },
+    {
+      "word": "are",
+      "start_ms": 170420,
+      "end_ms": 170940,
+      "start_frame": 5113,
+      "end_frame": 5128
+    },
+    {
+      "word": "7,",
+      "start_ms": 170940,
+      "end_ms": 171620,
+      "start_frame": 5128,
+      "end_frame": 5149
+    },
+    {
+      "word": "9,",
+      "start_ms": 171940,
+      "end_ms": 172400,
+      "start_frame": 5158,
+      "end_frame": 5172
+    },
+    {
+      "word": "19,",
+      "start_ms": 172860,
+      "end_ms": 173320,
+      "start_frame": 5186,
+      "end_frame": 5200
+    },
+    {
+      "word": "17.",
+      "start_ms": 173980,
+      "end_ms": 174500,
+      "start_frame": 5219,
+      "end_frame": 5235
+    },
+    {
+      "word": "Save",
+      "start_ms": 175080,
+      "end_ms": 175400,
+      "start_frame": 5252,
+      "end_frame": 5262
+    },
+    {
+      "word": "7,",
+      "start_ms": 175400,
+      "end_ms": 176620,
+      "start_frame": 5262,
+      "end_frame": 5299
+    },
+    {
+      "word": "17.",
+      "start_ms": 177040,
+      "end_ms": 177660,
+      "start_frame": 5311,
+      "end_frame": 5330
+    },
+    {
+      "word": "Moves",
+      "start_ms": 178240,
+      "end_ms": 178420,
+      "start_frame": 5347,
+      "end_frame": 5353
+    },
+    {
+      "word": "into",
+      "start_ms": 178420,
+      "end_ms": 178580,
+      "start_frame": 5353,
+      "end_frame": 5357
+    },
+    {
+      "word": "top.",
+      "start_ms": 178580,
+      "end_ms": 178940,
+      "start_frame": 5357,
+      "end_frame": 5368
+    },
+    {
+      "word": "19",
+      "start_ms": 179480,
+      "end_ms": 180040,
+      "start_frame": 5384,
+      "end_frame": 5401
+    },
+    {
+      "word": "moves",
+      "start_ms": 180040,
+      "end_ms": 180700,
+      "start_frame": 5401,
+      "end_frame": 5421
+    },
+    {
+      "word": "into",
+      "start_ms": 180700,
+      "end_ms": 180900,
+      "start_frame": 5421,
+      "end_frame": 5427
+    },
+    {
+      "word": "left.",
+      "start_ms": 180900,
+      "end_ms": 181240,
+      "start_frame": 5427,
+      "end_frame": 5437
+    },
+    {
+      "word": "9",
+      "start_ms": 181800,
+      "end_ms": 182420,
+      "start_frame": 5454,
+      "end_frame": 5473
+    },
+    {
+      "word": "moves",
+      "start_ms": 182420,
+      "end_ms": 183040,
+      "start_frame": 5473,
+      "end_frame": 5491
+    },
+    {
+      "word": "into",
+      "start_ms": 183040,
+      "end_ms": 183240,
+      "start_frame": 5491,
+      "end_frame": 5497
+    },
+    {
+      "word": "bottom.",
+      "start_ms": 183240,
+      "end_ms": 183580,
+      "start_frame": 5497,
+      "end_frame": 5507
+    },
+    {
+      "word": "And",
+      "start_ms": 184120,
+      "end_ms": 184320,
+      "start_frame": 5524,
+      "end_frame": 5530
+    },
+    {
+      "word": "save",
+      "start_ms": 184320,
+      "end_ms": 184460,
+      "start_frame": 5530,
+      "end_frame": 5534
+    },
+    {
+      "word": "7",
+      "start_ms": 184460,
+      "end_ms": 185000,
+      "start_frame": 5534,
+      "end_frame": 5550
+    },
+    {
+      "word": "moves",
+      "start_ms": 185000,
+      "end_ms": 185560,
+      "start_frame": 5550,
+      "end_frame": 5567
+    },
+    {
+      "word": "into",
+      "start_ms": 185560,
+      "end_ms": 185760,
+      "start_frame": 5567,
+      "end_frame": 5573
+    },
+    {
+      "word": "right.",
+      "start_ms": 185760,
+      "end_ms": 186180,
+      "start_frame": 5573,
+      "end_frame": 5585
+    },
+    {
+      "word": "First",
+      "start_ms": 186820,
+      "end_ms": 187080,
+      "start_frame": 5605,
+      "end_frame": 5612
+    },
+    {
+      "word": "inner",
+      "start_ms": 187080,
+      "end_ms": 187300,
+      "start_frame": 5612,
+      "end_frame": 5619
+    },
+    {
+      "word": "cycle",
+      "start_ms": 187300,
+      "end_ms": 187880,
+      "start_frame": 5619,
+      "end_frame": 5636
+    },
+    {
+      "word": "complete.",
+      "start_ms": 187880,
+      "end_ms": 188740,
+      "start_frame": 5636,
+      "end_frame": 5662
+    },
+    {
+      "word": "Now",
+      "start_ms": 189080,
+      "end_ms": 189620,
+      "start_frame": 5672,
+      "end_frame": 5689
+    },
+    {
+      "word": "the",
+      "start_ms": 189620,
+      "end_ms": 189780,
+      "start_frame": 5689,
+      "end_frame": 5693
+    },
+    {
+      "word": "final",
+      "start_ms": 189780,
+      "end_ms": 190220,
+      "start_frame": 5693,
+      "end_frame": 5707
+    },
+    {
+      "word": "four",
+      "start_ms": 190220,
+      "end_ms": 190460,
+      "start_frame": 5707,
+      "end_frame": 5714
+    },
+    {
+      "word": "position",
+      "start_ms": 190460,
+      "end_ms": 190820,
+      "start_frame": 5714,
+      "end_frame": 5725
+    },
+    {
+      "word": "cycle.",
+      "start_ms": 190820,
+      "end_ms": 191280,
+      "start_frame": 5725,
+      "end_frame": 5738
+    },
+    {
+      "word": "The",
+      "start_ms": 191800,
+      "end_ms": 191920,
+      "start_frame": 5754,
+      "end_frame": 5758
+    },
+    {
+      "word": "values",
+      "start_ms": 191920,
+      "end_ms": 192180,
+      "start_frame": 5758,
+      "end_frame": 5765
+    },
+    {
+      "word": "are",
+      "start_ms": 192180,
+      "end_ms": 192940,
+      "start_frame": 5765,
+      "end_frame": 5788
+    },
+    {
+      "word": "8,",
+      "start_ms": 192940,
+      "end_ms": 193540,
+      "start_frame": 5788,
+      "end_frame": 5806
+    },
+    {
+      "word": "14,",
+      "start_ms": 193960,
+      "end_ms": 194520,
+      "start_frame": 5819,
+      "end_frame": 5836
+    },
+    {
+      "word": "18,",
+      "start_ms": 195580,
+      "end_ms": 195880,
+      "start_frame": 5867,
+      "end_frame": 5876
+    },
+    {
+      "word": "12.",
+      "start_ms": 196720,
+      "end_ms": 197160,
+      "start_frame": 5902,
+      "end_frame": 5915
+    },
+    {
+      "word": "Save",
+      "start_ms": 197580,
+      "end_ms": 197860,
+      "start_frame": 5927,
+      "end_frame": 5936
+    },
+    {
+      "word": "8,",
+      "start_ms": 197860,
+      "end_ms": 199000,
+      "start_frame": 5936,
+      "end_frame": 5970
+    },
+    {
+      "word": "12.",
+      "start_ms": 199380,
+      "end_ms": 199980,
+      "start_frame": 5981,
+      "end_frame": 5999
+    },
+    {
+      "word": "Moves",
+      "start_ms": 200320,
+      "end_ms": 200480,
+      "start_frame": 6010,
+      "end_frame": 6014
+    },
+    {
+      "word": "into",
+      "start_ms": 200480,
+      "end_ms": 200640,
+      "start_frame": 6014,
+      "end_frame": 6019
+    },
+    {
+      "word": "top.",
+      "start_ms": 200640,
+      "end_ms": 201040,
+      "start_frame": 6019,
+      "end_frame": 6031
+    },
+    {
+      "word": "18",
+      "start_ms": 201520,
+      "end_ms": 201940,
+      "start_frame": 6046,
+      "end_frame": 6058
+    },
+    {
+      "word": "moves",
+      "start_ms": 201940,
+      "end_ms": 202760,
+      "start_frame": 6058,
+      "end_frame": 6083
+    },
+    {
+      "word": "into",
+      "start_ms": 202760,
+      "end_ms": 202940,
+      "start_frame": 6083,
+      "end_frame": 6088
+    },
+    {
+      "word": "left.",
+      "start_ms": 202940,
+      "end_ms": 203280,
+      "start_frame": 6088,
+      "end_frame": 6098
+    },
+    {
+      "word": "14",
+      "start_ms": 203800,
+      "end_ms": 204360,
+      "start_frame": 6114,
+      "end_frame": 6131
+    },
+    {
+      "word": "moves",
+      "start_ms": 204360,
+      "end_ms": 204940,
+      "start_frame": 6131,
+      "end_frame": 6148
+    },
+    {
+      "word": "into",
+      "start_ms": 204940,
+      "end_ms": 205120,
+      "start_frame": 6148,
+      "end_frame": 6154
+    },
+    {
+      "word": "bottom.",
+      "start_ms": 205120,
+      "end_ms": 205460,
+      "start_frame": 6154,
+      "end_frame": 6164
+    },
+    {
+      "word": "And",
+      "start_ms": 206160,
+      "end_ms": 206380,
+      "start_frame": 6185,
+      "end_frame": 6191
+    },
+    {
+      "word": "save",
+      "start_ms": 206380,
+      "end_ms": 206520,
+      "start_frame": 6191,
+      "end_frame": 6196
+    },
+    {
+      "word": "8",
+      "start_ms": 206520,
+      "end_ms": 206860,
+      "start_frame": 6196,
+      "end_frame": 6206
+    },
+    {
+      "word": "moves",
+      "start_ms": 206860,
+      "end_ms": 207580,
+      "start_frame": 6206,
+      "end_frame": 6227
+    },
+    {
+      "word": "into",
+      "start_ms": 207580,
+      "end_ms": 207800,
+      "start_frame": 6227,
+      "end_frame": 6234
+    },
+    {
+      "word": "right.",
+      "start_ms": 207800,
+      "end_ms": 208140,
+      "start_frame": 6234,
+      "end_frame": 6244
+    },
+    {
+      "word": "The",
+      "start_ms": 209180,
+      "end_ms": 209400,
+      "start_frame": 6275,
+      "end_frame": 6282
+    },
+    {
+      "word": "inner",
+      "start_ms": 209400,
+      "end_ms": 209640,
+      "start_frame": 6282,
+      "end_frame": 6289
+    },
+    {
+      "word": "layer",
+      "start_ms": 209640,
+      "end_ms": 210020,
+      "start_frame": 6289,
+      "end_frame": 6301
+    },
+    {
+      "word": "is",
+      "start_ms": 210020,
+      "end_ms": 210560,
+      "start_frame": 6301,
+      "end_frame": 6317
+    },
+    {
+      "word": "now",
+      "start_ms": 210560,
+      "end_ms": 210820,
+      "start_frame": 6317,
+      "end_frame": 6325
+    },
+    {
+      "word": "complete.",
+      "start_ms": 210820,
+      "end_ms": 211300,
+      "start_frame": 6325,
+      "end_frame": 6339
+    },
+    {
+      "word": "And",
+      "start_ms": 211960,
+      "end_ms": 212060,
+      "start_frame": 6359,
+      "end_frame": 6362
+    },
+    {
+      "word": "13.",
+      "start_ms": 212060,
+      "end_ms": 212620,
+      "start_frame": 6362,
+      "end_frame": 6379
+    },
+    {
+      "word": "The",
+      "start_ms": 213520,
+      "end_ms": 213720,
+      "start_frame": 6406,
+      "end_frame": 6412
+    },
+    {
+      "word": "center",
+      "start_ms": 213720,
+      "end_ms": 214000,
+      "start_frame": 6412,
+      "end_frame": 6420
+    },
+    {
+      "word": "value",
+      "start_ms": 214000,
+      "end_ms": 214560,
+      "start_frame": 6420,
+      "end_frame": 6437
+    },
+    {
+      "word": "was",
+      "start_ms": 214560,
+      "end_ms": 215120,
+      "start_frame": 6437,
+      "end_frame": 6454
+    },
+    {
+      "word": "never",
+      "start_ms": 215120,
+      "end_ms": 215420,
+      "start_frame": 6454,
+      "end_frame": 6463
+    },
+    {
+      "word": "part",
+      "start_ms": 215420,
+      "end_ms": 215840,
+      "start_frame": 6463,
+      "end_frame": 6475
+    },
+    {
+      "word": "of",
+      "start_ms": 215840,
+      "end_ms": 216680,
+      "start_frame": 6475,
+      "end_frame": 6500
+    },
+    {
+      "word": "any",
+      "start_ms": 216680,
+      "end_ms": 217020,
+      "start_frame": 6500,
+      "end_frame": 6511
+    },
+    {
+      "word": "four",
+      "start_ms": 217020,
+      "end_ms": 217300,
+      "start_frame": 6511,
+      "end_frame": 6519
+    },
+    {
+      "word": "position",
+      "start_ms": 217300,
+      "end_ms": 217740,
+      "start_frame": 6519,
+      "end_frame": 6532
+    },
+    {
+      "word": "cycle.",
+      "start_ms": 217740,
+      "end_ms": 218200,
+      "start_frame": 6532,
+      "end_frame": 6546
+    },
+    {
+      "word": "So",
+      "start_ms": 219080,
+      "end_ms": 219340,
+      "start_frame": 6572,
+      "end_frame": 6580
+    },
+    {
+      "word": "it",
+      "start_ms": 219340,
+      "end_ms": 219520,
+      "start_frame": 6580,
+      "end_frame": 6586
+    },
+    {
+      "word": "remained",
+      "start_ms": 219520,
+      "end_ms": 219940,
+      "start_frame": 6586,
+      "end_frame": 6598
+    },
+    {
+      "word": "exactly",
+      "start_ms": 219940,
+      "end_ms": 220900,
+      "start_frame": 6598,
+      "end_frame": 6627
+    },
+    {
+      "word": "where",
+      "start_ms": 220900,
+      "end_ms": 221100,
+      "start_frame": 6627,
+      "end_frame": 6633
+    },
+    {
+      "word": "it",
+      "start_ms": 221100,
+      "end_ms": 221340,
+      "start_frame": 6633,
+      "end_frame": 6640
+    },
+    {
+      "word": "started.",
+      "start_ms": 221340,
+      "end_ms": 221680,
+      "start_frame": 6640,
+      "end_frame": 6650
+    },
+    {
+      "word": "The",
+      "start_ms": 222300,
+      "end_ms": 222500,
+      "start_frame": 6669,
+      "end_frame": 6675
+    },
+    {
+      "word": "entire",
+      "start_ms": 222500,
+      "end_ms": 222840,
+      "start_frame": 6675,
+      "end_frame": 6685
+    },
+    {
+      "word": "matrix",
+      "start_ms": 222840,
+      "end_ms": 223320,
+      "start_frame": 6685,
+      "end_frame": 6700
+    },
+    {
+      "word": "has",
+      "start_ms": 223320,
+      "end_ms": 224020,
+      "start_frame": 6700,
+      "end_frame": 6721
+    },
+    {
+      "word": "now",
+      "start_ms": 224020,
+      "end_ms": 224260,
+      "start_frame": 6721,
+      "end_frame": 6728
+    },
+    {
+      "word": "been",
+      "start_ms": 224260,
+      "end_ms": 224500,
+      "start_frame": 6728,
+      "end_frame": 6735
+    },
+    {
+      "word": "rotated",
+      "start_ms": 224500,
+      "end_ms": 225240,
+      "start_frame": 6735,
+      "end_frame": 6757
+    },
+    {
+      "word": "90",
+      "start_ms": 225240,
+      "end_ms": 226060,
+      "start_frame": 6757,
+      "end_frame": 6782
+    },
+    {
+      "word": "degrees",
+      "start_ms": 226060,
+      "end_ms": 226660,
+      "start_frame": 6782,
+      "end_frame": 6800
+    },
+    {
+      "word": "clockwise",
+      "start_ms": 226660,
+      "end_ms": 227280,
+      "start_frame": 6800,
+      "end_frame": 6818
+    },
+    {
+      "word": "without",
+      "start_ms": 227280,
+      "end_ms": 228200,
+      "start_frame": 6818,
+      "end_frame": 6846
+    },
+    {
+      "word": "creating",
+      "start_ms": 228200,
+      "end_ms": 229200,
+      "start_frame": 6846,
+      "end_frame": 6876
+    },
+    {
+      "word": "another",
+      "start_ms": 229200,
+      "end_ms": 230040,
+      "start_frame": 6876,
+      "end_frame": 6901
+    },
+    {
+      "word": "matrix.",
+      "start_ms": 230040,
+      "end_ms": 230640,
+      "start_frame": 6901,
+      "end_frame": 6919
+    },
+    {
+      "word": "The",
+      "start_ms": 231480,
+      "end_ms": 231720,
+      "start_frame": 6944,
+      "end_frame": 6952
+    },
+    {
+      "word": "pattern",
+      "start_ms": 231720,
+      "end_ms": 232060,
+      "start_frame": 6952,
+      "end_frame": 6962
+    },
+    {
+      "word": "is",
+      "start_ms": 232060,
+      "end_ms": 232600,
+      "start_frame": 6962,
+      "end_frame": 6978
+    },
+    {
+      "word": "finish",
+      "start_ms": 232600,
+      "end_ms": 233240,
+      "start_frame": 6978,
+      "end_frame": 6997
+    },
+    {
+      "word": "one",
+      "start_ms": 233240,
+      "end_ms": 233600,
+      "start_frame": 6997,
+      "end_frame": 7008
+    },
+    {
+      "word": "four",
+      "start_ms": 233600,
+      "end_ms": 233920,
+      "start_frame": 7008,
+      "end_frame": 7018
+    },
+    {
+      "word": "position",
+      "start_ms": 233920,
+      "end_ms": 234440,
+      "start_frame": 7018,
+      "end_frame": 7033
+    },
+    {
+      "word": "cycle",
+      "start_ms": 234440,
+      "end_ms": 234980,
+      "start_frame": 7033,
+      "end_frame": 7049
+    },
+    {
+      "word": "safely,",
+      "start_ms": 234980,
+      "end_ms": 235620,
+      "start_frame": 7049,
+      "end_frame": 7069
+    },
+    {
+      "word": "continue",
+      "start_ms": 236280,
+      "end_ms": 236700,
+      "start_frame": 7088,
+      "end_frame": 7101
+    },
+    {
+      "word": "across",
+      "start_ms": 236700,
+      "end_ms": 237140,
+      "start_frame": 7101,
+      "end_frame": 7114
+    },
+    {
+      "word": "the",
+      "start_ms": 237140,
+      "end_ms": 237420,
+      "start_frame": 7114,
+      "end_frame": 7123
+    },
+    {
+      "word": "layer,",
+      "start_ms": 237420,
+      "end_ms": 237860,
+      "start_frame": 7123,
+      "end_frame": 7136
+    },
+    {
+      "word": "finish",
+      "start_ms": 238360,
+      "end_ms": 238620,
+      "start_frame": 7151,
+      "end_frame": 7159
+    },
+    {
+      "word": "the",
+      "start_ms": 238620,
+      "end_ms": 238880,
+      "start_frame": 7159,
+      "end_frame": 7166
+    },
+    {
+      "word": "complete",
+      "start_ms": 238880,
+      "end_ms": 239240,
+      "start_frame": 7166,
+      "end_frame": 7177
+    },
+    {
+      "word": "layer,",
+      "start_ms": 239240,
+      "end_ms": 239700,
+      "start_frame": 7177,
+      "end_frame": 7191
+    },
+    {
+      "word": "then",
+      "start_ms": 240260,
+      "end_ms": 240400,
+      "start_frame": 7208,
+      "end_frame": 7212
+    },
+    {
+      "word": "move",
+      "start_ms": 240400,
+      "end_ms": 240700,
+      "start_frame": 7212,
+      "end_frame": 7221
+    },
+    {
+      "word": "inward.",
+      "start_ms": 240700,
+      "end_ms": 241120,
+      "start_frame": 7221,
+      "end_frame": 7234
+    },
+    {
+      "word": "Now",
+      "start_ms": 241980,
+      "end_ms": 242160,
+      "start_frame": 7259,
+      "end_frame": 7265
+    },
+    {
+      "word": "let's",
+      "start_ms": 242160,
+      "end_ms": 242540,
+      "start_frame": 7265,
+      "end_frame": 7276
+    },
+    {
+      "word": "translate",
+      "start_ms": 242540,
+      "end_ms": 243160,
+      "start_frame": 7276,
+      "end_frame": 7295
+    },
+    {
+      "word": "that",
+      "start_ms": 243160,
+      "end_ms": 243920,
+      "start_frame": 7295,
+      "end_frame": 7318
+    },
+    {
+      "word": "exact",
+      "start_ms": 243920,
+      "end_ms": 244420,
+      "start_frame": 7318,
+      "end_frame": 7333
+    },
+    {
+      "word": "movement",
+      "start_ms": 244420,
+      "end_ms": 245060,
+      "start_frame": 7333,
+      "end_frame": 7352
+    },
+    {
+      "word": "into",
+      "start_ms": 245060,
+      "end_ms": 245800,
+      "start_frame": 7352,
+      "end_frame": 7374
+    },
+    {
+      "word": "code.",
+      "start_ms": 245800,
+      "end_ms": 246200,
+      "start_frame": 7374,
+      "end_frame": 7386
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Now, we use only the original matrix.",
+      "start_ms": 0,
+      "end_ms": 3760,
+      "start_frame": 0,
+      "end_frame": 113,
+      "word_count": 7
+    },
+    {
+      "text": "Think of the matrix as layers.",
+      "start_ms": 4040,
+      "end_ms": 6280,
+      "start_frame": 121,
+      "end_frame": 188,
+      "word_count": 6
+    },
+    {
+      "text": "For our 5 by 5 matrix, the outside border is the first layer.",
+      "start_ms": 7020,
+      "end_ms": 12160,
+      "start_frame": 211,
+      "end_frame": 365,
+      "word_count": 13
+    },
+    {
+      "text": "Inside that, the 3 by 3 border is the second layer, and the center is left alone.",
+      "start_ms": 12800,
+      "end_ms": 19480,
+      "start_frame": 384,
+      "end_frame": 584,
+      "word_count": 17
+    },
+    {
+      "text": "Let's begin.",
+      "start_ms": 20120,
+      "end_ms": 20960,
+      "start_frame": 604,
+      "end_frame": 629,
+      "word_count": 2
+    },
+    {
+      "text": "With the outer layer, the first four connected positions contain top, 1, right, 5, bottom, 25, left, 21.",
+      "start_ms": 21640,
+      "end_ms": 32780,
+      "start_frame": 649,
+      "end_frame": 983,
+      "word_count": 18
+    },
+    {
+      "text": "For clockwise rotation, top must go to right, right must go to bottom, bottom must go to left, and left must go to top.",
+      "start_ms": 33540,
+      "end_ms": 41480,
+      "start_frame": 1006,
+      "end_frame": 1244,
+      "word_count": 24
+    },
+    {
+      "text": "But we cannot write top into right first, because we would destroy the old right value.",
+      "start_ms": 41980,
+      "end_ms": 48620,
+      "start_frame": 1259,
+      "end_frame": 1459,
+      "word_count": 16
+    },
+    {
+      "text": "So save the top value.",
+      "start_ms": 49360,
+      "end_ms": 51420,
+      "start_frame": 1481,
+      "end_frame": 1543,
+      "word_count": 5
+    },
+    {
+      "text": "Save 1.",
+      "start_ms": 51820,
+      "end_ms": 53360,
+      "start_frame": 1555,
+      "end_frame": 1601,
+      "word_count": 2
+    },
+    {
+      "text": "Now move 21 from left into top, then move 25 from bottom into left, then move 5 from right into bottom.",
+      "start_ms": 53750,
+      "end_ms": 66800,
+      "start_frame": 1612,
+      "end_frame": 2004,
+      "word_count": 21
+    },
+    {
+      "text": "And finally, move the save value, 1, into right.",
+      "start_ms": 67460,
+      "end_ms": 72020,
+      "start_frame": 2024,
+      "end_frame": 2161,
+      "word_count": 9
+    },
+    {
+      "text": "The first four -position cycle is complete.",
+      "start_ms": 72860,
+      "end_ms": 75360,
+      "start_frame": 2186,
+      "end_frame": 2261,
+      "word_count": 7
+    },
+    {
+      "text": "The four corners are now in their final rotated positions.",
+      "start_ms": 75840,
+      "end_ms": 79500,
+      "start_frame": 2275,
+      "end_frame": 2385,
+      "word_count": 10
+    },
+    {
+      "text": "Move one position to the right along the top edge.",
+      "start_ms": 79890,
+      "end_ms": 83600,
+      "start_frame": 2397,
+      "end_frame": 2508,
+      "word_count": 10
+    },
+    {
+      "text": "The next connected values are 2, 10, 24, 16.",
+      "start_ms": 84140,
+      "end_ms": 89820,
+      "start_frame": 2524,
+      "end_frame": 2695,
+      "word_count": 9
+    },
+    {
+      "text": "Save 2, 16.",
+      "start_ms": 90420,
+      "end_ms": 92560,
+      "start_frame": 2713,
+      "end_frame": 2777,
+      "word_count": 3
+    },
+    {
+      "text": "Moves from left into top.",
+      "start_ms": 93060,
+      "end_ms": 94820,
+      "start_frame": 2792,
+      "end_frame": 2845,
+      "word_count": 5
+    },
+    {
+      "text": "24 moves from bottom into left.",
+      "start_ms": 95700,
+      "end_ms": 98920,
+      "start_frame": 2871,
+      "end_frame": 2968,
+      "word_count": 6
+    },
+    {
+      "text": "10 moves from right into bottom.",
+      "start_ms": 99500,
+      "end_ms": 102660,
+      "start_frame": 2985,
+      "end_frame": 3080,
+      "word_count": 6
+    },
+    {
+      "text": "And save 2 moves into right.",
+      "start_ms": 103040,
+      "end_ms": 105720,
+      "start_frame": 3091,
+      "end_frame": 3172,
+      "word_count": 6
+    },
+    {
+      "text": "Second cycle complete.",
+      "start_ms": 106380,
+      "end_ms": 107920,
+      "start_frame": 3191,
+      "end_frame": 3238,
+      "word_count": 3
+    },
+    {
+      "text": "Move one more position.",
+      "start_ms": 108360,
+      "end_ms": 110020,
+      "start_frame": 3251,
+      "end_frame": 3301,
+      "word_count": 4
+    },
+    {
+      "text": "Now the connected values are 3, 15, 23, 11.",
+      "start_ms": 110620,
+      "end_ms": 115240,
+      "start_frame": 3319,
+      "end_frame": 3457,
+      "word_count": 9
+    },
+    {
+      "text": "Save 3, 11.",
+      "start_ms": 116160,
+      "end_ms": 118100,
+      "start_frame": 3485,
+      "end_frame": 3543,
+      "word_count": 3
+    },
+    {
+      "text": "Moves into top.",
+      "start_ms": 118620,
+      "end_ms": 119520,
+      "start_frame": 3559,
+      "end_frame": 3586,
+      "word_count": 3
+    },
+    {
+      "text": "23 moves into left.",
+      "start_ms": 120060,
+      "end_ms": 121780,
+      "start_frame": 3602,
+      "end_frame": 3653,
+      "word_count": 4
+    },
+    {
+      "text": "15 moves into bottom.",
+      "start_ms": 122280,
+      "end_ms": 124160,
+      "start_frame": 3668,
+      "end_frame": 3725,
+      "word_count": 4
+    },
+    {
+      "text": "And save 3 moves into right.",
+      "start_ms": 124880,
+      "end_ms": 127460,
+      "start_frame": 3746,
+      "end_frame": 3824,
+      "word_count": 6
+    },
+    {
+      "text": "Third cycle complete.",
+      "start_ms": 128220,
+      "end_ms": 129700,
+      "start_frame": 3847,
+      "end_frame": 3891,
+      "word_count": 3
+    },
+    {
+      "text": "One final cycle for the outer layer.",
+      "start_ms": 130280,
+      "end_ms": 132860,
+      "start_frame": 3908,
+      "end_frame": 3986,
+      "word_count": 7
+    },
+    {
+      "text": "The connected values are 4, 20, 22, 6.",
+      "start_ms": 133040,
+      "end_ms": 138520,
+      "start_frame": 3991,
+      "end_frame": 4156,
+      "word_count": 8
+    },
+    {
+      "text": "Save 4, 6.",
+      "start_ms": 138900,
+      "end_ms": 141160,
+      "start_frame": 4167,
+      "end_frame": 4235,
+      "word_count": 3
+    },
+    {
+      "text": "Moves into top.",
+      "start_ms": 141500,
+      "end_ms": 142280,
+      "start_frame": 4245,
+      "end_frame": 4268,
+      "word_count": 3
+    },
+    {
+      "text": "22 moves into left.",
+      "start_ms": 142780,
+      "end_ms": 144580,
+      "start_frame": 4283,
+      "end_frame": 4337,
+      "word_count": 4
+    },
+    {
+      "text": "20 moves into bottom.",
+      "start_ms": 145120,
+      "end_ms": 146800,
+      "start_frame": 4354,
+      "end_frame": 4404,
+      "word_count": 4
+    },
+    {
+      "text": "And save 4 moves into right.",
+      "start_ms": 147360,
+      "end_ms": 149220,
+      "start_frame": 4421,
+      "end_frame": 4477,
+      "word_count": 6
+    },
+    {
+      "text": "Now the entire outer layer is complete.",
+      "start_ms": 149960,
+      "end_ms": 153320,
+      "start_frame": 4499,
+      "end_frame": 4600,
+      "word_count": 7
+    },
+    {
+      "text": "Every value on this border is already in its final rotated position.",
+      "start_ms": 153780,
+      "end_ms": 159080,
+      "start_frame": 4613,
+      "end_frame": 4772,
+      "word_count": 12
+    },
+    {
+      "text": "So we do not touch this layer again.",
+      "start_ms": 159560,
+      "end_ms": 162660,
+      "start_frame": 4787,
+      "end_frame": 4880,
+      "word_count": 8
+    },
+    {
+      "text": "Now move one layer inward.",
+      "start_ms": 163400,
+      "end_ms": 165760,
+      "start_frame": 4902,
+      "end_frame": 4973,
+      "word_count": 5
+    },
+    {
+      "text": "The inner layer is a 3 by 3 border.",
+      "start_ms": 166120,
+      "end_ms": 168740,
+      "start_frame": 4984,
+      "end_frame": 5062,
+      "word_count": 9
+    },
+    {
+      "text": "Its first connected values are 7, 9, 19, 17.",
+      "start_ms": 169200,
+      "end_ms": 174500,
+      "start_frame": 5076,
+      "end_frame": 5235,
+      "word_count": 9
+    },
+    {
+      "text": "Save 7, 17.",
+      "start_ms": 175080,
+      "end_ms": 177660,
+      "start_frame": 5252,
+      "end_frame": 5330,
+      "word_count": 3
+    },
+    {
+      "text": "Moves into top.",
+      "start_ms": 178240,
+      "end_ms": 178940,
+      "start_frame": 5347,
+      "end_frame": 5368,
+      "word_count": 3
+    },
+    {
+      "text": "19 moves into left.",
+      "start_ms": 179480,
+      "end_ms": 181240,
+      "start_frame": 5384,
+      "end_frame": 5437,
+      "word_count": 4
+    },
+    {
+      "text": "9 moves into bottom.",
+      "start_ms": 181800,
+      "end_ms": 183580,
+      "start_frame": 5454,
+      "end_frame": 5507,
+      "word_count": 4
+    },
+    {
+      "text": "And save 7 moves into right.",
+      "start_ms": 184120,
+      "end_ms": 186180,
+      "start_frame": 5524,
+      "end_frame": 5585,
+      "word_count": 6
+    },
+    {
+      "text": "First inner cycle complete.",
+      "start_ms": 186820,
+      "end_ms": 188740,
+      "start_frame": 5605,
+      "end_frame": 5662,
+      "word_count": 4
+    },
+    {
+      "text": "Now the final four position cycle.",
+      "start_ms": 189080,
+      "end_ms": 191280,
+      "start_frame": 5672,
+      "end_frame": 5738,
+      "word_count": 6
+    },
+    {
+      "text": "The values are 8, 14, 18, 12.",
+      "start_ms": 191800,
+      "end_ms": 197160,
+      "start_frame": 5754,
+      "end_frame": 5915,
+      "word_count": 7
+    },
+    {
+      "text": "Save 8, 12.",
+      "start_ms": 197580,
+      "end_ms": 199980,
+      "start_frame": 5927,
+      "end_frame": 5999,
+      "word_count": 3
+    },
+    {
+      "text": "Moves into top.",
+      "start_ms": 200320,
+      "end_ms": 201040,
+      "start_frame": 6010,
+      "end_frame": 6031,
+      "word_count": 3
+    },
+    {
+      "text": "18 moves into left.",
+      "start_ms": 201520,
+      "end_ms": 203280,
+      "start_frame": 6046,
+      "end_frame": 6098,
+      "word_count": 4
+    },
+    {
+      "text": "14 moves into bottom.",
+      "start_ms": 203800,
+      "end_ms": 205460,
+      "start_frame": 6114,
+      "end_frame": 6164,
+      "word_count": 4
+    },
+    {
+      "text": "And save 8 moves into right.",
+      "start_ms": 206160,
+      "end_ms": 208140,
+      "start_frame": 6185,
+      "end_frame": 6244,
+      "word_count": 6
+    },
+    {
+      "text": "The inner layer is now complete.",
+      "start_ms": 209180,
+      "end_ms": 211300,
+      "start_frame": 6275,
+      "end_frame": 6339,
+      "word_count": 6
+    },
+    {
+      "text": "And 13.",
+      "start_ms": 211960,
+      "end_ms": 212620,
+      "start_frame": 6359,
+      "end_frame": 6379,
+      "word_count": 2
+    },
+    {
+      "text": "The center value was never part of any four position cycle.",
+      "start_ms": 213520,
+      "end_ms": 218200,
+      "start_frame": 6406,
+      "end_frame": 6546,
+      "word_count": 11
+    },
+    {
+      "text": "So it remained exactly where it started.",
+      "start_ms": 219080,
+      "end_ms": 221680,
+      "start_frame": 6572,
+      "end_frame": 6650,
+      "word_count": 7
+    },
+    {
+      "text": "The entire matrix has now been rotated 90 degrees clockwise without creating another matrix.",
+      "start_ms": 222300,
+      "end_ms": 230640,
+      "start_frame": 6669,
+      "end_frame": 6919,
+      "word_count": 14
+    },
+    {
+      "text": "The pattern is finish one four position cycle safely, continue across the layer, finish the complete layer, then move inward.",
+      "start_ms": 231480,
+      "end_ms": 241120,
+      "start_frame": 6944,
+      "end_frame": 7234,
+      "word_count": 20
+    },
+    {
+      "text": "Now let's translate that exact movement into code.",
+      "start_ms": 241980,
+      "end_ms": 246200,
+      "start_frame": 7259,
+      "end_frame": 7386,
+      "word_count": 8
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "Now,",
+      "before_word": "we",
+      "start_ms": 540,
+      "end_ms": 940,
+      "duration_ms": 400,
+      "start_frame": 16,
+      "end_frame": 28,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "layers.",
+      "before_word": "For",
+      "start_ms": 6280,
+      "end_ms": 7020,
+      "duration_ms": 740,
+      "start_frame": 188,
+      "end_frame": 211,
+      "duration_frames": 23
+    },
+    {
+      "after_word": "matrix,",
+      "before_word": "the",
+      "start_ms": 8920,
+      "end_ms": 9340,
+      "duration_ms": 420,
+      "start_frame": 268,
+      "end_frame": 280,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "layer.",
+      "before_word": "Inside",
+      "start_ms": 12160,
+      "end_ms": 12800,
+      "duration_ms": 640,
+      "start_frame": 365,
+      "end_frame": 384,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "that,",
+      "before_word": "the",
+      "start_ms": 13680,
+      "end_ms": 14140,
+      "duration_ms": 460,
+      "start_frame": 410,
+      "end_frame": 424,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "layer,",
+      "before_word": "and",
+      "start_ms": 17100,
+      "end_ms": 17500,
+      "duration_ms": 400,
+      "start_frame": 513,
+      "end_frame": 525,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "alone.",
+      "before_word": "Let's",
+      "start_ms": 19480,
+      "end_ms": 20120,
+      "duration_ms": 640,
+      "start_frame": 584,
+      "end_frame": 604,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "begin.",
+      "before_word": "With",
+      "start_ms": 20960,
+      "end_ms": 21640,
+      "duration_ms": 680,
+      "start_frame": 629,
+      "end_frame": 649,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "layer,",
+      "before_word": "the",
+      "start_ms": 22840,
+      "end_ms": 23580,
+      "duration_ms": 740,
+      "start_frame": 685,
+      "end_frame": 707,
+      "duration_frames": 22
+    },
+    {
+      "after_word": "top,",
+      "before_word": "1,",
+      "start_ms": 26740,
+      "end_ms": 27220,
+      "duration_ms": 480,
+      "start_frame": 802,
+      "end_frame": 817,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "1,",
+      "before_word": "right,",
+      "start_ms": 27740,
+      "end_ms": 28260,
+      "duration_ms": 520,
+      "start_frame": 832,
+      "end_frame": 848,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "right,",
+      "before_word": "5,",
+      "start_ms": 28600,
+      "end_ms": 28900,
+      "duration_ms": 300,
+      "start_frame": 858,
+      "end_frame": 867,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "bottom,",
+      "before_word": "25,",
+      "start_ms": 29940,
+      "end_ms": 30360,
+      "duration_ms": 420,
+      "start_frame": 898,
+      "end_frame": 911,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "25,",
+      "before_word": "left,",
+      "start_ms": 30860,
+      "end_ms": 31520,
+      "duration_ms": 660,
+      "start_frame": 926,
+      "end_frame": 946,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "left,",
+      "before_word": "21.",
+      "start_ms": 31900,
+      "end_ms": 32280,
+      "duration_ms": 380,
+      "start_frame": 957,
+      "end_frame": 968,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "21.",
+      "before_word": "For",
+      "start_ms": 32780,
+      "end_ms": 33540,
+      "duration_ms": 760,
+      "start_frame": 983,
+      "end_frame": 1006,
+      "duration_frames": 23
+    },
+    {
+      "after_word": "bottom,",
+      "before_word": "bottom",
+      "start_ms": 37900,
+      "end_ms": 38320,
+      "duration_ms": 420,
+      "start_frame": 1137,
+      "end_frame": 1150,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "left,",
+      "before_word": "and",
+      "start_ms": 39600,
+      "end_ms": 40060,
+      "duration_ms": 460,
+      "start_frame": 1188,
+      "end_frame": 1202,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "top.",
+      "before_word": "But",
+      "start_ms": 41480,
+      "end_ms": 41980,
+      "duration_ms": 500,
+      "start_frame": 1244,
+      "end_frame": 1259,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "first,",
+      "before_word": "because",
+      "start_ms": 45220,
+      "end_ms": 45600,
+      "duration_ms": 380,
+      "start_frame": 1357,
+      "end_frame": 1368,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "value.",
+      "before_word": "So",
+      "start_ms": 48620,
+      "end_ms": 49360,
+      "duration_ms": 740,
+      "start_frame": 1459,
+      "end_frame": 1481,
+      "duration_frames": 22
+    },
+    {
+      "after_word": "value.",
+      "before_word": "Save",
+      "start_ms": 51420,
+      "end_ms": 51820,
+      "duration_ms": 400,
+      "start_frame": 1543,
+      "end_frame": 1555,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "1.",
+      "before_word": "Now",
+      "start_ms": 53360,
+      "end_ms": 53750,
+      "duration_ms": 390,
+      "start_frame": 1601,
+      "end_frame": 1612,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "top,",
+      "before_word": "then",
+      "start_ms": 57920,
+      "end_ms": 58340,
+      "duration_ms": 420,
+      "start_frame": 1738,
+      "end_frame": 1750,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "left,",
+      "before_word": "then",
+      "start_ms": 62300,
+      "end_ms": 62880,
+      "duration_ms": 580,
+      "start_frame": 1869,
+      "end_frame": 1886,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "bottom.",
+      "before_word": "And",
+      "start_ms": 66800,
+      "end_ms": 67460,
+      "duration_ms": 660,
+      "start_frame": 2004,
+      "end_frame": 2024,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "finally,",
+      "before_word": "move",
+      "start_ms": 68220,
+      "end_ms": 68680,
+      "duration_ms": 460,
+      "start_frame": 2047,
+      "end_frame": 2060,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "value,",
+      "before_word": "1,",
+      "start_ms": 69980,
+      "end_ms": 70500,
+      "duration_ms": 520,
+      "start_frame": 2099,
+      "end_frame": 2115,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "1,",
+      "before_word": "into",
+      "start_ms": 71080,
+      "end_ms": 71380,
+      "duration_ms": 300,
+      "start_frame": 2132,
+      "end_frame": 2141,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "right.",
+      "before_word": "The",
+      "start_ms": 72020,
+      "end_ms": 72860,
+      "duration_ms": 840,
+      "start_frame": 2161,
+      "end_frame": 2186,
+      "duration_frames": 25
+    },
+    {
+      "after_word": "complete.",
+      "before_word": "The",
+      "start_ms": 75360,
+      "end_ms": 75840,
+      "duration_ms": 480,
+      "start_frame": 2261,
+      "end_frame": 2275,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "positions.",
+      "before_word": "Move",
+      "start_ms": 79500,
+      "end_ms": 79890,
+      "duration_ms": 390,
+      "start_frame": 2385,
+      "end_frame": 2397,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "edge.",
+      "before_word": "The",
+      "start_ms": 83600,
+      "end_ms": 84140,
+      "duration_ms": 540,
+      "start_frame": 2508,
+      "end_frame": 2524,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "2,",
+      "before_word": "10,",
+      "start_ms": 86640,
+      "end_ms": 87020,
+      "duration_ms": 380,
+      "start_frame": 2599,
+      "end_frame": 2611,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "10,",
+      "before_word": "24,",
+      "start_ms": 87520,
+      "end_ms": 88000,
+      "duration_ms": 480,
+      "start_frame": 2626,
+      "end_frame": 2640,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "24,",
+      "before_word": "16.",
+      "start_ms": 88560,
+      "end_ms": 89080,
+      "duration_ms": 520,
+      "start_frame": 2657,
+      "end_frame": 2672,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "16.",
+      "before_word": "Save",
+      "start_ms": 89820,
+      "end_ms": 90420,
+      "duration_ms": 600,
+      "start_frame": 2695,
+      "end_frame": 2713,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "16.",
+      "before_word": "Moves",
+      "start_ms": 92560,
+      "end_ms": 93060,
+      "duration_ms": 500,
+      "start_frame": 2777,
+      "end_frame": 2792,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "top.",
+      "before_word": "24",
+      "start_ms": 94820,
+      "end_ms": 95700,
+      "duration_ms": 880,
+      "start_frame": 2845,
+      "end_frame": 2871,
+      "duration_frames": 26
+    },
+    {
+      "after_word": "left.",
+      "before_word": "10",
+      "start_ms": 98920,
+      "end_ms": 99500,
+      "duration_ms": 580,
+      "start_frame": 2968,
+      "end_frame": 2985,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "bottom.",
+      "before_word": "And",
+      "start_ms": 102660,
+      "end_ms": 103040,
+      "duration_ms": 380,
+      "start_frame": 3080,
+      "end_frame": 3091,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "right.",
+      "before_word": "Second",
+      "start_ms": 105720,
+      "end_ms": 106380,
+      "duration_ms": 660,
+      "start_frame": 3172,
+      "end_frame": 3191,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "complete.",
+      "before_word": "Move",
+      "start_ms": 107920,
+      "end_ms": 108360,
+      "duration_ms": 440,
+      "start_frame": 3238,
+      "end_frame": 3251,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "position.",
+      "before_word": "Now",
+      "start_ms": 110020,
+      "end_ms": 110620,
+      "duration_ms": 600,
+      "start_frame": 3301,
+      "end_frame": 3319,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "15,",
+      "before_word": "23,",
+      "start_ms": 113200,
+      "end_ms": 113620,
+      "duration_ms": 420,
+      "start_frame": 3396,
+      "end_frame": 3409,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "23,",
+      "before_word": "11.",
+      "start_ms": 114160,
+      "end_ms": 114660,
+      "duration_ms": 500,
+      "start_frame": 3425,
+      "end_frame": 3440,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "11.",
+      "before_word": "Save",
+      "start_ms": 115240,
+      "end_ms": 116160,
+      "duration_ms": 920,
+      "start_frame": 3457,
+      "end_frame": 3485,
+      "duration_frames": 28
+    },
+    {
+      "after_word": "11.",
+      "before_word": "Moves",
+      "start_ms": 118100,
+      "end_ms": 118620,
+      "duration_ms": 520,
+      "start_frame": 3543,
+      "end_frame": 3559,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "top.",
+      "before_word": "23",
+      "start_ms": 119520,
+      "end_ms": 120060,
+      "duration_ms": 540,
+      "start_frame": 3586,
+      "end_frame": 3602,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "left.",
+      "before_word": "15",
+      "start_ms": 121780,
+      "end_ms": 122280,
+      "duration_ms": 500,
+      "start_frame": 3653,
+      "end_frame": 3668,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "bottom.",
+      "before_word": "And",
+      "start_ms": 124160,
+      "end_ms": 124880,
+      "duration_ms": 720,
+      "start_frame": 3725,
+      "end_frame": 3746,
+      "duration_frames": 21
+    },
+    {
+      "after_word": "right.",
+      "before_word": "Third",
+      "start_ms": 127460,
+      "end_ms": 128220,
+      "duration_ms": 760,
+      "start_frame": 3824,
+      "end_frame": 3847,
+      "duration_frames": 23
+    },
+    {
+      "after_word": "complete.",
+      "before_word": "One",
+      "start_ms": 129700,
+      "end_ms": 130280,
+      "duration_ms": 580,
+      "start_frame": 3891,
+      "end_frame": 3908,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "20,",
+      "before_word": "22,",
+      "start_ms": 136380,
+      "end_ms": 136760,
+      "duration_ms": 380,
+      "start_frame": 4091,
+      "end_frame": 4103,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "22,",
+      "before_word": "6.",
+      "start_ms": 137180,
+      "end_ms": 137900,
+      "duration_ms": 720,
+      "start_frame": 4115,
+      "end_frame": 4137,
+      "duration_frames": 22
+    },
+    {
+      "after_word": "6.",
+      "before_word": "Save",
+      "start_ms": 138520,
+      "end_ms": 138900,
+      "duration_ms": 380,
+      "start_frame": 4156,
+      "end_frame": 4167,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "6.",
+      "before_word": "Moves",
+      "start_ms": 141160,
+      "end_ms": 141500,
+      "duration_ms": 340,
+      "start_frame": 4235,
+      "end_frame": 4245,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "top.",
+      "before_word": "22",
+      "start_ms": 142280,
+      "end_ms": 142780,
+      "duration_ms": 500,
+      "start_frame": 4268,
+      "end_frame": 4283,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "left.",
+      "before_word": "20",
+      "start_ms": 144580,
+      "end_ms": 145120,
+      "duration_ms": 540,
+      "start_frame": 4337,
+      "end_frame": 4354,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "bottom.",
+      "before_word": "And",
+      "start_ms": 146800,
+      "end_ms": 147360,
+      "duration_ms": 560,
+      "start_frame": 4404,
+      "end_frame": 4421,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "right.",
+      "before_word": "Now",
+      "start_ms": 149220,
+      "end_ms": 149960,
+      "duration_ms": 740,
+      "start_frame": 4477,
+      "end_frame": 4499,
+      "duration_frames": 22
+    },
+    {
+      "after_word": "complete.",
+      "before_word": "Every",
+      "start_ms": 153320,
+      "end_ms": 153780,
+      "duration_ms": 460,
+      "start_frame": 4600,
+      "end_frame": 4613,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "already",
+      "before_word": "in",
+      "start_ms": 156480,
+      "end_ms": 156820,
+      "duration_ms": 340,
+      "start_frame": 4694,
+      "end_frame": 4705,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "position.",
+      "before_word": "So",
+      "start_ms": 159080,
+      "end_ms": 159560,
+      "duration_ms": 480,
+      "start_frame": 4772,
+      "end_frame": 4787,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "again.",
+      "before_word": "Now",
+      "start_ms": 162660,
+      "end_ms": 163400,
+      "duration_ms": 740,
+      "start_frame": 4880,
+      "end_frame": 4902,
+      "duration_frames": 22
+    },
+    {
+      "after_word": "inward.",
+      "before_word": "The",
+      "start_ms": 165760,
+      "end_ms": 166120,
+      "duration_ms": 360,
+      "start_frame": 4973,
+      "end_frame": 4984,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "border.",
+      "before_word": "Its",
+      "start_ms": 168740,
+      "end_ms": 169200,
+      "duration_ms": 460,
+      "start_frame": 5062,
+      "end_frame": 5076,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "7,",
+      "before_word": "9,",
+      "start_ms": 171620,
+      "end_ms": 171940,
+      "duration_ms": 320,
+      "start_frame": 5149,
+      "end_frame": 5158,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "9,",
+      "before_word": "19,",
+      "start_ms": 172400,
+      "end_ms": 172860,
+      "duration_ms": 460,
+      "start_frame": 5172,
+      "end_frame": 5186,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "19,",
+      "before_word": "17.",
+      "start_ms": 173320,
+      "end_ms": 173980,
+      "duration_ms": 660,
+      "start_frame": 5200,
+      "end_frame": 5219,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "17.",
+      "before_word": "Save",
+      "start_ms": 174500,
+      "end_ms": 175080,
+      "duration_ms": 580,
+      "start_frame": 5235,
+      "end_frame": 5252,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "7,",
+      "before_word": "17.",
+      "start_ms": 176620,
+      "end_ms": 177040,
+      "duration_ms": 420,
+      "start_frame": 5299,
+      "end_frame": 5311,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "17.",
+      "before_word": "Moves",
+      "start_ms": 177660,
+      "end_ms": 178240,
+      "duration_ms": 580,
+      "start_frame": 5330,
+      "end_frame": 5347,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "top.",
+      "before_word": "19",
+      "start_ms": 178940,
+      "end_ms": 179480,
+      "duration_ms": 540,
+      "start_frame": 5368,
+      "end_frame": 5384,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "left.",
+      "before_word": "9",
+      "start_ms": 181240,
+      "end_ms": 181800,
+      "duration_ms": 560,
+      "start_frame": 5437,
+      "end_frame": 5454,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "bottom.",
+      "before_word": "And",
+      "start_ms": 183580,
+      "end_ms": 184120,
+      "duration_ms": 540,
+      "start_frame": 5507,
+      "end_frame": 5524,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "right.",
+      "before_word": "First",
+      "start_ms": 186180,
+      "end_ms": 186820,
+      "duration_ms": 640,
+      "start_frame": 5585,
+      "end_frame": 5605,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "complete.",
+      "before_word": "Now",
+      "start_ms": 188740,
+      "end_ms": 189080,
+      "duration_ms": 340,
+      "start_frame": 5662,
+      "end_frame": 5672,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "cycle.",
+      "before_word": "The",
+      "start_ms": 191280,
+      "end_ms": 191800,
+      "duration_ms": 520,
+      "start_frame": 5738,
+      "end_frame": 5754,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "8,",
+      "before_word": "14,",
+      "start_ms": 193540,
+      "end_ms": 193960,
+      "duration_ms": 420,
+      "start_frame": 5806,
+      "end_frame": 5819,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "14,",
+      "before_word": "18,",
+      "start_ms": 194520,
+      "end_ms": 195580,
+      "duration_ms": 1060,
+      "start_frame": 5836,
+      "end_frame": 5867,
+      "duration_frames": 31
+    },
+    {
+      "after_word": "18,",
+      "before_word": "12.",
+      "start_ms": 195880,
+      "end_ms": 196720,
+      "duration_ms": 840,
+      "start_frame": 5876,
+      "end_frame": 5902,
+      "duration_frames": 26
+    },
+    {
+      "after_word": "12.",
+      "before_word": "Save",
+      "start_ms": 197160,
+      "end_ms": 197580,
+      "duration_ms": 420,
+      "start_frame": 5915,
+      "end_frame": 5927,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "8,",
+      "before_word": "12.",
+      "start_ms": 199000,
+      "end_ms": 199380,
+      "duration_ms": 380,
+      "start_frame": 5970,
+      "end_frame": 5981,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "12.",
+      "before_word": "Moves",
+      "start_ms": 199980,
+      "end_ms": 200320,
+      "duration_ms": 340,
+      "start_frame": 5999,
+      "end_frame": 6010,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "top.",
+      "before_word": "18",
+      "start_ms": 201040,
+      "end_ms": 201520,
+      "duration_ms": 480,
+      "start_frame": 6031,
+      "end_frame": 6046,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "left.",
+      "before_word": "14",
+      "start_ms": 203280,
+      "end_ms": 203800,
+      "duration_ms": 520,
+      "start_frame": 6098,
+      "end_frame": 6114,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "bottom.",
+      "before_word": "And",
+      "start_ms": 205460,
+      "end_ms": 206160,
+      "duration_ms": 700,
+      "start_frame": 6164,
+      "end_frame": 6185,
+      "duration_frames": 21
+    },
+    {
+      "after_word": "right.",
+      "before_word": "The",
+      "start_ms": 208140,
+      "end_ms": 209180,
+      "duration_ms": 1040,
+      "start_frame": 6244,
+      "end_frame": 6275,
+      "duration_frames": 31
+    },
+    {
+      "after_word": "complete.",
+      "before_word": "And",
+      "start_ms": 211300,
+      "end_ms": 211960,
+      "duration_ms": 660,
+      "start_frame": 6339,
+      "end_frame": 6359,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "13.",
+      "before_word": "The",
+      "start_ms": 212620,
+      "end_ms": 213520,
+      "duration_ms": 900,
+      "start_frame": 6379,
+      "end_frame": 6406,
+      "duration_frames": 27
+    },
+    {
+      "after_word": "cycle.",
+      "before_word": "So",
+      "start_ms": 218200,
+      "end_ms": 219080,
+      "duration_ms": 880,
+      "start_frame": 6546,
+      "end_frame": 6572,
+      "duration_frames": 26
+    },
+    {
+      "after_word": "started.",
+      "before_word": "The",
+      "start_ms": 221680,
+      "end_ms": 222300,
+      "duration_ms": 620,
+      "start_frame": 6650,
+      "end_frame": 6669,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "matrix.",
+      "before_word": "The",
+      "start_ms": 230640,
+      "end_ms": 231480,
+      "duration_ms": 840,
+      "start_frame": 6919,
+      "end_frame": 6944,
+      "duration_frames": 25
+    },
+    {
+      "after_word": "safely,",
+      "before_word": "continue",
+      "start_ms": 235620,
+      "end_ms": 236280,
+      "duration_ms": 660,
+      "start_frame": 7069,
+      "end_frame": 7088,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "layer,",
+      "before_word": "finish",
+      "start_ms": 237860,
+      "end_ms": 238360,
+      "duration_ms": 500,
+      "start_frame": 7136,
+      "end_frame": 7151,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "layer,",
+      "before_word": "then",
+      "start_ms": 239700,
+      "end_ms": 240260,
+      "duration_ms": 560,
+      "start_frame": 7191,
+      "end_frame": 7208,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "inward.",
+      "before_word": "Now",
+      "start_ms": 241120,
+      "end_ms": 241980,
+      "duration_ms": 860,
+      "start_frame": 7234,
+      "end_frame": 7259,
+      "duration_frames": 25
+    }
+  ]
+}

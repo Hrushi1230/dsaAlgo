@@ -1,0 +1,1264 @@
+{
+  "audio_file": "13-recap.mp3",
+  "duration_ms": 61080,
+  "duration_frames": 1832,
+  "fps": 30,
+  "word_count": 127,
+  "words": [
+    {
+      "word": "Alright,",
+      "start_ms": 0,
+      "end_ms": 880,
+      "start_frame": 0,
+      "end_frame": 26
+    },
+    {
+      "word": "longest",
+      "start_ms": 1340,
+      "end_ms": 1640,
+      "start_frame": 40,
+      "end_frame": 49
+    },
+    {
+      "word": "consecutive",
+      "start_ms": 1640,
+      "end_ms": 2320,
+      "start_frame": 49,
+      "end_frame": 70
+    },
+    {
+      "word": "sequence",
+      "start_ms": 2320,
+      "end_ms": 2800,
+      "start_frame": 70,
+      "end_frame": 84
+    },
+    {
+      "word": "is",
+      "start_ms": 2800,
+      "end_ms": 3120,
+      "start_frame": 84,
+      "end_frame": 94
+    },
+    {
+      "word": "done.",
+      "start_ms": 3120,
+      "end_ms": 3460,
+      "start_frame": 94,
+      "end_frame": 104
+    },
+    {
+      "word": "Three",
+      "start_ms": 3820,
+      "end_ms": 4020,
+      "start_frame": 115,
+      "end_frame": 121
+    },
+    {
+      "word": "approaches.",
+      "start_ms": 4020,
+      "end_ms": 4660,
+      "start_frame": 121,
+      "end_frame": 140
+    },
+    {
+      "word": "Brute",
+      "start_ms": 5320,
+      "end_ms": 5460,
+      "start_frame": 160,
+      "end_frame": 164
+    },
+    {
+      "word": "force,",
+      "start_ms": 5460,
+      "end_ms": 5940,
+      "start_frame": 164,
+      "end_frame": 178
+    },
+    {
+      "word": "start",
+      "start_ms": 6300,
+      "end_ms": 6580,
+      "start_frame": 189,
+      "end_frame": 197
+    },
+    {
+      "word": "from",
+      "start_ms": 6580,
+      "end_ms": 6900,
+      "start_frame": 197,
+      "end_frame": 207
+    },
+    {
+      "word": "every",
+      "start_ms": 6900,
+      "end_ms": 7280,
+      "start_frame": 207,
+      "end_frame": 218
+    },
+    {
+      "word": "number",
+      "start_ms": 7280,
+      "end_ms": 7580,
+      "start_frame": 218,
+      "end_frame": 227
+    },
+    {
+      "word": "and",
+      "start_ms": 7580,
+      "end_ms": 7920,
+      "start_frame": 227,
+      "end_frame": 238
+    },
+    {
+      "word": "repeatedly",
+      "start_ms": 7920,
+      "end_ms": 8460,
+      "start_frame": 238,
+      "end_frame": 254
+    },
+    {
+      "word": "search",
+      "start_ms": 8460,
+      "end_ms": 8920,
+      "start_frame": 254,
+      "end_frame": 268
+    },
+    {
+      "word": "the",
+      "start_ms": 8920,
+      "end_ms": 9160,
+      "start_frame": 268,
+      "end_frame": 275
+    },
+    {
+      "word": "list.",
+      "start_ms": 9160,
+      "end_ms": 9620,
+      "start_frame": 275,
+      "end_frame": 289
+    },
+    {
+      "word": "Worst",
+      "start_ms": 10340,
+      "end_ms": 10620,
+      "start_frame": 310,
+      "end_frame": 319
+    },
+    {
+      "word": "case,",
+      "start_ms": 10620,
+      "end_ms": 11040,
+      "start_frame": 319,
+      "end_frame": 331
+    },
+    {
+      "word": "O",
+      "start_ms": 11520,
+      "end_ms": 11800,
+      "start_frame": 346,
+      "end_frame": 354
+    },
+    {
+      "word": "of",
+      "start_ms": 11800,
+      "end_ms": 11920,
+      "start_frame": 354,
+      "end_frame": 358
+    },
+    {
+      "word": "n",
+      "start_ms": 11920,
+      "end_ms": 12180,
+      "start_frame": 358,
+      "end_frame": 365
+    },
+    {
+      "word": "cubed.",
+      "start_ms": 12180,
+      "end_ms": 12580,
+      "start_frame": 365,
+      "end_frame": 377
+    },
+    {
+      "word": "Better,",
+      "start_ms": 13240,
+      "end_ms": 13640,
+      "start_frame": 397,
+      "end_frame": 409
+    },
+    {
+      "word": "sort",
+      "start_ms": 14060,
+      "end_ms": 14240,
+      "start_frame": 422,
+      "end_frame": 427
+    },
+    {
+      "word": "once",
+      "start_ms": 14240,
+      "end_ms": 14620,
+      "start_frame": 427,
+      "end_frame": 439
+    },
+    {
+      "word": "and",
+      "start_ms": 14620,
+      "end_ms": 15020,
+      "start_frame": 439,
+      "end_frame": 451
+    },
+    {
+      "word": "scan",
+      "start_ms": 15020,
+      "end_ms": 15300,
+      "start_frame": 451,
+      "end_frame": 459
+    },
+    {
+      "word": "neighbors.",
+      "start_ms": 15300,
+      "end_ms": 15780,
+      "start_frame": 459,
+      "end_frame": 473
+    },
+    {
+      "word": "O",
+      "start_ms": 16460,
+      "end_ms": 16740,
+      "start_frame": 494,
+      "end_frame": 502
+    },
+    {
+      "word": "of",
+      "start_ms": 16740,
+      "end_ms": 16880,
+      "start_frame": 502,
+      "end_frame": 506
+    },
+    {
+      "word": "n",
+      "start_ms": 16880,
+      "end_ms": 17100,
+      "start_frame": 506,
+      "end_frame": 513
+    },
+    {
+      "word": "log",
+      "start_ms": 17100,
+      "end_ms": 17380,
+      "start_frame": 513,
+      "end_frame": 521
+    },
+    {
+      "word": "n.",
+      "start_ms": 17380,
+      "end_ms": 18080,
+      "start_frame": 521,
+      "end_frame": 542
+    },
+    {
+      "word": "Optimal,",
+      "start_ms": 18560,
+      "end_ms": 19040,
+      "start_frame": 557,
+      "end_frame": 571
+    },
+    {
+      "word": "use",
+      "start_ms": 19320,
+      "end_ms": 19500,
+      "start_frame": 580,
+      "end_frame": 585
+    },
+    {
+      "word": "a",
+      "start_ms": 19500,
+      "end_ms": 19680,
+      "start_frame": 585,
+      "end_frame": 590
+    },
+    {
+      "word": "hash",
+      "start_ms": 19680,
+      "end_ms": 19880,
+      "start_frame": 590,
+      "end_frame": 596
+    },
+    {
+      "word": "set.",
+      "start_ms": 19880,
+      "end_ms": 20220,
+      "start_frame": 596,
+      "end_frame": 607
+    },
+    {
+      "word": "And",
+      "start_ms": 21180,
+      "end_ms": 21380,
+      "start_frame": 635,
+      "end_frame": 641
+    },
+    {
+      "word": "remember",
+      "start_ms": 21380,
+      "end_ms": 21740,
+      "start_frame": 641,
+      "end_frame": 652
+    },
+    {
+      "word": "the",
+      "start_ms": 21740,
+      "end_ms": 21980,
+      "start_frame": 652,
+      "end_frame": 659
+    },
+    {
+      "word": "one",
+      "start_ms": 21980,
+      "end_ms": 22180,
+      "start_frame": 659,
+      "end_frame": 665
+    },
+    {
+      "word": "rule",
+      "start_ms": 22180,
+      "end_ms": 22440,
+      "start_frame": 665,
+      "end_frame": 673
+    },
+    {
+      "word": "that",
+      "start_ms": 22440,
+      "end_ms": 22680,
+      "start_frame": 673,
+      "end_frame": 680
+    },
+    {
+      "word": "matters",
+      "start_ms": 22680,
+      "end_ms": 23000,
+      "start_frame": 680,
+      "end_frame": 690
+    },
+    {
+      "word": "most.",
+      "start_ms": 23000,
+      "end_ms": 23380,
+      "start_frame": 690,
+      "end_frame": 701
+    },
+    {
+      "word": "Does",
+      "start_ms": 23880,
+      "end_ms": 24060,
+      "start_frame": 716,
+      "end_frame": 722
+    },
+    {
+      "word": "x",
+      "start_ms": 24060,
+      "end_ms": 24360,
+      "start_frame": 722,
+      "end_frame": 731
+    },
+    {
+      "word": "minus",
+      "start_ms": 24360,
+      "end_ms": 24680,
+      "start_frame": 731,
+      "end_frame": 740
+    },
+    {
+      "word": "1",
+      "start_ms": 24680,
+      "end_ms": 24820,
+      "start_frame": 740,
+      "end_frame": 745
+    },
+    {
+      "word": "exist?",
+      "start_ms": 24820,
+      "end_ms": 25280,
+      "start_frame": 745,
+      "end_frame": 758
+    },
+    {
+      "word": "If",
+      "start_ms": 25820,
+      "end_ms": 26060,
+      "start_frame": 775,
+      "end_frame": 782
+    },
+    {
+      "word": "yes,",
+      "start_ms": 26060,
+      "end_ms": 26360,
+      "start_frame": 782,
+      "end_frame": 791
+    },
+    {
+      "word": "x",
+      "start_ms": 26560,
+      "end_ms": 26840,
+      "start_frame": 797,
+      "end_frame": 805
+    },
+    {
+      "word": "is",
+      "start_ms": 26840,
+      "end_ms": 27020,
+      "start_frame": 805,
+      "end_frame": 811
+    },
+    {
+      "word": "not",
+      "start_ms": 27020,
+      "end_ms": 27180,
+      "start_frame": 811,
+      "end_frame": 815
+    },
+    {
+      "word": "a",
+      "start_ms": 27180,
+      "end_ms": 27360,
+      "start_frame": 815,
+      "end_frame": 821
+    },
+    {
+      "word": "start.",
+      "start_ms": 27360,
+      "end_ms": 27600,
+      "start_frame": 821,
+      "end_frame": 828
+    },
+    {
+      "word": "Skip",
+      "start_ms": 28360,
+      "end_ms": 28640,
+      "start_frame": 851,
+      "end_frame": 859
+    },
+    {
+      "word": "it.",
+      "start_ms": 28640,
+      "end_ms": 29140,
+      "start_frame": 859,
+      "end_frame": 874
+    },
+    {
+      "word": "If",
+      "start_ms": 29140,
+      "end_ms": 29720,
+      "start_frame": 874,
+      "end_frame": 892
+    },
+    {
+      "word": "no,",
+      "start_ms": 29720,
+      "end_ms": 30080,
+      "start_frame": 892,
+      "end_frame": 902
+    },
+    {
+      "word": "start",
+      "start_ms": 30400,
+      "end_ms": 30660,
+      "start_frame": 912,
+      "end_frame": 920
+    },
+    {
+      "word": "from",
+      "start_ms": 30660,
+      "end_ms": 30860,
+      "start_frame": 920,
+      "end_frame": 926
+    },
+    {
+      "word": "x",
+      "start_ms": 30860,
+      "end_ms": 31300,
+      "start_frame": 926,
+      "end_frame": 939
+    },
+    {
+      "word": "and",
+      "start_ms": 31300,
+      "end_ms": 31840,
+      "start_frame": 939,
+      "end_frame": 955
+    },
+    {
+      "word": "walk",
+      "start_ms": 31840,
+      "end_ms": 32140,
+      "start_frame": 955,
+      "end_frame": 964
+    },
+    {
+      "word": "forward.",
+      "start_ms": 32140,
+      "end_ms": 32600,
+      "start_frame": 964,
+      "end_frame": 978
+    },
+    {
+      "word": "That",
+      "start_ms": 33320,
+      "end_ms": 33480,
+      "start_frame": 1000,
+      "end_frame": 1004
+    },
+    {
+      "word": "gives",
+      "start_ms": 33480,
+      "end_ms": 33740,
+      "start_frame": 1004,
+      "end_frame": 1012
+    },
+    {
+      "word": "us",
+      "start_ms": 33740,
+      "end_ms": 33980,
+      "start_frame": 1012,
+      "end_frame": 1019
+    },
+    {
+      "word": "expected",
+      "start_ms": 33980,
+      "end_ms": 34440,
+      "start_frame": 1019,
+      "end_frame": 1033
+    },
+    {
+      "word": "O",
+      "start_ms": 34440,
+      "end_ms": 34860,
+      "start_frame": 1033,
+      "end_frame": 1046
+    },
+    {
+      "word": "of",
+      "start_ms": 34860,
+      "end_ms": 35100,
+      "start_frame": 1046,
+      "end_frame": 1053
+    },
+    {
+      "word": "n",
+      "start_ms": 35100,
+      "end_ms": 35300,
+      "start_frame": 1053,
+      "end_frame": 1059
+    },
+    {
+      "word": "time",
+      "start_ms": 35300,
+      "end_ms": 35760,
+      "start_frame": 1059,
+      "end_frame": 1073
+    },
+    {
+      "word": "with",
+      "start_ms": 35760,
+      "end_ms": 36120,
+      "start_frame": 1073,
+      "end_frame": 1084
+    },
+    {
+      "word": "O",
+      "start_ms": 36120,
+      "end_ms": 36660,
+      "start_frame": 1084,
+      "end_frame": 1100
+    },
+    {
+      "word": "of",
+      "start_ms": 36660,
+      "end_ms": 36880,
+      "start_frame": 1100,
+      "end_frame": 1106
+    },
+    {
+      "word": "n",
+      "start_ms": 36880,
+      "end_ms": 37220,
+      "start_frame": 1106,
+      "end_frame": 1117
+    },
+    {
+      "word": "extra",
+      "start_ms": 37220,
+      "end_ms": 37500,
+      "start_frame": 1117,
+      "end_frame": 1125
+    },
+    {
+      "word": "space.",
+      "start_ms": 37500,
+      "end_ms": 37980,
+      "start_frame": 1125,
+      "end_frame": 1139
+    },
+    {
+      "word": "So",
+      "start_ms": 38620,
+      "end_ms": 38720,
+      "start_frame": 1159,
+      "end_frame": 1162
+    },
+    {
+      "word": "when",
+      "start_ms": 38720,
+      "end_ms": 38880,
+      "start_frame": 1162,
+      "end_frame": 1166
+    },
+    {
+      "word": "an",
+      "start_ms": 38880,
+      "end_ms": 39200,
+      "start_frame": 1166,
+      "end_frame": 1176
+    },
+    {
+      "word": "unsorted",
+      "start_ms": 39200,
+      "end_ms": 39600,
+      "start_frame": 1176,
+      "end_frame": 1188
+    },
+    {
+      "word": "array",
+      "start_ms": 39600,
+      "end_ms": 40000,
+      "start_frame": 1188,
+      "end_frame": 1200
+    },
+    {
+      "word": "asks",
+      "start_ms": 40000,
+      "end_ms": 40500,
+      "start_frame": 1200,
+      "end_frame": 1215
+    },
+    {
+      "word": "about",
+      "start_ms": 40500,
+      "end_ms": 40920,
+      "start_frame": 1215,
+      "end_frame": 1228
+    },
+    {
+      "word": "consecutive",
+      "start_ms": 40920,
+      "end_ms": 41540,
+      "start_frame": 1228,
+      "end_frame": 1246
+    },
+    {
+      "word": "values,",
+      "start_ms": 41540,
+      "end_ms": 42140,
+      "start_frame": 1246,
+      "end_frame": 1264
+    },
+    {
+      "word": "think",
+      "start_ms": 42800,
+      "end_ms": 43060,
+      "start_frame": 1284,
+      "end_frame": 1292
+    },
+    {
+      "word": "fast",
+      "start_ms": 43060,
+      "end_ms": 43400,
+      "start_frame": 1292,
+      "end_frame": 1302
+    },
+    {
+      "word": "membership.",
+      "start_ms": 43400,
+      "end_ms": 44000,
+      "start_frame": 1302,
+      "end_frame": 1320
+    },
+    {
+      "word": "Then",
+      "start_ms": 44680,
+      "end_ms": 44760,
+      "start_frame": 1340,
+      "end_frame": 1343
+    },
+    {
+      "word": "find",
+      "start_ms": 44760,
+      "end_ms": 45120,
+      "start_frame": 1343,
+      "end_frame": 1354
+    },
+    {
+      "word": "the",
+      "start_ms": 45120,
+      "end_ms": 45360,
+      "start_frame": 1354,
+      "end_frame": 1361
+    },
+    {
+      "word": "real",
+      "start_ms": 45360,
+      "end_ms": 45620,
+      "start_frame": 1361,
+      "end_frame": 1369
+    },
+    {
+      "word": "sequence",
+      "start_ms": 45620,
+      "end_ms": 46100,
+      "start_frame": 1369,
+      "end_frame": 1383
+    },
+    {
+      "word": "start.",
+      "start_ms": 46100,
+      "end_ms": 46780,
+      "start_frame": 1383,
+      "end_frame": 1403
+    },
+    {
+      "word": "Question",
+      "start_ms": 47860,
+      "end_ms": 47980,
+      "start_frame": 1436,
+      "end_frame": 1439
+    },
+    {
+      "word": "number",
+      "start_ms": 47980,
+      "end_ms": 48400,
+      "start_frame": 1439,
+      "end_frame": 1452
+    },
+    {
+      "word": "10.",
+      "start_ms": 48400,
+      "end_ms": 49400,
+      "start_frame": 1452,
+      "end_frame": 1482
+    },
+    {
+      "word": "Complete.",
+      "start_ms": 49600,
+      "end_ms": 50100,
+      "start_frame": 1488,
+      "end_frame": 1503
+    },
+    {
+      "word": "Our",
+      "start_ms": 51160,
+      "end_ms": 51380,
+      "start_frame": 1535,
+      "end_frame": 1541
+    },
+    {
+      "word": "roadmap",
+      "start_ms": 51380,
+      "end_ms": 51780,
+      "start_frame": 1541,
+      "end_frame": 1553
+    },
+    {
+      "word": "is",
+      "start_ms": 51780,
+      "end_ms": 52140,
+      "start_frame": 1553,
+      "end_frame": 1564
+    },
+    {
+      "word": "now",
+      "start_ms": 52140,
+      "end_ms": 52640,
+      "start_frame": 1564,
+      "end_frame": 1579
+    },
+    {
+      "word": "10",
+      "start_ms": 52640,
+      "end_ms": 53260,
+      "start_frame": 1579,
+      "end_frame": 1598
+    },
+    {
+      "word": "out",
+      "start_ms": 53260,
+      "end_ms": 53520,
+      "start_frame": 1598,
+      "end_frame": 1606
+    },
+    {
+      "word": "of",
+      "start_ms": 53520,
+      "end_ms": 53740,
+      "start_frame": 1606,
+      "end_frame": 1612
+    },
+    {
+      "word": "227.",
+      "start_ms": 53740,
+      "end_ms": 55300,
+      "start_frame": 1612,
+      "end_frame": 1659
+    },
+    {
+      "word": "We",
+      "start_ms": 55300,
+      "end_ms": 56080,
+      "start_frame": 1659,
+      "end_frame": 1682
+    },
+    {
+      "word": "stay",
+      "start_ms": 56080,
+      "end_ms": 56380,
+      "start_frame": 1682,
+      "end_frame": 1691
+    },
+    {
+      "word": "inside",
+      "start_ms": 56380,
+      "end_ms": 56820,
+      "start_frame": 1691,
+      "end_frame": 1705
+    },
+    {
+      "word": "arrays",
+      "start_ms": 56820,
+      "end_ms": 57300,
+      "start_frame": 1705,
+      "end_frame": 1719
+    },
+    {
+      "word": "and",
+      "start_ms": 57300,
+      "end_ms": 57700,
+      "start_frame": 1719,
+      "end_frame": 1731
+    },
+    {
+      "word": "hashing",
+      "start_ms": 57700,
+      "end_ms": 58240,
+      "start_frame": 1731,
+      "end_frame": 1747
+    },
+    {
+      "word": "and",
+      "start_ms": 58240,
+      "end_ms": 58980,
+      "start_frame": 1747,
+      "end_frame": 1769
+    },
+    {
+      "word": "continue",
+      "start_ms": 58980,
+      "end_ms": 59500,
+      "start_frame": 1769,
+      "end_frame": 1785
+    },
+    {
+      "word": "to",
+      "start_ms": 59500,
+      "end_ms": 59800,
+      "start_frame": 1785,
+      "end_frame": 1794
+    },
+    {
+      "word": "question",
+      "start_ms": 59800,
+      "end_ms": 60240,
+      "start_frame": 1794,
+      "end_frame": 1807
+    },
+    {
+      "word": "number",
+      "start_ms": 60240,
+      "end_ms": 60640,
+      "start_frame": 1807,
+      "end_frame": 1819
+    },
+    {
+      "word": "11.",
+      "start_ms": 60640,
+      "end_ms": 61080,
+      "start_frame": 1819,
+      "end_frame": 1832
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Alright, longest consecutive sequence is done.",
+      "start_ms": 0,
+      "end_ms": 3460,
+      "start_frame": 0,
+      "end_frame": 104,
+      "word_count": 6
+    },
+    {
+      "text": "Three approaches.",
+      "start_ms": 3820,
+      "end_ms": 4660,
+      "start_frame": 115,
+      "end_frame": 140,
+      "word_count": 2
+    },
+    {
+      "text": "Brute force, start from every number and repeatedly search the list.",
+      "start_ms": 5320,
+      "end_ms": 9620,
+      "start_frame": 160,
+      "end_frame": 289,
+      "word_count": 11
+    },
+    {
+      "text": "Worst case, O of n cubed.",
+      "start_ms": 10340,
+      "end_ms": 12580,
+      "start_frame": 310,
+      "end_frame": 377,
+      "word_count": 6
+    },
+    {
+      "text": "Better, sort once and scan neighbors.",
+      "start_ms": 13240,
+      "end_ms": 15780,
+      "start_frame": 397,
+      "end_frame": 473,
+      "word_count": 6
+    },
+    {
+      "text": "O of n log n.",
+      "start_ms": 16460,
+      "end_ms": 18080,
+      "start_frame": 494,
+      "end_frame": 542,
+      "word_count": 5
+    },
+    {
+      "text": "Optimal, use a hash set.",
+      "start_ms": 18560,
+      "end_ms": 20220,
+      "start_frame": 557,
+      "end_frame": 607,
+      "word_count": 5
+    },
+    {
+      "text": "And remember the one rule that matters most.",
+      "start_ms": 21180,
+      "end_ms": 23380,
+      "start_frame": 635,
+      "end_frame": 701,
+      "word_count": 8
+    },
+    {
+      "text": "Does x minus 1 exist?",
+      "start_ms": 23880,
+      "end_ms": 25280,
+      "start_frame": 716,
+      "end_frame": 758,
+      "word_count": 5
+    },
+    {
+      "text": "If yes, x is not a start.",
+      "start_ms": 25820,
+      "end_ms": 27600,
+      "start_frame": 775,
+      "end_frame": 828,
+      "word_count": 7
+    },
+    {
+      "text": "Skip it.",
+      "start_ms": 28360,
+      "end_ms": 29140,
+      "start_frame": 851,
+      "end_frame": 874,
+      "word_count": 2
+    },
+    {
+      "text": "If no, start from x and walk forward.",
+      "start_ms": 29140,
+      "end_ms": 32600,
+      "start_frame": 874,
+      "end_frame": 978,
+      "word_count": 8
+    },
+    {
+      "text": "That gives us expected O of n time with O of n extra space.",
+      "start_ms": 33320,
+      "end_ms": 37980,
+      "start_frame": 1000,
+      "end_frame": 1139,
+      "word_count": 14
+    },
+    {
+      "text": "So when an unsorted array asks about consecutive values, think fast membership.",
+      "start_ms": 38620,
+      "end_ms": 44000,
+      "start_frame": 1159,
+      "end_frame": 1320,
+      "word_count": 12
+    },
+    {
+      "text": "Then find the real sequence start.",
+      "start_ms": 44680,
+      "end_ms": 46780,
+      "start_frame": 1340,
+      "end_frame": 1403,
+      "word_count": 6
+    },
+    {
+      "text": "Question number 10.",
+      "start_ms": 47860,
+      "end_ms": 49400,
+      "start_frame": 1436,
+      "end_frame": 1482,
+      "word_count": 3
+    },
+    {
+      "text": "Complete.",
+      "start_ms": 49600,
+      "end_ms": 50100,
+      "start_frame": 1488,
+      "end_frame": 1503,
+      "word_count": 1
+    },
+    {
+      "text": "Our roadmap is now 10 out of 227.",
+      "start_ms": 51160,
+      "end_ms": 55300,
+      "start_frame": 1535,
+      "end_frame": 1659,
+      "word_count": 8
+    },
+    {
+      "text": "We stay inside arrays and hashing and continue to question number 11.",
+      "start_ms": 55300,
+      "end_ms": 61080,
+      "start_frame": 1659,
+      "end_frame": 1832,
+      "word_count": 12
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "Alright,",
+      "before_word": "longest",
+      "start_ms": 880,
+      "end_ms": 1340,
+      "duration_ms": 460,
+      "start_frame": 26,
+      "end_frame": 40,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "done.",
+      "before_word": "Three",
+      "start_ms": 3460,
+      "end_ms": 3820,
+      "duration_ms": 360,
+      "start_frame": 104,
+      "end_frame": 115,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "approaches.",
+      "before_word": "Brute",
+      "start_ms": 4660,
+      "end_ms": 5320,
+      "duration_ms": 660,
+      "start_frame": 140,
+      "end_frame": 160,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "force,",
+      "before_word": "start",
+      "start_ms": 5940,
+      "end_ms": 6300,
+      "duration_ms": 360,
+      "start_frame": 178,
+      "end_frame": 189,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "list.",
+      "before_word": "Worst",
+      "start_ms": 9620,
+      "end_ms": 10340,
+      "duration_ms": 720,
+      "start_frame": 289,
+      "end_frame": 310,
+      "duration_frames": 21
+    },
+    {
+      "after_word": "case,",
+      "before_word": "O",
+      "start_ms": 11040,
+      "end_ms": 11520,
+      "duration_ms": 480,
+      "start_frame": 331,
+      "end_frame": 346,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "cubed.",
+      "before_word": "Better,",
+      "start_ms": 12580,
+      "end_ms": 13240,
+      "duration_ms": 660,
+      "start_frame": 377,
+      "end_frame": 397,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "Better,",
+      "before_word": "sort",
+      "start_ms": 13640,
+      "end_ms": 14060,
+      "duration_ms": 420,
+      "start_frame": 409,
+      "end_frame": 422,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "neighbors.",
+      "before_word": "O",
+      "start_ms": 15780,
+      "end_ms": 16460,
+      "duration_ms": 680,
+      "start_frame": 473,
+      "end_frame": 494,
+      "duration_frames": 21
+    },
+    {
+      "after_word": "n.",
+      "before_word": "Optimal,",
+      "start_ms": 18080,
+      "end_ms": 18560,
+      "duration_ms": 480,
+      "start_frame": 542,
+      "end_frame": 557,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "set.",
+      "before_word": "And",
+      "start_ms": 20220,
+      "end_ms": 21180,
+      "duration_ms": 960,
+      "start_frame": 607,
+      "end_frame": 635,
+      "duration_frames": 28
+    },
+    {
+      "after_word": "most.",
+      "before_word": "Does",
+      "start_ms": 23380,
+      "end_ms": 23880,
+      "duration_ms": 500,
+      "start_frame": 701,
+      "end_frame": 716,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "exist?",
+      "before_word": "If",
+      "start_ms": 25280,
+      "end_ms": 25820,
+      "duration_ms": 540,
+      "start_frame": 758,
+      "end_frame": 775,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "start.",
+      "before_word": "Skip",
+      "start_ms": 27600,
+      "end_ms": 28360,
+      "duration_ms": 760,
+      "start_frame": 828,
+      "end_frame": 851,
+      "duration_frames": 23
+    },
+    {
+      "after_word": "no,",
+      "before_word": "start",
+      "start_ms": 30080,
+      "end_ms": 30400,
+      "duration_ms": 320,
+      "start_frame": 902,
+      "end_frame": 912,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "forward.",
+      "before_word": "That",
+      "start_ms": 32600,
+      "end_ms": 33320,
+      "duration_ms": 720,
+      "start_frame": 978,
+      "end_frame": 1000,
+      "duration_frames": 22
+    },
+    {
+      "after_word": "space.",
+      "before_word": "So",
+      "start_ms": 37980,
+      "end_ms": 38620,
+      "duration_ms": 640,
+      "start_frame": 1139,
+      "end_frame": 1159,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "values,",
+      "before_word": "think",
+      "start_ms": 42140,
+      "end_ms": 42800,
+      "duration_ms": 660,
+      "start_frame": 1264,
+      "end_frame": 1284,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "membership.",
+      "before_word": "Then",
+      "start_ms": 44000,
+      "end_ms": 44680,
+      "duration_ms": 680,
+      "start_frame": 1320,
+      "end_frame": 1340,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "start.",
+      "before_word": "Question",
+      "start_ms": 46780,
+      "end_ms": 47860,
+      "duration_ms": 1080,
+      "start_frame": 1403,
+      "end_frame": 1436,
+      "duration_frames": 33
+    },
+    {
+      "after_word": "Complete.",
+      "before_word": "Our",
+      "start_ms": 50100,
+      "end_ms": 51160,
+      "duration_ms": 1060,
+      "start_frame": 1503,
+      "end_frame": 1535,
+      "duration_frames": 32
+    }
+  ]
+}

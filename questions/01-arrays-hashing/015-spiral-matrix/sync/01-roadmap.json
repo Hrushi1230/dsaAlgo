@@ -1,0 +1,558 @@
+{
+  "audio_file": "01-roadmap.mp3",
+  "duration_ms": 30580,
+  "duration_frames": 917,
+  "fps": 30,
+  "word_count": 53,
+  "words": [
+    {
+      "word": "Welcome",
+      "start_ms": 0,
+      "end_ms": 500,
+      "start_frame": 0,
+      "end_frame": 15
+    },
+    {
+      "word": "back",
+      "start_ms": 500,
+      "end_ms": 760,
+      "start_frame": 15,
+      "end_frame": 23
+    },
+    {
+      "word": "to",
+      "start_ms": 760,
+      "end_ms": 920,
+      "start_frame": 23,
+      "end_frame": 28
+    },
+    {
+      "word": "Code",
+      "start_ms": 920,
+      "end_ms": 1200,
+      "start_frame": 28,
+      "end_frame": 36
+    },
+    {
+      "word": "with",
+      "start_ms": 1200,
+      "end_ms": 1420,
+      "start_frame": 36,
+      "end_frame": 43
+    },
+    {
+      "word": "Animation.",
+      "start_ms": 1420,
+      "end_ms": 2220,
+      "start_frame": 43,
+      "end_frame": 67
+    },
+    {
+      "word": "Question",
+      "start_ms": 3160,
+      "end_ms": 3160,
+      "start_frame": 95,
+      "end_frame": 95
+    },
+    {
+      "word": "14,",
+      "start_ms": 3160,
+      "end_ms": 4140,
+      "start_frame": 95,
+      "end_frame": 124
+    },
+    {
+      "word": "rotate",
+      "start_ms": 4940,
+      "end_ms": 5240,
+      "start_frame": 148,
+      "end_frame": 157
+    },
+    {
+      "word": "image",
+      "start_ms": 5240,
+      "end_ms": 5760,
+      "start_frame": 157,
+      "end_frame": 173
+    },
+    {
+      "word": "is",
+      "start_ms": 5760,
+      "end_ms": 6360,
+      "start_frame": 173,
+      "end_frame": 191
+    },
+    {
+      "word": "complete.",
+      "start_ms": 6360,
+      "end_ms": 6860,
+      "start_frame": 191,
+      "end_frame": 206
+    },
+    {
+      "word": "Our",
+      "start_ms": 7680,
+      "end_ms": 7980,
+      "start_frame": 230,
+      "end_frame": 239
+    },
+    {
+      "word": "progress",
+      "start_ms": 7980,
+      "end_ms": 8340,
+      "start_frame": 239,
+      "end_frame": 250
+    },
+    {
+      "word": "is",
+      "start_ms": 8340,
+      "end_ms": 8620,
+      "start_frame": 250,
+      "end_frame": 259
+    },
+    {
+      "word": "now",
+      "start_ms": 8620,
+      "end_ms": 9220,
+      "start_frame": 259,
+      "end_frame": 277
+    },
+    {
+      "word": "14",
+      "start_ms": 9220,
+      "end_ms": 10080,
+      "start_frame": 277,
+      "end_frame": 302
+    },
+    {
+      "word": "out",
+      "start_ms": 10080,
+      "end_ms": 10340,
+      "start_frame": 302,
+      "end_frame": 310
+    },
+    {
+      "word": "of",
+      "start_ms": 10340,
+      "end_ms": 10560,
+      "start_frame": 310,
+      "end_frame": 317
+    },
+    {
+      "word": "227.",
+      "start_ms": 10560,
+      "end_ms": 12080,
+      "start_frame": 317,
+      "end_frame": 362
+    },
+    {
+      "word": "And",
+      "start_ms": 12660,
+      "end_ms": 12860,
+      "start_frame": 380,
+      "end_frame": 386
+    },
+    {
+      "word": "next,",
+      "start_ms": 12860,
+      "end_ms": 13240,
+      "start_frame": 386,
+      "end_frame": 397
+    },
+    {
+      "word": "we",
+      "start_ms": 13740,
+      "end_ms": 13800,
+      "start_frame": 412,
+      "end_frame": 414
+    },
+    {
+      "word": "have",
+      "start_ms": 13800,
+      "end_ms": 14000,
+      "start_frame": 414,
+      "end_frame": 420
+    },
+    {
+      "word": "question",
+      "start_ms": 14000,
+      "end_ms": 14420,
+      "start_frame": 420,
+      "end_frame": 433
+    },
+    {
+      "word": "15,",
+      "start_ms": 14420,
+      "end_ms": 15260,
+      "start_frame": 433,
+      "end_frame": 458
+    },
+    {
+      "word": "spiral",
+      "start_ms": 15580,
+      "end_ms": 15960,
+      "start_frame": 467,
+      "end_frame": 479
+    },
+    {
+      "word": "matrix.",
+      "start_ms": 15960,
+      "end_ms": 16760,
+      "start_frame": 479,
+      "end_frame": 503
+    },
+    {
+      "word": "Lead",
+      "start_ms": 17380,
+      "end_ms": 17560,
+      "start_frame": 521,
+      "end_frame": 527
+    },
+    {
+      "word": "code",
+      "start_ms": 17560,
+      "end_ms": 17800,
+      "start_frame": 527,
+      "end_frame": 534
+    },
+    {
+      "word": "54,",
+      "start_ms": 17800,
+      "end_ms": 18500,
+      "start_frame": 534,
+      "end_frame": 555
+    },
+    {
+      "word": "medium.",
+      "start_ms": 19140,
+      "end_ms": 19460,
+      "start_frame": 574,
+      "end_frame": 584
+    },
+    {
+      "word": "This",
+      "start_ms": 20380,
+      "end_ms": 20720,
+      "start_frame": 611,
+      "end_frame": 622
+    },
+    {
+      "word": "time,",
+      "start_ms": 20720,
+      "end_ms": 21100,
+      "start_frame": 622,
+      "end_frame": 633
+    },
+    {
+      "word": "we",
+      "start_ms": 21580,
+      "end_ms": 21760,
+      "start_frame": 647,
+      "end_frame": 653
+    },
+    {
+      "word": "are",
+      "start_ms": 21760,
+      "end_ms": 22040,
+      "start_frame": 653,
+      "end_frame": 661
+    },
+    {
+      "word": "not",
+      "start_ms": 22040,
+      "end_ms": 22320,
+      "start_frame": 661,
+      "end_frame": 670
+    },
+    {
+      "word": "changing",
+      "start_ms": 22320,
+      "end_ms": 22680,
+      "start_frame": 670,
+      "end_frame": 680
+    },
+    {
+      "word": "the",
+      "start_ms": 22680,
+      "end_ms": 22980,
+      "start_frame": 680,
+      "end_frame": 689
+    },
+    {
+      "word": "matrix.",
+      "start_ms": 22980,
+      "end_ms": 23460,
+      "start_frame": 689,
+      "end_frame": 704
+    },
+    {
+      "word": "We",
+      "start_ms": 23860,
+      "end_ms": 24160,
+      "start_frame": 716,
+      "end_frame": 725
+    },
+    {
+      "word": "only",
+      "start_ms": 24160,
+      "end_ms": 24580,
+      "start_frame": 725,
+      "end_frame": 737
+    },
+    {
+      "word": "need",
+      "start_ms": 24580,
+      "end_ms": 24860,
+      "start_frame": 737,
+      "end_frame": 746
+    },
+    {
+      "word": "to",
+      "start_ms": 24860,
+      "end_ms": 25160,
+      "start_frame": 746,
+      "end_frame": 755
+    },
+    {
+      "word": "read",
+      "start_ms": 25160,
+      "end_ms": 25340,
+      "start_frame": 755,
+      "end_frame": 760
+    },
+    {
+      "word": "its",
+      "start_ms": 25340,
+      "end_ms": 25600,
+      "start_frame": 760,
+      "end_frame": 768
+    },
+    {
+      "word": "values",
+      "start_ms": 25600,
+      "end_ms": 26200,
+      "start_frame": 768,
+      "end_frame": 786
+    },
+    {
+      "word": "in",
+      "start_ms": 26200,
+      "end_ms": 27240,
+      "start_frame": 786,
+      "end_frame": 817
+    },
+    {
+      "word": "spiral",
+      "start_ms": 27240,
+      "end_ms": 27820,
+      "start_frame": 817,
+      "end_frame": 835
+    },
+    {
+      "word": "order.",
+      "start_ms": 27820,
+      "end_ms": 28460,
+      "start_frame": 835,
+      "end_frame": 854
+    },
+    {
+      "word": "Let's",
+      "start_ms": 28460,
+      "end_ms": 29720,
+      "start_frame": 854,
+      "end_frame": 892
+    },
+    {
+      "word": "understand",
+      "start_ms": 29720,
+      "end_ms": 30240,
+      "start_frame": 892,
+      "end_frame": 907
+    },
+    {
+      "word": "it.",
+      "start_ms": 30240,
+      "end_ms": 30580,
+      "start_frame": 907,
+      "end_frame": 917
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Welcome back to Code with Animation.",
+      "start_ms": 0,
+      "end_ms": 2220,
+      "start_frame": 0,
+      "end_frame": 67,
+      "word_count": 6
+    },
+    {
+      "text": "Question 14, rotate image is complete.",
+      "start_ms": 3160,
+      "end_ms": 6860,
+      "start_frame": 95,
+      "end_frame": 206,
+      "word_count": 6
+    },
+    {
+      "text": "Our progress is now 14 out of 227.",
+      "start_ms": 7680,
+      "end_ms": 12080,
+      "start_frame": 230,
+      "end_frame": 362,
+      "word_count": 8
+    },
+    {
+      "text": "And next, we have question 15, spiral matrix.",
+      "start_ms": 12660,
+      "end_ms": 16760,
+      "start_frame": 380,
+      "end_frame": 503,
+      "word_count": 8
+    },
+    {
+      "text": "Lead code 54, medium.",
+      "start_ms": 17380,
+      "end_ms": 19460,
+      "start_frame": 521,
+      "end_frame": 584,
+      "word_count": 4
+    },
+    {
+      "text": "This time, we are not changing the matrix.",
+      "start_ms": 20380,
+      "end_ms": 23460,
+      "start_frame": 611,
+      "end_frame": 704,
+      "word_count": 8
+    },
+    {
+      "text": "We only need to read its values in spiral order.",
+      "start_ms": 23860,
+      "end_ms": 28460,
+      "start_frame": 716,
+      "end_frame": 854,
+      "word_count": 10
+    },
+    {
+      "text": "Let's understand it.",
+      "start_ms": 28460,
+      "end_ms": 30580,
+      "start_frame": 854,
+      "end_frame": 917,
+      "word_count": 3
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "Animation.",
+      "before_word": "Question",
+      "start_ms": 2220,
+      "end_ms": 3160,
+      "duration_ms": 940,
+      "start_frame": 67,
+      "end_frame": 95,
+      "duration_frames": 28
+    },
+    {
+      "after_word": "14,",
+      "before_word": "rotate",
+      "start_ms": 4140,
+      "end_ms": 4940,
+      "duration_ms": 800,
+      "start_frame": 124,
+      "end_frame": 148,
+      "duration_frames": 24
+    },
+    {
+      "after_word": "complete.",
+      "before_word": "Our",
+      "start_ms": 6860,
+      "end_ms": 7680,
+      "duration_ms": 820,
+      "start_frame": 206,
+      "end_frame": 230,
+      "duration_frames": 24
+    },
+    {
+      "after_word": "227.",
+      "before_word": "And",
+      "start_ms": 12080,
+      "end_ms": 12660,
+      "duration_ms": 580,
+      "start_frame": 362,
+      "end_frame": 380,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "next,",
+      "before_word": "we",
+      "start_ms": 13240,
+      "end_ms": 13740,
+      "duration_ms": 500,
+      "start_frame": 397,
+      "end_frame": 412,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "15,",
+      "before_word": "spiral",
+      "start_ms": 15260,
+      "end_ms": 15580,
+      "duration_ms": 320,
+      "start_frame": 458,
+      "end_frame": 467,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "matrix.",
+      "before_word": "Lead",
+      "start_ms": 16760,
+      "end_ms": 17380,
+      "duration_ms": 620,
+      "start_frame": 503,
+      "end_frame": 521,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "54,",
+      "before_word": "medium.",
+      "start_ms": 18500,
+      "end_ms": 19140,
+      "duration_ms": 640,
+      "start_frame": 555,
+      "end_frame": 574,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "medium.",
+      "before_word": "This",
+      "start_ms": 19460,
+      "end_ms": 20380,
+      "duration_ms": 920,
+      "start_frame": 584,
+      "end_frame": 611,
+      "duration_frames": 27
+    },
+    {
+      "after_word": "time,",
+      "before_word": "we",
+      "start_ms": 21100,
+      "end_ms": 21580,
+      "duration_ms": 480,
+      "start_frame": 633,
+      "end_frame": 647,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "matrix.",
+      "before_word": "We",
+      "start_ms": 23460,
+      "end_ms": 23860,
+      "duration_ms": 400,
+      "start_frame": 704,
+      "end_frame": 716,
+      "duration_frames": 12
+    }
+  ]
+}

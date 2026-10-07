@@ -1,0 +1,58 @@
+{
+  "scene": "S11",
+  "audio_file": "11-method3-code.mp3",
+  "fps": 30,
+  "duration_frames": 3026,
+  "duration_ms": 100860,
+  "anchor_count": 4,
+  "anchors": [
+    {
+      "anchor_id": "S11_START",
+      "phrase": "Now let's translate that proof directly into code.",
+      "plan_phrase": "Now let’s translate that proof directly into code.",
+      "word_start_index": 0,
+      "word_end_index": 7,
+      "start_seconds": 0.0,
+      "end_seconds": 4.12,
+      "start_frame": 0,
+      "end_frame_exclusive": 125,
+      "note": "Code handoff."
+    },
+    {
+      "anchor_id": "S11_TRANS",
+      "phrase": "then transpose the matrix.",
+      "plan_phrase": "Then transpose the matrix.",
+      "word_start_index": 11,
+      "word_end_index": 14,
+      "start_seconds": 6.14,
+      "end_seconds": 7.88,
+      "start_frame": 184,
+      "end_frame_exclusive": 237,
+      "note": "Transpose code phase."
+    },
+    {
+      "anchor_id": "S11_IMPORTANT",
+      "phrase": "This",
+      "plan_phrase": "This is important.",
+      "word_start_index": 188,
+      "word_end_index": 188,
+      "start_seconds": 96.06,
+      "end_seconds": 96.32,
+      "start_frame": 2882,
+      "end_frame_exclusive": 2891,
+      "note": "Critical bound."
+    },
+    {
+      "anchor_id": "S11_WHOLE",
+      "phrase": "optimal, in -place solution.",
+      "plan_phrase": "That is the whole optimal solution.",
+      "word_start_index": 193,
+      "word_end_index": 196,
+      "start_seconds": 98.84,
+      "end_seconds": 100.86,
+      "start_frame": 2965,
+      "end_frame_exclusive": 3027,
+      "note": "Completed solution."
+    }
+  ]
+}

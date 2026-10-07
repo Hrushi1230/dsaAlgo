@@ -1,0 +1,2660 @@
+{
+  "audio_file": "07-optimal-trace.mp3",
+  "duration_ms": 117320,
+  "duration_frames": 3520,
+  "fps": 30,
+  "word_count": 251,
+  "words": [
+    {
+      "word": "Our",
+      "start_ms": 0,
+      "end_ms": 260,
+      "start_frame": 0,
+      "end_frame": 8
+    },
+    {
+      "word": "array",
+      "start_ms": 260,
+      "end_ms": 680,
+      "start_frame": 8,
+      "end_frame": 20
+    },
+    {
+      "word": "is",
+      "start_ms": 680,
+      "end_ms": 1120,
+      "start_frame": 20,
+      "end_frame": 34
+    },
+    {
+      "word": "2,",
+      "start_ms": 1120,
+      "end_ms": 1700,
+      "start_frame": 34,
+      "end_frame": 51
+    },
+    {
+      "word": "1,",
+      "start_ms": 1980,
+      "end_ms": 2520,
+      "start_frame": 59,
+      "end_frame": 76
+    },
+    {
+      "word": "5,",
+      "start_ms": 2900,
+      "end_ms": 3680,
+      "start_frame": 87,
+      "end_frame": 110
+    },
+    {
+      "word": "4,",
+      "start_ms": 4020,
+      "end_ms": 4680,
+      "start_frame": 121,
+      "end_frame": 140
+    },
+    {
+      "word": "4,",
+      "start_ms": 5240,
+      "end_ms": 5660,
+      "start_frame": 157,
+      "end_frame": 170
+    },
+    {
+      "word": "3,",
+      "start_ms": 5880,
+      "end_ms": 6460,
+      "start_frame": 176,
+      "end_frame": 194
+    },
+    {
+      "word": "0.",
+      "start_ms": 6580,
+      "end_ms": 7020,
+      "start_frame": 197,
+      "end_frame": 211
+    },
+    {
+      "word": "We",
+      "start_ms": 7740,
+      "end_ms": 7840,
+      "start_frame": 232,
+      "end_frame": 235
+    },
+    {
+      "word": "start",
+      "start_ms": 7840,
+      "end_ms": 8120,
+      "start_frame": 235,
+      "end_frame": 244
+    },
+    {
+      "word": "the",
+      "start_ms": 8120,
+      "end_ms": 8320,
+      "start_frame": 244,
+      "end_frame": 250
+    },
+    {
+      "word": "pivot",
+      "start_ms": 8320,
+      "end_ms": 8520,
+      "start_frame": 250,
+      "end_frame": 256
+    },
+    {
+      "word": "search",
+      "start_ms": 8520,
+      "end_ms": 8800,
+      "start_frame": 256,
+      "end_frame": 264
+    },
+    {
+      "word": "from",
+      "start_ms": 8800,
+      "end_ms": 9020,
+      "start_frame": 264,
+      "end_frame": 271
+    },
+    {
+      "word": "the",
+      "start_ms": 9020,
+      "end_ms": 9240,
+      "start_frame": 271,
+      "end_frame": 277
+    },
+    {
+      "word": "second",
+      "start_ms": 9240,
+      "end_ms": 9460,
+      "start_frame": 277,
+      "end_frame": 284
+    },
+    {
+      "word": "last",
+      "start_ms": 9460,
+      "end_ms": 9720,
+      "start_frame": 284,
+      "end_frame": 292
+    },
+    {
+      "word": "index.",
+      "start_ms": 9720,
+      "end_ms": 10140,
+      "start_frame": 292,
+      "end_frame": 304
+    },
+    {
+      "word": "At",
+      "start_ms": 10720,
+      "end_ms": 10720,
+      "start_frame": 322,
+      "end_frame": 322
+    },
+    {
+      "word": "index",
+      "start_ms": 10720,
+      "end_ms": 11020,
+      "start_frame": 322,
+      "end_frame": 331
+    },
+    {
+      "word": "5,",
+      "start_ms": 11020,
+      "end_ms": 11400,
+      "start_frame": 331,
+      "end_frame": 342
+    },
+    {
+      "word": "3",
+      "start_ms": 11760,
+      "end_ms": 12160,
+      "start_frame": 353,
+      "end_frame": 365
+    },
+    {
+      "word": "is",
+      "start_ms": 12160,
+      "end_ms": 12520,
+      "start_frame": 365,
+      "end_frame": 376
+    },
+    {
+      "word": "smaller",
+      "start_ms": 12520,
+      "end_ms": 12820,
+      "start_frame": 376,
+      "end_frame": 385
+    },
+    {
+      "word": "than",
+      "start_ms": 12820,
+      "end_ms": 13040,
+      "start_frame": 385,
+      "end_frame": 391
+    },
+    {
+      "word": "0.",
+      "start_ms": 13040,
+      "end_ms": 13520,
+      "start_frame": 391,
+      "end_frame": 406
+    },
+    {
+      "word": "No.",
+      "start_ms": 14100,
+      "end_ms": 14480,
+      "start_frame": 423,
+      "end_frame": 434
+    },
+    {
+      "word": "Move",
+      "start_ms": 14940,
+      "end_ms": 15120,
+      "start_frame": 448,
+      "end_frame": 454
+    },
+    {
+      "word": "left.",
+      "start_ms": 15120,
+      "end_ms": 15460,
+      "start_frame": 454,
+      "end_frame": 464
+    },
+    {
+      "word": "At",
+      "start_ms": 15920,
+      "end_ms": 16020,
+      "start_frame": 478,
+      "end_frame": 481
+    },
+    {
+      "word": "index",
+      "start_ms": 16020,
+      "end_ms": 16320,
+      "start_frame": 481,
+      "end_frame": 490
+    },
+    {
+      "word": "4,",
+      "start_ms": 16320,
+      "end_ms": 16800,
+      "start_frame": 490,
+      "end_frame": 504
+    },
+    {
+      "word": "4",
+      "start_ms": 17060,
+      "end_ms": 17260,
+      "start_frame": 512,
+      "end_frame": 518
+    },
+    {
+      "word": "is",
+      "start_ms": 17260,
+      "end_ms": 17480,
+      "start_frame": 518,
+      "end_frame": 524
+    },
+    {
+      "word": "smaller",
+      "start_ms": 17480,
+      "end_ms": 17700,
+      "start_frame": 524,
+      "end_frame": 531
+    },
+    {
+      "word": "than",
+      "start_ms": 17700,
+      "end_ms": 17860,
+      "start_frame": 531,
+      "end_frame": 536
+    },
+    {
+      "word": "3.",
+      "start_ms": 17860,
+      "end_ms": 18420,
+      "start_frame": 536,
+      "end_frame": 553
+    },
+    {
+      "word": "No.",
+      "start_ms": 18660,
+      "end_ms": 19000,
+      "start_frame": 560,
+      "end_frame": 570
+    },
+    {
+      "word": "Move",
+      "start_ms": 19460,
+      "end_ms": 19660,
+      "start_frame": 584,
+      "end_frame": 590
+    },
+    {
+      "word": "left.",
+      "start_ms": 19660,
+      "end_ms": 20040,
+      "start_frame": 590,
+      "end_frame": 601
+    },
+    {
+      "word": "At",
+      "start_ms": 20400,
+      "end_ms": 20580,
+      "start_frame": 612,
+      "end_frame": 617
+    },
+    {
+      "word": "index",
+      "start_ms": 20580,
+      "end_ms": 20860,
+      "start_frame": 617,
+      "end_frame": 626
+    },
+    {
+      "word": "3,",
+      "start_ms": 20860,
+      "end_ms": 21320,
+      "start_frame": 626,
+      "end_frame": 640
+    },
+    {
+      "word": "4",
+      "start_ms": 21560,
+      "end_ms": 21880,
+      "start_frame": 647,
+      "end_frame": 656
+    },
+    {
+      "word": "is",
+      "start_ms": 21880,
+      "end_ms": 22140,
+      "start_frame": 656,
+      "end_frame": 664
+    },
+    {
+      "word": "smaller",
+      "start_ms": 22140,
+      "end_ms": 22480,
+      "start_frame": 664,
+      "end_frame": 674
+    },
+    {
+      "word": "than",
+      "start_ms": 22480,
+      "end_ms": 22680,
+      "start_frame": 674,
+      "end_frame": 680
+    },
+    {
+      "word": "4.",
+      "start_ms": 22680,
+      "end_ms": 23060,
+      "start_frame": 680,
+      "end_frame": 692
+    },
+    {
+      "word": "No.",
+      "start_ms": 23620,
+      "end_ms": 23940,
+      "start_frame": 709,
+      "end_frame": 718
+    },
+    {
+      "word": "Equal",
+      "start_ms": 24300,
+      "end_ms": 24500,
+      "start_frame": 729,
+      "end_frame": 735
+    },
+    {
+      "word": "values",
+      "start_ms": 24500,
+      "end_ms": 24920,
+      "start_frame": 735,
+      "end_frame": 748
+    },
+    {
+      "word": "do",
+      "start_ms": 24920,
+      "end_ms": 25180,
+      "start_frame": 748,
+      "end_frame": 755
+    },
+    {
+      "word": "not",
+      "start_ms": 25180,
+      "end_ms": 25420,
+      "start_frame": 755,
+      "end_frame": 763
+    },
+    {
+      "word": "satisfy",
+      "start_ms": 25420,
+      "end_ms": 25880,
+      "start_frame": 763,
+      "end_frame": 776
+    },
+    {
+      "word": "the",
+      "start_ms": 25880,
+      "end_ms": 26120,
+      "start_frame": 776,
+      "end_frame": 784
+    },
+    {
+      "word": "condition.",
+      "start_ms": 26120,
+      "end_ms": 26460,
+      "start_frame": 784,
+      "end_frame": 794
+    },
+    {
+      "word": "Move",
+      "start_ms": 26980,
+      "end_ms": 27320,
+      "start_frame": 809,
+      "end_frame": 820
+    },
+    {
+      "word": "left.",
+      "start_ms": 27320,
+      "end_ms": 27680,
+      "start_frame": 820,
+      "end_frame": 830
+    },
+    {
+      "word": "At",
+      "start_ms": 27980,
+      "end_ms": 28280,
+      "start_frame": 839,
+      "end_frame": 848
+    },
+    {
+      "word": "index",
+      "start_ms": 28280,
+      "end_ms": 28580,
+      "start_frame": 848,
+      "end_frame": 857
+    },
+    {
+      "word": "2,",
+      "start_ms": 28580,
+      "end_ms": 29060,
+      "start_frame": 857,
+      "end_frame": 872
+    },
+    {
+      "word": "5",
+      "start_ms": 29460,
+      "end_ms": 29700,
+      "start_frame": 884,
+      "end_frame": 891
+    },
+    {
+      "word": "is",
+      "start_ms": 29700,
+      "end_ms": 29860,
+      "start_frame": 891,
+      "end_frame": 896
+    },
+    {
+      "word": "smaller",
+      "start_ms": 29860,
+      "end_ms": 30160,
+      "start_frame": 896,
+      "end_frame": 905
+    },
+    {
+      "word": "than",
+      "start_ms": 30160,
+      "end_ms": 30340,
+      "start_frame": 905,
+      "end_frame": 910
+    },
+    {
+      "word": "4.",
+      "start_ms": 30340,
+      "end_ms": 30760,
+      "start_frame": 910,
+      "end_frame": 923
+    },
+    {
+      "word": "No.",
+      "start_ms": 31200,
+      "end_ms": 31520,
+      "start_frame": 936,
+      "end_frame": 946
+    },
+    {
+      "word": "Move",
+      "start_ms": 31920,
+      "end_ms": 32100,
+      "start_frame": 958,
+      "end_frame": 963
+    },
+    {
+      "word": "left.",
+      "start_ms": 32100,
+      "end_ms": 32420,
+      "start_frame": 963,
+      "end_frame": 973
+    },
+    {
+      "word": "At",
+      "start_ms": 32980,
+      "end_ms": 33100,
+      "start_frame": 989,
+      "end_frame": 993
+    },
+    {
+      "word": "index",
+      "start_ms": 33100,
+      "end_ms": 33420,
+      "start_frame": 993,
+      "end_frame": 1003
+    },
+    {
+      "word": "1,",
+      "start_ms": 33420,
+      "end_ms": 33760,
+      "start_frame": 1003,
+      "end_frame": 1013
+    },
+    {
+      "word": "1",
+      "start_ms": 34200,
+      "end_ms": 34400,
+      "start_frame": 1026,
+      "end_frame": 1032
+    },
+    {
+      "word": "is",
+      "start_ms": 34400,
+      "end_ms": 34560,
+      "start_frame": 1032,
+      "end_frame": 1037
+    },
+    {
+      "word": "smaller",
+      "start_ms": 34560,
+      "end_ms": 34800,
+      "start_frame": 1037,
+      "end_frame": 1044
+    },
+    {
+      "word": "than",
+      "start_ms": 34800,
+      "end_ms": 34960,
+      "start_frame": 1044,
+      "end_frame": 1049
+    },
+    {
+      "word": "5?",
+      "start_ms": 34960,
+      "end_ms": 35420,
+      "start_frame": 1049,
+      "end_frame": 1063
+    },
+    {
+      "word": "Yes.",
+      "start_ms": 35700,
+      "end_ms": 36100,
+      "start_frame": 1071,
+      "end_frame": 1083
+    },
+    {
+      "word": "So",
+      "start_ms": 36520,
+      "end_ms": 36720,
+      "start_frame": 1096,
+      "end_frame": 1102
+    },
+    {
+      "word": "index",
+      "start_ms": 36720,
+      "end_ms": 36960,
+      "start_frame": 1102,
+      "end_frame": 1109
+    },
+    {
+      "word": "1",
+      "start_ms": 36960,
+      "end_ms": 37180,
+      "start_frame": 1109,
+      "end_frame": 1115
+    },
+    {
+      "word": "is",
+      "start_ms": 37180,
+      "end_ms": 37420,
+      "start_frame": 1115,
+      "end_frame": 1123
+    },
+    {
+      "word": "our",
+      "start_ms": 37420,
+      "end_ms": 37660,
+      "start_frame": 1123,
+      "end_frame": 1130
+    },
+    {
+      "word": "pivot.",
+      "start_ms": 37660,
+      "end_ms": 37960,
+      "start_frame": 1130,
+      "end_frame": 1139
+    },
+    {
+      "word": "The",
+      "start_ms": 38400,
+      "end_ms": 38620,
+      "start_frame": 1152,
+      "end_frame": 1159
+    },
+    {
+      "word": "pivot",
+      "start_ms": 38620,
+      "end_ms": 38820,
+      "start_frame": 1159,
+      "end_frame": 1165
+    },
+    {
+      "word": "value",
+      "start_ms": 38820,
+      "end_ms": 39180,
+      "start_frame": 1165,
+      "end_frame": 1175
+    },
+    {
+      "word": "is",
+      "start_ms": 39180,
+      "end_ms": 39440,
+      "start_frame": 1175,
+      "end_frame": 1183
+    },
+    {
+      "word": "1.",
+      "start_ms": 39440,
+      "end_ms": 39720,
+      "start_frame": 1183,
+      "end_frame": 1192
+    },
+    {
+      "word": "Everything",
+      "start_ms": 40080,
+      "end_ms": 40480,
+      "start_frame": 1202,
+      "end_frame": 1214
+    },
+    {
+      "word": "after",
+      "start_ms": 40480,
+      "end_ms": 40860,
+      "start_frame": 1214,
+      "end_frame": 1226
+    },
+    {
+      "word": "it,",
+      "start_ms": 40860,
+      "end_ms": 41360,
+      "start_frame": 1226,
+      "end_frame": 1241
+    },
+    {
+      "word": "5,",
+      "start_ms": 41360,
+      "end_ms": 41940,
+      "start_frame": 1241,
+      "end_frame": 1258
+    },
+    {
+      "word": "4,",
+      "start_ms": 42040,
+      "end_ms": 42700,
+      "start_frame": 1261,
+      "end_frame": 1281
+    },
+    {
+      "word": "4,",
+      "start_ms": 43000,
+      "end_ms": 43460,
+      "start_frame": 1290,
+      "end_frame": 1304
+    },
+    {
+      "word": "3,",
+      "start_ms": 43700,
+      "end_ms": 44200,
+      "start_frame": 1311,
+      "end_frame": 1326
+    },
+    {
+      "word": "0,",
+      "start_ms": 44340,
+      "end_ms": 44740,
+      "start_frame": 1330,
+      "end_frame": 1342
+    },
+    {
+      "word": "is",
+      "start_ms": 45380,
+      "end_ms": 45460,
+      "start_frame": 1361,
+      "end_frame": 1364
+    },
+    {
+      "word": "non",
+      "start_ms": 45460,
+      "end_ms": 45760,
+      "start_frame": 1364,
+      "end_frame": 1373
+    },
+    {
+      "word": "-increasing.",
+      "start_ms": 45760,
+      "end_ms": 46360,
+      "start_frame": 1373,
+      "end_frame": 1391
+    },
+    {
+      "word": "Now",
+      "start_ms": 46860,
+      "end_ms": 47080,
+      "start_frame": 1406,
+      "end_frame": 1412
+    },
+    {
+      "word": "we",
+      "start_ms": 47080,
+      "end_ms": 47240,
+      "start_frame": 1412,
+      "end_frame": 1417
+    },
+    {
+      "word": "find",
+      "start_ms": 47240,
+      "end_ms": 47440,
+      "start_frame": 1417,
+      "end_frame": 1423
+    },
+    {
+      "word": "the",
+      "start_ms": 47440,
+      "end_ms": 47680,
+      "start_frame": 1423,
+      "end_frame": 1430
+    },
+    {
+      "word": "value",
+      "start_ms": 47680,
+      "end_ms": 48000,
+      "start_frame": 1430,
+      "end_frame": 1440
+    },
+    {
+      "word": "that",
+      "start_ms": 48000,
+      "end_ms": 48200,
+      "start_frame": 1440,
+      "end_frame": 1446
+    },
+    {
+      "word": "should",
+      "start_ms": 48200,
+      "end_ms": 48480,
+      "start_frame": 1446,
+      "end_frame": 1454
+    },
+    {
+      "word": "replace",
+      "start_ms": 48480,
+      "end_ms": 48880,
+      "start_frame": 1454,
+      "end_frame": 1466
+    },
+    {
+      "word": "the",
+      "start_ms": 48880,
+      "end_ms": 49100,
+      "start_frame": 1466,
+      "end_frame": 1473
+    },
+    {
+      "word": "pivot.",
+      "start_ms": 49100,
+      "end_ms": 49360,
+      "start_frame": 1473,
+      "end_frame": 1481
+    },
+    {
+      "word": "Start",
+      "start_ms": 50380,
+      "end_ms": 50640,
+      "start_frame": 1511,
+      "end_frame": 1519
+    },
+    {
+      "word": "from",
+      "start_ms": 50640,
+      "end_ms": 50840,
+      "start_frame": 1519,
+      "end_frame": 1525
+    },
+    {
+      "word": "the",
+      "start_ms": 50840,
+      "end_ms": 50960,
+      "start_frame": 1525,
+      "end_frame": 1529
+    },
+    {
+      "word": "last",
+      "start_ms": 50960,
+      "end_ms": 51240,
+      "start_frame": 1529,
+      "end_frame": 1537
+    },
+    {
+      "word": "index.",
+      "start_ms": 51240,
+      "end_ms": 51640,
+      "start_frame": 1537,
+      "end_frame": 1549
+    },
+    {
+      "word": "0",
+      "start_ms": 52160,
+      "end_ms": 52580,
+      "start_frame": 1565,
+      "end_frame": 1577
+    },
+    {
+      "word": "is",
+      "start_ms": 52580,
+      "end_ms": 52820,
+      "start_frame": 1577,
+      "end_frame": 1585
+    },
+    {
+      "word": "greater",
+      "start_ms": 52820,
+      "end_ms": 53120,
+      "start_frame": 1585,
+      "end_frame": 1594
+    },
+    {
+      "word": "than",
+      "start_ms": 53120,
+      "end_ms": 53320,
+      "start_frame": 1594,
+      "end_frame": 1600
+    },
+    {
+      "word": "1?",
+      "start_ms": 53320,
+      "end_ms": 53640,
+      "start_frame": 1600,
+      "end_frame": 1609
+    },
+    {
+      "word": "No.",
+      "start_ms": 54560,
+      "end_ms": 54920,
+      "start_frame": 1637,
+      "end_frame": 1648
+    },
+    {
+      "word": "Move",
+      "start_ms": 54920,
+      "end_ms": 55740,
+      "start_frame": 1648,
+      "end_frame": 1672
+    },
+    {
+      "word": "left.",
+      "start_ms": 55740,
+      "end_ms": 56180,
+      "start_frame": 1672,
+      "end_frame": 1685
+    },
+    {
+      "word": "3",
+      "start_ms": 56440,
+      "end_ms": 56680,
+      "start_frame": 1693,
+      "end_frame": 1700
+    },
+    {
+      "word": "is",
+      "start_ms": 56680,
+      "end_ms": 56860,
+      "start_frame": 1700,
+      "end_frame": 1706
+    },
+    {
+      "word": "greater",
+      "start_ms": 56860,
+      "end_ms": 57180,
+      "start_frame": 1706,
+      "end_frame": 1715
+    },
+    {
+      "word": "than",
+      "start_ms": 57180,
+      "end_ms": 57340,
+      "start_frame": 1715,
+      "end_frame": 1720
+    },
+    {
+      "word": "1?",
+      "start_ms": 57340,
+      "end_ms": 57800,
+      "start_frame": 1720,
+      "end_frame": 1734
+    },
+    {
+      "word": "Yes.",
+      "start_ms": 58340,
+      "end_ms": 58780,
+      "start_frame": 1750,
+      "end_frame": 1763
+    },
+    {
+      "word": "So",
+      "start_ms": 59400,
+      "end_ms": 59520,
+      "start_frame": 1782,
+      "end_frame": 1786
+    },
+    {
+      "word": "index",
+      "start_ms": 59520,
+      "end_ms": 59720,
+      "start_frame": 1786,
+      "end_frame": 1792
+    },
+    {
+      "word": "5",
+      "start_ms": 59720,
+      "end_ms": 59980,
+      "start_frame": 1792,
+      "end_frame": 1799
+    },
+    {
+      "word": "is",
+      "start_ms": 59980,
+      "end_ms": 60180,
+      "start_frame": 1799,
+      "end_frame": 1805
+    },
+    {
+      "word": "our",
+      "start_ms": 60180,
+      "end_ms": 60420,
+      "start_frame": 1805,
+      "end_frame": 1813
+    },
+    {
+      "word": "successor.",
+      "start_ms": 60420,
+      "end_ms": 60860,
+      "start_frame": 1813,
+      "end_frame": 1826
+    },
+    {
+      "word": "The",
+      "start_ms": 61260,
+      "end_ms": 61520,
+      "start_frame": 1838,
+      "end_frame": 1846
+    },
+    {
+      "word": "successor",
+      "start_ms": 61520,
+      "end_ms": 61760,
+      "start_frame": 1846,
+      "end_frame": 1853
+    },
+    {
+      "word": "value",
+      "start_ms": 61760,
+      "end_ms": 62080,
+      "start_frame": 1853,
+      "end_frame": 1862
+    },
+    {
+      "word": "is",
+      "start_ms": 62080,
+      "end_ms": 62300,
+      "start_frame": 1862,
+      "end_frame": 1869
+    },
+    {
+      "word": "3.",
+      "start_ms": 62300,
+      "end_ms": 62680,
+      "start_frame": 1869,
+      "end_frame": 1880
+    },
+    {
+      "word": "Now",
+      "start_ms": 63060,
+      "end_ms": 63300,
+      "start_frame": 1892,
+      "end_frame": 1899
+    },
+    {
+      "word": "swap",
+      "start_ms": 63300,
+      "end_ms": 63480,
+      "start_frame": 1899,
+      "end_frame": 1904
+    },
+    {
+      "word": "the",
+      "start_ms": 63480,
+      "end_ms": 63680,
+      "start_frame": 1904,
+      "end_frame": 1910
+    },
+    {
+      "word": "pivot",
+      "start_ms": 63680,
+      "end_ms": 63860,
+      "start_frame": 1910,
+      "end_frame": 1916
+    },
+    {
+      "word": "and",
+      "start_ms": 63860,
+      "end_ms": 64160,
+      "start_frame": 1916,
+      "end_frame": 1925
+    },
+    {
+      "word": "successor.",
+      "start_ms": 64160,
+      "end_ms": 64640,
+      "start_frame": 1925,
+      "end_frame": 1939
+    },
+    {
+      "word": "1",
+      "start_ms": 65160,
+      "end_ms": 65380,
+      "start_frame": 1955,
+      "end_frame": 1961
+    },
+    {
+      "word": "swaps",
+      "start_ms": 65380,
+      "end_ms": 65700,
+      "start_frame": 1961,
+      "end_frame": 1971
+    },
+    {
+      "word": "with",
+      "start_ms": 65700,
+      "end_ms": 65900,
+      "start_frame": 1971,
+      "end_frame": 1977
+    },
+    {
+      "word": "3.",
+      "start_ms": 65900,
+      "end_ms": 66260,
+      "start_frame": 1977,
+      "end_frame": 1988
+    },
+    {
+      "word": "The",
+      "start_ms": 66660,
+      "end_ms": 66840,
+      "start_frame": 2000,
+      "end_frame": 2005
+    },
+    {
+      "word": "array",
+      "start_ms": 66840,
+      "end_ms": 67080,
+      "start_frame": 2005,
+      "end_frame": 2012
+    },
+    {
+      "word": "becomes",
+      "start_ms": 67080,
+      "end_ms": 67540,
+      "start_frame": 2012,
+      "end_frame": 2026
+    },
+    {
+      "word": "2,",
+      "start_ms": 67540,
+      "end_ms": 68300,
+      "start_frame": 2026,
+      "end_frame": 2049
+    },
+    {
+      "word": "3,",
+      "start_ms": 68680,
+      "end_ms": 69140,
+      "start_frame": 2060,
+      "end_frame": 2074
+    },
+    {
+      "word": "5,",
+      "start_ms": 69420,
+      "end_ms": 69860,
+      "start_frame": 2083,
+      "end_frame": 2096
+    },
+    {
+      "word": "4,",
+      "start_ms": 70280,
+      "end_ms": 70700,
+      "start_frame": 2108,
+      "end_frame": 2121
+    },
+    {
+      "word": "4,",
+      "start_ms": 71120,
+      "end_ms": 71520,
+      "start_frame": 2134,
+      "end_frame": 2146
+    },
+    {
+      "word": "1,",
+      "start_ms": 71920,
+      "end_ms": 72420,
+      "start_frame": 2158,
+      "end_frame": 2173
+    },
+    {
+      "word": "0.",
+      "start_ms": 72880,
+      "end_ms": 73240,
+      "start_frame": 2186,
+      "end_frame": 2197
+    },
+    {
+      "word": "Now",
+      "start_ms": 73900,
+      "end_ms": 74020,
+      "start_frame": 2217,
+      "end_frame": 2221
+    },
+    {
+      "word": "the",
+      "start_ms": 74020,
+      "end_ms": 74180,
+      "start_frame": 2221,
+      "end_frame": 2225
+    },
+    {
+      "word": "permutation",
+      "start_ms": 74180,
+      "end_ms": 74700,
+      "start_frame": 2225,
+      "end_frame": 2241
+    },
+    {
+      "word": "is",
+      "start_ms": 74700,
+      "end_ms": 74920,
+      "start_frame": 2241,
+      "end_frame": 2248
+    },
+    {
+      "word": "larger,",
+      "start_ms": 74920,
+      "end_ms": 75320,
+      "start_frame": 2248,
+      "end_frame": 2260
+    },
+    {
+      "word": "but",
+      "start_ms": 75740,
+      "end_ms": 75920,
+      "start_frame": 2272,
+      "end_frame": 2278
+    },
+    {
+      "word": "the",
+      "start_ms": 75920,
+      "end_ms": 76160,
+      "start_frame": 2278,
+      "end_frame": 2285
+    },
+    {
+      "word": "suffix",
+      "start_ms": 76160,
+      "end_ms": 76440,
+      "start_frame": 2285,
+      "end_frame": 2293
+    },
+    {
+      "word": "is",
+      "start_ms": 76440,
+      "end_ms": 76580,
+      "start_frame": 2293,
+      "end_frame": 2297
+    },
+    {
+      "word": "still",
+      "start_ms": 76580,
+      "end_ms": 76860,
+      "start_frame": 2297,
+      "end_frame": 2306
+    },
+    {
+      "word": "as",
+      "start_ms": 76860,
+      "end_ms": 77160,
+      "start_frame": 2306,
+      "end_frame": 2315
+    },
+    {
+      "word": "large",
+      "start_ms": 77160,
+      "end_ms": 77340,
+      "start_frame": 2315,
+      "end_frame": 2320
+    },
+    {
+      "word": "as",
+      "start_ms": 77340,
+      "end_ms": 77600,
+      "start_frame": 2320,
+      "end_frame": 2328
+    },
+    {
+      "word": "possible.",
+      "start_ms": 77600,
+      "end_ms": 78040,
+      "start_frame": 2328,
+      "end_frame": 2341
+    },
+    {
+      "word": "We",
+      "start_ms": 78360,
+      "end_ms": 78600,
+      "start_frame": 2351,
+      "end_frame": 2358
+    },
+    {
+      "word": "need",
+      "start_ms": 78600,
+      "end_ms": 78760,
+      "start_frame": 2358,
+      "end_frame": 2363
+    },
+    {
+      "word": "the",
+      "start_ms": 78760,
+      "end_ms": 79080,
+      "start_frame": 2363,
+      "end_frame": 2372
+    },
+    {
+      "word": "smallest",
+      "start_ms": 79080,
+      "end_ms": 79440,
+      "start_frame": 2372,
+      "end_frame": 2383
+    },
+    {
+      "word": "possible",
+      "start_ms": 79440,
+      "end_ms": 79980,
+      "start_frame": 2383,
+      "end_frame": 2399
+    },
+    {
+      "word": "suffix.",
+      "start_ms": 79980,
+      "end_ms": 80660,
+      "start_frame": 2399,
+      "end_frame": 2420
+    },
+    {
+      "word": "So",
+      "start_ms": 81000,
+      "end_ms": 81300,
+      "start_frame": 2430,
+      "end_frame": 2439
+    },
+    {
+      "word": "reverse",
+      "start_ms": 81300,
+      "end_ms": 81700,
+      "start_frame": 2439,
+      "end_frame": 2451
+    },
+    {
+      "word": "everything",
+      "start_ms": 81700,
+      "end_ms": 82340,
+      "start_frame": 2451,
+      "end_frame": 2470
+    },
+    {
+      "word": "after",
+      "start_ms": 82340,
+      "end_ms": 82840,
+      "start_frame": 2470,
+      "end_frame": 2485
+    },
+    {
+      "word": "the",
+      "start_ms": 82840,
+      "end_ms": 83060,
+      "start_frame": 2485,
+      "end_frame": 2492
+    },
+    {
+      "word": "pivot.",
+      "start_ms": 83060,
+      "end_ms": 83300,
+      "start_frame": 2492,
+      "end_frame": 2499
+    },
+    {
+      "word": "Our",
+      "start_ms": 83300,
+      "end_ms": 83980,
+      "start_frame": 2499,
+      "end_frame": 2519
+    },
+    {
+      "word": "reverse",
+      "start_ms": 83980,
+      "end_ms": 84480,
+      "start_frame": 2519,
+      "end_frame": 2534
+    },
+    {
+      "word": "range",
+      "start_ms": 84480,
+      "end_ms": 84800,
+      "start_frame": 2534,
+      "end_frame": 2544
+    },
+    {
+      "word": "is",
+      "start_ms": 84800,
+      "end_ms": 85020,
+      "start_frame": 2544,
+      "end_frame": 2551
+    },
+    {
+      "word": "index",
+      "start_ms": 85020,
+      "end_ms": 85420,
+      "start_frame": 2551,
+      "end_frame": 2563
+    },
+    {
+      "word": "2",
+      "start_ms": 85420,
+      "end_ms": 85720,
+      "start_frame": 2563,
+      "end_frame": 2572
+    },
+    {
+      "word": "to",
+      "start_ms": 85720,
+      "end_ms": 86020,
+      "start_frame": 2572,
+      "end_frame": 2581
+    },
+    {
+      "word": "index",
+      "start_ms": 86020,
+      "end_ms": 86380,
+      "start_frame": 2581,
+      "end_frame": 2591
+    },
+    {
+      "word": "6.",
+      "start_ms": 86380,
+      "end_ms": 87040,
+      "start_frame": 2591,
+      "end_frame": 2611
+    },
+    {
+      "word": "Swap",
+      "start_ms": 87280,
+      "end_ms": 87540,
+      "start_frame": 2618,
+      "end_frame": 2626
+    },
+    {
+      "word": "5",
+      "start_ms": 87540,
+      "end_ms": 87920,
+      "start_frame": 2626,
+      "end_frame": 2638
+    },
+    {
+      "word": "and",
+      "start_ms": 87920,
+      "end_ms": 88140,
+      "start_frame": 2638,
+      "end_frame": 2644
+    },
+    {
+      "word": "0.",
+      "start_ms": 88140,
+      "end_ms": 88740,
+      "start_frame": 2644,
+      "end_frame": 2662
+    },
+    {
+      "word": "The",
+      "start_ms": 89220,
+      "end_ms": 89440,
+      "start_frame": 2677,
+      "end_frame": 2683
+    },
+    {
+      "word": "array",
+      "start_ms": 89440,
+      "end_ms": 89680,
+      "start_frame": 2683,
+      "end_frame": 2690
+    },
+    {
+      "word": "becomes",
+      "start_ms": 89680,
+      "end_ms": 90260,
+      "start_frame": 2690,
+      "end_frame": 2708
+    },
+    {
+      "word": "2,",
+      "start_ms": 90260,
+      "end_ms": 90760,
+      "start_frame": 2708,
+      "end_frame": 2723
+    },
+    {
+      "word": "3,",
+      "start_ms": 90820,
+      "end_ms": 91500,
+      "start_frame": 2725,
+      "end_frame": 2745
+    },
+    {
+      "word": "0,",
+      "start_ms": 91520,
+      "end_ms": 92180,
+      "start_frame": 2746,
+      "end_frame": 2765
+    },
+    {
+      "word": "4,",
+      "start_ms": 92460,
+      "end_ms": 92860,
+      "start_frame": 2774,
+      "end_frame": 2786
+    },
+    {
+      "word": "4,",
+      "start_ms": 93140,
+      "end_ms": 93560,
+      "start_frame": 2794,
+      "end_frame": 2807
+    },
+    {
+      "word": "1,",
+      "start_ms": 93620,
+      "end_ms": 94140,
+      "start_frame": 2809,
+      "end_frame": 2824
+    },
+    {
+      "word": "5.",
+      "start_ms": 94280,
+      "end_ms": 94920,
+      "start_frame": 2828,
+      "end_frame": 2848
+    },
+    {
+      "word": "Move",
+      "start_ms": 95000,
+      "end_ms": 95400,
+      "start_frame": 2850,
+      "end_frame": 2862
+    },
+    {
+      "word": "inward.",
+      "start_ms": 95400,
+      "end_ms": 95880,
+      "start_frame": 2862,
+      "end_frame": 2876
+    },
+    {
+      "word": "Swap",
+      "start_ms": 96160,
+      "end_ms": 96420,
+      "start_frame": 2885,
+      "end_frame": 2893
+    },
+    {
+      "word": "4",
+      "start_ms": 96420,
+      "end_ms": 96700,
+      "start_frame": 2893,
+      "end_frame": 2901
+    },
+    {
+      "word": "and",
+      "start_ms": 96700,
+      "end_ms": 96900,
+      "start_frame": 2901,
+      "end_frame": 2907
+    },
+    {
+      "word": "1.",
+      "start_ms": 96900,
+      "end_ms": 97280,
+      "start_frame": 2907,
+      "end_frame": 2918
+    },
+    {
+      "word": "The",
+      "start_ms": 97880,
+      "end_ms": 98080,
+      "start_frame": 2936,
+      "end_frame": 2942
+    },
+    {
+      "word": "array",
+      "start_ms": 98080,
+      "end_ms": 98320,
+      "start_frame": 2942,
+      "end_frame": 2950
+    },
+    {
+      "word": "becomes",
+      "start_ms": 98320,
+      "end_ms": 98820,
+      "start_frame": 2950,
+      "end_frame": 2965
+    },
+    {
+      "word": "2,",
+      "start_ms": 98820,
+      "end_ms": 99380,
+      "start_frame": 2965,
+      "end_frame": 2981
+    },
+    {
+      "word": "3,",
+      "start_ms": 99600,
+      "end_ms": 100140,
+      "start_frame": 2988,
+      "end_frame": 3004
+    },
+    {
+      "word": "0,",
+      "start_ms": 100280,
+      "end_ms": 100940,
+      "start_frame": 3008,
+      "end_frame": 3028
+    },
+    {
+      "word": "1,",
+      "start_ms": 101220,
+      "end_ms": 101620,
+      "start_frame": 3037,
+      "end_frame": 3049
+    },
+    {
+      "word": "4,",
+      "start_ms": 101680,
+      "end_ms": 102220,
+      "start_frame": 3050,
+      "end_frame": 3067
+    },
+    {
+      "word": "4,",
+      "start_ms": 102360,
+      "end_ms": 102800,
+      "start_frame": 3071,
+      "end_frame": 3084
+    },
+    {
+      "word": "5.",
+      "start_ms": 103040,
+      "end_ms": 103500,
+      "start_frame": 3091,
+      "end_frame": 3105
+    },
+    {
+      "word": "Now",
+      "start_ms": 103800,
+      "end_ms": 104000,
+      "start_frame": 3114,
+      "end_frame": 3120
+    },
+    {
+      "word": "both",
+      "start_ms": 104000,
+      "end_ms": 104240,
+      "start_frame": 3120,
+      "end_frame": 3127
+    },
+    {
+      "word": "reverse",
+      "start_ms": 104240,
+      "end_ms": 104660,
+      "start_frame": 3127,
+      "end_frame": 3140
+    },
+    {
+      "word": "pointers",
+      "start_ms": 104660,
+      "end_ms": 104960,
+      "start_frame": 3140,
+      "end_frame": 3149
+    },
+    {
+      "word": "meet.",
+      "start_ms": 104960,
+      "end_ms": 105340,
+      "start_frame": 3149,
+      "end_frame": 3160
+    },
+    {
+      "word": "We",
+      "start_ms": 105660,
+      "end_ms": 106020,
+      "start_frame": 3170,
+      "end_frame": 3181
+    },
+    {
+      "word": "stop.",
+      "start_ms": 106020,
+      "end_ms": 106300,
+      "start_frame": 3181,
+      "end_frame": 3189
+    },
+    {
+      "word": "Our",
+      "start_ms": 106860,
+      "end_ms": 107280,
+      "start_frame": 3206,
+      "end_frame": 3218
+    },
+    {
+      "word": "final",
+      "start_ms": 107280,
+      "end_ms": 107700,
+      "start_frame": 3218,
+      "end_frame": 3231
+    },
+    {
+      "word": "answer",
+      "start_ms": 107700,
+      "end_ms": 107960,
+      "start_frame": 3231,
+      "end_frame": 3239
+    },
+    {
+      "word": "is",
+      "start_ms": 107960,
+      "end_ms": 108340,
+      "start_frame": 3239,
+      "end_frame": 3250
+    },
+    {
+      "word": "2,",
+      "start_ms": 108340,
+      "end_ms": 108900,
+      "start_frame": 3250,
+      "end_frame": 3267
+    },
+    {
+      "word": "3,",
+      "start_ms": 108960,
+      "end_ms": 109680,
+      "start_frame": 3269,
+      "end_frame": 3290
+    },
+    {
+      "word": "0,",
+      "start_ms": 109720,
+      "end_ms": 110500,
+      "start_frame": 3292,
+      "end_frame": 3315
+    },
+    {
+      "word": "1,",
+      "start_ms": 111020,
+      "end_ms": 111420,
+      "start_frame": 3331,
+      "end_frame": 3343
+    },
+    {
+      "word": "4,",
+      "start_ms": 111740,
+      "end_ms": 112160,
+      "start_frame": 3352,
+      "end_frame": 3365
+    },
+    {
+      "word": "4,",
+      "start_ms": 112560,
+      "end_ms": 112980,
+      "start_frame": 3377,
+      "end_frame": 3389
+    },
+    {
+      "word": "5.",
+      "start_ms": 113160,
+      "end_ms": 113800,
+      "start_frame": 3395,
+      "end_frame": 3414
+    },
+    {
+      "word": "That",
+      "start_ms": 114880,
+      "end_ms": 115120,
+      "start_frame": 3446,
+      "end_frame": 3454
+    },
+    {
+      "word": "is",
+      "start_ms": 115120,
+      "end_ms": 115400,
+      "start_frame": 3454,
+      "end_frame": 3462
+    },
+    {
+      "word": "the",
+      "start_ms": 115400,
+      "end_ms": 115620,
+      "start_frame": 3462,
+      "end_frame": 3469
+    },
+    {
+      "word": "immediate",
+      "start_ms": 115620,
+      "end_ms": 116040,
+      "start_frame": 3469,
+      "end_frame": 3481
+    },
+    {
+      "word": "next",
+      "start_ms": 116040,
+      "end_ms": 116520,
+      "start_frame": 3481,
+      "end_frame": 3496
+    },
+    {
+      "word": "permutation.",
+      "start_ms": 116520,
+      "end_ms": 117320,
+      "start_frame": 3496,
+      "end_frame": 3520
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Our array is 2, 1, 5, 4, 4, 3, 0.",
+      "start_ms": 0,
+      "end_ms": 7020,
+      "start_frame": 0,
+      "end_frame": 211,
+      "word_count": 10
+    },
+    {
+      "text": "We start the pivot search from the second last index.",
+      "start_ms": 7740,
+      "end_ms": 10140,
+      "start_frame": 232,
+      "end_frame": 304,
+      "word_count": 10
+    },
+    {
+      "text": "At index 5, 3 is smaller than 0.",
+      "start_ms": 10720,
+      "end_ms": 13520,
+      "start_frame": 322,
+      "end_frame": 406,
+      "word_count": 8
+    },
+    {
+      "text": "No.",
+      "start_ms": 14100,
+      "end_ms": 14480,
+      "start_frame": 423,
+      "end_frame": 434,
+      "word_count": 1
+    },
+    {
+      "text": "Move left.",
+      "start_ms": 14940,
+      "end_ms": 15460,
+      "start_frame": 448,
+      "end_frame": 464,
+      "word_count": 2
+    },
+    {
+      "text": "At index 4, 4 is smaller than 3.",
+      "start_ms": 15920,
+      "end_ms": 18420,
+      "start_frame": 478,
+      "end_frame": 553,
+      "word_count": 8
+    },
+    {
+      "text": "No.",
+      "start_ms": 18660,
+      "end_ms": 19000,
+      "start_frame": 560,
+      "end_frame": 570,
+      "word_count": 1
+    },
+    {
+      "text": "Move left.",
+      "start_ms": 19460,
+      "end_ms": 20040,
+      "start_frame": 584,
+      "end_frame": 601,
+      "word_count": 2
+    },
+    {
+      "text": "At index 3, 4 is smaller than 4.",
+      "start_ms": 20400,
+      "end_ms": 23060,
+      "start_frame": 612,
+      "end_frame": 692,
+      "word_count": 8
+    },
+    {
+      "text": "No.",
+      "start_ms": 23620,
+      "end_ms": 23940,
+      "start_frame": 709,
+      "end_frame": 718,
+      "word_count": 1
+    },
+    {
+      "text": "Equal values do not satisfy the condition.",
+      "start_ms": 24300,
+      "end_ms": 26460,
+      "start_frame": 729,
+      "end_frame": 794,
+      "word_count": 7
+    },
+    {
+      "text": "Move left.",
+      "start_ms": 26980,
+      "end_ms": 27680,
+      "start_frame": 809,
+      "end_frame": 830,
+      "word_count": 2
+    },
+    {
+      "text": "At index 2, 5 is smaller than 4.",
+      "start_ms": 27980,
+      "end_ms": 30760,
+      "start_frame": 839,
+      "end_frame": 923,
+      "word_count": 8
+    },
+    {
+      "text": "No.",
+      "start_ms": 31200,
+      "end_ms": 31520,
+      "start_frame": 936,
+      "end_frame": 946,
+      "word_count": 1
+    },
+    {
+      "text": "Move left.",
+      "start_ms": 31920,
+      "end_ms": 32420,
+      "start_frame": 958,
+      "end_frame": 973,
+      "word_count": 2
+    },
+    {
+      "text": "At index 1, 1 is smaller than 5?",
+      "start_ms": 32980,
+      "end_ms": 35420,
+      "start_frame": 989,
+      "end_frame": 1063,
+      "word_count": 8
+    },
+    {
+      "text": "Yes.",
+      "start_ms": 35700,
+      "end_ms": 36100,
+      "start_frame": 1071,
+      "end_frame": 1083,
+      "word_count": 1
+    },
+    {
+      "text": "So index 1 is our pivot.",
+      "start_ms": 36520,
+      "end_ms": 37960,
+      "start_frame": 1096,
+      "end_frame": 1139,
+      "word_count": 6
+    },
+    {
+      "text": "The pivot value is 1.",
+      "start_ms": 38400,
+      "end_ms": 39720,
+      "start_frame": 1152,
+      "end_frame": 1192,
+      "word_count": 5
+    },
+    {
+      "text": "Everything after it, 5, 4, 4, 3, 0, is non -increasing.",
+      "start_ms": 40080,
+      "end_ms": 46360,
+      "start_frame": 1202,
+      "end_frame": 1391,
+      "word_count": 11
+    },
+    {
+      "text": "Now we find the value that should replace the pivot.",
+      "start_ms": 46860,
+      "end_ms": 49360,
+      "start_frame": 1406,
+      "end_frame": 1481,
+      "word_count": 10
+    },
+    {
+      "text": "Start from the last index.",
+      "start_ms": 50380,
+      "end_ms": 51640,
+      "start_frame": 1511,
+      "end_frame": 1549,
+      "word_count": 5
+    },
+    {
+      "text": "0 is greater than 1?",
+      "start_ms": 52160,
+      "end_ms": 53640,
+      "start_frame": 1565,
+      "end_frame": 1609,
+      "word_count": 5
+    },
+    {
+      "text": "No.",
+      "start_ms": 54560,
+      "end_ms": 54920,
+      "start_frame": 1637,
+      "end_frame": 1648,
+      "word_count": 1
+    },
+    {
+      "text": "Move left.",
+      "start_ms": 54920,
+      "end_ms": 56180,
+      "start_frame": 1648,
+      "end_frame": 1685,
+      "word_count": 2
+    },
+    {
+      "text": "3 is greater than 1?",
+      "start_ms": 56440,
+      "end_ms": 57800,
+      "start_frame": 1693,
+      "end_frame": 1734,
+      "word_count": 5
+    },
+    {
+      "text": "Yes.",
+      "start_ms": 58340,
+      "end_ms": 58780,
+      "start_frame": 1750,
+      "end_frame": 1763,
+      "word_count": 1
+    },
+    {
+      "text": "So index 5 is our successor.",
+      "start_ms": 59400,
+      "end_ms": 60860,
+      "start_frame": 1782,
+      "end_frame": 1826,
+      "word_count": 6
+    },
+    {
+      "text": "The successor value is 3.",
+      "start_ms": 61260,
+      "end_ms": 62680,
+      "start_frame": 1838,
+      "end_frame": 1880,
+      "word_count": 5
+    },
+    {
+      "text": "Now swap the pivot and successor.",
+      "start_ms": 63060,
+      "end_ms": 64640,
+      "start_frame": 1892,
+      "end_frame": 1939,
+      "word_count": 6
+    },
+    {
+      "text": "1 swaps with 3.",
+      "start_ms": 65160,
+      "end_ms": 66260,
+      "start_frame": 1955,
+      "end_frame": 1988,
+      "word_count": 4
+    },
+    {
+      "text": "The array becomes 2, 3, 5, 4, 4, 1, 0.",
+      "start_ms": 66660,
+      "end_ms": 73240,
+      "start_frame": 2000,
+      "end_frame": 2197,
+      "word_count": 10
+    },
+    {
+      "text": "Now the permutation is larger, but the suffix is still as large as possible.",
+      "start_ms": 73900,
+      "end_ms": 78040,
+      "start_frame": 2217,
+      "end_frame": 2341,
+      "word_count": 14
+    },
+    {
+      "text": "We need the smallest possible suffix.",
+      "start_ms": 78360,
+      "end_ms": 80660,
+      "start_frame": 2351,
+      "end_frame": 2420,
+      "word_count": 6
+    },
+    {
+      "text": "So reverse everything after the pivot.",
+      "start_ms": 81000,
+      "end_ms": 83300,
+      "start_frame": 2430,
+      "end_frame": 2499,
+      "word_count": 6
+    },
+    {
+      "text": "Our reverse range is index 2 to index 6.",
+      "start_ms": 83300,
+      "end_ms": 87040,
+      "start_frame": 2499,
+      "end_frame": 2611,
+      "word_count": 9
+    },
+    {
+      "text": "Swap 5 and 0.",
+      "start_ms": 87280,
+      "end_ms": 88740,
+      "start_frame": 2618,
+      "end_frame": 2662,
+      "word_count": 4
+    },
+    {
+      "text": "The array becomes 2, 3, 0, 4, 4, 1, 5.",
+      "start_ms": 89220,
+      "end_ms": 94920,
+      "start_frame": 2677,
+      "end_frame": 2848,
+      "word_count": 10
+    },
+    {
+      "text": "Move inward.",
+      "start_ms": 95000,
+      "end_ms": 95880,
+      "start_frame": 2850,
+      "end_frame": 2876,
+      "word_count": 2
+    },
+    {
+      "text": "Swap 4 and 1.",
+      "start_ms": 96160,
+      "end_ms": 97280,
+      "start_frame": 2885,
+      "end_frame": 2918,
+      "word_count": 4
+    },
+    {
+      "text": "The array becomes 2, 3, 0, 1, 4, 4, 5.",
+      "start_ms": 97880,
+      "end_ms": 103500,
+      "start_frame": 2936,
+      "end_frame": 3105,
+      "word_count": 10
+    },
+    {
+      "text": "Now both reverse pointers meet.",
+      "start_ms": 103800,
+      "end_ms": 105340,
+      "start_frame": 3114,
+      "end_frame": 3160,
+      "word_count": 5
+    },
+    {
+      "text": "We stop.",
+      "start_ms": 105660,
+      "end_ms": 106300,
+      "start_frame": 3170,
+      "end_frame": 3189,
+      "word_count": 2
+    },
+    {
+      "text": "Our final answer is 2, 3, 0, 1, 4, 4, 5.",
+      "start_ms": 106860,
+      "end_ms": 113800,
+      "start_frame": 3206,
+      "end_frame": 3414,
+      "word_count": 11
+    },
+    {
+      "text": "That is the immediate next permutation.",
+      "start_ms": 114880,
+      "end_ms": 117320,
+      "start_frame": 3446,
+      "end_frame": 3520,
+      "word_count": 6
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "1,",
+      "before_word": "5,",
+      "start_ms": 2520,
+      "end_ms": 2900,
+      "duration_ms": 380,
+      "start_frame": 76,
+      "end_frame": 87,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "5,",
+      "before_word": "4,",
+      "start_ms": 3680,
+      "end_ms": 4020,
+      "duration_ms": 340,
+      "start_frame": 110,
+      "end_frame": 121,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "4,",
+      "before_word": "4,",
+      "start_ms": 4680,
+      "end_ms": 5240,
+      "duration_ms": 560,
+      "start_frame": 140,
+      "end_frame": 157,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "0.",
+      "before_word": "We",
+      "start_ms": 7020,
+      "end_ms": 7740,
+      "duration_ms": 720,
+      "start_frame": 211,
+      "end_frame": 232,
+      "duration_frames": 21
+    },
+    {
+      "after_word": "index.",
+      "before_word": "At",
+      "start_ms": 10140,
+      "end_ms": 10720,
+      "duration_ms": 580,
+      "start_frame": 304,
+      "end_frame": 322,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "5,",
+      "before_word": "3",
+      "start_ms": 11400,
+      "end_ms": 11760,
+      "duration_ms": 360,
+      "start_frame": 342,
+      "end_frame": 353,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "0.",
+      "before_word": "No.",
+      "start_ms": 13520,
+      "end_ms": 14100,
+      "duration_ms": 580,
+      "start_frame": 406,
+      "end_frame": 423,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "No.",
+      "before_word": "Move",
+      "start_ms": 14480,
+      "end_ms": 14940,
+      "duration_ms": 460,
+      "start_frame": 434,
+      "end_frame": 448,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "left.",
+      "before_word": "At",
+      "start_ms": 15460,
+      "end_ms": 15920,
+      "duration_ms": 460,
+      "start_frame": 464,
+      "end_frame": 478,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "No.",
+      "before_word": "Move",
+      "start_ms": 19000,
+      "end_ms": 19460,
+      "duration_ms": 460,
+      "start_frame": 570,
+      "end_frame": 584,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "left.",
+      "before_word": "At",
+      "start_ms": 20040,
+      "end_ms": 20400,
+      "duration_ms": 360,
+      "start_frame": 601,
+      "end_frame": 612,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "4.",
+      "before_word": "No.",
+      "start_ms": 23060,
+      "end_ms": 23620,
+      "duration_ms": 560,
+      "start_frame": 692,
+      "end_frame": 709,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "No.",
+      "before_word": "Equal",
+      "start_ms": 23940,
+      "end_ms": 24300,
+      "duration_ms": 360,
+      "start_frame": 718,
+      "end_frame": 729,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "condition.",
+      "before_word": "Move",
+      "start_ms": 26460,
+      "end_ms": 26980,
+      "duration_ms": 520,
+      "start_frame": 794,
+      "end_frame": 809,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "left.",
+      "before_word": "At",
+      "start_ms": 27680,
+      "end_ms": 27980,
+      "duration_ms": 300,
+      "start_frame": 830,
+      "end_frame": 839,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "2,",
+      "before_word": "5",
+      "start_ms": 29060,
+      "end_ms": 29460,
+      "duration_ms": 400,
+      "start_frame": 872,
+      "end_frame": 884,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "4.",
+      "before_word": "No.",
+      "start_ms": 30760,
+      "end_ms": 31200,
+      "duration_ms": 440,
+      "start_frame": 923,
+      "end_frame": 936,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "No.",
+      "before_word": "Move",
+      "start_ms": 31520,
+      "end_ms": 31920,
+      "duration_ms": 400,
+      "start_frame": 946,
+      "end_frame": 958,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "left.",
+      "before_word": "At",
+      "start_ms": 32420,
+      "end_ms": 32980,
+      "duration_ms": 560,
+      "start_frame": 973,
+      "end_frame": 989,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "1,",
+      "before_word": "1",
+      "start_ms": 33760,
+      "end_ms": 34200,
+      "duration_ms": 440,
+      "start_frame": 1013,
+      "end_frame": 1026,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "Yes.",
+      "before_word": "So",
+      "start_ms": 36100,
+      "end_ms": 36520,
+      "duration_ms": 420,
+      "start_frame": 1083,
+      "end_frame": 1096,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "pivot.",
+      "before_word": "The",
+      "start_ms": 37960,
+      "end_ms": 38400,
+      "duration_ms": 440,
+      "start_frame": 1139,
+      "end_frame": 1152,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "1.",
+      "before_word": "Everything",
+      "start_ms": 39720,
+      "end_ms": 40080,
+      "duration_ms": 360,
+      "start_frame": 1192,
+      "end_frame": 1202,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "4,",
+      "before_word": "4,",
+      "start_ms": 42700,
+      "end_ms": 43000,
+      "duration_ms": 300,
+      "start_frame": 1281,
+      "end_frame": 1290,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "0,",
+      "before_word": "is",
+      "start_ms": 44740,
+      "end_ms": 45380,
+      "duration_ms": 640,
+      "start_frame": 1342,
+      "end_frame": 1361,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "-increasing.",
+      "before_word": "Now",
+      "start_ms": 46360,
+      "end_ms": 46860,
+      "duration_ms": 500,
+      "start_frame": 1391,
+      "end_frame": 1406,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "pivot.",
+      "before_word": "Start",
+      "start_ms": 49360,
+      "end_ms": 50380,
+      "duration_ms": 1020,
+      "start_frame": 1481,
+      "end_frame": 1511,
+      "duration_frames": 30
+    },
+    {
+      "after_word": "index.",
+      "before_word": "0",
+      "start_ms": 51640,
+      "end_ms": 52160,
+      "duration_ms": 520,
+      "start_frame": 1549,
+      "end_frame": 1565,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "1?",
+      "before_word": "No.",
+      "start_ms": 53640,
+      "end_ms": 54560,
+      "duration_ms": 920,
+      "start_frame": 1609,
+      "end_frame": 1637,
+      "duration_frames": 28
+    },
+    {
+      "after_word": "1?",
+      "before_word": "Yes.",
+      "start_ms": 57800,
+      "end_ms": 58340,
+      "duration_ms": 540,
+      "start_frame": 1734,
+      "end_frame": 1750,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "Yes.",
+      "before_word": "So",
+      "start_ms": 58780,
+      "end_ms": 59400,
+      "duration_ms": 620,
+      "start_frame": 1763,
+      "end_frame": 1782,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "successor.",
+      "before_word": "The",
+      "start_ms": 60860,
+      "end_ms": 61260,
+      "duration_ms": 400,
+      "start_frame": 1826,
+      "end_frame": 1838,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "3.",
+      "before_word": "Now",
+      "start_ms": 62680,
+      "end_ms": 63060,
+      "duration_ms": 380,
+      "start_frame": 1880,
+      "end_frame": 1892,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "successor.",
+      "before_word": "1",
+      "start_ms": 64640,
+      "end_ms": 65160,
+      "duration_ms": 520,
+      "start_frame": 1939,
+      "end_frame": 1955,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "3.",
+      "before_word": "The",
+      "start_ms": 66260,
+      "end_ms": 66660,
+      "duration_ms": 400,
+      "start_frame": 1988,
+      "end_frame": 2000,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "2,",
+      "before_word": "3,",
+      "start_ms": 68300,
+      "end_ms": 68680,
+      "duration_ms": 380,
+      "start_frame": 2049,
+      "end_frame": 2060,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "5,",
+      "before_word": "4,",
+      "start_ms": 69860,
+      "end_ms": 70280,
+      "duration_ms": 420,
+      "start_frame": 2096,
+      "end_frame": 2108,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "4,",
+      "before_word": "4,",
+      "start_ms": 70700,
+      "end_ms": 71120,
+      "duration_ms": 420,
+      "start_frame": 2121,
+      "end_frame": 2134,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "4,",
+      "before_word": "1,",
+      "start_ms": 71520,
+      "end_ms": 71920,
+      "duration_ms": 400,
+      "start_frame": 2146,
+      "end_frame": 2158,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "1,",
+      "before_word": "0.",
+      "start_ms": 72420,
+      "end_ms": 72880,
+      "duration_ms": 460,
+      "start_frame": 2173,
+      "end_frame": 2186,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "0.",
+      "before_word": "Now",
+      "start_ms": 73240,
+      "end_ms": 73900,
+      "duration_ms": 660,
+      "start_frame": 2197,
+      "end_frame": 2217,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "larger,",
+      "before_word": "but",
+      "start_ms": 75320,
+      "end_ms": 75740,
+      "duration_ms": 420,
+      "start_frame": 2260,
+      "end_frame": 2272,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "possible.",
+      "before_word": "We",
+      "start_ms": 78040,
+      "end_ms": 78360,
+      "duration_ms": 320,
+      "start_frame": 2341,
+      "end_frame": 2351,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "suffix.",
+      "before_word": "So",
+      "start_ms": 80660,
+      "end_ms": 81000,
+      "duration_ms": 340,
+      "start_frame": 2420,
+      "end_frame": 2430,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "0.",
+      "before_word": "The",
+      "start_ms": 88740,
+      "end_ms": 89220,
+      "duration_ms": 480,
+      "start_frame": 2662,
+      "end_frame": 2677,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "1.",
+      "before_word": "The",
+      "start_ms": 97280,
+      "end_ms": 97880,
+      "duration_ms": 600,
+      "start_frame": 2918,
+      "end_frame": 2936,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "5.",
+      "before_word": "Now",
+      "start_ms": 103500,
+      "end_ms": 103800,
+      "duration_ms": 300,
+      "start_frame": 3105,
+      "end_frame": 3114,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "meet.",
+      "before_word": "We",
+      "start_ms": 105340,
+      "end_ms": 105660,
+      "duration_ms": 320,
+      "start_frame": 3160,
+      "end_frame": 3170,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "stop.",
+      "before_word": "Our",
+      "start_ms": 106300,
+      "end_ms": 106860,
+      "duration_ms": 560,
+      "start_frame": 3189,
+      "end_frame": 3206,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "0,",
+      "before_word": "1,",
+      "start_ms": 110500,
+      "end_ms": 111020,
+      "duration_ms": 520,
+      "start_frame": 3315,
+      "end_frame": 3331,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "1,",
+      "before_word": "4,",
+      "start_ms": 111420,
+      "end_ms": 111740,
+      "duration_ms": 320,
+      "start_frame": 3343,
+      "end_frame": 3352,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "4,",
+      "before_word": "4,",
+      "start_ms": 112160,
+      "end_ms": 112560,
+      "duration_ms": 400,
+      "start_frame": 3365,
+      "end_frame": 3377,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "5.",
+      "before_word": "That",
+      "start_ms": 113800,
+      "end_ms": 114880,
+      "duration_ms": 1080,
+      "start_frame": 3414,
+      "end_frame": 3446,
+      "duration_frames": 32
+    }
+  ]
+}

@@ -1,0 +1,1209 @@
+{
+  "meta": {
+    "question": "012-next-permutation",
+    "scene": "07-optimal-trace",
+    "audio_file": "07-optimal-trace.mp3",
+    "duration_ms": 117320,
+    "duration_frames": 3520,
+    "fps": 30,
+    "anchor_count": 46
+  },
+  "anchors": {
+    "S07_MASTER": {
+      "anchor_id": "S07_MASTER",
+      "label": "Our array is",
+      "trace_step": "INIT-01",
+      "frame_range": [
+        0,
+        34
+      ],
+      "total_frames": 34,
+      "spoken_range_frames": [
+        0,
+        34
+      ],
+      "pause_after_frames": 0,
+      "pause_after_ms": 0,
+      "first_word": {
+        "word": "Our",
+        "start_frame": 0,
+        "end_frame": 8
+      },
+      "last_word": {
+        "word": "is",
+        "start_frame": 20,
+        "end_frame": 34
+      }
+    },
+    "S07_VALUES": {
+      "anchor_id": "S07_VALUES",
+      "label": "two... one... five... four... four... three... zero.",
+      "trace_step": "INIT-02",
+      "frame_range": [
+        34,
+        232
+      ],
+      "total_frames": 198,
+      "spoken_range_frames": [
+        34,
+        211
+      ],
+      "pause_after_frames": 21,
+      "pause_after_ms": 700,
+      "first_word": {
+        "word": "2,",
+        "start_frame": 34,
+        "end_frame": 51
+      },
+      "last_word": {
+        "word": "0.",
+        "start_frame": 197,
+        "end_frame": 211
+      }
+    },
+    "S07_I_START": {
+      "anchor_id": "S07_I_START",
+      "label": "We start the pivot search from the second-last index.",
+      "trace_step": "PIVOT-01",
+      "frame_range": [
+        232,
+        322
+      ],
+      "total_frames": 90,
+      "spoken_range_frames": [
+        232,
+        304
+      ],
+      "pause_after_frames": 18,
+      "pause_after_ms": 600,
+      "first_word": {
+        "word": "We",
+        "start_frame": 232,
+        "end_frame": 235
+      },
+      "last_word": {
+        "word": "index.",
+        "start_frame": 292,
+        "end_frame": 304
+      }
+    },
+    "S07_C5": {
+      "anchor_id": "S07_C5",
+      "label": "At index five... three is smaller than zero?",
+      "trace_step": "PIVOT-02",
+      "frame_range": [
+        322,
+        423
+      ],
+      "total_frames": 101,
+      "spoken_range_frames": [
+        322,
+        406
+      ],
+      "pause_after_frames": 17,
+      "pause_after_ms": 567,
+      "first_word": {
+        "word": "At",
+        "start_frame": 322,
+        "end_frame": 322
+      },
+      "last_word": {
+        "word": "0.",
+        "start_frame": 391,
+        "end_frame": 406
+      }
+    },
+    "S07_N5": {
+      "anchor_id": "S07_N5",
+      "label": "No.",
+      "trace_step": "PIVOT-03",
+      "frame_range": [
+        423,
+        448
+      ],
+      "total_frames": 25,
+      "spoken_range_frames": [
+        423,
+        434
+      ],
+      "pause_after_frames": 14,
+      "pause_after_ms": 467,
+      "first_word": {
+        "word": "No.",
+        "start_frame": 423,
+        "end_frame": 434
+      },
+      "last_word": {
+        "word": "No.",
+        "start_frame": 423,
+        "end_frame": 434
+      }
+    },
+    "S07_M54": {
+      "anchor_id": "S07_M54",
+      "label": "Move left.",
+      "trace_step": "PIVOT-04",
+      "frame_range": [
+        448,
+        478
+      ],
+      "total_frames": 30,
+      "spoken_range_frames": [
+        448,
+        464
+      ],
+      "pause_after_frames": 14,
+      "pause_after_ms": 467,
+      "first_word": {
+        "word": "Move",
+        "start_frame": 448,
+        "end_frame": 454
+      },
+      "last_word": {
+        "word": "left.",
+        "start_frame": 454,
+        "end_frame": 464
+      }
+    },
+    "S07_C4": {
+      "anchor_id": "S07_C4",
+      "label": "At index four... four is smaller than three?",
+      "trace_step": "PIVOT-05",
+      "frame_range": [
+        478,
+        560
+      ],
+      "total_frames": 82,
+      "spoken_range_frames": [
+        478,
+        553
+      ],
+      "pause_after_frames": 7,
+      "pause_after_ms": 233,
+      "first_word": {
+        "word": "At",
+        "start_frame": 478,
+        "end_frame": 481
+      },
+      "last_word": {
+        "word": "3.",
+        "start_frame": 536,
+        "end_frame": 553
+      }
+    },
+    "S07_N4": {
+      "anchor_id": "S07_N4",
+      "label": "No.",
+      "trace_step": "PIVOT-06",
+      "frame_range": [
+        560,
+        584
+      ],
+      "total_frames": 24,
+      "spoken_range_frames": [
+        560,
+        570
+      ],
+      "pause_after_frames": 14,
+      "pause_after_ms": 467,
+      "first_word": {
+        "word": "No.",
+        "start_frame": 560,
+        "end_frame": 570
+      },
+      "last_word": {
+        "word": "No.",
+        "start_frame": 560,
+        "end_frame": 570
+      }
+    },
+    "S07_M43": {
+      "anchor_id": "S07_M43",
+      "label": "Move left.",
+      "trace_step": "PIVOT-07",
+      "frame_range": [
+        584,
+        612
+      ],
+      "total_frames": 28,
+      "spoken_range_frames": [
+        584,
+        601
+      ],
+      "pause_after_frames": 11,
+      "pause_after_ms": 367,
+      "first_word": {
+        "word": "Move",
+        "start_frame": 584,
+        "end_frame": 590
+      },
+      "last_word": {
+        "word": "left.",
+        "start_frame": 590,
+        "end_frame": 601
+      }
+    },
+    "S07_C3": {
+      "anchor_id": "S07_C3",
+      "label": "At index three... four is smaller than four?",
+      "trace_step": "PIVOT-08",
+      "frame_range": [
+        612,
+        709
+      ],
+      "total_frames": 97,
+      "spoken_range_frames": [
+        612,
+        692
+      ],
+      "pause_after_frames": 17,
+      "pause_after_ms": 567,
+      "first_word": {
+        "word": "At",
+        "start_frame": 612,
+        "end_frame": 617
+      },
+      "last_word": {
+        "word": "4.",
+        "start_frame": 680,
+        "end_frame": 692
+      }
+    },
+    "S07_NEQ": {
+      "anchor_id": "S07_NEQ",
+      "label": "No.",
+      "trace_step": "PIVOT-09",
+      "frame_range": [
+        709,
+        729
+      ],
+      "total_frames": 20,
+      "spoken_range_frames": [
+        709,
+        718
+      ],
+      "pause_after_frames": 11,
+      "pause_after_ms": 367,
+      "first_word": {
+        "word": "No.",
+        "start_frame": 709,
+        "end_frame": 718
+      },
+      "last_word": {
+        "word": "No.",
+        "start_frame": 709,
+        "end_frame": 718
+      }
+    },
+    "S07_EQ_RULE": {
+      "anchor_id": "S07_EQ_RULE",
+      "label": "Equal values do not satisfy the condition.",
+      "trace_step": "PIVOT-10",
+      "frame_range": [
+        729,
+        809
+      ],
+      "total_frames": 80,
+      "spoken_range_frames": [
+        729,
+        794
+      ],
+      "pause_after_frames": 15,
+      "pause_after_ms": 500,
+      "first_word": {
+        "word": "Equal",
+        "start_frame": 729,
+        "end_frame": 735
+      },
+      "last_word": {
+        "word": "condition.",
+        "start_frame": 784,
+        "end_frame": 794
+      }
+    },
+    "S07_M32": {
+      "anchor_id": "S07_M32",
+      "label": "Move left.",
+      "trace_step": "PIVOT-11",
+      "frame_range": [
+        809,
+        839
+      ],
+      "total_frames": 30,
+      "spoken_range_frames": [
+        809,
+        830
+      ],
+      "pause_after_frames": 9,
+      "pause_after_ms": 300,
+      "first_word": {
+        "word": "Move",
+        "start_frame": 809,
+        "end_frame": 820
+      },
+      "last_word": {
+        "word": "left.",
+        "start_frame": 820,
+        "end_frame": 830
+      }
+    },
+    "S07_C2": {
+      "anchor_id": "S07_C2",
+      "label": "At index two... five is smaller than four?",
+      "trace_step": "PIVOT-12",
+      "frame_range": [
+        839,
+        936
+      ],
+      "total_frames": 97,
+      "spoken_range_frames": [
+        839,
+        923
+      ],
+      "pause_after_frames": 13,
+      "pause_after_ms": 433,
+      "first_word": {
+        "word": "At",
+        "start_frame": 839,
+        "end_frame": 848
+      },
+      "last_word": {
+        "word": "4.",
+        "start_frame": 910,
+        "end_frame": 923
+      }
+    },
+    "S07_N2": {
+      "anchor_id": "S07_N2",
+      "label": "No.",
+      "trace_step": "PIVOT-13",
+      "frame_range": [
+        936,
+        958
+      ],
+      "total_frames": 22,
+      "spoken_range_frames": [
+        936,
+        946
+      ],
+      "pause_after_frames": 12,
+      "pause_after_ms": 400,
+      "first_word": {
+        "word": "No.",
+        "start_frame": 936,
+        "end_frame": 946
+      },
+      "last_word": {
+        "word": "No.",
+        "start_frame": 936,
+        "end_frame": 946
+      }
+    },
+    "S07_M21": {
+      "anchor_id": "S07_M21",
+      "label": "Move left.",
+      "trace_step": "PIVOT-14",
+      "frame_range": [
+        958,
+        989
+      ],
+      "total_frames": 31,
+      "spoken_range_frames": [
+        958,
+        973
+      ],
+      "pause_after_frames": 16,
+      "pause_after_ms": 533,
+      "first_word": {
+        "word": "Move",
+        "start_frame": 958,
+        "end_frame": 963
+      },
+      "last_word": {
+        "word": "left.",
+        "start_frame": 963,
+        "end_frame": 973
+      }
+    },
+    "S07_C1": {
+      "anchor_id": "S07_C1",
+      "label": "At index one... one is smaller than five?",
+      "trace_step": "PIVOT-15",
+      "frame_range": [
+        989,
+        1071
+      ],
+      "total_frames": 82,
+      "spoken_range_frames": [
+        989,
+        1063
+      ],
+      "pause_after_frames": 8,
+      "pause_after_ms": 267,
+      "first_word": {
+        "word": "At",
+        "start_frame": 989,
+        "end_frame": 993
+      },
+      "last_word": {
+        "word": "5?",
+        "start_frame": 1049,
+        "end_frame": 1063
+      }
+    },
+    "S07_Y1": {
+      "anchor_id": "S07_Y1",
+      "label": "Yes.",
+      "trace_step": "PIVOT-16",
+      "frame_range": [
+        1071,
+        1096
+      ],
+      "total_frames": 25,
+      "spoken_range_frames": [
+        1071,
+        1083
+      ],
+      "pause_after_frames": 13,
+      "pause_after_ms": 433,
+      "first_word": {
+        "word": "Yes.",
+        "start_frame": 1071,
+        "end_frame": 1083
+      },
+      "last_word": {
+        "word": "Yes.",
+        "start_frame": 1071,
+        "end_frame": 1083
+      }
+    },
+    "S07_PIVOT": {
+      "anchor_id": "S07_PIVOT",
+      "label": "So index one is our pivot.",
+      "trace_step": "PIVOT-17",
+      "frame_range": [
+        1096,
+        1152
+      ],
+      "total_frames": 56,
+      "spoken_range_frames": [
+        1096,
+        1139
+      ],
+      "pause_after_frames": 13,
+      "pause_after_ms": 433,
+      "first_word": {
+        "word": "So",
+        "start_frame": 1096,
+        "end_frame": 1102
+      },
+      "last_word": {
+        "word": "pivot.",
+        "start_frame": 1130,
+        "end_frame": 1139
+      }
+    },
+    "S07_PIVOT_VAL": {
+      "anchor_id": "S07_PIVOT_VAL",
+      "label": "The pivot value is one.",
+      "trace_step": "PIVOT-18",
+      "frame_range": [
+        1152,
+        1202
+      ],
+      "total_frames": 50,
+      "spoken_range_frames": [
+        1152,
+        1192
+      ],
+      "pause_after_frames": 10,
+      "pause_after_ms": 333,
+      "first_word": {
+        "word": "The",
+        "start_frame": 1152,
+        "end_frame": 1159
+      },
+      "last_word": {
+        "word": "1.",
+        "start_frame": 1183,
+        "end_frame": 1192
+      }
+    },
+    "S07_SUFFIX": {
+      "anchor_id": "S07_SUFFIX",
+      "label": "Everything after it... five... four... four... three... zero... is non-increasing.",
+      "trace_step": "PIVOT-19",
+      "frame_range": [
+        1202,
+        1406
+      ],
+      "total_frames": 204,
+      "spoken_range_frames": [
+        1202,
+        1391
+      ],
+      "pause_after_frames": 15,
+      "pause_after_ms": 500,
+      "first_word": {
+        "word": "Everything",
+        "start_frame": 1202,
+        "end_frame": 1214
+      },
+      "last_word": {
+        "word": "-increasing.",
+        "start_frame": 1373,
+        "end_frame": 1391
+      }
+    },
+    "S07_FIND_REPL": {
+      "anchor_id": "S07_FIND_REPL",
+      "label": "Now we find the value that should replace the pivot.",
+      "trace_step": "SUCC-01",
+      "frame_range": [
+        1406,
+        1511
+      ],
+      "total_frames": 105,
+      "spoken_range_frames": [
+        1406,
+        1481
+      ],
+      "pause_after_frames": 30,
+      "pause_after_ms": 1000,
+      "first_word": {
+        "word": "Now",
+        "start_frame": 1406,
+        "end_frame": 1412
+      },
+      "last_word": {
+        "word": "pivot.",
+        "start_frame": 1473,
+        "end_frame": 1481
+      }
+    },
+    "S07_J_START": {
+      "anchor_id": "S07_J_START",
+      "label": "Start from the last index.",
+      "trace_step": "SUCC-02",
+      "frame_range": [
+        1511,
+        1565
+      ],
+      "total_frames": 54,
+      "spoken_range_frames": [
+        1511,
+        1549
+      ],
+      "pause_after_frames": 16,
+      "pause_after_ms": 533,
+      "first_word": {
+        "word": "Start",
+        "start_frame": 1511,
+        "end_frame": 1519
+      },
+      "last_word": {
+        "word": "index.",
+        "start_frame": 1537,
+        "end_frame": 1549
+      }
+    },
+    "S07_J6": {
+      "anchor_id": "S07_J6",
+      "label": "Zero is greater than one?",
+      "trace_step": "SUCC-03",
+      "frame_range": [
+        1565,
+        1637
+      ],
+      "total_frames": 72,
+      "spoken_range_frames": [
+        1565,
+        1609
+      ],
+      "pause_after_frames": 28,
+      "pause_after_ms": 933,
+      "first_word": {
+        "word": "0",
+        "start_frame": 1565,
+        "end_frame": 1577
+      },
+      "last_word": {
+        "word": "1?",
+        "start_frame": 1600,
+        "end_frame": 1609
+      }
+    },
+    "S07_J6_NO": {
+      "anchor_id": "S07_J6_NO",
+      "label": "No.",
+      "trace_step": "SUCC-04",
+      "frame_range": [
+        1637,
+        1648
+      ],
+      "total_frames": 11,
+      "spoken_range_frames": [
+        1637,
+        1648
+      ],
+      "pause_after_frames": 0,
+      "pause_after_ms": 0,
+      "first_word": {
+        "word": "No.",
+        "start_frame": 1637,
+        "end_frame": 1648
+      },
+      "last_word": {
+        "word": "No.",
+        "start_frame": 1637,
+        "end_frame": 1648
+      }
+    },
+    "S07_J_MOVE": {
+      "anchor_id": "S07_J_MOVE",
+      "label": "Move left.",
+      "trace_step": "SUCC-05",
+      "frame_range": [
+        1648,
+        1693
+      ],
+      "total_frames": 45,
+      "spoken_range_frames": [
+        1648,
+        1685
+      ],
+      "pause_after_frames": 8,
+      "pause_after_ms": 267,
+      "first_word": {
+        "word": "Move",
+        "start_frame": 1648,
+        "end_frame": 1672
+      },
+      "last_word": {
+        "word": "left.",
+        "start_frame": 1672,
+        "end_frame": 1685
+      }
+    },
+    "S07_J5": {
+      "anchor_id": "S07_J5",
+      "label": "Three is greater than one?",
+      "trace_step": "SUCC-06",
+      "frame_range": [
+        1693,
+        1750
+      ],
+      "total_frames": 57,
+      "spoken_range_frames": [
+        1693,
+        1734
+      ],
+      "pause_after_frames": 16,
+      "pause_after_ms": 533,
+      "first_word": {
+        "word": "3",
+        "start_frame": 1693,
+        "end_frame": 1700
+      },
+      "last_word": {
+        "word": "1?",
+        "start_frame": 1720,
+        "end_frame": 1734
+      }
+    },
+    "S07_J5_YES": {
+      "anchor_id": "S07_J5_YES",
+      "label": "Yes.",
+      "trace_step": "SUCC-07",
+      "frame_range": [
+        1750,
+        1782
+      ],
+      "total_frames": 32,
+      "spoken_range_frames": [
+        1750,
+        1763
+      ],
+      "pause_after_frames": 19,
+      "pause_after_ms": 633,
+      "first_word": {
+        "word": "Yes.",
+        "start_frame": 1750,
+        "end_frame": 1763
+      },
+      "last_word": {
+        "word": "Yes.",
+        "start_frame": 1750,
+        "end_frame": 1763
+      }
+    },
+    "S07_SUCCESSOR": {
+      "anchor_id": "S07_SUCCESSOR",
+      "label": "So index five is our successor.",
+      "trace_step": "SUCC-08",
+      "frame_range": [
+        1782,
+        1838
+      ],
+      "total_frames": 56,
+      "spoken_range_frames": [
+        1782,
+        1826
+      ],
+      "pause_after_frames": 12,
+      "pause_after_ms": 400,
+      "first_word": {
+        "word": "So",
+        "start_frame": 1782,
+        "end_frame": 1786
+      },
+      "last_word": {
+        "word": "successor.",
+        "start_frame": 1813,
+        "end_frame": 1826
+      }
+    },
+    "S07_SUCCESSOR_VAL": {
+      "anchor_id": "S07_SUCCESSOR_VAL",
+      "label": "The successor value is three.",
+      "trace_step": "SUCC-09",
+      "frame_range": [
+        1838,
+        1892
+      ],
+      "total_frames": 54,
+      "spoken_range_frames": [
+        1838,
+        1880
+      ],
+      "pause_after_frames": 12,
+      "pause_after_ms": 400,
+      "first_word": {
+        "word": "The",
+        "start_frame": 1838,
+        "end_frame": 1846
+      },
+      "last_word": {
+        "word": "3.",
+        "start_frame": 1869,
+        "end_frame": 1880
+      }
+    },
+    "S07_SWAP_PREP": {
+      "anchor_id": "S07_SWAP_PREP",
+      "label": "Now swap the pivot and successor.",
+      "trace_step": "SWAP-01",
+      "frame_range": [
+        1892,
+        1955
+      ],
+      "total_frames": 63,
+      "spoken_range_frames": [
+        1892,
+        1939
+      ],
+      "pause_after_frames": 16,
+      "pause_after_ms": 533,
+      "first_word": {
+        "word": "Now",
+        "start_frame": 1892,
+        "end_frame": 1899
+      },
+      "last_word": {
+        "word": "successor.",
+        "start_frame": 1925,
+        "end_frame": 1939
+      }
+    },
+    "S07_SWAP": {
+      "anchor_id": "S07_SWAP",
+      "label": "One swaps with three.",
+      "trace_step": "SWAP-02",
+      "frame_range": [
+        1955,
+        2000
+      ],
+      "total_frames": 45,
+      "spoken_range_frames": [
+        1955,
+        1988
+      ],
+      "pause_after_frames": 12,
+      "pause_after_ms": 400,
+      "first_word": {
+        "word": "1",
+        "start_frame": 1955,
+        "end_frame": 1961
+      },
+      "last_word": {
+        "word": "3.",
+        "start_frame": 1977,
+        "end_frame": 1988
+      }
+    },
+    "S07_AFTER_SWAP": {
+      "anchor_id": "S07_AFTER_SWAP",
+      "label": "The array becomes... two... three... five... four... four... one... zero.",
+      "trace_step": "SWAP-03",
+      "frame_range": [
+        2000,
+        2217
+      ],
+      "total_frames": 217,
+      "spoken_range_frames": [
+        2000,
+        2197
+      ],
+      "pause_after_frames": 20,
+      "pause_after_ms": 667,
+      "first_word": {
+        "word": "The",
+        "start_frame": 2000,
+        "end_frame": 2005
+      },
+      "last_word": {
+        "word": "0.",
+        "start_frame": 2186,
+        "end_frame": 2197
+      }
+    },
+    "S07_LARGER": {
+      "anchor_id": "S07_LARGER",
+      "label": "Now the permutation is larger...",
+      "trace_step": "REVERSE-01",
+      "frame_range": [
+        2217,
+        2272
+      ],
+      "total_frames": 55,
+      "spoken_range_frames": [
+        2217,
+        2260
+      ],
+      "pause_after_frames": 12,
+      "pause_after_ms": 400,
+      "first_word": {
+        "word": "Now",
+        "start_frame": 2217,
+        "end_frame": 2221
+      },
+      "last_word": {
+        "word": "larger,",
+        "start_frame": 2248,
+        "end_frame": 2260
+      }
+    },
+    "S07_SUFFIX_MAX": {
+      "anchor_id": "S07_SUFFIX_MAX",
+      "label": "but the suffix is still as large as possible.",
+      "trace_step": "REVERSE-02",
+      "frame_range": [
+        2272,
+        2351
+      ],
+      "total_frames": 79,
+      "spoken_range_frames": [
+        2272,
+        2341
+      ],
+      "pause_after_frames": 10,
+      "pause_after_ms": 333,
+      "first_word": {
+        "word": "but",
+        "start_frame": 2272,
+        "end_frame": 2278
+      },
+      "last_word": {
+        "word": "possible.",
+        "start_frame": 2328,
+        "end_frame": 2341
+      }
+    },
+    "S07_MIN_SUFFIX": {
+      "anchor_id": "S07_MIN_SUFFIX",
+      "label": "We need the smallest possible suffix.",
+      "trace_step": "REVERSE-03",
+      "frame_range": [
+        2351,
+        2430
+      ],
+      "total_frames": 79,
+      "spoken_range_frames": [
+        2351,
+        2420
+      ],
+      "pause_after_frames": 10,
+      "pause_after_ms": 333,
+      "first_word": {
+        "word": "We",
+        "start_frame": 2351,
+        "end_frame": 2358
+      },
+      "last_word": {
+        "word": "suffix.",
+        "start_frame": 2399,
+        "end_frame": 2420
+      }
+    },
+    "S07_RANGE": {
+      "anchor_id": "S07_RANGE",
+      "label": "So reverse everything after the pivot. Our reverse range is index two to index six.",
+      "trace_step": "REVERSE-04",
+      "frame_range": [
+        2430,
+        2618
+      ],
+      "total_frames": 188,
+      "spoken_range_frames": [
+        2430,
+        2611
+      ],
+      "pause_after_frames": 7,
+      "pause_after_ms": 233,
+      "first_word": {
+        "word": "So",
+        "start_frame": 2430,
+        "end_frame": 2439
+      },
+      "last_word": {
+        "word": "6.",
+        "start_frame": 2591,
+        "end_frame": 2611
+      }
+    },
+    "S07_RSWAP1": {
+      "anchor_id": "S07_RSWAP1",
+      "label": "Swap five and zero.",
+      "trace_step": "REVERSE-05",
+      "frame_range": [
+        2618,
+        2677
+      ],
+      "total_frames": 59,
+      "spoken_range_frames": [
+        2618,
+        2662
+      ],
+      "pause_after_frames": 15,
+      "pause_after_ms": 500,
+      "first_word": {
+        "word": "Swap",
+        "start_frame": 2618,
+        "end_frame": 2626
+      },
+      "last_word": {
+        "word": "0.",
+        "start_frame": 2644,
+        "end_frame": 2662
+      }
+    },
+    "S07_STATE1": {
+      "anchor_id": "S07_STATE1",
+      "label": "The array becomes... two... three... zero... four... four... one... five.",
+      "trace_step": "REVERSE-06",
+      "frame_range": [
+        2677,
+        2850
+      ],
+      "total_frames": 173,
+      "spoken_range_frames": [
+        2677,
+        2848
+      ],
+      "pause_after_frames": 2,
+      "pause_after_ms": 67,
+      "first_word": {
+        "word": "The",
+        "start_frame": 2677,
+        "end_frame": 2683
+      },
+      "last_word": {
+        "word": "5.",
+        "start_frame": 2828,
+        "end_frame": 2848
+      }
+    },
+    "S07_INWARD1": {
+      "anchor_id": "S07_INWARD1",
+      "label": "Move inward.",
+      "trace_step": "REVERSE-07",
+      "frame_range": [
+        2850,
+        2885
+      ],
+      "total_frames": 35,
+      "spoken_range_frames": [
+        2850,
+        2876
+      ],
+      "pause_after_frames": 9,
+      "pause_after_ms": 300,
+      "first_word": {
+        "word": "Move",
+        "start_frame": 2850,
+        "end_frame": 2862
+      },
+      "last_word": {
+        "word": "inward.",
+        "start_frame": 2862,
+        "end_frame": 2876
+      }
+    },
+    "S07_RSWAP2": {
+      "anchor_id": "S07_RSWAP2",
+      "label": "Swap four and one.",
+      "trace_step": "REVERSE-08",
+      "frame_range": [
+        2885,
+        2936
+      ],
+      "total_frames": 51,
+      "spoken_range_frames": [
+        2885,
+        2918
+      ],
+      "pause_after_frames": 18,
+      "pause_after_ms": 600,
+      "first_word": {
+        "word": "Swap",
+        "start_frame": 2885,
+        "end_frame": 2893
+      },
+      "last_word": {
+        "word": "1.",
+        "start_frame": 2907,
+        "end_frame": 2918
+      }
+    },
+    "S07_STATE2": {
+      "anchor_id": "S07_STATE2",
+      "label": "The array becomes... two... three... zero... one... four... four... five.",
+      "trace_step": "REVERSE-09",
+      "frame_range": [
+        2936,
+        3114
+      ],
+      "total_frames": 178,
+      "spoken_range_frames": [
+        2936,
+        3105
+      ],
+      "pause_after_frames": 9,
+      "pause_after_ms": 300,
+      "first_word": {
+        "word": "The",
+        "start_frame": 2936,
+        "end_frame": 2942
+      },
+      "last_word": {
+        "word": "5.",
+        "start_frame": 3091,
+        "end_frame": 3105
+      }
+    },
+    "S07_MEET": {
+      "anchor_id": "S07_MEET",
+      "label": "Now both reverse pointers meet.",
+      "trace_step": "REVERSE-10",
+      "frame_range": [
+        3114,
+        3170
+      ],
+      "total_frames": 56,
+      "spoken_range_frames": [
+        3114,
+        3160
+      ],
+      "pause_after_frames": 10,
+      "pause_after_ms": 333,
+      "first_word": {
+        "word": "Now",
+        "start_frame": 3114,
+        "end_frame": 3120
+      },
+      "last_word": {
+        "word": "meet.",
+        "start_frame": 3149,
+        "end_frame": 3160
+      }
+    },
+    "S07_STOP": {
+      "anchor_id": "S07_STOP",
+      "label": "We stop.",
+      "trace_step": "REVERSE-11",
+      "frame_range": [
+        3170,
+        3206
+      ],
+      "total_frames": 36,
+      "spoken_range_frames": [
+        3170,
+        3189
+      ],
+      "pause_after_frames": 17,
+      "pause_after_ms": 567,
+      "first_word": {
+        "word": "We",
+        "start_frame": 3170,
+        "end_frame": 3181
+      },
+      "last_word": {
+        "word": "stop.",
+        "start_frame": 3181,
+        "end_frame": 3189
+      }
+    },
+    "S07_FINAL": {
+      "anchor_id": "S07_FINAL",
+      "label": "Our final answer is... two... three... zero... one... four... four... five.",
+      "trace_step": "FINAL-01",
+      "frame_range": [
+        3206,
+        3446
+      ],
+      "total_frames": 240,
+      "spoken_range_frames": [
+        3206,
+        3414
+      ],
+      "pause_after_frames": 32,
+      "pause_after_ms": 1067,
+      "first_word": {
+        "word": "Our",
+        "start_frame": 3206,
+        "end_frame": 3218
+      },
+      "last_word": {
+        "word": "5.",
+        "start_frame": 3395,
+        "end_frame": 3414
+      }
+    },
+    "S07_IMMEDIATE": {
+      "anchor_id": "S07_IMMEDIATE",
+      "label": "That is the immediate next permutation.",
+      "trace_step": "FINAL-02",
+      "frame_range": [
+        3446,
+        3520
+      ],
+      "total_frames": 74,
+      "spoken_range_frames": [
+        3446,
+        3520
+      ],
+      "pause_after_frames": 0,
+      "pause_after_ms": 0,
+      "first_word": {
+        "word": "That",
+        "start_frame": 3446,
+        "end_frame": 3454
+      },
+      "last_word": {
+        "word": "permutation.",
+        "start_frame": 3496,
+        "end_frame": 3520
+      }
+    }
+  }
+}

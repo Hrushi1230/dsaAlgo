@@ -1,0 +1,40 @@
+{
+  "question": "Sort Colors",
+  "leetcode": 75,
+  "pattern": "Arrays & Hashing",
+  "pattern_number": 1,
+  "question_number": 11,
+  "difficulty": "Medium",
+  "approach_type": "B",
+  "scene_count": 10,
+  "master_testcase": {
+    "input": [2, 1, 2, 0, 2, 1, 0, 1, 0, 2],
+    "expected": [0, 0, 0, 1, 1, 1, 2, 2, 2, 2],
+    "counts": { "0": 3, "1": 3, "2": 4 }
+  },
+  "approaches": {
+    "counting": {
+      "name": "Frequency Counting & Overwrite",
+      "technique": "Two passes: First pass counts frequencies of 0, 1, and 2. Second pass overwrites the original array with the counted number of 0s, then 1s, then 2s.",
+      "time": "O(n)",
+      "space": "O(1)",
+      "passes": 2,
+      "teaches": "Demonstrates that with a fixed small range of values (0, 1, 2), comparison sort O(n log n) is unnecessary, achieving O(n) with 3 counters. However, it requires two full passes over the array."
+    },
+    "optimal": {
+      "name": "Dutch National Flag (Three Pointers)",
+      "technique": "Single pass: Maintain 3 pointers (low, mid, high) dividing the array into 4 invariant regions: [0..low-1] confirmed 0s, [low..mid-1] confirmed 1s, [mid..high] unclassified/unknown, [high+1..n-1] confirmed 2s. Process nums[mid]: if 0 swap(low, mid) and increment both; if 1 increment mid; if 2 swap(mid, high) and decrement high without incrementing mid.",
+      "time": "O(n)",
+      "space": "O(1)",
+      "passes": 1,
+      "teaches": "Teaches the fundamental 3-way partitioning invariant. Viscerally explains why mid must NOT advance when swapping with high (uninspected incoming value) and how maintaining clear boundary invariants guarantees single-pass in-place classification."
+    }
+  },
+  "decision_reasoning": {
+    "D1_brute_teaches_why": "Counting approach clearly solves in O(n) time and O(1) space, but natural interview follow-up specifically asks for a single pass. It sets up the exact question: can we classify elements in-place the moment we encounter them?",
+    "D2_better_distinct": "Dutch National Flag (DNF) provides the definitive single-pass three-pointer partition invariant, directly addressing the follow-up.",
+    "D3_dp_progression": "N/A — partitioning / multi-pointer category.",
+    "D4_data_structure_problem": "In-place array manipulation and multi-pointer invariant maintenance.",
+    "D5_fewer_is_better": "Two clean approaches (Counting 2-pass → Dutch National Flag 1-pass) perfectly structure the 10-scene narrative without unnecessary filler."
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "scene": "02-understand",
+  "total_frames": 2026,
+  "duration_ms": 67540,
+  "fps": 30,
+  "anchor_count": 17,
+  "anchors": [
+    {
+      "id": "S02_MN",
+      "phrase": "We are given an m by n matrix, here.",
+      "start_word_idx": 0,
+      "end_word_idx": 8,
+      "start_frame": 0,
+      "end_frame": 89,
+      "start_ms": 0,
+      "end_ms": 2960
+    },
+    {
+      "id": "S02_M_ROWS",
+      "phrase": "m is the number of rows",
+      "start_word_idx": 9,
+      "end_word_idx": 14,
+      "start_frame": 103,
+      "end_frame": 146,
+      "start_ms": 3420,
+      "end_ms": 4860
+    },
+    {
+      "id": "S02_N_COLS",
+      "phrase": "and n is the number of columns.",
+      "start_word_idx": 15,
+      "end_word_idx": 21,
+      "start_frame": 146,
+      "end_frame": 212,
+      "start_ms": 4860,
+      "end_ms": 7060
+    },
+    {
+      "id": "S02_RECT",
+      "phrase": "So the matrix does not have to be square.",
+      "start_word_idx": 22,
+      "end_word_idx": 30,
+      "start_frame": 226,
+      "end_frame": 289,
+      "start_ms": 7540,
+      "end_ms": 9640
+    },
+    {
+      "id": "S02_MASTER",
+      "phrase": "For this lesson, we will use this 5 by 6 matrix.",
+      "start_word_idx": 31,
+      "end_word_idx": 41,
+      "start_frame": 320,
+      "end_frame": 425,
+      "start_ms": 10660,
+      "end_ms": 14180
+    },
+    {
+      "id": "S02_OUTPUT_CONTRACT",
+      "phrase": "Our job is to return all m times n values, in one list, following spiral order.",
+      "start_word_idx": 42,
+      "end_word_idx": 57,
+      "start_frame": 445,
+      "end_frame": 670,
+      "start_ms": 14820,
+      "end_ms": 22340
+    },
+    {
+      "id": "S02_DIR_SEQUENCE",
+      "phrase": "That order moves right, down, left, up and then repeats.",
+      "start_word_idx": 58,
+      "end_word_idx": 67,
+      "start_frame": 691,
+      "end_frame": 857,
+      "start_ms": 23020,
+      "end_ms": 28560
+    },
+    {
+      "id": "S02_TURN_Q",
+      "phrase": "But the real question is, when should we turn?",
+      "start_word_idx": 68,
+      "end_word_idx": 76,
+      "start_frame": 857,
+      "end_frame": 955,
+      "start_ms": 28560,
+      "end_ms": 31840
+    },
+    {
+      "id": "S02_MOVING_RIGHT",
+      "phrase": "Suppose we are moving right.",
+      "start_word_idx": 77,
+      "end_word_idx": 81,
+      "start_frame": 976,
+      "end_frame": 1026,
+      "start_ms": 32520,
+      "end_ms": 34200
+    },
+    {
+      "id": "S02_OUTSIDE",
+      "phrase": "If the next position goes outside the matrix,",
+      "start_word_idx": 82,
+      "end_word_idx": 89,
+      "start_frame": 1039,
+      "end_frame": 1121,
+      "start_ms": 34620,
+      "end_ms": 37360
+    },
+    {
+      "id": "S02_TURN_OUT",
+      "phrase": "we obviously need to turn.",
+      "start_word_idx": 90,
+      "end_word_idx": 94,
+      "start_frame": 1138,
+      "end_frame": 1190,
+      "start_ms": 37940,
+      "end_ms": 39680
+    },
+    {
+      "id": "S02_OUTER_DONE",
+      "phrase": "But after completing the outer part,",
+      "start_word_idx": 95,
+      "end_word_idx": 100,
+      "start_frame": 1205,
+      "end_frame": 1263,
+      "start_ms": 40160,
+      "end_ms": 42100
+    },
+    {
+      "id": "S02_INSIDE",
+      "phrase": "the next position may still be inside the matrix,",
+      "start_word_idx": 101,
+      "end_word_idx": 109,
+      "start_frame": 1277,
+      "end_frame": 1372,
+      "start_ms": 42580,
+      "end_ms": 45740
+    },
+    {
+      "id": "S02_ALREADY_VISITED",
+      "phrase": "and already visited.",
+      "start_word_idx": 110,
+      "end_word_idx": 112,
+      "start_frame": 1387,
+      "end_frame": 1424,
+      "start_ms": 46220,
+      "end_ms": 47460
+    },
+    {
+      "id": "S02_METHOD1_RULE",
+      "phrase": "So method 1 uses one simple rule. Turn when the next position is outside the matrix, or already visited.",
+      "start_word_idx": 113,
+      "end_word_idx": 131,
+      "start_frame": 1442,
+      "end_frame": 1733,
+      "start_ms": 48080,
+      "end_ms": 57760
+    },
+    {
+      "id": "S02_STATE",
+      "phrase": "To do that, we keep the current position, the current direction and a visited matrix.",
+      "start_word_idx": 132,
+      "end_word_idx": 146,
+      "start_frame": 1757,
+      "end_frame": 1964,
+      "start_ms": 58560,
+      "end_ms": 65460
+    },
+    {
+      "id": "S02_TRACE",
+      "phrase": "Now let's trace it properly.",
+      "start_word_idx": 147,
+      "end_word_idx": 151,
+      "start_frame": 1973,
+      "end_frame": 2026,
+      "start_ms": 65780,
+      "end_ms": 67540
+    }
+  ]
+}

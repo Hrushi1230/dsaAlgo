@@ -1,0 +1,484 @@
+{
+  "audio_file": "01-intro-roadmap.mp3",
+  "duration_ms": 29500,
+  "duration_frames": 885,
+  "fps": 30,
+  "word_count": 49,
+  "words": [
+    {
+      "word": "Welcome",
+      "start_ms": 0,
+      "end_ms": 560,
+      "start_frame": 0,
+      "end_frame": 17
+    },
+    {
+      "word": "back",
+      "start_ms": 560,
+      "end_ms": 900,
+      "start_frame": 17,
+      "end_frame": 27
+    },
+    {
+      "word": "to",
+      "start_ms": 900,
+      "end_ms": 1100,
+      "start_frame": 27,
+      "end_frame": 33
+    },
+    {
+      "word": "Code",
+      "start_ms": 1100,
+      "end_ms": 1360,
+      "start_frame": 33,
+      "end_frame": 41
+    },
+    {
+      "word": "with",
+      "start_ms": 1360,
+      "end_ms": 1640,
+      "start_frame": 41,
+      "end_frame": 49
+    },
+    {
+      "word": "Animation.",
+      "start_ms": 1640,
+      "end_ms": 2280,
+      "start_frame": 49,
+      "end_frame": 68
+    },
+    {
+      "word": "We",
+      "start_ms": 2980,
+      "end_ms": 3120,
+      "start_frame": 89,
+      "end_frame": 94
+    },
+    {
+      "word": "are",
+      "start_ms": 3120,
+      "end_ms": 3440,
+      "start_frame": 94,
+      "end_frame": 103
+    },
+    {
+      "word": "continuing",
+      "start_ms": 3440,
+      "end_ms": 4000,
+      "start_frame": 103,
+      "end_frame": 120
+    },
+    {
+      "word": "our",
+      "start_ms": 4000,
+      "end_ms": 4680,
+      "start_frame": 120,
+      "end_frame": 140
+    },
+    {
+      "word": "arrays",
+      "start_ms": 4680,
+      "end_ms": 5380,
+      "start_frame": 140,
+      "end_frame": 161
+    },
+    {
+      "word": "and",
+      "start_ms": 5380,
+      "end_ms": 5740,
+      "start_frame": 161,
+      "end_frame": 172
+    },
+    {
+      "word": "hashing",
+      "start_ms": 5740,
+      "end_ms": 6100,
+      "start_frame": 172,
+      "end_frame": 183
+    },
+    {
+      "word": "roadmap.",
+      "start_ms": 6100,
+      "end_ms": 6680,
+      "start_frame": 183,
+      "end_frame": 200
+    },
+    {
+      "word": "Question",
+      "start_ms": 7880,
+      "end_ms": 7900,
+      "start_frame": 236,
+      "end_frame": 237
+    },
+    {
+      "word": "13,",
+      "start_ms": 7900,
+      "end_ms": 8680,
+      "start_frame": 237,
+      "end_frame": 260
+    },
+    {
+      "word": "set",
+      "start_ms": 9160,
+      "end_ms": 9520,
+      "start_frame": 275,
+      "end_frame": 286
+    },
+    {
+      "word": "matrix",
+      "start_ms": 9520,
+      "end_ms": 10040,
+      "start_frame": 286,
+      "end_frame": 301
+    },
+    {
+      "word": "zeros",
+      "start_ms": 10040,
+      "end_ms": 10540,
+      "start_frame": 301,
+      "end_frame": 316
+    },
+    {
+      "word": "is",
+      "start_ms": 10540,
+      "end_ms": 11360,
+      "start_frame": 316,
+      "end_frame": 341
+    },
+    {
+      "word": "complete.",
+      "start_ms": 11360,
+      "end_ms": 11900,
+      "start_frame": 341,
+      "end_frame": 357
+    },
+    {
+      "word": "Our",
+      "start_ms": 12700,
+      "end_ms": 13080,
+      "start_frame": 381,
+      "end_frame": 392
+    },
+    {
+      "word": "progress",
+      "start_ms": 13080,
+      "end_ms": 13540,
+      "start_frame": 392,
+      "end_frame": 406
+    },
+    {
+      "word": "is",
+      "start_ms": 13540,
+      "end_ms": 14000,
+      "start_frame": 406,
+      "end_frame": 420
+    },
+    {
+      "word": "now",
+      "start_ms": 14000,
+      "end_ms": 14460,
+      "start_frame": 420,
+      "end_frame": 434
+    },
+    {
+      "word": "13",
+      "start_ms": 14460,
+      "end_ms": 15280,
+      "start_frame": 434,
+      "end_frame": 458
+    },
+    {
+      "word": "out",
+      "start_ms": 15280,
+      "end_ms": 15700,
+      "start_frame": 458,
+      "end_frame": 471
+    },
+    {
+      "word": "of",
+      "start_ms": 15700,
+      "end_ms": 15980,
+      "start_frame": 471,
+      "end_frame": 479
+    },
+    {
+      "word": "227.",
+      "start_ms": 15980,
+      "end_ms": 17480,
+      "start_frame": 479,
+      "end_frame": 524
+    },
+    {
+      "word": "And",
+      "start_ms": 17820,
+      "end_ms": 18060,
+      "start_frame": 535,
+      "end_frame": 542
+    },
+    {
+      "word": "next",
+      "start_ms": 18060,
+      "end_ms": 18460,
+      "start_frame": 542,
+      "end_frame": 554
+    },
+    {
+      "word": "we",
+      "start_ms": 18460,
+      "end_ms": 18900,
+      "start_frame": 554,
+      "end_frame": 567
+    },
+    {
+      "word": "have",
+      "start_ms": 18900,
+      "end_ms": 19140,
+      "start_frame": 567,
+      "end_frame": 574
+    },
+    {
+      "word": "question",
+      "start_ms": 19140,
+      "end_ms": 19600,
+      "start_frame": 574,
+      "end_frame": 588
+    },
+    {
+      "word": "14,",
+      "start_ms": 19600,
+      "end_ms": 20360,
+      "start_frame": 588,
+      "end_frame": 611
+    },
+    {
+      "word": "rotate",
+      "start_ms": 20680,
+      "end_ms": 21060,
+      "start_frame": 620,
+      "end_frame": 632
+    },
+    {
+      "word": "image,",
+      "start_ms": 21060,
+      "end_ms": 21800,
+      "start_frame": 632,
+      "end_frame": 654
+    },
+    {
+      "word": "lead",
+      "start_ms": 22200,
+      "end_ms": 22440,
+      "start_frame": 666,
+      "end_frame": 673
+    },
+    {
+      "word": "code",
+      "start_ms": 22440,
+      "end_ms": 22920,
+      "start_frame": 673,
+      "end_frame": 688
+    },
+    {
+      "word": "48,",
+      "start_ms": 22920,
+      "end_ms": 23700,
+      "start_frame": 688,
+      "end_frame": 711
+    },
+    {
+      "word": "medium.",
+      "start_ms": 24340,
+      "end_ms": 24800,
+      "start_frame": 730,
+      "end_frame": 744
+    },
+    {
+      "word": "This",
+      "start_ms": 24800,
+      "end_ms": 26080,
+      "start_frame": 744,
+      "end_frame": 782
+    },
+    {
+      "word": "problem",
+      "start_ms": 26080,
+      "end_ms": 26600,
+      "start_frame": 782,
+      "end_frame": 798
+    },
+    {
+      "word": "is",
+      "start_ms": 26600,
+      "end_ms": 26960,
+      "start_frame": 798,
+      "end_frame": 809
+    },
+    {
+      "word": "about",
+      "start_ms": 26960,
+      "end_ms": 27300,
+      "start_frame": 809,
+      "end_frame": 819
+    },
+    {
+      "word": "rotating",
+      "start_ms": 27300,
+      "end_ms": 27960,
+      "start_frame": 819,
+      "end_frame": 839
+    },
+    {
+      "word": "a",
+      "start_ms": 27960,
+      "end_ms": 28500,
+      "start_frame": 839,
+      "end_frame": 855
+    },
+    {
+      "word": "square",
+      "start_ms": 28500,
+      "end_ms": 28860,
+      "start_frame": 855,
+      "end_frame": 866
+    },
+    {
+      "word": "matrix.",
+      "start_ms": 28860,
+      "end_ms": 29500,
+      "start_frame": 866,
+      "end_frame": 885
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Welcome back to Code with Animation.",
+      "start_ms": 0,
+      "end_ms": 2280,
+      "start_frame": 0,
+      "end_frame": 68,
+      "word_count": 6
+    },
+    {
+      "text": "We are continuing our arrays and hashing roadmap.",
+      "start_ms": 2980,
+      "end_ms": 6680,
+      "start_frame": 89,
+      "end_frame": 200,
+      "word_count": 8
+    },
+    {
+      "text": "Question 13, set matrix zeros is complete.",
+      "start_ms": 7880,
+      "end_ms": 11900,
+      "start_frame": 236,
+      "end_frame": 357,
+      "word_count": 7
+    },
+    {
+      "text": "Our progress is now 13 out of 227.",
+      "start_ms": 12700,
+      "end_ms": 17480,
+      "start_frame": 381,
+      "end_frame": 524,
+      "word_count": 8
+    },
+    {
+      "text": "And next we have question 14, rotate image, lead code 48, medium.",
+      "start_ms": 17820,
+      "end_ms": 24800,
+      "start_frame": 535,
+      "end_frame": 744,
+      "word_count": 12
+    },
+    {
+      "text": "This problem is about rotating a square matrix.",
+      "start_ms": 24800,
+      "end_ms": 29500,
+      "start_frame": 744,
+      "end_frame": 885,
+      "word_count": 8
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "Animation.",
+      "before_word": "We",
+      "start_ms": 2280,
+      "end_ms": 2980,
+      "duration_ms": 700,
+      "start_frame": 68,
+      "end_frame": 89,
+      "duration_frames": 21
+    },
+    {
+      "after_word": "roadmap.",
+      "before_word": "Question",
+      "start_ms": 6680,
+      "end_ms": 7880,
+      "duration_ms": 1200,
+      "start_frame": 200,
+      "end_frame": 236,
+      "duration_frames": 36
+    },
+    {
+      "after_word": "13,",
+      "before_word": "set",
+      "start_ms": 8680,
+      "end_ms": 9160,
+      "duration_ms": 480,
+      "start_frame": 260,
+      "end_frame": 275,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "complete.",
+      "before_word": "Our",
+      "start_ms": 11900,
+      "end_ms": 12700,
+      "duration_ms": 800,
+      "start_frame": 357,
+      "end_frame": 381,
+      "duration_frames": 24
+    },
+    {
+      "after_word": "227.",
+      "before_word": "And",
+      "start_ms": 17480,
+      "end_ms": 17820,
+      "duration_ms": 340,
+      "start_frame": 524,
+      "end_frame": 535,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "14,",
+      "before_word": "rotate",
+      "start_ms": 20360,
+      "end_ms": 20680,
+      "duration_ms": 320,
+      "start_frame": 611,
+      "end_frame": 620,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "image,",
+      "before_word": "lead",
+      "start_ms": 21800,
+      "end_ms": 22200,
+      "duration_ms": 400,
+      "start_frame": 654,
+      "end_frame": 666,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "48,",
+      "before_word": "medium.",
+      "start_ms": 23700,
+      "end_ms": 24340,
+      "duration_ms": 640,
+      "start_frame": 711,
+      "end_frame": 730,
+      "duration_frames": 19
+    }
+  ]
+}

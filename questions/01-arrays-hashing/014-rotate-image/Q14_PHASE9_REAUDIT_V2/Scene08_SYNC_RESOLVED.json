@@ -1,0 +1,118 @@
+{
+  "scene": "S08",
+  "audio_file": "08-why-method2-complex.mp3",
+  "fps": 30,
+  "duration_frames": 1662,
+  "duration_ms": 55400,
+  "anchor_count": 9,
+  "anchors": [
+    {
+      "anchor_id": "S08_NOTFAIL",
+      "phrase": "Method 2 is already",
+      "plan_phrase": "Method Two is not a failed solution.",
+      "word_start_index": 0,
+      "word_end_index": 3,
+      "start_seconds": 0.0,
+      "end_seconds": 1.82,
+      "start_frame": 0,
+      "end_frame_exclusive": 56,
+      "note": "Method2 validity."
+    },
+    {
+      "anchor_id": "S08_NOTFASTER",
+      "phrase": "we are not looking for a",
+      "plan_phrase": "we do not need a faster method.",
+      "word_start_index": 6,
+      "word_end_index": 11,
+      "start_seconds": 3.02,
+      "end_seconds": 4.9,
+      "start_frame": 91,
+      "end_frame_exclusive": 148,
+      "note": "No asymptotic need."
+    },
+    {
+      "anchor_id": "S08_CHALLENGE",
+      "phrase": "The logic is",
+      "plan_phrase": "The challenge is different.",
+      "word_start_index": 35,
+      "word_end_index": 37,
+      "start_seconds": 20.74,
+      "end_seconds": 21.52,
+      "start_frame": 622,
+      "end_frame_exclusive": 647,
+      "note": "Index complexity."
+    },
+    {
+      "anchor_id": "S08_TOP",
+      "phrase": "top,",
+      "plan_phrase": "top",
+      "word_start_index": 31,
+      "word_end_index": 31,
+      "start_seconds": 17.1,
+      "end_seconds": 17.52,
+      "start_frame": 513,
+      "end_frame_exclusive": 527,
+      "note": "Four cycle index labels."
+    },
+    {
+      "anchor_id": "S08_MIX",
+      "phrase": "correct, but these index relationships can be easy to mix up,",
+      "plan_phrase": "They are correct... but they are easy to mix up.",
+      "word_start_index": 38,
+      "word_end_index": 48,
+      "start_seconds": 21.52,
+      "end_seconds": 25.9,
+      "start_frame": 646,
+      "end_frame_exclusive": 778,
+      "note": "Index burden."
+    },
+    {
+      "anchor_id": "S08_MAPPING",
+      "phrase": "So instead of inventing another movement rule, let's return to the coordinate mapping.",
+      "plan_phrase": "So let’s return to the mathematical mapping.",
+      "word_start_index": 53,
+      "word_end_index": 65,
+      "start_seconds": 27.6,
+      "end_seconds": 34.08,
+      "start_frame": 828,
+      "end_frame_exclusive": 1023,
+      "note": "Mapping."
+    },
+    {
+      "anchor_id": "S08_SPLIT",
+      "phrase": "can we reach that destination using two simpler transformations?",
+      "plan_phrase": "can we split it into two simpler transformations?",
+      "word_start_index": 82,
+      "word_end_index": 90,
+      "start_seconds": 44.16,
+      "end_seconds": 50.08,
+      "start_frame": 1325,
+      "end_frame_exclusive": 1503,
+      "note": "Two-step question."
+    },
+    {
+      "anchor_id": "S08_YES",
+      "phrase": "Yes.",
+      "plan_phrase": "Yes.",
+      "word_start_index": 91,
+      "word_end_index": 91,
+      "start_seconds": 51.0,
+      "end_seconds": 51.44,
+      "start_frame": 1530,
+      "end_frame_exclusive": 1544,
+      "note": "Two-stage scaffold."
+    },
+    {
+      "anchor_id": "S08_METHOD3",
+      "phrase": "that gives us Method",
+      "plan_phrase": "That gives us the third method.",
+      "word_start_index": 93,
+      "word_end_index": 96,
+      "start_seconds": 52.56,
+      "end_seconds": 54.9,
+      "start_frame": 1577,
+      "end_frame_exclusive": 1648,
+      "note": "Method3 handoff."
+    }
+  ]
+}

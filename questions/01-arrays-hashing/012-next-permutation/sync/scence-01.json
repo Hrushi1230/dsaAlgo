@@ -1,0 +1,501 @@
+{
+  "audio_file": "scence-01.mp3",
+  "duration_ms": 25560,
+  "duration_frames": 767,
+  "fps": 30,
+  "word_count": 46,
+  "words": [
+    {
+      "word": "Welcome",
+      "start_ms": 0,
+      "end_ms": 480,
+      "start_frame": 0,
+      "end_frame": 14
+    },
+    {
+      "word": "back",
+      "start_ms": 480,
+      "end_ms": 760,
+      "start_frame": 14,
+      "end_frame": 23
+    },
+    {
+      "word": "to",
+      "start_ms": 760,
+      "end_ms": 980,
+      "start_frame": 23,
+      "end_frame": 29
+    },
+    {
+      "word": "Code",
+      "start_ms": 980,
+      "end_ms": 1240,
+      "start_frame": 29,
+      "end_frame": 37
+    },
+    {
+      "word": "with",
+      "start_ms": 1240,
+      "end_ms": 1540,
+      "start_frame": 37,
+      "end_frame": 46
+    },
+    {
+      "word": "Animation.",
+      "start_ms": 1540,
+      "end_ms": 2160,
+      "start_frame": 46,
+      "end_frame": 65
+    },
+    {
+      "word": "We",
+      "start_ms": 2700,
+      "end_ms": 2800,
+      "start_frame": 81,
+      "end_frame": 84
+    },
+    {
+      "word": "are",
+      "start_ms": 2800,
+      "end_ms": 3060,
+      "start_frame": 84,
+      "end_frame": 92
+    },
+    {
+      "word": "continuing",
+      "start_ms": 3060,
+      "end_ms": 3560,
+      "start_frame": 92,
+      "end_frame": 107
+    },
+    {
+      "word": "our",
+      "start_ms": 3560,
+      "end_ms": 3980,
+      "start_frame": 107,
+      "end_frame": 119
+    },
+    {
+      "word": "DSA",
+      "start_ms": 3980,
+      "end_ms": 4740,
+      "start_frame": 119,
+      "end_frame": 142
+    },
+    {
+      "word": "pattern",
+      "start_ms": 4740,
+      "end_ms": 5200,
+      "start_frame": 142,
+      "end_frame": 156
+    },
+    {
+      "word": "roadmap.",
+      "start_ms": 5200,
+      "end_ms": 5780,
+      "start_frame": 156,
+      "end_frame": 173
+    },
+    {
+      "word": "Question",
+      "start_ms": 6760,
+      "end_ms": 6760,
+      "start_frame": 203,
+      "end_frame": 203
+    },
+    {
+      "word": "11,",
+      "start_ms": 6760,
+      "end_ms": 7640,
+      "start_frame": 203,
+      "end_frame": 229
+    },
+    {
+      "word": "sort",
+      "start_ms": 8280,
+      "end_ms": 8500,
+      "start_frame": 248,
+      "end_frame": 255
+    },
+    {
+      "word": "colors,",
+      "start_ms": 8500,
+      "end_ms": 8960,
+      "start_frame": 255,
+      "end_frame": 269
+    },
+    {
+      "word": "is",
+      "start_ms": 9400,
+      "end_ms": 9620,
+      "start_frame": 282,
+      "end_frame": 289
+    },
+    {
+      "word": "complete.",
+      "start_ms": 9620,
+      "end_ms": 10140,
+      "start_frame": 289,
+      "end_frame": 304
+    },
+    {
+      "word": "Now",
+      "start_ms": 11020,
+      "end_ms": 11260,
+      "start_frame": 331,
+      "end_frame": 338
+    },
+    {
+      "word": "we",
+      "start_ms": 11260,
+      "end_ms": 11500,
+      "start_frame": 338,
+      "end_frame": 345
+    },
+    {
+      "word": "move",
+      "start_ms": 11500,
+      "end_ms": 11660,
+      "start_frame": 345,
+      "end_frame": 350
+    },
+    {
+      "word": "to",
+      "start_ms": 11660,
+      "end_ms": 11840,
+      "start_frame": 350,
+      "end_frame": 355
+    },
+    {
+      "word": "the",
+      "start_ms": 11840,
+      "end_ms": 11980,
+      "start_frame": 355,
+      "end_frame": 359
+    },
+    {
+      "word": "next",
+      "start_ms": 11980,
+      "end_ms": 12240,
+      "start_frame": 359,
+      "end_frame": 367
+    },
+    {
+      "word": "problem.",
+      "start_ms": 12240,
+      "end_ms": 12760,
+      "start_frame": 367,
+      "end_frame": 383
+    },
+    {
+      "word": "Question",
+      "start_ms": 13640,
+      "end_ms": 14020,
+      "start_frame": 409,
+      "end_frame": 421
+    },
+    {
+      "word": "12,",
+      "start_ms": 14020,
+      "end_ms": 14740,
+      "start_frame": 421,
+      "end_frame": 442
+    },
+    {
+      "word": "next",
+      "start_ms": 15180,
+      "end_ms": 15500,
+      "start_frame": 455,
+      "end_frame": 465
+    },
+    {
+      "word": "permutation,",
+      "start_ms": 15500,
+      "end_ms": 16540,
+      "start_frame": 465,
+      "end_frame": 496
+    },
+    {
+      "word": "lead",
+      "start_ms": 17160,
+      "end_ms": 17320,
+      "start_frame": 515,
+      "end_frame": 520
+    },
+    {
+      "word": "code",
+      "start_ms": 17320,
+      "end_ms": 17680,
+      "start_frame": 520,
+      "end_frame": 530
+    },
+    {
+      "word": "31,",
+      "start_ms": 17680,
+      "end_ms": 18320,
+      "start_frame": 530,
+      "end_frame": 550
+    },
+    {
+      "word": "medium.",
+      "start_ms": 19160,
+      "end_ms": 19460,
+      "start_frame": 575,
+      "end_frame": 584
+    },
+    {
+      "word": "We",
+      "start_ms": 20200,
+      "end_ms": 20380,
+      "start_frame": 606,
+      "end_frame": 611
+    },
+    {
+      "word": "are",
+      "start_ms": 20380,
+      "end_ms": 20660,
+      "start_frame": 611,
+      "end_frame": 620
+    },
+    {
+      "word": "still",
+      "start_ms": 20660,
+      "end_ms": 20860,
+      "start_frame": 620,
+      "end_frame": 626
+    },
+    {
+      "word": "inside",
+      "start_ms": 20860,
+      "end_ms": 21400,
+      "start_frame": 626,
+      "end_frame": 642
+    },
+    {
+      "word": "arrays",
+      "start_ms": 21400,
+      "end_ms": 21920,
+      "start_frame": 642,
+      "end_frame": 658
+    },
+    {
+      "word": "and",
+      "start_ms": 21920,
+      "end_ms": 22380,
+      "start_frame": 658,
+      "end_frame": 671
+    },
+    {
+      "word": "hashing.",
+      "start_ms": 22380,
+      "end_ms": 22820,
+      "start_frame": 671,
+      "end_frame": 685
+    },
+    {
+      "word": "Let's",
+      "start_ms": 23400,
+      "end_ms": 23820,
+      "start_frame": 702,
+      "end_frame": 715
+    },
+    {
+      "word": "understand",
+      "start_ms": 23820,
+      "end_ms": 24320,
+      "start_frame": 715,
+      "end_frame": 730
+    },
+    {
+      "word": "the",
+      "start_ms": 24320,
+      "end_ms": 24620,
+      "start_frame": 730,
+      "end_frame": 739
+    },
+    {
+      "word": "question",
+      "start_ms": 24620,
+      "end_ms": 25040,
+      "start_frame": 739,
+      "end_frame": 751
+    },
+    {
+      "word": "first.",
+      "start_ms": 25040,
+      "end_ms": 25560,
+      "start_frame": 751,
+      "end_frame": 767
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Welcome back to Code with Animation.",
+      "start_ms": 0,
+      "end_ms": 2160,
+      "start_frame": 0,
+      "end_frame": 65,
+      "word_count": 6
+    },
+    {
+      "text": "We are continuing our DSA pattern roadmap.",
+      "start_ms": 2700,
+      "end_ms": 5780,
+      "start_frame": 81,
+      "end_frame": 173,
+      "word_count": 7
+    },
+    {
+      "text": "Question 11, sort colors, is complete.",
+      "start_ms": 6760,
+      "end_ms": 10140,
+      "start_frame": 203,
+      "end_frame": 304,
+      "word_count": 6
+    },
+    {
+      "text": "Now we move to the next problem.",
+      "start_ms": 11020,
+      "end_ms": 12760,
+      "start_frame": 331,
+      "end_frame": 383,
+      "word_count": 7
+    },
+    {
+      "text": "Question 12, next permutation, lead code 31, medium.",
+      "start_ms": 13640,
+      "end_ms": 19460,
+      "start_frame": 409,
+      "end_frame": 584,
+      "word_count": 8
+    },
+    {
+      "text": "We are still inside arrays and hashing.",
+      "start_ms": 20200,
+      "end_ms": 22820,
+      "start_frame": 606,
+      "end_frame": 685,
+      "word_count": 7
+    },
+    {
+      "text": "Let's understand the question first.",
+      "start_ms": 23400,
+      "end_ms": 25560,
+      "start_frame": 702,
+      "end_frame": 767,
+      "word_count": 5
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "Animation.",
+      "before_word": "We",
+      "start_ms": 2160,
+      "end_ms": 2700,
+      "duration_ms": 540,
+      "start_frame": 65,
+      "end_frame": 81,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "roadmap.",
+      "before_word": "Question",
+      "start_ms": 5780,
+      "end_ms": 6760,
+      "duration_ms": 980,
+      "start_frame": 173,
+      "end_frame": 203,
+      "duration_frames": 30
+    },
+    {
+      "after_word": "11,",
+      "before_word": "sort",
+      "start_ms": 7640,
+      "end_ms": 8280,
+      "duration_ms": 640,
+      "start_frame": 229,
+      "end_frame": 248,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "colors,",
+      "before_word": "is",
+      "start_ms": 8960,
+      "end_ms": 9400,
+      "duration_ms": 440,
+      "start_frame": 269,
+      "end_frame": 282,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "complete.",
+      "before_word": "Now",
+      "start_ms": 10140,
+      "end_ms": 11020,
+      "duration_ms": 880,
+      "start_frame": 304,
+      "end_frame": 331,
+      "duration_frames": 27
+    },
+    {
+      "after_word": "problem.",
+      "before_word": "Question",
+      "start_ms": 12760,
+      "end_ms": 13640,
+      "duration_ms": 880,
+      "start_frame": 383,
+      "end_frame": 409,
+      "duration_frames": 26
+    },
+    {
+      "after_word": "12,",
+      "before_word": "next",
+      "start_ms": 14740,
+      "end_ms": 15180,
+      "duration_ms": 440,
+      "start_frame": 442,
+      "end_frame": 455,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "permutation,",
+      "before_word": "lead",
+      "start_ms": 16540,
+      "end_ms": 17160,
+      "duration_ms": 620,
+      "start_frame": 496,
+      "end_frame": 515,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "31,",
+      "before_word": "medium.",
+      "start_ms": 18320,
+      "end_ms": 19160,
+      "duration_ms": 840,
+      "start_frame": 550,
+      "end_frame": 575,
+      "duration_frames": 25
+    },
+    {
+      "after_word": "medium.",
+      "before_word": "We",
+      "start_ms": 19460,
+      "end_ms": 20200,
+      "duration_ms": 740,
+      "start_frame": 584,
+      "end_frame": 606,
+      "duration_frames": 22
+    },
+    {
+      "after_word": "hashing.",
+      "before_word": "Let's",
+      "start_ms": 22820,
+      "end_ms": 23400,
+      "duration_ms": 580,
+      "start_frame": 685,
+      "end_frame": 702,
+      "duration_frames": 17
+    }
+  ]
+}

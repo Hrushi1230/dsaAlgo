@@ -1,0 +1,40 @@
+{
+  "question": "Q15 Spiral Matrix",
+  "leetcode": 54,
+  "phase": 9,
+  "version": "STUDENT_OPTIMIZED_V3",
+  "status": "COMPLETE_READY_FOR_AUDIO",
+  "authoritative": true,
+  "scene_count": 10,
+  "authoritative_script": "Q15_Spiral_Matrix_FINAL_STUDENT_OPTIMIZED.md",
+  "anchors_file": "Q15_PHASE9_SYNC_ANCHORS_V3.json",
+  "scene_anchor_counts": {
+    "S01": 13,
+    "S02": 17,
+    "S03": 38,
+    "S04": 21,
+    "S05": 11,
+    "S06": 17,
+    "S07": 41,
+    "S08": 22,
+    "S09": 14,
+    "S10": 15
+  },
+  "total_stable_anchors": 209,
+  "anchor_validation": {
+    "missing_from_script": 0,
+    "duplicate_ids": 0,
+    "guessed_timing": 0
+  },
+  "algorithm_qa": {
+    "random_rectangular_cases": 10800,
+    "method1": "PASS",
+    "method2": "PASS"
+  },
+  "legacy_v2": "SUPERSEDED_FOR_NARRATION_AND_ANCHORS",
+  "final_roadmap_state": {
+    "q15": "COMPLETE",
+    "global_progress": "15/227",
+    "q16": "UP NEXT"
+  }
+}

@@ -1,0 +1,1984 @@
+{
+  "audio_file": "scence-06.mp3",
+  "duration_ms": 108400,
+  "duration_frames": 3252,
+  "fps": 30,
+  "word_count": 223,
+  "words": [
+    {
+      "word": "Start",
+      "start_ms": 0,
+      "end_ms": 460,
+      "start_frame": 0,
+      "end_frame": 14
+    },
+    {
+      "word": "from",
+      "start_ms": 460,
+      "end_ms": 740,
+      "start_frame": 14,
+      "end_frame": 22
+    },
+    {
+      "word": "the",
+      "start_ms": 740,
+      "end_ms": 900,
+      "start_frame": 22,
+      "end_frame": 27
+    },
+    {
+      "word": "right",
+      "start_ms": 900,
+      "end_ms": 1240,
+      "start_frame": 27,
+      "end_frame": 37
+    },
+    {
+      "word": "side.",
+      "start_ms": 1240,
+      "end_ms": 1600,
+      "start_frame": 37,
+      "end_frame": 48
+    },
+    {
+      "word": "We",
+      "start_ms": 1920,
+      "end_ms": 2100,
+      "start_frame": 58,
+      "end_frame": 63
+    },
+    {
+      "word": "look",
+      "start_ms": 2100,
+      "end_ms": 2300,
+      "start_frame": 63,
+      "end_frame": 69
+    },
+    {
+      "word": "for",
+      "start_ms": 2300,
+      "end_ms": 2500,
+      "start_frame": 69,
+      "end_frame": 75
+    },
+    {
+      "word": "the",
+      "start_ms": 2500,
+      "end_ms": 2720,
+      "start_frame": 75,
+      "end_frame": 82
+    },
+    {
+      "word": "first",
+      "start_ms": 2720,
+      "end_ms": 3020,
+      "start_frame": 82,
+      "end_frame": 91
+    },
+    {
+      "word": "index",
+      "start_ms": 3020,
+      "end_ms": 3500,
+      "start_frame": 91,
+      "end_frame": 105
+    },
+    {
+      "word": "i,",
+      "start_ms": 3500,
+      "end_ms": 3840,
+      "start_frame": 105,
+      "end_frame": 115
+    },
+    {
+      "word": "where",
+      "start_ms": 4280,
+      "end_ms": 4580,
+      "start_frame": 128,
+      "end_frame": 137
+    },
+    {
+      "word": "nams",
+      "start_ms": 4580,
+      "end_ms": 4920,
+      "start_frame": 137,
+      "end_frame": 148
+    },
+    {
+      "word": "at",
+      "start_ms": 4920,
+      "end_ms": 5220,
+      "start_frame": 148,
+      "end_frame": 157
+    },
+    {
+      "word": "i",
+      "start_ms": 5220,
+      "end_ms": 5700,
+      "start_frame": 157,
+      "end_frame": 171
+    },
+    {
+      "word": "is",
+      "start_ms": 5700,
+      "end_ms": 6180,
+      "start_frame": 171,
+      "end_frame": 185
+    },
+    {
+      "word": "smaller",
+      "start_ms": 6180,
+      "end_ms": 6660,
+      "start_frame": 185,
+      "end_frame": 200
+    },
+    {
+      "word": "than",
+      "start_ms": 6660,
+      "end_ms": 6980,
+      "start_frame": 200,
+      "end_frame": 209
+    },
+    {
+      "word": "nams",
+      "start_ms": 6980,
+      "end_ms": 7440,
+      "start_frame": 209,
+      "end_frame": 223
+    },
+    {
+      "word": "at",
+      "start_ms": 7440,
+      "end_ms": 7740,
+      "start_frame": 223,
+      "end_frame": 232
+    },
+    {
+      "word": "i",
+      "start_ms": 7740,
+      "end_ms": 8320,
+      "start_frame": 232,
+      "end_frame": 250
+    },
+    {
+      "word": "plus",
+      "start_ms": 8320,
+      "end_ms": 8680,
+      "start_frame": 250,
+      "end_frame": 260
+    },
+    {
+      "word": "1.",
+      "start_ms": 8680,
+      "end_ms": 9020,
+      "start_frame": 260,
+      "end_frame": 271
+    },
+    {
+      "word": "Why?",
+      "start_ms": 9380,
+      "end_ms": 9940,
+      "start_frame": 281,
+      "end_frame": 298
+    },
+    {
+      "word": "Because",
+      "start_ms": 10280,
+      "end_ms": 10760,
+      "start_frame": 308,
+      "end_frame": 323
+    },
+    {
+      "word": "everything",
+      "start_ms": 10760,
+      "end_ms": 11400,
+      "start_frame": 323,
+      "end_frame": 342
+    },
+    {
+      "word": "to",
+      "start_ms": 11400,
+      "end_ms": 11720,
+      "start_frame": 342,
+      "end_frame": 352
+    },
+    {
+      "word": "the",
+      "start_ms": 11720,
+      "end_ms": 11880,
+      "start_frame": 352,
+      "end_frame": 356
+    },
+    {
+      "word": "right",
+      "start_ms": 11880,
+      "end_ms": 12100,
+      "start_frame": 356,
+      "end_frame": 363
+    },
+    {
+      "word": "of",
+      "start_ms": 12100,
+      "end_ms": 12240,
+      "start_frame": 363,
+      "end_frame": 367
+    },
+    {
+      "word": "that",
+      "start_ms": 12240,
+      "end_ms": 12500,
+      "start_frame": 367,
+      "end_frame": 375
+    },
+    {
+      "word": "position",
+      "start_ms": 12500,
+      "end_ms": 13160,
+      "start_frame": 375,
+      "end_frame": 395
+    },
+    {
+      "word": "forms",
+      "start_ms": 13160,
+      "end_ms": 14060,
+      "start_frame": 395,
+      "end_frame": 422
+    },
+    {
+      "word": "a",
+      "start_ms": 14060,
+      "end_ms": 14340,
+      "start_frame": 422,
+      "end_frame": 430
+    },
+    {
+      "word": "non",
+      "start_ms": 14340,
+      "end_ms": 14780,
+      "start_frame": 430,
+      "end_frame": 443
+    },
+    {
+      "word": "-increasing",
+      "start_ms": 14780,
+      "end_ms": 15560,
+      "start_frame": 443,
+      "end_frame": 467
+    },
+    {
+      "word": "suffix.",
+      "start_ms": 15560,
+      "end_ms": 16240,
+      "start_frame": 467,
+      "end_frame": 487
+    },
+    {
+      "word": "That",
+      "start_ms": 16620,
+      "end_ms": 16960,
+      "start_frame": 499,
+      "end_frame": 509
+    },
+    {
+      "word": "suffix",
+      "start_ms": 16960,
+      "end_ms": 17460,
+      "start_frame": 509,
+      "end_frame": 524
+    },
+    {
+      "word": "is",
+      "start_ms": 17460,
+      "end_ms": 17660,
+      "start_frame": 524,
+      "end_frame": 530
+    },
+    {
+      "word": "already",
+      "start_ms": 17660,
+      "end_ms": 18300,
+      "start_frame": 530,
+      "end_frame": 549
+    },
+    {
+      "word": "the",
+      "start_ms": 18300,
+      "end_ms": 18840,
+      "start_frame": 549,
+      "end_frame": 565
+    },
+    {
+      "word": "largest",
+      "start_ms": 18840,
+      "end_ms": 19320,
+      "start_frame": 565,
+      "end_frame": 580
+    },
+    {
+      "word": "possible",
+      "start_ms": 19320,
+      "end_ms": 19880,
+      "start_frame": 580,
+      "end_frame": 596
+    },
+    {
+      "word": "arrangement",
+      "start_ms": 19880,
+      "end_ms": 20500,
+      "start_frame": 596,
+      "end_frame": 615
+    },
+    {
+      "word": "of",
+      "start_ms": 20500,
+      "end_ms": 21520,
+      "start_frame": 615,
+      "end_frame": 646
+    },
+    {
+      "word": "those",
+      "start_ms": 21520,
+      "end_ms": 21920,
+      "start_frame": 646,
+      "end_frame": 658
+    },
+    {
+      "word": "suffix",
+      "start_ms": 21920,
+      "end_ms": 22360,
+      "start_frame": 658,
+      "end_frame": 671
+    },
+    {
+      "word": "values.",
+      "start_ms": 22360,
+      "end_ms": 22880,
+      "start_frame": 671,
+      "end_frame": 686
+    },
+    {
+      "word": "So",
+      "start_ms": 22880,
+      "end_ms": 23660,
+      "start_frame": 686,
+      "end_frame": 710
+    },
+    {
+      "word": "changing",
+      "start_ms": 23660,
+      "end_ms": 24200,
+      "start_frame": 710,
+      "end_frame": 726
+    },
+    {
+      "word": "only",
+      "start_ms": 24200,
+      "end_ms": 24840,
+      "start_frame": 726,
+      "end_frame": 745
+    },
+    {
+      "word": "that",
+      "start_ms": 24840,
+      "end_ms": 25160,
+      "start_frame": 745,
+      "end_frame": 755
+    },
+    {
+      "word": "suffix",
+      "start_ms": 25160,
+      "end_ms": 25920,
+      "start_frame": 755,
+      "end_frame": 778
+    },
+    {
+      "word": "cannot",
+      "start_ms": 25920,
+      "end_ms": 26560,
+      "start_frame": 778,
+      "end_frame": 797
+    },
+    {
+      "word": "give",
+      "start_ms": 26560,
+      "end_ms": 26920,
+      "start_frame": 797,
+      "end_frame": 808
+    },
+    {
+      "word": "us",
+      "start_ms": 26920,
+      "end_ms": 27380,
+      "start_frame": 808,
+      "end_frame": 821
+    },
+    {
+      "word": "a",
+      "start_ms": 27380,
+      "end_ms": 27720,
+      "start_frame": 821,
+      "end_frame": 832
+    },
+    {
+      "word": "larger",
+      "start_ms": 27720,
+      "end_ms": 28160,
+      "start_frame": 832,
+      "end_frame": 845
+    },
+    {
+      "word": "permutation.",
+      "start_ms": 28160,
+      "end_ms": 29160,
+      "start_frame": 845,
+      "end_frame": 875
+    },
+    {
+      "word": "The",
+      "start_ms": 30180,
+      "end_ms": 30280,
+      "start_frame": 905,
+      "end_frame": 908
+    },
+    {
+      "word": "first",
+      "start_ms": 30280,
+      "end_ms": 30600,
+      "start_frame": 908,
+      "end_frame": 918
+    },
+    {
+      "word": "place",
+      "start_ms": 30600,
+      "end_ms": 30920,
+      "start_frame": 918,
+      "end_frame": 928
+    },
+    {
+      "word": "where",
+      "start_ms": 30920,
+      "end_ms": 31160,
+      "start_frame": 928,
+      "end_frame": 935
+    },
+    {
+      "word": "we",
+      "start_ms": 31160,
+      "end_ms": 31280,
+      "start_frame": 935,
+      "end_frame": 938
+    },
+    {
+      "word": "can",
+      "start_ms": 31280,
+      "end_ms": 31540,
+      "start_frame": 938,
+      "end_frame": 946
+    },
+    {
+      "word": "increase",
+      "start_ms": 31540,
+      "end_ms": 32100,
+      "start_frame": 946,
+      "end_frame": 963
+    },
+    {
+      "word": "the",
+      "start_ms": 32100,
+      "end_ms": 32360,
+      "start_frame": 963,
+      "end_frame": 971
+    },
+    {
+      "word": "permutation",
+      "start_ms": 32360,
+      "end_ms": 33120,
+      "start_frame": 971,
+      "end_frame": 994
+    },
+    {
+      "word": "is",
+      "start_ms": 33120,
+      "end_ms": 34000,
+      "start_frame": 994,
+      "end_frame": 1020
+    },
+    {
+      "word": "the",
+      "start_ms": 34000,
+      "end_ms": 34220,
+      "start_frame": 1020,
+      "end_frame": 1027
+    },
+    {
+      "word": "pivot.",
+      "start_ms": 34220,
+      "end_ms": 34520,
+      "start_frame": 1027,
+      "end_frame": 1036
+    },
+    {
+      "word": "Now",
+      "start_ms": 35200,
+      "end_ms": 35380,
+      "start_frame": 1056,
+      "end_frame": 1061
+    },
+    {
+      "word": "we",
+      "start_ms": 35380,
+      "end_ms": 35500,
+      "start_frame": 1061,
+      "end_frame": 1065
+    },
+    {
+      "word": "have",
+      "start_ms": 35500,
+      "end_ms": 35780,
+      "start_frame": 1065,
+      "end_frame": 1073
+    },
+    {
+      "word": "to",
+      "start_ms": 35780,
+      "end_ms": 36000,
+      "start_frame": 1073,
+      "end_frame": 1080
+    },
+    {
+      "word": "increase",
+      "start_ms": 36000,
+      "end_ms": 36520,
+      "start_frame": 1080,
+      "end_frame": 1096
+    },
+    {
+      "word": "that",
+      "start_ms": 36520,
+      "end_ms": 36860,
+      "start_frame": 1096,
+      "end_frame": 1106
+    },
+    {
+      "word": "pivot,",
+      "start_ms": 36860,
+      "end_ms": 37300,
+      "start_frame": 1106,
+      "end_frame": 1119
+    },
+    {
+      "word": "but",
+      "start_ms": 37640,
+      "end_ms": 37900,
+      "start_frame": 1129,
+      "end_frame": 1137
+    },
+    {
+      "word": "only",
+      "start_ms": 37900,
+      "end_ms": 38280,
+      "start_frame": 1137,
+      "end_frame": 1148
+    },
+    {
+      "word": "by",
+      "start_ms": 38280,
+      "end_ms": 38560,
+      "start_frame": 1148,
+      "end_frame": 1157
+    },
+    {
+      "word": "the",
+      "start_ms": 38560,
+      "end_ms": 38980,
+      "start_frame": 1157,
+      "end_frame": 1169
+    },
+    {
+      "word": "smallest",
+      "start_ms": 38980,
+      "end_ms": 39400,
+      "start_frame": 1169,
+      "end_frame": 1182
+    },
+    {
+      "word": "possible",
+      "start_ms": 39400,
+      "end_ms": 40000,
+      "start_frame": 1182,
+      "end_frame": 1200
+    },
+    {
+      "word": "amount.",
+      "start_ms": 40000,
+      "end_ms": 40420,
+      "start_frame": 1200,
+      "end_frame": 1213
+    },
+    {
+      "word": "So",
+      "start_ms": 41320,
+      "end_ms": 41580,
+      "start_frame": 1240,
+      "end_frame": 1247
+    },
+    {
+      "word": "we",
+      "start_ms": 41580,
+      "end_ms": 41820,
+      "start_frame": 1247,
+      "end_frame": 1255
+    },
+    {
+      "word": "search",
+      "start_ms": 41820,
+      "end_ms": 42140,
+      "start_frame": 1255,
+      "end_frame": 1264
+    },
+    {
+      "word": "from",
+      "start_ms": 42140,
+      "end_ms": 42440,
+      "start_frame": 1264,
+      "end_frame": 1273
+    },
+    {
+      "word": "the",
+      "start_ms": 42440,
+      "end_ms": 42600,
+      "start_frame": 1273,
+      "end_frame": 1278
+    },
+    {
+      "word": "right",
+      "start_ms": 42600,
+      "end_ms": 42820,
+      "start_frame": 1278,
+      "end_frame": 1285
+    },
+    {
+      "word": "again",
+      "start_ms": 42820,
+      "end_ms": 43500,
+      "start_frame": 1285,
+      "end_frame": 1305
+    },
+    {
+      "word": "for",
+      "start_ms": 43500,
+      "end_ms": 43980,
+      "start_frame": 1305,
+      "end_frame": 1319
+    },
+    {
+      "word": "the",
+      "start_ms": 43980,
+      "end_ms": 44260,
+      "start_frame": 1319,
+      "end_frame": 1328
+    },
+    {
+      "word": "first",
+      "start_ms": 44260,
+      "end_ms": 44640,
+      "start_frame": 1328,
+      "end_frame": 1339
+    },
+    {
+      "word": "value,",
+      "start_ms": 44640,
+      "end_ms": 45360,
+      "start_frame": 1339,
+      "end_frame": 1361
+    },
+    {
+      "word": "that",
+      "start_ms": 45980,
+      "end_ms": 46100,
+      "start_frame": 1379,
+      "end_frame": 1383
+    },
+    {
+      "word": "is",
+      "start_ms": 46100,
+      "end_ms": 46380,
+      "start_frame": 1383,
+      "end_frame": 1391
+    },
+    {
+      "word": "strictly",
+      "start_ms": 46380,
+      "end_ms": 46960,
+      "start_frame": 1391,
+      "end_frame": 1409
+    },
+    {
+      "word": "greater",
+      "start_ms": 46960,
+      "end_ms": 47820,
+      "start_frame": 1409,
+      "end_frame": 1435
+    },
+    {
+      "word": "than",
+      "start_ms": 47820,
+      "end_ms": 48400,
+      "start_frame": 1435,
+      "end_frame": 1452
+    },
+    {
+      "word": "the",
+      "start_ms": 48400,
+      "end_ms": 48680,
+      "start_frame": 1452,
+      "end_frame": 1460
+    },
+    {
+      "word": "pivot.",
+      "start_ms": 48680,
+      "end_ms": 49060,
+      "start_frame": 1460,
+      "end_frame": 1472
+    },
+    {
+      "word": "Because",
+      "start_ms": 49700,
+      "end_ms": 50120,
+      "start_frame": 1491,
+      "end_frame": 1504
+    },
+    {
+      "word": "the",
+      "start_ms": 50120,
+      "end_ms": 50380,
+      "start_frame": 1504,
+      "end_frame": 1511
+    },
+    {
+      "word": "suffix",
+      "start_ms": 50380,
+      "end_ms": 50860,
+      "start_frame": 1511,
+      "end_frame": 1526
+    },
+    {
+      "word": "is",
+      "start_ms": 50860,
+      "end_ms": 51100,
+      "start_frame": 1526,
+      "end_frame": 1533
+    },
+    {
+      "word": "non",
+      "start_ms": 51100,
+      "end_ms": 51500,
+      "start_frame": 1533,
+      "end_frame": 1545
+    },
+    {
+      "word": "-increasing,",
+      "start_ms": 51500,
+      "end_ms": 52360,
+      "start_frame": 1545,
+      "end_frame": 1571
+    },
+    {
+      "word": "the",
+      "start_ms": 52840,
+      "end_ms": 52960,
+      "start_frame": 1585,
+      "end_frame": 1589
+    },
+    {
+      "word": "first",
+      "start_ms": 52960,
+      "end_ms": 53260,
+      "start_frame": 1589,
+      "end_frame": 1598
+    },
+    {
+      "word": "greater",
+      "start_ms": 53260,
+      "end_ms": 53760,
+      "start_frame": 1598,
+      "end_frame": 1613
+    },
+    {
+      "word": "value",
+      "start_ms": 53760,
+      "end_ms": 54280,
+      "start_frame": 1613,
+      "end_frame": 1628
+    },
+    {
+      "word": "from",
+      "start_ms": 54280,
+      "end_ms": 54540,
+      "start_frame": 1628,
+      "end_frame": 1636
+    },
+    {
+      "word": "the",
+      "start_ms": 54540,
+      "end_ms": 54760,
+      "start_frame": 1636,
+      "end_frame": 1643
+    },
+    {
+      "word": "right",
+      "start_ms": 54760,
+      "end_ms": 55160,
+      "start_frame": 1643,
+      "end_frame": 1655
+    },
+    {
+      "word": "is",
+      "start_ms": 55160,
+      "end_ms": 55760,
+      "start_frame": 1655,
+      "end_frame": 1673
+    },
+    {
+      "word": "the",
+      "start_ms": 55760,
+      "end_ms": 56000,
+      "start_frame": 1673,
+      "end_frame": 1680
+    },
+    {
+      "word": "smallest",
+      "start_ms": 56000,
+      "end_ms": 56600,
+      "start_frame": 1680,
+      "end_frame": 1698
+    },
+    {
+      "word": "value",
+      "start_ms": 56600,
+      "end_ms": 57180,
+      "start_frame": 1698,
+      "end_frame": 1715
+    },
+    {
+      "word": "that",
+      "start_ms": 57180,
+      "end_ms": 57440,
+      "start_frame": 1715,
+      "end_frame": 1723
+    },
+    {
+      "word": "can",
+      "start_ms": 57440,
+      "end_ms": 57680,
+      "start_frame": 1723,
+      "end_frame": 1730
+    },
+    {
+      "word": "increase",
+      "start_ms": 57680,
+      "end_ms": 58220,
+      "start_frame": 1730,
+      "end_frame": 1747
+    },
+    {
+      "word": "the",
+      "start_ms": 58220,
+      "end_ms": 58460,
+      "start_frame": 1747,
+      "end_frame": 1754
+    },
+    {
+      "word": "pivot.",
+      "start_ms": 58460,
+      "end_ms": 58740,
+      "start_frame": 1754,
+      "end_frame": 1762
+    },
+    {
+      "word": "We",
+      "start_ms": 59500,
+      "end_ms": 59840,
+      "start_frame": 1785,
+      "end_frame": 1795
+    },
+    {
+      "word": "swap",
+      "start_ms": 59840,
+      "end_ms": 60240,
+      "start_frame": 1795,
+      "end_frame": 1807
+    },
+    {
+      "word": "those",
+      "start_ms": 60240,
+      "end_ms": 60660,
+      "start_frame": 1807,
+      "end_frame": 1820
+    },
+    {
+      "word": "two",
+      "start_ms": 60660,
+      "end_ms": 60940,
+      "start_frame": 1820,
+      "end_frame": 1828
+    },
+    {
+      "word": "values.",
+      "start_ms": 60940,
+      "end_ms": 61500,
+      "start_frame": 1828,
+      "end_frame": 1845
+    },
+    {
+      "word": "Now",
+      "start_ms": 61960,
+      "end_ms": 62180,
+      "start_frame": 1859,
+      "end_frame": 1865
+    },
+    {
+      "word": "the",
+      "start_ms": 62180,
+      "end_ms": 62320,
+      "start_frame": 1865,
+      "end_frame": 1870
+    },
+    {
+      "word": "permutation",
+      "start_ms": 62320,
+      "end_ms": 63120,
+      "start_frame": 1870,
+      "end_frame": 1894
+    },
+    {
+      "word": "is",
+      "start_ms": 63120,
+      "end_ms": 63520,
+      "start_frame": 1894,
+      "end_frame": 1906
+    },
+    {
+      "word": "larger.",
+      "start_ms": 63520,
+      "end_ms": 64080,
+      "start_frame": 1906,
+      "end_frame": 1922
+    },
+    {
+      "word": "And",
+      "start_ms": 64580,
+      "end_ms": 64960,
+      "start_frame": 1937,
+      "end_frame": 1949
+    },
+    {
+      "word": "after",
+      "start_ms": 64960,
+      "end_ms": 65320,
+      "start_frame": 1949,
+      "end_frame": 1960
+    },
+    {
+      "word": "this",
+      "start_ms": 65320,
+      "end_ms": 65640,
+      "start_frame": 1960,
+      "end_frame": 1969
+    },
+    {
+      "word": "swap,",
+      "start_ms": 65640,
+      "end_ms": 65980,
+      "start_frame": 1969,
+      "end_frame": 1979
+    },
+    {
+      "word": "the",
+      "start_ms": 66640,
+      "end_ms": 66820,
+      "start_frame": 1999,
+      "end_frame": 2005
+    },
+    {
+      "word": "suffix",
+      "start_ms": 66820,
+      "end_ms": 67280,
+      "start_frame": 2005,
+      "end_frame": 2018
+    },
+    {
+      "word": "is",
+      "start_ms": 67280,
+      "end_ms": 67500,
+      "start_frame": 2018,
+      "end_frame": 2025
+    },
+    {
+      "word": "still",
+      "start_ms": 67500,
+      "end_ms": 67980,
+      "start_frame": 2025,
+      "end_frame": 2039
+    },
+    {
+      "word": "non",
+      "start_ms": 67980,
+      "end_ms": 68400,
+      "start_frame": 2039,
+      "end_frame": 2052
+    },
+    {
+      "word": "-increasing.",
+      "start_ms": 68400,
+      "end_ms": 69160,
+      "start_frame": 2052,
+      "end_frame": 2075
+    },
+    {
+      "word": "But",
+      "start_ms": 69520,
+      "end_ms": 69840,
+      "start_frame": 2086,
+      "end_frame": 2095
+    },
+    {
+      "word": "we",
+      "start_ms": 69840,
+      "end_ms": 70140,
+      "start_frame": 2095,
+      "end_frame": 2104
+    },
+    {
+      "word": "still",
+      "start_ms": 70140,
+      "end_ms": 70440,
+      "start_frame": 2104,
+      "end_frame": 2113
+    },
+    {
+      "word": "need",
+      "start_ms": 70440,
+      "end_ms": 70740,
+      "start_frame": 2113,
+      "end_frame": 2122
+    },
+    {
+      "word": "the",
+      "start_ms": 70740,
+      "end_ms": 70980,
+      "start_frame": 2122,
+      "end_frame": 2129
+    },
+    {
+      "word": "very",
+      "start_ms": 70980,
+      "end_ms": 71380,
+      "start_frame": 2129,
+      "end_frame": 2141
+    },
+    {
+      "word": "next",
+      "start_ms": 71380,
+      "end_ms": 71840,
+      "start_frame": 2141,
+      "end_frame": 2155
+    },
+    {
+      "word": "permutation.",
+      "start_ms": 71840,
+      "end_ms": 72680,
+      "start_frame": 2155,
+      "end_frame": 2180
+    },
+    {
+      "word": "So",
+      "start_ms": 73480,
+      "end_ms": 73700,
+      "start_frame": 2204,
+      "end_frame": 2211
+    },
+    {
+      "word": "everything",
+      "start_ms": 73700,
+      "end_ms": 74160,
+      "start_frame": 2211,
+      "end_frame": 2225
+    },
+    {
+      "word": "after",
+      "start_ms": 74160,
+      "end_ms": 74580,
+      "start_frame": 2225,
+      "end_frame": 2237
+    },
+    {
+      "word": "the",
+      "start_ms": 74580,
+      "end_ms": 74820,
+      "start_frame": 2237,
+      "end_frame": 2245
+    },
+    {
+      "word": "pivot",
+      "start_ms": 74820,
+      "end_ms": 75140,
+      "start_frame": 2245,
+      "end_frame": 2254
+    },
+    {
+      "word": "must",
+      "start_ms": 75140,
+      "end_ms": 75940,
+      "start_frame": 2254,
+      "end_frame": 2278
+    },
+    {
+      "word": "become",
+      "start_ms": 75940,
+      "end_ms": 76400,
+      "start_frame": 2278,
+      "end_frame": 2292
+    },
+    {
+      "word": "as",
+      "start_ms": 76400,
+      "end_ms": 76780,
+      "start_frame": 2292,
+      "end_frame": 2303
+    },
+    {
+      "word": "small",
+      "start_ms": 76780,
+      "end_ms": 77180,
+      "start_frame": 2303,
+      "end_frame": 2315
+    },
+    {
+      "word": "as",
+      "start_ms": 77180,
+      "end_ms": 77500,
+      "start_frame": 2315,
+      "end_frame": 2325
+    },
+    {
+      "word": "possible.",
+      "start_ms": 77500,
+      "end_ms": 78020,
+      "start_frame": 2325,
+      "end_frame": 2341
+    },
+    {
+      "word": "Because",
+      "start_ms": 78020,
+      "end_ms": 78960,
+      "start_frame": 2341,
+      "end_frame": 2369
+    },
+    {
+      "word": "the",
+      "start_ms": 78960,
+      "end_ms": 79320,
+      "start_frame": 2369,
+      "end_frame": 2380
+    },
+    {
+      "word": "suffix",
+      "start_ms": 79320,
+      "end_ms": 79660,
+      "start_frame": 2380,
+      "end_frame": 2390
+    },
+    {
+      "word": "is",
+      "start_ms": 79660,
+      "end_ms": 79860,
+      "start_frame": 2390,
+      "end_frame": 2396
+    },
+    {
+      "word": "non",
+      "start_ms": 79860,
+      "end_ms": 80160,
+      "start_frame": 2396,
+      "end_frame": 2405
+    },
+    {
+      "word": "-increasing,",
+      "start_ms": 80160,
+      "end_ms": 81460,
+      "start_frame": 2405,
+      "end_frame": 2444
+    },
+    {
+      "word": "reversing",
+      "start_ms": 82000,
+      "end_ms": 82440,
+      "start_frame": 2460,
+      "end_frame": 2473
+    },
+    {
+      "word": "it",
+      "start_ms": 82440,
+      "end_ms": 82660,
+      "start_frame": 2473,
+      "end_frame": 2480
+    },
+    {
+      "word": "gives",
+      "start_ms": 82660,
+      "end_ms": 82920,
+      "start_frame": 2480,
+      "end_frame": 2488
+    },
+    {
+      "word": "us",
+      "start_ms": 82920,
+      "end_ms": 83300,
+      "start_frame": 2488,
+      "end_frame": 2499
+    },
+    {
+      "word": "the",
+      "start_ms": 83300,
+      "end_ms": 83720,
+      "start_frame": 2499,
+      "end_frame": 2512
+    },
+    {
+      "word": "smallest",
+      "start_ms": 83720,
+      "end_ms": 84280,
+      "start_frame": 2512,
+      "end_frame": 2528
+    },
+    {
+      "word": "possible",
+      "start_ms": 84280,
+      "end_ms": 85000,
+      "start_frame": 2528,
+      "end_frame": 2550
+    },
+    {
+      "word": "suffix.",
+      "start_ms": 85000,
+      "end_ms": 85760,
+      "start_frame": 2550,
+      "end_frame": 2573
+    },
+    {
+      "word": "So",
+      "start_ms": 86360,
+      "end_ms": 86580,
+      "start_frame": 2591,
+      "end_frame": 2597
+    },
+    {
+      "word": "we",
+      "start_ms": 86580,
+      "end_ms": 86720,
+      "start_frame": 2597,
+      "end_frame": 2602
+    },
+    {
+      "word": "do",
+      "start_ms": 86720,
+      "end_ms": 86960,
+      "start_frame": 2602,
+      "end_frame": 2609
+    },
+    {
+      "word": "not",
+      "start_ms": 86960,
+      "end_ms": 87160,
+      "start_frame": 2609,
+      "end_frame": 2615
+    },
+    {
+      "word": "need",
+      "start_ms": 87160,
+      "end_ms": 87420,
+      "start_frame": 2615,
+      "end_frame": 2623
+    },
+    {
+      "word": "to",
+      "start_ms": 87420,
+      "end_ms": 87680,
+      "start_frame": 2623,
+      "end_frame": 2630
+    },
+    {
+      "word": "sort",
+      "start_ms": 87680,
+      "end_ms": 87940,
+      "start_frame": 2630,
+      "end_frame": 2638
+    },
+    {
+      "word": "it.",
+      "start_ms": 87940,
+      "end_ms": 88480,
+      "start_frame": 2638,
+      "end_frame": 2654
+    },
+    {
+      "word": "We",
+      "start_ms": 88880,
+      "end_ms": 89120,
+      "start_frame": 2666,
+      "end_frame": 2674
+    },
+    {
+      "word": "simply",
+      "start_ms": 89120,
+      "end_ms": 89660,
+      "start_frame": 2674,
+      "end_frame": 2690
+    },
+    {
+      "word": "reverse",
+      "start_ms": 89660,
+      "end_ms": 90220,
+      "start_frame": 2690,
+      "end_frame": 2707
+    },
+    {
+      "word": "it.",
+      "start_ms": 90220,
+      "end_ms": 90660,
+      "start_frame": 2707,
+      "end_frame": 2720
+    },
+    {
+      "word": "So",
+      "start_ms": 91380,
+      "end_ms": 91520,
+      "start_frame": 2741,
+      "end_frame": 2746
+    },
+    {
+      "word": "the",
+      "start_ms": 91520,
+      "end_ms": 91700,
+      "start_frame": 2746,
+      "end_frame": 2751
+    },
+    {
+      "word": "optimal",
+      "start_ms": 91700,
+      "end_ms": 92160,
+      "start_frame": 2751,
+      "end_frame": 2765
+    },
+    {
+      "word": "reasoning",
+      "start_ms": 92160,
+      "end_ms": 92620,
+      "start_frame": 2765,
+      "end_frame": 2779
+    },
+    {
+      "word": "is,",
+      "start_ms": 92620,
+      "end_ms": 93380,
+      "start_frame": 2779,
+      "end_frame": 2801
+    },
+    {
+      "word": "find",
+      "start_ms": 93780,
+      "end_ms": 93980,
+      "start_frame": 2813,
+      "end_frame": 2819
+    },
+    {
+      "word": "the",
+      "start_ms": 93980,
+      "end_ms": 94280,
+      "start_frame": 2819,
+      "end_frame": 2828
+    },
+    {
+      "word": "rightmost",
+      "start_ms": 94280,
+      "end_ms": 94940,
+      "start_frame": 2828,
+      "end_frame": 2848
+    },
+    {
+      "word": "place",
+      "start_ms": 94940,
+      "end_ms": 95320,
+      "start_frame": 2848,
+      "end_frame": 2860
+    },
+    {
+      "word": "that",
+      "start_ms": 95320,
+      "end_ms": 95580,
+      "start_frame": 2860,
+      "end_frame": 2867
+    },
+    {
+      "word": "can",
+      "start_ms": 95580,
+      "end_ms": 95880,
+      "start_frame": 2867,
+      "end_frame": 2876
+    },
+    {
+      "word": "increase,",
+      "start_ms": 95880,
+      "end_ms": 96500,
+      "start_frame": 2876,
+      "end_frame": 2895
+    },
+    {
+      "word": "make",
+      "start_ms": 97300,
+      "end_ms": 97480,
+      "start_frame": 2919,
+      "end_frame": 2924
+    },
+    {
+      "word": "the",
+      "start_ms": 97480,
+      "end_ms": 97820,
+      "start_frame": 2924,
+      "end_frame": 2935
+    },
+    {
+      "word": "smallest",
+      "start_ms": 97820,
+      "end_ms": 98400,
+      "start_frame": 2935,
+      "end_frame": 2952
+    },
+    {
+      "word": "possible",
+      "start_ms": 98400,
+      "end_ms": 99040,
+      "start_frame": 2952,
+      "end_frame": 2971
+    },
+    {
+      "word": "increase",
+      "start_ms": 99040,
+      "end_ms": 99520,
+      "start_frame": 2971,
+      "end_frame": 2986
+    },
+    {
+      "word": "there,",
+      "start_ms": 99520,
+      "end_ms": 100080,
+      "start_frame": 2986,
+      "end_frame": 3002
+    },
+    {
+      "word": "then",
+      "start_ms": 100860,
+      "end_ms": 101320,
+      "start_frame": 3026,
+      "end_frame": 3040
+    },
+    {
+      "word": "minimize",
+      "start_ms": 101320,
+      "end_ms": 102240,
+      "start_frame": 3040,
+      "end_frame": 3067
+    },
+    {
+      "word": "everything",
+      "start_ms": 102240,
+      "end_ms": 103200,
+      "start_frame": 3067,
+      "end_frame": 3096
+    },
+    {
+      "word": "after",
+      "start_ms": 103200,
+      "end_ms": 103920,
+      "start_frame": 3096,
+      "end_frame": 3118
+    },
+    {
+      "word": "it.",
+      "start_ms": 103920,
+      "end_ms": 104260,
+      "start_frame": 3118,
+      "end_frame": 3128
+    },
+    {
+      "word": "Now",
+      "start_ms": 104260,
+      "end_ms": 105420,
+      "start_frame": 3128,
+      "end_frame": 3163
+    },
+    {
+      "word": "let's",
+      "start_ms": 105420,
+      "end_ms": 105940,
+      "start_frame": 3163,
+      "end_frame": 3178
+    },
+    {
+      "word": "execute",
+      "start_ms": 105940,
+      "end_ms": 106400,
+      "start_frame": 3178,
+      "end_frame": 3192
+    },
+    {
+      "word": "that",
+      "start_ms": 106400,
+      "end_ms": 106740,
+      "start_frame": 3192,
+      "end_frame": 3202
+    },
+    {
+      "word": "on",
+      "start_ms": 106740,
+      "end_ms": 106980,
+      "start_frame": 3202,
+      "end_frame": 3209
+    },
+    {
+      "word": "our",
+      "start_ms": 106980,
+      "end_ms": 107280,
+      "start_frame": 3209,
+      "end_frame": 3218
+    },
+    {
+      "word": "master",
+      "start_ms": 107280,
+      "end_ms": 107760,
+      "start_frame": 3218,
+      "end_frame": 3233
+    },
+    {
+      "word": "example.",
+      "start_ms": 107760,
+      "end_ms": 108400,
+      "start_frame": 3233,
+      "end_frame": 3252
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Start from the right side.",
+      "start_ms": 0,
+      "end_ms": 1600,
+      "start_frame": 0,
+      "end_frame": 48,
+      "word_count": 5
+    },
+    {
+      "text": "We look for the first index i, where nams at i is smaller than nams at i plus 1.",
+      "start_ms": 1920,
+      "end_ms": 9020,
+      "start_frame": 58,
+      "end_frame": 271,
+      "word_count": 19
+    },
+    {
+      "text": "Why?",
+      "start_ms": 9380,
+      "end_ms": 9940,
+      "start_frame": 281,
+      "end_frame": 298,
+      "word_count": 1
+    },
+    {
+      "text": "Because everything to the right of that position forms a non -increasing suffix.",
+      "start_ms": 10280,
+      "end_ms": 16240,
+      "start_frame": 308,
+      "end_frame": 487,
+      "word_count": 13
+    },
+    {
+      "text": "That suffix is already the largest possible arrangement of those suffix values.",
+      "start_ms": 16620,
+      "end_ms": 22880,
+      "start_frame": 499,
+      "end_frame": 686,
+      "word_count": 12
+    },
+    {
+      "text": "So changing only that suffix cannot give us a larger permutation.",
+      "start_ms": 22880,
+      "end_ms": 29160,
+      "start_frame": 686,
+      "end_frame": 875,
+      "word_count": 11
+    },
+    {
+      "text": "The first place where we can increase the permutation is the pivot.",
+      "start_ms": 30180,
+      "end_ms": 34520,
+      "start_frame": 905,
+      "end_frame": 1036,
+      "word_count": 12
+    },
+    {
+      "text": "Now we have to increase that pivot, but only by the smallest possible amount.",
+      "start_ms": 35200,
+      "end_ms": 40420,
+      "start_frame": 1056,
+      "end_frame": 1213,
+      "word_count": 14
+    },
+    {
+      "text": "So we search from the right again for the first value, that is strictly greater than the pivot.",
+      "start_ms": 41320,
+      "end_ms": 49060,
+      "start_frame": 1240,
+      "end_frame": 1472,
+      "word_count": 18
+    },
+    {
+      "text": "Because the suffix is non -increasing, the first greater value from the right is the smallest value that can increase the pivot.",
+      "start_ms": 49700,
+      "end_ms": 58740,
+      "start_frame": 1491,
+      "end_frame": 1762,
+      "word_count": 22
+    },
+    {
+      "text": "We swap those two values.",
+      "start_ms": 59500,
+      "end_ms": 61500,
+      "start_frame": 1785,
+      "end_frame": 1845,
+      "word_count": 5
+    },
+    {
+      "text": "Now the permutation is larger.",
+      "start_ms": 61960,
+      "end_ms": 64080,
+      "start_frame": 1859,
+      "end_frame": 1922,
+      "word_count": 5
+    },
+    {
+      "text": "And after this swap, the suffix is still non -increasing.",
+      "start_ms": 64580,
+      "end_ms": 69160,
+      "start_frame": 1937,
+      "end_frame": 2075,
+      "word_count": 10
+    },
+    {
+      "text": "But we still need the very next permutation.",
+      "start_ms": 69520,
+      "end_ms": 72680,
+      "start_frame": 2086,
+      "end_frame": 2180,
+      "word_count": 8
+    },
+    {
+      "text": "So everything after the pivot must become as small as possible.",
+      "start_ms": 73480,
+      "end_ms": 78020,
+      "start_frame": 2204,
+      "end_frame": 2341,
+      "word_count": 11
+    },
+    {
+      "text": "Because the suffix is non -increasing, reversing it gives us the smallest possible suffix.",
+      "start_ms": 78020,
+      "end_ms": 85760,
+      "start_frame": 2341,
+      "end_frame": 2573,
+      "word_count": 14
+    },
+    {
+      "text": "So we do not need to sort it.",
+      "start_ms": 86360,
+      "end_ms": 88480,
+      "start_frame": 2591,
+      "end_frame": 2654,
+      "word_count": 8
+    },
+    {
+      "text": "We simply reverse it.",
+      "start_ms": 88880,
+      "end_ms": 90660,
+      "start_frame": 2666,
+      "end_frame": 2720,
+      "word_count": 4
+    },
+    {
+      "text": "So the optimal reasoning is, find the rightmost place that can increase, make the smallest possible increase there, then minimize everything after it.",
+      "start_ms": 91380,
+      "end_ms": 104260,
+      "start_frame": 2741,
+      "end_frame": 3128,
+      "word_count": 23
+    },
+    {
+      "text": "Now let's execute that on our master example.",
+      "start_ms": 104260,
+      "end_ms": 108400,
+      "start_frame": 3128,
+      "end_frame": 3252,
+      "word_count": 8
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "side.",
+      "before_word": "We",
+      "start_ms": 1600,
+      "end_ms": 1920,
+      "duration_ms": 320,
+      "start_frame": 48,
+      "end_frame": 58,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "i,",
+      "before_word": "where",
+      "start_ms": 3840,
+      "end_ms": 4280,
+      "duration_ms": 440,
+      "start_frame": 115,
+      "end_frame": 128,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "1.",
+      "before_word": "Why?",
+      "start_ms": 9020,
+      "end_ms": 9380,
+      "duration_ms": 360,
+      "start_frame": 271,
+      "end_frame": 281,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "Why?",
+      "before_word": "Because",
+      "start_ms": 9940,
+      "end_ms": 10280,
+      "duration_ms": 340,
+      "start_frame": 298,
+      "end_frame": 308,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "suffix.",
+      "before_word": "That",
+      "start_ms": 16240,
+      "end_ms": 16620,
+      "duration_ms": 380,
+      "start_frame": 487,
+      "end_frame": 499,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "permutation.",
+      "before_word": "The",
+      "start_ms": 29160,
+      "end_ms": 30180,
+      "duration_ms": 1020,
+      "start_frame": 875,
+      "end_frame": 905,
+      "duration_frames": 30
+    },
+    {
+      "after_word": "pivot.",
+      "before_word": "Now",
+      "start_ms": 34520,
+      "end_ms": 35200,
+      "duration_ms": 680,
+      "start_frame": 1036,
+      "end_frame": 1056,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "pivot,",
+      "before_word": "but",
+      "start_ms": 37300,
+      "end_ms": 37640,
+      "duration_ms": 340,
+      "start_frame": 1119,
+      "end_frame": 1129,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "amount.",
+      "before_word": "So",
+      "start_ms": 40420,
+      "end_ms": 41320,
+      "duration_ms": 900,
+      "start_frame": 1213,
+      "end_frame": 1240,
+      "duration_frames": 27
+    },
+    {
+      "after_word": "value,",
+      "before_word": "that",
+      "start_ms": 45360,
+      "end_ms": 45980,
+      "duration_ms": 620,
+      "start_frame": 1361,
+      "end_frame": 1379,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "pivot.",
+      "before_word": "Because",
+      "start_ms": 49060,
+      "end_ms": 49700,
+      "duration_ms": 640,
+      "start_frame": 1472,
+      "end_frame": 1491,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "-increasing,",
+      "before_word": "the",
+      "start_ms": 52360,
+      "end_ms": 52840,
+      "duration_ms": 480,
+      "start_frame": 1571,
+      "end_frame": 1585,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "pivot.",
+      "before_word": "We",
+      "start_ms": 58740,
+      "end_ms": 59500,
+      "duration_ms": 760,
+      "start_frame": 1762,
+      "end_frame": 1785,
+      "duration_frames": 23
+    },
+    {
+      "after_word": "values.",
+      "before_word": "Now",
+      "start_ms": 61500,
+      "end_ms": 61960,
+      "duration_ms": 460,
+      "start_frame": 1845,
+      "end_frame": 1859,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "larger.",
+      "before_word": "And",
+      "start_ms": 64080,
+      "end_ms": 64580,
+      "duration_ms": 500,
+      "start_frame": 1922,
+      "end_frame": 1937,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "swap,",
+      "before_word": "the",
+      "start_ms": 65980,
+      "end_ms": 66640,
+      "duration_ms": 660,
+      "start_frame": 1979,
+      "end_frame": 1999,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "-increasing.",
+      "before_word": "But",
+      "start_ms": 69160,
+      "end_ms": 69520,
+      "duration_ms": 360,
+      "start_frame": 2075,
+      "end_frame": 2086,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "permutation.",
+      "before_word": "So",
+      "start_ms": 72680,
+      "end_ms": 73480,
+      "duration_ms": 800,
+      "start_frame": 2180,
+      "end_frame": 2204,
+      "duration_frames": 24
+    },
+    {
+      "after_word": "-increasing,",
+      "before_word": "reversing",
+      "start_ms": 81460,
+      "end_ms": 82000,
+      "duration_ms": 540,
+      "start_frame": 2444,
+      "end_frame": 2460,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "suffix.",
+      "before_word": "So",
+      "start_ms": 85760,
+      "end_ms": 86360,
+      "duration_ms": 600,
+      "start_frame": 2573,
+      "end_frame": 2591,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "it.",
+      "before_word": "We",
+      "start_ms": 88480,
+      "end_ms": 88880,
+      "duration_ms": 400,
+      "start_frame": 2654,
+      "end_frame": 2666,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "it.",
+      "before_word": "So",
+      "start_ms": 90660,
+      "end_ms": 91380,
+      "duration_ms": 720,
+      "start_frame": 2720,
+      "end_frame": 2741,
+      "duration_frames": 21
+    },
+    {
+      "after_word": "is,",
+      "before_word": "find",
+      "start_ms": 93380,
+      "end_ms": 93780,
+      "duration_ms": 400,
+      "start_frame": 2801,
+      "end_frame": 2813,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "increase,",
+      "before_word": "make",
+      "start_ms": 96500,
+      "end_ms": 97300,
+      "duration_ms": 800,
+      "start_frame": 2895,
+      "end_frame": 2919,
+      "duration_frames": 24
+    },
+    {
+      "after_word": "there,",
+      "before_word": "then",
+      "start_ms": 100080,
+      "end_ms": 100860,
+      "duration_ms": 780,
+      "start_frame": 3002,
+      "end_frame": 3026,
+      "duration_frames": 24
+    }
+  ]
+}

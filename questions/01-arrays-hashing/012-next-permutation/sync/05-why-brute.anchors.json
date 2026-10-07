@@ -1,0 +1,682 @@
+{
+  "S05_N_DISTINCT": {
+    "anchor_id": "S05_N_DISTINCT",
+    "label": "If the array has n distinct values,",
+    "trace_step": "WHY-01",
+    "frame_range": [
+      0,
+      103
+    ],
+    "total_frames": 103,
+    "spoken_range_frames": [
+      0,
+      81
+    ],
+    "pause_after_frames": 22,
+    "pause_after_ms": 733,
+    "first_word": {
+      "word": "If",
+      "start_ms": 0,
+      "end_ms": 240,
+      "start_frame": 0,
+      "end_frame": 7
+    },
+    "last_word": {
+      "word": "values,",
+      "start_ms": 2020,
+      "end_ms": 2700,
+      "start_frame": 61,
+      "end_frame": 81
+    },
+    "word_indices": [
+      0,
+      6
+    ]
+  },
+  "S05_FACTORIAL": {
+    "anchor_id": "S05_FACTORIAL",
+    "label": "the number of possible permutations is n factorial.",
+    "trace_step": "WHY-02",
+    "frame_range": [
+      103,
+      242
+    ],
+    "total_frames": 139,
+    "spoken_range_frames": [
+      103,
+      211
+    ],
+    "pause_after_frames": 31,
+    "pause_after_ms": 1033,
+    "first_word": {
+      "word": "the",
+      "start_ms": 3420,
+      "end_ms": 3520,
+      "start_frame": 103,
+      "end_frame": 106
+    },
+    "last_word": {
+      "word": "factorial.",
+      "start_ms": 6340,
+      "end_ms": 7020,
+      "start_frame": 190,
+      "end_frame": 211
+    },
+    "word_indices": [
+      7,
+      14
+    ]
+  },
+  "S05_THREE": {
+    "anchor_id": "S05_THREE",
+    "label": "3 values give only 6 permutations,",
+    "trace_step": "WHY-03",
+    "frame_range": [
+      242,
+      358
+    ],
+    "total_frames": 116,
+    "spoken_range_frames": [
+      242,
+      343
+    ],
+    "pause_after_frames": 15,
+    "pause_after_ms": 500,
+    "first_word": {
+      "word": "3",
+      "start_ms": 8080,
+      "end_ms": 8460,
+      "start_frame": 242,
+      "end_frame": 254
+    },
+    "last_word": {
+      "word": "permutations,",
+      "start_ms": 10300,
+      "end_ms": 11440,
+      "start_frame": 309,
+      "end_frame": 343
+    },
+    "word_indices": [
+      15,
+      20
+    ]
+  },
+  "S05_HUGE": {
+    "anchor_id": "S05_HUGE",
+    "label": "but factorial growth becomes huge very quickly,",
+    "trace_step": "WHY-04",
+    "frame_range": [
+      358,
+      473
+    ],
+    "total_frames": 115,
+    "spoken_range_frames": [
+      358,
+      461
+    ],
+    "pause_after_frames": 12,
+    "pause_after_ms": 400,
+    "first_word": {
+      "word": "but",
+      "start_ms": 11920,
+      "end_ms": 12140,
+      "start_frame": 358,
+      "end_frame": 364
+    },
+    "last_word": {
+      "word": "quickly,",
+      "start_ms": 14900,
+      "end_ms": 15360,
+      "start_frame": 447,
+      "end_frame": 461
+    },
+    "word_indices": [
+      21,
+      27
+    ]
+  },
+  "S05_STORAGE": {
+    "anchor_id": "S05_STORAGE",
+    "label": "and we would have to store many of those permutations.",
+    "trace_step": "WHY-05",
+    "frame_range": [
+      473,
+      612
+    ],
+    "total_frames": 139,
+    "spoken_range_frames": [
+      473,
+      580
+    ],
+    "pause_after_frames": 32,
+    "pause_after_ms": 1067,
+    "first_word": {
+      "word": "and",
+      "start_ms": 15760,
+      "end_ms": 16240,
+      "start_frame": 473,
+      "end_frame": 487
+    },
+    "last_word": {
+      "word": "permutations.",
+      "start_ms": 18360,
+      "end_ms": 19320,
+      "start_frame": 551,
+      "end_frame": 580
+    },
+    "word_indices": [
+      28,
+      37
+    ]
+  },
+  "S05_SPACE_BREAK": {
+    "anchor_id": "S05_SPACE_BREAK",
+    "label": "So this also breaks the constant extra space requirement.",
+    "trace_step": "WHY-06",
+    "frame_range": [
+      612,
+      727
+    ],
+    "total_frames": 115,
+    "spoken_range_frames": [
+      612,
+      717
+    ],
+    "pause_after_frames": 10,
+    "pause_after_ms": 333,
+    "first_word": {
+      "word": "So",
+      "start_ms": 20400,
+      "end_ms": 20620,
+      "start_frame": 612,
+      "end_frame": 619
+    },
+    "last_word": {
+      "word": "requirement.",
+      "start_ms": 23200,
+      "end_ms": 23900,
+      "start_frame": 696,
+      "end_frame": 717
+    },
+    "word_indices": [
+      38,
+      46
+    ]
+  },
+  "S05_TOO_MUCH": {
+    "anchor_id": "S05_TOO_MUCH",
+    "label": "So generating every arrangement, just to move one step forward, is doing far too much work.",
+    "trace_step": "WHY-07",
+    "frame_range": [
+      727,
+      971
+    ],
+    "total_frames": 244,
+    "spoken_range_frames": [
+      727,
+      953
+    ],
+    "pause_after_frames": 18,
+    "pause_after_ms": 600,
+    "first_word": {
+      "word": "So",
+      "start_ms": 24230,
+      "end_ms": 24600,
+      "start_frame": 727,
+      "end_frame": 738
+    },
+    "last_word": {
+      "word": "work.",
+      "start_ms": 31320,
+      "end_ms": 31760,
+      "start_frame": 940,
+      "end_frame": 953
+    },
+    "word_indices": [
+      47,
+      62
+    ]
+  },
+  "S05_CURRENT_EXISTS": {
+    "anchor_id": "S05_CURRENT_EXISTS",
+    "label": "We already have the current permutation.",
+    "trace_step": "WHY-08",
+    "frame_range": [
+      971,
+      1057
+    ],
+    "total_frames": 86,
+    "spoken_range_frames": [
+      971,
+      1040
+    ],
+    "pause_after_frames": 17,
+    "pause_after_ms": 567,
+    "first_word": {
+      "word": "We",
+      "start_ms": 32360,
+      "end_ms": 32560,
+      "start_frame": 971,
+      "end_frame": 977
+    },
+    "last_word": {
+      "word": "permutation.",
+      "start_ms": 33860,
+      "end_ms": 34660,
+      "start_frame": 1016,
+      "end_frame": 1040
+    },
+    "word_indices": [
+      63,
+      68
+    ]
+  },
+  "S05_USE_STRUCTURE": {
+    "anchor_id": "S05_USE_STRUCTURE",
+    "label": "We should use its structure.",
+    "trace_step": "WHY-09",
+    "frame_range": [
+      1057,
+      1135
+    ],
+    "total_frames": 78,
+    "spoken_range_frames": [
+      1057,
+      1104
+    ],
+    "pause_after_frames": 31,
+    "pause_after_ms": 1033,
+    "first_word": {
+      "word": "We",
+      "start_ms": 35240,
+      "end_ms": 35500,
+      "start_frame": 1057,
+      "end_frame": 1065
+    },
+    "last_word": {
+      "word": "structure.",
+      "start_ms": 36280,
+      "end_ms": 36800,
+      "start_frame": 1088,
+      "end_frame": 1104
+    },
+    "word_indices": [
+      69,
+      73
+    ]
+  },
+  "S05_NEXT_MEANING": {
+    "anchor_id": "S05_NEXT_MEANING",
+    "label": "Think about what next really means.",
+    "trace_step": "WHY-10",
+    "frame_range": [
+      1135,
+      1220
+    ],
+    "total_frames": 85,
+    "spoken_range_frames": [
+      1135,
+      1207
+    ],
+    "pause_after_frames": 13,
+    "pause_after_ms": 433,
+    "first_word": {
+      "word": "Think",
+      "start_ms": 37820,
+      "end_ms": 38120,
+      "start_frame": 1135,
+      "end_frame": 1144
+    },
+    "last_word": {
+      "word": "means.",
+      "start_ms": 39780,
+      "end_ms": 40240,
+      "start_frame": 1193,
+      "end_frame": 1207
+    },
+    "word_indices": [
+      74,
+      79
+    ]
+  },
+  "S05_SMALLEST_CHANGE": {
+    "anchor_id": "S05_SMALLEST_CHANGE",
+    "label": "We want the smallest possible change.",
+    "trace_step": "WHY-11",
+    "frame_range": [
+      1220,
+      1308
+    ],
+    "total_frames": 88,
+    "spoken_range_frames": [
+      1220,
+      1296
+    ],
+    "pause_after_frames": 12,
+    "pause_after_ms": 400,
+    "first_word": {
+      "word": "We",
+      "start_ms": 40660,
+      "end_ms": 40920,
+      "start_frame": 1220,
+      "end_frame": 1228
+    },
+    "last_word": {
+      "word": "change.",
+      "start_ms": 42720,
+      "end_ms": 43200,
+      "start_frame": 1282,
+      "end_frame": 1296
+    },
+    "word_indices": [
+      80,
+      85
+    ]
+  },
+  "S05_MAKES_LARGER": {
+    "anchor_id": "S05_MAKES_LARGER",
+    "label": "That makes the array larger.",
+    "trace_step": "WHY-12",
+    "frame_range": [
+      1308,
+      1386
+    ],
+    "total_frames": 78,
+    "spoken_range_frames": [
+      1308,
+      1363
+    ],
+    "pause_after_frames": 23,
+    "pause_after_ms": 767,
+    "first_word": {
+      "word": "That",
+      "start_ms": 43600,
+      "end_ms": 43940,
+      "start_frame": 1308,
+      "end_frame": 1318
+    },
+    "last_word": {
+      "word": "larger.",
+      "start_ms": 44840,
+      "end_ms": 45440,
+      "start_frame": 1345,
+      "end_frame": 1363
+    },
+    "word_indices": [
+      86,
+      90
+    ]
+  },
+  "S05_TOO_FAR_LEFT": {
+    "anchor_id": "S05_TOO_FAR_LEFT",
+    "label": "If we change something too far to the left,",
+    "trace_step": "WHY-13",
+    "frame_range": [
+      1386,
+      1482
+    ],
+    "total_frames": 96,
+    "spoken_range_frames": [
+      1386,
+      1463
+    ],
+    "pause_after_frames": 19,
+    "pause_after_ms": 633,
+    "first_word": {
+      "word": "If",
+      "start_ms": 46200,
+      "end_ms": 46400,
+      "start_frame": 1386,
+      "end_frame": 1392
+    },
+    "last_word": {
+      "word": "left,",
+      "start_ms": 48440,
+      "end_ms": 48780,
+      "start_frame": 1453,
+      "end_frame": 1463
+    },
+    "word_indices": [
+      91,
+      99
+    ]
+  },
+  "S05_JUMP": {
+    "anchor_id": "S05_JUMP",
+    "label": "the jump becomes unnecessarily large.",
+    "trace_step": "WHY-14",
+    "frame_range": [
+      1482,
+      1561
+    ],
+    "total_frames": 79,
+    "spoken_range_frames": [
+      1482,
+      1561
+    ],
+    "pause_after_frames": 0,
+    "pause_after_ms": 0,
+    "first_word": {
+      "word": "the",
+      "start_ms": 49400,
+      "end_ms": 49620,
+      "start_frame": 1482,
+      "end_frame": 1489
+    },
+    "last_word": {
+      "word": "large.",
+      "start_ms": 51540,
+      "end_ms": 52040,
+      "start_frame": 1546,
+      "end_frame": 1561
+    },
+    "word_indices": [
+      100,
+      104
+    ]
+  },
+  "S05_FAR_RIGHT": {
+    "anchor_id": "S05_FAR_RIGHT",
+    "label": "So we should try to make the change as far to the right as possible.",
+    "trace_step": "WHY-15",
+    "frame_range": [
+      1561,
+      1765
+    ],
+    "total_frames": 204,
+    "spoken_range_frames": [
+      1561,
+      1736
+    ],
+    "pause_after_frames": 29,
+    "pause_after_ms": 967,
+    "first_word": {
+      "word": "So",
+      "start_ms": 52040,
+      "end_ms": 52760,
+      "start_frame": 1561,
+      "end_frame": 1583
+    },
+    "last_word": {
+      "word": "possible.",
+      "start_ms": 57300,
+      "end_ms": 57860,
+      "start_frame": 1719,
+      "end_frame": 1736
+    },
+    "word_indices": [
+      105,
+      119
+    ]
+  },
+  "S05_FIRST_CLUE": {
+    "anchor_id": "S05_FIRST_CLUE",
+    "label": "That gives us our first clue.",
+    "trace_step": "WHY-16",
+    "frame_range": [
+      1765,
+      1856
+    ],
+    "total_frames": 91,
+    "spoken_range_frames": [
+      1765,
+      1832
+    ],
+    "pause_after_frames": 24,
+    "pause_after_ms": 800,
+    "first_word": {
+      "word": "That",
+      "start_ms": 58820,
+      "end_ms": 59060,
+      "start_frame": 1765,
+      "end_frame": 1772
+    },
+    "last_word": {
+      "word": "clue.",
+      "start_ms": 60660,
+      "end_ms": 61060,
+      "start_frame": 1820,
+      "end_frame": 1832
+    },
+    "word_indices": [
+      120,
+      125
+    ]
+  },
+  "S05_LOOK_RIGHT": {
+    "anchor_id": "S05_LOOK_RIGHT",
+    "label": "Look from the right side of the array",
+    "trace_step": "WHY-17",
+    "frame_range": [
+      1856,
+      1925
+    ],
+    "total_frames": 69,
+    "spoken_range_frames": [
+      1856,
+      1925
+    ],
+    "pause_after_frames": 0,
+    "pause_after_ms": 0,
+    "first_word": {
+      "word": "Look",
+      "start_ms": 61860,
+      "end_ms": 62160,
+      "start_frame": 1856,
+      "end_frame": 1865
+    },
+    "last_word": {
+      "word": "array",
+      "start_ms": 63880,
+      "end_ms": 64180,
+      "start_frame": 1916,
+      "end_frame": 1925
+    },
+    "word_indices": [
+      126,
+      133
+    ]
+  },
+  "S05_FIRST_PLACE": {
+    "anchor_id": "S05_FIRST_PLACE",
+    "label": "and find the first place,",
+    "trace_step": "WHY-18",
+    "frame_range": [
+      1925,
+      2034
+    ],
+    "total_frames": 109,
+    "spoken_range_frames": [
+      1925,
+      2006
+    ],
+    "pause_after_frames": 28,
+    "pause_after_ms": 933,
+    "first_word": {
+      "word": "and",
+      "start_ms": 64180,
+      "end_ms": 65200,
+      "start_frame": 1925,
+      "end_frame": 1956
+    },
+    "last_word": {
+      "word": "place,",
+      "start_ms": 66280,
+      "end_ms": 66860,
+      "start_frame": 1988,
+      "end_frame": 2006
+    },
+    "word_indices": [
+      134,
+      138
+    ]
+  },
+  "S05_LARGER_POSSIBLE": {
+    "anchor_id": "S05_LARGER_POSSIBLE",
+    "label": "where a larger arrangement is still possible.",
+    "trace_step": "WHY-19",
+    "frame_range": [
+      2034,
+      2167
+    ],
+    "total_frames": 133,
+    "spoken_range_frames": [
+      2034,
+      2147
+    ],
+    "pause_after_frames": 20,
+    "pause_after_ms": 667,
+    "first_word": {
+      "word": "where",
+      "start_ms": 67800,
+      "end_ms": 68260,
+      "start_frame": 2034,
+      "end_frame": 2048
+    },
+    "last_word": {
+      "word": "possible.",
+      "start_ms": 70940,
+      "end_ms": 71580,
+      "start_frame": 2128,
+      "end_frame": 2147
+    },
+    "word_indices": [
+      139,
+      145
+    ]
+  },
+  "S05_BUILD_OPTIMAL": {
+    "anchor_id": "S05_BUILD_OPTIMAL",
+    "label": "Now we can build the optimal idea carefully.",
+    "trace_step": "WHY-20",
+    "frame_range": [
+      2167,
+      2268
+    ],
+    "total_frames": 101,
+    "spoken_range_frames": [
+      2167,
+      2268
+    ],
+    "pause_after_frames": 0,
+    "pause_after_ms": 0,
+    "first_word": {
+      "word": "Now",
+      "start_ms": 72240,
+      "end_ms": 72540,
+      "start_frame": 2167,
+      "end_frame": 2176
+    },
+    "last_word": {
+      "word": "carefully.",
+      "start_ms": 74760,
+      "end_ms": 75600,
+      "start_frame": 2243,
+      "end_frame": 2268
+    },
+    "word_indices": [
+      146,
+      153
+    ]
+  }
+}

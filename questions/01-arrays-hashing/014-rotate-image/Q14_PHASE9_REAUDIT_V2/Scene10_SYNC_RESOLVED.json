@@ -1,0 +1,130 @@
+{
+  "scene": "S10",
+  "audio_file": "10-method3-trace.mp3",
+  "fps": 30,
+  "duration_frames": 4465,
+  "duration_ms": 148840,
+  "anchor_count": 10,
+  "anchors": [
+    {
+      "anchor_id": "S10_ORIGINAL",
+      "phrase": "Start again from the original 5 by 5 matrix.",
+      "plan_phrase": "Start again from our original matrix.",
+      "word_start_index": 0,
+      "word_end_index": 8,
+      "start_seconds": 0.0,
+      "end_seconds": 4.7,
+      "start_frame": 0,
+      "end_frame_exclusive": 142,
+      "note": "Original master."
+    },
+    {
+      "anchor_id": "S10_TRANSPOSE",
+      "phrase": "across the main diagonal,",
+      "plan_phrase": "transpose it across the main diagonal.",
+      "word_start_index": 26,
+      "word_end_index": 29,
+      "start_seconds": 17.48,
+      "end_seconds": 19.04,
+      "start_frame": 524,
+      "end_frame_exclusive": 572,
+      "note": "Main diagonal."
+    },
+    {
+      "anchor_id": "S10_ONCE",
+      "phrase": "we process. Only one",
+      "plan_phrase": "we must process each pair only once.",
+      "word_start_index": 43,
+      "word_end_index": 46,
+      "start_seconds": 25.54,
+      "end_seconds": 27.46,
+      "start_frame": 766,
+      "end_frame_exclusive": 825,
+      "note": "One-pair invariant."
+    },
+    {
+      "anchor_id": "S10_ABOVE",
+      "phrase": "only remaining pair above the diagonal",
+      "plan_phrase": "we only swap cells above the main diagonal.",
+      "word_start_index": 150,
+      "word_end_index": 155,
+      "start_seconds": 80.66,
+      "end_seconds": 83.4,
+      "start_frame": 2420,
+      "end_frame_exclusive": 2503,
+      "note": "Above-diagonal region."
+    },
+    {
+      "anchor_id": "S10_2_6",
+      "phrase": "2,",
+      "plan_phrase": "Two swaps with six.",
+      "word_start_index": 229,
+      "word_end_index": 229,
+      "start_seconds": 122.3,
+      "end_seconds": 122.98,
+      "start_frame": 3669,
+      "end_frame_exclusive": 3690,
+      "note": "2↔6."
+    },
+    {
+      "anchor_id": "S10_3_11",
+      "phrase": "3,",
+      "plan_phrase": "Three swaps with eleven.",
+      "word_start_index": 231,
+      "word_end_index": 231,
+      "start_seconds": 123.44,
+      "end_seconds": 124.14,
+      "start_frame": 3703,
+      "end_frame_exclusive": 3725,
+      "note": "3↔11."
+    },
+    {
+      "anchor_id": "S10_4_16",
+      "phrase": "4.",
+      "plan_phrase": "Four swaps with sixteen.",
+      "word_start_index": 234,
+      "word_end_index": 234,
+      "start_seconds": 125.04,
+      "end_seconds": 125.64,
+      "start_frame": 3751,
+      "end_frame_exclusive": 3770,
+      "note": "4↔16."
+    },
+    {
+      "anchor_id": "S10_TRANS_DONE",
+      "phrase": "the final matrix is",
+      "plan_phrase": "The transpose is complete.",
+      "word_start_index": 241,
+      "word_end_index": 244,
+      "start_seconds": 129.14,
+      "end_seconds": 130.76,
+      "start_frame": 3874,
+      "end_frame_exclusive": 3924,
+      "note": "Transposed matrix."
+    },
+    {
+      "anchor_id": "S10_LOOKS",
+      "phrase": "the final matrix is",
+      "plan_phrase": "The transposed matrix now looks like this.",
+      "word_start_index": 241,
+      "word_end_index": 244,
+      "start_seconds": 129.14,
+      "end_seconds": 130.76,
+      "start_frame": 3874,
+      "end_frame_exclusive": 3924,
+      "note": "Full transposed state."
+    },
+    {
+      "anchor_id": "S10_COLSROWS",
+      "phrase": "the original",
+      "plan_phrase": "The original columns became rows.",
+      "word_start_index": 268,
+      "word_end_index": 269,
+      "start_seconds": 147.56,
+      "end_seconds": 148.32,
+      "start_frame": 4427,
+      "end_frame_exclusive": 4451,
+      "note": "Column→row relationship."
+    }
+  ]
+}

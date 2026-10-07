@@ -1,9 +1,30 @@
 # ==========================================
 # User Requested Exclusions
 # ==========================================
-# Exclude question directory (all problem folders, audio, sync, etc.)
-questions/
-questions
+# Exclude earlier questions (001-009)
+questions/01-arrays-hashing/001-contains-duplicate/
+questions/01-arrays-hashing/002-valid-anagram/
+questions/01-arrays-hashing/003-two-sum/
+questions/01-arrays-hashing/004-pascals-triangle/
+questions/01-arrays-hashing/005-majority-element/
+questions/01-arrays-hashing/006-group-anagrams/
+questions/01-arrays-hashing/007-top-k-frequent-elements/
+questions/01-arrays-hashing/008-product-of-array-except-self/
+questions/01-arrays-hashing/009-valid-sudoku/
+questions/01-arrays-hashing/016-subarray-sum-equals-k/
+
+# Exclude all media, audio, image, video, and archive files in questions
+questions/**/audio/
+questions/**/output/
+questions/**/*.mp3
+questions/**/*.wav
+questions/**/*.m4a
+questions/**/*.png
+questions/**/*.jpg
+questions/**/*.jpeg
+questions/**/*.webp
+questions/**/*.gif
+questions/**/*.zip
 
 # Exclude remotion public directory and root public junction (all heavy assets, audio, video)
 public/

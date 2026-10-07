@@ -1,0 +1,716 @@
+{
+  "S06_START_RIGHT": {
+    "anchor_id": "S06_START_RIGHT",
+    "label": "Start from the right side.",
+    "trace_step": "IDEA-01",
+    "frame_range": [
+      0,
+      58
+    ],
+    "total_frames": 58,
+    "spoken_range_frames": [
+      0,
+      48
+    ],
+    "pause_after_frames": 10,
+    "pause_after_ms": 333,
+    "first_word": {
+      "word": "Start",
+      "start_ms": 0,
+      "end_ms": 460,
+      "start_frame": 0,
+      "end_frame": 14
+    },
+    "last_word": {
+      "word": "side.",
+      "start_ms": 1240,
+      "end_ms": 1600,
+      "start_frame": 37,
+      "end_frame": 48
+    },
+    "word_indices": [
+      0,
+      4
+    ]
+  },
+  "S06_FIND_I": {
+    "anchor_id": "S06_FIND_I",
+    "label": "We look for the first index i, where nums at i is smaller than nums at i plus 1.",
+    "trace_step": "IDEA-02",
+    "frame_range": [
+      58,
+      281
+    ],
+    "total_frames": 223,
+    "spoken_range_frames": [
+      58,
+      271
+    ],
+    "pause_after_frames": 10,
+    "pause_after_ms": 333,
+    "first_word": {
+      "word": "We",
+      "start_ms": 1920,
+      "end_ms": 2100,
+      "start_frame": 58,
+      "end_frame": 63
+    },
+    "last_word": {
+      "word": "1.",
+      "start_ms": 8680,
+      "end_ms": 9020,
+      "start_frame": 260,
+      "end_frame": 271
+    },
+    "word_indices": [
+      5,
+      23
+    ]
+  },
+  "S06_WHY": {
+    "anchor_id": "S06_WHY",
+    "label": "Why?",
+    "trace_step": "IDEA-03",
+    "frame_range": [
+      281,
+      308
+    ],
+    "total_frames": 27,
+    "spoken_range_frames": [
+      281,
+      298
+    ],
+    "pause_after_frames": 10,
+    "pause_after_ms": 333,
+    "first_word": {
+      "word": "Why?",
+      "start_ms": 9380,
+      "end_ms": 9940,
+      "start_frame": 281,
+      "end_frame": 298
+    },
+    "last_word": {
+      "word": "Why?",
+      "start_ms": 9380,
+      "end_ms": 9940,
+      "start_frame": 281,
+      "end_frame": 298
+    },
+    "word_indices": [
+      24,
+      24
+    ]
+  },
+  "S06_SUFFIX": {
+    "anchor_id": "S06_SUFFIX",
+    "label": "Because everything to the right of that position forms a non-increasing suffix.",
+    "trace_step": "IDEA-04",
+    "frame_range": [
+      308,
+      499
+    ],
+    "total_frames": 191,
+    "spoken_range_frames": [
+      308,
+      487
+    ],
+    "pause_after_frames": 12,
+    "pause_after_ms": 400,
+    "first_word": {
+      "word": "Because",
+      "start_ms": 10280,
+      "end_ms": 10760,
+      "start_frame": 308,
+      "end_frame": 323
+    },
+    "last_word": {
+      "word": "suffix.",
+      "start_ms": 15560,
+      "end_ms": 16240,
+      "start_frame": 467,
+      "end_frame": 487
+    },
+    "word_indices": [
+      25,
+      37
+    ]
+  },
+  "S06_SUFFIX_MAX": {
+    "anchor_id": "S06_SUFFIX_MAX",
+    "label": "That suffix is already the largest possible arrangement of those suffix values.",
+    "trace_step": "IDEA-05",
+    "frame_range": [
+      499,
+      686
+    ],
+    "total_frames": 187,
+    "spoken_range_frames": [
+      499,
+      686
+    ],
+    "pause_after_frames": 0,
+    "pause_after_ms": 0,
+    "first_word": {
+      "word": "That",
+      "start_ms": 16620,
+      "end_ms": 16960,
+      "start_frame": 499,
+      "end_frame": 509
+    },
+    "last_word": {
+      "word": "values.",
+      "start_ms": 22360,
+      "end_ms": 22880,
+      "start_frame": 671,
+      "end_frame": 686
+    },
+    "word_indices": [
+      38,
+      49
+    ]
+  },
+  "S06_CANT_SUFFIX": {
+    "anchor_id": "S06_CANT_SUFFIX",
+    "label": "So changing only that suffix cannot give us a larger permutation.",
+    "trace_step": "IDEA-06",
+    "frame_range": [
+      686,
+      905
+    ],
+    "total_frames": 219,
+    "spoken_range_frames": [
+      686,
+      875
+    ],
+    "pause_after_frames": 30,
+    "pause_after_ms": 1000,
+    "first_word": {
+      "word": "So",
+      "start_ms": 22880,
+      "end_ms": 23660,
+      "start_frame": 686,
+      "end_frame": 710
+    },
+    "last_word": {
+      "word": "permutation.",
+      "start_ms": 28160,
+      "end_ms": 29160,
+      "start_frame": 845,
+      "end_frame": 875
+    },
+    "word_indices": [
+      50,
+      60
+    ]
+  },
+  "S06_PIVOT_CONCEPT": {
+    "anchor_id": "S06_PIVOT_CONCEPT",
+    "label": "The first place where we can increase the permutation is the pivot.",
+    "trace_step": "IDEA-07",
+    "frame_range": [
+      905,
+      1056
+    ],
+    "total_frames": 151,
+    "spoken_range_frames": [
+      905,
+      1036
+    ],
+    "pause_after_frames": 20,
+    "pause_after_ms": 667,
+    "first_word": {
+      "word": "The",
+      "start_ms": 30180,
+      "end_ms": 30280,
+      "start_frame": 905,
+      "end_frame": 908
+    },
+    "last_word": {
+      "word": "pivot.",
+      "start_ms": 34220,
+      "end_ms": 34520,
+      "start_frame": 1027,
+      "end_frame": 1036
+    },
+    "word_indices": [
+      61,
+      72
+    ]
+  },
+  "S06_SMALLEST_INCREASE": {
+    "anchor_id": "S06_SMALLEST_INCREASE",
+    "label": "Now we have to increase that pivot, but only by the smallest possible amount.",
+    "trace_step": "IDEA-08",
+    "frame_range": [
+      1056,
+      1240
+    ],
+    "total_frames": 184,
+    "spoken_range_frames": [
+      1056,
+      1213
+    ],
+    "pause_after_frames": 27,
+    "pause_after_ms": 900,
+    "first_word": {
+      "word": "Now",
+      "start_ms": 35200,
+      "end_ms": 35380,
+      "start_frame": 1056,
+      "end_frame": 1061
+    },
+    "last_word": {
+      "word": "amount.",
+      "start_ms": 40000,
+      "end_ms": 40420,
+      "start_frame": 1200,
+      "end_frame": 1213
+    },
+    "word_indices": [
+      73,
+      86
+    ]
+  },
+  "S06_SEARCH_RIGHT_AGAIN": {
+    "anchor_id": "S06_SEARCH_RIGHT_AGAIN",
+    "label": "So we search from the right again for the first value,",
+    "trace_step": "IDEA-09",
+    "frame_range": [
+      1240,
+      1379
+    ],
+    "total_frames": 139,
+    "spoken_range_frames": [
+      1240,
+      1361
+    ],
+    "pause_after_frames": 18,
+    "pause_after_ms": 600,
+    "first_word": {
+      "word": "So",
+      "start_ms": 41320,
+      "end_ms": 41580,
+      "start_frame": 1240,
+      "end_frame": 1247
+    },
+    "last_word": {
+      "word": "value,",
+      "start_ms": 44640,
+      "end_ms": 45360,
+      "start_frame": 1339,
+      "end_frame": 1361
+    },
+    "word_indices": [
+      87,
+      97
+    ]
+  },
+  "S06_STRICT_GREATER": {
+    "anchor_id": "S06_STRICT_GREATER",
+    "label": "that is strictly greater than the pivot.",
+    "trace_step": "IDEA-10",
+    "frame_range": [
+      1379,
+      1491
+    ],
+    "total_frames": 112,
+    "spoken_range_frames": [
+      1379,
+      1472
+    ],
+    "pause_after_frames": 19,
+    "pause_after_ms": 633,
+    "first_word": {
+      "word": "that",
+      "start_ms": 45980,
+      "end_ms": 46100,
+      "start_frame": 1379,
+      "end_frame": 1383
+    },
+    "last_word": {
+      "word": "pivot.",
+      "start_ms": 48680,
+      "end_ms": 49060,
+      "start_frame": 1460,
+      "end_frame": 1472
+    },
+    "word_indices": [
+      98,
+      104
+    ]
+  },
+  "S06_RIGHT_FIRST_SMALLEST": {
+    "anchor_id": "S06_RIGHT_FIRST_SMALLEST",
+    "label": "Because the suffix is non-increasing, the first greater value from the right is the smallest value that can increase the pivot.",
+    "trace_step": "IDEA-11",
+    "frame_range": [
+      1491,
+      1785
+    ],
+    "total_frames": 294,
+    "spoken_range_frames": [
+      1491,
+      1762
+    ],
+    "pause_after_frames": 23,
+    "pause_after_ms": 767,
+    "first_word": {
+      "word": "Because",
+      "start_ms": 49700,
+      "end_ms": 50120,
+      "start_frame": 1491,
+      "end_frame": 1504
+    },
+    "last_word": {
+      "word": "pivot.",
+      "start_ms": 58460,
+      "end_ms": 58740,
+      "start_frame": 1754,
+      "end_frame": 1762
+    },
+    "word_indices": [
+      105,
+      126
+    ]
+  },
+  "S06_SWAP_CONCEPT": {
+    "anchor_id": "S06_SWAP_CONCEPT",
+    "label": "We swap those two values.",
+    "trace_step": "IDEA-12",
+    "frame_range": [
+      1785,
+      1859
+    ],
+    "total_frames": 74,
+    "spoken_range_frames": [
+      1785,
+      1845
+    ],
+    "pause_after_frames": 14,
+    "pause_after_ms": 467,
+    "first_word": {
+      "word": "We",
+      "start_ms": 59500,
+      "end_ms": 59840,
+      "start_frame": 1785,
+      "end_frame": 1795
+    },
+    "last_word": {
+      "word": "values.",
+      "start_ms": 60940,
+      "end_ms": 61500,
+      "start_frame": 1828,
+      "end_frame": 1845
+    },
+    "word_indices": [
+      127,
+      131
+    ]
+  },
+  "S06_NOW_LARGER": {
+    "anchor_id": "S06_NOW_LARGER",
+    "label": "Now the permutation is larger.",
+    "trace_step": "IDEA-13",
+    "frame_range": [
+      1859,
+      1937
+    ],
+    "total_frames": 78,
+    "spoken_range_frames": [
+      1859,
+      1922
+    ],
+    "pause_after_frames": 15,
+    "pause_after_ms": 500,
+    "first_word": {
+      "word": "Now",
+      "start_ms": 61960,
+      "end_ms": 62180,
+      "start_frame": 1859,
+      "end_frame": 1865
+    },
+    "last_word": {
+      "word": "larger.",
+      "start_ms": 63520,
+      "end_ms": 64080,
+      "start_frame": 1906,
+      "end_frame": 1922
+    },
+    "word_indices": [
+      132,
+      136
+    ]
+  },
+  "S06_SUFFIX_STILL_NONINC": {
+    "anchor_id": "S06_SUFFIX_STILL_NONINC",
+    "label": "And after this swap, the suffix is still non-increasing.",
+    "trace_step": "IDEA-14",
+    "frame_range": [
+      1937,
+      2086
+    ],
+    "total_frames": 149,
+    "spoken_range_frames": [
+      1937,
+      2075
+    ],
+    "pause_after_frames": 11,
+    "pause_after_ms": 367,
+    "first_word": {
+      "word": "And",
+      "start_ms": 64580,
+      "end_ms": 64960,
+      "start_frame": 1937,
+      "end_frame": 1949
+    },
+    "last_word": {
+      "word": "-increasing.",
+      "start_ms": 68400,
+      "end_ms": 69160,
+      "start_frame": 2052,
+      "end_frame": 2075
+    },
+    "word_indices": [
+      137,
+      146
+    ]
+  },
+  "S06_VERY_NEXT": {
+    "anchor_id": "S06_VERY_NEXT",
+    "label": "But we still need the very next permutation.",
+    "trace_step": "IDEA-15",
+    "frame_range": [
+      2086,
+      2204
+    ],
+    "total_frames": 118,
+    "spoken_range_frames": [
+      2086,
+      2180
+    ],
+    "pause_after_frames": 24,
+    "pause_after_ms": 800,
+    "first_word": {
+      "word": "But",
+      "start_ms": 69520,
+      "end_ms": 69840,
+      "start_frame": 2086,
+      "end_frame": 2095
+    },
+    "last_word": {
+      "word": "permutation.",
+      "start_ms": 71840,
+      "end_ms": 72680,
+      "start_frame": 2155,
+      "end_frame": 2180
+    },
+    "word_indices": [
+      147,
+      154
+    ]
+  },
+  "S06_SUFFIX_MIN": {
+    "anchor_id": "S06_SUFFIX_MIN",
+    "label": "So everything after the pivot must become as small as possible.",
+    "trace_step": "IDEA-16",
+    "frame_range": [
+      2204,
+      2341
+    ],
+    "total_frames": 137,
+    "spoken_range_frames": [
+      2204,
+      2341
+    ],
+    "pause_after_frames": 0,
+    "pause_after_ms": 0,
+    "first_word": {
+      "word": "So",
+      "start_ms": 73480,
+      "end_ms": 73700,
+      "start_frame": 2204,
+      "end_frame": 2211
+    },
+    "last_word": {
+      "word": "possible.",
+      "start_ms": 77500,
+      "end_ms": 78020,
+      "start_frame": 2325,
+      "end_frame": 2341
+    },
+    "word_indices": [
+      155,
+      165
+    ]
+  },
+  "S06_REVERSE_PROOF": {
+    "anchor_id": "S06_REVERSE_PROOF",
+    "label": "Because the suffix is non-increasing, reversing it gives us the smallest possible suffix.",
+    "trace_step": "IDEA-17",
+    "frame_range": [
+      2341,
+      2591
+    ],
+    "total_frames": 250,
+    "spoken_range_frames": [
+      2341,
+      2573
+    ],
+    "pause_after_frames": 18,
+    "pause_after_ms": 600,
+    "first_word": {
+      "word": "Because",
+      "start_ms": 78020,
+      "end_ms": 78960,
+      "start_frame": 2341,
+      "end_frame": 2369
+    },
+    "last_word": {
+      "word": "suffix.",
+      "start_ms": 85000,
+      "end_ms": 85760,
+      "start_frame": 2550,
+      "end_frame": 2573
+    },
+    "word_indices": [
+      166,
+      179
+    ]
+  },
+  "S06_NO_SORT": {
+    "anchor_id": "S06_NO_SORT",
+    "label": "So we do not need to sort it.",
+    "trace_step": "IDEA-18",
+    "frame_range": [
+      2591,
+      2666
+    ],
+    "total_frames": 75,
+    "spoken_range_frames": [
+      2591,
+      2654
+    ],
+    "pause_after_frames": 12,
+    "pause_after_ms": 400,
+    "first_word": {
+      "word": "So",
+      "start_ms": 86360,
+      "end_ms": 86580,
+      "start_frame": 2591,
+      "end_frame": 2597
+    },
+    "last_word": {
+      "word": "it.",
+      "start_ms": 87940,
+      "end_ms": 88480,
+      "start_frame": 2638,
+      "end_frame": 2654
+    },
+    "word_indices": [
+      180,
+      187
+    ]
+  },
+  "S06_REVERSE": {
+    "anchor_id": "S06_REVERSE",
+    "label": "We simply reverse it.",
+    "trace_step": "IDEA-19",
+    "frame_range": [
+      2666,
+      2741
+    ],
+    "total_frames": 75,
+    "spoken_range_frames": [
+      2666,
+      2720
+    ],
+    "pause_after_frames": 21,
+    "pause_after_ms": 700,
+    "first_word": {
+      "word": "We",
+      "start_ms": 88880,
+      "end_ms": 89120,
+      "start_frame": 2666,
+      "end_frame": 2674
+    },
+    "last_word": {
+      "word": "it.",
+      "start_ms": 90220,
+      "end_ms": 90660,
+      "start_frame": 2707,
+      "end_frame": 2720
+    },
+    "word_indices": [
+      188,
+      191
+    ]
+  },
+  "S06_REASON_SUMMARY": {
+    "anchor_id": "S06_REASON_SUMMARY",
+    "label": "So the optimal reasoning is, find the rightmost place that can increase, make the smallest possible increase there, then minimize everything after it.",
+    "trace_step": "IDEA-20",
+    "frame_range": [
+      2741,
+      3128
+    ],
+    "total_frames": 387,
+    "spoken_range_frames": [
+      2741,
+      3128
+    ],
+    "pause_after_frames": 0,
+    "pause_after_ms": 0,
+    "first_word": {
+      "word": "So",
+      "start_ms": 91380,
+      "end_ms": 91520,
+      "start_frame": 2741,
+      "end_frame": 2746
+    },
+    "last_word": {
+      "word": "it.",
+      "start_ms": 103920,
+      "end_ms": 104260,
+      "start_frame": 3118,
+      "end_frame": 3128
+    },
+    "word_indices": [
+      192,
+      214
+    ]
+  },
+  "S06_EXECUTE": {
+    "anchor_id": "S06_EXECUTE",
+    "label": "Now let's execute that on our master example.",
+    "trace_step": "IDEA-21",
+    "frame_range": [
+      3128,
+      3252
+    ],
+    "total_frames": 124,
+    "spoken_range_frames": [
+      3128,
+      3252
+    ],
+    "pause_after_frames": 0,
+    "pause_after_ms": 0,
+    "first_word": {
+      "word": "Now",
+      "start_ms": 104260,
+      "end_ms": 105420,
+      "start_frame": 3128,
+      "end_frame": 3163
+    },
+    "last_word": {
+      "word": "example.",
+      "start_ms": 107760,
+      "end_ms": 108400,
+      "start_frame": 3233,
+      "end_frame": 3252
+    },
+    "word_indices": [
+      215,
+      222
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "total_frames": 682,
+  "total_ms": 22720,
+  "fps": 30,
+  "anchors": [
+    {
+      "id": "S10_Q15_ANNOUNCE",
+      "start_frame": 0,
+      "end_frame": 49,
+      "words": "Question 15."
+    },
+    {
+      "id": "S10_Q15_COMPLETE",
+      "start_frame": 60,
+      "end_frame": 127,
+      "words": "Spiral matrix is complete."
+    },
+    {
+      "id": "S10_PROGRESS_BEFORE",
+      "start_frame": 143,
+      "end_frame": 296,
+      "words": "Our progress moves from 14 out of 227"
+    },
+    {
+      "id": "S10_PROGRESS_AFTER",
+      "start_frame": 296,
+      "end_frame": 442,
+      "words": "to 15 out of 227."
+    },
+    {
+      "id": "S10_NEXT_ANNOUNCE",
+      "start_frame": 462,
+      "end_frame": 533,
+      "words": "And next question 16."
+    },
+    {
+      "id": "S10_NEXT_PROBLEM",
+      "start_frame": 553,
+      "end_frame": 616,
+      "words": "Subarray sum equals k."
+    },
+    {
+      "id": "S10_UP_NEXT_LOCK",
+      "start_frame": 647,
+      "end_frame": 682,
+      "words": "That is up next."
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "scene": "06-method2-idea",
+  "audio_file": "06-method2-idea.mp3",
+  "duration_ms": 64560,
+  "duration_frames": 1937,
+  "fps": 30,
+  "anchors": [
+    {
+      "id": "S06_MASTER",
+      "phrase": "For our five by six matrix",
+      "start_word": "For",
+      "start_ms": 0,
+      "start_frame": 0,
+      "end_word": "matrix,",
+      "end_ms": 2080,
+      "end_frame": 62
+    },
+    {
+      "id": "S06_INIT",
+      "phrase": "the initial boundaries are",
+      "start_word": "the",
+      "start_ms": 2760,
+      "start_frame": 83,
+      "end_word": "are",
+      "end_ms": 4440,
+      "end_frame": 133
+    },
+    {
+      "id": "S06_TOP0",
+      "phrase": "`top = 0`",
+      "start_word": "top",
+      "start_ms": 4440,
+      "start_frame": 133,
+      "end_word": "0,",
+      "end_ms": 5780,
+      "end_frame": 173
+    },
+    {
+      "id": "S06_BOTTOM4",
+      "phrase": "`bottom = 4`",
+      "start_word": "bottom",
+      "start_ms": 6020,
+      "start_frame": 181,
+      "end_word": "4,",
+      "end_ms": 7340,
+      "end_frame": 220
+    },
+    {
+      "id": "S06_LEFT0",
+      "phrase": "`left = 0`",
+      "start_word": "left",
+      "start_ms": 7500,
+      "start_frame": 225,
+      "end_word": "0,",
+      "end_ms": 8620,
+      "end_frame": 259
+    },
+    {
+      "id": "S06_RIGHT5",
+      "phrase": "`right = 5`.",
+      "start_word": "right",
+      "start_ms": 9340,
+      "start_frame": 280,
+      "end_word": "5.",
+      "end_ms": 10780,
+      "end_frame": 323
+    },
+    {
+      "id": "S06_ACTIVE_RECT",
+      "phrase": "These four boundaries describe... the active rectangle.",
+      "start_word": "These",
+      "start_ms": 11580,
+      "start_frame": 347,
+      "end_word": "rectangle.",
+      "end_ms": 15260,
+      "end_frame": 458
+    },
+    {
+      "id": "S06_INVARIANT",
+      "phrase": "And we maintain one important invariant.",
+      "start_word": "And",
+      "start_ms": 16140,
+      "start_frame": 484,
+      "end_word": "invariant.",
+      "end_ms": 19120,
+      "end_frame": 574
+    },
+    {
+      "id": "S06_OUTSIDE",
+      "phrase": "Everything outside the active rectangle... has already been processed exactly once.",
+      "start_word": "Everything",
+      "start_ms": 19800,
+      "start_frame": 594,
+      "end_word": "once.",
+      "end_ms": 25480,
+      "end_frame": 764
+    },
+    {
+      "id": "S06_INSIDE",
+      "phrase": "Everything inside the active rectangle... is still unprocessed.",
+      "start_word": "Everything",
+      "start_ms": 25480,
+      "start_frame": 764,
+      "end_word": "unprocessed.",
+      "end_ms": 30740,
+      "end_frame": 922
+    },
+    {
+      "id": "S06_PEEL",
+      "phrase": "we peel complete edges.",
+      "start_word": "we",
+      "start_ms": 36340,
+      "start_frame": 1090,
+      "end_word": "edges.",
+      "end_ms": 37920,
+      "end_frame": 1138
+    },
+    {
+      "id": "S06_EDGE_ORDER",
+      "phrase": "Top edge... right edge... bottom edge... left edge.",
+      "start_word": "Top",
+      "start_ms": 38240,
+      "start_frame": 1147,
+      "end_word": "edge.",
+      "end_ms": 41740,
+      "end_frame": 1252
+    },
+    {
+      "id": "S06_SHRINK",
+      "phrase": "After consuming an edge... we move that boundary inward.",
+      "start_word": "After",
+      "start_ms": 42300,
+      "start_frame": 1269,
+      "end_word": "inward.",
+      "end_ms": 45860,
+      "end_frame": 1376
+    },
+    {
+      "id": "S06_RULE",
+      "phrase": "But there is one important rule.",
+      "start_word": "But",
+      "start_ms": 46660,
+      "start_frame": 1400,
+      "end_word": "rule.",
+      "end_ms": 48320,
+      "end_frame": 1450
+    },
+    {
+      "id": "S06_VALIDATE",
+      "phrase": "After shrinking... we must make sure... the active rectangle still exists.",
+      "start_word": "After",
+      "start_ms": 49040,
+      "start_frame": 1471,
+      "end_word": "exists.",
+      "end_ms": 54180,
+      "end_frame": 1625
+    },
+    {
+      "id": "S06_SINGLE",
+      "phrase": "one row... or one column... is left.",
+      "start_word": "one",
+      "start_ms": 56440,
+      "start_frame": 1693,
+      "end_word": "left.",
+      "end_ms": 61060,
+      "end_frame": 1832
+    },
+    {
+      "id": "S06_TRACE",
+      "phrase": "Now let\u2019s trace the full boundary method.",
+      "start_word": "Now",
+      "start_ms": 61920,
+      "start_frame": 1858,
+      "end_word": "method.",
+      "end_ms": 64560,
+      "end_frame": 1937
+    }
+  ]
+}

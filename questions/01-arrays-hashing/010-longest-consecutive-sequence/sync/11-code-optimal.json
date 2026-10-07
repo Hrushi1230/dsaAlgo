@@ -1,0 +1,1239 @@
+{
+  "audio_file": "11-code-optimal.mp3",
+  "duration_ms": 62360,
+  "duration_frames": 1871,
+  "fps": 30,
+  "word_count": 130,
+  "words": [
+    {
+      "word": "First,",
+      "start_ms": 0,
+      "end_ms": 520,
+      "start_frame": 0,
+      "end_frame": 16
+    },
+    {
+      "word": "convert",
+      "start_ms": 940,
+      "end_ms": 1340,
+      "start_frame": 28,
+      "end_frame": 40
+    },
+    {
+      "word": "NUMs",
+      "start_ms": 1340,
+      "end_ms": 1640,
+      "start_frame": 40,
+      "end_frame": 49
+    },
+    {
+      "word": "into",
+      "start_ms": 1640,
+      "end_ms": 1940,
+      "start_frame": 49,
+      "end_frame": 58
+    },
+    {
+      "word": "a",
+      "start_ms": 1940,
+      "end_ms": 2160,
+      "start_frame": 58,
+      "end_frame": 65
+    },
+    {
+      "word": "set.",
+      "start_ms": 2160,
+      "end_ms": 2520,
+      "start_frame": 65,
+      "end_frame": 76
+    },
+    {
+      "word": "NUM",
+      "start_ms": 2940,
+      "end_ms": 3220,
+      "start_frame": 88,
+      "end_frame": 97
+    },
+    {
+      "word": "underscore",
+      "start_ms": 3220,
+      "end_ms": 3780,
+      "start_frame": 97,
+      "end_frame": 113
+    },
+    {
+      "word": "set",
+      "start_ms": 3780,
+      "end_ms": 4240,
+      "start_frame": 113,
+      "end_frame": 127
+    },
+    {
+      "word": "equals",
+      "start_ms": 4240,
+      "end_ms": 4880,
+      "start_frame": 127,
+      "end_frame": 146
+    },
+    {
+      "word": "set",
+      "start_ms": 4880,
+      "end_ms": 5600,
+      "start_frame": 146,
+      "end_frame": 168
+    },
+    {
+      "word": "NUMs.",
+      "start_ms": 5600,
+      "end_ms": 6520,
+      "start_frame": 168,
+      "end_frame": 196
+    },
+    {
+      "word": "This",
+      "start_ms": 7000,
+      "end_ms": 7220,
+      "start_frame": 210,
+      "end_frame": 217
+    },
+    {
+      "word": "gives",
+      "start_ms": 7220,
+      "end_ms": 7460,
+      "start_frame": 217,
+      "end_frame": 224
+    },
+    {
+      "word": "us",
+      "start_ms": 7460,
+      "end_ms": 7780,
+      "start_frame": 224,
+      "end_frame": 233
+    },
+    {
+      "word": "unique",
+      "start_ms": 7780,
+      "end_ms": 8040,
+      "start_frame": 233,
+      "end_frame": 241
+    },
+    {
+      "word": "values",
+      "start_ms": 8040,
+      "end_ms": 8620,
+      "start_frame": 241,
+      "end_frame": 259
+    },
+    {
+      "word": "and",
+      "start_ms": 8620,
+      "end_ms": 9380,
+      "start_frame": 259,
+      "end_frame": 281
+    },
+    {
+      "word": "fast",
+      "start_ms": 9380,
+      "end_ms": 10000,
+      "start_frame": 281,
+      "end_frame": 300
+    },
+    {
+      "word": "average",
+      "start_ms": 10000,
+      "end_ms": 10560,
+      "start_frame": 300,
+      "end_frame": 317
+    },
+    {
+      "word": "membership",
+      "start_ms": 10560,
+      "end_ms": 11080,
+      "start_frame": 317,
+      "end_frame": 332
+    },
+    {
+      "word": "checks.",
+      "start_ms": 11080,
+      "end_ms": 11520,
+      "start_frame": 332,
+      "end_frame": 346
+    },
+    {
+      "word": "Longest",
+      "start_ms": 12040,
+      "end_ms": 12380,
+      "start_frame": 361,
+      "end_frame": 371
+    },
+    {
+      "word": "starts",
+      "start_ms": 12380,
+      "end_ms": 12760,
+      "start_frame": 371,
+      "end_frame": 383
+    },
+    {
+      "word": "at",
+      "start_ms": 12760,
+      "end_ms": 13100,
+      "start_frame": 383,
+      "end_frame": 393
+    },
+    {
+      "word": "zero.",
+      "start_ms": 13100,
+      "end_ms": 13560,
+      "start_frame": 393,
+      "end_frame": 407
+    },
+    {
+      "word": "Now",
+      "start_ms": 14020,
+      "end_ms": 14180,
+      "start_frame": 421,
+      "end_frame": 425
+    },
+    {
+      "word": "go",
+      "start_ms": 14180,
+      "end_ms": 14380,
+      "start_frame": 425,
+      "end_frame": 431
+    },
+    {
+      "word": "through",
+      "start_ms": 14380,
+      "end_ms": 14700,
+      "start_frame": 431,
+      "end_frame": 441
+    },
+    {
+      "word": "every",
+      "start_ms": 14700,
+      "end_ms": 15180,
+      "start_frame": 441,
+      "end_frame": 455
+    },
+    {
+      "word": "unique",
+      "start_ms": 15180,
+      "end_ms": 15540,
+      "start_frame": 455,
+      "end_frame": 466
+    },
+    {
+      "word": "number.",
+      "start_ms": 15540,
+      "end_ms": 15980,
+      "start_frame": 466,
+      "end_frame": 479
+    },
+    {
+      "word": "And",
+      "start_ms": 16360,
+      "end_ms": 16500,
+      "start_frame": 491,
+      "end_frame": 495
+    },
+    {
+      "word": "here",
+      "start_ms": 16500,
+      "end_ms": 16680,
+      "start_frame": 495,
+      "end_frame": 500
+    },
+    {
+      "word": "is",
+      "start_ms": 16680,
+      "end_ms": 16980,
+      "start_frame": 500,
+      "end_frame": 509
+    },
+    {
+      "word": "the",
+      "start_ms": 16980,
+      "end_ms": 17720,
+      "start_frame": 509,
+      "end_frame": 532
+    },
+    {
+      "word": "most",
+      "start_ms": 17720,
+      "end_ms": 18720,
+      "start_frame": 532,
+      "end_frame": 562
+    },
+    {
+      "word": "important",
+      "start_ms": 18720,
+      "end_ms": 19160,
+      "start_frame": 562,
+      "end_frame": 575
+    },
+    {
+      "word": "line",
+      "start_ms": 19160,
+      "end_ms": 19540,
+      "start_frame": 575,
+      "end_frame": 586
+    },
+    {
+      "word": "in",
+      "start_ms": 19540,
+      "end_ms": 19700,
+      "start_frame": 586,
+      "end_frame": 591
+    },
+    {
+      "word": "the",
+      "start_ms": 19700,
+      "end_ms": 19920,
+      "start_frame": 591,
+      "end_frame": 598
+    },
+    {
+      "word": "whole",
+      "start_ms": 19920,
+      "end_ms": 20160,
+      "start_frame": 598,
+      "end_frame": 605
+    },
+    {
+      "word": "solution.",
+      "start_ms": 20160,
+      "end_ms": 20700,
+      "start_frame": 605,
+      "end_frame": 621
+    },
+    {
+      "word": "If",
+      "start_ms": 21380,
+      "end_ms": 21620,
+      "start_frame": 641,
+      "end_frame": 649
+    },
+    {
+      "word": "NUM",
+      "start_ms": 21620,
+      "end_ms": 21940,
+      "start_frame": 649,
+      "end_frame": 658
+    },
+    {
+      "word": "minus",
+      "start_ms": 21940,
+      "end_ms": 22340,
+      "start_frame": 658,
+      "end_frame": 670
+    },
+    {
+      "word": "one",
+      "start_ms": 22340,
+      "end_ms": 22720,
+      "start_frame": 670,
+      "end_frame": 682
+    },
+    {
+      "word": "is",
+      "start_ms": 22720,
+      "end_ms": 23160,
+      "start_frame": 682,
+      "end_frame": 695
+    },
+    {
+      "word": "not",
+      "start_ms": 23160,
+      "end_ms": 23420,
+      "start_frame": 695,
+      "end_frame": 703
+    },
+    {
+      "word": "in",
+      "start_ms": 23420,
+      "end_ms": 23640,
+      "start_frame": 703,
+      "end_frame": 709
+    },
+    {
+      "word": "the",
+      "start_ms": 23640,
+      "end_ms": 23860,
+      "start_frame": 709,
+      "end_frame": 716
+    },
+    {
+      "word": "set,",
+      "start_ms": 23860,
+      "end_ms": 24100,
+      "start_frame": 716,
+      "end_frame": 723
+    },
+    {
+      "word": "only",
+      "start_ms": 24580,
+      "end_ms": 24880,
+      "start_frame": 737,
+      "end_frame": 746
+    },
+    {
+      "word": "then",
+      "start_ms": 24880,
+      "end_ms": 25220,
+      "start_frame": 746,
+      "end_frame": 757
+    },
+    {
+      "word": "do",
+      "start_ms": 25220,
+      "end_ms": 25380,
+      "start_frame": 757,
+      "end_frame": 761
+    },
+    {
+      "word": "we",
+      "start_ms": 25380,
+      "end_ms": 25620,
+      "start_frame": 761,
+      "end_frame": 769
+    },
+    {
+      "word": "start",
+      "start_ms": 25620,
+      "end_ms": 25860,
+      "start_frame": 769,
+      "end_frame": 776
+    },
+    {
+      "word": "a",
+      "start_ms": 25860,
+      "end_ms": 26160,
+      "start_frame": 776,
+      "end_frame": 785
+    },
+    {
+      "word": "sequence.",
+      "start_ms": 26160,
+      "end_ms": 26520,
+      "start_frame": 785,
+      "end_frame": 796
+    },
+    {
+      "word": "Why?",
+      "start_ms": 27340,
+      "end_ms": 27840,
+      "start_frame": 820,
+      "end_frame": 835
+    },
+    {
+      "word": "Because",
+      "start_ms": 27840,
+      "end_ms": 28580,
+      "start_frame": 835,
+      "end_frame": 857
+    },
+    {
+      "word": "there",
+      "start_ms": 28580,
+      "end_ms": 28780,
+      "start_frame": 857,
+      "end_frame": 863
+    },
+    {
+      "word": "is",
+      "start_ms": 28780,
+      "end_ms": 29000,
+      "start_frame": 863,
+      "end_frame": 870
+    },
+    {
+      "word": "no",
+      "start_ms": 29000,
+      "end_ms": 29320,
+      "start_frame": 870,
+      "end_frame": 880
+    },
+    {
+      "word": "predecessor.",
+      "start_ms": 29320,
+      "end_ms": 29960,
+      "start_frame": 880,
+      "end_frame": 899
+    },
+    {
+      "word": "So",
+      "start_ms": 30760,
+      "end_ms": 30920,
+      "start_frame": 923,
+      "end_frame": 928
+    },
+    {
+      "word": "this",
+      "start_ms": 30920,
+      "end_ms": 31180,
+      "start_frame": 928,
+      "end_frame": 935
+    },
+    {
+      "word": "number",
+      "start_ms": 31180,
+      "end_ms": 31480,
+      "start_frame": 935,
+      "end_frame": 944
+    },
+    {
+      "word": "is",
+      "start_ms": 31480,
+      "end_ms": 31760,
+      "start_frame": 944,
+      "end_frame": 953
+    },
+    {
+      "word": "the",
+      "start_ms": 31760,
+      "end_ms": 31940,
+      "start_frame": 953,
+      "end_frame": 958
+    },
+    {
+      "word": "beginning.",
+      "start_ms": 31940,
+      "end_ms": 32520,
+      "start_frame": 958,
+      "end_frame": 976
+    },
+    {
+      "word": "Set",
+      "start_ms": 33100,
+      "end_ms": 33260,
+      "start_frame": 993,
+      "end_frame": 998
+    },
+    {
+      "word": "current",
+      "start_ms": 33260,
+      "end_ms": 33680,
+      "start_frame": 998,
+      "end_frame": 1010
+    },
+    {
+      "word": "to",
+      "start_ms": 33680,
+      "end_ms": 33860,
+      "start_frame": 1010,
+      "end_frame": 1016
+    },
+    {
+      "word": "NUM",
+      "start_ms": 33860,
+      "end_ms": 34120,
+      "start_frame": 1016,
+      "end_frame": 1024
+    },
+    {
+      "word": "and",
+      "start_ms": 34120,
+      "end_ms": 34760,
+      "start_frame": 1024,
+      "end_frame": 1043
+    },
+    {
+      "word": "length",
+      "start_ms": 34760,
+      "end_ms": 35180,
+      "start_frame": 1043,
+      "end_frame": 1055
+    },
+    {
+      "word": "to",
+      "start_ms": 35180,
+      "end_ms": 35600,
+      "start_frame": 1055,
+      "end_frame": 1068
+    },
+    {
+      "word": "one.",
+      "start_ms": 35600,
+      "end_ms": 35940,
+      "start_frame": 1068,
+      "end_frame": 1078
+    },
+    {
+      "word": "Now",
+      "start_ms": 36500,
+      "end_ms": 36720,
+      "start_frame": 1095,
+      "end_frame": 1102
+    },
+    {
+      "word": "keep",
+      "start_ms": 36720,
+      "end_ms": 36960,
+      "start_frame": 1102,
+      "end_frame": 1109
+    },
+    {
+      "word": "checking",
+      "start_ms": 36960,
+      "end_ms": 37320,
+      "start_frame": 1109,
+      "end_frame": 1120
+    },
+    {
+      "word": "current",
+      "start_ms": 37320,
+      "end_ms": 37780,
+      "start_frame": 1120,
+      "end_frame": 1133
+    },
+    {
+      "word": "plus",
+      "start_ms": 37780,
+      "end_ms": 38180,
+      "start_frame": 1133,
+      "end_frame": 1145
+    },
+    {
+      "word": "one.",
+      "start_ms": 38180,
+      "end_ms": 38680,
+      "start_frame": 1145,
+      "end_frame": 1160
+    },
+    {
+      "word": "While",
+      "start_ms": 39480,
+      "end_ms": 39640,
+      "start_frame": 1184,
+      "end_frame": 1189
+    },
+    {
+      "word": "the",
+      "start_ms": 39640,
+      "end_ms": 39860,
+      "start_frame": 1189,
+      "end_frame": 1196
+    },
+    {
+      "word": "next",
+      "start_ms": 39860,
+      "end_ms": 40100,
+      "start_frame": 1196,
+      "end_frame": 1203
+    },
+    {
+      "word": "value",
+      "start_ms": 40100,
+      "end_ms": 40500,
+      "start_frame": 1203,
+      "end_frame": 1215
+    },
+    {
+      "word": "exists,",
+      "start_ms": 40500,
+      "end_ms": 41220,
+      "start_frame": 1215,
+      "end_frame": 1237
+    },
+    {
+      "word": "move",
+      "start_ms": 41780,
+      "end_ms": 42100,
+      "start_frame": 1253,
+      "end_frame": 1263
+    },
+    {
+      "word": "current",
+      "start_ms": 42100,
+      "end_ms": 42460,
+      "start_frame": 1263,
+      "end_frame": 1274
+    },
+    {
+      "word": "forward",
+      "start_ms": 42460,
+      "end_ms": 43000,
+      "start_frame": 1274,
+      "end_frame": 1290
+    },
+    {
+      "word": "and",
+      "start_ms": 43000,
+      "end_ms": 43680,
+      "start_frame": 1290,
+      "end_frame": 1310
+    },
+    {
+      "word": "increase",
+      "start_ms": 43680,
+      "end_ms": 44160,
+      "start_frame": 1310,
+      "end_frame": 1325
+    },
+    {
+      "word": "the",
+      "start_ms": 44160,
+      "end_ms": 44440,
+      "start_frame": 1325,
+      "end_frame": 1333
+    },
+    {
+      "word": "length.",
+      "start_ms": 44440,
+      "end_ms": 44820,
+      "start_frame": 1333,
+      "end_frame": 1345
+    },
+    {
+      "word": "When",
+      "start_ms": 45520,
+      "end_ms": 45680,
+      "start_frame": 1366,
+      "end_frame": 1370
+    },
+    {
+      "word": "the",
+      "start_ms": 45680,
+      "end_ms": 45940,
+      "start_frame": 1370,
+      "end_frame": 1378
+    },
+    {
+      "word": "next",
+      "start_ms": 45940,
+      "end_ms": 46200,
+      "start_frame": 1378,
+      "end_frame": 1386
+    },
+    {
+      "word": "value",
+      "start_ms": 46200,
+      "end_ms": 46600,
+      "start_frame": 1386,
+      "end_frame": 1398
+    },
+    {
+      "word": "is",
+      "start_ms": 46600,
+      "end_ms": 46920,
+      "start_frame": 1398,
+      "end_frame": 1408
+    },
+    {
+      "word": "missing,",
+      "start_ms": 46920,
+      "end_ms": 47280,
+      "start_frame": 1408,
+      "end_frame": 1418
+    },
+    {
+      "word": "the",
+      "start_ms": 47960,
+      "end_ms": 48160,
+      "start_frame": 1439,
+      "end_frame": 1445
+    },
+    {
+      "word": "run",
+      "start_ms": 48160,
+      "end_ms": 48460,
+      "start_frame": 1445,
+      "end_frame": 1454
+    },
+    {
+      "word": "is",
+      "start_ms": 48460,
+      "end_ms": 48900,
+      "start_frame": 1454,
+      "end_frame": 1467
+    },
+    {
+      "word": "finished.",
+      "start_ms": 48900,
+      "end_ms": 49380,
+      "start_frame": 1467,
+      "end_frame": 1481
+    },
+    {
+      "word": "Update",
+      "start_ms": 49960,
+      "end_ms": 50440,
+      "start_frame": 1499,
+      "end_frame": 1513
+    },
+    {
+      "word": "longest",
+      "start_ms": 50440,
+      "end_ms": 50980,
+      "start_frame": 1513,
+      "end_frame": 1529
+    },
+    {
+      "word": "and",
+      "start_ms": 50980,
+      "end_ms": 51700,
+      "start_frame": 1529,
+      "end_frame": 1551
+    },
+    {
+      "word": "finally",
+      "start_ms": 51700,
+      "end_ms": 52340,
+      "start_frame": 1551,
+      "end_frame": 1570
+    },
+    {
+      "word": "return",
+      "start_ms": 52340,
+      "end_ms": 53060,
+      "start_frame": 1570,
+      "end_frame": 1592
+    },
+    {
+      "word": "longest.",
+      "start_ms": 53060,
+      "end_ms": 53620,
+      "start_frame": 1592,
+      "end_frame": 1609
+    },
+    {
+      "word": "That's",
+      "start_ms": 54460,
+      "end_ms": 54960,
+      "start_frame": 1634,
+      "end_frame": 1649
+    },
+    {
+      "word": "it.",
+      "start_ms": 54960,
+      "end_ms": 55360,
+      "start_frame": 1649,
+      "end_frame": 1661
+    },
+    {
+      "word": "The",
+      "start_ms": 55360,
+      "end_ms": 56040,
+      "start_frame": 1661,
+      "end_frame": 1681
+    },
+    {
+      "word": "code",
+      "start_ms": 56040,
+      "end_ms": 56240,
+      "start_frame": 1681,
+      "end_frame": 1687
+    },
+    {
+      "word": "is",
+      "start_ms": 56240,
+      "end_ms": 56540,
+      "start_frame": 1687,
+      "end_frame": 1696
+    },
+    {
+      "word": "short",
+      "start_ms": 56540,
+      "end_ms": 56780,
+      "start_frame": 1696,
+      "end_frame": 1703
+    },
+    {
+      "word": "because",
+      "start_ms": 56780,
+      "end_ms": 57180,
+      "start_frame": 1703,
+      "end_frame": 1715
+    },
+    {
+      "word": "the",
+      "start_ms": 57180,
+      "end_ms": 57500,
+      "start_frame": 1715,
+      "end_frame": 1725
+    },
+    {
+      "word": "main",
+      "start_ms": 57500,
+      "end_ms": 57760,
+      "start_frame": 1725,
+      "end_frame": 1733
+    },
+    {
+      "word": "work",
+      "start_ms": 57760,
+      "end_ms": 58760,
+      "start_frame": 1733,
+      "end_frame": 1763
+    },
+    {
+      "word": "was",
+      "start_ms": 58760,
+      "end_ms": 59320,
+      "start_frame": 1763,
+      "end_frame": 1780
+    },
+    {
+      "word": "understanding",
+      "start_ms": 59320,
+      "end_ms": 60320,
+      "start_frame": 1780,
+      "end_frame": 1810
+    },
+    {
+      "word": "where",
+      "start_ms": 60320,
+      "end_ms": 60800,
+      "start_frame": 1810,
+      "end_frame": 1824
+    },
+    {
+      "word": "a",
+      "start_ms": 60800,
+      "end_ms": 61140,
+      "start_frame": 1824,
+      "end_frame": 1834
+    },
+    {
+      "word": "sequence",
+      "start_ms": 61140,
+      "end_ms": 61560,
+      "start_frame": 1834,
+      "end_frame": 1847
+    },
+    {
+      "word": "should",
+      "start_ms": 61560,
+      "end_ms": 61940,
+      "start_frame": 1847,
+      "end_frame": 1858
+    },
+    {
+      "word": "start.",
+      "start_ms": 61940,
+      "end_ms": 62360,
+      "start_frame": 1858,
+      "end_frame": 1871
+    }
+  ],
+  "sentences": [
+    {
+      "text": "First, convert NUMs into a set.",
+      "start_ms": 0,
+      "end_ms": 2520,
+      "start_frame": 0,
+      "end_frame": 76,
+      "word_count": 6
+    },
+    {
+      "text": "NUM underscore set equals set NUMs.",
+      "start_ms": 2940,
+      "end_ms": 6520,
+      "start_frame": 88,
+      "end_frame": 196,
+      "word_count": 6
+    },
+    {
+      "text": "This gives us unique values and fast average membership checks.",
+      "start_ms": 7000,
+      "end_ms": 11520,
+      "start_frame": 210,
+      "end_frame": 346,
+      "word_count": 10
+    },
+    {
+      "text": "Longest starts at zero.",
+      "start_ms": 12040,
+      "end_ms": 13560,
+      "start_frame": 361,
+      "end_frame": 407,
+      "word_count": 4
+    },
+    {
+      "text": "Now go through every unique number.",
+      "start_ms": 14020,
+      "end_ms": 15980,
+      "start_frame": 421,
+      "end_frame": 479,
+      "word_count": 6
+    },
+    {
+      "text": "And here is the most important line in the whole solution.",
+      "start_ms": 16360,
+      "end_ms": 20700,
+      "start_frame": 491,
+      "end_frame": 621,
+      "word_count": 11
+    },
+    {
+      "text": "If NUM minus one is not in the set, only then do we start a sequence.",
+      "start_ms": 21380,
+      "end_ms": 26520,
+      "start_frame": 641,
+      "end_frame": 796,
+      "word_count": 16
+    },
+    {
+      "text": "Why?",
+      "start_ms": 27340,
+      "end_ms": 27840,
+      "start_frame": 820,
+      "end_frame": 835,
+      "word_count": 1
+    },
+    {
+      "text": "Because there is no predecessor.",
+      "start_ms": 27840,
+      "end_ms": 29960,
+      "start_frame": 835,
+      "end_frame": 899,
+      "word_count": 5
+    },
+    {
+      "text": "So this number is the beginning.",
+      "start_ms": 30760,
+      "end_ms": 32520,
+      "start_frame": 923,
+      "end_frame": 976,
+      "word_count": 6
+    },
+    {
+      "text": "Set current to NUM and length to one.",
+      "start_ms": 33100,
+      "end_ms": 35940,
+      "start_frame": 993,
+      "end_frame": 1078,
+      "word_count": 8
+    },
+    {
+      "text": "Now keep checking current plus one.",
+      "start_ms": 36500,
+      "end_ms": 38680,
+      "start_frame": 1095,
+      "end_frame": 1160,
+      "word_count": 6
+    },
+    {
+      "text": "While the next value exists, move current forward and increase the length.",
+      "start_ms": 39480,
+      "end_ms": 44820,
+      "start_frame": 1184,
+      "end_frame": 1345,
+      "word_count": 12
+    },
+    {
+      "text": "When the next value is missing, the run is finished.",
+      "start_ms": 45520,
+      "end_ms": 49380,
+      "start_frame": 1366,
+      "end_frame": 1481,
+      "word_count": 10
+    },
+    {
+      "text": "Update longest and finally return longest.",
+      "start_ms": 49960,
+      "end_ms": 53620,
+      "start_frame": 1499,
+      "end_frame": 1609,
+      "word_count": 6
+    },
+    {
+      "text": "That's it.",
+      "start_ms": 54460,
+      "end_ms": 55360,
+      "start_frame": 1634,
+      "end_frame": 1661,
+      "word_count": 2
+    },
+    {
+      "text": "The code is short because the main work was understanding where a sequence should start.",
+      "start_ms": 55360,
+      "end_ms": 62360,
+      "start_frame": 1661,
+      "end_frame": 1871,
+      "word_count": 15
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "First,",
+      "before_word": "convert",
+      "start_ms": 520,
+      "end_ms": 940,
+      "duration_ms": 420,
+      "start_frame": 16,
+      "end_frame": 28,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "set.",
+      "before_word": "NUM",
+      "start_ms": 2520,
+      "end_ms": 2940,
+      "duration_ms": 420,
+      "start_frame": 76,
+      "end_frame": 88,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "NUMs.",
+      "before_word": "This",
+      "start_ms": 6520,
+      "end_ms": 7000,
+      "duration_ms": 480,
+      "start_frame": 196,
+      "end_frame": 210,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "checks.",
+      "before_word": "Longest",
+      "start_ms": 11520,
+      "end_ms": 12040,
+      "duration_ms": 520,
+      "start_frame": 346,
+      "end_frame": 361,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "zero.",
+      "before_word": "Now",
+      "start_ms": 13560,
+      "end_ms": 14020,
+      "duration_ms": 460,
+      "start_frame": 407,
+      "end_frame": 421,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "number.",
+      "before_word": "And",
+      "start_ms": 15980,
+      "end_ms": 16360,
+      "duration_ms": 380,
+      "start_frame": 479,
+      "end_frame": 491,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "solution.",
+      "before_word": "If",
+      "start_ms": 20700,
+      "end_ms": 21380,
+      "duration_ms": 680,
+      "start_frame": 621,
+      "end_frame": 641,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "set,",
+      "before_word": "only",
+      "start_ms": 24100,
+      "end_ms": 24580,
+      "duration_ms": 480,
+      "start_frame": 723,
+      "end_frame": 737,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "sequence.",
+      "before_word": "Why?",
+      "start_ms": 26520,
+      "end_ms": 27340,
+      "duration_ms": 820,
+      "start_frame": 796,
+      "end_frame": 820,
+      "duration_frames": 24
+    },
+    {
+      "after_word": "predecessor.",
+      "before_word": "So",
+      "start_ms": 29960,
+      "end_ms": 30760,
+      "duration_ms": 800,
+      "start_frame": 899,
+      "end_frame": 923,
+      "duration_frames": 24
+    },
+    {
+      "after_word": "beginning.",
+      "before_word": "Set",
+      "start_ms": 32520,
+      "end_ms": 33100,
+      "duration_ms": 580,
+      "start_frame": 976,
+      "end_frame": 993,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "one.",
+      "before_word": "Now",
+      "start_ms": 35940,
+      "end_ms": 36500,
+      "duration_ms": 560,
+      "start_frame": 1078,
+      "end_frame": 1095,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "one.",
+      "before_word": "While",
+      "start_ms": 38680,
+      "end_ms": 39480,
+      "duration_ms": 800,
+      "start_frame": 1160,
+      "end_frame": 1184,
+      "duration_frames": 24
+    },
+    {
+      "after_word": "exists,",
+      "before_word": "move",
+      "start_ms": 41220,
+      "end_ms": 41780,
+      "duration_ms": 560,
+      "start_frame": 1237,
+      "end_frame": 1253,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "length.",
+      "before_word": "When",
+      "start_ms": 44820,
+      "end_ms": 45520,
+      "duration_ms": 700,
+      "start_frame": 1345,
+      "end_frame": 1366,
+      "duration_frames": 21
+    },
+    {
+      "after_word": "missing,",
+      "before_word": "the",
+      "start_ms": 47280,
+      "end_ms": 47960,
+      "duration_ms": 680,
+      "start_frame": 1418,
+      "end_frame": 1439,
+      "duration_frames": 21
+    },
+    {
+      "after_word": "finished.",
+      "before_word": "Update",
+      "start_ms": 49380,
+      "end_ms": 49960,
+      "duration_ms": 580,
+      "start_frame": 1481,
+      "end_frame": 1499,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "longest.",
+      "before_word": "That's",
+      "start_ms": 53620,
+      "end_ms": 54460,
+      "duration_ms": 840,
+      "start_frame": 1609,
+      "end_frame": 1634,
+      "duration_frames": 25
+    }
+  ]
+}

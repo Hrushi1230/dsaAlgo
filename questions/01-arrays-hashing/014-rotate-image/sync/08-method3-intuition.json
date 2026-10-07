@@ -1,0 +1,959 @@
+{
+  "audio_file": "08-why-method2-complex.mp3",
+  "duration_ms": 55400,
+  "duration_frames": 1662,
+  "fps": 30,
+  "word_count": 98,
+  "words": [
+    {
+      "word": "Method",
+      "start_ms": 0,
+      "end_ms": 500,
+      "start_frame": 0,
+      "end_frame": 15
+    },
+    {
+      "word": "2",
+      "start_ms": 500,
+      "end_ms": 840,
+      "start_frame": 15,
+      "end_frame": 25
+    },
+    {
+      "word": "is",
+      "start_ms": 840,
+      "end_ms": 1220,
+      "start_frame": 25,
+      "end_frame": 37
+    },
+    {
+      "word": "already",
+      "start_ms": 1220,
+      "end_ms": 1820,
+      "start_frame": 37,
+      "end_frame": 55
+    },
+    {
+      "word": "optimal,",
+      "start_ms": 1820,
+      "end_ms": 2400,
+      "start_frame": 55,
+      "end_frame": 72
+    },
+    {
+      "word": "so",
+      "start_ms": 2760,
+      "end_ms": 3020,
+      "start_frame": 83,
+      "end_frame": 91
+    },
+    {
+      "word": "we",
+      "start_ms": 3020,
+      "end_ms": 3220,
+      "start_frame": 91,
+      "end_frame": 97
+    },
+    {
+      "word": "are",
+      "start_ms": 3220,
+      "end_ms": 3400,
+      "start_frame": 97,
+      "end_frame": 102
+    },
+    {
+      "word": "not",
+      "start_ms": 3400,
+      "end_ms": 3580,
+      "start_frame": 102,
+      "end_frame": 107
+    },
+    {
+      "word": "looking",
+      "start_ms": 3580,
+      "end_ms": 4000,
+      "start_frame": 107,
+      "end_frame": 120
+    },
+    {
+      "word": "for",
+      "start_ms": 4000,
+      "end_ms": 4740,
+      "start_frame": 120,
+      "end_frame": 142
+    },
+    {
+      "word": "a",
+      "start_ms": 4740,
+      "end_ms": 4900,
+      "start_frame": 142,
+      "end_frame": 147
+    },
+    {
+      "word": "better",
+      "start_ms": 4900,
+      "end_ms": 5380,
+      "start_frame": 147,
+      "end_frame": 161
+    },
+    {
+      "word": "time",
+      "start_ms": 5380,
+      "end_ms": 5860,
+      "start_frame": 161,
+      "end_frame": 176
+    },
+    {
+      "word": "complexity.",
+      "start_ms": 5860,
+      "end_ms": 6580,
+      "start_frame": 176,
+      "end_frame": 197
+    },
+    {
+      "word": "The",
+      "start_ms": 7500,
+      "end_ms": 7640,
+      "start_frame": 225,
+      "end_frame": 229
+    },
+    {
+      "word": "issue",
+      "start_ms": 7640,
+      "end_ms": 7940,
+      "start_frame": 229,
+      "end_frame": 238
+    },
+    {
+      "word": "now",
+      "start_ms": 7940,
+      "end_ms": 8380,
+      "start_frame": 238,
+      "end_frame": 251
+    },
+    {
+      "word": "is",
+      "start_ms": 8380,
+      "end_ms": 8780,
+      "start_frame": 251,
+      "end_frame": 263
+    },
+    {
+      "word": "readability.",
+      "start_ms": 8780,
+      "end_ms": 9560,
+      "start_frame": 263,
+      "end_frame": 287
+    },
+    {
+      "word": "The",
+      "start_ms": 10160,
+      "end_ms": 10340,
+      "start_frame": 305,
+      "end_frame": 310
+    },
+    {
+      "word": "four",
+      "start_ms": 10340,
+      "end_ms": 10560,
+      "start_frame": 310,
+      "end_frame": 317
+    },
+    {
+      "word": "-way",
+      "start_ms": 10560,
+      "end_ms": 10780,
+      "start_frame": 317,
+      "end_frame": 323
+    },
+    {
+      "word": "cycle",
+      "start_ms": 10780,
+      "end_ms": 11480,
+      "start_frame": 323,
+      "end_frame": 344
+    },
+    {
+      "word": "needs",
+      "start_ms": 11480,
+      "end_ms": 12120,
+      "start_frame": 344,
+      "end_frame": 364
+    },
+    {
+      "word": "several",
+      "start_ms": 12120,
+      "end_ms": 12780,
+      "start_frame": 364,
+      "end_frame": 383
+    },
+    {
+      "word": "related",
+      "start_ms": 12780,
+      "end_ms": 13400,
+      "start_frame": 383,
+      "end_frame": 402
+    },
+    {
+      "word": "indices.",
+      "start_ms": 13400,
+      "end_ms": 13940,
+      "start_frame": 402,
+      "end_frame": 418
+    },
+    {
+      "word": "First,",
+      "start_ms": 14580,
+      "end_ms": 14920,
+      "start_frame": 437,
+      "end_frame": 448
+    },
+    {
+      "word": "last,",
+      "start_ms": 15420,
+      "end_ms": 15840,
+      "start_frame": 463,
+      "end_frame": 475
+    },
+    {
+      "word": "offset,",
+      "start_ms": 16280,
+      "end_ms": 16720,
+      "start_frame": 488,
+      "end_frame": 502
+    },
+    {
+      "word": "top,",
+      "start_ms": 17100,
+      "end_ms": 17520,
+      "start_frame": 513,
+      "end_frame": 526
+    },
+    {
+      "word": "right,",
+      "start_ms": 17820,
+      "end_ms": 18300,
+      "start_frame": 535,
+      "end_frame": 549
+    },
+    {
+      "word": "bottom,",
+      "start_ms": 18800,
+      "end_ms": 19140,
+      "start_frame": 564,
+      "end_frame": 574
+    },
+    {
+      "word": "left.",
+      "start_ms": 19620,
+      "end_ms": 19920,
+      "start_frame": 589,
+      "end_frame": 598
+    },
+    {
+      "word": "The",
+      "start_ms": 20740,
+      "end_ms": 20940,
+      "start_frame": 622,
+      "end_frame": 628
+    },
+    {
+      "word": "logic",
+      "start_ms": 20940,
+      "end_ms": 21220,
+      "start_frame": 628,
+      "end_frame": 637
+    },
+    {
+      "word": "is",
+      "start_ms": 21220,
+      "end_ms": 21520,
+      "start_frame": 637,
+      "end_frame": 646
+    },
+    {
+      "word": "correct,",
+      "start_ms": 21520,
+      "end_ms": 21900,
+      "start_frame": 646,
+      "end_frame": 657
+    },
+    {
+      "word": "but",
+      "start_ms": 22200,
+      "end_ms": 22480,
+      "start_frame": 666,
+      "end_frame": 674
+    },
+    {
+      "word": "these",
+      "start_ms": 22480,
+      "end_ms": 22860,
+      "start_frame": 674,
+      "end_frame": 686
+    },
+    {
+      "word": "index",
+      "start_ms": 22860,
+      "end_ms": 23160,
+      "start_frame": 686,
+      "end_frame": 695
+    },
+    {
+      "word": "relationships",
+      "start_ms": 23160,
+      "end_ms": 23880,
+      "start_frame": 695,
+      "end_frame": 716
+    },
+    {
+      "word": "can",
+      "start_ms": 23880,
+      "end_ms": 24520,
+      "start_frame": 716,
+      "end_frame": 736
+    },
+    {
+      "word": "be",
+      "start_ms": 24520,
+      "end_ms": 24740,
+      "start_frame": 736,
+      "end_frame": 742
+    },
+    {
+      "word": "easy",
+      "start_ms": 24740,
+      "end_ms": 25020,
+      "start_frame": 742,
+      "end_frame": 751
+    },
+    {
+      "word": "to",
+      "start_ms": 25020,
+      "end_ms": 25260,
+      "start_frame": 751,
+      "end_frame": 758
+    },
+    {
+      "word": "mix",
+      "start_ms": 25260,
+      "end_ms": 25460,
+      "start_frame": 758,
+      "end_frame": 764
+    },
+    {
+      "word": "up,",
+      "start_ms": 25460,
+      "end_ms": 25900,
+      "start_frame": 764,
+      "end_frame": 777
+    },
+    {
+      "word": "especially",
+      "start_ms": 26040,
+      "end_ms": 26680,
+      "start_frame": 781,
+      "end_frame": 800
+    },
+    {
+      "word": "in",
+      "start_ms": 26680,
+      "end_ms": 26980,
+      "start_frame": 800,
+      "end_frame": 809
+    },
+    {
+      "word": "an",
+      "start_ms": 26980,
+      "end_ms": 27220,
+      "start_frame": 809,
+      "end_frame": 817
+    },
+    {
+      "word": "interview.",
+      "start_ms": 27220,
+      "end_ms": 27600,
+      "start_frame": 817,
+      "end_frame": 828
+    },
+    {
+      "word": "So",
+      "start_ms": 27600,
+      "end_ms": 28380,
+      "start_frame": 828,
+      "end_frame": 851
+    },
+    {
+      "word": "instead",
+      "start_ms": 28380,
+      "end_ms": 28800,
+      "start_frame": 851,
+      "end_frame": 864
+    },
+    {
+      "word": "of",
+      "start_ms": 28800,
+      "end_ms": 29020,
+      "start_frame": 864,
+      "end_frame": 871
+    },
+    {
+      "word": "inventing",
+      "start_ms": 29020,
+      "end_ms": 30020,
+      "start_frame": 871,
+      "end_frame": 901
+    },
+    {
+      "word": "another",
+      "start_ms": 30020,
+      "end_ms": 30360,
+      "start_frame": 901,
+      "end_frame": 911
+    },
+    {
+      "word": "movement",
+      "start_ms": 30360,
+      "end_ms": 30820,
+      "start_frame": 911,
+      "end_frame": 925
+    },
+    {
+      "word": "rule,",
+      "start_ms": 30820,
+      "end_ms": 31200,
+      "start_frame": 925,
+      "end_frame": 936
+    },
+    {
+      "word": "let's",
+      "start_ms": 31540,
+      "end_ms": 31800,
+      "start_frame": 946,
+      "end_frame": 954
+    },
+    {
+      "word": "return",
+      "start_ms": 31800,
+      "end_ms": 32200,
+      "start_frame": 954,
+      "end_frame": 966
+    },
+    {
+      "word": "to",
+      "start_ms": 32200,
+      "end_ms": 32740,
+      "start_frame": 966,
+      "end_frame": 982
+    },
+    {
+      "word": "the",
+      "start_ms": 32740,
+      "end_ms": 33160,
+      "start_frame": 982,
+      "end_frame": 995
+    },
+    {
+      "word": "coordinate",
+      "start_ms": 33160,
+      "end_ms": 33660,
+      "start_frame": 995,
+      "end_frame": 1010
+    },
+    {
+      "word": "mapping.",
+      "start_ms": 33660,
+      "end_ms": 34080,
+      "start_frame": 1010,
+      "end_frame": 1022
+    },
+    {
+      "word": "We",
+      "start_ms": 35140,
+      "end_ms": 35340,
+      "start_frame": 1054,
+      "end_frame": 1060
+    },
+    {
+      "word": "already",
+      "start_ms": 35340,
+      "end_ms": 35840,
+      "start_frame": 1060,
+      "end_frame": 1075
+    },
+    {
+      "word": "proved",
+      "start_ms": 35840,
+      "end_ms": 36220,
+      "start_frame": 1075,
+      "end_frame": 1087
+    },
+    {
+      "word": "our",
+      "start_ms": 36220,
+      "end_ms": 36980,
+      "start_frame": 1087,
+      "end_frame": 1109
+    },
+    {
+      "word": "final",
+      "start_ms": 36980,
+      "end_ms": 37440,
+      "start_frame": 1109,
+      "end_frame": 1123
+    },
+    {
+      "word": "destination",
+      "start_ms": 37440,
+      "end_ms": 38120,
+      "start_frame": 1123,
+      "end_frame": 1144
+    },
+    {
+      "word": "is",
+      "start_ms": 38120,
+      "end_ms": 39040,
+      "start_frame": 1144,
+      "end_frame": 1171
+    },
+    {
+      "word": "C",
+      "start_ms": 39040,
+      "end_ms": 39640,
+      "start_frame": 1171,
+      "end_frame": 1189
+    },
+    {
+      "word": "n",
+      "start_ms": 39640,
+      "end_ms": 40160,
+      "start_frame": 1189,
+      "end_frame": 1205
+    },
+    {
+      "word": "minus",
+      "start_ms": 40160,
+      "end_ms": 40660,
+      "start_frame": 1205,
+      "end_frame": 1220
+    },
+    {
+      "word": "1",
+      "start_ms": 40660,
+      "end_ms": 41060,
+      "start_frame": 1220,
+      "end_frame": 1232
+    },
+    {
+      "word": "minus",
+      "start_ms": 41060,
+      "end_ms": 41460,
+      "start_frame": 1232,
+      "end_frame": 1244
+    },
+    {
+      "word": "r.",
+      "start_ms": 41460,
+      "end_ms": 42060,
+      "start_frame": 1244,
+      "end_frame": 1262
+    },
+    {
+      "word": "The",
+      "start_ms": 42420,
+      "end_ms": 42620,
+      "start_frame": 1273,
+      "end_frame": 1279
+    },
+    {
+      "word": "question",
+      "start_ms": 42620,
+      "end_ms": 43080,
+      "start_frame": 1279,
+      "end_frame": 1292
+    },
+    {
+      "word": "is,",
+      "start_ms": 43080,
+      "end_ms": 43700,
+      "start_frame": 1292,
+      "end_frame": 1311
+    },
+    {
+      "word": "can",
+      "start_ms": 44160,
+      "end_ms": 44380,
+      "start_frame": 1325,
+      "end_frame": 1331
+    },
+    {
+      "word": "we",
+      "start_ms": 44380,
+      "end_ms": 44600,
+      "start_frame": 1331,
+      "end_frame": 1338
+    },
+    {
+      "word": "reach",
+      "start_ms": 44600,
+      "end_ms": 44920,
+      "start_frame": 1338,
+      "end_frame": 1348
+    },
+    {
+      "word": "that",
+      "start_ms": 44920,
+      "end_ms": 45240,
+      "start_frame": 1348,
+      "end_frame": 1357
+    },
+    {
+      "word": "destination",
+      "start_ms": 45240,
+      "end_ms": 45960,
+      "start_frame": 1357,
+      "end_frame": 1379
+    },
+    {
+      "word": "using",
+      "start_ms": 45960,
+      "end_ms": 47160,
+      "start_frame": 1379,
+      "end_frame": 1415
+    },
+    {
+      "word": "two",
+      "start_ms": 47160,
+      "end_ms": 48120,
+      "start_frame": 1415,
+      "end_frame": 1444
+    },
+    {
+      "word": "simpler",
+      "start_ms": 48120,
+      "end_ms": 49100,
+      "start_frame": 1444,
+      "end_frame": 1473
+    },
+    {
+      "word": "transformations?",
+      "start_ms": 49100,
+      "end_ms": 50080,
+      "start_frame": 1473,
+      "end_frame": 1502
+    },
+    {
+      "word": "Yes.",
+      "start_ms": 51000,
+      "end_ms": 51440,
+      "start_frame": 1530,
+      "end_frame": 1543
+    },
+    {
+      "word": "And",
+      "start_ms": 52340,
+      "end_ms": 52560,
+      "start_frame": 1570,
+      "end_frame": 1577
+    },
+    {
+      "word": "that",
+      "start_ms": 52560,
+      "end_ms": 52880,
+      "start_frame": 1577,
+      "end_frame": 1586
+    },
+    {
+      "word": "gives",
+      "start_ms": 52880,
+      "end_ms": 53180,
+      "start_frame": 1586,
+      "end_frame": 1595
+    },
+    {
+      "word": "us",
+      "start_ms": 53180,
+      "end_ms": 54480,
+      "start_frame": 1595,
+      "end_frame": 1634
+    },
+    {
+      "word": "Method",
+      "start_ms": 54480,
+      "end_ms": 54900,
+      "start_frame": 1634,
+      "end_frame": 1647
+    },
+    {
+      "word": "3.",
+      "start_ms": 54900,
+      "end_ms": 55400,
+      "start_frame": 1647,
+      "end_frame": 1662
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Method 2 is already optimal, so we are not looking for a better time complexity.",
+      "start_ms": 0,
+      "end_ms": 6580,
+      "start_frame": 0,
+      "end_frame": 197,
+      "word_count": 15
+    },
+    {
+      "text": "The issue now is readability.",
+      "start_ms": 7500,
+      "end_ms": 9560,
+      "start_frame": 225,
+      "end_frame": 287,
+      "word_count": 5
+    },
+    {
+      "text": "The four -way cycle needs several related indices.",
+      "start_ms": 10160,
+      "end_ms": 13940,
+      "start_frame": 305,
+      "end_frame": 418,
+      "word_count": 8
+    },
+    {
+      "text": "First, last, offset, top, right, bottom, left.",
+      "start_ms": 14580,
+      "end_ms": 19920,
+      "start_frame": 437,
+      "end_frame": 598,
+      "word_count": 7
+    },
+    {
+      "text": "The logic is correct, but these index relationships can be easy to mix up, especially in an interview.",
+      "start_ms": 20740,
+      "end_ms": 27600,
+      "start_frame": 622,
+      "end_frame": 828,
+      "word_count": 18
+    },
+    {
+      "text": "So instead of inventing another movement rule, let's return to the coordinate mapping.",
+      "start_ms": 27600,
+      "end_ms": 34080,
+      "start_frame": 828,
+      "end_frame": 1022,
+      "word_count": 13
+    },
+    {
+      "text": "We already proved our final destination is C n minus 1 minus r.",
+      "start_ms": 35140,
+      "end_ms": 42060,
+      "start_frame": 1054,
+      "end_frame": 1262,
+      "word_count": 13
+    },
+    {
+      "text": "The question is, can we reach that destination using two simpler transformations?",
+      "start_ms": 42420,
+      "end_ms": 50080,
+      "start_frame": 1273,
+      "end_frame": 1502,
+      "word_count": 12
+    },
+    {
+      "text": "Yes.",
+      "start_ms": 51000,
+      "end_ms": 51440,
+      "start_frame": 1530,
+      "end_frame": 1543,
+      "word_count": 1
+    },
+    {
+      "text": "And that gives us Method 3.",
+      "start_ms": 52340,
+      "end_ms": 55400,
+      "start_frame": 1570,
+      "end_frame": 1662,
+      "word_count": 6
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "optimal,",
+      "before_word": "so",
+      "start_ms": 2400,
+      "end_ms": 2760,
+      "duration_ms": 360,
+      "start_frame": 72,
+      "end_frame": 83,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "complexity.",
+      "before_word": "The",
+      "start_ms": 6580,
+      "end_ms": 7500,
+      "duration_ms": 920,
+      "start_frame": 197,
+      "end_frame": 225,
+      "duration_frames": 28
+    },
+    {
+      "after_word": "readability.",
+      "before_word": "The",
+      "start_ms": 9560,
+      "end_ms": 10160,
+      "duration_ms": 600,
+      "start_frame": 287,
+      "end_frame": 305,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "indices.",
+      "before_word": "First,",
+      "start_ms": 13940,
+      "end_ms": 14580,
+      "duration_ms": 640,
+      "start_frame": 418,
+      "end_frame": 437,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "First,",
+      "before_word": "last,",
+      "start_ms": 14920,
+      "end_ms": 15420,
+      "duration_ms": 500,
+      "start_frame": 448,
+      "end_frame": 463,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "last,",
+      "before_word": "offset,",
+      "start_ms": 15840,
+      "end_ms": 16280,
+      "duration_ms": 440,
+      "start_frame": 475,
+      "end_frame": 488,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "offset,",
+      "before_word": "top,",
+      "start_ms": 16720,
+      "end_ms": 17100,
+      "duration_ms": 380,
+      "start_frame": 502,
+      "end_frame": 513,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "top,",
+      "before_word": "right,",
+      "start_ms": 17520,
+      "end_ms": 17820,
+      "duration_ms": 300,
+      "start_frame": 526,
+      "end_frame": 535,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "right,",
+      "before_word": "bottom,",
+      "start_ms": 18300,
+      "end_ms": 18800,
+      "duration_ms": 500,
+      "start_frame": 549,
+      "end_frame": 564,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "bottom,",
+      "before_word": "left.",
+      "start_ms": 19140,
+      "end_ms": 19620,
+      "duration_ms": 480,
+      "start_frame": 574,
+      "end_frame": 589,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "left.",
+      "before_word": "The",
+      "start_ms": 19920,
+      "end_ms": 20740,
+      "duration_ms": 820,
+      "start_frame": 598,
+      "end_frame": 622,
+      "duration_frames": 24
+    },
+    {
+      "after_word": "correct,",
+      "before_word": "but",
+      "start_ms": 21900,
+      "end_ms": 22200,
+      "duration_ms": 300,
+      "start_frame": 657,
+      "end_frame": 666,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "rule,",
+      "before_word": "let's",
+      "start_ms": 31200,
+      "end_ms": 31540,
+      "duration_ms": 340,
+      "start_frame": 936,
+      "end_frame": 946,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "mapping.",
+      "before_word": "We",
+      "start_ms": 34080,
+      "end_ms": 35140,
+      "duration_ms": 1060,
+      "start_frame": 1022,
+      "end_frame": 1054,
+      "duration_frames": 32
+    },
+    {
+      "after_word": "r.",
+      "before_word": "The",
+      "start_ms": 42060,
+      "end_ms": 42420,
+      "duration_ms": 360,
+      "start_frame": 1262,
+      "end_frame": 1273,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "is,",
+      "before_word": "can",
+      "start_ms": 43700,
+      "end_ms": 44160,
+      "duration_ms": 460,
+      "start_frame": 1311,
+      "end_frame": 1325,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "transformations?",
+      "before_word": "Yes.",
+      "start_ms": 50080,
+      "end_ms": 51000,
+      "duration_ms": 920,
+      "start_frame": 1502,
+      "end_frame": 1530,
+      "duration_frames": 28
+    },
+    {
+      "after_word": "Yes.",
+      "before_word": "And",
+      "start_ms": 51440,
+      "end_ms": 52340,
+      "duration_ms": 900,
+      "start_frame": 1543,
+      "end_frame": 1570,
+      "duration_frames": 27
+    }
+  ]
+}

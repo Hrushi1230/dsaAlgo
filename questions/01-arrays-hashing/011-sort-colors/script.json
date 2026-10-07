@@ -1,0 +1,104 @@
+{
+  "question": {
+    "title": "Sort Colors",
+    "pattern": "Arrays & Hashing",
+    "pattern_number": 1,
+    "question_number": 11,
+    "leetcode": 75,
+    "difficulty": "Medium",
+    "technique": "Dutch National Flag / 3-Way Partitioning",
+    "companies": [
+      "Microsoft",
+      "Amazon",
+      "Apple",
+      "Facebook / Meta",
+      "Google"
+    ]
+  },
+  "approach_type": "B",
+  "approach_count": 2,
+  "scene_count": 10,
+  "test_data": {
+    "primary": {
+      "nums": [2, 1, 2, 0, 2, 1, 0, 1, 0, 2],
+      "expected": [0, 0, 0, 1, 1, 1, 2, 2, 2, 2],
+      "counts": {
+        "0": 3,
+        "1": 3,
+        "2": 4
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": "01-intro-roadmap",
+      "beat": "INTRO_ROADMAP",
+      "title": "Channel + Roadmap Intro",
+      "narration": "Welcome back to Code With Animation...\n\nWe are continuing our DSA Pattern Roadmap...\n\nTwo hundred twenty-seven problems...\nacross nineteen important patterns...\n\nbuilt for serious interview preparation...\nfrom fundamentals...\nto FAANG-level problem solving.\n\nRight now...\nwe are inside Arrays and Hashing.\n\nQuestion ten...\nLongest Consecutive Sequence...\nis complete.\n\nNow we move to the next problem...\n\nQuestion eleven...\n\nSort Colors...\n\nLeetCode seventy-five...\n\nMedium.\n\nLet’s continue.",
+      "visual_intent": "Deep chalkboard canvas with Algora branding. Roadmap banner highlighting Pattern 1: Arrays & Hashing. Checked badges for problems 001 through 010 (Longest Consecutive Sequence complete). Glowing spotlight and entrance for Question 011: Sort Colors (LC 75 Medium)."
+    },
+    {
+      "id": "02-understand",
+      "beat": "UNDERSTAND_PROBLEM",
+      "title": "Question + Understand",
+      "narration": "Now let’s understand the question...\n\nWe are given an array...\n\nand every value is only one of these three numbers...\n\nzero...\none...\nor two.\n\nOur job is to arrange the same array...\n\nso that all zeroes come first...\n\nthen all ones...\n\nand finally all twos.\n\nFor this lesson...\nwe will use one master example.\n\nTwo... one... two... zero... two... one... zero... one... zero... two.\n\nWe want this array to become...\n\nzero... zero... zero...\none... one... one...\ntwo... two... two... two.\n\nThere are two important conditions.\n\nFirst...\n\nwe have to modify the same array.\n\nSecond...\n\nwe should not use a built-in sorting function.\n\nAnd then comes the follow-up...\n\nCan we solve it in one pass...\n\nusing constant extra space?\n\nThat is the real challenge of this problem.\n\nOne more important observation...\n\nthe array can contain only three possible values.\n\nThat small detail...\n\nis the main clue.\n\nNow we can start with the simpler approach first...",
+      "visual_intent": "Chalkboard array display of master input [2, 1, 2, 0, 2, 1, 0, 1, 0, 2]. Color-accent badges: 0 (coral/red), 1 (chalk white), 2 (cyan/blue). Target sorted array [0, 0, 0, 1, 1, 1, 2, 2, 2, 2]. Visual constraint badges: In-place only, No built-in sort, Follow-up: 1-pass and O(1) space."
+    },
+    {
+      "id": "03-counting-trace",
+      "beat": "TRACE_COUNTING",
+      "title": "Counting Trace",
+      "narration": "Let’s start with the simpler approach...\n\nCounting.\n\nOur array is...\n\nTwo... one... two... zero... two... one... zero... one... zero... two.\n\nInstead of moving values immediately...\n\nwe will first count...\n\nhow many zeroes...\n\nhow many ones...\n\nand how many twos we have.\n\nWe start with all three counts at zero.\n\nFirst value is two...\n\nso count of two becomes one.\n\nNext value is one...\n\ncount of one becomes one.\n\nNext value is two...\n\ncount of two becomes two.\n\nNow we see zero...\n\ncount of zero becomes one.\n\nNext value is two...\n\ncount of two becomes three.\n\nNext value is one...\n\ncount of one becomes two.\n\nNext value is zero...\n\ncount of zero becomes two.\n\nNext value is one...\n\ncount of one becomes three.\n\nNext value is zero...\n\ncount of zero becomes three.\n\nAnd the last value is two...\n\ncount of two becomes four.\n\nSo finally...\n\nwe have three zeroes...\n\nthree ones...\n\nand four twos.\n\nNow we use these counts...\n\nto rewrite the same array.\n\nFirst...\n\nwrite three zeroes.\n\nThen...\n\nwrite three ones.\n\nAnd finally...\n\nwrite four twos.\n\nNow the array becomes...\n\nzero... zero... zero...\n\none... one... one...\n\ntwo... two... two... two.\n\nSo the array is correctly sorted.\n\nThe idea is simple...\n\nfirst count...\n\nthen rewrite.",
+      "visual_intent": "Pass 1: Scan pointer traversing array with live increment of counter boxes count0 (0->3), count1 (0->3), count2 (0->4). Pass 2: Overwrite sequence rewriting indices 0-2 with 0s, 3-5 with 1s, 6-9 with 2s."
+    },
+    {
+      "id": "04-counting-code",
+      "beat": "CODE_COUNTING",
+      "title": "Counting Code",
+      "narration": "Now let’s convert that counting idea into code...\n\nWe need three counters...\n\ncount zero...\n\ncount one...\n\nand count two.\n\nInitially...\n\nall three are zero.\n\nThen we scan the array once.\n\nIf the current value is zero...\n\nincrease count zero.\n\nIf it is one...\n\nincrease count one.\n\nOtherwise...\n\nit must be two...\n\nso increase count two.\n\nAfter this first pass...\n\nwe know exactly...\n\nhow many zeroes...\n\nhow many ones...\n\nand how many twos are present.\n\nNow we rewrite the same array.\n\nStart from index zero.\n\nFirst...\n\nwrite zero...\n\ncount zero times.\n\nThen...\n\nwrite one...\n\ncount one times.\n\nAnd finally...\n\nwrite two...\n\ncount two times.\n\nThat gives us the sorted array.\n\nFor our example...\n\ncount zero is three...\n\ncount one is three...\n\nand count two is four.\n\nSo we write...\n\nthree zeroes...\n\nthree ones...\n\nand four twos.\n\nThe code is simple...\n\none pass to count...\n\nand one pass to rewrite.",
+      "visual_intent": "Left: Python code editor displaying the 2-pass counting algorithm. Right: Interactive mini-board highlighting active lines, counters state, and array overwrite progression."
+    },
+    {
+      "id": "05-why-counting",
+      "beat": "WHY_NOT_COUNTING",
+      "title": "Why Counting Is Not the Final Approach",
+      "narration": "Counting is already a good solution...\n\nIt runs in linear time...\n\nand it uses only constant extra space.\n\nSo what is still missing?\n\nThe follow-up asks for one pass.\n\nBut counting needs two separate passes.\n\nIn the first pass...\n\nwe only learn the frequencies.\n\nHow many zeroes...\n\nhow many ones...\n\nand how many twos.\n\nAt that point...\n\nthe array is still not arranged.\n\nThen we need another pass...\n\nto rewrite the array...\n\nusing those counts.\n\nSo the problem is not the time complexity.\n\nO of n is already good.\n\nThe limitation is...\n\nwe first collect information...\n\nand only later place the values.\n\nNow think about this...\n\nCan we classify each value...\n\nat the same moment we inspect it?\n\nCan zero move directly to the left...\n\ntwo move directly to the right...\n\nand one stay in the middle?\n\nIf we can do that...\n\nwe do not need a separate counting phase...\n\nand we do not need a separate rewrite phase.\n\nThat is exactly where the three-pointer idea begins.",
+      "visual_intent": "Analytical breakdown comparing 2 passes vs 1 pass. Visual split showing Phase 1 (Inspection only) vs Phase 2 (Write only), followed by dynamic question prompt: Can we classify elements on sight? Emergence of 3-pointer partition blueprint."
+    },
+    {
+      "id": "06-dnf-idea",
+      "beat": "DNF_IDEA",
+      "title": "Dutch National Flag Idea",
+      "narration": "Now let’s build the one-pass idea...\n\nWe will use three pointers...\n\nlow...\n\nmid...\n\nand high.\n\nBut these three pointers create four different regions.\n\nThe first region...\n\nfrom the beginning...\n\nup to low minus one...\n\ncontains only confirmed zeroes.\n\nThe second region...\n\nfrom low...\n\nup to mid minus one...\n\ncontains only confirmed ones.\n\nThe third region...\n\nfrom mid...\n\nup to high...\n\nis still unknown.\n\nWe have not classified those values yet.\n\nAnd the last region...\n\nafter high...\n\ncontains only confirmed twos.\n\nSo at every moment...\n\nour array is divided like this...\n\nzeroes...\n\nones...\n\nunknown...\n\nand twos.\n\nNow the job is simple.\n\nWe only inspect the value at mid.\n\nIf nums at mid is zero...\n\nzero belongs on the left.\n\nSo we swap it with the value at low...\n\nthen move low forward...\n\nand move mid forward.\n\nIf nums at mid is one...\n\nit already belongs in the middle.\n\nSo we do not swap anything...\n\nwe only move mid forward.\n\nAnd if nums at mid is two...\n\ntwo belongs on the right.\n\nSo we swap it with the value at high...\n\nthen move high one step left.\n\nBut here is the most important rule...\n\nmid does not move.\n\nWhy?\n\nBecause the value coming from the high side...\n\nwas still inside the unknown region.\n\nWe do not know yet...\n\nwhether that new value is zero...\n\none...\n\nor two.\n\nSo we must inspect it first.\n\nThis is the complete idea...\n\nlow protects the zero region...\n\nmid scans the unknown region...\n\nand high protects the two region.\n\nAs the algorithm runs...\n\nthe unknown region keeps getting smaller...\n\nuntil nothing is left to classify.",
+      "visual_intent": "Deep dive visual diagram of the 4 Invariant Regions: [0..low-1] 0s (coral), [low..mid-1] 1s (white), [mid..high] Unknown (dotted grey), [high+1..n-1] 2s (cyan). Demonstration of the 3 transition rules with high-contrast callout explaining why mid stays put on swap with high."
+    },
+    {
+      "id": "07-dnf-trace",
+      "beat": "TRACE_DNF",
+      "title": "Full Dutch National Flag Trace",
+      "narration": "Now let’s run the complete algorithm...\n\non our master example.\n\nOur array is...\n\ntwo... one... two... zero... two... one... zero... one... zero... two.\n\nWe start with...\n\nlow at index zero...\n\nmid at index zero...\n\nand high at index nine.\n\nRight now...\n\nthe entire array is unknown.\n\nLet’s begin.\n\nAt mid...\n\nwe have two.\n\nTwo belongs on the right.\n\nSo we swap the value at mid...\n\nwith the value at high.\n\nBoth values are two...\n\nso the array looks exactly the same.\n\nBut the state has changed.\n\nHigh moves from nine to eight...\n\nand mid stays at zero.\n\nWe inspect the same position again.\n\nAt mid...\n\nwe still have two.\n\nThis time...\n\nhigh is pointing to zero.\n\nSo we swap two with zero.\n\nThe array becomes...\n\nzero... one... two... zero... two... one... zero... one... two... two.\n\nHigh moves from eight to seven...\n\nand again...\n\nmid stays at zero.\n\nNow the value at mid is zero.\n\nZero belongs on the left.\n\nLow and mid are both at index zero...\n\nso this is only a self-swap.\n\nThen low moves to one...\n\nand mid moves to one.\n\nNow mid is pointing to one.\n\nOne already belongs in the middle.\n\nSo there is no swap.\n\nWe simply move mid to index two.\n\nNow mid is pointing to two.\n\nTwo belongs on the right.\n\nHigh is at index seven...\n\nand the value there is one.\n\nSo we swap them.\n\nThe array becomes...\n\nzero... one... one... zero... two... one... zero... two... two... two.\n\nHigh moves from seven to six...\n\nbut mid stays at index two.\n\nThe value that came from the right...\n\nis one.\n\nSo now we inspect it.\n\nOne already belongs in the middle.\n\nNo swap.\n\nMid moves to index three.\n\nNow mid is pointing to zero.\n\nZero belongs on the left.\n\nLow is at index one.\n\nSo we swap index three...\n\nwith index one.\n\nThe array becomes...\n\nzero... zero... one... one... two... one... zero... two... two... two.\n\nNow low moves to index two...\n\nand mid moves to index four.\n\nAt index four...\n\nmid is pointing to two.\n\nTwo belongs on the right.\n\nHigh is at index six...\n\nand high is pointing to zero.\n\nSo we swap them.\n\nThe array becomes...\n\nzero... zero... one... one... zero... one... two... two... two... two.\n\nHigh moves from six to five...\n\nand once again...\n\nmid stays at index four.\n\nNow look carefully...\n\nthe new value at mid is zero.\n\nThat is exactly why we did not move mid.\n\nThis zero still needs to be classified.\n\nZero belongs on the left.\n\nLow is at index two.\n\nSo we swap index four...\n\nwith index two.\n\nThe array becomes...\n\nzero... zero... zero... one... one... one... two... two... two... two.\n\nThen low moves to index three...\n\nand mid moves to index five.\n\nNow mid is pointing to one.\n\nOne is already in the correct middle region.\n\nSo we simply move mid forward.\n\nMid becomes six.\n\nHigh is five.\n\nNow mid has crossed high.\n\nThat means...\n\nthe unknown region is empty.\n\nEverything has been classified.\n\nAnd our final array is...\n\nzero... zero... zero...\n\none... one... one...\n\ntwo... two... two... two.\n\nDone.\n\nNotice the key pattern...\n\nzero goes left...\n\none stays in the middle...\n\nand two goes right.\n\nAnd every time we move a two to the right...\n\nmid stays...\n\nuntil the incoming value is checked.",
+      "visual_intent": "Exhaustive step-by-step trace of Dutch National Flag on master array. Pointers low, mid, and high smoothly slide. Invariant boundary colors expand dynamically. Particle arcs show physical swaps. Climax when mid crosses high and unknown region collapses to zero width."
+    },
+    {
+      "id": "08-dnf-code",
+      "beat": "CODE_DNF",
+      "title": "Dutch National Flag Code",
+      "narration": "Now let’s convert that three-pointer idea into code...\n\nWe start with three pointers.\n\nlow is zero...\n\nmid is zero...\n\nand high is the last index.\n\nNow we continue...\n\nwhile mid is less than or equal to high.\n\nAt every step...\n\nwe only check nums at mid.\n\nIf nums at mid is zero...\n\nwe swap nums at low...\n\nwith nums at mid.\n\nThen move low one step forward...\n\nand move mid one step forward.\n\nIf nums at mid is one...\n\nthere is nothing to swap.\n\nIt already belongs in the middle region.\n\nSo we only move mid forward.\n\nOtherwise...\n\nnums at mid must be two.\n\nSo we swap nums at mid...\n\nwith nums at high.\n\nThen move high one step left.\n\nAnd notice carefully...\n\nwe do not move mid here.\n\nThat line is intentionally missing.\n\nWhy?\n\nBecause the value coming from high...\n\nwas still unknown.\n\nWe have to inspect it first.\n\nThe loop continues...\n\nuntil mid becomes greater than high.\n\nAt that point...\n\nthe unknown region is empty...\n\nand the whole array is correctly partitioned.\n\nSo the complete logic is simple...\n\nzero goes to the left...\n\none stays in the middle...\n\nand two goes to the right.\n\nThe important part is not memorising the code...\n\nit is remembering what low...\n\nmid...\n\nand high guarantee at every step.",
+      "visual_intent": "Code editor with syntax-highlighted Python implementation. Prominent highlight on 'while mid <= high:', the swap blocks, and a critical callout box emphasizing the absence of mid += 1 in the nums[mid] == 2 branch."
+    },
+    {
+      "id": "09-complexity",
+      "beat": "COMPLEXITY_AND_EDGE_CASES",
+      "title": "Complexity + Common Mistakes + Edge Cases",
+      "narration": "Now let’s compare both approaches...\n\nCounting takes O of n time...\n\nand O of one extra space.\n\nBut it uses two passes.\n\nOne pass to count...\n\nand another pass to rewrite the array.\n\nDutch National Flag also takes O of n time...\n\nand O of one extra space.\n\nBut here...\n\nwe classify the array in one pass.\n\nWhy is it O of n?\n\nBecause mid only moves to the right...\n\nand high only moves to the left.\n\nThe unknown region keeps shrinking.\n\nNow let’s look at the most common mistake.\n\nSuppose nums at mid is two.\n\nWe swap it with nums at high...\n\nand move high left.\n\nBut do not move mid.\n\nThis is very important.\n\nThe value that comes from the high side...\n\nis still unknown.\n\nIf we move mid immediately...\n\nwe may skip that value without checking it.\n\nAnother common mistake...\n\nis using...\n\nwhile mid is less than high.\n\nThat is not enough.\n\nWe need...\n\nwhile mid is less than or equal to high.\n\nBecause when mid and high are on the same index...\n\nthat last value is still unknown...\n\nand must be processed.\n\nAlso remember...\n\nhigh starts at the last valid index...\n\nso high is n minus one.\n\nOne more important point...\n\nthere are four logical regions...\n\nnot three.\n\nConfirmed zeroes...\n\nconfirmed ones...\n\nunknown values...\n\nand confirmed twos.\n\nNow let’s check edge cases.\n\nIf the array has only one value...\n\nthe same logic still works.\n\nIf all values are zero...\n\nit works.\n\nIf all values are one...\n\nit works.\n\nIf all values are two...\n\nit works.\n\nIf the array is already sorted...\n\nit works.\n\nAnd even if it starts in reverse order...\n\nthe same invariant still handles it.\n\nNo special case is required.\n\nThat is the power of maintaining the regions correctly.",
+      "visual_intent": "Comparison matrix: Counting (O(n), O(1), 2 passes) vs DNF (O(n), O(1), 1 pass). Shrinking interval animation proving O(n). Visual mistake cards: 1. mid++ after 2-swap (bug demonstration), 2. mid < high loop termination bug. Fast-fire test grids showing edge cases."
+    },
+    {
+      "id": "10-recap",
+      "beat": "RECAP_AND_OUTRO",
+      "title": "Final Recap + Transferable Pattern + Roadmap Continuation",
+      "narration": "Let’s quickly recap what we learned...\n\nWe started with the counting approach.\n\nBecause the array contains only...\n\nzero...\none...\nand two...\n\nwe counted how many of each value we had...\n\nand then rewrote the array.\n\nThat gave us...\n\nO of n time...\n\nand O of one extra space.\n\nBut it still needed two passes.\n\nThen we improved it...\n\nusing the Dutch National Flag pattern.\n\nWe used three pointers...\n\nlow...\n\nmid...\n\nand high.\n\nAnd those three pointers maintained four regions...\n\nconfirmed zeroes...\n\nconfirmed ones...\n\nunknown values...\n\nand confirmed twos.\n\nIf nums at mid is zero...\n\nmove it to the left...\n\nthen move low and mid.\n\nIf nums at mid is one...\n\nit already belongs in the middle...\n\nso just move mid.\n\nAnd if nums at mid is two...\n\nmove it to the right...\n\nmove high left...\n\nbut keep mid where it is.\n\nThat last rule is important...\n\nbecause the value coming from high...\n\nis still unknown.\n\nWith this idea...\n\nwe solve the problem in one pass...\n\nusing O of n time...\n\nand O of one extra space.\n\nBut the bigger lesson is not just Sort Colors.\n\nWhenever a problem has only a few categories...\n\nthink about partitioning.\n\nAsk yourself...\n\nwhat part is already confirmed...\n\nwhat part is still unknown...\n\nand which pointers protect those boundaries.\n\nThat way...\n\nyou are not just memorising a solution...\n\nyou are learning an invariant...\n\nthat can help in many other partition problems.\n\nAnd with that...\n\nSort Colors is complete.\n\nQuestion eleven...\n\ndone.\n\nWe continue our Arrays and Hashing roadmap...\n\nwith the next problem...\n\nNext Permutation.",
+      "visual_intent": "Mental model summary: 4 regions, 3 pointers. Key takeaways summarized in chalkboard typography. Question 011: Sort Colors checkmark locked in roadmap. Spotlight on Next Problem: Next Permutation. Algora outro branding."
+    }
+  ]
+}

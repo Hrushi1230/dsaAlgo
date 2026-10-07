@@ -1,0 +1,3292 @@
+{
+  "audio_file": "03-trace-brute.mp3",
+  "duration_ms": 119740,
+  "duration_frames": 3592,
+  "fps": 30,
+  "word_count": 233,
+  "words": [
+    {
+      "word": "Brute",
+      "start_ms": 0,
+      "end_ms": 440,
+      "start_frame": 0,
+      "end_frame": 13
+    },
+    {
+      "word": "force",
+      "start_ms": 440,
+      "end_ms": 720,
+      "start_frame": 13,
+      "end_frame": 22
+    },
+    {
+      "word": "is",
+      "start_ms": 720,
+      "end_ms": 860,
+      "start_frame": 22,
+      "end_frame": 26
+    },
+    {
+      "word": "simple.",
+      "start_ms": 860,
+      "end_ms": 1340,
+      "start_frame": 26,
+      "end_frame": 40
+    },
+    {
+      "word": "Take",
+      "start_ms": 1660,
+      "end_ms": 1900,
+      "start_frame": 50,
+      "end_frame": 57
+    },
+    {
+      "word": "every",
+      "start_ms": 1900,
+      "end_ms": 2280,
+      "start_frame": 57,
+      "end_frame": 68
+    },
+    {
+      "word": "number",
+      "start_ms": 2280,
+      "end_ms": 2600,
+      "start_frame": 68,
+      "end_frame": 78
+    },
+    {
+      "word": "as",
+      "start_ms": 2600,
+      "end_ms": 2860,
+      "start_frame": 78,
+      "end_frame": 86
+    },
+    {
+      "word": "a",
+      "start_ms": 2860,
+      "end_ms": 3020,
+      "start_frame": 86,
+      "end_frame": 91
+    },
+    {
+      "word": "possible",
+      "start_ms": 3020,
+      "end_ms": 3420,
+      "start_frame": 91,
+      "end_frame": 103
+    },
+    {
+      "word": "start",
+      "start_ms": 3420,
+      "end_ms": 3800,
+      "start_frame": 103,
+      "end_frame": 114
+    },
+    {
+      "word": "and",
+      "start_ms": 3800,
+      "end_ms": 4260,
+      "start_frame": 114,
+      "end_frame": 128
+    },
+    {
+      "word": "keep",
+      "start_ms": 4260,
+      "end_ms": 4480,
+      "start_frame": 128,
+      "end_frame": 134
+    },
+    {
+      "word": "searching",
+      "start_ms": 4480,
+      "end_ms": 4840,
+      "start_frame": 134,
+      "end_frame": 145
+    },
+    {
+      "word": "the",
+      "start_ms": 4840,
+      "end_ms": 5140,
+      "start_frame": 145,
+      "end_frame": 154
+    },
+    {
+      "word": "original",
+      "start_ms": 5140,
+      "end_ms": 5520,
+      "start_frame": 154,
+      "end_frame": 166
+    },
+    {
+      "word": "array",
+      "start_ms": 5520,
+      "end_ms": 5780,
+      "start_frame": 166,
+      "end_frame": 173
+    },
+    {
+      "word": "for",
+      "start_ms": 5780,
+      "end_ms": 5980,
+      "start_frame": 173,
+      "end_frame": 179
+    },
+    {
+      "word": "the",
+      "start_ms": 5980,
+      "end_ms": 6160,
+      "start_frame": 179,
+      "end_frame": 185
+    },
+    {
+      "word": "next",
+      "start_ms": 6160,
+      "end_ms": 6420,
+      "start_frame": 185,
+      "end_frame": 193
+    },
+    {
+      "word": "value.",
+      "start_ms": 6420,
+      "end_ms": 6800,
+      "start_frame": 193,
+      "end_frame": 204
+    },
+    {
+      "word": "Let's",
+      "start_ms": 7500,
+      "end_ms": 7820,
+      "start_frame": 225,
+      "end_frame": 235
+    },
+    {
+      "word": "trace",
+      "start_ms": 7820,
+      "end_ms": 8140,
+      "start_frame": 235,
+      "end_frame": 244
+    },
+    {
+      "word": "every",
+      "start_ms": 8140,
+      "end_ms": 8680,
+      "start_frame": 244,
+      "end_frame": 260
+    },
+    {
+      "word": "start.",
+      "start_ms": 8680,
+      "end_ms": 9040,
+      "start_frame": 260,
+      "end_frame": 271
+    },
+    {
+      "word": "Start",
+      "start_ms": 9560,
+      "end_ms": 9820,
+      "start_frame": 287,
+      "end_frame": 295
+    },
+    {
+      "word": "with",
+      "start_ms": 9820,
+      "end_ms": 10000,
+      "start_frame": 295,
+      "end_frame": 300
+    },
+    {
+      "word": "8.",
+      "start_ms": 10000,
+      "end_ms": 10400,
+      "start_frame": 300,
+      "end_frame": 312
+    },
+    {
+      "word": "Need",
+      "start_ms": 10860,
+      "end_ms": 11080,
+      "start_frame": 326,
+      "end_frame": 332
+    },
+    {
+      "word": "9.",
+      "start_ms": 11080,
+      "end_ms": 11640,
+      "start_frame": 332,
+      "end_frame": 349
+    },
+    {
+      "word": "Found.",
+      "start_ms": 12120,
+      "end_ms": 12480,
+      "start_frame": 364,
+      "end_frame": 374
+    },
+    {
+      "word": "Need",
+      "start_ms": 13120,
+      "end_ms": 13300,
+      "start_frame": 394,
+      "end_frame": 399
+    },
+    {
+      "word": "10.",
+      "start_ms": 13300,
+      "end_ms": 13780,
+      "start_frame": 399,
+      "end_frame": 413
+    },
+    {
+      "word": "Found.",
+      "start_ms": 14320,
+      "end_ms": 14860,
+      "start_frame": 430,
+      "end_frame": 446
+    },
+    {
+      "word": "Need",
+      "start_ms": 15460,
+      "end_ms": 15640,
+      "start_frame": 464,
+      "end_frame": 469
+    },
+    {
+      "word": "11.",
+      "start_ms": 15640,
+      "end_ms": 16180,
+      "start_frame": 469,
+      "end_frame": 485
+    },
+    {
+      "word": "Found.",
+      "start_ms": 16800,
+      "end_ms": 17200,
+      "start_frame": 504,
+      "end_frame": 516
+    },
+    {
+      "word": "Need",
+      "start_ms": 17600,
+      "end_ms": 17740,
+      "start_frame": 528,
+      "end_frame": 532
+    },
+    {
+      "word": "12.",
+      "start_ms": 17740,
+      "end_ms": 18260,
+      "start_frame": 532,
+      "end_frame": 548
+    },
+    {
+      "word": "Not",
+      "start_ms": 18660,
+      "end_ms": 19000,
+      "start_frame": 560,
+      "end_frame": 570
+    },
+    {
+      "word": "found.",
+      "start_ms": 19000,
+      "end_ms": 19380,
+      "start_frame": 570,
+      "end_frame": 581
+    },
+    {
+      "word": "So",
+      "start_ms": 19960,
+      "end_ms": 20180,
+      "start_frame": 599,
+      "end_frame": 605
+    },
+    {
+      "word": "8",
+      "start_ms": 20180,
+      "end_ms": 20340,
+      "start_frame": 605,
+      "end_frame": 610
+    },
+    {
+      "word": "gives",
+      "start_ms": 20340,
+      "end_ms": 20580,
+      "start_frame": 610,
+      "end_frame": 617
+    },
+    {
+      "word": "length",
+      "start_ms": 20580,
+      "end_ms": 20860,
+      "start_frame": 617,
+      "end_frame": 626
+    },
+    {
+      "word": "4.",
+      "start_ms": 20860,
+      "end_ms": 21320,
+      "start_frame": 626,
+      "end_frame": 640
+    },
+    {
+      "word": "Next,",
+      "start_ms": 21600,
+      "end_ms": 22000,
+      "start_frame": 648,
+      "end_frame": 660
+    },
+    {
+      "word": "1.",
+      "start_ms": 22160,
+      "end_ms": 22600,
+      "start_frame": 665,
+      "end_frame": 678
+    },
+    {
+      "word": "Need",
+      "start_ms": 22880,
+      "end_ms": 23020,
+      "start_frame": 686,
+      "end_frame": 691
+    },
+    {
+      "word": "2.",
+      "start_ms": 23020,
+      "end_ms": 23420,
+      "start_frame": 691,
+      "end_frame": 703
+    },
+    {
+      "word": "Found.",
+      "start_ms": 23740,
+      "end_ms": 24120,
+      "start_frame": 712,
+      "end_frame": 724
+    },
+    {
+      "word": "Need",
+      "start_ms": 24500,
+      "end_ms": 24620,
+      "start_frame": 735,
+      "end_frame": 739
+    },
+    {
+      "word": "3.",
+      "start_ms": 24620,
+      "end_ms": 25060,
+      "start_frame": 739,
+      "end_frame": 752
+    },
+    {
+      "word": "Found.",
+      "start_ms": 25280,
+      "end_ms": 25620,
+      "start_frame": 758,
+      "end_frame": 769
+    },
+    {
+      "word": "Need",
+      "start_ms": 25620,
+      "end_ms": 26100,
+      "start_frame": 769,
+      "end_frame": 783
+    },
+    {
+      "word": "4.",
+      "start_ms": 26100,
+      "end_ms": 26460,
+      "start_frame": 783,
+      "end_frame": 794
+    },
+    {
+      "word": "Found.",
+      "start_ms": 26760,
+      "end_ms": 27080,
+      "start_frame": 803,
+      "end_frame": 812
+    },
+    {
+      "word": "Need",
+      "start_ms": 27500,
+      "end_ms": 27640,
+      "start_frame": 825,
+      "end_frame": 829
+    },
+    {
+      "word": "5.",
+      "start_ms": 27640,
+      "end_ms": 28200,
+      "start_frame": 829,
+      "end_frame": 846
+    },
+    {
+      "word": "Not",
+      "start_ms": 28360,
+      "end_ms": 28620,
+      "start_frame": 851,
+      "end_frame": 859
+    },
+    {
+      "word": "found.",
+      "start_ms": 28620,
+      "end_ms": 28880,
+      "start_frame": 859,
+      "end_frame": 866
+    },
+    {
+      "word": "So",
+      "start_ms": 29160,
+      "end_ms": 29300,
+      "start_frame": 875,
+      "end_frame": 879
+    },
+    {
+      "word": "1",
+      "start_ms": 29300,
+      "end_ms": 29460,
+      "start_frame": 879,
+      "end_frame": 884
+    },
+    {
+      "word": "gives",
+      "start_ms": 29460,
+      "end_ms": 29700,
+      "start_frame": 884,
+      "end_frame": 891
+    },
+    {
+      "word": "length",
+      "start_ms": 29700,
+      "end_ms": 29960,
+      "start_frame": 891,
+      "end_frame": 899
+    },
+    {
+      "word": "4.",
+      "start_ms": 29960,
+      "end_ms": 30540,
+      "start_frame": 899,
+      "end_frame": 916
+    },
+    {
+      "word": "Next,",
+      "start_ms": 30700,
+      "end_ms": 31020,
+      "start_frame": 921,
+      "end_frame": 931
+    },
+    {
+      "word": "6.",
+      "start_ms": 31320,
+      "end_ms": 31740,
+      "start_frame": 940,
+      "end_frame": 952
+    },
+    {
+      "word": "Need",
+      "start_ms": 32080,
+      "end_ms": 32220,
+      "start_frame": 962,
+      "end_frame": 967
+    },
+    {
+      "word": "7.",
+      "start_ms": 32220,
+      "end_ms": 32780,
+      "start_frame": 967,
+      "end_frame": 983
+    },
+    {
+      "word": "Not",
+      "start_ms": 33220,
+      "end_ms": 33500,
+      "start_frame": 997,
+      "end_frame": 1005
+    },
+    {
+      "word": "found.",
+      "start_ms": 33500,
+      "end_ms": 33840,
+      "start_frame": 1005,
+      "end_frame": 1015
+    },
+    {
+      "word": "Length",
+      "start_ms": 34580,
+      "end_ms": 34800,
+      "start_frame": 1037,
+      "end_frame": 1044
+    },
+    {
+      "word": "1.",
+      "start_ms": 34800,
+      "end_ms": 35100,
+      "start_frame": 1044,
+      "end_frame": 1053
+    },
+    {
+      "word": "Next,",
+      "start_ms": 35300,
+      "end_ms": 35580,
+      "start_frame": 1059,
+      "end_frame": 1067
+    },
+    {
+      "word": "3.",
+      "start_ms": 35760,
+      "end_ms": 36280,
+      "start_frame": 1073,
+      "end_frame": 1088
+    },
+    {
+      "word": "Need",
+      "start_ms": 36600,
+      "end_ms": 36800,
+      "start_frame": 1098,
+      "end_frame": 1104
+    },
+    {
+      "word": "4.",
+      "start_ms": 36800,
+      "end_ms": 37320,
+      "start_frame": 1104,
+      "end_frame": 1120
+    },
+    {
+      "word": "Found.",
+      "start_ms": 37600,
+      "end_ms": 37980,
+      "start_frame": 1128,
+      "end_frame": 1139
+    },
+    {
+      "word": "Need",
+      "start_ms": 38560,
+      "end_ms": 38760,
+      "start_frame": 1157,
+      "end_frame": 1163
+    },
+    {
+      "word": "5.",
+      "start_ms": 38760,
+      "end_ms": 39300,
+      "start_frame": 1163,
+      "end_frame": 1179
+    },
+    {
+      "word": "Not",
+      "start_ms": 39700,
+      "end_ms": 39920,
+      "start_frame": 1191,
+      "end_frame": 1198
+    },
+    {
+      "word": "found.",
+      "start_ms": 39920,
+      "end_ms": 40280,
+      "start_frame": 1198,
+      "end_frame": 1208
+    },
+    {
+      "word": "Length",
+      "start_ms": 40580,
+      "end_ms": 40840,
+      "start_frame": 1217,
+      "end_frame": 1225
+    },
+    {
+      "word": "2.",
+      "start_ms": 40840,
+      "end_ms": 41320,
+      "start_frame": 1225,
+      "end_frame": 1240
+    },
+    {
+      "word": "Next,",
+      "start_ms": 41660,
+      "end_ms": 41900,
+      "start_frame": 1250,
+      "end_frame": 1257
+    },
+    {
+      "word": "2.",
+      "start_ms": 42280,
+      "end_ms": 42740,
+      "start_frame": 1268,
+      "end_frame": 1282
+    },
+    {
+      "word": "Need",
+      "start_ms": 43340,
+      "end_ms": 43500,
+      "start_frame": 1300,
+      "end_frame": 1305
+    },
+    {
+      "word": "3.",
+      "start_ms": 43500,
+      "end_ms": 44100,
+      "start_frame": 1305,
+      "end_frame": 1323
+    },
+    {
+      "word": "Found.",
+      "start_ms": 44280,
+      "end_ms": 44560,
+      "start_frame": 1328,
+      "end_frame": 1337
+    },
+    {
+      "word": "Need",
+      "start_ms": 45100,
+      "end_ms": 45220,
+      "start_frame": 1353,
+      "end_frame": 1357
+    },
+    {
+      "word": "4.",
+      "start_ms": 45220,
+      "end_ms": 45700,
+      "start_frame": 1357,
+      "end_frame": 1371
+    },
+    {
+      "word": "Found.",
+      "start_ms": 46020,
+      "end_ms": 46300,
+      "start_frame": 1381,
+      "end_frame": 1389
+    },
+    {
+      "word": "Need",
+      "start_ms": 46860,
+      "end_ms": 47060,
+      "start_frame": 1406,
+      "end_frame": 1412
+    },
+    {
+      "word": "5.",
+      "start_ms": 47060,
+      "end_ms": 47640,
+      "start_frame": 1412,
+      "end_frame": 1429
+    },
+    {
+      "word": "Not",
+      "start_ms": 47840,
+      "end_ms": 48040,
+      "start_frame": 1435,
+      "end_frame": 1441
+    },
+    {
+      "word": "found.",
+      "start_ms": 48040,
+      "end_ms": 48360,
+      "start_frame": 1441,
+      "end_frame": 1451
+    },
+    {
+      "word": "Length",
+      "start_ms": 48360,
+      "end_ms": 49020,
+      "start_frame": 1451,
+      "end_frame": 1471
+    },
+    {
+      "word": "3.",
+      "start_ms": 49020,
+      "end_ms": 49540,
+      "start_frame": 1471,
+      "end_frame": 1486
+    },
+    {
+      "word": "Now",
+      "start_ms": 49920,
+      "end_ms": 50160,
+      "start_frame": 1498,
+      "end_frame": 1505
+    },
+    {
+      "word": "the",
+      "start_ms": 50160,
+      "end_ms": 50360,
+      "start_frame": 1505,
+      "end_frame": 1511
+    },
+    {
+      "word": "second",
+      "start_ms": 50360,
+      "end_ms": 50560,
+      "start_frame": 1511,
+      "end_frame": 1517
+    },
+    {
+      "word": "2.",
+      "start_ms": 50560,
+      "end_ms": 50900,
+      "start_frame": 1517,
+      "end_frame": 1527
+    },
+    {
+      "word": "Same",
+      "start_ms": 51280,
+      "end_ms": 51480,
+      "start_frame": 1538,
+      "end_frame": 1544
+    },
+    {
+      "word": "search",
+      "start_ms": 51480,
+      "end_ms": 51720,
+      "start_frame": 1544,
+      "end_frame": 1552
+    },
+    {
+      "word": "again.",
+      "start_ms": 51720,
+      "end_ms": 52360,
+      "start_frame": 1552,
+      "end_frame": 1571
+    },
+    {
+      "word": "3.",
+      "start_ms": 52820,
+      "end_ms": 53120,
+      "start_frame": 1585,
+      "end_frame": 1594
+    },
+    {
+      "word": "Found.",
+      "start_ms": 53320,
+      "end_ms": 53500,
+      "start_frame": 1600,
+      "end_frame": 1605
+    },
+    {
+      "word": "4.",
+      "start_ms": 54060,
+      "end_ms": 54280,
+      "start_frame": 1622,
+      "end_frame": 1628
+    },
+    {
+      "word": "Found.",
+      "start_ms": 54320,
+      "end_ms": 54580,
+      "start_frame": 1630,
+      "end_frame": 1637
+    },
+    {
+      "word": "5.",
+      "start_ms": 55100,
+      "end_ms": 55300,
+      "start_frame": 1653,
+      "end_frame": 1659
+    },
+    {
+      "word": "Missing.",
+      "start_ms": 55540,
+      "end_ms": 56100,
+      "start_frame": 1666,
+      "end_frame": 1683
+    },
+    {
+      "word": "Again,",
+      "start_ms": 56380,
+      "end_ms": 56620,
+      "start_frame": 1691,
+      "end_frame": 1699
+    },
+    {
+      "word": "length",
+      "start_ms": 56660,
+      "end_ms": 56840,
+      "start_frame": 1700,
+      "end_frame": 1705
+    },
+    {
+      "word": "3.",
+      "start_ms": 56840,
+      "end_ms": 57240,
+      "start_frame": 1705,
+      "end_frame": 1717
+    },
+    {
+      "word": "That",
+      "start_ms": 57500,
+      "end_ms": 57640,
+      "start_frame": 1725,
+      "end_frame": 1729
+    },
+    {
+      "word": "is",
+      "start_ms": 57640,
+      "end_ms": 57820,
+      "start_frame": 1729,
+      "end_frame": 1735
+    },
+    {
+      "word": "duplicate",
+      "start_ms": 57820,
+      "end_ms": 58100,
+      "start_frame": 1735,
+      "end_frame": 1743
+    },
+    {
+      "word": "work.",
+      "start_ms": 58100,
+      "end_ms": 58540,
+      "start_frame": 1743,
+      "end_frame": 1756
+    },
+    {
+      "word": "Next,",
+      "start_ms": 58840,
+      "end_ms": 59120,
+      "start_frame": 1765,
+      "end_frame": 1774
+    },
+    {
+      "word": "4.",
+      "start_ms": 59420,
+      "end_ms": 59980,
+      "start_frame": 1783,
+      "end_frame": 1799
+    },
+    {
+      "word": "Need",
+      "start_ms": 60440,
+      "end_ms": 60580,
+      "start_frame": 1813,
+      "end_frame": 1817
+    },
+    {
+      "word": "5.",
+      "start_ms": 60580,
+      "end_ms": 61120,
+      "start_frame": 1817,
+      "end_frame": 1834
+    },
+    {
+      "word": "Not",
+      "start_ms": 61440,
+      "end_ms": 61640,
+      "start_frame": 1843,
+      "end_frame": 1849
+    },
+    {
+      "word": "found.",
+      "start_ms": 61640,
+      "end_ms": 61900,
+      "start_frame": 1849,
+      "end_frame": 1857
+    },
+    {
+      "word": "Length",
+      "start_ms": 62240,
+      "end_ms": 62500,
+      "start_frame": 1867,
+      "end_frame": 1875
+    },
+    {
+      "word": "1.",
+      "start_ms": 62500,
+      "end_ms": 62980,
+      "start_frame": 1875,
+      "end_frame": 1889
+    },
+    {
+      "word": "Next,",
+      "start_ms": 63180,
+      "end_ms": 63400,
+      "start_frame": 1895,
+      "end_frame": 1902
+    },
+    {
+      "word": "10.",
+      "start_ms": 63880,
+      "end_ms": 64220,
+      "start_frame": 1916,
+      "end_frame": 1927
+    },
+    {
+      "word": "Need",
+      "start_ms": 64800,
+      "end_ms": 64940,
+      "start_frame": 1944,
+      "end_frame": 1948
+    },
+    {
+      "word": "11.",
+      "start_ms": 64940,
+      "end_ms": 65340,
+      "start_frame": 1948,
+      "end_frame": 1960
+    },
+    {
+      "word": "Found.",
+      "start_ms": 65800,
+      "end_ms": 65980,
+      "start_frame": 1974,
+      "end_frame": 1979
+    },
+    {
+      "word": "Need",
+      "start_ms": 66480,
+      "end_ms": 66600,
+      "start_frame": 1994,
+      "end_frame": 1998
+    },
+    {
+      "word": "12.",
+      "start_ms": 66600,
+      "end_ms": 67140,
+      "start_frame": 1998,
+      "end_frame": 2014
+    },
+    {
+      "word": "Not",
+      "start_ms": 67500,
+      "end_ms": 67680,
+      "start_frame": 2025,
+      "end_frame": 2030
+    },
+    {
+      "word": "found.",
+      "start_ms": 67680,
+      "end_ms": 67920,
+      "start_frame": 2030,
+      "end_frame": 2038
+    },
+    {
+      "word": "Length",
+      "start_ms": 68440,
+      "end_ms": 68680,
+      "start_frame": 2053,
+      "end_frame": 2060
+    },
+    {
+      "word": "2.",
+      "start_ms": 68680,
+      "end_ms": 69200,
+      "start_frame": 2060,
+      "end_frame": 2076
+    },
+    {
+      "word": "Next,",
+      "start_ms": 69560,
+      "end_ms": 69780,
+      "start_frame": 2087,
+      "end_frame": 2093
+    },
+    {
+      "word": "9.",
+      "start_ms": 69800,
+      "end_ms": 70160,
+      "start_frame": 2094,
+      "end_frame": 2105
+    },
+    {
+      "word": "Need",
+      "start_ms": 70880,
+      "end_ms": 71000,
+      "start_frame": 2126,
+      "end_frame": 2130
+    },
+    {
+      "word": "10.",
+      "start_ms": 71000,
+      "end_ms": 71440,
+      "start_frame": 2130,
+      "end_frame": 2143
+    },
+    {
+      "word": "Found.",
+      "start_ms": 71780,
+      "end_ms": 71960,
+      "start_frame": 2153,
+      "end_frame": 2159
+    },
+    {
+      "word": "Need",
+      "start_ms": 72640,
+      "end_ms": 72780,
+      "start_frame": 2179,
+      "end_frame": 2183
+    },
+    {
+      "word": "11.",
+      "start_ms": 72780,
+      "end_ms": 73320,
+      "start_frame": 2183,
+      "end_frame": 2200
+    },
+    {
+      "word": "Found.",
+      "start_ms": 73640,
+      "end_ms": 73920,
+      "start_frame": 2209,
+      "end_frame": 2218
+    },
+    {
+      "word": "Need",
+      "start_ms": 74560,
+      "end_ms": 74680,
+      "start_frame": 2237,
+      "end_frame": 2240
+    },
+    {
+      "word": "12.",
+      "start_ms": 74680,
+      "end_ms": 75160,
+      "start_frame": 2240,
+      "end_frame": 2255
+    },
+    {
+      "word": "Not",
+      "start_ms": 75440,
+      "end_ms": 75620,
+      "start_frame": 2263,
+      "end_frame": 2269
+    },
+    {
+      "word": "found.",
+      "start_ms": 75620,
+      "end_ms": 75900,
+      "start_frame": 2269,
+      "end_frame": 2277
+    },
+    {
+      "word": "Length",
+      "start_ms": 76260,
+      "end_ms": 76600,
+      "start_frame": 2288,
+      "end_frame": 2298
+    },
+    {
+      "word": "3.",
+      "start_ms": 76600,
+      "end_ms": 77120,
+      "start_frame": 2298,
+      "end_frame": 2314
+    },
+    {
+      "word": "Next,",
+      "start_ms": 77340,
+      "end_ms": 77600,
+      "start_frame": 2320,
+      "end_frame": 2328
+    },
+    {
+      "word": "11.",
+      "start_ms": 77600,
+      "end_ms": 77940,
+      "start_frame": 2328,
+      "end_frame": 2338
+    },
+    {
+      "word": "Need",
+      "start_ms": 78220,
+      "end_ms": 78340,
+      "start_frame": 2347,
+      "end_frame": 2350
+    },
+    {
+      "word": "12.",
+      "start_ms": 78340,
+      "end_ms": 78760,
+      "start_frame": 2350,
+      "end_frame": 2363
+    },
+    {
+      "word": "Not",
+      "start_ms": 78960,
+      "end_ms": 79160,
+      "start_frame": 2369,
+      "end_frame": 2375
+    },
+    {
+      "word": "found.",
+      "start_ms": 79160,
+      "end_ms": 79380,
+      "start_frame": 2375,
+      "end_frame": 2381
+    },
+    {
+      "word": "Length",
+      "start_ms": 79620,
+      "end_ms": 79840,
+      "start_frame": 2389,
+      "end_frame": 2395
+    },
+    {
+      "word": "1.",
+      "start_ms": 79840,
+      "end_ms": 80440,
+      "start_frame": 2395,
+      "end_frame": 2413
+    },
+    {
+      "word": "Now,",
+      "start_ms": 80860,
+      "end_ms": 81140,
+      "start_frame": 2426,
+      "end_frame": 2434
+    },
+    {
+      "word": "minus",
+      "start_ms": 81260,
+      "end_ms": 81520,
+      "start_frame": 2438,
+      "end_frame": 2446
+    },
+    {
+      "word": "1.",
+      "start_ms": 81520,
+      "end_ms": 81920,
+      "start_frame": 2446,
+      "end_frame": 2458
+    },
+    {
+      "word": "Need",
+      "start_ms": 82220,
+      "end_ms": 82320,
+      "start_frame": 2467,
+      "end_frame": 2470
+    },
+    {
+      "word": "0.",
+      "start_ms": 82320,
+      "end_ms": 82860,
+      "start_frame": 2470,
+      "end_frame": 2486
+    },
+    {
+      "word": "Found.",
+      "start_ms": 83420,
+      "end_ms": 83580,
+      "start_frame": 2503,
+      "end_frame": 2507
+    },
+    {
+      "word": "Need",
+      "start_ms": 84040,
+      "end_ms": 84140,
+      "start_frame": 2521,
+      "end_frame": 2524
+    },
+    {
+      "word": "1.",
+      "start_ms": 84140,
+      "end_ms": 84800,
+      "start_frame": 2524,
+      "end_frame": 2544
+    },
+    {
+      "word": "Found.",
+      "start_ms": 85020,
+      "end_ms": 85240,
+      "start_frame": 2551,
+      "end_frame": 2557
+    },
+    {
+      "word": "Need",
+      "start_ms": 85960,
+      "end_ms": 86060,
+      "start_frame": 2579,
+      "end_frame": 2582
+    },
+    {
+      "word": "2.",
+      "start_ms": 86060,
+      "end_ms": 86620,
+      "start_frame": 2582,
+      "end_frame": 2599
+    },
+    {
+      "word": "Found.",
+      "start_ms": 86920,
+      "end_ms": 87220,
+      "start_frame": 2608,
+      "end_frame": 2617
+    },
+    {
+      "word": "Need",
+      "start_ms": 87880,
+      "end_ms": 87980,
+      "start_frame": 2636,
+      "end_frame": 2639
+    },
+    {
+      "word": "3.",
+      "start_ms": 87980,
+      "end_ms": 88540,
+      "start_frame": 2639,
+      "end_frame": 2656
+    },
+    {
+      "word": "Found.",
+      "start_ms": 88780,
+      "end_ms": 89040,
+      "start_frame": 2663,
+      "end_frame": 2671
+    },
+    {
+      "word": "Need",
+      "start_ms": 89780,
+      "end_ms": 89920,
+      "start_frame": 2693,
+      "end_frame": 2698
+    },
+    {
+      "word": "4.",
+      "start_ms": 89920,
+      "end_ms": 90420,
+      "start_frame": 2698,
+      "end_frame": 2713
+    },
+    {
+      "word": "Found.",
+      "start_ms": 90720,
+      "end_ms": 91000,
+      "start_frame": 2722,
+      "end_frame": 2730
+    },
+    {
+      "word": "Need",
+      "start_ms": 91600,
+      "end_ms": 91780,
+      "start_frame": 2748,
+      "end_frame": 2753
+    },
+    {
+      "word": "5.",
+      "start_ms": 91780,
+      "end_ms": 92280,
+      "start_frame": 2753,
+      "end_frame": 2768
+    },
+    {
+      "word": "Not",
+      "start_ms": 92480,
+      "end_ms": 92680,
+      "start_frame": 2774,
+      "end_frame": 2780
+    },
+    {
+      "word": "found.",
+      "start_ms": 92680,
+      "end_ms": 93040,
+      "start_frame": 2780,
+      "end_frame": 2791
+    },
+    {
+      "word": "Length",
+      "start_ms": 93520,
+      "end_ms": 93760,
+      "start_frame": 2806,
+      "end_frame": 2813
+    },
+    {
+      "word": "6.",
+      "start_ms": 93760,
+      "end_ms": 94140,
+      "start_frame": 2813,
+      "end_frame": 2824
+    },
+    {
+      "word": "Best",
+      "start_ms": 94400,
+      "end_ms": 94620,
+      "start_frame": 2832,
+      "end_frame": 2839
+    },
+    {
+      "word": "becomes",
+      "start_ms": 94620,
+      "end_ms": 94980,
+      "start_frame": 2839,
+      "end_frame": 2849
+    },
+    {
+      "word": "6.",
+      "start_ms": 94980,
+      "end_ms": 95400,
+      "start_frame": 2849,
+      "end_frame": 2862
+    },
+    {
+      "word": "One",
+      "start_ms": 95820,
+      "end_ms": 96040,
+      "start_frame": 2875,
+      "end_frame": 2881
+    },
+    {
+      "word": "last",
+      "start_ms": 96040,
+      "end_ms": 96280,
+      "start_frame": 2881,
+      "end_frame": 2888
+    },
+    {
+      "word": "start.",
+      "start_ms": 96280,
+      "end_ms": 96620,
+      "start_frame": 2888,
+      "end_frame": 2899
+    },
+    {
+      "word": "Zero.",
+      "start_ms": 96940,
+      "end_ms": 97320,
+      "start_frame": 2908,
+      "end_frame": 2920
+    },
+    {
+      "word": "Need",
+      "start_ms": 97900,
+      "end_ms": 98080,
+      "start_frame": 2937,
+      "end_frame": 2942
+    },
+    {
+      "word": "1.",
+      "start_ms": 98080,
+      "end_ms": 98520,
+      "start_frame": 2942,
+      "end_frame": 2956
+    },
+    {
+      "word": "Found.",
+      "start_ms": 98520,
+      "end_ms": 99100,
+      "start_frame": 2956,
+      "end_frame": 2973
+    },
+    {
+      "word": "Need",
+      "start_ms": 99900,
+      "end_ms": 100040,
+      "start_frame": 2997,
+      "end_frame": 3001
+    },
+    {
+      "word": "2.",
+      "start_ms": 100040,
+      "end_ms": 100360,
+      "start_frame": 3001,
+      "end_frame": 3011
+    },
+    {
+      "word": "Found.",
+      "start_ms": 100880,
+      "end_ms": 101160,
+      "start_frame": 3026,
+      "end_frame": 3035
+    },
+    {
+      "word": "Need",
+      "start_ms": 101440,
+      "end_ms": 101520,
+      "start_frame": 3043,
+      "end_frame": 3046
+    },
+    {
+      "word": "3.",
+      "start_ms": 101520,
+      "end_ms": 102040,
+      "start_frame": 3046,
+      "end_frame": 3061
+    },
+    {
+      "word": "Found.",
+      "start_ms": 102620,
+      "end_ms": 102980,
+      "start_frame": 3079,
+      "end_frame": 3089
+    },
+    {
+      "word": "Need",
+      "start_ms": 103440,
+      "end_ms": 103520,
+      "start_frame": 3103,
+      "end_frame": 3106
+    },
+    {
+      "word": "4.",
+      "start_ms": 103520,
+      "end_ms": 103960,
+      "start_frame": 3106,
+      "end_frame": 3119
+    },
+    {
+      "word": "Found.",
+      "start_ms": 104460,
+      "end_ms": 104680,
+      "start_frame": 3134,
+      "end_frame": 3140
+    },
+    {
+      "word": "Need",
+      "start_ms": 105300,
+      "end_ms": 105400,
+      "start_frame": 3159,
+      "end_frame": 3162
+    },
+    {
+      "word": "5.",
+      "start_ms": 105400,
+      "end_ms": 105860,
+      "start_frame": 3162,
+      "end_frame": 3176
+    },
+    {
+      "word": "Not",
+      "start_ms": 106360,
+      "end_ms": 106540,
+      "start_frame": 3191,
+      "end_frame": 3196
+    },
+    {
+      "word": "found.",
+      "start_ms": 106540,
+      "end_ms": 106920,
+      "start_frame": 3196,
+      "end_frame": 3208
+    },
+    {
+      "word": "Length",
+      "start_ms": 107540,
+      "end_ms": 107740,
+      "start_frame": 3226,
+      "end_frame": 3232
+    },
+    {
+      "word": "5.",
+      "start_ms": 107740,
+      "end_ms": 108120,
+      "start_frame": 3232,
+      "end_frame": 3244
+    },
+    {
+      "word": "Done.",
+      "start_ms": 108240,
+      "end_ms": 108600,
+      "start_frame": 3247,
+      "end_frame": 3258
+    },
+    {
+      "word": "Final",
+      "start_ms": 109260,
+      "end_ms": 109420,
+      "start_frame": 3278,
+      "end_frame": 3283
+    },
+    {
+      "word": "best,",
+      "start_ms": 109420,
+      "end_ms": 109680,
+      "start_frame": 3283,
+      "end_frame": 3290
+    },
+    {
+      "word": "6.",
+      "start_ms": 110320,
+      "end_ms": 110640,
+      "start_frame": 3310,
+      "end_frame": 3319
+    },
+    {
+      "word": "The",
+      "start_ms": 111160,
+      "end_ms": 111340,
+      "start_frame": 3335,
+      "end_frame": 3340
+    },
+    {
+      "word": "method",
+      "start_ms": 111340,
+      "end_ms": 111580,
+      "start_frame": 3340,
+      "end_frame": 3347
+    },
+    {
+      "word": "works.",
+      "start_ms": 111580,
+      "end_ms": 111940,
+      "start_frame": 3347,
+      "end_frame": 3358
+    },
+    {
+      "word": "But",
+      "start_ms": 112320,
+      "end_ms": 112480,
+      "start_frame": 3370,
+      "end_frame": 3374
+    },
+    {
+      "word": "almost",
+      "start_ms": 112480,
+      "end_ms": 112780,
+      "start_frame": 3374,
+      "end_frame": 3383
+    },
+    {
+      "word": "every",
+      "start_ms": 112780,
+      "end_ms": 113200,
+      "start_frame": 3383,
+      "end_frame": 3396
+    },
+    {
+      "word": "step",
+      "start_ms": 113200,
+      "end_ms": 113460,
+      "start_frame": 3396,
+      "end_frame": 3404
+    },
+    {
+      "word": "keeps",
+      "start_ms": 113460,
+      "end_ms": 113800,
+      "start_frame": 3404,
+      "end_frame": 3414
+    },
+    {
+      "word": "searching",
+      "start_ms": 113800,
+      "end_ms": 114280,
+      "start_frame": 3414,
+      "end_frame": 3428
+    },
+    {
+      "word": "the",
+      "start_ms": 114280,
+      "end_ms": 114660,
+      "start_frame": 3428,
+      "end_frame": 3440
+    },
+    {
+      "word": "same",
+      "start_ms": 114660,
+      "end_ms": 115000,
+      "start_frame": 3440,
+      "end_frame": 3450
+    },
+    {
+      "word": "original",
+      "start_ms": 115000,
+      "end_ms": 115600,
+      "start_frame": 3450,
+      "end_frame": 3468
+    },
+    {
+      "word": "array",
+      "start_ms": 115600,
+      "end_ms": 115900,
+      "start_frame": 3468,
+      "end_frame": 3477
+    },
+    {
+      "word": "again.",
+      "start_ms": 115900,
+      "end_ms": 116360,
+      "start_frame": 3477,
+      "end_frame": 3491
+    },
+    {
+      "word": "Let's",
+      "start_ms": 117400,
+      "end_ms": 117800,
+      "start_frame": 3522,
+      "end_frame": 3534
+    },
+    {
+      "word": "write",
+      "start_ms": 117800,
+      "end_ms": 118080,
+      "start_frame": 3534,
+      "end_frame": 3542
+    },
+    {
+      "word": "this",
+      "start_ms": 118080,
+      "end_ms": 118340,
+      "start_frame": 3542,
+      "end_frame": 3550
+    },
+    {
+      "word": "exact",
+      "start_ms": 118340,
+      "end_ms": 118840,
+      "start_frame": 3550,
+      "end_frame": 3565
+    },
+    {
+      "word": "logic",
+      "start_ms": 118840,
+      "end_ms": 119280,
+      "start_frame": 3565,
+      "end_frame": 3578
+    },
+    {
+      "word": "first.",
+      "start_ms": 119280,
+      "end_ms": 119740,
+      "start_frame": 3578,
+      "end_frame": 3592
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Brute force is simple.",
+      "start_ms": 0,
+      "end_ms": 1340,
+      "start_frame": 0,
+      "end_frame": 40,
+      "word_count": 4
+    },
+    {
+      "text": "Take every number as a possible start and keep searching the original array for the next value.",
+      "start_ms": 1660,
+      "end_ms": 6800,
+      "start_frame": 50,
+      "end_frame": 204,
+      "word_count": 17
+    },
+    {
+      "text": "Let's trace every start.",
+      "start_ms": 7500,
+      "end_ms": 9040,
+      "start_frame": 225,
+      "end_frame": 271,
+      "word_count": 4
+    },
+    {
+      "text": "Start with 8.",
+      "start_ms": 9560,
+      "end_ms": 10400,
+      "start_frame": 287,
+      "end_frame": 312,
+      "word_count": 3
+    },
+    {
+      "text": "Need 9.",
+      "start_ms": 10860,
+      "end_ms": 11640,
+      "start_frame": 326,
+      "end_frame": 349,
+      "word_count": 2
+    },
+    {
+      "text": "Found.",
+      "start_ms": 12120,
+      "end_ms": 12480,
+      "start_frame": 364,
+      "end_frame": 374,
+      "word_count": 1
+    },
+    {
+      "text": "Need 10.",
+      "start_ms": 13120,
+      "end_ms": 13780,
+      "start_frame": 394,
+      "end_frame": 413,
+      "word_count": 2
+    },
+    {
+      "text": "Found.",
+      "start_ms": 14320,
+      "end_ms": 14860,
+      "start_frame": 430,
+      "end_frame": 446,
+      "word_count": 1
+    },
+    {
+      "text": "Need 11.",
+      "start_ms": 15460,
+      "end_ms": 16180,
+      "start_frame": 464,
+      "end_frame": 485,
+      "word_count": 2
+    },
+    {
+      "text": "Found.",
+      "start_ms": 16800,
+      "end_ms": 17200,
+      "start_frame": 504,
+      "end_frame": 516,
+      "word_count": 1
+    },
+    {
+      "text": "Need 12.",
+      "start_ms": 17600,
+      "end_ms": 18260,
+      "start_frame": 528,
+      "end_frame": 548,
+      "word_count": 2
+    },
+    {
+      "text": "Not found.",
+      "start_ms": 18660,
+      "end_ms": 19380,
+      "start_frame": 560,
+      "end_frame": 581,
+      "word_count": 2
+    },
+    {
+      "text": "So 8 gives length 4.",
+      "start_ms": 19960,
+      "end_ms": 21320,
+      "start_frame": 599,
+      "end_frame": 640,
+      "word_count": 5
+    },
+    {
+      "text": "Next, 1.",
+      "start_ms": 21600,
+      "end_ms": 22600,
+      "start_frame": 648,
+      "end_frame": 678,
+      "word_count": 2
+    },
+    {
+      "text": "Need 2.",
+      "start_ms": 22880,
+      "end_ms": 23420,
+      "start_frame": 686,
+      "end_frame": 703,
+      "word_count": 2
+    },
+    {
+      "text": "Found.",
+      "start_ms": 23740,
+      "end_ms": 24120,
+      "start_frame": 712,
+      "end_frame": 724,
+      "word_count": 1
+    },
+    {
+      "text": "Need 3.",
+      "start_ms": 24500,
+      "end_ms": 25060,
+      "start_frame": 735,
+      "end_frame": 752,
+      "word_count": 2
+    },
+    {
+      "text": "Found.",
+      "start_ms": 25280,
+      "end_ms": 25620,
+      "start_frame": 758,
+      "end_frame": 769,
+      "word_count": 1
+    },
+    {
+      "text": "Need 4.",
+      "start_ms": 25620,
+      "end_ms": 26460,
+      "start_frame": 769,
+      "end_frame": 794,
+      "word_count": 2
+    },
+    {
+      "text": "Found.",
+      "start_ms": 26760,
+      "end_ms": 27080,
+      "start_frame": 803,
+      "end_frame": 812,
+      "word_count": 1
+    },
+    {
+      "text": "Need 5.",
+      "start_ms": 27500,
+      "end_ms": 28200,
+      "start_frame": 825,
+      "end_frame": 846,
+      "word_count": 2
+    },
+    {
+      "text": "Not found.",
+      "start_ms": 28360,
+      "end_ms": 28880,
+      "start_frame": 851,
+      "end_frame": 866,
+      "word_count": 2
+    },
+    {
+      "text": "So 1 gives length 4.",
+      "start_ms": 29160,
+      "end_ms": 30540,
+      "start_frame": 875,
+      "end_frame": 916,
+      "word_count": 5
+    },
+    {
+      "text": "Next, 6.",
+      "start_ms": 30700,
+      "end_ms": 31740,
+      "start_frame": 921,
+      "end_frame": 952,
+      "word_count": 2
+    },
+    {
+      "text": "Need 7.",
+      "start_ms": 32080,
+      "end_ms": 32780,
+      "start_frame": 962,
+      "end_frame": 983,
+      "word_count": 2
+    },
+    {
+      "text": "Not found.",
+      "start_ms": 33220,
+      "end_ms": 33840,
+      "start_frame": 997,
+      "end_frame": 1015,
+      "word_count": 2
+    },
+    {
+      "text": "Length 1.",
+      "start_ms": 34580,
+      "end_ms": 35100,
+      "start_frame": 1037,
+      "end_frame": 1053,
+      "word_count": 2
+    },
+    {
+      "text": "Next, 3.",
+      "start_ms": 35300,
+      "end_ms": 36280,
+      "start_frame": 1059,
+      "end_frame": 1088,
+      "word_count": 2
+    },
+    {
+      "text": "Need 4.",
+      "start_ms": 36600,
+      "end_ms": 37320,
+      "start_frame": 1098,
+      "end_frame": 1120,
+      "word_count": 2
+    },
+    {
+      "text": "Found.",
+      "start_ms": 37600,
+      "end_ms": 37980,
+      "start_frame": 1128,
+      "end_frame": 1139,
+      "word_count": 1
+    },
+    {
+      "text": "Need 5.",
+      "start_ms": 38560,
+      "end_ms": 39300,
+      "start_frame": 1157,
+      "end_frame": 1179,
+      "word_count": 2
+    },
+    {
+      "text": "Not found.",
+      "start_ms": 39700,
+      "end_ms": 40280,
+      "start_frame": 1191,
+      "end_frame": 1208,
+      "word_count": 2
+    },
+    {
+      "text": "Length 2.",
+      "start_ms": 40580,
+      "end_ms": 41320,
+      "start_frame": 1217,
+      "end_frame": 1240,
+      "word_count": 2
+    },
+    {
+      "text": "Next, 2.",
+      "start_ms": 41660,
+      "end_ms": 42740,
+      "start_frame": 1250,
+      "end_frame": 1282,
+      "word_count": 2
+    },
+    {
+      "text": "Need 3.",
+      "start_ms": 43340,
+      "end_ms": 44100,
+      "start_frame": 1300,
+      "end_frame": 1323,
+      "word_count": 2
+    },
+    {
+      "text": "Found.",
+      "start_ms": 44280,
+      "end_ms": 44560,
+      "start_frame": 1328,
+      "end_frame": 1337,
+      "word_count": 1
+    },
+    {
+      "text": "Need 4.",
+      "start_ms": 45100,
+      "end_ms": 45700,
+      "start_frame": 1353,
+      "end_frame": 1371,
+      "word_count": 2
+    },
+    {
+      "text": "Found.",
+      "start_ms": 46020,
+      "end_ms": 46300,
+      "start_frame": 1381,
+      "end_frame": 1389,
+      "word_count": 1
+    },
+    {
+      "text": "Need 5.",
+      "start_ms": 46860,
+      "end_ms": 47640,
+      "start_frame": 1406,
+      "end_frame": 1429,
+      "word_count": 2
+    },
+    {
+      "text": "Not found.",
+      "start_ms": 47840,
+      "end_ms": 48360,
+      "start_frame": 1435,
+      "end_frame": 1451,
+      "word_count": 2
+    },
+    {
+      "text": "Length 3.",
+      "start_ms": 48360,
+      "end_ms": 49540,
+      "start_frame": 1451,
+      "end_frame": 1486,
+      "word_count": 2
+    },
+    {
+      "text": "Now the second 2.",
+      "start_ms": 49920,
+      "end_ms": 50900,
+      "start_frame": 1498,
+      "end_frame": 1527,
+      "word_count": 4
+    },
+    {
+      "text": "Same search again.",
+      "start_ms": 51280,
+      "end_ms": 52360,
+      "start_frame": 1538,
+      "end_frame": 1571,
+      "word_count": 3
+    },
+    {
+      "text": "3.",
+      "start_ms": 52820,
+      "end_ms": 53120,
+      "start_frame": 1585,
+      "end_frame": 1594,
+      "word_count": 1
+    },
+    {
+      "text": "Found.",
+      "start_ms": 53320,
+      "end_ms": 53500,
+      "start_frame": 1600,
+      "end_frame": 1605,
+      "word_count": 1
+    },
+    {
+      "text": "4.",
+      "start_ms": 54060,
+      "end_ms": 54280,
+      "start_frame": 1622,
+      "end_frame": 1628,
+      "word_count": 1
+    },
+    {
+      "text": "Found.",
+      "start_ms": 54320,
+      "end_ms": 54580,
+      "start_frame": 1630,
+      "end_frame": 1637,
+      "word_count": 1
+    },
+    {
+      "text": "5.",
+      "start_ms": 55100,
+      "end_ms": 55300,
+      "start_frame": 1653,
+      "end_frame": 1659,
+      "word_count": 1
+    },
+    {
+      "text": "Missing.",
+      "start_ms": 55540,
+      "end_ms": 56100,
+      "start_frame": 1666,
+      "end_frame": 1683,
+      "word_count": 1
+    },
+    {
+      "text": "Again, length 3.",
+      "start_ms": 56380,
+      "end_ms": 57240,
+      "start_frame": 1691,
+      "end_frame": 1717,
+      "word_count": 3
+    },
+    {
+      "text": "That is duplicate work.",
+      "start_ms": 57500,
+      "end_ms": 58540,
+      "start_frame": 1725,
+      "end_frame": 1756,
+      "word_count": 4
+    },
+    {
+      "text": "Next, 4.",
+      "start_ms": 58840,
+      "end_ms": 59980,
+      "start_frame": 1765,
+      "end_frame": 1799,
+      "word_count": 2
+    },
+    {
+      "text": "Need 5.",
+      "start_ms": 60440,
+      "end_ms": 61120,
+      "start_frame": 1813,
+      "end_frame": 1834,
+      "word_count": 2
+    },
+    {
+      "text": "Not found.",
+      "start_ms": 61440,
+      "end_ms": 61900,
+      "start_frame": 1843,
+      "end_frame": 1857,
+      "word_count": 2
+    },
+    {
+      "text": "Length 1.",
+      "start_ms": 62240,
+      "end_ms": 62980,
+      "start_frame": 1867,
+      "end_frame": 1889,
+      "word_count": 2
+    },
+    {
+      "text": "Next, 10.",
+      "start_ms": 63180,
+      "end_ms": 64220,
+      "start_frame": 1895,
+      "end_frame": 1927,
+      "word_count": 2
+    },
+    {
+      "text": "Need 11.",
+      "start_ms": 64800,
+      "end_ms": 65340,
+      "start_frame": 1944,
+      "end_frame": 1960,
+      "word_count": 2
+    },
+    {
+      "text": "Found.",
+      "start_ms": 65800,
+      "end_ms": 65980,
+      "start_frame": 1974,
+      "end_frame": 1979,
+      "word_count": 1
+    },
+    {
+      "text": "Need 12.",
+      "start_ms": 66480,
+      "end_ms": 67140,
+      "start_frame": 1994,
+      "end_frame": 2014,
+      "word_count": 2
+    },
+    {
+      "text": "Not found.",
+      "start_ms": 67500,
+      "end_ms": 67920,
+      "start_frame": 2025,
+      "end_frame": 2038,
+      "word_count": 2
+    },
+    {
+      "text": "Length 2.",
+      "start_ms": 68440,
+      "end_ms": 69200,
+      "start_frame": 2053,
+      "end_frame": 2076,
+      "word_count": 2
+    },
+    {
+      "text": "Next, 9.",
+      "start_ms": 69560,
+      "end_ms": 70160,
+      "start_frame": 2087,
+      "end_frame": 2105,
+      "word_count": 2
+    },
+    {
+      "text": "Need 10.",
+      "start_ms": 70880,
+      "end_ms": 71440,
+      "start_frame": 2126,
+      "end_frame": 2143,
+      "word_count": 2
+    },
+    {
+      "text": "Found.",
+      "start_ms": 71780,
+      "end_ms": 71960,
+      "start_frame": 2153,
+      "end_frame": 2159,
+      "word_count": 1
+    },
+    {
+      "text": "Need 11.",
+      "start_ms": 72640,
+      "end_ms": 73320,
+      "start_frame": 2179,
+      "end_frame": 2200,
+      "word_count": 2
+    },
+    {
+      "text": "Found.",
+      "start_ms": 73640,
+      "end_ms": 73920,
+      "start_frame": 2209,
+      "end_frame": 2218,
+      "word_count": 1
+    },
+    {
+      "text": "Need 12.",
+      "start_ms": 74560,
+      "end_ms": 75160,
+      "start_frame": 2237,
+      "end_frame": 2255,
+      "word_count": 2
+    },
+    {
+      "text": "Not found.",
+      "start_ms": 75440,
+      "end_ms": 75900,
+      "start_frame": 2263,
+      "end_frame": 2277,
+      "word_count": 2
+    },
+    {
+      "text": "Length 3.",
+      "start_ms": 76260,
+      "end_ms": 77120,
+      "start_frame": 2288,
+      "end_frame": 2314,
+      "word_count": 2
+    },
+    {
+      "text": "Next, 11.",
+      "start_ms": 77340,
+      "end_ms": 77940,
+      "start_frame": 2320,
+      "end_frame": 2338,
+      "word_count": 2
+    },
+    {
+      "text": "Need 12.",
+      "start_ms": 78220,
+      "end_ms": 78760,
+      "start_frame": 2347,
+      "end_frame": 2363,
+      "word_count": 2
+    },
+    {
+      "text": "Not found.",
+      "start_ms": 78960,
+      "end_ms": 79380,
+      "start_frame": 2369,
+      "end_frame": 2381,
+      "word_count": 2
+    },
+    {
+      "text": "Length 1.",
+      "start_ms": 79620,
+      "end_ms": 80440,
+      "start_frame": 2389,
+      "end_frame": 2413,
+      "word_count": 2
+    },
+    {
+      "text": "Now, minus 1.",
+      "start_ms": 80860,
+      "end_ms": 81920,
+      "start_frame": 2426,
+      "end_frame": 2458,
+      "word_count": 3
+    },
+    {
+      "text": "Need 0.",
+      "start_ms": 82220,
+      "end_ms": 82860,
+      "start_frame": 2467,
+      "end_frame": 2486,
+      "word_count": 2
+    },
+    {
+      "text": "Found.",
+      "start_ms": 83420,
+      "end_ms": 83580,
+      "start_frame": 2503,
+      "end_frame": 2507,
+      "word_count": 1
+    },
+    {
+      "text": "Need 1.",
+      "start_ms": 84040,
+      "end_ms": 84800,
+      "start_frame": 2521,
+      "end_frame": 2544,
+      "word_count": 2
+    },
+    {
+      "text": "Found.",
+      "start_ms": 85020,
+      "end_ms": 85240,
+      "start_frame": 2551,
+      "end_frame": 2557,
+      "word_count": 1
+    },
+    {
+      "text": "Need 2.",
+      "start_ms": 85960,
+      "end_ms": 86620,
+      "start_frame": 2579,
+      "end_frame": 2599,
+      "word_count": 2
+    },
+    {
+      "text": "Found.",
+      "start_ms": 86920,
+      "end_ms": 87220,
+      "start_frame": 2608,
+      "end_frame": 2617,
+      "word_count": 1
+    },
+    {
+      "text": "Need 3.",
+      "start_ms": 87880,
+      "end_ms": 88540,
+      "start_frame": 2636,
+      "end_frame": 2656,
+      "word_count": 2
+    },
+    {
+      "text": "Found.",
+      "start_ms": 88780,
+      "end_ms": 89040,
+      "start_frame": 2663,
+      "end_frame": 2671,
+      "word_count": 1
+    },
+    {
+      "text": "Need 4.",
+      "start_ms": 89780,
+      "end_ms": 90420,
+      "start_frame": 2693,
+      "end_frame": 2713,
+      "word_count": 2
+    },
+    {
+      "text": "Found.",
+      "start_ms": 90720,
+      "end_ms": 91000,
+      "start_frame": 2722,
+      "end_frame": 2730,
+      "word_count": 1
+    },
+    {
+      "text": "Need 5.",
+      "start_ms": 91600,
+      "end_ms": 92280,
+      "start_frame": 2748,
+      "end_frame": 2768,
+      "word_count": 2
+    },
+    {
+      "text": "Not found.",
+      "start_ms": 92480,
+      "end_ms": 93040,
+      "start_frame": 2774,
+      "end_frame": 2791,
+      "word_count": 2
+    },
+    {
+      "text": "Length 6.",
+      "start_ms": 93520,
+      "end_ms": 94140,
+      "start_frame": 2806,
+      "end_frame": 2824,
+      "word_count": 2
+    },
+    {
+      "text": "Best becomes 6.",
+      "start_ms": 94400,
+      "end_ms": 95400,
+      "start_frame": 2832,
+      "end_frame": 2862,
+      "word_count": 3
+    },
+    {
+      "text": "One last start.",
+      "start_ms": 95820,
+      "end_ms": 96620,
+      "start_frame": 2875,
+      "end_frame": 2899,
+      "word_count": 3
+    },
+    {
+      "text": "Zero.",
+      "start_ms": 96940,
+      "end_ms": 97320,
+      "start_frame": 2908,
+      "end_frame": 2920,
+      "word_count": 1
+    },
+    {
+      "text": "Need 1.",
+      "start_ms": 97900,
+      "end_ms": 98520,
+      "start_frame": 2937,
+      "end_frame": 2956,
+      "word_count": 2
+    },
+    {
+      "text": "Found.",
+      "start_ms": 98520,
+      "end_ms": 99100,
+      "start_frame": 2956,
+      "end_frame": 2973,
+      "word_count": 1
+    },
+    {
+      "text": "Need 2.",
+      "start_ms": 99900,
+      "end_ms": 100360,
+      "start_frame": 2997,
+      "end_frame": 3011,
+      "word_count": 2
+    },
+    {
+      "text": "Found.",
+      "start_ms": 100880,
+      "end_ms": 101160,
+      "start_frame": 3026,
+      "end_frame": 3035,
+      "word_count": 1
+    },
+    {
+      "text": "Need 3.",
+      "start_ms": 101440,
+      "end_ms": 102040,
+      "start_frame": 3043,
+      "end_frame": 3061,
+      "word_count": 2
+    },
+    {
+      "text": "Found.",
+      "start_ms": 102620,
+      "end_ms": 102980,
+      "start_frame": 3079,
+      "end_frame": 3089,
+      "word_count": 1
+    },
+    {
+      "text": "Need 4.",
+      "start_ms": 103440,
+      "end_ms": 103960,
+      "start_frame": 3103,
+      "end_frame": 3119,
+      "word_count": 2
+    },
+    {
+      "text": "Found.",
+      "start_ms": 104460,
+      "end_ms": 104680,
+      "start_frame": 3134,
+      "end_frame": 3140,
+      "word_count": 1
+    },
+    {
+      "text": "Need 5.",
+      "start_ms": 105300,
+      "end_ms": 105860,
+      "start_frame": 3159,
+      "end_frame": 3176,
+      "word_count": 2
+    },
+    {
+      "text": "Not found.",
+      "start_ms": 106360,
+      "end_ms": 106920,
+      "start_frame": 3191,
+      "end_frame": 3208,
+      "word_count": 2
+    },
+    {
+      "text": "Length 5.",
+      "start_ms": 107540,
+      "end_ms": 108120,
+      "start_frame": 3226,
+      "end_frame": 3244,
+      "word_count": 2
+    },
+    {
+      "text": "Done.",
+      "start_ms": 108240,
+      "end_ms": 108600,
+      "start_frame": 3247,
+      "end_frame": 3258,
+      "word_count": 1
+    },
+    {
+      "text": "Final best, 6.",
+      "start_ms": 109260,
+      "end_ms": 110640,
+      "start_frame": 3278,
+      "end_frame": 3319,
+      "word_count": 3
+    },
+    {
+      "text": "The method works.",
+      "start_ms": 111160,
+      "end_ms": 111940,
+      "start_frame": 3335,
+      "end_frame": 3358,
+      "word_count": 3
+    },
+    {
+      "text": "But almost every step keeps searching the same original array again.",
+      "start_ms": 112320,
+      "end_ms": 116360,
+      "start_frame": 3370,
+      "end_frame": 3491,
+      "word_count": 11
+    },
+    {
+      "text": "Let's write this exact logic first.",
+      "start_ms": 117400,
+      "end_ms": 119740,
+      "start_frame": 3522,
+      "end_frame": 3592,
+      "word_count": 6
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "simple.",
+      "before_word": "Take",
+      "start_ms": 1340,
+      "end_ms": 1660,
+      "duration_ms": 320,
+      "start_frame": 40,
+      "end_frame": 50,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "value.",
+      "before_word": "Let's",
+      "start_ms": 6800,
+      "end_ms": 7500,
+      "duration_ms": 700,
+      "start_frame": 204,
+      "end_frame": 225,
+      "duration_frames": 21
+    },
+    {
+      "after_word": "start.",
+      "before_word": "Start",
+      "start_ms": 9040,
+      "end_ms": 9560,
+      "duration_ms": 520,
+      "start_frame": 271,
+      "end_frame": 287,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "8.",
+      "before_word": "Need",
+      "start_ms": 10400,
+      "end_ms": 10860,
+      "duration_ms": 460,
+      "start_frame": 312,
+      "end_frame": 326,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "9.",
+      "before_word": "Found.",
+      "start_ms": 11640,
+      "end_ms": 12120,
+      "duration_ms": 480,
+      "start_frame": 349,
+      "end_frame": 364,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "Found.",
+      "before_word": "Need",
+      "start_ms": 12480,
+      "end_ms": 13120,
+      "duration_ms": 640,
+      "start_frame": 374,
+      "end_frame": 394,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "10.",
+      "before_word": "Found.",
+      "start_ms": 13780,
+      "end_ms": 14320,
+      "duration_ms": 540,
+      "start_frame": 413,
+      "end_frame": 430,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "Found.",
+      "before_word": "Need",
+      "start_ms": 14860,
+      "end_ms": 15460,
+      "duration_ms": 600,
+      "start_frame": 446,
+      "end_frame": 464,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "11.",
+      "before_word": "Found.",
+      "start_ms": 16180,
+      "end_ms": 16800,
+      "duration_ms": 620,
+      "start_frame": 485,
+      "end_frame": 504,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "Found.",
+      "before_word": "Need",
+      "start_ms": 17200,
+      "end_ms": 17600,
+      "duration_ms": 400,
+      "start_frame": 516,
+      "end_frame": 528,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "12.",
+      "before_word": "Not",
+      "start_ms": 18260,
+      "end_ms": 18660,
+      "duration_ms": 400,
+      "start_frame": 548,
+      "end_frame": 560,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "found.",
+      "before_word": "So",
+      "start_ms": 19380,
+      "end_ms": 19960,
+      "duration_ms": 580,
+      "start_frame": 581,
+      "end_frame": 599,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "2.",
+      "before_word": "Found.",
+      "start_ms": 23420,
+      "end_ms": 23740,
+      "duration_ms": 320,
+      "start_frame": 703,
+      "end_frame": 712,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "Found.",
+      "before_word": "Need",
+      "start_ms": 24120,
+      "end_ms": 24500,
+      "duration_ms": 380,
+      "start_frame": 724,
+      "end_frame": 735,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "4.",
+      "before_word": "Found.",
+      "start_ms": 26460,
+      "end_ms": 26760,
+      "duration_ms": 300,
+      "start_frame": 794,
+      "end_frame": 803,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "Found.",
+      "before_word": "Need",
+      "start_ms": 27080,
+      "end_ms": 27500,
+      "duration_ms": 420,
+      "start_frame": 812,
+      "end_frame": 825,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "Next,",
+      "before_word": "6.",
+      "start_ms": 31020,
+      "end_ms": 31320,
+      "duration_ms": 300,
+      "start_frame": 931,
+      "end_frame": 940,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "6.",
+      "before_word": "Need",
+      "start_ms": 31740,
+      "end_ms": 32080,
+      "duration_ms": 340,
+      "start_frame": 952,
+      "end_frame": 962,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "7.",
+      "before_word": "Not",
+      "start_ms": 32780,
+      "end_ms": 33220,
+      "duration_ms": 440,
+      "start_frame": 983,
+      "end_frame": 997,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "found.",
+      "before_word": "Length",
+      "start_ms": 33840,
+      "end_ms": 34580,
+      "duration_ms": 740,
+      "start_frame": 1015,
+      "end_frame": 1037,
+      "duration_frames": 22
+    },
+    {
+      "after_word": "3.",
+      "before_word": "Need",
+      "start_ms": 36280,
+      "end_ms": 36600,
+      "duration_ms": 320,
+      "start_frame": 1088,
+      "end_frame": 1098,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "Found.",
+      "before_word": "Need",
+      "start_ms": 37980,
+      "end_ms": 38560,
+      "duration_ms": 580,
+      "start_frame": 1139,
+      "end_frame": 1157,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "5.",
+      "before_word": "Not",
+      "start_ms": 39300,
+      "end_ms": 39700,
+      "duration_ms": 400,
+      "start_frame": 1179,
+      "end_frame": 1191,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "found.",
+      "before_word": "Length",
+      "start_ms": 40280,
+      "end_ms": 40580,
+      "duration_ms": 300,
+      "start_frame": 1208,
+      "end_frame": 1217,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "2.",
+      "before_word": "Next,",
+      "start_ms": 41320,
+      "end_ms": 41660,
+      "duration_ms": 340,
+      "start_frame": 1240,
+      "end_frame": 1250,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "Next,",
+      "before_word": "2.",
+      "start_ms": 41900,
+      "end_ms": 42280,
+      "duration_ms": 380,
+      "start_frame": 1257,
+      "end_frame": 1268,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "2.",
+      "before_word": "Need",
+      "start_ms": 42740,
+      "end_ms": 43340,
+      "duration_ms": 600,
+      "start_frame": 1282,
+      "end_frame": 1300,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "Found.",
+      "before_word": "Need",
+      "start_ms": 44560,
+      "end_ms": 45100,
+      "duration_ms": 540,
+      "start_frame": 1337,
+      "end_frame": 1353,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "4.",
+      "before_word": "Found.",
+      "start_ms": 45700,
+      "end_ms": 46020,
+      "duration_ms": 320,
+      "start_frame": 1371,
+      "end_frame": 1381,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "Found.",
+      "before_word": "Need",
+      "start_ms": 46300,
+      "end_ms": 46860,
+      "duration_ms": 560,
+      "start_frame": 1389,
+      "end_frame": 1406,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "3.",
+      "before_word": "Now",
+      "start_ms": 49540,
+      "end_ms": 49920,
+      "duration_ms": 380,
+      "start_frame": 1486,
+      "end_frame": 1498,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "2.",
+      "before_word": "Same",
+      "start_ms": 50900,
+      "end_ms": 51280,
+      "duration_ms": 380,
+      "start_frame": 1527,
+      "end_frame": 1538,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "again.",
+      "before_word": "3.",
+      "start_ms": 52360,
+      "end_ms": 52820,
+      "duration_ms": 460,
+      "start_frame": 1571,
+      "end_frame": 1585,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "Found.",
+      "before_word": "4.",
+      "start_ms": 53500,
+      "end_ms": 54060,
+      "duration_ms": 560,
+      "start_frame": 1605,
+      "end_frame": 1622,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "Found.",
+      "before_word": "5.",
+      "start_ms": 54580,
+      "end_ms": 55100,
+      "duration_ms": 520,
+      "start_frame": 1637,
+      "end_frame": 1653,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "work.",
+      "before_word": "Next,",
+      "start_ms": 58540,
+      "end_ms": 58840,
+      "duration_ms": 300,
+      "start_frame": 1756,
+      "end_frame": 1765,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "Next,",
+      "before_word": "4.",
+      "start_ms": 59120,
+      "end_ms": 59420,
+      "duration_ms": 300,
+      "start_frame": 1774,
+      "end_frame": 1783,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "4.",
+      "before_word": "Need",
+      "start_ms": 59980,
+      "end_ms": 60440,
+      "duration_ms": 460,
+      "start_frame": 1799,
+      "end_frame": 1813,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "5.",
+      "before_word": "Not",
+      "start_ms": 61120,
+      "end_ms": 61440,
+      "duration_ms": 320,
+      "start_frame": 1834,
+      "end_frame": 1843,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "found.",
+      "before_word": "Length",
+      "start_ms": 61900,
+      "end_ms": 62240,
+      "duration_ms": 340,
+      "start_frame": 1857,
+      "end_frame": 1867,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "Next,",
+      "before_word": "10.",
+      "start_ms": 63400,
+      "end_ms": 63880,
+      "duration_ms": 480,
+      "start_frame": 1902,
+      "end_frame": 1916,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "10.",
+      "before_word": "Need",
+      "start_ms": 64220,
+      "end_ms": 64800,
+      "duration_ms": 580,
+      "start_frame": 1927,
+      "end_frame": 1944,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "11.",
+      "before_word": "Found.",
+      "start_ms": 65340,
+      "end_ms": 65800,
+      "duration_ms": 460,
+      "start_frame": 1960,
+      "end_frame": 1974,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "Found.",
+      "before_word": "Need",
+      "start_ms": 65980,
+      "end_ms": 66480,
+      "duration_ms": 500,
+      "start_frame": 1979,
+      "end_frame": 1994,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "12.",
+      "before_word": "Not",
+      "start_ms": 67140,
+      "end_ms": 67500,
+      "duration_ms": 360,
+      "start_frame": 2014,
+      "end_frame": 2025,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "found.",
+      "before_word": "Length",
+      "start_ms": 67920,
+      "end_ms": 68440,
+      "duration_ms": 520,
+      "start_frame": 2038,
+      "end_frame": 2053,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "2.",
+      "before_word": "Next,",
+      "start_ms": 69200,
+      "end_ms": 69560,
+      "duration_ms": 360,
+      "start_frame": 2076,
+      "end_frame": 2087,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "9.",
+      "before_word": "Need",
+      "start_ms": 70160,
+      "end_ms": 70880,
+      "duration_ms": 720,
+      "start_frame": 2105,
+      "end_frame": 2126,
+      "duration_frames": 21
+    },
+    {
+      "after_word": "10.",
+      "before_word": "Found.",
+      "start_ms": 71440,
+      "end_ms": 71780,
+      "duration_ms": 340,
+      "start_frame": 2143,
+      "end_frame": 2153,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "Found.",
+      "before_word": "Need",
+      "start_ms": 71960,
+      "end_ms": 72640,
+      "duration_ms": 680,
+      "start_frame": 2159,
+      "end_frame": 2179,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "11.",
+      "before_word": "Found.",
+      "start_ms": 73320,
+      "end_ms": 73640,
+      "duration_ms": 320,
+      "start_frame": 2200,
+      "end_frame": 2209,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "Found.",
+      "before_word": "Need",
+      "start_ms": 73920,
+      "end_ms": 74560,
+      "duration_ms": 640,
+      "start_frame": 2218,
+      "end_frame": 2237,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "found.",
+      "before_word": "Length",
+      "start_ms": 75900,
+      "end_ms": 76260,
+      "duration_ms": 360,
+      "start_frame": 2277,
+      "end_frame": 2288,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "1.",
+      "before_word": "Now,",
+      "start_ms": 80440,
+      "end_ms": 80860,
+      "duration_ms": 420,
+      "start_frame": 2413,
+      "end_frame": 2426,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "1.",
+      "before_word": "Need",
+      "start_ms": 81920,
+      "end_ms": 82220,
+      "duration_ms": 300,
+      "start_frame": 2458,
+      "end_frame": 2467,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "0.",
+      "before_word": "Found.",
+      "start_ms": 82860,
+      "end_ms": 83420,
+      "duration_ms": 560,
+      "start_frame": 2486,
+      "end_frame": 2503,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "Found.",
+      "before_word": "Need",
+      "start_ms": 83580,
+      "end_ms": 84040,
+      "duration_ms": 460,
+      "start_frame": 2507,
+      "end_frame": 2521,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "Found.",
+      "before_word": "Need",
+      "start_ms": 85240,
+      "end_ms": 85960,
+      "duration_ms": 720,
+      "start_frame": 2557,
+      "end_frame": 2579,
+      "duration_frames": 22
+    },
+    {
+      "after_word": "2.",
+      "before_word": "Found.",
+      "start_ms": 86620,
+      "end_ms": 86920,
+      "duration_ms": 300,
+      "start_frame": 2599,
+      "end_frame": 2608,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "Found.",
+      "before_word": "Need",
+      "start_ms": 87220,
+      "end_ms": 87880,
+      "duration_ms": 660,
+      "start_frame": 2617,
+      "end_frame": 2636,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "Found.",
+      "before_word": "Need",
+      "start_ms": 89040,
+      "end_ms": 89780,
+      "duration_ms": 740,
+      "start_frame": 2671,
+      "end_frame": 2693,
+      "duration_frames": 22
+    },
+    {
+      "after_word": "4.",
+      "before_word": "Found.",
+      "start_ms": 90420,
+      "end_ms": 90720,
+      "duration_ms": 300,
+      "start_frame": 2713,
+      "end_frame": 2722,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "Found.",
+      "before_word": "Need",
+      "start_ms": 91000,
+      "end_ms": 91600,
+      "duration_ms": 600,
+      "start_frame": 2730,
+      "end_frame": 2748,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "found.",
+      "before_word": "Length",
+      "start_ms": 93040,
+      "end_ms": 93520,
+      "duration_ms": 480,
+      "start_frame": 2791,
+      "end_frame": 2806,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "6.",
+      "before_word": "One",
+      "start_ms": 95400,
+      "end_ms": 95820,
+      "duration_ms": 420,
+      "start_frame": 2862,
+      "end_frame": 2875,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "start.",
+      "before_word": "Zero.",
+      "start_ms": 96620,
+      "end_ms": 96940,
+      "duration_ms": 320,
+      "start_frame": 2899,
+      "end_frame": 2908,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "Zero.",
+      "before_word": "Need",
+      "start_ms": 97320,
+      "end_ms": 97900,
+      "duration_ms": 580,
+      "start_frame": 2920,
+      "end_frame": 2937,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "Found.",
+      "before_word": "Need",
+      "start_ms": 99100,
+      "end_ms": 99900,
+      "duration_ms": 800,
+      "start_frame": 2973,
+      "end_frame": 2997,
+      "duration_frames": 24
+    },
+    {
+      "after_word": "2.",
+      "before_word": "Found.",
+      "start_ms": 100360,
+      "end_ms": 100880,
+      "duration_ms": 520,
+      "start_frame": 3011,
+      "end_frame": 3026,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "3.",
+      "before_word": "Found.",
+      "start_ms": 102040,
+      "end_ms": 102620,
+      "duration_ms": 580,
+      "start_frame": 3061,
+      "end_frame": 3079,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "Found.",
+      "before_word": "Need",
+      "start_ms": 102980,
+      "end_ms": 103440,
+      "duration_ms": 460,
+      "start_frame": 3089,
+      "end_frame": 3103,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "4.",
+      "before_word": "Found.",
+      "start_ms": 103960,
+      "end_ms": 104460,
+      "duration_ms": 500,
+      "start_frame": 3119,
+      "end_frame": 3134,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "Found.",
+      "before_word": "Need",
+      "start_ms": 104680,
+      "end_ms": 105300,
+      "duration_ms": 620,
+      "start_frame": 3140,
+      "end_frame": 3159,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "5.",
+      "before_word": "Not",
+      "start_ms": 105860,
+      "end_ms": 106360,
+      "duration_ms": 500,
+      "start_frame": 3176,
+      "end_frame": 3191,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "found.",
+      "before_word": "Length",
+      "start_ms": 106920,
+      "end_ms": 107540,
+      "duration_ms": 620,
+      "start_frame": 3208,
+      "end_frame": 3226,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "Done.",
+      "before_word": "Final",
+      "start_ms": 108600,
+      "end_ms": 109260,
+      "duration_ms": 660,
+      "start_frame": 3258,
+      "end_frame": 3278,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "best,",
+      "before_word": "6.",
+      "start_ms": 109680,
+      "end_ms": 110320,
+      "duration_ms": 640,
+      "start_frame": 3290,
+      "end_frame": 3310,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "6.",
+      "before_word": "The",
+      "start_ms": 110640,
+      "end_ms": 111160,
+      "duration_ms": 520,
+      "start_frame": 3319,
+      "end_frame": 3335,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "works.",
+      "before_word": "But",
+      "start_ms": 111940,
+      "end_ms": 112320,
+      "duration_ms": 380,
+      "start_frame": 3358,
+      "end_frame": 3370,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "again.",
+      "before_word": "Let's",
+      "start_ms": 116360,
+      "end_ms": 117400,
+      "duration_ms": 1040,
+      "start_frame": 3491,
+      "end_frame": 3522,
+      "duration_frames": 31
+    }
+  ]
+}

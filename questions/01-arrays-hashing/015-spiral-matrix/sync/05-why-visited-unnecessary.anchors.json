@@ -1,0 +1,169 @@
+{
+  "scene": "05-why-visited-unnecessary",
+  "total_frames": 1362,
+  "duration_ms": 45400,
+  "fps": 30,
+  "anchor_count": 16,
+  "anchors": [
+    {
+      "id": "S05_CORRECT",
+      "phrase": "Method 1 is correct",
+      "start_word_idx": 0,
+      "end_word_idx": 3,
+      "start_frame": 0,
+      "end_frame": 49,
+      "start_ms": 0,
+      "end_ms": 1620
+    },
+    {
+      "id": "S05_TIME",
+      "phrase": "and already takes O m times n time.",
+      "start_word_idx": 4,
+      "end_word_idx": 10,
+      "start_frame": 49,
+      "end_frame": 187,
+      "start_ms": 1620,
+      "end_ms": 6240
+    },
+    {
+      "id": "S05_EXTRA",
+      "phrase": "The extra cost comes from the visited matrix.",
+      "start_word_idx": 11,
+      "end_word_idx": 18,
+      "start_frame": 203,
+      "end_frame": 299,
+      "start_ms": 6780,
+      "end_ms": 9980
+    },
+    {
+      "id": "S05_LOOK",
+      "phrase": "Now look at our matrix.",
+      "start_word_idx": 19,
+      "end_word_idx": 23,
+      "start_frame": 313,
+      "end_frame": 350,
+      "start_ms": 10440,
+      "end_ms": 11680
+    },
+    {
+      "id": "S05_AFTER_OUTER",
+      "phrase": "After the full outer layer has been processed,",
+      "start_word_idx": 24,
+      "end_word_idx": 31,
+      "start_frame": 369,
+      "end_frame": 458,
+      "start_ms": 12300,
+      "end_ms": 15280
+    },
+    {
+      "id": "S05_SEE",
+      "phrase": "see what remains.",
+      "start_word_idx": 32,
+      "end_word_idx": 34,
+      "start_frame": 476,
+      "end_frame": 507,
+      "start_ms": 15880,
+      "end_ms": 16900
+    },
+    {
+      "id": "S05_RECT",
+      "phrase": "It is still one rectangle.",
+      "start_word_idx": 35,
+      "end_word_idx": 39,
+      "start_frame": 519,
+      "end_frame": 569,
+      "start_ms": 17300,
+      "end_ms": 18960
+    },
+    {
+      "id": "S05_BETTER",
+      "phrase": "That gives us a better idea.",
+      "start_word_idx": 40,
+      "end_word_idx": 45,
+      "start_frame": 596,
+      "end_frame": 647,
+      "start_ms": 19860,
+      "end_ms": 21580
+    },
+    {
+      "id": "S05_INSTEAD",
+      "phrase": "Instead of remembering every processed cell,",
+      "start_word_idx": 46,
+      "end_word_idx": 51,
+      "start_frame": 669,
+      "end_frame": 769,
+      "start_ms": 22300,
+      "end_ms": 25640
+    },
+    {
+      "id": "S05_REMEMBER_RECT",
+      "phrase": "we can simply remember which rectangle is still unprocessed.",
+      "start_word_idx": 52,
+      "end_word_idx": 60,
+      "start_frame": 783,
+      "end_frame": 924,
+      "start_ms": 26100,
+      "end_ms": 30800
+    },
+    {
+      "id": "S05_FOUR",
+      "phrase": "And one rectangle needs only four boundaries.",
+      "start_word_idx": 61,
+      "end_word_idx": 67,
+      "start_frame": 926,
+      "end_frame": 1003,
+      "start_ms": 30880,
+      "end_ms": 33440
+    },
+    {
+      "id": "S05_TOP",
+      "phrase": "Top,",
+      "start_word_idx": 68,
+      "end_word_idx": 68,
+      "start_frame": 1018,
+      "end_frame": 1027,
+      "start_ms": 33940,
+      "end_ms": 34240
+    },
+    {
+      "id": "S05_BOTTOM",
+      "phrase": "bottom,",
+      "start_word_idx": 69,
+      "end_word_idx": 69,
+      "start_frame": 1039,
+      "end_frame": 1051,
+      "start_ms": 34620,
+      "end_ms": 35020
+    },
+    {
+      "id": "S05_LEFT_RIGHT",
+      "phrase": "left and right.",
+      "start_word_idx": 70,
+      "end_word_idx": 72,
+      "start_frame": 1064,
+      "end_frame": 1103,
+      "start_ms": 35480,
+      "end_ms": 36780
+    },
+    {
+      "id": "S05_REPLACE",
+      "phrase": "So we can replace an entire visited matrix with four integers.",
+      "start_word_idx": 73,
+      "end_word_idx": 83,
+      "start_frame": 1118,
+      "end_frame": 1288,
+      "start_ms": 37260,
+      "end_ms": 42920
+    },
+    {
+      "id": "S05_METHOD2",
+      "phrase": "That gives us Method 2.",
+      "start_word_idx": 84,
+      "end_word_idx": 88,
+      "start_frame": 1319,
+      "end_frame": 1362,
+      "start_ms": 43960,
+      "end_ms": 45400
+    }
+  ]
+}

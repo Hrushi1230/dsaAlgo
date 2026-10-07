@@ -1,0 +1,82 @@
+{
+  "scene": "S09",
+  "audio_file": "09-method3-idea.mp3",
+  "fps": 30,
+  "duration_frames": 2325,
+  "duration_ms": 77500,
+  "anchor_count": 6,
+  "anchors": [
+    {
+      "anchor_id": "S09_DEST",
+      "phrase": "clockwise rotation. So our plan is",
+      "plan_phrase": "Its final clockwise destination is",
+      "word_start_index": 132,
+      "word_end_index": 137,
+      "start_seconds": 63.4,
+      "end_seconds": 66.28,
+      "start_frame": 1902,
+      "end_frame_exclusive": 1989,
+      "note": "Destination target."
+    },
+    {
+      "anchor_id": "S09_BREAK",
+      "phrase": "Now let's execute these two",
+      "plan_phrase": "Now break that movement into two steps.",
+      "word_start_index": 149,
+      "word_end_index": 153,
+      "start_seconds": 72.68,
+      "end_seconds": 75.06,
+      "start_frame": 2180,
+      "end_frame_exclusive": 2253,
+      "note": "Two-step scaffold."
+    },
+    {
+      "anchor_id": "S09_TRANSPOSE",
+      "phrase": "the full matrix.",
+      "plan_phrase": "transpose the matrix.",
+      "word_start_index": 156,
+      "word_end_index": 158,
+      "start_seconds": 76.56,
+      "end_seconds": 77.5,
+      "start_frame": 2297,
+      "end_frame_exclusive": 2326,
+      "note": "Transpose operation."
+    },
+    {
+      "anchor_id": "S09_EIGHT_SRC",
+      "phrase": "two",
+      "plan_phrase": "row one, column two.",
+      "word_start_index": 153,
+      "word_end_index": 153,
+      "start_seconds": 74.68,
+      "end_seconds": 75.06,
+      "start_frame": 2240,
+      "end_frame_exclusive": 2253,
+      "note": "8 source."
+    },
+    {
+      "anchor_id": "S09_TWO",
+      "phrase": "two transformations",
+      "plan_phrase": "broken into two easier transformations.",
+      "word_start_index": 153,
+      "word_end_index": 154,
+      "start_seconds": 74.68,
+      "end_seconds": 75.84,
+      "start_frame": 2240,
+      "end_frame_exclusive": 2276,
+      "note": "Method3 identity."
+    },
+    {
+      "anchor_id": "S09_EXECUTE",
+      "phrase": "two transformations on the full matrix.",
+      "plan_phrase": "Now let’s execute both transformations on the full matrix.",
+      "word_start_index": 153,
+      "word_end_index": 158,
+      "start_seconds": 74.68,
+      "end_seconds": 77.5,
+      "start_frame": 2240,
+      "end_frame_exclusive": 2326,
+      "note": "Full-trace handoff."
+    }
+  ]
+}

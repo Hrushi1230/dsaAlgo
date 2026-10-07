@@ -1,0 +1,120 @@
+{
+  "question": {
+    "title": "Longest Consecutive Sequence",
+    "pattern": "Arrays & Hashing",
+    "pattern_number": 1,
+    "question_number": 10,
+    "leetcode": 128,
+    "difficulty": "Medium",
+    "technique": "HashSet + Sequence Start Check",
+    "companies": [
+      "Google",
+      "Amazon",
+      "Meta",
+      "Bloomberg"
+    ]
+  },
+  "approach_type": "C",
+  "approach_count": 3,
+  "scene_count": 13,
+  "test_data": {
+    "primary": {
+      "nums": [8, 1, 6, 3, 2, 2, 4, 10, 9, 11, -1, 0],
+      "expected_length": 6,
+      "longest_sequence": [-1, 0, 1, 2, 3, 4]
+    }
+  },
+  "scenes": [
+    {
+      "id": "01-intro-roadmap",
+      "beat": "INTRO_ROADMAP",
+      "title": "Roadmap Intro",
+      "narration": "Welcome back...\n\nWe are continuing our complete DSA roadmap of two hundred twenty-seven problems... pattern by pattern.\n\nRight now... we are inside Arrays and Hashing.\n\nNine questions are complete.\n\nIn the previous question... we finished Valid Sudoku.\n\nNow... question number ten.\n\nLongest Consecutive Sequence.\n\nLeetCode one twenty-eight... Medium.\n\nThe input is unsorted...\n\nbut we still need to find the longest run of consecutive values.\n\nAnd the target is linear time.\n\nBefore code...\n\nfirst understand the question.",
+      "visual_intent": "Deep chalkboard canvas with Algora branding. Roadmap banner highlighting Pattern 1: Arrays & Hashing. Checked badges for problems 001 through 009, followed by a glowing spotlight on Problem 010: Longest Consecutive Sequence (LC 128 Medium)."
+    },
+    {
+      "id": "02-understand",
+      "beat": "UNDERSTAND_PROBLEM",
+      "title": "Understand the Problem",
+      "narration": "We are given an unsorted array of integers.\n\nWe need only one thing...\n\nthe length of the longest consecutive sequence.\n\nConsecutive means the values continue by one.\n\nOne... two... three... four.\n\nThey do not need to sit next to each other inside the input.\n\nNow this is our main example...\n\n[8, 1, 6, 3, 2, 2, 4, 10, 9, 11, -1, 0]\n\nIt has a duplicate...\n\na negative value...\n\nand the numbers are completely unsorted.\n\nFor this input...\n\nthe answer is six.\n\nWhy six?\n\nWe will prove it while tracing the approaches.\n\nFirst...\n\nlet's try the most direct method.",
+      "visual_intent": "Chalkboard array cards displaying the primary test case [8, 1, 6, 3, 2, 2, 4, 10, 9, 11, -1, 0]. Highlight features: duplicate 2 highlighted in coral, negative -1 in cyan, unsorted order emphasized. Target goal: find longest chain of consecutive integers in O(n) time."
+    },
+    {
+      "id": "03-trace-brute",
+      "beat": "TRACE_BRUTE",
+      "title": "Brute Force: Idea & Complete Trace",
+      "narration": "Brute force is simple.\n\nTake every number as a possible start...\n\nand keep searching the original array for the next value.\n\nLet's trace every start.\n\nStart with eight.\n\nNeed nine...\n\nfound.\n\nNeed ten...\n\nfound.\n\nNeed eleven...\n\nfound.\n\nNeed twelve...\n\nnot found.\n\nSo eight gives length four.\n\nNext... one.\n\nNeed two...\n\nfound.\n\nNeed three...\n\nfound.\n\nNeed four...\n\nfound.\n\nNeed five...\n\nnot found.\n\nSo one gives length four.\n\nNext... six.\n\nNeed seven...\n\nnot found.\n\nLength one.\n\nNext... three.\n\nNeed four...\n\nfound.\n\nNeed five...\n\nnot found.\n\nLength two.\n\nNext... two.\n\nNeed three...\n\nfound.\n\nNeed four...\n\nfound.\n\nNeed five...\n\nnot found.\n\nLength three.\n\nNow the second two.\n\nSame search again...\n\nthree found...\n\nfour found...\n\nfive missing.\n\nAgain length three.\n\nThat is duplicate work.\n\nNext... four.\n\nNeed five...\n\nnot found.\n\nLength one.\n\nNext... ten.\n\nNeed eleven...\n\nfound.\n\nNeed twelve...\n\nnot found.\n\nLength two.\n\nNext... nine.\n\nNeed ten...\n\nfound.\n\nNeed eleven...\n\nfound.\n\nNeed twelve...\n\nnot found.\n\nLength three.\n\nNext... eleven.\n\nNeed twelve...\n\nnot found.\n\nLength one.\n\nNow... minus one.\n\nNeed zero...\n\nfound.\n\nNeed one...\n\nfound.\n\nNeed two...\n\nfound.\n\nNeed three...\n\nfound.\n\nNeed four...\n\nfound.\n\nNeed five...\n\nnot found.\n\nLength six.\n\nBest becomes six.\n\nOne last start... zero.\n\nNeed one...\n\nfound.\n\nNeed two...\n\nfound.\n\nNeed three...\n\nfound.\n\nNeed four...\n\nfound.\n\nNeed five...\n\nnot found.\n\nLength five.\n\nDone.\n\nFinal best...\n\nsix.\n\nThe method works.\n\nBut almost every step keeps searching the same original array again.\n\nLet's write this exact logic first.",
+      "visual_intent": "Full visual walkthrough across all starts: 8 -> (9,10,11), 1 -> (2,3,4), 6, 3 -> (4), 2 -> (3,4), second 2 (duplicate work badge), 4, 10 -> (11), 9 -> (10,11), 11, -1 -> (0,1,2,3,4) hitting length 6, and 0 -> (1,2,3,4). Longest counter dynamically tracks and locks at 6."
+    },
+    {
+      "id": "04-code-brute",
+      "beat": "CODE_BRUTE",
+      "title": "Brute Force: Code",
+      "narration": "Alright...\n\nlet's convert that exact thinking into code.\n\nFirst... longest starts at zero.\n\nThen we go through every number in the array.\n\nFor each number...\n\nwe treat it as a possible beginning.\n\nSo current starts from that number...\n\nand length starts from one.\n\nNow comes our repeated search.\n\nWhile current plus one exists in nums...\n\nmove current forward by one...\n\nand increase the length.\n\nWhen the next value is missing...\n\nthat sequence ends.\n\nThen compare this length with longest...\n\nand keep the bigger one.\n\nAt the end...\n\nreturn longest.\n\nThe code is simple.\n\nBut see this line...\n\ncurrent plus one in nums.\n\nnums is a normal Python list.\n\nSo Python may have to walk through the list to find that value.\n\nAnd this check can happen again...\n\nand again...\n\nand again...\n\nfor many starting numbers.\n\nThat is where the brute force becomes expensive.",
+      "visual_intent": "Python code editor on center stage. Line-by-line reveal of brute force loop. Prominent spotlight and coral glow on 'while current + 1 in nums:', highlighting the expensive linear search inside the nested while loop."
+    },
+    {
+      "id": "05-why-brute",
+      "beat": "WHY_NOT_BRUTE",
+      "title": "Brute Force: Why It Fails",
+      "narration": "Now measure the work.\n\nWe can try up to n starting numbers.\n\nFrom one start...\n\nthe sequence can continue up to n steps.\n\nAnd each next value in nums check can itself scan up to n values.\n\nSo worst case...\n\nn times n times n.\n\nO of n cubed.\n\nThe real problem is repeated searching.\n\nEvery time we need the next value...\n\nwe may scan the same unsorted array again.\n\nSo what if we remove that searching?\n\nWhat if the numbers are arranged first?\n\nThen if two values are consecutive...\n\nthey should come next to each other.\n\nLet's see what that changes.",
+      "visual_intent": "Full-width hero complexity curve drawing O(n³) in coral. Derivation blocks: n starts * n chain length * n linear scan = O(n³). Operations counter rolls up to astronomical numbers for N = 10,000. Coral verdict banner: 'Repeated searching in unsorted array causes cubic blowup!' Transition prompt to sorting."
+    },
+    {
+      "id": "06-trace-better",
+      "beat": "TRACE_BETTER",
+      "title": "Better Approach: Complete Sorted Trace",
+      "narration": "Same input...\n\n[8, 1, 6, 3, 2, 2, 4, 10, 9, 11, -1, 0]\n\nAfter sorting...\n\nminus one... zero... one... two... two... three... four... six... eight... nine... ten... eleven.\n\nStart with minus one.\n\nCurrent length is one.\n\nMove to zero.\n\nZero is exactly minus one plus one.\n\nLength two.\n\nMove to one.\n\nOne is zero plus one.\n\nLength three.\n\nMove to two.\n\nTwo is one plus one.\n\nLength four.\n\nNow the next value is two again.\n\nThis is a duplicate.\n\nIt does not increase the sequence...\n\nand it does not break the sequence.\n\nSo ignore it.\n\nCurrent length stays four.\n\nMove to three.\n\nThree is two plus one.\n\nLength five.\n\nMove to four.\n\nFour is three plus one.\n\nLength six.\n\nBest becomes six.\n\nNow four to six.\n\nFive is missing.\n\nSo the sequence breaks.\n\nReset current length to one for six.\n\nNext... six to eight.\n\nSeven is missing.\n\nBreak again.\n\nCurrent length is one for eight.\n\nNow eight to nine...\n\nconsecutive.\n\nLength two.\n\nNine to ten...\n\nconsecutive.\n\nLength three.\n\nTen to eleven...\n\nconsecutive.\n\nLength four.\n\nBest is still six.\n\nDone.\n\nSo while scanning the sorted array...\n\nplus one means extend.\n\nSame value means duplicate... ignore it.\n\nAnything else means gap... reset.\n\nNow let's write exactly this scan in code.",
+      "visual_intent": "Sorted array cards [-1, 0, 1, 2, 2, 3, 4, 6, 8, 9, 10, 11] laid out horizontally. Moving pointers (i, i-1) step through. Visual rules highlighted: adjacent +1 extends streak (mint), identical value skips duplicate without break (faded chalk), gap resets streak to 1 (coral break indicator). Max streak tracks up to 6."
+    },
+    {
+      "id": "07-code-better",
+      "beat": "CODE_BETTER",
+      "title": "Better Approach: Code",
+      "narration": "First handle the empty array.\n\nIf nums is empty...\n\nthere is no sequence...\n\nso return zero.\n\nThen sort nums.\n\nNow both longest and current start at one.\n\nWe begin from index one...\n\nbecause every value will be compared with the value just before it.\n\nFirst condition...\n\nif both values are equal...\n\nthis is a duplicate.\n\nSo just continue.\n\nDo not increase the sequence.\n\nDo not reset it.\n\nJust ignore the duplicate.\n\nNext...\n\nif the current value is previous value plus one...\n\nwe have a consecutive step.\n\nIncrease current.\n\nOtherwise...\n\nthere is a gap.\n\nSo a new sequence starts here...\n\nand current goes back to one.\n\nAfter each real step...\n\nupdate longest.\n\nAt the end...\n\nreturn longest.\n\nSimple scan.\n\nClean code.\n\nAnd much better than repeated list searching.",
+      "visual_intent": "Clean Python code editor revealing the sorting solution: empty check `if not nums: return 0`, `nums.sort()`, and the single for-loop with the three branches: duplicate continue, consecutive increment, and gap reset."
+    },
+    {
+      "id": "08-why-better",
+      "beat": "WHY_NOT_BETTER",
+      "title": "Better Approach: Why It Is Not Optimal",
+      "narration": "This solution is correct.\n\nThe scan itself is O of n.\n\nBut before scanning...\n\nwe sorted the array.\n\nSorting costs O of n log n.\n\nSo overall...\n\nO of n log n.\n\nThe question asks for O of n.\n\nNow think about what we actually needed from sorting.\n\nWe only wanted to know...\n\ndoes the next value exist?\n\nDo we really need to arrange every number just for that?\n\nNo.\n\nA HashSet can answer existence checks quickly on average.\n\nBut there is still one danger.\n\nIf we start walking from every number...\n\nwe can repeat the same sequence again and again.\n\nSo the real question is...\n\nhow do we know where a sequence actually begins?",
+      "visual_intent": "Chalkboard graph plotting O(n log n) curve in gold, with brute O(n³) dimmed in background. Highlight N = 100,000 comparisons. Gold verdict: 'O(n log n) sorting violates O(n) requirement'. Question badge: 'Do we really need sorting just to check if the next value exists?' Sets up HashSet."
+    },
+    {
+      "id": "09-optimal-idea",
+      "beat": "OPTIMAL_IDEA",
+      "title": "Optimal Approach: Find the Real Start",
+      "narration": "Take nine.\n\nDoes eight exist?\n\nYes.\n\nSo nine cannot be the beginning.\n\nIf we start from nine...\n\nwe are already entering a sequence from the middle.\n\nTake ten.\n\nDoes nine exist?\n\nYes.\n\nAgain... not a start.\n\nTake eleven.\n\nDoes ten exist?\n\nYes.\n\nNot a start.\n\nNow take eight.\n\nDoes seven exist?\n\nNo.\n\nSo eight can be the beginning.\n\nThat gives us the rule.\n\nFor any number x...\n\ncheck x minus one.\n\nIf x minus one exists...\n\nskip x.\n\nIf x minus one does not exist...\n\nthis can be a real sequence start.\n\nOnly then...\n\nwalk forward.\n\nNow put all values into a HashSet.\n\nThe duplicate two disappears...\n\nand membership checks become fast on average.\n\nOne note before the full trace...\n\nI will place the values on a number line so the sequence is easy to see.\n\nThat is only our visual explanation.\n\nA HashSet itself is not sorted.\n\nNow let's trace every unique value.",
+      "visual_intent": "Center-stage visual demonstration of Sequence Head rule: examining numbers 9, 10, 11 (each checking predecessor and getting rejected with 'Not a start' badge) vs number 8 (checking 7 -> missing! -> 'Real start!'). Golden rule callout box: 'If x - 1 in set -> skip; if x - 1 not in set -> start walk'."
+    },
+    {
+      "id": "10-trace-optimal",
+      "beat": "TRACE_OPTIMAL",
+      "title": "Optimal Approach: Complete Visual Trace",
+      "narration": "Our original array is...\n\n[8, 1, 6, 3, 2, 2, 4, 10, 9, 11, -1, 0]\n\nFirst... create the set.\n\nThe second two does not create another value.\n\nSo now we have eleven unique numbers.\n\nThe set has no sorted order...\n\nbut for the trace, I am placing the values on a number line so we can see the connections.\n\nLet's begin with minus one.\n\nBefore minus one comes minus two.\n\nIs minus two in the set?\n\nNo.\n\nSo minus one is a start.\n\nNow walk forward.\n\nIs zero present?\n\nYes.\n\nLength becomes two.\n\nIs one present?\n\nYes.\n\nLength three.\n\nIs two present?\n\nYes.\n\nLength four.\n\nIs three present?\n\nYes.\n\nLength five.\n\nIs four present?\n\nYes.\n\nLength six.\n\nIs five present?\n\nNo.\n\nStop.\n\nThis sequence has length six.\n\nLongest becomes six.\n\nNow check zero.\n\nDoes minus one exist?\n\nYes.\n\nSo zero is not a start.\n\nSkip it.\n\nCheck one.\n\nDoes zero exist?\n\nYes.\n\nNot a start.\n\nSkip.\n\nCheck two.\n\nDoes one exist?\n\nYes.\n\nSkip.\n\nCheck three.\n\nDoes two exist?\n\nYes.\n\nSkip.\n\nCheck four.\n\nDoes three exist?\n\nYes.\n\nSkip.\n\nNow six.\n\nDoes five exist?\n\nNo.\n\nSo six is a start.\n\nCheck seven.\n\nSeven is not there.\n\nThis sequence has length one.\n\nLongest stays six.\n\nNow eight.\n\nDoes seven exist?\n\nNo.\n\nSo eight is a start.\n\nCheck nine.\n\nYes.\n\nLength two.\n\nCheck ten.\n\nYes.\n\nLength three.\n\nCheck eleven.\n\nYes.\n\nLength four.\n\nCheck twelve.\n\nNo.\n\nStop.\n\nThis sequence has length four.\n\nLongest is still six.\n\nNow nine.\n\nDoes eight exist?\n\nYes.\n\nSo skip nine.\n\nTen.\n\nDoes nine exist?\n\nYes.\n\nSkip.\n\nEleven.\n\nDoes ten exist?\n\nYes.\n\nSkip.\n\nDone.\n\nNotice what did not happen.\n\nWe did not start again from zero...\n\nor one...\n\nor two...\n\nor three...\n\nor four...\n\nor nine...\n\nor ten...\n\nor eleven.\n\nThose values already had a predecessor.\n\nSo we only walked the real sequence starts.\n\nMinus one...\n\nsix...\n\nand eight.\n\nFinal longest...\n\nsix.\n\nSame answer.\n\nNo sorting.\n\nNo repeated list scan.\n\nNow the code will feel much simpler because the idea is already clear.",
+      "visual_intent": "Chalkboard number line representation of the unique values. Tracing all elements: -1 (start, walks to 4, streak 6), 0 to 4 (skipped because predecessor exists), 6 (start, streak 1), 8 (start, walks to 11, streak 4), 9 to 11 (skipped). Highlight summary card: Only 3 sequence heads were ever walked."
+    },
+    {
+      "id": "11-code-optimal",
+      "beat": "CODE_OPTIMAL",
+      "title": "Optimal Approach: Code",
+      "narration": "First...\n\nconvert nums into a set.\n\nnum_set = set(nums).\n\nThis gives us unique values...\n\nand fast average membership checks.\n\nLongest starts at zero.\n\nNow go through every unique number.\n\nAnd here is the most important line in the whole solution.\n\nIf num minus one is not in the set...\n\nonly then do we start a sequence.\n\nWhy?\n\nBecause there is no predecessor.\n\nSo this number is the beginning.\n\nSet current to num...\n\nand length to one.\n\nNow keep checking current plus one.\n\nWhile the next value exists...\n\nmove current forward...\n\nand increase the length.\n\nWhen the next value is missing...\n\nthe run is finished.\n\nUpdate longest.\n\nAnd finally...\n\nreturn longest.\n\nThat's it.\n\nThe code is short because the main work was understanding where a sequence should start.",
+      "visual_intent": "Python code editor displaying the final optimal code. Line-by-line illumination: `num_set = set(nums)`, `if num - 1 not in num_set:` (with gold halo and star marker), inner while loop `while current + 1 in num_set:`, and `longest = max(longest, length)`."
+    },
+    {
+      "id": "12-complexity",
+      "beat": "COMPLEXITY",
+      "title": "Complexity Deep Dive: For + While",
+      "narration": "Now there is one question I really want you to ask.\n\nWe have a for loop...\n\nand inside it...\n\nwe have a while loop.\n\nSo is this O of n squared?\n\nIt looks like that at first.\n\nBut no.\n\nAnd the reason is the start check.\n\nTake our longest chain...\n\nminus one... zero... one... two... three... four.\n\nWhich value launches the while loop?\n\nOnly minus one.\n\nZero does not...\n\nbecause minus one exists.\n\nOne does not...\n\nbecause zero exists.\n\nTwo does not...\n\nbecause one exists.\n\nThree does not...\n\nbecause two exists.\n\nFour does not...\n\nbecause three exists.\n\nSo this six-value chain is walked forward once...\n\nnot six times.\n\nSame for eight... nine... ten... eleven.\n\nOnly eight launches the walk.\n\nNine, ten, and eleven are skipped as starts.\n\nAcross the whole set...\n\nthe forward walking touches the sequence values only as part of their real run.\n\nSo building the set takes O of n expected time.\n\nChecking each unique number as a possible start takes O of n expected time.\n\nAnd all forward walks together also add up to O of n.\n\nNot O of n for every number...\n\nO of n in total.\n\nSo the final expected time complexity is...\n\nO of n.\n\nExtra space is...\n\nO of n...\n\nfor the HashSet.\n\nNow compare the journey.\n\nRepeated list searching...\n\nworst case O of n cubed.\n\nSorting and scanning...\n\nO of n log n.\n\nHashSet plus real sequence starts...\n\nexpected O of n.\n\nThat is why the start check matters so much.\n\nIt is not a small code trick.\n\nIt is what protects us from repeated work.",
+      "visual_intent": "Mathematical complexity proof: Center stage breakdown proving total work = set creation O(n) + outer checks O(n) + inner while steps O(n) = O(n) total! Visual comparison showing the 3 complexity curves: O(n³) dimmed coral, O(n log n) dimmed gold, and O(n) glowing bright mint."
+    },
+    {
+      "id": "13-recap",
+      "beat": "RECAP",
+      "title": "Final Recap & Roadmap Update",
+      "narration": "Alright...\n\nLongest Consecutive Sequence is done.\n\nThree approaches.\n\nBrute force...\n\nstart from every number and repeatedly search the list.\n\nWorst case... O of n cubed.\n\nBetter...\n\nsort once and scan neighbours.\n\nO of n log n.\n\nOptimal...\n\nuse a HashSet.\n\nAnd remember the one rule that matters most...\n\nDoes x minus one exist?\n\nIf yes...\n\nx is not a start.\n\nSkip it.\n\nIf no...\n\nstart from x...\n\nand walk forward.\n\nThat gives us expected O of n time...\n\nwith O of n extra space.\n\nSo when an unsorted array asks about consecutive values...\n\nthink fast membership...\n\nthen find the real sequence start.\n\nQuestion number ten...\n\ncomplete.\n\nOur roadmap is now...\n\nten out of two hundred twenty-seven.\n\nWe stay inside Arrays and Hashing...\n\nand continue to question number eleven.",
+      "visual_intent": "Summary card comparing all 3 approaches (Time/Space/Core Insight). Golden key takeaway card: 'Does x - 1 exist? If no, start and walk'. Algora DSA Roadmap progress card updates to 10 / 227 complete with celebratory chalk particle effect."
+    }
+  ]
+}

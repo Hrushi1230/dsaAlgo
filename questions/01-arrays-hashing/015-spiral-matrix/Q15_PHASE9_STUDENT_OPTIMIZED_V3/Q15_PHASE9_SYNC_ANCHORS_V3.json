@@ -1,0 +1,867 @@
+{
+  "question": "Q15 Spiral Matrix",
+  "leetcode": 54,
+  "phase": 9,
+  "version": "STUDENT_OPTIMIZED_V3",
+  "fps": 30,
+  "timing_status": "NO_AUDIO_YET_NO_FRAMES",
+  "script": "Q15_Spiral_Matrix_FINAL_STUDENT_OPTIMIZED.md",
+  "scenes": {
+    "S01": [
+      {
+        "id": "S01_WELCOME",
+        "phrase": "Welcome back to Code With Animation"
+      },
+      {
+        "id": "S01_Q14",
+        "phrase": "Question fourteen"
+      },
+      {
+        "id": "S01_ROTATE",
+        "phrase": "Rotate Image"
+      },
+      {
+        "id": "S01_COMPLETE",
+        "phrase": "is complete."
+      },
+      {
+        "id": "S01_PROGRESS",
+        "phrase": "fourteen out of two hundred twenty-seven."
+      },
+      {
+        "id": "S01_Q15",
+        "phrase": "we have Question Fifteen"
+      },
+      {
+        "id": "S01_TITLE",
+        "phrase": "Spiral Matrix"
+      },
+      {
+        "id": "S01_LC",
+        "phrase": "LeetCode fifty-four"
+      },
+      {
+        "id": "S01_MEDIUM",
+        "phrase": "Medium."
+      },
+      {
+        "id": "S01_FIXED",
+        "phrase": "we are not changing the matrix."
+      },
+      {
+        "id": "S01_READ",
+        "phrase": "We only need to read its values"
+      },
+      {
+        "id": "S01_SPIRAL",
+        "phrase": "in spiral order."
+      },
+      {
+        "id": "S01_UNDERSTAND",
+        "phrase": "Let’s understand it."
+      }
+    ],
+    "S02": [
+      {
+        "id": "S02_MN",
+        "phrase": "We are given an `m` by `n` matrix."
+      },
+      {
+        "id": "S02_M_ROWS",
+        "phrase": "`m` is the number of rows"
+      },
+      {
+        "id": "S02_N_COLS",
+        "phrase": "`n` is the number of columns."
+      },
+      {
+        "id": "S02_RECT",
+        "phrase": "So the matrix does not have to be square."
+      },
+      {
+        "id": "S02_MASTER",
+        "phrase": "we will use this five by six matrix."
+      },
+      {
+        "id": "S02_OUTPUT_CONTRACT",
+        "phrase": "Our job is to return all... `m × n` values... in one list... following spiral order."
+      },
+      {
+        "id": "S02_DIR_SEQUENCE",
+        "phrase": "That order moves... right... down... left... up... and then repeats."
+      },
+      {
+        "id": "S02_TURN_Q",
+        "phrase": "when should we turn?"
+      },
+      {
+        "id": "S02_MOVING_RIGHT",
+        "phrase": "Suppose we are moving right."
+      },
+      {
+        "id": "S02_OUTSIDE",
+        "phrase": "If the next position goes outside the matrix"
+      },
+      {
+        "id": "S02_TURN_OUT",
+        "phrase": "we obviously need to turn."
+      },
+      {
+        "id": "S02_OUTER_DONE",
+        "phrase": "But after completing the outer part"
+      },
+      {
+        "id": "S02_INSIDE",
+        "phrase": "the next position may still be inside the matrix"
+      },
+      {
+        "id": "S02_ALREADY_VISITED",
+        "phrase": "and already visited."
+      },
+      {
+        "id": "S02_METHOD1_RULE",
+        "phrase": "Turn when the next position is... outside the matrix... or already visited."
+      },
+      {
+        "id": "S02_STATE",
+        "phrase": "we keep the current position... the current direction... and a visited matrix."
+      },
+      {
+        "id": "S02_TRACE",
+        "phrase": "Now let’s trace it properly."
+      }
+    ],
+    "S03": [
+      {
+        "id": "S03_START",
+        "phrase": "We start at the top-left cell"
+      },
+      {
+        "id": "S03_ONE",
+        "phrase": "value one."
+      },
+      {
+        "id": "S03_DIR_RIGHT",
+        "phrase": "Our current direction is... right."
+      },
+      {
+        "id": "S03_TOP_SPAN",
+        "phrase": "We move across the complete top row... from one... through six."
+      },
+      {
+        "id": "S03_AT6_OUT",
+        "phrase": "At six... the next position to the right... is outside the matrix."
+      },
+      {
+        "id": "S03_TURN_DOWN",
+        "phrase": "So we turn clockwise... from right... to down."
+      },
+      {
+        "id": "S03_RIGHT_SPAN",
+        "phrase": "Now we move down the complete right edge... from twelve... through thirty."
+      },
+      {
+        "id": "S03_AT30_OUT",
+        "phrase": "At thirty... the next downward position... is outside the matrix."
+      },
+      {
+        "id": "S03_TURN_LEFT",
+        "phrase": "So we turn... from down... to left."
+      },
+      {
+        "id": "S03_BOTTOM_SPAN",
+        "phrase": "Now we move across the bottom edge... from twenty-nine... through twenty-five."
+      },
+      {
+        "id": "S03_AT25_OUT",
+        "phrase": "At twenty-five... the next position to the left... is outside the matrix."
+      },
+      {
+        "id": "S03_TURN_UP",
+        "phrase": "So we turn... from left... to up."
+      },
+      {
+        "id": "S03_LEFT_TO7",
+        "phrase": "Now we move upward along the left edge... until we reach seven."
+      },
+      {
+        "id": "S03_DIFFERENT",
+        "phrase": "something different happens."
+      },
+      {
+        "id": "S03_7_INSIDE",
+        "phrase": "The cell above seven... is still inside the matrix."
+      },
+      {
+        "id": "S03_1_VISITED",
+        "phrase": "But it contains one... and one was already visited."
+      },
+      {
+        "id": "S03_NOT_BORDER",
+        "phrase": "we are not turning because of the border."
+      },
+      {
+        "id": "S03_VISITED_CAUSE",
+        "phrase": "We are turning because the next cell... is already visited."
+      },
+      {
+        "id": "S03_TURN_RIGHT",
+        "phrase": "We turn clockwise... from up... to right."
+      },
+      {
+        "id": "S03_INNER_POINT",
+        "phrase": "that lets us enter the inner spiral."
+      },
+      {
+        "id": "S03_INNER_TOP",
+        "phrase": "Now we move right... from eight... through eleven."
+      },
+      {
+        "id": "S03_11_VIS",
+        "phrase": "At eleven... the next cell is twelve. Twelve is already visited."
+      },
+      {
+        "id": "S03_TURN_DOWN2",
+        "phrase": "So we turn... from right... to down."
+      },
+      {
+        "id": "S03_INNER_RIGHT",
+        "phrase": "Now we move down... until twenty-three."
+      },
+      {
+        "id": "S03_23_VIS",
+        "phrase": "At twenty-three... the next cell below is twenty-nine. Twenty-nine is already visited."
+      },
+      {
+        "id": "S03_TURN_LEFT2",
+        "phrase": "So we turn... from down... to left."
+      },
+      {
+        "id": "S03_INNER_BOTTOM",
+        "phrase": "Now we move left... until twenty."
+      },
+      {
+        "id": "S03_20_VIS",
+        "phrase": "At twenty... the next cell is nineteen. Nineteen is already visited."
+      },
+      {
+        "id": "S03_TURN_UP2",
+        "phrase": "So we turn... from left... to up."
+      },
+      {
+        "id": "S03_REACH14",
+        "phrase": "Moving upward... we reach fourteen."
+      },
+      {
+        "id": "S03_14_VIS",
+        "phrase": "The cell above fourteen... is eight. Eight was already visited."
+      },
+      {
+        "id": "S03_TURN_RIGHT2",
+        "phrase": "So we turn... from up... to right."
+      },
+      {
+        "id": "S03_FINAL_TWO",
+        "phrase": "Now only the final two cells remain... fifteen... and sixteen."
+      },
+      {
+        "id": "S03_ANSWER30",
+        "phrase": "the answer contains exactly... thirty values."
+      },
+      {
+        "id": "S03_MATRIX30",
+        "phrase": "five times six... which is also thirty cells."
+      },
+      {
+        "id": "S03_STOP",
+        "phrase": "So every cell has been visited exactly once... and we stop."
+      },
+      {
+        "id": "S03_LOGIC",
+        "phrase": "So Method One always follows the same logic... process the current cell... inspect the next position... and turn when that next position is... outside... or already visited."
+      },
+      {
+        "id": "S03_CODE_HANDOFF",
+        "phrase": "Now let’s map this exact trace into code."
+      }
+    ],
+    "S04": [
+      {
+        "id": "S04_DIMS",
+        "phrase": "we store the number of rows and columns."
+      },
+      {
+        "id": "S04_DIRS",
+        "phrase": "Then we keep the four directions... in clockwise order."
+      },
+      {
+        "id": "S04_DIR_WORDS",
+        "phrase": "Right... down... left... and up."
+      },
+      {
+        "id": "S04_VISITED",
+        "phrase": "We also create a visited matrix... with the same dimensions as the input."
+      },
+      {
+        "id": "S04_START_STATE",
+        "phrase": "Our row and column start at zero... and direction zero means... right."
+      },
+      {
+        "id": "S04_LOOP",
+        "phrase": "The loop allows exactly... `m × n` visits... one for every matrix cell."
+      },
+      {
+        "id": "S04_PROCESS",
+        "phrase": "For the current cell... we add its value to the answer... and mark it visited."
+      },
+      {
+        "id": "S04_IMPORTANT_CHECK",
+        "phrase": "Then there is one small but important check."
+      },
+      {
+        "id": "S04_ALL_VALUES",
+        "phrase": "If the answer already contains... all `m × n` values... we stop immediately."
+      },
+      {
+        "id": "S04_WHY",
+        "phrase": "Why?"
+      },
+      {
+        "id": "S04_NO_NEXT",
+        "phrase": "Because after the final valid cell... there is no next unvisited cell to move to."
+      },
+      {
+        "id": "S04_WITHOUT",
+        "phrase": "Without this check... we would unnecessarily try to calculate another move."
+      },
+      {
+        "id": "S04_NEXTCALC",
+        "phrase": "Otherwise... we calculate the next row and column... using the current direction."
+      },
+      {
+        "id": "S04_IFCOND",
+        "phrase": "If that next position is outside the matrix... or already visited..."
+      },
+      {
+        "id": "S04_ROTATE",
+        "phrase": "we rotate the direction once..."
+      },
+      {
+        "id": "S04_RECALC",
+        "phrase": "and calculate the next position again."
+      },
+      {
+        "id": "S04_MOVE",
+        "phrase": "Then we move there."
+      },
+      {
+        "id": "S04_MATCH",
+        "phrase": "That is exactly the rule... we just traced."
+      },
+      {
+        "id": "S04_TIME",
+        "phrase": "Every cell enters the answer once... so the time complexity is... `O(m × n)`."
+      },
+      {
+        "id": "S04_SPACE",
+        "phrase": "But the visited matrix also stores... `m × n` states. So the auxiliary space is... `O(m × n)`."
+      },
+      {
+        "id": "S04_QUESTION",
+        "phrase": "do we really need this visited matrix?"
+      }
+    ],
+    "S05": [
+      {
+        "id": "S05_CORRECT",
+        "phrase": "Method One is correct"
+      },
+      {
+        "id": "S05_TIME",
+        "phrase": "`O(m × n)` time."
+      },
+      {
+        "id": "S05_EXTRA",
+        "phrase": "The extra cost comes from... the visited matrix."
+      },
+      {
+        "id": "S05_AFTER_OUTER",
+        "phrase": "after the full outer layer has been processed."
+      },
+      {
+        "id": "S05_RECT",
+        "phrase": "it is still one rectangle."
+      },
+      {
+        "id": "S05_BETTER",
+        "phrase": "That gives us a better idea."
+      },
+      {
+        "id": "S05_REMEMBER_RECT",
+        "phrase": "we can simply remember... which rectangle is still unprocessed."
+      },
+      {
+        "id": "S05_FOUR",
+        "phrase": "And one rectangle needs only four boundaries."
+      },
+      {
+        "id": "S05_NAMES",
+        "phrase": "`top`... `bottom`... `left`... and `right`."
+      },
+      {
+        "id": "S05_REPLACE",
+        "phrase": "we can replace... an entire visited matrix... with four integers."
+      },
+      {
+        "id": "S05_METHOD2",
+        "phrase": "That gives us Method Two."
+      }
+    ],
+    "S06": [
+      {
+        "id": "S06_MASTER",
+        "phrase": "For our five by six matrix"
+      },
+      {
+        "id": "S06_INIT",
+        "phrase": "the initial boundaries are"
+      },
+      {
+        "id": "S06_TOP0",
+        "phrase": "`top = 0`"
+      },
+      {
+        "id": "S06_BOTTOM4",
+        "phrase": "`bottom = 4`"
+      },
+      {
+        "id": "S06_LEFT0",
+        "phrase": "`left = 0`"
+      },
+      {
+        "id": "S06_RIGHT5",
+        "phrase": "`right = 5`."
+      },
+      {
+        "id": "S06_ACTIVE_RECT",
+        "phrase": "These four boundaries describe... the active rectangle."
+      },
+      {
+        "id": "S06_INVARIANT",
+        "phrase": "And we maintain one important invariant."
+      },
+      {
+        "id": "S06_OUTSIDE",
+        "phrase": "Everything outside the active rectangle... has already been processed exactly once."
+      },
+      {
+        "id": "S06_INSIDE",
+        "phrase": "Everything inside the active rectangle... is still unprocessed."
+      },
+      {
+        "id": "S06_PEEL",
+        "phrase": "we peel complete edges."
+      },
+      {
+        "id": "S06_EDGE_ORDER",
+        "phrase": "Top edge... right edge... bottom edge... left edge."
+      },
+      {
+        "id": "S06_SHRINK",
+        "phrase": "After consuming an edge... we move that boundary inward."
+      },
+      {
+        "id": "S06_RULE",
+        "phrase": "But there is one important rule."
+      },
+      {
+        "id": "S06_VALIDATE",
+        "phrase": "After shrinking... we must make sure... the active rectangle still exists."
+      },
+      {
+        "id": "S06_SINGLE",
+        "phrase": "one row... or one column... is left."
+      },
+      {
+        "id": "S06_TRACE",
+        "phrase": "Now let’s trace the full boundary method."
+      }
+    ],
+    "S07": [
+      {
+        "id": "S07_INIT",
+        "phrase": "We begin with... `top = 0`... `bottom = 4`... `left = 0`... `right = 5`."
+      },
+      {
+        "id": "S07_ACTIVE",
+        "phrase": "The whole matrix is active."
+      },
+      {
+        "id": "S07_TOP1",
+        "phrase": "consume the complete top edge... from one... through six."
+      },
+      {
+        "id": "S07_TOP_DONE",
+        "phrase": "That row is finished forever."
+      },
+      {
+        "id": "S07_TOP_MOVE",
+        "phrase": "`top` moves from zero... to one."
+      },
+      {
+        "id": "S07_ROWS_REMAIN",
+        "phrase": "Rows still remain... so we continue."
+      },
+      {
+        "id": "S07_RIGHT1",
+        "phrase": "Now consume the complete right edge... from twelve... through thirty."
+      },
+      {
+        "id": "S07_RIGHT_MOVE",
+        "phrase": "`right` moves from five... to four."
+      },
+      {
+        "id": "S07_COLS_REMAIN",
+        "phrase": "Columns still remain... so we continue."
+      },
+      {
+        "id": "S07_BOTTOM1",
+        "phrase": "Now consume the bottom edge... from twenty-nine... through twenty-five... moving right to left."
+      },
+      {
+        "id": "S07_BOTTOM_MOVE",
+        "phrase": "`bottom` moves from four... to three."
+      },
+      {
+        "id": "S07_ROWS_REMAIN2",
+        "phrase": "Rows still remain... so we continue."
+      },
+      {
+        "id": "S07_LEFT1",
+        "phrase": "Now consume the left edge... moving upward... until seven."
+      },
+      {
+        "id": "S07_LEFT_MOVE",
+        "phrase": "`left` moves from zero... to one."
+      },
+      {
+        "id": "S07_OUTER_DONE",
+        "phrase": "The first outer round is complete."
+      },
+      {
+        "id": "S07_REMAIN",
+        "phrase": "And now look at the remaining work."
+      },
+      {
+        "id": "S07_SIZE",
+        "phrase": "The active region has changed... from five by six... to three by four."
+      },
+      {
+        "id": "S07_CONTINUE",
+        "phrase": "We do not restart the algorithm. We simply continue... with this smaller rectangle."
+      },
+      {
+        "id": "S07_TOP2",
+        "phrase": "Consume the new top edge... from eight... through eleven."
+      },
+      {
+        "id": "S07_TOP_MOVE2",
+        "phrase": "`top` moves from one... to two."
+      },
+      {
+        "id": "S07_ROWS_REMAIN3",
+        "phrase": "Rows still remain."
+      },
+      {
+        "id": "S07_RIGHT2",
+        "phrase": "Consume the new right edge... down to twenty-three."
+      },
+      {
+        "id": "S07_RIGHT_MOVE2",
+        "phrase": "`right` moves from four... to three."
+      },
+      {
+        "id": "S07_COLS_REMAIN2",
+        "phrase": "Columns still remain."
+      },
+      {
+        "id": "S07_BOTTOM2",
+        "phrase": "Now consume the bottom edge... from twenty-two... through twenty... moving right to left."
+      },
+      {
+        "id": "S07_BOTTOM_MOVE2",
+        "phrase": "`bottom` moves from three... to two."
+      },
+      {
+        "id": "S07_ONE_ROW",
+        "phrase": "Notice... one row still remains. So we are not finished."
+      },
+      {
+        "id": "S07_LEFT2",
+        "phrase": "Now consume the left edge."
+      },
+      {
+        "id": "S07_FOURTEEN",
+        "phrase": "that edge contains only one cell... fourteen. We collect fourteen."
+      },
+      {
+        "id": "S07_LEFT_MOVE2",
+        "phrase": "`left` moves from one... to two."
+      },
+      {
+        "id": "S07_REMAIN_ROW",
+        "phrase": "Only one row is left."
+      },
+      {
+        "id": "S07_EDGECASE",
+        "phrase": "This is an important edge case."
+      },
+      {
+        "id": "S07_VALID_ROW",
+        "phrase": "A single row is still... a valid active rectangle."
+      },
+      {
+        "id": "S07_FINAL_TOP",
+        "phrase": "We consume that final top edge... fifteen... then sixteen."
+      },
+      {
+        "id": "S07_TOP_MOVE3",
+        "phrase": "`top` moves from two... to three."
+      },
+      {
+        "id": "S07_CROSSED",
+        "phrase": "`top` is greater than `bottom`."
+      },
+      {
+        "id": "S07_NO_ROWS",
+        "phrase": "no rows remain."
+      },
+      {
+        "id": "S07_STOP",
+        "phrase": "The active rectangle has disappeared... so the traversal stops."
+      },
+      {
+        "id": "S07_ONCE",
+        "phrase": "Every cell was added... exactly once."
+      },
+      {
+        "id": "S07_NO_VISITED",
+        "phrase": "And we did not use... a visited matrix."
+      },
+      {
+        "id": "S07_CODE",
+        "phrase": "Now let’s map this directly into code."
+      }
+    ],
+    "S08": [
+      {
+        "id": "S08_BOUND_START",
+        "phrase": "The code starts with... the four boundaries."
+      },
+      {
+        "id": "S08_BOUND_VALUES",
+        "phrase": "`top` and `left` begin at zero. `bottom` is `m - 1`. And `right` is `n - 1`."
+      },
+      {
+        "id": "S08_VALID_LOOP",
+        "phrase": "The main loop continues only while... the active rectangle is valid."
+      },
+      {
+        "id": "S08_CONDITION",
+        "phrase": "`top <= bottom`... and... `left <= right`."
+      },
+      {
+        "id": "S08_ORDER",
+        "phrase": "Inside the loop... we follow the same order as our trace."
+      },
+      {
+        "id": "S08_PATTERN",
+        "phrase": "Consume an edge... shrink that boundary... validate... and continue."
+      },
+      {
+        "id": "S08_TOP_CHECK",
+        "phrase": "After the top edge... we check whether any rows remain."
+      },
+      {
+        "id": "S08_RIGHT_CHECK",
+        "phrase": "After the right edge... we check whether any columns remain."
+      },
+      {
+        "id": "S08_BOTTOM_CHECK",
+        "phrase": "After the bottom edge... we check the rows again."
+      },
+      {
+        "id": "S08_LEFT_NO_CHECK",
+        "phrase": "After the left edge... we do not need another separate check."
+      },
+      {
+        "id": "S08_WHY",
+        "phrase": "Why?"
+      },
+      {
+        "id": "S08_WHILE_RETURN",
+        "phrase": "Because execution returns to the main `while` condition"
+      },
+      {
+        "id": "S08_BOTH",
+        "phrase": "that condition validates both row... and column boundaries... before the next round begins."
+      },
+      {
+        "id": "S08_PY_DETAIL",
+        "phrase": "There is one more Python detail... that is easy to get wrong."
+      },
+      {
+        "id": "S08_BOTTOM_RANGE",
+        "phrase": "`range(right, left - 1, -1)`."
+      },
+      {
+        "id": "S08_LEFT_RANGE",
+        "phrase": "`range(bottom, top - 1, -1)`."
+      },
+      {
+        "id": "S08_EXCLUSIVE",
+        "phrase": "Python does not include the stop value in `range`."
+      },
+      {
+        "id": "S08_LEFT_MINUS",
+        "phrase": "`left - 1`... lets us include the `left` boundary."
+      },
+      {
+        "id": "S08_TOP_MINUS",
+        "phrase": "`top - 1`... lets us include the `top` boundary."
+      },
+      {
+        "id": "S08_PROTECT",
+        "phrase": "These checks and reverse ranges... are what protect us from... off-by-one errors... and duplicate values."
+      },
+      {
+        "id": "S08_TIME",
+        "phrase": "Every matrix cell is appended once. So the time complexity is... `O(m × n)`."
+      },
+      {
+        "id": "S08_SPACE",
+        "phrase": "apart from the output list... we keep only a constant number of variables. So the auxiliary space is... `O(1)`."
+      }
+    ],
+    "S09": [
+      {
+        "id": "S09_COMPARE",
+        "phrase": "Let’s compare both methods."
+      },
+      {
+        "id": "S09_M1",
+        "phrase": "Method One... Direction Simulation with Visited... takes... `O(m × n)` time... and... `O(m × n)` auxiliary space."
+      },
+      {
+        "id": "S09_M2",
+        "phrase": "Method Two... Shrinking Boundaries... also takes... `O(m × n)` time... but only... `O(1)` auxiliary space."
+      },
+      {
+        "id": "S09_REP",
+        "phrase": "The improvement is... how we represent the remaining work."
+      },
+      {
+        "id": "S09_MISTAKES",
+        "phrase": "Now remember these important mistakes."
+      },
+      {
+        "id": "S09_RECT",
+        "phrase": "do not assume the matrix is square. It is `m` by `n`. Rows and columns can be different."
+      },
+      {
+        "id": "S09_TURN",
+        "phrase": "in Method One... do not turn only at the border. You must turn when the next cell is... outside... or already visited."
+      },
+      {
+        "id": "S09_CONSUME_FIRST",
+        "phrase": "in the boundary method... consume an edge first... then shrink its boundary. Do not shrink before processing it."
+      },
+      {
+        "id": "S09_VALIDATE",
+        "phrase": "after shrinking... validate the remaining rectangle... before processing another edge."
+      },
+      {
+        "id": "S09_DUPLICATE",
+        "phrase": "single-row and single-column cases... can create duplicate values."
+      },
+      {
+        "id": "S09_DONT_STOP",
+        "phrase": "do not stop just because... only one row... or one column... is left. Those cells are still valid work."
+      },
+      {
+        "id": "S09_CASES",
+        "phrase": "a one by one matrix... a single row... a single column... wide matrices... and tall matrices."
+      },
+      {
+        "id": "S09_VALUES",
+        "phrase": "Duplicate values... negative values... and zeros... also change nothing."
+      },
+      {
+        "id": "S09_POSITIONS",
+        "phrase": "Because our traversal depends on... positions... not on the values stored there."
+      }
+    ],
+    "S10": [
+      {
+        "id": "S10_COMPRESS",
+        "phrase": "Let’s compress the full lesson."
+      },
+      {
+        "id": "S10_M1",
+        "phrase": "Method One... simulates the spiral directly."
+      },
+      {
+        "id": "S10_M1_STATE",
+        "phrase": "position... direction... and visited cells."
+      },
+      {
+        "id": "S10_RULE",
+        "phrase": "Turn when the next position is... outside... or already visited."
+      },
+      {
+        "id": "S10_M1_COMPLEX",
+        "phrase": "`O(m × n)` time... and... `O(m × n)` auxiliary space."
+      },
+      {
+        "id": "S10_OBS",
+        "phrase": "After complete outer edges are removed... the remaining work is still... one rectangle."
+      },
+      {
+        "id": "S10_BOUNDS",
+        "phrase": "So Method Two keeps only... `top`... `bottom`... `left`... and `right`."
+      },
+      {
+        "id": "S10_CYCLE",
+        "phrase": "Consume an edge... shrink its boundary... validate the remaining rectangle... and continue."
+      },
+      {
+        "id": "S10_M2_COMPLEX",
+        "phrase": "`O(m × n)` time... with only... `O(1)` auxiliary space."
+      },
+      {
+        "id": "S10_PATTERN",
+        "phrase": "whenever work disappears... from the outside inward"
+      },
+      {
+        "id": "S10_ASK",
+        "phrase": "can I represent the remaining work... using boundaries... instead of remembering every processed element?"
+      },
+      {
+        "id": "S10_COMPLETE",
+        "phrase": "Question Fifteen... Spiral Matrix... is complete."
+      },
+      {
+        "id": "S10_PROGRESS",
+        "phrase": "fifteen out of two hundred twenty-seven."
+      },
+      {
+        "id": "S10_Q16",
+        "phrase": "Question Sixteen... Subarray Sum Equals K."
+      },
+      {
+        "id": "S10_NEXT",
+        "phrase": "That is up next."
+      }
+    ]
+  }
+}

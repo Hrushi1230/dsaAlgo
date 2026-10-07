@@ -1,0 +1,328 @@
+{
+  "audio_file": "10-recap.mp3",
+  "duration_ms": 22720,
+  "duration_frames": 682,
+  "fps": 30,
+  "word_count": 31,
+  "words": [
+    {
+      "word": "Question",
+      "start_ms": 0,
+      "end_ms": 700,
+      "start_frame": 0,
+      "end_frame": 21
+    },
+    {
+      "word": "15.",
+      "start_ms": 700,
+      "end_ms": 1620,
+      "start_frame": 21,
+      "end_frame": 49
+    },
+    {
+      "word": "Spiral",
+      "start_ms": 2000,
+      "end_ms": 2460,
+      "start_frame": 60,
+      "end_frame": 74
+    },
+    {
+      "word": "matrix",
+      "start_ms": 2460,
+      "end_ms": 3000,
+      "start_frame": 74,
+      "end_frame": 90
+    },
+    {
+      "word": "is",
+      "start_ms": 3000,
+      "end_ms": 3600,
+      "start_frame": 90,
+      "end_frame": 108
+    },
+    {
+      "word": "complete.",
+      "start_ms": 3600,
+      "end_ms": 4240,
+      "start_frame": 108,
+      "end_frame": 127
+    },
+    {
+      "word": "Our",
+      "start_ms": 4780,
+      "end_ms": 5040,
+      "start_frame": 143,
+      "end_frame": 151
+    },
+    {
+      "word": "progress",
+      "start_ms": 5040,
+      "end_ms": 5500,
+      "start_frame": 151,
+      "end_frame": 165
+    },
+    {
+      "word": "moves",
+      "start_ms": 5500,
+      "end_ms": 5920,
+      "start_frame": 165,
+      "end_frame": 178
+    },
+    {
+      "word": "from",
+      "start_ms": 5920,
+      "end_ms": 6480,
+      "start_frame": 178,
+      "end_frame": 194
+    },
+    {
+      "word": "14",
+      "start_ms": 6480,
+      "end_ms": 7480,
+      "start_frame": 194,
+      "end_frame": 224
+    },
+    {
+      "word": "out",
+      "start_ms": 7480,
+      "end_ms": 7900,
+      "start_frame": 224,
+      "end_frame": 237
+    },
+    {
+      "word": "of",
+      "start_ms": 7900,
+      "end_ms": 8320,
+      "start_frame": 237,
+      "end_frame": 250
+    },
+    {
+      "word": "227",
+      "start_ms": 8320,
+      "end_ms": 9880,
+      "start_frame": 250,
+      "end_frame": 296
+    },
+    {
+      "word": "to",
+      "start_ms": 9880,
+      "end_ms": 10920,
+      "start_frame": 296,
+      "end_frame": 328
+    },
+    {
+      "word": "15",
+      "start_ms": 10920,
+      "end_ms": 11860,
+      "start_frame": 328,
+      "end_frame": 356
+    },
+    {
+      "word": "out",
+      "start_ms": 11860,
+      "end_ms": 12460,
+      "start_frame": 356,
+      "end_frame": 374
+    },
+    {
+      "word": "of",
+      "start_ms": 12460,
+      "end_ms": 13060,
+      "start_frame": 374,
+      "end_frame": 392
+    },
+    {
+      "word": "227.",
+      "start_ms": 13060,
+      "end_ms": 14740,
+      "start_frame": 392,
+      "end_frame": 442
+    },
+    {
+      "word": "And",
+      "start_ms": 15400,
+      "end_ms": 15400,
+      "start_frame": 462,
+      "end_frame": 462
+    },
+    {
+      "word": "next",
+      "start_ms": 15400,
+      "end_ms": 16000,
+      "start_frame": 462,
+      "end_frame": 480
+    },
+    {
+      "word": "question",
+      "start_ms": 16000,
+      "end_ms": 16800,
+      "start_frame": 480,
+      "end_frame": 504
+    },
+    {
+      "word": "16.",
+      "start_ms": 16800,
+      "end_ms": 17760,
+      "start_frame": 504,
+      "end_frame": 533
+    },
+    {
+      "word": "Subarray",
+      "start_ms": 18440,
+      "end_ms": 18960,
+      "start_frame": 553,
+      "end_frame": 569
+    },
+    {
+      "word": "sum",
+      "start_ms": 18960,
+      "end_ms": 19360,
+      "start_frame": 569,
+      "end_frame": 581
+    },
+    {
+      "word": "equals",
+      "start_ms": 19360,
+      "end_ms": 20040,
+      "start_frame": 581,
+      "end_frame": 601
+    },
+    {
+      "word": "k.",
+      "start_ms": 20040,
+      "end_ms": 20540,
+      "start_frame": 601,
+      "end_frame": 616
+    },
+    {
+      "word": "That",
+      "start_ms": 21560,
+      "end_ms": 21820,
+      "start_frame": 647,
+      "end_frame": 655
+    },
+    {
+      "word": "is",
+      "start_ms": 21820,
+      "end_ms": 22060,
+      "start_frame": 655,
+      "end_frame": 662
+    },
+    {
+      "word": "up",
+      "start_ms": 22060,
+      "end_ms": 22320,
+      "start_frame": 662,
+      "end_frame": 670
+    },
+    {
+      "word": "next.",
+      "start_ms": 22320,
+      "end_ms": 22720,
+      "start_frame": 670,
+      "end_frame": 682
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Question 15.",
+      "start_ms": 0,
+      "end_ms": 1620,
+      "start_frame": 0,
+      "end_frame": 49,
+      "word_count": 2
+    },
+    {
+      "text": "Spiral matrix is complete.",
+      "start_ms": 2000,
+      "end_ms": 4240,
+      "start_frame": 60,
+      "end_frame": 127,
+      "word_count": 4
+    },
+    {
+      "text": "Our progress moves from 14 out of 227 to 15 out of 227.",
+      "start_ms": 4780,
+      "end_ms": 14740,
+      "start_frame": 143,
+      "end_frame": 442,
+      "word_count": 13
+    },
+    {
+      "text": "And next question 16.",
+      "start_ms": 15400,
+      "end_ms": 17760,
+      "start_frame": 462,
+      "end_frame": 533,
+      "word_count": 4
+    },
+    {
+      "text": "Subarray sum equals k.",
+      "start_ms": 18440,
+      "end_ms": 20540,
+      "start_frame": 553,
+      "end_frame": 616,
+      "word_count": 4
+    },
+    {
+      "text": "That is up next.",
+      "start_ms": 21560,
+      "end_ms": 22720,
+      "start_frame": 647,
+      "end_frame": 682,
+      "word_count": 4
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "15.",
+      "before_word": "Spiral",
+      "start_ms": 1620,
+      "end_ms": 2000,
+      "duration_ms": 380,
+      "start_frame": 49,
+      "end_frame": 60,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "complete.",
+      "before_word": "Our",
+      "start_ms": 4240,
+      "end_ms": 4780,
+      "duration_ms": 540,
+      "start_frame": 127,
+      "end_frame": 143,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "227.",
+      "before_word": "And",
+      "start_ms": 14740,
+      "end_ms": 15400,
+      "duration_ms": 660,
+      "start_frame": 442,
+      "end_frame": 462,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "16.",
+      "before_word": "Subarray",
+      "start_ms": 17760,
+      "end_ms": 18440,
+      "duration_ms": 680,
+      "start_frame": 533,
+      "end_frame": 553,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "k.",
+      "before_word": "That",
+      "start_ms": 20540,
+      "end_ms": 21560,
+      "duration_ms": 1020,
+      "start_frame": 616,
+      "end_frame": 647,
+      "duration_frames": 31
+    }
+  ]
+}

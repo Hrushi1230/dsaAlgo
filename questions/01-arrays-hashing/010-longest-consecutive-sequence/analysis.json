@@ -1,0 +1,40 @@
+{
+  "question": "Longest Consecutive Sequence",
+  "leetcode": 128,
+  "pattern": "Arrays & Hashing",
+  "pattern_number": 1,
+  "question_number": 10,
+  "difficulty": "Medium",
+  "approach_type": "C",
+  "scene_count": 13,
+  "approaches": {
+    "brute": {
+      "name": "Repeated Search in Unsorted List",
+      "technique": "For each number in the array, treat it as a sequence start and repeatedly search for current + 1 in the original list using a while loop.",
+      "time": "O(n³)",
+      "space": "O(1)",
+      "teaches": "Shows how checking for existence in an unsorted list leads to repeated linear scans across the entire array, causing a cubic time explosion (n * n * n)."
+    },
+    "better": {
+      "name": "Sort and Linear Scan",
+      "technique": "Sort the array first in O(n log n). Then do a single pass comparing adjacent elements: skip duplicates, extend streak if nums[i] == nums[i-1] + 1, or reset streak to 1 if there is a gap.",
+      "time": "O(n log n)",
+      "space": "O(1) auxiliary (or O(n) depending on sort implementation)",
+      "teaches": "Demonstrates how sorting eliminates searching by grouping consecutive values adjacently, but hits the O(n log n) comparison sorting ceiling, violating the interview's O(n) requirement."
+    },
+    "optimal": {
+      "name": "HashSet + Sequence Start Check",
+      "technique": "Insert all numbers into a HashSet for O(1) average lookups. For each number x, check if x - 1 exists in the set. If x - 1 exists, x is not a start—skip it immediately. Only if x - 1 is missing, walk forward checking x + 1, x + 2, ... and update max streak.",
+      "time": "O(n)",
+      "space": "O(n)",
+      "teaches": "Proves how combining fast O(1) hash lookups with sequence-head detection (pruning redundant mid-sequence starts) guarantees every sequence element is visited only once during forward walks, achieving strictly linear O(n) time."
+    }
+  },
+  "decision_reasoning": {
+    "D1_brute_teaches_why": "YES — naive list scanning (O(n³)) viscerally exposes why searching an unsorted collection repeatedly is disastrous.",
+    "D2_better_distinct": "YES — sorting (O(n log n)) teaches how adjacent grouping solves search without extra space, but hits the sorting barrier when O(n) is demanded.",
+    "D3_dp_progression": "N/A — not a DP problem.",
+    "D4_data_structure_problem": "NO — lookup and sequence-head detection algorithmic progression.",
+    "D5_fewer_is_better": "The 3-tier pedagogical progression (Unsorted Scan O(n³) → Sort & Scan O(n log n) → HashSet Sequence Start O(n)) provides the complete journey from naive intuition to sorting trap to optimal linear mastery across 13 scenes."
+  }
+}

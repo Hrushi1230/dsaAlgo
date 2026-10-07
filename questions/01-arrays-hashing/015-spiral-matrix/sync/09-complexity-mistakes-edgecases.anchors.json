@@ -1,0 +1,147 @@
+{
+  "scene": "S09",
+  "duration_frames": 3175,
+  "duration_ms": 105840,
+  "anchors": [
+    {
+      "id": "S09_COMPARE",
+      "phrase": "Let’s compare both methods.",
+      "start_word": "Let's",
+      "start_ms": 0,
+      "start_frame": 0,
+      "end_word": "methods.",
+      "end_ms": 1560,
+      "end_frame": 47
+    },
+    {
+      "id": "S09_M1",
+      "phrase": "Method One... Direction Simulation with Visited... takes... O(m × n) time... and... O(m × n) auxiliary space.",
+      "start_word": "Method",
+      "start_ms": 2380,
+      "start_frame": 71,
+      "end_word": "space.",
+      "end_ms": 11160,
+      "end_frame": 335
+    },
+    {
+      "id": "S09_M2",
+      "phrase": "Method Two... Shrinking Boundaries... also takes... O(m × n) time... but only... O(1) auxiliary space.",
+      "start_word": "Method",
+      "start_ms": 11880,
+      "start_frame": 356,
+      "end_word": "space.",
+      "end_ms": 20840,
+      "end_frame": 625
+    },
+    {
+      "id": "S09_REP",
+      "phrase": "The improvement is... how we represent the remaining work.",
+      "start_word": "So",
+      "start_ms": 21600,
+      "start_frame": 648,
+      "end_word": "work.",
+      "end_ms": 27220,
+      "end_frame": 817
+    },
+    {
+      "id": "S09_MISTAKES",
+      "phrase": "Now remember these important mistakes.",
+      "start_word": "Now",
+      "start_ms": 27620,
+      "start_frame": 829,
+      "end_word": "mistakes.",
+      "end_ms": 29880,
+      "end_frame": 896
+    },
+    {
+      "id": "S09_RECT",
+      "phrase": "do not assume the matrix is square. It is m by n. Rows and columns can be different.",
+      "start_word": "First,",
+      "start_ms": 30520,
+      "start_frame": 916,
+      "end_word": "different.",
+      "end_ms": 37380,
+      "end_frame": 1121
+    },
+    {
+      "id": "S09_TURN",
+      "phrase": "in Method One... do not turn only at the border. You must turn when the next cell is... outside... or already visited.",
+      "start_word": "Second,",
+      "start_ms": 37820,
+      "start_frame": 1135,
+      "end_word": "visited.",
+      "end_ms": 47340,
+      "end_frame": 1420
+    },
+    {
+      "id": "S09_CONSUME_FIRST",
+      "phrase": "in the boundary method... consume an edge first... then shrink its boundary. Do not shrink before processing it.",
+      "start_word": "Third,",
+      "start_ms": 48320,
+      "start_frame": 1450,
+      "end_word": "it.",
+      "end_ms": 57680,
+      "end_frame": 1730
+    },
+    {
+      "id": "S09_VALIDATE",
+      "phrase": "after shrinking... validate the remaining rectangle... before processing another edge.",
+      "start_word": "Fourth,",
+      "start_ms": 57700,
+      "start_frame": 1731,
+      "end_word": "edge.",
+      "end_ms": 63820,
+      "end_frame": 1915
+    },
+    {
+      "id": "S09_DUPLICATE",
+      "phrase": "single-row and single-column cases... can create duplicate values.",
+      "start_word": "Otherwise,",
+      "start_ms": 64440,
+      "start_frame": 1933,
+      "end_word": "values.",
+      "end_ms": 70460,
+      "end_frame": 2114
+    },
+    {
+      "id": "S09_DONT_STOP",
+      "phrase": "do not stop just because... only one row... or one column... is left. Those cells are still valid work.",
+      "start_word": "And",
+      "start_ms": 71360,
+      "start_frame": 2141,
+      "end_word": "work.",
+      "end_ms": 80760,
+      "end_frame": 2423
+    },
+    {
+      "id": "S09_CASES",
+      "phrase": "a one by one matrix... a single row... a single column... wide matrices... and tall matrices.",
+      "start_word": "So",
+      "start_ms": 80760,
+      "start_frame": 2423,
+      "end_word": "matrices.",
+      "end_ms": 90680,
+      "end_frame": 2720
+    },
+    {
+      "id": "S09_VALUES",
+      "phrase": "Duplicate values... negative values... and zeros... also change nothing.",
+      "start_word": "Duplicate",
+      "start_ms": 91500,
+      "start_frame": 2745,
+      "end_word": "nothing",
+      "end_ms": 97820,
+      "end_frame": 2935
+    },
+    {
+      "id": "S09_POSITIONS",
+      "phrase": "Because our traversal depends on... positions... not on the values stored there.",
+      "start_word": "because",
+      "start_ms": 97820,
+      "start_frame": 2935,
+      "end_word": "there.",
+      "end_ms": 105840,
+      "end_frame": 3175
+    }
+  ]
+}

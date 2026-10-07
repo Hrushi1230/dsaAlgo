@@ -1,0 +1,82 @@
+{
+  "scene": "S12",
+  "audio_file": "12-complexity.mp3",
+  "fps": 30,
+  "duration_frames": 1219,
+  "duration_ms": 40640,
+  "anchor_count": 6,
+  "anchors": [
+    {
+      "anchor_id": "S12_COMPARE",
+      "phrase": "Let's compare. The three methods,",
+      "plan_phrase": "Let’s compare all three methods clearly.",
+      "word_start_index": 0,
+      "word_end_index": 4,
+      "start_seconds": 0.0,
+      "end_seconds": 2.06,
+      "start_frame": 0,
+      "end_frame_exclusive": 63,
+      "note": "Comparison context."
+    },
+    {
+      "anchor_id": "S12_M2",
+      "phrase": "Method two rotates four connected values directly",
+      "plan_phrase": "Method Two rotates values directly in four-way cycles.",
+      "word_start_index": 27,
+      "word_end_index": 33,
+      "start_seconds": 13.08,
+      "end_seconds": 16.52,
+      "start_frame": 392,
+      "end_frame_exclusive": 497,
+      "note": "Method2 structure."
+    },
+    {
+      "anchor_id": "S12_COVER",
+      "phrase": "inside the matrix",
+      "plan_phrase": "together the layers cover the matrix.",
+      "word_start_index": 34,
+      "word_end_index": 36,
+      "start_seconds": 16.52,
+      "end_seconds": 17.94,
+      "start_frame": 496,
+      "end_frame_exclusive": 539,
+      "note": "Layer coverage."
+    },
+    {
+      "anchor_id": "S12_M3",
+      "phrase": "Method three",
+      "plan_phrase": "Method Three does two transformations.",
+      "word_start_index": 47,
+      "word_end_index": 48,
+      "start_seconds": 24.16,
+      "end_seconds": 25.42,
+      "start_frame": 725,
+      "end_frame_exclusive": 764,
+      "note": "Method3 structure."
+    },
+    {
+      "anchor_id": "S12_CORRECTROW",
+      "phrase": "row",
+      "plan_phrase": "we reverse each row.",
+      "word_start_index": 53,
+      "word_end_index": 53,
+      "start_seconds": 28.44,
+      "end_seconds": 28.78,
+      "start_frame": 853,
+      "end_frame_exclusive": 864,
+      "note": "Correct repair."
+    },
+    {
+      "anchor_id": "S12_SAVE",
+      "phrase": "So both",
+      "plan_phrase": "So save one value first.",
+      "word_start_index": 64,
+      "word_end_index": 65,
+      "start_seconds": 35.5,
+      "end_seconds": 36.0,
+      "start_frame": 1065,
+      "end_frame_exclusive": 1081,
+      "note": "Correct repair."
+    }
+  ]
+}

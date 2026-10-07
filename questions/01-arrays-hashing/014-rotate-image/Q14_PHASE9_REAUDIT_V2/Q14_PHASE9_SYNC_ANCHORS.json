@@ -1,0 +1,1591 @@
+{
+  "fps": 30,
+  "scenes": {
+    "S01": [
+      {
+        "id": "S01_WELCOME",
+        "phrase": "Welcome back to Code With Animation"
+      },
+      {
+        "id": "S01_PATTERN",
+        "phrase": "We are continuing our Arrays and Hashing roadmap."
+      },
+      {
+        "id": "S01_Q13",
+        "phrase": "Question thirteen"
+      },
+      {
+        "id": "S01_COMPLETE",
+        "phrase": "is complete."
+      },
+      {
+        "id": "S01_GLOBAL",
+        "phrase": "Our global progress is now thirteen out of two hundred twenty-seven."
+      },
+      {
+        "id": "S01_NEXT",
+        "phrase": "And the next problem is"
+      },
+      {
+        "id": "S01_Q14",
+        "phrase": "Question fourteen"
+      },
+      {
+        "id": "S01_TITLE",
+        "phrase": "Rotate Image"
+      },
+      {
+        "id": "S01_LC",
+        "phrase": "LeetCode forty-eight"
+      },
+      {
+        "id": "S01_MEDIUM",
+        "phrase": "Medium."
+      },
+      {
+        "id": "S01_SQUARE",
+        "phrase": "This problem is about rotating a square matrix"
+      },
+      {
+        "id": "S01_CLOCKWISE",
+        "phrase": "ninety degrees clockwise"
+      },
+      {
+        "id": "S01_INPLACE",
+        "phrase": "in place."
+      },
+      {
+        "id": "S01_BEFORE",
+        "phrase": "Before we think about code"
+      },
+      {
+        "id": "S01_WHERE",
+        "phrase": "we first need to understand exactly where every value should move."
+      }
+    ],
+    "S02": [
+      {
+        "id": "S02_NXN",
+        "phrase": "We are given an `n` by `n` square matrix."
+      },
+      {
+        "id": "S02_CLOCKWISE",
+        "phrase": "ninety degrees clockwise."
+      },
+      {
+        "id": "S02_MASTER",
+        "phrase": "we will use this five by five matrix."
+      },
+      {
+        "id": "S02_INDICES",
+        "phrase": "We will use zero-based row and column indices."
+      },
+      {
+        "id": "S02_CORNERS",
+        "phrase": "Now watch the four corners."
+      },
+      {
+        "id": "S02_ONE",
+        "phrase": "One starts at row zero, column zero."
+      },
+      {
+        "id": "S02_ONE_TO",
+        "phrase": "it moves to row zero, column four."
+      },
+      {
+        "id": "S02_FIVE",
+        "phrase": "Five starts at row zero, column four"
+      },
+      {
+        "id": "S02_FIVE_TO",
+        "phrase": "and moves to row four, column four."
+      },
+      {
+        "id": "S02_25",
+        "phrase": "Twenty-five moves to row four, column zero."
+      },
+      {
+        "id": "S02_21",
+        "phrase": "And twenty-one moves back to row zero, column zero."
+      },
+      {
+        "id": "S02_CYCLE",
+        "phrase": "So these four corner values form a cycle."
+      },
+      {
+        "id": "S02_RULE",
+        "phrase": "But we need one rule that works for every cell"
+      },
+      {
+        "id": "S02_SOURCE",
+        "phrase": "Take any value at row `r`, column `c`."
+      },
+      {
+        "id": "S02_NEWROW",
+        "phrase": "its new row becomes the old column"
+      },
+      {
+        "id": "S02_NEWC",
+        "phrase": "`n minus one minus r`."
+      },
+      {
+        "id": "S02_MAPPING",
+        "phrase": "row `c`, column `n minus one minus r`."
+      },
+      {
+        "id": "S02_N5",
+        "phrase": "row `c`, column `four minus r`."
+      },
+      {
+        "id": "S02_EIGHT",
+        "phrase": "Eight is at row one, column two."
+      },
+      {
+        "id": "S02_EIGHT_TO",
+        "phrase": "column three."
+      },
+      {
+        "id": "S02_CENTER",
+        "phrase": "thirteen... is at row two, column two."
+      },
+      {
+        "id": "S02_CENTER_BACK",
+        "phrase": "It maps back to row two, column two."
+      },
+      {
+        "id": "S02_ODD",
+        "phrase": "the exact center stays where it is."
+      },
+      {
+        "id": "S02_KNOW",
+        "phrase": "Now we know the destination of every value."
+      },
+      {
+        "id": "S02_HOW",
+        "phrase": "how should we actually move them?"
+      },
+      {
+        "id": "S02_DIRECT",
+        "phrase": "Let’s start with the most direct method."
+      }
+    ],
+    "S03": [
+      {
+        "id": "S03_EASY",
+        "phrase": "The easiest idea is"
+      },
+      {
+        "id": "S03_CREATE",
+        "phrase": "create another matrix of the same size."
+      },
+      {
+        "id": "S03_UNCHANGED",
+        "phrase": "Keep the original matrix unchanged"
+      },
+      {
+        "id": "S03_WRITE",
+        "phrase": "write every value directly into its rotated destination."
+      },
+      {
+        "id": "S03_MAPPING",
+        "phrase": "row `c`, column `n minus one minus r`."
+      },
+      {
+        "id": "S03_ONE",
+        "phrase": "One is at row zero, column zero."
+      },
+      {
+        "id": "S03_ONE_DEST",
+        "phrase": "row zero, column four."
+      },
+      {
+        "id": "S03_ONE_PLACE",
+        "phrase": "So we place one there in the result matrix."
+      },
+      {
+        "id": "S03_EIGHT",
+        "phrase": "Eight is at row one, column two."
+      },
+      {
+        "id": "S03_EIGHT_DEST",
+        "phrase": "row two, column three."
+      },
+      {
+        "id": "S03_EIGHT_PLACE",
+        "phrase": "So eight goes there."
+      },
+      {
+        "id": "S03_13",
+        "phrase": "Thirteen is at row two, column two."
+      },
+      {
+        "id": "S03_13_DEST",
+        "phrase": "row two, column two."
+      },
+      {
+        "id": "S03_CENTER",
+        "phrase": "So the center stays fixed."
+      },
+      {
+        "id": "S03_17",
+        "phrase": "moves to row one, column one."
+      },
+      {
+        "id": "S03_READ",
+        "phrase": "Read one value from the source matrix"
+      },
+      {
+        "id": "S03_CALC",
+        "phrase": "calculate its rotated coordinate"
+      },
+      {
+        "id": "S03_WRITE2",
+        "phrase": "write it into the result matrix."
+      },
+      {
+        "id": "S03_ROW0",
+        "phrase": "When we process the first source row"
+      },
+      {
+        "id": "S03_ROW0_VALUES",
+        "phrase": "one, two, three, four, five."
+      },
+      {
+        "id": "S03_COL4",
+        "phrase": "those values fill the last column of the result."
+      },
+      {
+        "id": "S03_ROW1_START",
+        "phrase": "Then the second source row"
+      },
+      {
+        "id": "S03_ROW1_VALUES",
+        "phrase": "six, seven, eight, nine, ten."
+      },
+      {
+        "id": "S03_ROW1",
+        "phrase": "fills the next column."
+      },
+      {
+        "id": "S03_MID",
+        "phrase": "fills the middle column."
+      },
+      {
+        "id": "S03_ROW3",
+        "phrase": "Then row three fills column one."
+      },
+      {
+        "id": "S03_ROW4",
+        "phrase": "fills column zero."
+      },
+      {
+        "id": "S03_RESULT",
+        "phrase": "The completed result now looks like this."
+      },
+      {
+        "id": "S03_CORRECT",
+        "phrase": "So the rotation is correct."
+      },
+      {
+        "id": "S03_SAFE",
+        "phrase": "we never had to worry about overwriting a value before using it."
+      },
+      {
+        "id": "S03_COST",
+        "phrase": "But we created another complete matrix."
+      },
+      {
+        "id": "S03_CODE",
+        "phrase": "Let’s write this exact idea in code."
+      }
+    ],
+    "S04": [
+      {
+        "id": "S04_N",
+        "phrase": "store `n`"
+      },
+      {
+        "id": "S04_RESULT",
+        "phrase": "Then create a new `n` by `n` result matrix."
+      },
+      {
+        "id": "S04_SCANR",
+        "phrase": "Now scan every source row"
+      },
+      {
+        "id": "S04_SCANC",
+        "phrase": "and every source column."
+      },
+      {
+        "id": "S04_CURRENT",
+        "phrase": "For the current value at `matrix[r][c]`"
+      },
+      {
+        "id": "S04_ASSIGN",
+        "phrase": "`result[c][n minus one minus r]`."
+      },
+      {
+        "id": "S04_MAPPING",
+        "phrase": "That single line is the coordinate mapping we just traced."
+      },
+      {
+        "id": "S04_SOURCE",
+        "phrase": "The source matrix stays unchanged"
+      },
+      {
+        "id": "S04_BUILD",
+        "phrase": "while the result matrix is being built."
+      },
+      {
+        "id": "S04_COPY",
+        "phrase": "copy the result matrix back into the original matrix."
+      },
+      {
+        "id": "S04_CORRECT",
+        "phrase": "That gives the correct rotation."
+      },
+      {
+        "id": "S04_SAFE",
+        "phrase": "because every source value has its own safe destination."
+      },
+      {
+        "id": "S04_N2CELLS",
+        "phrase": "the extra result matrix contains `n` times `n` cells."
+      },
+      {
+        "id": "S04_SPACE",
+        "phrase": "this method uses `O of n squared` extra space."
+      },
+      {
+        "id": "S04_INPLACE",
+        "phrase": "The problem asks us to rotate the matrix in place."
+      },
+      {
+        "id": "S04_REMOVE",
+        "phrase": "So now we need to remove that extra matrix."
+      }
+    ],
+    "S05": [
+      {
+        "id": "S05_CORRECT",
+        "phrase": "Method One is correct."
+      },
+      {
+        "id": "S05_MEMORY",
+        "phrase": "The problem is the extra memory."
+      },
+      {
+        "id": "S05_SAFETY",
+        "phrase": "only so that values would not overwrite each other."
+      },
+      {
+        "id": "S05_REMOVE",
+        "phrase": "So let’s remove that safety net."
+      },
+      {
+        "id": "S05_DIRECT",
+        "phrase": "Suppose we try to move values directly inside the original matrix."
+      },
+      {
+        "id": "S05_ONE",
+        "phrase": "One needs to move into the current position of five."
+      },
+      {
+        "id": "S05_OVERWRITE",
+        "phrase": "if we immediately write one there"
+      },
+      {
+        "id": "S05_DISAPPEARS",
+        "phrase": "the old value five disappears."
+      },
+      {
+        "id": "S05_NEED5",
+        "phrase": "And we still need five"
+      },
+      {
+        "id": "S05_OVERWRITE_PROBLEM",
+        "phrase": "So direct movement creates an overwrite problem."
+      },
+      {
+        "id": "S05_CONNECTED",
+        "phrase": "They are connected."
+      },
+      {
+        "id": "S05_1_5",
+        "phrase": "One moves to the position of five"
+      },
+      {
+        "id": "S05_5_25",
+        "phrase": "five moves to the position of twenty-five"
+      },
+      {
+        "id": "S05_25_21",
+        "phrase": "twenty-five moves to the position of twenty-one"
+      },
+      {
+        "id": "S05_21_1",
+        "phrase": "twenty-one moves to the original position of one."
+      },
+      {
+        "id": "S05_CYCLE",
+        "phrase": "these four positions form one closed cycle."
+      },
+      {
+        "id": "S05_TOGETHER",
+        "phrase": "we can rotate all four connected values together."
+      },
+      {
+        "id": "S05_SAVE",
+        "phrase": "We only need to save one value temporarily."
+      },
+      {
+        "id": "S05_INPLACE",
+        "phrase": "That gives us an in-place solution."
+      },
+      {
+        "id": "S05_TRACE",
+        "phrase": "Let’s trace it carefully."
+      }
+    ],
+    "S06": [
+      {
+        "id": "S06_ONE",
+        "phrase": "Now we work with only one matrix."
+      },
+      {
+        "id": "S06_LAYERS",
+        "phrase": "Think of the matrix as layers."
+      },
+      {
+        "id": "S06_OUTER",
+        "phrase": "the outside border is the first layer."
+      },
+      {
+        "id": "S06_INNER",
+        "phrase": "the three by three border is the second layer."
+      },
+      {
+        "id": "S06_CENTER",
+        "phrase": "the center cell stays fixed."
+      },
+      {
+        "id": "S06_START_OUTER",
+        "phrase": "Let’s start with the outer layer."
+      },
+      {
+        "id": "S06_FOUR",
+        "phrase": "Our first four connected positions contain"
+      },
+      {
+        "id": "S06_POS_TOP",
+        "phrase": "top... one."
+      },
+      {
+        "id": "S06_POS_RIGHT",
+        "phrase": "Right... five."
+      },
+      {
+        "id": "S06_POS_BOTTOM",
+        "phrase": "Bottom... twenty-five."
+      },
+      {
+        "id": "S06_POS_LEFT",
+        "phrase": "Left... twenty-one."
+      },
+      {
+        "id": "S06_DIRECTION",
+        "phrase": "Clockwise movement means"
+      },
+      {
+        "id": "S06_DIR_TR",
+        "phrase": "top goes to right"
+      },
+      {
+        "id": "S06_DIR_RB",
+        "phrase": "right goes to bottom"
+      },
+      {
+        "id": "S06_DIR_BL",
+        "phrase": "bottom goes to left"
+      },
+      {
+        "id": "S06_DIR_LT",
+        "phrase": "and left goes to top."
+      },
+      {
+        "id": "S06_CANT",
+        "phrase": "we cannot write top into right first"
+      },
+      {
+        "id": "S06_DESTROY",
+        "phrase": "because that would destroy the old right value."
+      },
+      {
+        "id": "S06_SAVE",
+        "phrase": "So save the top value."
+      },
+      {
+        "id": "S06_SAVE_ONE",
+        "phrase": "Save one in a temporary variable."
+      },
+      {
+        "id": "S06_MOVE21",
+        "phrase": "Now move twenty-one"
+      },
+      {
+        "id": "S06_LEFT_TOP",
+        "phrase": "from left to top."
+      },
+      {
+        "id": "S06_MOVE25",
+        "phrase": "Move twenty-five"
+      },
+      {
+        "id": "S06_BOTTOM_LEFT",
+        "phrase": "from bottom to left."
+      },
+      {
+        "id": "S06_MOVE5",
+        "phrase": "Move five"
+      },
+      {
+        "id": "S06_RIGHT_BOTTOM",
+        "phrase": "from right to bottom."
+      },
+      {
+        "id": "S06_FINALLY",
+        "phrase": "And finally"
+      },
+      {
+        "id": "S06_TEMP_RIGHT",
+        "phrase": "move the saved value one... into the right position."
+      },
+      {
+        "id": "S06_CYCLE_DONE",
+        "phrase": "The first four-way cycle is complete."
+      },
+      {
+        "id": "S06_CORNERS_CORRECT",
+        "phrase": "Now the four corner positions are correct."
+      },
+      {
+        "id": "S06_SAME_RULE",
+        "phrase": "The same rule continues across the outer layer."
+      },
+      {
+        "id": "S06_NEXT",
+        "phrase": "The next cycle uses"
+      },
+      {
+        "id": "S06_C2_VALUES",
+        "phrase": "two... ten... twenty-four... sixteen."
+      },
+      {
+        "id": "S06_SAVE2",
+        "phrase": "Save two."
+      },
+      {
+        "id": "S06_C2_16",
+        "phrase": "Sixteen moves to the top."
+      },
+      {
+        "id": "S06_C2_24",
+        "phrase": "Twenty-four moves to the left."
+      },
+      {
+        "id": "S06_C2_10",
+        "phrase": "Ten moves to the bottom."
+      },
+      {
+        "id": "S06_CYCLE2",
+        "phrase": "And saved two moves to the right."
+      },
+      {
+        "id": "S06_CYCLE3",
+        "phrase": "Next cycle:"
+      },
+      {
+        "id": "S06_C3_VALUES",
+        "phrase": "three... fifteen... twenty-three... eleven."
+      },
+      {
+        "id": "S06_C3_SAVE",
+        "phrase": "Save three."
+      },
+      {
+        "id": "S06_C3_11",
+        "phrase": "Eleven moves to the top."
+      },
+      {
+        "id": "S06_C3_23",
+        "phrase": "Twenty-three moves to the left."
+      },
+      {
+        "id": "S06_C3_15",
+        "phrase": "Fifteen moves to the bottom."
+      },
+      {
+        "id": "S06_C3_3",
+        "phrase": "And three moves to the right."
+      },
+      {
+        "id": "S06_CYCLE4",
+        "phrase": "One more outer cycle:"
+      },
+      {
+        "id": "S06_C4_VALUES",
+        "phrase": "four... twenty... twenty-two... six."
+      },
+      {
+        "id": "S06_C4_SAVE",
+        "phrase": "Save four."
+      },
+      {
+        "id": "S06_C4_6",
+        "phrase": "Six moves to the top."
+      },
+      {
+        "id": "S06_C4_22",
+        "phrase": "Twenty-two moves to the left."
+      },
+      {
+        "id": "S06_C4_20",
+        "phrase": "Twenty moves to the bottom."
+      },
+      {
+        "id": "S06_C4_4",
+        "phrase": "And four moves to the right."
+      },
+      {
+        "id": "S06_OUT_DONE",
+        "phrase": "Now the complete outer layer is finished."
+      },
+      {
+        "id": "S06_OUT_FINAL",
+        "phrase": "Its values are in their final rotated positions."
+      },
+      {
+        "id": "S06_NO_TOUCH",
+        "phrase": "So we do not touch that layer again."
+      },
+      {
+        "id": "S06_INWARD",
+        "phrase": "Move one layer inward."
+      },
+      {
+        "id": "S06_INNER_COUNT",
+        "phrase": "The inner layer contains two more four-way cycles."
+      },
+      {
+        "id": "S06_INNER1",
+        "phrase": "The first one uses"
+      },
+      {
+        "id": "S06_I1_VALUES",
+        "phrase": "seven... nine... nineteen... seventeen."
+      },
+      {
+        "id": "S06_I1_SAVE",
+        "phrase": "Save seven."
+      },
+      {
+        "id": "S06_I1_17",
+        "phrase": "Seventeen moves to the top."
+      },
+      {
+        "id": "S06_I1_19",
+        "phrase": "Nineteen moves to the left."
+      },
+      {
+        "id": "S06_I1_9",
+        "phrase": "Nine moves to the bottom."
+      },
+      {
+        "id": "S06_INNER1_DONE",
+        "phrase": "And seven moves to the right."
+      },
+      {
+        "id": "S06_INNER2",
+        "phrase": "The last cycle uses"
+      },
+      {
+        "id": "S06_I2_VALUES",
+        "phrase": "eight... fourteen... eighteen... twelve."
+      },
+      {
+        "id": "S06_I2_SAVE",
+        "phrase": "Save eight."
+      },
+      {
+        "id": "S06_I2_12",
+        "phrase": "Twelve moves to the top."
+      },
+      {
+        "id": "S06_I2_18",
+        "phrase": "Eighteen moves to the left."
+      },
+      {
+        "id": "S06_I2_14",
+        "phrase": "Fourteen moves to the bottom."
+      },
+      {
+        "id": "S06_INNER2_DONE",
+        "phrase": "And eight moves to the right."
+      },
+      {
+        "id": "S06_INNER_DONE",
+        "phrase": "Now the inner layer is also complete."
+      },
+      {
+        "id": "S06_CENTER_NEVER",
+        "phrase": "The center value thirteen was never moved."
+      },
+      {
+        "id": "S06_FINAL",
+        "phrase": "And the final matrix now looks like this."
+      },
+      {
+        "id": "S06_INPLACE",
+        "phrase": "So we rotated the matrix completely in place."
+      },
+      {
+        "id": "S06_INV",
+        "phrase": "finish one four-position cycle safely"
+      },
+      {
+        "id": "S06_LAYER",
+        "phrase": "finish the complete layer"
+      },
+      {
+        "id": "S06_INWARD2",
+        "phrase": "then move inward."
+      },
+      {
+        "id": "S06_CODE",
+        "phrase": "Now let’s write the same cycle logic in code."
+      }
+    ],
+    "S07": [
+      {
+        "id": "S07_N",
+        "phrase": "store `n`."
+      },
+      {
+        "id": "S07_HALF",
+        "phrase": "process only half the number of layers."
+      },
+      {
+        "id": "S07_FIRST",
+        "phrase": "`first` is the layer index."
+      },
+      {
+        "id": "S07_LAST",
+        "phrase": "`n minus one minus layer`."
+      },
+      {
+        "id": "S07_TOPSIDE",
+        "phrase": "Now move across the top side of this layer."
+      },
+      {
+        "id": "S07_STOP",
+        "phrase": "We stop before `last`"
+      },
+      {
+        "id": "S07_REASON",
+        "phrase": "because the last position belongs to the same cycle as the first one."
+      },
+      {
+        "id": "S07_OFFSET",
+        "phrase": "`offset equals i minus first`."
+      },
+      {
+        "id": "S07_FOUR",
+        "phrase": "Now we know the four connected coordinates."
+      },
+      {
+        "id": "S07_TOP",
+        "phrase": "Top is: `first, i`."
+      },
+      {
+        "id": "S07_RIGHT",
+        "phrase": "Right is: `i, last`."
+      },
+      {
+        "id": "S07_BOTTOM",
+        "phrase": "Bottom is: `last, last minus offset`."
+      },
+      {
+        "id": "S07_LEFT",
+        "phrase": "left is: `last minus offset, first`."
+      },
+      {
+        "id": "S07_SAVE",
+        "phrase": "Now save the top value."
+      },
+      {
+        "id": "S07_L2T",
+        "phrase": "move left into top."
+      },
+      {
+        "id": "S07_B2L",
+        "phrase": "Move bottom into left."
+      },
+      {
+        "id": "S07_R2B",
+        "phrase": "Move right into bottom."
+      },
+      {
+        "id": "S07_T2R",
+        "phrase": "move the saved top into right."
+      },
+      {
+        "id": "S07_COMPLETE",
+        "phrase": "That completes one four-way cycle."
+      },
+      {
+        "id": "S07_INNERLOOP",
+        "phrase": "The inner loop continues until the current layer is complete."
+      },
+      {
+        "id": "S07_OUTERLOOP",
+        "phrase": "Then the outer loop moves one layer inward."
+      },
+      {
+        "id": "S07_ODD",
+        "phrase": "the center is never part of a four-way cycle."
+      },
+      {
+        "id": "S07_TEMP",
+        "phrase": "This solution uses only one temporary value."
+      },
+      {
+        "id": "S07_SPACE",
+        "phrase": "So the extra space is constant."
+      },
+      {
+        "id": "S07_WORK",
+        "phrase": "every matrix position participates in only a constant amount of work."
+      },
+      {
+        "id": "S07_TIME",
+        "phrase": "the total time is `O of n squared`"
+      },
+      {
+        "id": "S07_O1_REPEAT",
+        "phrase": "with `O of one` extra space."
+      },
+      {
+        "id": "S07_OPTIMAL",
+        "phrase": "This is already an optimal in-place solution."
+      },
+      {
+        "id": "S07_ANOTHER",
+        "phrase": "there is another way to reach the same rotation"
+      },
+      {
+        "id": "S07_SIMPLE",
+        "phrase": "with simpler transformations."
+      }
+    ],
+    "S08": [
+      {
+        "id": "S08_IMPORTANT",
+        "phrase": "notice something important."
+      },
+      {
+        "id": "S08_NOTFAIL",
+        "phrase": "Method Two is not a failed solution."
+      },
+      {
+        "id": "S08_TIME",
+        "phrase": "Its time is already `O of n squared`."
+      },
+      {
+        "id": "S08_SPACE",
+        "phrase": "Its extra space is already `O of one`."
+      },
+      {
+        "id": "S08_NOTFASTER",
+        "phrase": "we do not need a faster method."
+      },
+      {
+        "id": "S08_CHALLENGE",
+        "phrase": "The challenge is different."
+      },
+      {
+        "id": "S08_FIRST",
+        "phrase": "first"
+      },
+      {
+        "id": "S08_LAST",
+        "phrase": "last"
+      },
+      {
+        "id": "S08_OFFSET",
+        "phrase": "offset"
+      },
+      {
+        "id": "S08_TOP",
+        "phrase": "top"
+      },
+      {
+        "id": "S08_RIGHT",
+        "phrase": "right"
+      },
+      {
+        "id": "S08_BOTTOM",
+        "phrase": "bottom"
+      },
+      {
+        "id": "S08_LEFT",
+        "phrase": "left."
+      },
+      {
+        "id": "S08_MIX",
+        "phrase": "They are correct... but they are easy to mix up."
+      },
+      {
+        "id": "S08_MAPPING",
+        "phrase": "So let’s return to the mathematical mapping."
+      },
+      {
+        "id": "S08_SOURCE_COORD",
+        "phrase": "A value at row `r`, column `c`"
+      },
+      {
+        "id": "S08_MUST",
+        "phrase": "must finally reach:"
+      },
+      {
+        "id": "S08_ROW_C",
+        "phrase": "row `c`"
+      },
+      {
+        "id": "S08_COL_EXPR",
+        "phrase": "column `n minus one minus r`."
+      },
+      {
+        "id": "S08_SPLIT",
+        "phrase": "can we split it into two simpler transformations?"
+      },
+      {
+        "id": "S08_YES",
+        "phrase": "Yes."
+      },
+      {
+        "id": "S08_SWAP",
+        "phrase": "we can swap rows and columns."
+      },
+      {
+        "id": "S08_FLIP",
+        "phrase": "we can flip the remaining horizontal direction."
+      },
+      {
+        "id": "S08_METHOD3",
+        "phrase": "That gives us the third method."
+      }
+    ],
+    "S09": [
+      {
+        "id": "S09_COORD",
+        "phrase": "Start again with one coordinate."
+      },
+      {
+        "id": "S09_DEST",
+        "phrase": "Its final clockwise destination is"
+      },
+      {
+        "id": "S09_FINAL",
+        "phrase": "column `n minus one minus r`."
+      },
+      {
+        "id": "S09_BREAK",
+        "phrase": "Now break that movement into two steps."
+      },
+      {
+        "id": "S09_TRANSPOSE",
+        "phrase": "transpose the matrix."
+      },
+      {
+        "id": "S09_RC",
+        "phrase": "row `c`, column `r`."
+      },
+      {
+        "id": "S09_ROW_CORRECT",
+        "phrase": "So the row is already correct."
+      },
+      {
+        "id": "S09_COL_WRONG",
+        "phrase": "Only the column is still wrong."
+      },
+      {
+        "id": "S09_NEED",
+        "phrase": "`n minus one minus r`."
+      },
+      {
+        "id": "S09_HOW",
+        "phrase": "while staying in the same row?"
+      },
+      {
+        "id": "S09_REVERSE",
+        "phrase": "Reverse that row."
+      },
+      {
+        "id": "S09_CHAIN",
+        "phrase": "`r, c` becomes `c, r`."
+      },
+      {
+        "id": "S09_CHAIN2",
+        "phrase": "`c, r` becomes... `c, n minus one minus r`."
+      },
+      {
+        "id": "S09_EXACT",
+        "phrase": "That is exactly the clockwise mapping."
+      },
+      {
+        "id": "S09_EIGHT",
+        "phrase": "Let’s verify it with eight."
+      },
+      {
+        "id": "S09_EIGHT_SRC",
+        "phrase": "row one, column two."
+      },
+      {
+        "id": "S09_EIGHT_T",
+        "phrase": "it moves to row two, column one."
+      },
+      {
+        "id": "S09_ROW2",
+        "phrase": "Then we reverse row two."
+      },
+      {
+        "id": "S09_COL3",
+        "phrase": "Column one becomes column three."
+      },
+      {
+        "id": "S09_MATCH",
+        "phrase": "That is exactly where the direct rotation mapping sends it."
+      },
+      {
+        "id": "S09_NOTTRICK",
+        "phrase": "is not a memorized trick."
+      },
+      {
+        "id": "S09_TWO",
+        "phrase": "broken into two easier transformations."
+      },
+      {
+        "id": "S09_EXECUTE",
+        "phrase": "Now let’s execute both transformations on the full matrix."
+      }
+    ],
+    "S10": [
+      {
+        "id": "S10_ORIGINAL",
+        "phrase": "Start again from our original matrix."
+      },
+      {
+        "id": "S10_TRANSPOSE",
+        "phrase": "transpose it across the main diagonal."
+      },
+      {
+        "id": "S10_SWAP_RULE",
+        "phrase": "`matrix[r][c]` swaps with `matrix[c][r]`."
+      },
+      {
+        "id": "S10_ONCE",
+        "phrase": "we must process each pair only once."
+      },
+      {
+        "id": "S10_ABOVE",
+        "phrase": "we only swap cells above the main diagonal."
+      },
+      {
+        "id": "S10_2_6",
+        "phrase": "Two swaps with six."
+      },
+      {
+        "id": "S10_3_11",
+        "phrase": "Three swaps with eleven."
+      },
+      {
+        "id": "S10_4_16",
+        "phrase": "Four swaps with sixteen."
+      },
+      {
+        "id": "S10_5_21",
+        "phrase": "Five swaps with twenty-one."
+      },
+      {
+        "id": "S10_NEXTROW",
+        "phrase": "Now move to the next row above the diagonal."
+      },
+      {
+        "id": "S10_8_12",
+        "phrase": "Eight swaps with twelve."
+      },
+      {
+        "id": "S10_9_17",
+        "phrase": "Nine swaps with seventeen."
+      },
+      {
+        "id": "S10_10_22",
+        "phrase": "Ten swaps with twenty-two."
+      },
+      {
+        "id": "S10_14_18",
+        "phrase": "fourteen swaps with eighteen."
+      },
+      {
+        "id": "S10_15_23",
+        "phrase": "Fifteen swaps with twenty-three."
+      },
+      {
+        "id": "S10_20_24",
+        "phrase": "twenty swaps with twenty-four."
+      },
+      {
+        "id": "S10_TRANS_DONE",
+        "phrase": "The transpose is complete."
+      },
+      {
+        "id": "S10_LOOKS",
+        "phrase": "The transposed matrix now looks like this."
+      },
+      {
+        "id": "S10_COLSROWS",
+        "phrase": "The original columns became rows."
+      },
+      {
+        "id": "S10_SECOND",
+        "phrase": "Now perform the second transformation."
+      },
+      {
+        "id": "S10_REVERSE",
+        "phrase": "Reverse every row."
+      },
+      {
+        "id": "S10_ROW0",
+        "phrase": "Watch row zero."
+      },
+      {
+        "id": "S10_FLIP",
+        "phrase": "Its order flips from left to right."
+      },
+      {
+        "id": "S10_REMAIN",
+        "phrase": "Now apply the same reversal to every remaining row."
+      },
+      {
+        "id": "S10_FINAL",
+        "phrase": "The final matrix now looks like this."
+      },
+      {
+        "id": "S10_EXACT",
+        "phrase": "The final matrix is exactly the ninety-degree clockwise rotation."
+      },
+      {
+        "id": "S10_INPLACE",
+        "phrase": "we achieved it in place"
+      },
+      {
+        "id": "S10_TWO",
+        "phrase": "using two simple transformations"
+      },
+      {
+        "id": "S10_END",
+        "phrase": "then reverse every row."
+      }
+    ],
+    "S11": [
+      {
+        "id": "S11_START",
+        "phrase": "Now let’s translate that proof directly into code."
+      },
+      {
+        "id": "S11_N",
+        "phrase": "store `n`."
+      },
+      {
+        "id": "S11_TRANS",
+        "phrase": "Then transpose the matrix."
+      },
+      {
+        "id": "S11_R",
+        "phrase": "For every row `r`"
+      },
+      {
+        "id": "S11_C",
+        "phrase": "`r plus one`."
+      },
+      {
+        "id": "S11_IMPORTANT",
+        "phrase": "This is important."
+      },
+      {
+        "id": "S11_ABOVE",
+        "phrase": "We only want cells above the main diagonal."
+      },
+      {
+        "id": "S11_ZERO",
+        "phrase": "If we started from column zero every time"
+      },
+      {
+        "id": "S11_TWICE",
+        "phrase": "we would eventually swap the same pair twice"
+      },
+      {
+        "id": "S11_UNDO",
+        "phrase": "and undo our own work."
+      },
+      {
+        "id": "S11_PAIR",
+        "phrase": "So for each pair above the diagonal"
+      },
+      {
+        "id": "S11_SWAP1",
+        "phrase": "`matrix[r][c]`"
+      },
+      {
+        "id": "S11_SWAP2",
+        "phrase": "`matrix[c][r]`."
+      },
+      {
+        "id": "S11_TRANS_DONE",
+        "phrase": "the matrix is fully transposed."
+      },
+      {
+        "id": "S11_SECOND",
+        "phrase": "Now the second step is very small."
+      },
+      {
+        "id": "S11_ROW",
+        "phrase": "For every row in the matrix"
+      },
+      {
+        "id": "S11_REVERSE",
+        "phrase": "reverse that row."
+      },
+      {
+        "id": "S11_WHOLE",
+        "phrase": "That is the whole optimal solution."
+      },
+      {
+        "id": "S11_MIRROR",
+        "phrase": "The code mirrors the proof exactly"
+      },
+      {
+        "id": "S11_TTIME",
+        "phrase": "The transpose takes `O of n squared` time."
+      },
+      {
+        "id": "S11_RTIME",
+        "phrase": "Reversing all rows also takes `O of n squared` time overall."
+      },
+      {
+        "id": "S11_TOTAL",
+        "phrase": "So the total is still: `O of n squared`."
+      },
+      {
+        "id": "S11_CONST",
+        "phrase": "we only use a constant amount of extra memory."
+      },
+      {
+        "id": "S11_SPACE",
+        "phrase": "`O of one`."
+      }
+    ],
+    "S12": [
+      {
+        "id": "S12_COMPARE",
+        "phrase": "Let’s compare all three methods clearly."
+      },
+      {
+        "id": "S12_M1STORE",
+        "phrase": "we store another `n` by `n` matrix."
+      },
+      {
+        "id": "S12_M1TIME",
+        "phrase": "time is `O of n squared`"
+      },
+      {
+        "id": "S12_M1SPACE",
+        "phrase": "extra space is `O of n squared`."
+      },
+      {
+        "id": "S12_M2",
+        "phrase": "Method Two rotates values directly in four-way cycles."
+      },
+      {
+        "id": "S12_CONSTWORK",
+        "phrase": "Each cycle does constant work"
+      },
+      {
+        "id": "S12_COVER",
+        "phrase": "together the layers cover the matrix."
+      },
+      {
+        "id": "S12_M2TIME",
+        "phrase": "time is `O of n squared`"
+      },
+      {
+        "id": "S12_M2SPACE",
+        "phrase": "extra space is `O of one`."
+      },
+      {
+        "id": "S12_M3",
+        "phrase": "Method Three does two transformations."
+      },
+      {
+        "id": "S12_TN2",
+        "phrase": "Transpose takes `O of n squared`."
+      },
+      {
+        "id": "S12_RN2",
+        "phrase": "Reversing all rows takes `O of n squared`."
+      },
+      {
+        "id": "S12_ADD",
+        "phrase": "Adding them still gives: `O of n squared`."
+      },
+      {
+        "id": "S12_M3SPACE",
+        "phrase": "extra space is `O of one`."
+      },
+      {
+        "id": "S12_MISTAKES",
+        "phrase": "Now let’s look at the mistakes that usually break this problem."
+      },
+      {
+        "id": "S12_M1",
+        "phrase": "transpose the matrix... then reverse the columns."
+      },
+      {
+        "id": "S12_NOTCLOCK",
+        "phrase": "That does not give the clockwise rotation we want."
+      },
+      {
+        "id": "S12_CORRECTROW",
+        "phrase": "we reverse each row."
+      },
+      {
+        "id": "S12_MISTAKE2",
+        "phrase": "during transpose... swap every pair from both sides of the diagonal."
+      },
+      {
+        "id": "S12_PAIR",
+        "phrase": "if you swap row zero, column one... with row one, column zero"
+      },
+      {
+        "id": "S12_AGAIN",
+        "phrase": "and later swap the same pair again"
+      },
+      {
+        "id": "S12_RETURN",
+        "phrase": "you return them to the original positions."
+      },
+      {
+        "id": "S12_RPLUS",
+        "phrase": "`r plus one`."
+      },
+      {
+        "id": "S12_MISTAKE3",
+        "phrase": "in the four-way method... move one value before saving the value it will overwrite."
+      },
+      {
+        "id": "S12_DESTROY",
+        "phrase": "Once that old value is destroyed"
+      },
+      {
+        "id": "S12_SAVE",
+        "phrase": "So save one value first."
+      },
+      {
+        "id": "S12_M4",
+        "phrase": "process the layer through the `last` position."
+      },
+      {
+        "id": "S12_STOP",
+        "phrase": "The loop must stop before `last`"
+      },
+      {
+        "id": "S12_CENTER",
+        "phrase": "an odd-sized matrix has a center cell."
+      },
+      {
+        "id": "S12_FIXED",
+        "phrase": "That center maps back to itself."
+      },
+      {
+        "id": "S12_1X1",
+        "phrase": "A one by one matrix also stays unchanged."
+      },
+      {
+        "id": "S12_2X2",
+        "phrase": "A two by two matrix uses one four-way cycle."
+      },
+      {
+        "id": "S12_VALUES",
+        "phrase": "Negative numbers... duplicate numbers... or repeated values... do not change the algorithm."
+      },
+      {
+        "id": "S12_UNIQUE",
+        "phrase": "We used unique numbers only because they make the movement easier to see."
+      }
+    ],
+    "S13": [
+      {
+        "id": "S13_COMPRESS",
+        "phrase": "Let’s compress the full lesson."
+      },
+      {
+        "id": "S13_MAP",
+        "phrase": "We started with the coordinate truth."
+      },
+      {
+        "id": "S13_DEST",
+        "phrase": "column `n minus one minus r`."
+      },
+      {
+        "id": "S13_M1",
+        "phrase": "Method One used that destination directly."
+      },
+      {
+        "id": "S13_M1FLOW",
+        "phrase": "Read from the original... write into another matrix."
+      },
+      {
+        "id": "S13_M1SPACE",
+        "phrase": "it uses `O of n squared` extra space."
+      },
+      {
+        "id": "S13_M2",
+        "phrase": "Method Two removed the extra matrix."
+      },
+      {
+        "id": "S13_CYCLES",
+        "phrase": "form four-position cycles."
+      },
+      {
+        "id": "S13_SAVE",
+        "phrase": "Save one value"
+      },
+      {
+        "id": "S13_ROTATE3",
+        "phrase": "rotate the other three"
+      },
+      {
+        "id": "S13_RESTORE",
+        "phrase": "restore the saved value"
+      },
+      {
+        "id": "S13_FINISH_LAYER",
+        "phrase": "finish the layer"
+      },
+      {
+        "id": "S13_MOVE_IN",
+        "phrase": "then move inward."
+      },
+      {
+        "id": "S13_M2_TIME",
+        "phrase": "`O of n squared` time"
+      },
+      {
+        "id": "S13_M2_SPACE",
+        "phrase": "and `O of one` extra space."
+      },
+      {
+        "id": "S13_M3",
+        "phrase": "Method Three looked at the same coordinate mapping differently."
+      },
+      {
+        "id": "S13_SPLIT",
+        "phrase": "split it into two simple transformations."
+      },
+      {
+        "id": "S13_TRANS",
+        "phrase": "Transpose"
+      },
+      {
+        "id": "S13_REV",
+        "phrase": "then reverse every row."
+      },
+      {
+        "id": "S13_M3_TIME",
+        "phrase": "`O of n squared` time"
+      },
+      {
+        "id": "S13_M3_SPACE",
+        "phrase": "and `O of one` extra space."
+      },
+      {
+        "id": "S13_PATTERN",
+        "phrase": "The bigger pattern is important."
+      },
+      {
+        "id": "S13_WRITE",
+        "phrase": "first write the coordinate mapping."
+      },
+      {
+        "id": "S13_REVEAL_INTRO",
+        "phrase": "That mapping may reveal"
+      },
+      {
+        "id": "S13_REVEAL_CYCLE",
+        "phrase": "a cycle"
+      },
+      {
+        "id": "S13_REVEAL_SYM",
+        "phrase": "a symmetry"
+      },
+      {
+        "id": "S13_REVEAL_DECOMP",
+        "phrase": "or a sequence of simpler transformations."
+      },
+      {
+        "id": "S13_Q14_NUM",
+        "phrase": "Now Question Fourteen"
+      },
+      {
+        "id": "S13_Q14_TITLE",
+        "phrase": "Rotate Image"
+      },
+      {
+        "id": "S13_Q14_COMPLETE",
+        "phrase": "is complete."
+      },
+      {
+        "id": "S13_PROGRESS_INTRO",
+        "phrase": "Our global progress moves from"
+      },
+      {
+        "id": "S13_PROGRESS_13",
+        "phrase": "thirteen out of two hundred twenty-seven"
+      },
+      {
+        "id": "S13_PROGRESS_TO",
+        "phrase": "to"
+      },
+      {
+        "id": "S13_PROGRESS_14",
+        "phrase": "fourteen out of two hundred twenty-seven."
+      },
+      {
+        "id": "S13_NEXT",
+        "phrase": "And next in Arrays and Hashing"
+      },
+      {
+        "id": "S13_Q15_NUM",
+        "phrase": "Question fifteen"
+      },
+      {
+        "id": "S13_Q15_TITLE",
+        "phrase": "Spiral Matrix."
+      },
+      {
+        "id": "S13_UPNEXT",
+        "phrase": "That is up next."
+      }
+    ]
+  }
+}

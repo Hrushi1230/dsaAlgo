@@ -1,0 +1,153 @@
+{
+  "scene": "S01",
+  "audio_file": "01-intro-roadmap.mp3",
+  "fps": 30,
+  "duration_frames": 885,
+  "duration_ms": 29500,
+  "anchor_count": 13,
+  "anchors": [
+    {
+      "anchor_id": "S01_WELCOME",
+      "phrase": "Welcome back to Code with Animation.",
+      "word_start_index": 0,
+      "word_end_index": 5,
+      "start_seconds": 0.0,
+      "end_seconds": 2.28,
+      "start_frame": 0,
+      "end_frame_exclusive": 69,
+      "note": "Resume exact course shell from Q13 final roadmap (13/227 COMPLETE, Q013 COMPLETE, Q014 UP NEXT, rail thumb at 014)"
+    },
+    {
+      "anchor_id": "S01_PATTERN",
+      "phrase": "We are continuing our arrays and hashing roadmap.",
+      "word_start_index": 6,
+      "word_end_index": 13,
+      "start_seconds": 2.98,
+      "end_seconds": 6.68,
+      "start_frame": 89,
+      "end_frame_exclusive": 201,
+      "note": "Focus active pattern identity Arrays & Hashing in sidebar; other chrome recedes"
+    },
+    {
+      "anchor_id": "S01_Q13",
+      "phrase": "Question 13,",
+      "word_start_index": 14,
+      "word_end_index": 15,
+      "start_seconds": 7.88,
+      "end_seconds": 8.68,
+      "start_frame": 236,
+      "end_frame_exclusive": 261,
+      "note": "Spotlight Q013 item in Master Roadmap"
+    },
+    {
+      "anchor_id": "S01_SET_MATRIX_ZEROES",
+      "phrase": "set matrix zeros",
+      "word_start_index": 16,
+      "word_end_index": 18,
+      "start_seconds": 9.16,
+      "end_seconds": 10.54,
+      "start_frame": 275,
+      "end_frame_exclusive": 317,
+      "note": "Confirm Set Matrix Zeroes row identity"
+    },
+    {
+      "anchor_id": "S01_COMPLETE",
+      "phrase": "is complete.",
+      "word_start_index": 19,
+      "word_end_index": 20,
+      "start_seconds": 10.54,
+      "end_seconds": 11.9,
+      "start_frame": 316,
+      "end_frame_exclusive": 358,
+      "note": "Q013 COMPLETE marker verified; green checkmark glow; 0 counter mutation"
+    },
+    {
+      "anchor_id": "S01_PROGRESS",
+      "phrase": "Our progress is now 13 out of 227.",
+      "word_start_index": 21,
+      "word_end_index": 28,
+      "start_seconds": 12.7,
+      "end_seconds": 17.48,
+      "start_frame": 381,
+      "end_frame_exclusive": 525,
+      "note": "Direct attention to global progress counter pill (13 / 227); stable hold"
+    },
+    {
+      "anchor_id": "S01_NEXT",
+      "phrase": "And next we have",
+      "word_start_index": 29,
+      "word_end_index": 32,
+      "start_seconds": 17.82,
+      "end_seconds": 19.14,
+      "start_frame": 535,
+      "end_frame_exclusive": 575,
+      "note": "Anticipation hold; rail spotlight transfers from Q013 to Q014 row"
+    },
+    {
+      "anchor_id": "S01_Q14",
+      "phrase": "question 14,",
+      "word_start_index": 33,
+      "word_end_index": 34,
+      "start_seconds": 19.14,
+      "end_seconds": 20.36,
+      "start_frame": 574,
+      "end_frame_exclusive": 612,
+      "note": "Activate Q014 row: UP NEXT gold pill mutates to NOW ACTIVE badge; rail thumb locks on 014"
+    },
+    {
+      "anchor_id": "S01_TITLE",
+      "phrase": "rotate image,",
+      "word_start_index": 35,
+      "word_end_index": 36,
+      "start_seconds": 20.68,
+      "end_seconds": 21.8,
+      "start_frame": 620,
+      "end_frame_exclusive": 655,
+      "note": "Reveal problem title ROTATE IMAGE with chalk underline; spotlight glows cyan"
+    },
+    {
+      "anchor_id": "S01_LC",
+      "phrase": "lead code 48,",
+      "word_start_index": 37,
+      "word_end_index": 39,
+      "start_seconds": 22.2,
+      "end_seconds": 23.7,
+      "start_frame": 666,
+      "end_frame_exclusive": 712,
+      "note": "Illuminate LeetCode 48 badge beside title"
+    },
+    {
+      "anchor_id": "S01_MEDIUM",
+      "phrase": "medium.",
+      "word_start_index": 40,
+      "word_end_index": 40,
+      "start_seconds": 24.34,
+      "end_seconds": 24.8,
+      "start_frame": 730,
+      "end_frame_exclusive": 745,
+      "note": "Illuminate Medium difficulty pill (amber/gold)"
+    },
+    {
+      "anchor_id": "S01_ABOUT",
+      "phrase": "This problem is about",
+      "word_start_index": 41,
+      "word_end_index": 44,
+      "start_seconds": 24.8,
+      "end_seconds": 27.3,
+      "start_frame": 744,
+      "end_frame_exclusive": 820,
+      "note": "Surrounding roadmap begins gentle fade (opacity 1.0 -> 0.4); center prepares for concept"
+    },
+    {
+      "anchor_id": "S01_SQUARE",
+      "phrase": "rotating a square matrix.",
+      "word_start_index": 45,
+      "word_end_index": 48,
+      "start_seconds": 27.3,
+      "end_seconds": 29.5,
+      "start_frame": 819,
+      "end_frame_exclusive": 886,
+      "note": "Header docks into ProblemOpenerShell; center stage clear and ready for Scene 02 master matrix"
+    }
+  ]
+}

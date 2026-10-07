@@ -1,0 +1,1188 @@
+{
+  "audio_file": "04-method1-code.mp3",
+  "duration_ms": 64560,
+  "duration_frames": 1937,
+  "fps": 30,
+  "word_count": 133,
+  "words": [
+    {
+      "word": "First,",
+      "start_ms": 0,
+      "end_ms": 460,
+      "start_frame": 0,
+      "end_frame": 14
+    },
+    {
+      "word": "store",
+      "start_ms": 1060,
+      "end_ms": 1340,
+      "start_frame": 32,
+      "end_frame": 40
+    },
+    {
+      "word": "n,",
+      "start_ms": 1340,
+      "end_ms": 1940,
+      "start_frame": 40,
+      "end_frame": 58
+    },
+    {
+      "word": "the",
+      "start_ms": 2140,
+      "end_ms": 2400,
+      "start_frame": 64,
+      "end_frame": 72
+    },
+    {
+      "word": "size",
+      "start_ms": 2400,
+      "end_ms": 2680,
+      "start_frame": 72,
+      "end_frame": 80
+    },
+    {
+      "word": "of",
+      "start_ms": 2680,
+      "end_ms": 2840,
+      "start_frame": 80,
+      "end_frame": 85
+    },
+    {
+      "word": "the",
+      "start_ms": 2840,
+      "end_ms": 2980,
+      "start_frame": 85,
+      "end_frame": 89
+    },
+    {
+      "word": "matrix,",
+      "start_ms": 2980,
+      "end_ms": 3440,
+      "start_frame": 89,
+      "end_frame": 103
+    },
+    {
+      "word": "then",
+      "start_ms": 3940,
+      "end_ms": 4140,
+      "start_frame": 118,
+      "end_frame": 124
+    },
+    {
+      "word": "create",
+      "start_ms": 4140,
+      "end_ms": 4600,
+      "start_frame": 124,
+      "end_frame": 138
+    },
+    {
+      "word": "a",
+      "start_ms": 4600,
+      "end_ms": 5160,
+      "start_frame": 138,
+      "end_frame": 155
+    },
+    {
+      "word": "new",
+      "start_ms": 5160,
+      "end_ms": 5620,
+      "start_frame": 155,
+      "end_frame": 169
+    },
+    {
+      "word": "n",
+      "start_ms": 5620,
+      "end_ms": 6280,
+      "start_frame": 169,
+      "end_frame": 188
+    },
+    {
+      "word": "by",
+      "start_ms": 6280,
+      "end_ms": 6580,
+      "start_frame": 188,
+      "end_frame": 197
+    },
+    {
+      "word": "n",
+      "start_ms": 6580,
+      "end_ms": 7160,
+      "start_frame": 197,
+      "end_frame": 215
+    },
+    {
+      "word": "result",
+      "start_ms": 7160,
+      "end_ms": 7580,
+      "start_frame": 215,
+      "end_frame": 227
+    },
+    {
+      "word": "matrix.",
+      "start_ms": 7580,
+      "end_ms": 8140,
+      "start_frame": 227,
+      "end_frame": 244
+    },
+    {
+      "word": "Now",
+      "start_ms": 8680,
+      "end_ms": 8860,
+      "start_frame": 260,
+      "end_frame": 266
+    },
+    {
+      "word": "loop",
+      "start_ms": 8860,
+      "end_ms": 9060,
+      "start_frame": 266,
+      "end_frame": 272
+    },
+    {
+      "word": "through",
+      "start_ms": 9060,
+      "end_ms": 9700,
+      "start_frame": 272,
+      "end_frame": 291
+    },
+    {
+      "word": "every",
+      "start_ms": 9700,
+      "end_ms": 10260,
+      "start_frame": 291,
+      "end_frame": 308
+    },
+    {
+      "word": "source",
+      "start_ms": 10260,
+      "end_ms": 10640,
+      "start_frame": 308,
+      "end_frame": 319
+    },
+    {
+      "word": "row",
+      "start_ms": 10640,
+      "end_ms": 10880,
+      "start_frame": 319,
+      "end_frame": 326
+    },
+    {
+      "word": "r",
+      "start_ms": 10880,
+      "end_ms": 11320,
+      "start_frame": 326,
+      "end_frame": 340
+    },
+    {
+      "word": "and",
+      "start_ms": 11320,
+      "end_ms": 11840,
+      "start_frame": 340,
+      "end_frame": 355
+    },
+    {
+      "word": "every",
+      "start_ms": 11840,
+      "end_ms": 12220,
+      "start_frame": 355,
+      "end_frame": 367
+    },
+    {
+      "word": "source",
+      "start_ms": 12220,
+      "end_ms": 12600,
+      "start_frame": 367,
+      "end_frame": 378
+    },
+    {
+      "word": "column",
+      "start_ms": 12600,
+      "end_ms": 12900,
+      "start_frame": 378,
+      "end_frame": 387
+    },
+    {
+      "word": "c.",
+      "start_ms": 12900,
+      "end_ms": 13420,
+      "start_frame": 387,
+      "end_frame": 403
+    },
+    {
+      "word": "For",
+      "start_ms": 13820,
+      "end_ms": 13940,
+      "start_frame": 415,
+      "end_frame": 418
+    },
+    {
+      "word": "the",
+      "start_ms": 13940,
+      "end_ms": 14180,
+      "start_frame": 418,
+      "end_frame": 425
+    },
+    {
+      "word": "current",
+      "start_ms": 14180,
+      "end_ms": 14400,
+      "start_frame": 425,
+      "end_frame": 432
+    },
+    {
+      "word": "value,",
+      "start_ms": 14400,
+      "end_ms": 14960,
+      "start_frame": 432,
+      "end_frame": 449
+    },
+    {
+      "word": "matrix",
+      "start_ms": 15480,
+      "end_ms": 15980,
+      "start_frame": 464,
+      "end_frame": 479
+    },
+    {
+      "word": "c,",
+      "start_ms": 15980,
+      "end_ms": 16720,
+      "start_frame": 479,
+      "end_frame": 502
+    },
+    {
+      "word": "write",
+      "start_ms": 17060,
+      "end_ms": 17300,
+      "start_frame": 512,
+      "end_frame": 519
+    },
+    {
+      "word": "it",
+      "start_ms": 17300,
+      "end_ms": 17480,
+      "start_frame": 519,
+      "end_frame": 524
+    },
+    {
+      "word": "into",
+      "start_ms": 17480,
+      "end_ms": 18120,
+      "start_frame": 524,
+      "end_frame": 544
+    },
+    {
+      "word": "results",
+      "start_ms": 18120,
+      "end_ms": 18920,
+      "start_frame": 544,
+      "end_frame": 568
+    },
+    {
+      "word": "in",
+      "start_ms": 18920,
+      "end_ms": 19180,
+      "start_frame": 568,
+      "end_frame": 575
+    },
+    {
+      "word": "minus",
+      "start_ms": 19180,
+      "end_ms": 19620,
+      "start_frame": 575,
+      "end_frame": 589
+    },
+    {
+      "word": "1",
+      "start_ms": 19620,
+      "end_ms": 19980,
+      "start_frame": 589,
+      "end_frame": 599
+    },
+    {
+      "word": "minus",
+      "start_ms": 19980,
+      "end_ms": 20340,
+      "start_frame": 599,
+      "end_frame": 610
+    },
+    {
+      "word": "r.",
+      "start_ms": 20340,
+      "end_ms": 20780,
+      "start_frame": 610,
+      "end_frame": 623
+    },
+    {
+      "word": "This",
+      "start_ms": 21280,
+      "end_ms": 21620,
+      "start_frame": 638,
+      "end_frame": 649
+    },
+    {
+      "word": "line",
+      "start_ms": 21620,
+      "end_ms": 22200,
+      "start_frame": 649,
+      "end_frame": 666
+    },
+    {
+      "word": "directly",
+      "start_ms": 22200,
+      "end_ms": 23120,
+      "start_frame": 666,
+      "end_frame": 694
+    },
+    {
+      "word": "implements",
+      "start_ms": 23120,
+      "end_ms": 23900,
+      "start_frame": 694,
+      "end_frame": 717
+    },
+    {
+      "word": "the",
+      "start_ms": 23900,
+      "end_ms": 24480,
+      "start_frame": 717,
+      "end_frame": 734
+    },
+    {
+      "word": "coordinate",
+      "start_ms": 24480,
+      "end_ms": 25020,
+      "start_frame": 734,
+      "end_frame": 751
+    },
+    {
+      "word": "mapping",
+      "start_ms": 25020,
+      "end_ms": 25500,
+      "start_frame": 751,
+      "end_frame": 765
+    },
+    {
+      "word": "we",
+      "start_ms": 25500,
+      "end_ms": 26160,
+      "start_frame": 765,
+      "end_frame": 785
+    },
+    {
+      "word": "already",
+      "start_ms": 26160,
+      "end_ms": 26720,
+      "start_frame": 785,
+      "end_frame": 802
+    },
+    {
+      "word": "proved.",
+      "start_ms": 26720,
+      "end_ms": 27060,
+      "start_frame": 802,
+      "end_frame": 812
+    },
+    {
+      "word": "We",
+      "start_ms": 27060,
+      "end_ms": 27720,
+      "start_frame": 812,
+      "end_frame": 832
+    },
+    {
+      "word": "continue",
+      "start_ms": 27720,
+      "end_ms": 28380,
+      "start_frame": 832,
+      "end_frame": 851
+    },
+    {
+      "word": "until",
+      "start_ms": 28380,
+      "end_ms": 29060,
+      "start_frame": 851,
+      "end_frame": 872
+    },
+    {
+      "word": "every",
+      "start_ms": 29060,
+      "end_ms": 29620,
+      "start_frame": 872,
+      "end_frame": 889
+    },
+    {
+      "word": "source",
+      "start_ms": 29620,
+      "end_ms": 29960,
+      "start_frame": 889,
+      "end_frame": 899
+    },
+    {
+      "word": "cell",
+      "start_ms": 29960,
+      "end_ms": 30320,
+      "start_frame": 899,
+      "end_frame": 910
+    },
+    {
+      "word": "has",
+      "start_ms": 30320,
+      "end_ms": 30680,
+      "start_frame": 910,
+      "end_frame": 920
+    },
+    {
+      "word": "been",
+      "start_ms": 30680,
+      "end_ms": 30960,
+      "start_frame": 920,
+      "end_frame": 929
+    },
+    {
+      "word": "placed.",
+      "start_ms": 30960,
+      "end_ms": 31440,
+      "start_frame": 929,
+      "end_frame": 943
+    },
+    {
+      "word": "Then,",
+      "start_ms": 31920,
+      "end_ms": 32400,
+      "start_frame": 958,
+      "end_frame": 972
+    },
+    {
+      "word": "copy",
+      "start_ms": 32660,
+      "end_ms": 33000,
+      "start_frame": 980,
+      "end_frame": 990
+    },
+    {
+      "word": "the",
+      "start_ms": 33000,
+      "end_ms": 33380,
+      "start_frame": 990,
+      "end_frame": 1001
+    },
+    {
+      "word": "completed",
+      "start_ms": 33380,
+      "end_ms": 33740,
+      "start_frame": 1001,
+      "end_frame": 1012
+    },
+    {
+      "word": "result",
+      "start_ms": 33740,
+      "end_ms": 34280,
+      "start_frame": 1012,
+      "end_frame": 1028
+    },
+    {
+      "word": "back",
+      "start_ms": 34280,
+      "end_ms": 34980,
+      "start_frame": 1028,
+      "end_frame": 1049
+    },
+    {
+      "word": "into",
+      "start_ms": 34980,
+      "end_ms": 35280,
+      "start_frame": 1049,
+      "end_frame": 1058
+    },
+    {
+      "word": "the",
+      "start_ms": 35280,
+      "end_ms": 35520,
+      "start_frame": 1058,
+      "end_frame": 1066
+    },
+    {
+      "word": "original",
+      "start_ms": 35520,
+      "end_ms": 36000,
+      "start_frame": 1066,
+      "end_frame": 1080
+    },
+    {
+      "word": "matrix",
+      "start_ms": 36000,
+      "end_ms": 36600,
+      "start_frame": 1080,
+      "end_frame": 1098
+    },
+    {
+      "word": "so",
+      "start_ms": 36600,
+      "end_ms": 37320,
+      "start_frame": 1098,
+      "end_frame": 1120
+    },
+    {
+      "word": "the",
+      "start_ms": 37320,
+      "end_ms": 37560,
+      "start_frame": 1120,
+      "end_frame": 1127
+    },
+    {
+      "word": "final",
+      "start_ms": 37560,
+      "end_ms": 38000,
+      "start_frame": 1127,
+      "end_frame": 1140
+    },
+    {
+      "word": "answer",
+      "start_ms": 38000,
+      "end_ms": 38540,
+      "start_frame": 1140,
+      "end_frame": 1156
+    },
+    {
+      "word": "is",
+      "start_ms": 38540,
+      "end_ms": 39000,
+      "start_frame": 1156,
+      "end_frame": 1170
+    },
+    {
+      "word": "correct.",
+      "start_ms": 39000,
+      "end_ms": 39420,
+      "start_frame": 1170,
+      "end_frame": 1183
+    },
+    {
+      "word": "Now",
+      "start_ms": 39920,
+      "end_ms": 40160,
+      "start_frame": 1198,
+      "end_frame": 1205
+    },
+    {
+      "word": "complexity.",
+      "start_ms": 40160,
+      "end_ms": 40740,
+      "start_frame": 1205,
+      "end_frame": 1222
+    },
+    {
+      "word": "We",
+      "start_ms": 41320,
+      "end_ms": 41480,
+      "start_frame": 1240,
+      "end_frame": 1244
+    },
+    {
+      "word": "process",
+      "start_ms": 41480,
+      "end_ms": 42000,
+      "start_frame": 1244,
+      "end_frame": 1260
+    },
+    {
+      "word": "n",
+      "start_ms": 42000,
+      "end_ms": 42420,
+      "start_frame": 1260,
+      "end_frame": 1273
+    },
+    {
+      "word": "times",
+      "start_ms": 42420,
+      "end_ms": 42780,
+      "start_frame": 1273,
+      "end_frame": 1283
+    },
+    {
+      "word": "n",
+      "start_ms": 42780,
+      "end_ms": 43060,
+      "start_frame": 1283,
+      "end_frame": 1292
+    },
+    {
+      "word": "cells.",
+      "start_ms": 43060,
+      "end_ms": 43400,
+      "start_frame": 1292,
+      "end_frame": 1302
+    },
+    {
+      "word": "So",
+      "start_ms": 43900,
+      "end_ms": 44080,
+      "start_frame": 1317,
+      "end_frame": 1322
+    },
+    {
+      "word": "the",
+      "start_ms": 44080,
+      "end_ms": 44300,
+      "start_frame": 1322,
+      "end_frame": 1329
+    },
+    {
+      "word": "time",
+      "start_ms": 44300,
+      "end_ms": 44460,
+      "start_frame": 1329,
+      "end_frame": 1334
+    },
+    {
+      "word": "complexity",
+      "start_ms": 44460,
+      "end_ms": 45020,
+      "start_frame": 1334,
+      "end_frame": 1351
+    },
+    {
+      "word": "is",
+      "start_ms": 45020,
+      "end_ms": 45800,
+      "start_frame": 1351,
+      "end_frame": 1374
+    },
+    {
+      "word": "O",
+      "start_ms": 45800,
+      "end_ms": 46280,
+      "start_frame": 1374,
+      "end_frame": 1388
+    },
+    {
+      "word": "of",
+      "start_ms": 46280,
+      "end_ms": 46460,
+      "start_frame": 1388,
+      "end_frame": 1394
+    },
+    {
+      "word": "n",
+      "start_ms": 46460,
+      "end_ms": 46760,
+      "start_frame": 1394,
+      "end_frame": 1403
+    },
+    {
+      "word": "squared.",
+      "start_ms": 46760,
+      "end_ms": 47120,
+      "start_frame": 1403,
+      "end_frame": 1414
+    },
+    {
+      "word": "But",
+      "start_ms": 47600,
+      "end_ms": 47760,
+      "start_frame": 1428,
+      "end_frame": 1433
+    },
+    {
+      "word": "the",
+      "start_ms": 47760,
+      "end_ms": 47980,
+      "start_frame": 1433,
+      "end_frame": 1439
+    },
+    {
+      "word": "result",
+      "start_ms": 47980,
+      "end_ms": 48240,
+      "start_frame": 1439,
+      "end_frame": 1447
+    },
+    {
+      "word": "matrix",
+      "start_ms": 48240,
+      "end_ms": 48780,
+      "start_frame": 1447,
+      "end_frame": 1463
+    },
+    {
+      "word": "also",
+      "start_ms": 48780,
+      "end_ms": 49320,
+      "start_frame": 1463,
+      "end_frame": 1480
+    },
+    {
+      "word": "contains",
+      "start_ms": 49320,
+      "end_ms": 49800,
+      "start_frame": 1480,
+      "end_frame": 1494
+    },
+    {
+      "word": "n",
+      "start_ms": 49800,
+      "end_ms": 50280,
+      "start_frame": 1494,
+      "end_frame": 1508
+    },
+    {
+      "word": "times",
+      "start_ms": 50280,
+      "end_ms": 50740,
+      "start_frame": 1508,
+      "end_frame": 1522
+    },
+    {
+      "word": "n",
+      "start_ms": 50740,
+      "end_ms": 51040,
+      "start_frame": 1522,
+      "end_frame": 1531
+    },
+    {
+      "word": "cells.",
+      "start_ms": 51040,
+      "end_ms": 51520,
+      "start_frame": 1531,
+      "end_frame": 1546
+    },
+    {
+      "word": "So",
+      "start_ms": 51960,
+      "end_ms": 52160,
+      "start_frame": 1559,
+      "end_frame": 1565
+    },
+    {
+      "word": "the",
+      "start_ms": 52160,
+      "end_ms": 52340,
+      "start_frame": 1565,
+      "end_frame": 1570
+    },
+    {
+      "word": "extra",
+      "start_ms": 52340,
+      "end_ms": 52600,
+      "start_frame": 1570,
+      "end_frame": 1578
+    },
+    {
+      "word": "space",
+      "start_ms": 52600,
+      "end_ms": 52960,
+      "start_frame": 1578,
+      "end_frame": 1589
+    },
+    {
+      "word": "is",
+      "start_ms": 52960,
+      "end_ms": 53540,
+      "start_frame": 1589,
+      "end_frame": 1606
+    },
+    {
+      "word": "O",
+      "start_ms": 53540,
+      "end_ms": 54020,
+      "start_frame": 1606,
+      "end_frame": 1621
+    },
+    {
+      "word": "of",
+      "start_ms": 54020,
+      "end_ms": 54420,
+      "start_frame": 1621,
+      "end_frame": 1633
+    },
+    {
+      "word": "n",
+      "start_ms": 54420,
+      "end_ms": 54760,
+      "start_frame": 1633,
+      "end_frame": 1643
+    },
+    {
+      "word": "squared.",
+      "start_ms": 54760,
+      "end_ms": 55160,
+      "start_frame": 1643,
+      "end_frame": 1655
+    },
+    {
+      "word": "And",
+      "start_ms": 55160,
+      "end_ms": 55840,
+      "start_frame": 1655,
+      "end_frame": 1675
+    },
+    {
+      "word": "the",
+      "start_ms": 55840,
+      "end_ms": 56020,
+      "start_frame": 1675,
+      "end_frame": 1681
+    },
+    {
+      "word": "problem",
+      "start_ms": 56020,
+      "end_ms": 56420,
+      "start_frame": 1681,
+      "end_frame": 1693
+    },
+    {
+      "word": "specifically",
+      "start_ms": 56420,
+      "end_ms": 57140,
+      "start_frame": 1693,
+      "end_frame": 1714
+    },
+    {
+      "word": "asks",
+      "start_ms": 57140,
+      "end_ms": 57660,
+      "start_frame": 1714,
+      "end_frame": 1730
+    },
+    {
+      "word": "for",
+      "start_ms": 57660,
+      "end_ms": 58580,
+      "start_frame": 1730,
+      "end_frame": 1757
+    },
+    {
+      "word": "an",
+      "start_ms": 58580,
+      "end_ms": 58860,
+      "start_frame": 1757,
+      "end_frame": 1766
+    },
+    {
+      "word": "in",
+      "start_ms": 58860,
+      "end_ms": 59120,
+      "start_frame": 1766,
+      "end_frame": 1774
+    },
+    {
+      "word": "-place",
+      "start_ms": 59120,
+      "end_ms": 59380,
+      "start_frame": 1774,
+      "end_frame": 1781
+    },
+    {
+      "word": "rotation.",
+      "start_ms": 59380,
+      "end_ms": 60040,
+      "start_frame": 1781,
+      "end_frame": 1801
+    },
+    {
+      "word": "So",
+      "start_ms": 60840,
+      "end_ms": 61140,
+      "start_frame": 1825,
+      "end_frame": 1834
+    },
+    {
+      "word": "we",
+      "start_ms": 61140,
+      "end_ms": 61780,
+      "start_frame": 1834,
+      "end_frame": 1853
+    },
+    {
+      "word": "need",
+      "start_ms": 61780,
+      "end_ms": 62020,
+      "start_frame": 1853,
+      "end_frame": 1861
+    },
+    {
+      "word": "to",
+      "start_ms": 62020,
+      "end_ms": 62320,
+      "start_frame": 1861,
+      "end_frame": 1870
+    },
+    {
+      "word": "remove",
+      "start_ms": 62320,
+      "end_ms": 62860,
+      "start_frame": 1870,
+      "end_frame": 1886
+    },
+    {
+      "word": "that",
+      "start_ms": 62860,
+      "end_ms": 63560,
+      "start_frame": 1886,
+      "end_frame": 1907
+    },
+    {
+      "word": "extra",
+      "start_ms": 63560,
+      "end_ms": 63960,
+      "start_frame": 1907,
+      "end_frame": 1919
+    },
+    {
+      "word": "matrix.",
+      "start_ms": 63960,
+      "end_ms": 64560,
+      "start_frame": 1919,
+      "end_frame": 1937
+    }
+  ],
+  "sentences": [
+    {
+      "text": "First, store n, the size of the matrix, then create a new n by n result matrix.",
+      "start_ms": 0,
+      "end_ms": 8140,
+      "start_frame": 0,
+      "end_frame": 244,
+      "word_count": 17
+    },
+    {
+      "text": "Now loop through every source row r and every source column c.",
+      "start_ms": 8680,
+      "end_ms": 13420,
+      "start_frame": 260,
+      "end_frame": 403,
+      "word_count": 12
+    },
+    {
+      "text": "For the current value, matrix c, write it into results in minus 1 minus r.",
+      "start_ms": 13820,
+      "end_ms": 20780,
+      "start_frame": 415,
+      "end_frame": 623,
+      "word_count": 15
+    },
+    {
+      "text": "This line directly implements the coordinate mapping we already proved.",
+      "start_ms": 21280,
+      "end_ms": 27060,
+      "start_frame": 638,
+      "end_frame": 812,
+      "word_count": 10
+    },
+    {
+      "text": "We continue until every source cell has been placed.",
+      "start_ms": 27060,
+      "end_ms": 31440,
+      "start_frame": 812,
+      "end_frame": 943,
+      "word_count": 9
+    },
+    {
+      "text": "Then, copy the completed result back into the original matrix so the final answer is correct.",
+      "start_ms": 31920,
+      "end_ms": 39420,
+      "start_frame": 958,
+      "end_frame": 1183,
+      "word_count": 16
+    },
+    {
+      "text": "Now complexity.",
+      "start_ms": 39920,
+      "end_ms": 40740,
+      "start_frame": 1198,
+      "end_frame": 1222,
+      "word_count": 2
+    },
+    {
+      "text": "We process n times n cells.",
+      "start_ms": 41320,
+      "end_ms": 43400,
+      "start_frame": 1240,
+      "end_frame": 1302,
+      "word_count": 6
+    },
+    {
+      "text": "So the time complexity is O of n squared.",
+      "start_ms": 43900,
+      "end_ms": 47120,
+      "start_frame": 1317,
+      "end_frame": 1414,
+      "word_count": 9
+    },
+    {
+      "text": "But the result matrix also contains n times n cells.",
+      "start_ms": 47600,
+      "end_ms": 51520,
+      "start_frame": 1428,
+      "end_frame": 1546,
+      "word_count": 10
+    },
+    {
+      "text": "So the extra space is O of n squared.",
+      "start_ms": 51960,
+      "end_ms": 55160,
+      "start_frame": 1559,
+      "end_frame": 1655,
+      "word_count": 9
+    },
+    {
+      "text": "And the problem specifically asks for an in -place rotation.",
+      "start_ms": 55160,
+      "end_ms": 60040,
+      "start_frame": 1655,
+      "end_frame": 1801,
+      "word_count": 10
+    },
+    {
+      "text": "So we need to remove that extra matrix.",
+      "start_ms": 60840,
+      "end_ms": 64560,
+      "start_frame": 1825,
+      "end_frame": 1937,
+      "word_count": 8
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "First,",
+      "before_word": "store",
+      "start_ms": 460,
+      "end_ms": 1060,
+      "duration_ms": 600,
+      "start_frame": 14,
+      "end_frame": 32,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "matrix,",
+      "before_word": "then",
+      "start_ms": 3440,
+      "end_ms": 3940,
+      "duration_ms": 500,
+      "start_frame": 103,
+      "end_frame": 118,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "matrix.",
+      "before_word": "Now",
+      "start_ms": 8140,
+      "end_ms": 8680,
+      "duration_ms": 540,
+      "start_frame": 244,
+      "end_frame": 260,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "c.",
+      "before_word": "For",
+      "start_ms": 13420,
+      "end_ms": 13820,
+      "duration_ms": 400,
+      "start_frame": 403,
+      "end_frame": 415,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "value,",
+      "before_word": "matrix",
+      "start_ms": 14960,
+      "end_ms": 15480,
+      "duration_ms": 520,
+      "start_frame": 449,
+      "end_frame": 464,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "c,",
+      "before_word": "write",
+      "start_ms": 16720,
+      "end_ms": 17060,
+      "duration_ms": 340,
+      "start_frame": 502,
+      "end_frame": 512,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "r.",
+      "before_word": "This",
+      "start_ms": 20780,
+      "end_ms": 21280,
+      "duration_ms": 500,
+      "start_frame": 623,
+      "end_frame": 638,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "placed.",
+      "before_word": "Then,",
+      "start_ms": 31440,
+      "end_ms": 31920,
+      "duration_ms": 480,
+      "start_frame": 943,
+      "end_frame": 958,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "correct.",
+      "before_word": "Now",
+      "start_ms": 39420,
+      "end_ms": 39920,
+      "duration_ms": 500,
+      "start_frame": 1183,
+      "end_frame": 1198,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "complexity.",
+      "before_word": "We",
+      "start_ms": 40740,
+      "end_ms": 41320,
+      "duration_ms": 580,
+      "start_frame": 1222,
+      "end_frame": 1240,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "cells.",
+      "before_word": "So",
+      "start_ms": 43400,
+      "end_ms": 43900,
+      "duration_ms": 500,
+      "start_frame": 1302,
+      "end_frame": 1317,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "squared.",
+      "before_word": "But",
+      "start_ms": 47120,
+      "end_ms": 47600,
+      "duration_ms": 480,
+      "start_frame": 1414,
+      "end_frame": 1428,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "cells.",
+      "before_word": "So",
+      "start_ms": 51520,
+      "end_ms": 51960,
+      "duration_ms": 440,
+      "start_frame": 1546,
+      "end_frame": 1559,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "rotation.",
+      "before_word": "So",
+      "start_ms": 60040,
+      "end_ms": 60840,
+      "duration_ms": 800,
+      "start_frame": 1801,
+      "end_frame": 1825,
+      "duration_frames": 24
+    }
+  ]
+}

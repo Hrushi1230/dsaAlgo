@@ -1,0 +1,751 @@
+{
+  "audio_file": "01-intro-roadmap.mp3",
+  "duration_ms": 43020,
+  "duration_frames": 1291,
+  "fps": 30,
+  "word_count": 74,
+  "words": [
+    {
+      "word": "Welcome",
+      "start_ms": 0,
+      "end_ms": 440,
+      "start_frame": 0,
+      "end_frame": 13
+    },
+    {
+      "word": "back.",
+      "start_ms": 440,
+      "end_ms": 920,
+      "start_frame": 13,
+      "end_frame": 28
+    },
+    {
+      "word": "We",
+      "start_ms": 1780,
+      "end_ms": 2000,
+      "start_frame": 53,
+      "end_frame": 60
+    },
+    {
+      "word": "are",
+      "start_ms": 2000,
+      "end_ms": 2300,
+      "start_frame": 60,
+      "end_frame": 69
+    },
+    {
+      "word": "continuing",
+      "start_ms": 2300,
+      "end_ms": 2720,
+      "start_frame": 69,
+      "end_frame": 82
+    },
+    {
+      "word": "our",
+      "start_ms": 2720,
+      "end_ms": 3100,
+      "start_frame": 82,
+      "end_frame": 93
+    },
+    {
+      "word": "complete",
+      "start_ms": 3100,
+      "end_ms": 4000,
+      "start_frame": 93,
+      "end_frame": 120
+    },
+    {
+      "word": "DSA",
+      "start_ms": 4000,
+      "end_ms": 5200,
+      "start_frame": 120,
+      "end_frame": 156
+    },
+    {
+      "word": "roadmap",
+      "start_ms": 5200,
+      "end_ms": 5720,
+      "start_frame": 156,
+      "end_frame": 172
+    },
+    {
+      "word": "of",
+      "start_ms": 5720,
+      "end_ms": 6300,
+      "start_frame": 172,
+      "end_frame": 189
+    },
+    {
+      "word": "227",
+      "start_ms": 6300,
+      "end_ms": 7960,
+      "start_frame": 189,
+      "end_frame": 239
+    },
+    {
+      "word": "problems,",
+      "start_ms": 7960,
+      "end_ms": 8620,
+      "start_frame": 239,
+      "end_frame": 259
+    },
+    {
+      "word": "pattern",
+      "start_ms": 9160,
+      "end_ms": 9420,
+      "start_frame": 275,
+      "end_frame": 283
+    },
+    {
+      "word": "by",
+      "start_ms": 9420,
+      "end_ms": 9700,
+      "start_frame": 283,
+      "end_frame": 291
+    },
+    {
+      "word": "pattern.",
+      "start_ms": 9700,
+      "end_ms": 10200,
+      "start_frame": 291,
+      "end_frame": 306
+    },
+    {
+      "word": "Right",
+      "start_ms": 11040,
+      "end_ms": 11360,
+      "start_frame": 331,
+      "end_frame": 341
+    },
+    {
+      "word": "now,",
+      "start_ms": 11360,
+      "end_ms": 11880,
+      "start_frame": 341,
+      "end_frame": 356
+    },
+    {
+      "word": "we",
+      "start_ms": 12080,
+      "end_ms": 12240,
+      "start_frame": 362,
+      "end_frame": 367
+    },
+    {
+      "word": "are",
+      "start_ms": 12240,
+      "end_ms": 12460,
+      "start_frame": 367,
+      "end_frame": 374
+    },
+    {
+      "word": "inside",
+      "start_ms": 12460,
+      "end_ms": 12960,
+      "start_frame": 374,
+      "end_frame": 389
+    },
+    {
+      "word": "arrays",
+      "start_ms": 12960,
+      "end_ms": 13400,
+      "start_frame": 389,
+      "end_frame": 402
+    },
+    {
+      "word": "and",
+      "start_ms": 13400,
+      "end_ms": 13820,
+      "start_frame": 402,
+      "end_frame": 415
+    },
+    {
+      "word": "hashing.",
+      "start_ms": 13820,
+      "end_ms": 14360,
+      "start_frame": 415,
+      "end_frame": 431
+    },
+    {
+      "word": "Nine",
+      "start_ms": 15060,
+      "end_ms": 15440,
+      "start_frame": 452,
+      "end_frame": 463
+    },
+    {
+      "word": "questions",
+      "start_ms": 15440,
+      "end_ms": 15940,
+      "start_frame": 463,
+      "end_frame": 478
+    },
+    {
+      "word": "are",
+      "start_ms": 15940,
+      "end_ms": 16300,
+      "start_frame": 478,
+      "end_frame": 489
+    },
+    {
+      "word": "complete.",
+      "start_ms": 16300,
+      "end_ms": 16800,
+      "start_frame": 489,
+      "end_frame": 504
+    },
+    {
+      "word": "In",
+      "start_ms": 17400,
+      "end_ms": 17560,
+      "start_frame": 522,
+      "end_frame": 527
+    },
+    {
+      "word": "the",
+      "start_ms": 17560,
+      "end_ms": 17800,
+      "start_frame": 527,
+      "end_frame": 534
+    },
+    {
+      "word": "previous",
+      "start_ms": 17800,
+      "end_ms": 18160,
+      "start_frame": 534,
+      "end_frame": 545
+    },
+    {
+      "word": "question,",
+      "start_ms": 18160,
+      "end_ms": 18740,
+      "start_frame": 545,
+      "end_frame": 562
+    },
+    {
+      "word": "we",
+      "start_ms": 19140,
+      "end_ms": 19380,
+      "start_frame": 574,
+      "end_frame": 581
+    },
+    {
+      "word": "finished",
+      "start_ms": 19380,
+      "end_ms": 19720,
+      "start_frame": 581,
+      "end_frame": 592
+    },
+    {
+      "word": "valid",
+      "start_ms": 19720,
+      "end_ms": 20140,
+      "start_frame": 592,
+      "end_frame": 604
+    },
+    {
+      "word": "Sudoku.",
+      "start_ms": 20140,
+      "end_ms": 20780,
+      "start_frame": 604,
+      "end_frame": 623
+    },
+    {
+      "word": "Now,",
+      "start_ms": 21200,
+      "end_ms": 21720,
+      "start_frame": 636,
+      "end_frame": 652
+    },
+    {
+      "word": "question",
+      "start_ms": 22380,
+      "end_ms": 22840,
+      "start_frame": 671,
+      "end_frame": 685
+    },
+    {
+      "word": "number",
+      "start_ms": 22840,
+      "end_ms": 23300,
+      "start_frame": 685,
+      "end_frame": 699
+    },
+    {
+      "word": "10,",
+      "start_ms": 23300,
+      "end_ms": 23700,
+      "start_frame": 699,
+      "end_frame": 711
+    },
+    {
+      "word": "longest",
+      "start_ms": 24260,
+      "end_ms": 24660,
+      "start_frame": 728,
+      "end_frame": 740
+    },
+    {
+      "word": "consecutive",
+      "start_ms": 24660,
+      "end_ms": 25420,
+      "start_frame": 740,
+      "end_frame": 763
+    },
+    {
+      "word": "sequence.",
+      "start_ms": 25420,
+      "end_ms": 26180,
+      "start_frame": 763,
+      "end_frame": 785
+    },
+    {
+      "word": "Lead",
+      "start_ms": 26620,
+      "end_ms": 26820,
+      "start_frame": 799,
+      "end_frame": 805
+    },
+    {
+      "word": "code",
+      "start_ms": 26820,
+      "end_ms": 27240,
+      "start_frame": 805,
+      "end_frame": 817
+    },
+    {
+      "word": "128,",
+      "start_ms": 27240,
+      "end_ms": 28180,
+      "start_frame": 817,
+      "end_frame": 845
+    },
+    {
+      "word": "medium.",
+      "start_ms": 28980,
+      "end_ms": 29340,
+      "start_frame": 869,
+      "end_frame": 880
+    },
+    {
+      "word": "The",
+      "start_ms": 29340,
+      "end_ms": 30060,
+      "start_frame": 880,
+      "end_frame": 902
+    },
+    {
+      "word": "input",
+      "start_ms": 30060,
+      "end_ms": 30440,
+      "start_frame": 902,
+      "end_frame": 913
+    },
+    {
+      "word": "is",
+      "start_ms": 30440,
+      "end_ms": 30840,
+      "start_frame": 913,
+      "end_frame": 925
+    },
+    {
+      "word": "unsorted,",
+      "start_ms": 30840,
+      "end_ms": 31480,
+      "start_frame": 925,
+      "end_frame": 944
+    },
+    {
+      "word": "but",
+      "start_ms": 31700,
+      "end_ms": 31900,
+      "start_frame": 951,
+      "end_frame": 957
+    },
+    {
+      "word": "we",
+      "start_ms": 31900,
+      "end_ms": 32180,
+      "start_frame": 957,
+      "end_frame": 965
+    },
+    {
+      "word": "still",
+      "start_ms": 32180,
+      "end_ms": 32460,
+      "start_frame": 965,
+      "end_frame": 974
+    },
+    {
+      "word": "need",
+      "start_ms": 32460,
+      "end_ms": 32740,
+      "start_frame": 974,
+      "end_frame": 982
+    },
+    {
+      "word": "to",
+      "start_ms": 32740,
+      "end_ms": 33260,
+      "start_frame": 982,
+      "end_frame": 998
+    },
+    {
+      "word": "find",
+      "start_ms": 33260,
+      "end_ms": 33820,
+      "start_frame": 998,
+      "end_frame": 1015
+    },
+    {
+      "word": "the",
+      "start_ms": 33820,
+      "end_ms": 34140,
+      "start_frame": 1015,
+      "end_frame": 1024
+    },
+    {
+      "word": "longest",
+      "start_ms": 34140,
+      "end_ms": 34500,
+      "start_frame": 1024,
+      "end_frame": 1035
+    },
+    {
+      "word": "run",
+      "start_ms": 34500,
+      "end_ms": 34940,
+      "start_frame": 1035,
+      "end_frame": 1048
+    },
+    {
+      "word": "of",
+      "start_ms": 34940,
+      "end_ms": 35360,
+      "start_frame": 1048,
+      "end_frame": 1061
+    },
+    {
+      "word": "consecutive",
+      "start_ms": 35360,
+      "end_ms": 36060,
+      "start_frame": 1061,
+      "end_frame": 1082
+    },
+    {
+      "word": "values.",
+      "start_ms": 36060,
+      "end_ms": 36640,
+      "start_frame": 1082,
+      "end_frame": 1099
+    },
+    {
+      "word": "And",
+      "start_ms": 37220,
+      "end_ms": 37320,
+      "start_frame": 1117,
+      "end_frame": 1120
+    },
+    {
+      "word": "the",
+      "start_ms": 37320,
+      "end_ms": 37480,
+      "start_frame": 1120,
+      "end_frame": 1124
+    },
+    {
+      "word": "target",
+      "start_ms": 37480,
+      "end_ms": 37840,
+      "start_frame": 1124,
+      "end_frame": 1135
+    },
+    {
+      "word": "is",
+      "start_ms": 37840,
+      "end_ms": 38280,
+      "start_frame": 1135,
+      "end_frame": 1148
+    },
+    {
+      "word": "linear",
+      "start_ms": 38280,
+      "end_ms": 38640,
+      "start_frame": 1148,
+      "end_frame": 1159
+    },
+    {
+      "word": "time.",
+      "start_ms": 38640,
+      "end_ms": 39140,
+      "start_frame": 1159,
+      "end_frame": 1174
+    },
+    {
+      "word": "Before",
+      "start_ms": 39560,
+      "end_ms": 40020,
+      "start_frame": 1187,
+      "end_frame": 1201
+    },
+    {
+      "word": "code,",
+      "start_ms": 40020,
+      "end_ms": 40580,
+      "start_frame": 1201,
+      "end_frame": 1217
+    },
+    {
+      "word": "first",
+      "start_ms": 41300,
+      "end_ms": 41680,
+      "start_frame": 1239,
+      "end_frame": 1250
+    },
+    {
+      "word": "understand",
+      "start_ms": 41680,
+      "end_ms": 42340,
+      "start_frame": 1250,
+      "end_frame": 1270
+    },
+    {
+      "word": "the",
+      "start_ms": 42340,
+      "end_ms": 42620,
+      "start_frame": 1270,
+      "end_frame": 1279
+    },
+    {
+      "word": "question.",
+      "start_ms": 42620,
+      "end_ms": 43020,
+      "start_frame": 1279,
+      "end_frame": 1291
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Welcome back.",
+      "start_ms": 0,
+      "end_ms": 920,
+      "start_frame": 0,
+      "end_frame": 28,
+      "word_count": 2
+    },
+    {
+      "text": "We are continuing our complete DSA roadmap of 227 problems, pattern by pattern.",
+      "start_ms": 1780,
+      "end_ms": 10200,
+      "start_frame": 53,
+      "end_frame": 306,
+      "word_count": 13
+    },
+    {
+      "text": "Right now, we are inside arrays and hashing.",
+      "start_ms": 11040,
+      "end_ms": 14360,
+      "start_frame": 331,
+      "end_frame": 431,
+      "word_count": 8
+    },
+    {
+      "text": "Nine questions are complete.",
+      "start_ms": 15060,
+      "end_ms": 16800,
+      "start_frame": 452,
+      "end_frame": 504,
+      "word_count": 4
+    },
+    {
+      "text": "In the previous question, we finished valid Sudoku.",
+      "start_ms": 17400,
+      "end_ms": 20780,
+      "start_frame": 522,
+      "end_frame": 623,
+      "word_count": 8
+    },
+    {
+      "text": "Now, question number 10, longest consecutive sequence.",
+      "start_ms": 21200,
+      "end_ms": 26180,
+      "start_frame": 636,
+      "end_frame": 785,
+      "word_count": 7
+    },
+    {
+      "text": "Lead code 128, medium.",
+      "start_ms": 26620,
+      "end_ms": 29340,
+      "start_frame": 799,
+      "end_frame": 880,
+      "word_count": 4
+    },
+    {
+      "text": "The input is unsorted, but we still need to find the longest run of consecutive values.",
+      "start_ms": 29340,
+      "end_ms": 36640,
+      "start_frame": 880,
+      "end_frame": 1099,
+      "word_count": 16
+    },
+    {
+      "text": "And the target is linear time.",
+      "start_ms": 37220,
+      "end_ms": 39140,
+      "start_frame": 1117,
+      "end_frame": 1174,
+      "word_count": 6
+    },
+    {
+      "text": "Before code, first understand the question.",
+      "start_ms": 39560,
+      "end_ms": 43020,
+      "start_frame": 1187,
+      "end_frame": 1291,
+      "word_count": 6
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "back.",
+      "before_word": "We",
+      "start_ms": 920,
+      "end_ms": 1780,
+      "duration_ms": 860,
+      "start_frame": 28,
+      "end_frame": 53,
+      "duration_frames": 25
+    },
+    {
+      "after_word": "problems,",
+      "before_word": "pattern",
+      "start_ms": 8620,
+      "end_ms": 9160,
+      "duration_ms": 540,
+      "start_frame": 259,
+      "end_frame": 275,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "pattern.",
+      "before_word": "Right",
+      "start_ms": 10200,
+      "end_ms": 11040,
+      "duration_ms": 840,
+      "start_frame": 306,
+      "end_frame": 331,
+      "duration_frames": 25
+    },
+    {
+      "after_word": "hashing.",
+      "before_word": "Nine",
+      "start_ms": 14360,
+      "end_ms": 15060,
+      "duration_ms": 700,
+      "start_frame": 431,
+      "end_frame": 452,
+      "duration_frames": 21
+    },
+    {
+      "after_word": "complete.",
+      "before_word": "In",
+      "start_ms": 16800,
+      "end_ms": 17400,
+      "duration_ms": 600,
+      "start_frame": 504,
+      "end_frame": 522,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "question,",
+      "before_word": "we",
+      "start_ms": 18740,
+      "end_ms": 19140,
+      "duration_ms": 400,
+      "start_frame": 562,
+      "end_frame": 574,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "Sudoku.",
+      "before_word": "Now,",
+      "start_ms": 20780,
+      "end_ms": 21200,
+      "duration_ms": 420,
+      "start_frame": 623,
+      "end_frame": 636,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "Now,",
+      "before_word": "question",
+      "start_ms": 21720,
+      "end_ms": 22380,
+      "duration_ms": 660,
+      "start_frame": 652,
+      "end_frame": 671,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "10,",
+      "before_word": "longest",
+      "start_ms": 23700,
+      "end_ms": 24260,
+      "duration_ms": 560,
+      "start_frame": 711,
+      "end_frame": 728,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "sequence.",
+      "before_word": "Lead",
+      "start_ms": 26180,
+      "end_ms": 26620,
+      "duration_ms": 440,
+      "start_frame": 785,
+      "end_frame": 799,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "128,",
+      "before_word": "medium.",
+      "start_ms": 28180,
+      "end_ms": 28980,
+      "duration_ms": 800,
+      "start_frame": 845,
+      "end_frame": 869,
+      "duration_frames": 24
+    },
+    {
+      "after_word": "values.",
+      "before_word": "And",
+      "start_ms": 36640,
+      "end_ms": 37220,
+      "duration_ms": 580,
+      "start_frame": 1099,
+      "end_frame": 1117,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "time.",
+      "before_word": "Before",
+      "start_ms": 39140,
+      "end_ms": 39560,
+      "duration_ms": 420,
+      "start_frame": 1174,
+      "end_frame": 1187,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "code,",
+      "before_word": "first",
+      "start_ms": 40580,
+      "end_ms": 41300,
+      "duration_ms": 720,
+      "start_frame": 1217,
+      "end_frame": 1239,
+      "duration_frames": 22
+    }
+  ]
+}

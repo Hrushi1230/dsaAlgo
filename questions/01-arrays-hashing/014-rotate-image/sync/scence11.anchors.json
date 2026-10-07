@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "scene": "11-method3-code",
+  "audio_file": "11-method3-code.mp3",
+  "duration_ms": 100860,
+  "duration_frames": 3026,
+  "fps": 30,
+  "anchor_count": 4,
+  "anchors": {
+    "S11_START": {
+      "start_word_id": "W0000",
+      "end_word_id": "W0007",
+      "phrase": "Now let's translate that proof directly into code.",
+      "plan_phrase": "Now let’s translate that proof directly into code.",
+      "start_ms": 0,
+      "end_ms": 4120,
+      "start_seconds": 0.0,
+      "end_seconds": 4.12,
+      "start_frame": 0,
+      "end_frame": 124,
+      "edge": "start",
+      "note": "Code handoff."
+    },
+    "S11_TRANS": {
+      "start_word_id": "W0011",
+      "end_word_id": "W0014",
+      "phrase": "then transpose the matrix.",
+      "plan_phrase": "Then transpose the matrix.",
+      "start_ms": 6140,
+      "end_ms": 7880,
+      "start_seconds": 6.14,
+      "end_seconds": 7.88,
+      "start_frame": 184,
+      "end_frame": 236,
+      "edge": "start",
+      "note": "Transpose code phase."
+    },
+    "S11_IMPORTANT": {
+      "start_word_id": "W0188",
+      "end_word_id": "W0188",
+      "phrase": "This",
+      "plan_phrase": "This is important.",
+      "start_ms": 96060,
+      "end_ms": 96320,
+      "start_seconds": 96.06,
+      "end_seconds": 96.32,
+      "start_frame": 2882,
+      "end_frame": 2890,
+      "edge": "start",
+      "note": "Critical bound."
+    },
+    "S11_WHOLE": {
+      "start_word_id": "W0193",
+      "end_word_id": "W0196",
+      "phrase": "optimal, in -place solution.",
+      "plan_phrase": "That is the whole optimal solution.",
+      "start_ms": 98840,
+      "end_ms": 100860,
+      "start_seconds": 98.84,
+      "end_seconds": 100.86,
+      "start_frame": 2965,
+      "end_frame": 3026,
+      "edge": "start",
+      "note": "Completed solution."
+    }
+  }
+}

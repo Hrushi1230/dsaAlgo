@@ -1,0 +1,389 @@
+{
+  "scene": "03-method1-trace",
+  "total_frames": 5124,
+  "duration_ms": 170800,
+  "fps": 30,
+  "anchor_count": 38,
+  "anchors": [
+    {
+      "id": "S03_START",
+      "phrase": "We start at the top-left cell",
+      "start_word_idx": 0,
+      "end_word_idx": 6,
+      "start_frame": 0,
+      "end_frame": 62,
+      "start_ms": 0,
+      "end_ms": 2080
+    },
+    {
+      "id": "S03_ONE",
+      "phrase": "value 1.",
+      "start_word_idx": 7,
+      "end_word_idx": 8,
+      "start_frame": 78,
+      "end_frame": 116,
+      "start_ms": 2600,
+      "end_ms": 3860
+    },
+    {
+      "id": "S03_DIR_RIGHT",
+      "phrase": "Our current direction is right.",
+      "start_word_idx": 9,
+      "end_word_idx": 13,
+      "start_frame": 136,
+      "end_frame": 202,
+      "start_ms": 4520,
+      "end_ms": 6740
+    },
+    {
+      "id": "S03_TOP_SPAN",
+      "phrase": "We move across the complete top row, from 1 through 6.",
+      "start_word_idx": 14,
+      "end_word_idx": 24,
+      "start_frame": 215,
+      "end_frame": 352,
+      "start_ms": 7180,
+      "end_ms": 11720
+    },
+    {
+      "id": "S03_AT6_OUT",
+      "phrase": "At 6, the next position to the right is outside the matrix,",
+      "start_word_idx": 25,
+      "end_word_idx": 36,
+      "start_frame": 367,
+      "end_frame": 510,
+      "start_ms": 12240,
+      "end_ms": 17000
+    },
+    {
+      "id": "S03_TURN_DOWN",
+      "phrase": "so we turn clockwise, from right to down.",
+      "start_word_idx": 37,
+      "end_word_idx": 44,
+      "start_frame": 524,
+      "end_frame": 635,
+      "start_ms": 17460,
+      "end_ms": 21180
+    },
+    {
+      "id": "S03_RIGHT_SPAN",
+      "phrase": "Now we move down the complete right edge, from 12 through 30.",
+      "start_word_idx": 45,
+      "end_word_idx": 56,
+      "start_frame": 654,
+      "end_frame": 790,
+      "start_ms": 21800,
+      "end_ms": 26320
+    },
+    {
+      "id": "S03_AT30_OUT",
+      "phrase": "At 30, the next downward position is outside the matrix,",
+      "start_word_idx": 57,
+      "end_word_idx": 66,
+      "start_frame": 799,
+      "end_frame": 944,
+      "start_ms": 26620,
+      "end_ms": 31480
+    },
+    {
+      "id": "S03_TURN_LEFT",
+      "phrase": "so we turn from down to left.",
+      "start_word_idx": 67,
+      "end_word_idx": 73,
+      "start_frame": 965,
+      "end_frame": 1071,
+      "start_ms": 32160,
+      "end_ms": 35700
+    },
+    {
+      "id": "S03_BOTTOM_SPAN",
+      "phrase": "Now we move across the bottom edge, from 29 through 25.",
+      "start_word_idx": 74,
+      "end_word_idx": 84,
+      "start_frame": 1091,
+      "end_frame": 1247,
+      "start_ms": 36360,
+      "end_ms": 41560
+    },
+    {
+      "id": "S03_AT25_OUT",
+      "phrase": "At 25, the next position to the left is outside the matrix,",
+      "start_word_idx": 85,
+      "end_word_idx": 96,
+      "start_frame": 1265,
+      "end_frame": 1421,
+      "start_ms": 42160,
+      "end_ms": 47360
+    },
+    {
+      "id": "S03_TURN_UP",
+      "phrase": "so we turn from left to up.",
+      "start_word_idx": 97,
+      "end_word_idx": 103,
+      "start_frame": 1432,
+      "end_frame": 1524,
+      "start_ms": 47720,
+      "end_ms": 50800
+    },
+    {
+      "id": "S03_LEFT_TO7",
+      "phrase": "Now we move upward along the left edge until we reach 7.",
+      "start_word_idx": 104,
+      "end_word_idx": 115,
+      "start_frame": 1524,
+      "end_frame": 1669,
+      "start_ms": 50800,
+      "end_ms": 55620
+    },
+    {
+      "id": "S03_DIFFERENT",
+      "phrase": "And here, something different happens.",
+      "start_word_idx": 116,
+      "end_word_idx": 120,
+      "start_frame": 1691,
+      "end_frame": 1772,
+      "start_ms": 56360,
+      "end_ms": 59080
+    },
+    {
+      "id": "S03_7_INSIDE",
+      "phrase": "The cell above 7 is still inside the matrix,",
+      "start_word_idx": 121,
+      "end_word_idx": 129,
+      "start_frame": 1796,
+      "end_frame": 1903,
+      "start_ms": 59880,
+      "end_ms": 63420
+    },
+    {
+      "id": "S03_1_VISITED",
+      "phrase": "but it contains one, and one was already visited.",
+      "start_word_idx": 130,
+      "end_word_idx": 138,
+      "start_frame": 1917,
+      "end_frame": 2018,
+      "start_ms": 63900,
+      "end_ms": 67260
+    },
+    {
+      "id": "S03_NOT_BORDER",
+      "phrase": "So this time, we are not turning because of the border,",
+      "start_word_idx": 139,
+      "end_word_idx": 149,
+      "start_frame": 2041,
+      "end_frame": 2144,
+      "start_ms": 68020,
+      "end_ms": 71480
+    },
+    {
+      "id": "S03_VISITED_CAUSE",
+      "phrase": "we are turning because the next cell is already visited.",
+      "start_word_idx": 150,
+      "end_word_idx": 159,
+      "start_frame": 2163,
+      "end_frame": 2285,
+      "start_ms": 72100,
+      "end_ms": 76180
+    },
+    {
+      "id": "S03_TURN_RIGHT",
+      "phrase": "We turn clockwise, from up to right.",
+      "start_word_idx": 160,
+      "end_word_idx": 166,
+      "start_frame": 2285,
+      "end_frame": 2408,
+      "start_ms": 76180,
+      "end_ms": 80260
+    },
+    {
+      "id": "S03_INNER_POINT",
+      "phrase": "This is the important point that lets us enter the inner spiral.",
+      "start_word_idx": 167,
+      "end_word_idx": 178,
+      "start_frame": 2434,
+      "end_frame": 2552,
+      "start_ms": 81120,
+      "end_ms": 85060
+    },
+    {
+      "id": "S03_INNER_TOP",
+      "phrase": "Now we move right, from 8 through 11.",
+      "start_word_idx": 179,
+      "end_word_idx": 186,
+      "start_frame": 2572,
+      "end_frame": 2669,
+      "start_ms": 85740,
+      "end_ms": 88980
+    },
+    {
+      "id": "S03_11_VIS",
+      "phrase": "At 11, the next cell is 12. 12 is already visited,",
+      "start_word_idx": 187,
+      "end_word_idx": 197,
+      "start_frame": 2694,
+      "end_frame": 2831,
+      "start_ms": 89800,
+      "end_ms": 94380
+    },
+    {
+      "id": "S03_TURN_DOWN2",
+      "phrase": "so we turn from right to down.",
+      "start_word_idx": 198,
+      "end_word_idx": 204,
+      "start_frame": 2844,
+      "end_frame": 2933,
+      "start_ms": 94800,
+      "end_ms": 97780
+    },
+    {
+      "id": "S03_INNER_RIGHT",
+      "phrase": "Now we move down until 23.",
+      "start_word_idx": 205,
+      "end_word_idx": 210,
+      "start_frame": 2954,
+      "end_frame": 3022,
+      "start_ms": 98480,
+      "end_ms": 100720
+    },
+    {
+      "id": "S03_23_VIS",
+      "phrase": "At 23, the next cell below is 29. 29 is already visited,",
+      "start_word_idx": 211,
+      "end_word_idx": 222,
+      "start_frame": 3041,
+      "end_frame": 3199,
+      "start_ms": 101380,
+      "end_ms": 106640
+    },
+    {
+      "id": "S03_TURN_LEFT2",
+      "phrase": "so we turn from down to left.",
+      "start_word_idx": 223,
+      "end_word_idx": 229,
+      "start_frame": 3217,
+      "end_frame": 3307,
+      "start_ms": 107220,
+      "end_ms": 110220
+    },
+    {
+      "id": "S03_INNER_BOTTOM",
+      "phrase": "Now we move left until 20.",
+      "start_word_idx": 230,
+      "end_word_idx": 235,
+      "start_frame": 3336,
+      "end_frame": 3403,
+      "start_ms": 111200,
+      "end_ms": 113420
+    },
+    {
+      "id": "S03_20_VIS",
+      "phrase": "At 20, the next cell is 19. 19 is already visited,",
+      "start_word_idx": 236,
+      "end_word_idx": 246,
+      "start_frame": 3418,
+      "end_frame": 3565,
+      "start_ms": 113920,
+      "end_ms": 118840
+    },
+    {
+      "id": "S03_TURN_UP2",
+      "phrase": "so we turn from left to up.",
+      "start_word_idx": 247,
+      "end_word_idx": 253,
+      "start_frame": 3572,
+      "end_frame": 3655,
+      "start_ms": 119060,
+      "end_ms": 121820
+    },
+    {
+      "id": "S03_REACH14",
+      "phrase": "Moving upward, we reach 14.",
+      "start_word_idx": 254,
+      "end_word_idx": 258,
+      "start_frame": 3667,
+      "end_frame": 3726,
+      "start_ms": 122240,
+      "end_ms": 124200
+    },
+    {
+      "id": "S03_14_VIS",
+      "phrase": "The cell above 14 is 8. 8 was already visited,",
+      "start_word_idx": 259,
+      "end_word_idx": 268,
+      "start_frame": 3743,
+      "end_frame": 3867,
+      "start_ms": 124760,
+      "end_ms": 128900
+    },
+    {
+      "id": "S03_TURN_RIGHT2",
+      "phrase": "so we turn from up to right.",
+      "start_word_idx": 269,
+      "end_word_idx": 275,
+      "start_frame": 3877,
+      "end_frame": 3955,
+      "start_ms": 129220,
+      "end_ms": 131840
+    },
+    {
+      "id": "S03_FINAL_TWO",
+      "phrase": "Now only the final two cells remain, 15 and 16.",
+      "start_word_idx": 276,
+      "end_word_idx": 285,
+      "start_frame": 3965,
+      "end_frame": 4106,
+      "start_ms": 132160,
+      "end_ms": 136880
+    },
+    {
+      "id": "S03_ANSWER30",
+      "phrase": "After adding 16, the answer contains exactly 30 values,",
+      "start_word_idx": 286,
+      "end_word_idx": 294,
+      "start_frame": 4127,
+      "end_frame": 4280,
+      "start_ms": 137560,
+      "end_ms": 142660
+    },
+    {
+      "id": "S03_MATRIX30",
+      "phrase": "and the matrix contains 5 times 6, which is also 30 cells.",
+      "start_word_idx": 295,
+      "end_word_idx": 306,
+      "start_frame": 4295,
+      "end_frame": 4439,
+      "start_ms": 143160,
+      "end_ms": 147980
+    },
+    {
+      "id": "S03_STOP",
+      "phrase": "So every cell has been visited exactly once, and we stop.",
+      "start_word_idx": 307,
+      "end_word_idx": 317,
+      "start_frame": 4459,
+      "end_frame": 4594,
+      "start_ms": 148640,
+      "end_ms": 153120
+    },
+    {
+      "id": "S03_LOGIC",
+      "phrase": "So method 1 always follows the same logic. Process the current cell, inspect the next position, and turn when that next position is outside or already visited.",
+      "start_word_idx": 318,
+      "end_word_idx": 344,
+      "start_frame": 4613,
+      "end_frame": 5014,
+      "start_ms": 153760,
+      "end_ms": 167140
+    },
+    {
+      "id": "S03_CODE_HANDOFF",
+      "phrase": "Now let's map this exact trace into code.",
+      "start_word_idx": 345,
+      "end_word_idx": 352,
+      "start_frame": 5041,
+      "end_frame": 5124,
+      "start_ms": 168020,
+      "end_ms": 170800
+    }
+  ]
+}

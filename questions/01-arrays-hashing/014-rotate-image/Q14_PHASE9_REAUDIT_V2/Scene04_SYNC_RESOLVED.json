@@ -1,0 +1,106 @@
+{
+  "scene": "S04",
+  "audio_file": "04-method1-code.mp3",
+  "fps": 30,
+  "duration_frames": 1937,
+  "duration_ms": 64560,
+  "anchor_count": 8,
+  "anchors": [
+    {
+      "anchor_id": "S04_SCANR",
+      "phrase": "Now loop through every source row",
+      "plan_phrase": "Now scan every source row",
+      "word_start_index": 17,
+      "word_end_index": 22,
+      "start_seconds": 8.68,
+      "end_seconds": 10.88,
+      "start_frame": 260,
+      "end_frame_exclusive": 327,
+      "note": "Outer row loop."
+    },
+    {
+      "anchor_id": "S04_SCANC",
+      "phrase": "and every source column",
+      "plan_phrase": "and every source column.",
+      "word_start_index": 24,
+      "word_end_index": 27,
+      "start_seconds": 11.32,
+      "end_seconds": 12.9,
+      "start_frame": 340,
+      "end_frame_exclusive": 388,
+      "note": "Inner column loop."
+    },
+    {
+      "anchor_id": "S04_MAPPING",
+      "phrase": "line directly implements the coordinate mapping we",
+      "plan_phrase": "That single line is the coordinate mapping we just traced.",
+      "word_start_index": 45,
+      "word_end_index": 51,
+      "start_seconds": 21.62,
+      "end_seconds": 26.16,
+      "start_frame": 649,
+      "end_frame_exclusive": 786,
+      "note": "Core mapping line."
+    },
+    {
+      "anchor_id": "S04_SOURCE",
+      "phrase": "the original matrix",
+      "plan_phrase": "The source matrix stays unchanged",
+      "word_start_index": 70,
+      "word_end_index": 72,
+      "start_seconds": 35.28,
+      "end_seconds": 36.6,
+      "start_frame": 1058,
+      "end_frame_exclusive": 1099,
+      "note": "Immutable source."
+    },
+    {
+      "anchor_id": "S04_BUILD",
+      "phrase": "But the result matrix",
+      "plan_phrase": "while the result matrix is being built.",
+      "word_start_index": 96,
+      "word_end_index": 99,
+      "start_seconds": 47.6,
+      "end_seconds": 48.78,
+      "start_frame": 1428,
+      "end_frame_exclusive": 1464,
+      "note": "Result build."
+    },
+    {
+      "anchor_id": "S04_COPY",
+      "phrase": "n squared. But the result matrix",
+      "plan_phrase": "copy the result matrix back into the original matrix.",
+      "word_start_index": 94,
+      "word_end_index": 99,
+      "start_seconds": 46.46,
+      "end_seconds": 48.78,
+      "start_frame": 1394,
+      "end_frame_exclusive": 1464,
+      "note": "Copy-back code."
+    },
+    {
+      "anchor_id": "S04_CORRECT",
+      "phrase": "that extra",
+      "plan_phrase": "That gives the correct rotation.",
+      "word_start_index": 130,
+      "word_end_index": 131,
+      "start_seconds": 62.86,
+      "end_seconds": 63.96,
+      "start_frame": 1886,
+      "end_frame_exclusive": 1920,
+      "note": "Correct rotated matrix."
+    },
+    {
+      "anchor_id": "S04_REMOVE",
+      "phrase": "we need to remove that extra matrix.",
+      "plan_phrase": "So now we need to remove that extra matrix.",
+      "word_start_index": 126,
+      "word_end_index": 132,
+      "start_seconds": 61.14,
+      "end_seconds": 64.56,
+      "start_frame": 1834,
+      "end_frame_exclusive": 1938,
+      "note": "One matrix only."
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "scene": "07-method2-trace",
+  "audio_file": "07-method2-trace.mp3",
+  "duration_ms": 171860,
+  "duration_frames": 5156,
+  "fps": 30,
+  "anchors": [
+    {
+      "id": "S07_INIT",
+      "phrase": "We begin with... `top = 0`... `bottom = 4`... `left = 0`... `right = 5`.",
+      "start_word": "We",
+      "start_ms": 0,
+      "start_frame": 0,
+      "end_word": "5.",
+      "end_ms": 6420,
+      "end_frame": 193
+    },
+    {
+      "id": "S07_ACTIVE",
+      "phrase": "The whole matrix is active.",
+      "start_word": "The",
+      "start_ms": 6940,
+      "start_frame": 208,
+      "end_word": "active.",
+      "end_ms": 8520,
+      "end_frame": 256
+    },
+    {
+      "id": "S07_TOP1",
+      "phrase": "consume the complete top edge... from one... through six.",
+      "start_word": "consume",
+      "start_ms": 9800,
+      "start_frame": 294,
+      "end_word": "6.",
+      "end_ms": 13220,
+      "end_frame": 397
+    },
+    {
+      "id": "S07_TOP_DONE",
+      "phrase": "That row is finished forever.",
+      "start_word": "That",
+      "start_ms": 13560,
+      "start_frame": 407,
+      "end_word": "forever.",
+      "end_ms": 15260,
+      "end_frame": 458
+    },
+    {
+      "id": "S07_TOP_MOVE",
+      "phrase": "`top` moves from zero... to one.",
+      "start_word": "Top",
+      "start_ms": 17100,
+      "start_frame": 513,
+      "end_word": "1.",
+      "end_ms": 19320,
+      "end_frame": 580
+    },
+    {
+      "id": "S07_ROWS_REMAIN",
+      "phrase": "Rows still remain... so we continue.",
+      "start_word": "Rows",
+      "start_ms": 19560,
+      "start_frame": 587,
+      "end_word": "continue.",
+      "end_ms": 22540,
+      "end_frame": 676
+    },
+    {
+      "id": "S07_RIGHT1",
+      "phrase": "Now consume the complete right edge... from twelve... through thirty.",
+      "start_word": "Now",
+      "start_ms": 23220,
+      "start_frame": 697,
+      "end_word": "30.",
+      "end_ms": 27700,
+      "end_frame": 831
+    },
+    {
+      "id": "S07_RIGHT_MOVE",
+      "phrase": "`right` moves from five... to four.",
+      "start_word": "right",
+      "start_ms": 24500,
+      "start_frame": 735,
+      "end_word": "30.",
+      "end_ms": 27700,
+      "end_frame": 831
+    },
+    {
+      "id": "S07_COLS_REMAIN",
+      "phrase": "Columns still remain... so we continue.",
+      "start_word": "column",
+      "start_ms": 28440,
+      "start_frame": 853,
+      "end_word": "moves",
+      "end_ms": 31720,
+      "end_frame": 952
+    },
+    {
+      "id": "S07_BOTTOM1",
+      "phrase": "Now consume the bottom edge... from twenty-nine... through twenty-five... moving right to left.",
+      "start_word": "Now",
+      "start_ms": 37620,
+      "start_frame": 1129,
+      "end_word": "row",
+      "end_ms": 45000,
+      "end_frame": 1350
+    },
+    {
+      "id": "S07_BOTTOM_MOVE",
+      "phrase": "`bottom` moves from four... to three.",
+      "start_word": "bottom",
+      "start_ms": 38420,
+      "start_frame": 1153,
+      "end_word": "25.",
+      "end_ms": 42020,
+      "end_frame": 1261
+    },
+    {
+      "id": "S07_ROWS_REMAIN2",
+      "phrase": "Rows still remain... so we continue.",
+      "start_word": "row",
+      "start_ms": 44700,
+      "start_frame": 1341,
+      "end_word": "moves",
+      "end_ms": 48040,
+      "end_frame": 1441
+    },
+    {
+      "id": "S07_LEFT1",
+      "phrase": "Now consume the left edge... moving upward... until seven.",
+      "start_word": "Now",
+      "start_ms": 52840,
+      "start_frame": 1585,
+      "end_word": "7.",
+      "end_ms": 57120,
+      "end_frame": 1714
+    },
+    {
+      "id": "S07_LEFT_MOVE",
+      "phrase": "`left` moves from zero... to one.",
+      "start_word": "left",
+      "start_ms": 60400,
+      "start_frame": 1812,
+      "end_word": "1.",
+      "end_ms": 62780,
+      "end_frame": 1883
+    },
+    {
+      "id": "S07_OUTER_DONE",
+      "phrase": "The first outer round is complete.",
+      "start_word": "The",
+      "start_ms": 63340,
+      "start_frame": 1900,
+      "end_word": "complete.",
+      "end_ms": 65480,
+      "end_frame": 1964
+    },
+    {
+      "id": "S07_REMAIN",
+      "phrase": "And now look at the remaining work.",
+      "start_word": "And",
+      "start_ms": 65900,
+      "start_frame": 1977,
+      "end_word": "work.",
+      "end_ms": 67720,
+      "end_frame": 2032
+    },
+    {
+      "id": "S07_SIZE",
+      "phrase": "The active region has changed... from five by six... to three by four.",
+      "start_word": "The",
+      "start_ms": 68400,
+      "start_frame": 2052,
+      "end_word": "4.",
+      "end_ms": 73920,
+      "end_frame": 2218
+    },
+    {
+      "id": "S07_CONTINUE",
+      "phrase": "We do not restart the algorithm. We simply continue... with this smaller rectangle.",
+      "start_word": "We",
+      "start_ms": 74700,
+      "start_frame": 2241,
+      "end_word": "rectangle,",
+      "end_ms": 80140,
+      "end_frame": 2404
+    },
+    {
+      "id": "S07_TOP2",
+      "phrase": "Consume the new top edge... from eight... through eleven.",
+      "start_word": "consume",
+      "start_ms": 80740,
+      "start_frame": 2422,
+      "end_word": "11.",
+      "end_ms": 84780,
+      "end_frame": 2543
+    },
+    {
+      "id": "S07_TOP_MOVE2",
+      "phrase": "`top` moves from one... to two.",
+      "start_word": "top",
+      "start_ms": 81620,
+      "start_frame": 2449,
+      "end_word": "11.",
+      "end_ms": 84780,
+      "end_frame": 2543
+    },
+    {
+      "id": "S07_ROWS_REMAIN3",
+      "phrase": "Rows still remain.",
+      "start_word": "Rows",
+      "start_ms": 88880,
+      "start_frame": 2666,
+      "end_word": "remain.",
+      "end_ms": 90040,
+      "end_frame": 2701
+    },
+    {
+      "id": "S07_RIGHT2",
+      "phrase": "Consume the new right edge... down to twenty-three.",
+      "start_word": "Consume",
+      "start_ms": 90660,
+      "start_frame": 2720,
+      "end_word": "Then",
+      "end_ms": 94700,
+      "end_frame": 2841
+    },
+    {
+      "id": "S07_RIGHT_MOVE2",
+      "phrase": "`right` moves from four... to three.",
+      "start_word": "right",
+      "start_ms": 94700,
+      "start_frame": 2841,
+      "end_word": "3.",
+      "end_ms": 97680,
+      "end_frame": 2930
+    },
+    {
+      "id": "S07_COLS_REMAIN2",
+      "phrase": "Columns still remain.",
+      "start_word": "Columns",
+      "start_ms": 98160,
+      "start_frame": 2945,
+      "end_word": "remain.",
+      "end_ms": 99240,
+      "end_frame": 2977
+    },
+    {
+      "id": "S07_BOTTOM2",
+      "phrase": "Now consume the bottom edge... from twenty-two... through twenty... moving right to left.",
+      "start_word": "Now",
+      "start_ms": 99800,
+      "start_frame": 2994,
+      "end_word": "Then",
+      "end_ms": 107140,
+      "end_frame": 3214
+    },
+    {
+      "id": "S07_BOTTOM_MOVE2",
+      "phrase": "`bottom` moves from three... to two.",
+      "start_word": "bottom",
+      "start_ms": 100820,
+      "start_frame": 3025,
+      "end_word": "20,",
+      "end_ms": 104140,
+      "end_frame": 3124
+    },
+    {
+      "id": "S07_ONE_ROW",
+      "phrase": "Notice... one row still remains. So we are not finished.",
+      "start_word": "Notice.",
+      "start_ms": 110060,
+      "start_frame": 3302,
+      "end_word": "finished.",
+      "end_ms": 114520,
+      "end_frame": 3436
+    },
+    {
+      "id": "S07_LEFT2",
+      "phrase": "Now consume the left edge.",
+      "start_word": "Now",
+      "start_ms": 115020,
+      "start_frame": 3451,
+      "end_word": "edge.",
+      "end_ms": 116340,
+      "end_frame": 3490
+    },
+    {
+      "id": "S07_FOURTEEN",
+      "phrase": "that edge contains only one cell... fourteen. We collect fourteen.",
+      "start_word": "that",
+      "start_ms": 118200,
+      "start_frame": 3546,
+      "end_word": "14.",
+      "end_ms": 122840,
+      "end_frame": 3685
+    },
+    {
+      "id": "S07_LEFT_MOVE2",
+      "phrase": "`left` moves from one... to two.",
+      "start_word": "left",
+      "start_ms": 123940,
+      "start_frame": 3718,
+      "end_word": "2.",
+      "end_ms": 126420,
+      "end_frame": 3793
+    },
+    {
+      "id": "S07_REMAIN_ROW",
+      "phrase": "Only one row is left.",
+      "start_word": "Only",
+      "start_ms": 129420,
+      "start_frame": 3883,
+      "end_word": "left.",
+      "end_ms": 130760,
+      "end_frame": 3923
+    },
+    {
+      "id": "S07_EDGECASE",
+      "phrase": "This is an important edge case.",
+      "start_word": "This",
+      "start_ms": 131300,
+      "start_frame": 3939,
+      "end_word": "case.",
+      "end_ms": 133020,
+      "end_frame": 3991
+    },
+    {
+      "id": "S07_VALID_ROW",
+      "phrase": "A single row is still... a valid active rectangle.",
+      "start_word": "an",
+      "start_ms": 131740,
+      "start_frame": 3952,
+      "end_word": "a",
+      "end_ms": 134940,
+      "end_frame": 4048
+    },
+    {
+      "id": "S07_FINAL_TOP",
+      "phrase": "We consume that final top edge... fifteen... then sixteen.",
+      "start_word": "We",
+      "start_ms": 141460,
+      "start_frame": 4244,
+      "end_word": "16.",
+      "end_ms": 145280,
+      "end_frame": 4358
+    },
+    {
+      "id": "S07_TOP_MOVE3",
+      "phrase": "`top` moves from two... to three.",
+      "start_word": "top",
+      "start_ms": 146360,
+      "start_frame": 4391,
+      "end_word": "3.",
+      "end_ms": 148740,
+      "end_frame": 4462
+    },
+    {
+      "id": "S07_CROSSED",
+      "phrase": "`top` is greater than `bottom`.",
+      "start_word": "top",
+      "start_ms": 149660,
+      "start_frame": 4490,
+      "end_word": "bottom.",
+      "end_ms": 151560,
+      "end_frame": 4547
+    },
+    {
+      "id": "S07_NO_ROWS",
+      "phrase": "no rows remain.",
+      "start_word": "no",
+      "start_ms": 152780,
+      "start_frame": 4583,
+      "end_word": "remain.",
+      "end_ms": 153960,
+      "end_frame": 4619
+    },
+    {
+      "id": "S07_STOP",
+      "phrase": "The active rectangle has disappeared... so the traversal stops.",
+      "start_word": "The",
+      "start_ms": 154700,
+      "start_frame": 4641,
+      "end_word": "stops.",
+      "end_ms": 158540,
+      "end_frame": 4756
+    },
+    {
+      "id": "S07_ONCE",
+      "phrase": "Every cell was added... exactly once.",
+      "start_word": "Every",
+      "start_ms": 159120,
+      "start_frame": 4774,
+      "end_word": "once.",
+      "end_ms": 161640,
+      "end_frame": 4849
+    },
+    {
+      "id": "S07_NO_VISITED",
+      "phrase": "And we did not use... a visited matrix.",
+      "start_word": "And",
+      "start_ms": 162160,
+      "start_frame": 4865,
+      "end_word": "matrix.",
+      "end_ms": 165000,
+      "end_frame": 4950
+    },
+    {
+      "id": "S07_CODE",
+      "phrase": "Now let\u2019s map this directly into code.",
+      "start_word": "Now",
+      "start_ms": 169460,
+      "start_frame": 5084,
+      "end_word": "code.",
+      "end_ms": 171860,
+      "end_frame": 5156
+    }
+  ]
+}
