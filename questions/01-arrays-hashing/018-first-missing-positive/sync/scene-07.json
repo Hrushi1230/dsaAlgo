@@ -1,0 +1,785 @@
+{
+  "audio_file": "07-hashset-code.mp3",
+  "duration_ms": 39760,
+  "duration_frames": 1193,
+  "fps": 30,
+  "word_count": 78,
+  "words": [
+    {
+      "word": "Create",
+      "start_ms": 0,
+      "end_ms": 520,
+      "start_frame": 0,
+      "end_frame": 16
+    },
+    {
+      "word": "an",
+      "start_ms": 520,
+      "end_ms": 920,
+      "start_frame": 16,
+      "end_frame": 28
+    },
+    {
+      "word": "empty",
+      "start_ms": 920,
+      "end_ms": 1340,
+      "start_frame": 28,
+      "end_frame": 40
+    },
+    {
+      "word": "scene",
+      "start_ms": 1340,
+      "end_ms": 1720,
+      "start_frame": 40,
+      "end_frame": 52
+    },
+    {
+      "word": "set.",
+      "start_ms": 1720,
+      "end_ms": 2300,
+      "start_frame": 52,
+      "end_frame": 69
+    },
+    {
+      "word": "To",
+      "start_ms": 3500,
+      "end_ms": 3580,
+      "start_frame": 105,
+      "end_frame": 107
+    },
+    {
+      "word": "remember,",
+      "start_ms": 3580,
+      "end_ms": 4180,
+      "start_frame": 107,
+      "end_frame": 125
+    },
+    {
+      "word": "membership.",
+      "start_ms": 4480,
+      "end_ms": 5080,
+      "start_frame": 134,
+      "end_frame": 152
+    },
+    {
+      "word": "Loop",
+      "start_ms": 5760,
+      "end_ms": 5960,
+      "start_frame": 173,
+      "end_frame": 179
+    },
+    {
+      "word": "through",
+      "start_ms": 5960,
+      "end_ms": 6220,
+      "start_frame": 179,
+      "end_frame": 187
+    },
+    {
+      "word": "the",
+      "start_ms": 6220,
+      "end_ms": 6420,
+      "start_frame": 187,
+      "end_frame": 193
+    },
+    {
+      "word": "input",
+      "start_ms": 6420,
+      "end_ms": 6780,
+      "start_frame": 193,
+      "end_frame": 203
+    },
+    {
+      "word": "and",
+      "start_ms": 6780,
+      "end_ms": 7200,
+      "start_frame": 203,
+      "end_frame": 216
+    },
+    {
+      "word": "add",
+      "start_ms": 7200,
+      "end_ms": 7600,
+      "start_frame": 216,
+      "end_frame": 228
+    },
+    {
+      "word": "every",
+      "start_ms": 7600,
+      "end_ms": 8320,
+      "start_frame": 228,
+      "end_frame": 250
+    },
+    {
+      "word": "value.",
+      "start_ms": 8320,
+      "end_ms": 8960,
+      "start_frame": 250,
+      "end_frame": 269
+    },
+    {
+      "word": "Duplicates",
+      "start_ms": 9580,
+      "end_ms": 10140,
+      "start_frame": 287,
+      "end_frame": 304
+    },
+    {
+      "word": "are",
+      "start_ms": 10140,
+      "end_ms": 10420,
+      "start_frame": 304,
+      "end_frame": 313
+    },
+    {
+      "word": "handled",
+      "start_ms": 10420,
+      "end_ms": 10720,
+      "start_frame": 313,
+      "end_frame": 322
+    },
+    {
+      "word": "automatically",
+      "start_ms": 10720,
+      "end_ms": 11460,
+      "start_frame": 322,
+      "end_frame": 344
+    },
+    {
+      "word": "by",
+      "start_ms": 11460,
+      "end_ms": 11760,
+      "start_frame": 344,
+      "end_frame": 353
+    },
+    {
+      "word": "the",
+      "start_ms": 11760,
+      "end_ms": 11980,
+      "start_frame": 353,
+      "end_frame": 359
+    },
+    {
+      "word": "set.",
+      "start_ms": 11980,
+      "end_ms": 12260,
+      "start_frame": 359,
+      "end_frame": 368
+    },
+    {
+      "word": "Start",
+      "start_ms": 12860,
+      "end_ms": 13120,
+      "start_frame": 386,
+      "end_frame": 394
+    },
+    {
+      "word": "candidate",
+      "start_ms": 13120,
+      "end_ms": 13620,
+      "start_frame": 394,
+      "end_frame": 409
+    },
+    {
+      "word": "at",
+      "start_ms": 13620,
+      "end_ms": 13980,
+      "start_frame": 409,
+      "end_frame": 419
+    },
+    {
+      "word": "1.",
+      "start_ms": 13980,
+      "end_ms": 14460,
+      "start_frame": 419,
+      "end_frame": 434
+    },
+    {
+      "word": "Because",
+      "start_ms": 15200,
+      "end_ms": 15400,
+      "start_frame": 456,
+      "end_frame": 462
+    },
+    {
+      "word": "we",
+      "start_ms": 15400,
+      "end_ms": 15680,
+      "start_frame": 462,
+      "end_frame": 470
+    },
+    {
+      "word": "still",
+      "start_ms": 15680,
+      "end_ms": 16020,
+      "start_frame": 470,
+      "end_frame": 481
+    },
+    {
+      "word": "need",
+      "start_ms": 16020,
+      "end_ms": 16280,
+      "start_frame": 481,
+      "end_frame": 488
+    },
+    {
+      "word": "the",
+      "start_ms": 16280,
+      "end_ms": 16660,
+      "start_frame": 488,
+      "end_frame": 500
+    },
+    {
+      "word": "smallest",
+      "start_ms": 16660,
+      "end_ms": 17060,
+      "start_frame": 500,
+      "end_frame": 512
+    },
+    {
+      "word": "positive.",
+      "start_ms": 17060,
+      "end_ms": 17660,
+      "start_frame": 512,
+      "end_frame": 530
+    },
+    {
+      "word": "While",
+      "start_ms": 18320,
+      "end_ms": 18500,
+      "start_frame": 550,
+      "end_frame": 555
+    },
+    {
+      "word": "the",
+      "start_ms": 18500,
+      "end_ms": 18780,
+      "start_frame": 555,
+      "end_frame": 563
+    },
+    {
+      "word": "candidate",
+      "start_ms": 18780,
+      "end_ms": 19100,
+      "start_frame": 563,
+      "end_frame": 573
+    },
+    {
+      "word": "is",
+      "start_ms": 19100,
+      "end_ms": 19380,
+      "start_frame": 573,
+      "end_frame": 581
+    },
+    {
+      "word": "in",
+      "start_ms": 19380,
+      "end_ms": 19600,
+      "start_frame": 581,
+      "end_frame": 588
+    },
+    {
+      "word": "scene,",
+      "start_ms": 19600,
+      "end_ms": 19860,
+      "start_frame": 588,
+      "end_frame": 596
+    },
+    {
+      "word": "increase",
+      "start_ms": 20360,
+      "end_ms": 20620,
+      "start_frame": 611,
+      "end_frame": 619
+    },
+    {
+      "word": "it",
+      "start_ms": 20620,
+      "end_ms": 20840,
+      "start_frame": 619,
+      "end_frame": 625
+    },
+    {
+      "word": "by",
+      "start_ms": 20840,
+      "end_ms": 21060,
+      "start_frame": 625,
+      "end_frame": 632
+    },
+    {
+      "word": "1.",
+      "start_ms": 21060,
+      "end_ms": 21500,
+      "start_frame": 632,
+      "end_frame": 645
+    },
+    {
+      "word": "Each",
+      "start_ms": 22160,
+      "end_ms": 22540,
+      "start_frame": 665,
+      "end_frame": 676
+    },
+    {
+      "word": "successful",
+      "start_ms": 22540,
+      "end_ms": 23220,
+      "start_frame": 676,
+      "end_frame": 697
+    },
+    {
+      "word": "lookup",
+      "start_ms": 23220,
+      "end_ms": 23880,
+      "start_frame": 697,
+      "end_frame": 716
+    },
+    {
+      "word": "rules",
+      "start_ms": 23880,
+      "end_ms": 24360,
+      "start_frame": 716,
+      "end_frame": 731
+    },
+    {
+      "word": "out",
+      "start_ms": 24360,
+      "end_ms": 24800,
+      "start_frame": 731,
+      "end_frame": 744
+    },
+    {
+      "word": "that",
+      "start_ms": 24800,
+      "end_ms": 25100,
+      "start_frame": 744,
+      "end_frame": 753
+    },
+    {
+      "word": "number.",
+      "start_ms": 25100,
+      "end_ms": 25500,
+      "start_frame": 753,
+      "end_frame": 765
+    },
+    {
+      "word": "The",
+      "start_ms": 26420,
+      "end_ms": 26720,
+      "start_frame": 793,
+      "end_frame": 802
+    },
+    {
+      "word": "first",
+      "start_ms": 26720,
+      "end_ms": 27100,
+      "start_frame": 802,
+      "end_frame": 813
+    },
+    {
+      "word": "failed",
+      "start_ms": 27100,
+      "end_ms": 27460,
+      "start_frame": 813,
+      "end_frame": 824
+    },
+    {
+      "word": "lookup",
+      "start_ms": 27460,
+      "end_ms": 28080,
+      "start_frame": 824,
+      "end_frame": 842
+    },
+    {
+      "word": "ends",
+      "start_ms": 28080,
+      "end_ms": 28520,
+      "start_frame": 842,
+      "end_frame": 856
+    },
+    {
+      "word": "the",
+      "start_ms": 28520,
+      "end_ms": 28780,
+      "start_frame": 856,
+      "end_frame": 863
+    },
+    {
+      "word": "loop.",
+      "start_ms": 28780,
+      "end_ms": 29040,
+      "start_frame": 863,
+      "end_frame": 871
+    },
+    {
+      "word": "So",
+      "start_ms": 29540,
+      "end_ms": 29980,
+      "start_frame": 886,
+      "end_frame": 899
+    },
+    {
+      "word": "return",
+      "start_ms": 29980,
+      "end_ms": 30520,
+      "start_frame": 899,
+      "end_frame": 916
+    },
+    {
+      "word": "that",
+      "start_ms": 30520,
+      "end_ms": 30840,
+      "start_frame": 916,
+      "end_frame": 925
+    },
+    {
+      "word": "candidate.",
+      "start_ms": 30840,
+      "end_ms": 31360,
+      "start_frame": 925,
+      "end_frame": 941
+    },
+    {
+      "word": "This",
+      "start_ms": 32360,
+      "end_ms": 32680,
+      "start_frame": 971,
+      "end_frame": 980
+    },
+    {
+      "word": "removes",
+      "start_ms": 32680,
+      "end_ms": 33220,
+      "start_frame": 980,
+      "end_frame": 997
+    },
+    {
+      "word": "the",
+      "start_ms": 33220,
+      "end_ms": 33520,
+      "start_frame": 997,
+      "end_frame": 1006
+    },
+    {
+      "word": "repeated",
+      "start_ms": 33520,
+      "end_ms": 34040,
+      "start_frame": 1006,
+      "end_frame": 1021
+    },
+    {
+      "word": "array",
+      "start_ms": 34040,
+      "end_ms": 34580,
+      "start_frame": 1021,
+      "end_frame": 1037
+    },
+    {
+      "word": "search.",
+      "start_ms": 34580,
+      "end_ms": 35020,
+      "start_frame": 1037,
+      "end_frame": 1051
+    },
+    {
+      "word": "But",
+      "start_ms": 36120,
+      "end_ms": 36360,
+      "start_frame": 1084,
+      "end_frame": 1091
+    },
+    {
+      "word": "what",
+      "start_ms": 36360,
+      "end_ms": 36560,
+      "start_frame": 1091,
+      "end_frame": 1097
+    },
+    {
+      "word": "is",
+      "start_ms": 36560,
+      "end_ms": 36760,
+      "start_frame": 1097,
+      "end_frame": 1103
+    },
+    {
+      "word": "the",
+      "start_ms": 36760,
+      "end_ms": 37020,
+      "start_frame": 1103,
+      "end_frame": 1111
+    },
+    {
+      "word": "cost",
+      "start_ms": 37020,
+      "end_ms": 37280,
+      "start_frame": 1111,
+      "end_frame": 1118
+    },
+    {
+      "word": "of",
+      "start_ms": 37280,
+      "end_ms": 37620,
+      "start_frame": 1118,
+      "end_frame": 1129
+    },
+    {
+      "word": "remembering",
+      "start_ms": 37620,
+      "end_ms": 38220,
+      "start_frame": 1129,
+      "end_frame": 1147
+    },
+    {
+      "word": "all",
+      "start_ms": 38220,
+      "end_ms": 38880,
+      "start_frame": 1147,
+      "end_frame": 1166
+    },
+    {
+      "word": "those",
+      "start_ms": 38880,
+      "end_ms": 39260,
+      "start_frame": 1166,
+      "end_frame": 1178
+    },
+    {
+      "word": "values?",
+      "start_ms": 39260,
+      "end_ms": 39760,
+      "start_frame": 1178,
+      "end_frame": 1193
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Create an empty scene set.",
+      "start_ms": 0,
+      "end_ms": 2300,
+      "start_frame": 0,
+      "end_frame": 69,
+      "word_count": 5
+    },
+    {
+      "text": "To remember, membership.",
+      "start_ms": 3500,
+      "end_ms": 5080,
+      "start_frame": 105,
+      "end_frame": 152,
+      "word_count": 3
+    },
+    {
+      "text": "Loop through the input and add every value.",
+      "start_ms": 5760,
+      "end_ms": 8960,
+      "start_frame": 173,
+      "end_frame": 269,
+      "word_count": 8
+    },
+    {
+      "text": "Duplicates are handled automatically by the set.",
+      "start_ms": 9580,
+      "end_ms": 12260,
+      "start_frame": 287,
+      "end_frame": 368,
+      "word_count": 7
+    },
+    {
+      "text": "Start candidate at 1.",
+      "start_ms": 12860,
+      "end_ms": 14460,
+      "start_frame": 386,
+      "end_frame": 434,
+      "word_count": 4
+    },
+    {
+      "text": "Because we still need the smallest positive.",
+      "start_ms": 15200,
+      "end_ms": 17660,
+      "start_frame": 456,
+      "end_frame": 530,
+      "word_count": 7
+    },
+    {
+      "text": "While the candidate is in scene, increase it by 1.",
+      "start_ms": 18320,
+      "end_ms": 21500,
+      "start_frame": 550,
+      "end_frame": 645,
+      "word_count": 10
+    },
+    {
+      "text": "Each successful lookup rules out that number.",
+      "start_ms": 22160,
+      "end_ms": 25500,
+      "start_frame": 665,
+      "end_frame": 765,
+      "word_count": 7
+    },
+    {
+      "text": "The first failed lookup ends the loop.",
+      "start_ms": 26420,
+      "end_ms": 29040,
+      "start_frame": 793,
+      "end_frame": 871,
+      "word_count": 7
+    },
+    {
+      "text": "So return that candidate.",
+      "start_ms": 29540,
+      "end_ms": 31360,
+      "start_frame": 886,
+      "end_frame": 941,
+      "word_count": 4
+    },
+    {
+      "text": "This removes the repeated array search.",
+      "start_ms": 32360,
+      "end_ms": 35020,
+      "start_frame": 971,
+      "end_frame": 1051,
+      "word_count": 6
+    },
+    {
+      "text": "But what is the cost of remembering all those values?",
+      "start_ms": 36120,
+      "end_ms": 39760,
+      "start_frame": 1084,
+      "end_frame": 1193,
+      "word_count": 10
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "set.",
+      "before_word": "To",
+      "start_ms": 2300,
+      "end_ms": 3500,
+      "duration_ms": 1200,
+      "start_frame": 69,
+      "end_frame": 105,
+      "duration_frames": 36
+    },
+    {
+      "after_word": "remember,",
+      "before_word": "membership.",
+      "start_ms": 4180,
+      "end_ms": 4480,
+      "duration_ms": 300,
+      "start_frame": 125,
+      "end_frame": 134,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "membership.",
+      "before_word": "Loop",
+      "start_ms": 5080,
+      "end_ms": 5760,
+      "duration_ms": 680,
+      "start_frame": 152,
+      "end_frame": 173,
+      "duration_frames": 21
+    },
+    {
+      "after_word": "value.",
+      "before_word": "Duplicates",
+      "start_ms": 8960,
+      "end_ms": 9580,
+      "duration_ms": 620,
+      "start_frame": 269,
+      "end_frame": 287,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "set.",
+      "before_word": "Start",
+      "start_ms": 12260,
+      "end_ms": 12860,
+      "duration_ms": 600,
+      "start_frame": 368,
+      "end_frame": 386,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "1.",
+      "before_word": "Because",
+      "start_ms": 14460,
+      "end_ms": 15200,
+      "duration_ms": 740,
+      "start_frame": 434,
+      "end_frame": 456,
+      "duration_frames": 22
+    },
+    {
+      "after_word": "positive.",
+      "before_word": "While",
+      "start_ms": 17660,
+      "end_ms": 18320,
+      "duration_ms": 660,
+      "start_frame": 530,
+      "end_frame": 550,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "scene,",
+      "before_word": "increase",
+      "start_ms": 19860,
+      "end_ms": 20360,
+      "duration_ms": 500,
+      "start_frame": 596,
+      "end_frame": 611,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "1.",
+      "before_word": "Each",
+      "start_ms": 21500,
+      "end_ms": 22160,
+      "duration_ms": 660,
+      "start_frame": 645,
+      "end_frame": 665,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "number.",
+      "before_word": "The",
+      "start_ms": 25500,
+      "end_ms": 26420,
+      "duration_ms": 920,
+      "start_frame": 765,
+      "end_frame": 793,
+      "duration_frames": 28
+    },
+    {
+      "after_word": "loop.",
+      "before_word": "So",
+      "start_ms": 29040,
+      "end_ms": 29540,
+      "duration_ms": 500,
+      "start_frame": 871,
+      "end_frame": 886,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "candidate.",
+      "before_word": "This",
+      "start_ms": 31360,
+      "end_ms": 32360,
+      "duration_ms": 1000,
+      "start_frame": 941,
+      "end_frame": 971,
+      "duration_frames": 30
+    },
+    {
+      "after_word": "search.",
+      "before_word": "But",
+      "start_ms": 35020,
+      "end_ms": 36120,
+      "duration_ms": 1100,
+      "start_frame": 1051,
+      "end_frame": 1084,
+      "duration_frames": 33
+    }
+  ]
+}

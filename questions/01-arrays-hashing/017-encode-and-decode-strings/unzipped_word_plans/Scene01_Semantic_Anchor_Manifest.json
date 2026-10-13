@@ -1,0 +1,71 @@
+{
+  "question": "Q17 Encode and Decode Strings",
+  "scene": 1,
+  "stage": "GATE_A_PRE_AUDIO_ONLY",
+  "anchor_count": 7,
+  "anchors": [
+    {
+      "id": "S01:A001",
+      "source_narration_occurrence": 1,
+      "exact_spoken_phrase": "We have finished Question Sixteen ... Subarray Sum Equals K.",
+      "visual_intent": "Keep the existing full-screen 19-pattern roadmap; move the Q16 row to COMPLETED, not Q17 yet. Complete count becomes 16.",
+      "phase": "ROADMAP",
+      "trace_id": "N/A — non-trace",
+      "word_ids": "PENDING_SYNC"
+    },
+    {
+      "id": "S01:A002",
+      "source_narration_occurrence": 2,
+      "exact_spoken_phrase": "Our progress is now sixteen out of two hundred twenty-seven.",
+      "visual_intent": "Direct attention to the already-correct 16/227 progress value in roadmap.",
+      "phase": "ROADMAP",
+      "trace_id": "N/A — non-trace",
+      "word_ids": "PENDING_SYNC"
+    },
+    {
+      "id": "S01:A003",
+      "source_narration_occurrence": 3,
+      "exact_spoken_phrase": "Next ... Question Seventeen.",
+      "visual_intent": "Shift attention from completed Q16 to row 17 on the authoritative roadmap.",
+      "phase": "ROADMAP",
+      "trace_id": "N/A — non-trace",
+      "word_ids": "PENDING_SYNC"
+    },
+    {
+      "id": "S01:A004",
+      "source_narration_occurrence": 4,
+      "exact_spoken_phrase": "Encode and Decode Strings.",
+      "visual_intent": "Focus Q17 title `Encode and Decode Strings` within the active roadmap row; optionally prepare a header identity for board handoff.",
+      "phase": "ROADMAP",
+      "trace_id": "N/A — non-trace",
+      "word_ids": "PENDING_SYNC"
+    },
+    {
+      "id": "S01:A005",
+      "source_narration_occurrence": 5,
+      "exact_spoken_phrase": "Here, we need to convert a list of strings into one string ...",
+      "visual_intent": "After roadmap fully clears, show abstract input list `strings = [s₁, s₂, …]` at (320,300) in 56px monospace. Then a down arrow and `one encoded string` at (380,500) in 60px hand text. Do not reveal any actual Q17 testcase.",
+      "phase": "GOAL_SCHEMATIC",
+      "trace_id": "N/A — non-trace",
+      "word_ids": "PENDING_SYNC"
+    },
+    {
+      "id": "S01:A006",
+      "source_narration_occurrence": 6,
+      "exact_spoken_phrase": "and later decode it back into the exact original list.",
+      "visual_intent": "Add another down arrow (960,630)→(960,685); then `original list restored` at (320,705) in 56px. Do not display a fabricated concrete list.",
+      "phase": "GOAL_SCHEMATIC",
+      "trace_id": "N/A — non-trace",
+      "word_ids": "PENDING_SYNC"
+    },
+    {
+      "id": "S01:A007",
+      "source_narration_occurrence": 7,
+      "exact_spoken_phrase": "That's our goal.",
+      "visual_intent": "Briefly emphasize `original list restored` and a single direct chalk note `same contents • same order` at (530,835), 42px. Nothing new in middle stage.",
+      "phase": "GOAL_SCHEMATIC",
+      "trace_id": "N/A — non-trace",
+      "word_ids": "PENDING_SYNC"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "question": "Q17 Encode and Decode Strings",
+  "scene": 2,
+  "name": "Understand the Problem + Delimiter Failure",
+  "stage": "GATE_A_PRE_AUDIO_ONLY",
+  "word_ids": "PENDING_SYNC",
+  "timing": "PENDING_MP3_SYNC",
+  "anchor_count": 15,
+  "anchors": [
+    {
+      "id": "S02:A001",
+      "source_narration_occurrence": 1,
+      "exact_spoken_phrase": "For our example, we have four strings.",
+      "visual_intent": "Reveal the four-row *source-list stage* title and keep concrete entries hidden until called.",
+      "phase": "MASTER INPUT",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source rows stage; see geometry table",
+      "source_state": "Input strings remain unchanged; candidates reveal after hypothesis; no protocol revealed."
+    },
+    {
+      "id": "S02:A002",
+      "source_narration_occurrence": 2,
+      "exact_spoken_phrase": "A hash B ...",
+      "visual_intent": "Reveal source row 0 as literal `\"a#b\"`, clearly preserving the hash as payload; no separator protocol yet.",
+      "phase": "MASTER INPUT",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source rows stage; see geometry table",
+      "source_state": "Input strings remain unchanged; candidates reveal after hypothesis; no protocol revealed."
+    },
+    {
+      "id": "S02:A003",
+      "source_narration_occurrence": 3,
+      "exact_spoken_phrase": "an empty string ...",
+      "visual_intent": "Reveal source row 1 as `\"\"` with a subtle `empty` helper label, not a fake character.",
+      "phase": "MASTER INPUT",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source rows stage; see geometry table",
+      "source_state": "Input strings remain unchanged; candidates reveal after hypothesis; no protocol revealed."
+    },
+    {
+      "id": "S02:A004",
+      "source_narration_occurrence": 4,
+      "exact_spoken_phrase": "hello world ...",
+      "visual_intent": "Reveal source row 2 as literal `\"hello world\"`; preserve a visible space in monospace lettering.",
+      "phase": "MASTER INPUT",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source rows stage; see geometry table",
+      "source_state": "Input strings remain unchanged; candidates reveal after hypothesis; no protocol revealed."
+    },
+    {
+      "id": "S02:A005",
+      "source_narration_occurrence": 5,
+      "exact_spoken_phrase": "and the string containing four and two.",
+      "visual_intent": "Reveal source row 3 as literal `\"42\"`; keep digits as string data, not numeric value.",
+      "phase": "MASTER INPUT",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source rows stage; see geometry table",
+      "source_state": "Input strings remain unchanged; candidates reveal after hypothesis; no protocol revealed."
+    },
+    {
+      "id": "S02:A006",
+      "source_narration_occurrence": 6,
+      "exact_spoken_phrase": "Now suppose we simply join strings using a hash.",
+      "visual_intent": "Shift primary focus from master list to raw-hash-join hypothesis; existing list fades to support, don't show a valid protocol.",
+      "phase": "AMBIGUOUS RAW JOIN",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "comparison stage; see geometry table",
+      "source_state": "Input strings remain unchanged; candidates reveal after hypothesis; no protocol revealed."
+    },
+    {
+      "id": "S02:A007",
+      "source_narration_occurrence": 7,
+      "exact_spoken_phrase": "Think about two different lists.",
+      "visual_intent": "Introduce a two-column *candidate inputs* comparison with reserved exact positions, both outputs still hidden.",
+      "phase": "AMBIGUOUS RAW JOIN",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "comparison stage; see geometry table",
+      "source_state": "Input strings remain unchanged; candidates reveal after hypothesis; no protocol revealed."
+    },
+    {
+      "id": "S02:A008",
+      "source_narration_occurrence": 8,
+      "exact_spoken_phrase": "One contains ... A hash B ... and C.",
+      "visual_intent": "Reveal left candidate `['a#b','c']` and mark hash inside first string as payload.",
+      "phase": "AMBIGUOUS RAW JOIN",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "comparison stage; see geometry table",
+      "source_state": "Input strings remain unchanged; candidates reveal after hypothesis; no protocol revealed."
+    },
+    {
+      "id": "S02:A009",
+      "source_narration_occurrence": 9,
+      "exact_spoken_phrase": "The other contains ... A ... B ... and C.",
+      "visual_intent": "Reveal right candidate `['a','b','c']` without asserting which input was original.",
+      "phase": "AMBIGUOUS RAW JOIN",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "comparison stage; see geometry table",
+      "source_state": "Input strings remain unchanged; candidates reveal after hypothesis; no protocol revealed."
+    },
+    {
+      "id": "S02:A010",
+      "source_narration_occurrence": 10,
+      "exact_spoken_phrase": "Both produce the same joined text.",
+      "visual_intent": "Draw causal arrows from both candidates to one shared destination location; no result text until next words.",
+      "phase": "AMBIGUOUS RAW JOIN",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "comparison stage; see geometry table",
+      "source_state": "Input strings remain unchanged; candidates reveal after hypothesis; no protocol revealed."
+    },
+    {
+      "id": "S02:A011",
+      "source_narration_occurrence": 11,
+      "exact_spoken_phrase": "A hash B hash C.",
+      "visual_intent": "Write exactly `a#b#c` once at shared destination; arrows show BOTH inputs produce the identical text.",
+      "phase": "AMBIGUOUS RAW JOIN",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "comparison stage; see geometry table",
+      "source_state": "Input strings remain unchanged; candidates reveal after hypothesis; no protocol revealed."
+    },
+    {
+      "id": "S02:A012",
+      "source_narration_occurrence": 12,
+      "exact_spoken_phrase": "So how will the decoder know the original boundaries?",
+      "visual_intent": "Focus the identical output and apply a question mark to its boundaries; no guessed split markers.",
+      "phase": "AMBIGUOUS RAW JOIN",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "comparison stage; see geometry table",
+      "source_state": "Input strings remain unchanged; candidates reveal after hypothesis; no protocol revealed."
+    },
+    {
+      "id": "S02:A013",
+      "source_narration_occurrence": 13,
+      "exact_spoken_phrase": "It cannot.",
+      "visual_intent": "Resolve the ambiguity visibly as `cannot distinguish` (not a computed algorithm output).",
+      "phase": "AMBIGUOUS RAW JOIN",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "comparison stage; see geometry table",
+      "source_state": "Input strings remain unchanged; candidates reveal after hypothesis; no protocol revealed."
+    },
+    {
+      "id": "S02:A014",
+      "source_narration_occurrence": 14,
+      "exact_spoken_phrase": "A raw separator is not enough.",
+      "visual_intent": "Mark the raw separator hypothesis as invalid with a restrained `theme.warn` strike on the hypothesis label, not on payload text.",
+      "phase": "AMBIGUOUS RAW JOIN",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "comparison stage; see geometry table",
+      "source_state": "Input strings remain unchanged; candidates reveal after hypothesis; no protocol revealed."
+    },
+    {
+      "id": "S02:A015",
+      "source_narration_occurrence": 15,
+      "exact_spoken_phrase": "We need explicit boundary information.",
+      "visual_intent": "Replace invalid-join focus with large bottom takeaway `Need explicit boundary information`; DO NOT reveal `length#payload` yet.",
+      "phase": "AMBIGUOUS RAW JOIN",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "comparison stage; see geometry table",
+      "source_state": "Input strings remain unchanged; candidates reveal after hypothesis; no protocol revealed."
+    }
+  ]
+}

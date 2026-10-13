@@ -1,0 +1,743 @@
+{
+  "audio_file": "03-length-prefix-idea.mp3",
+  "duration_ms": 37240,
+  "duration_frames": 1117,
+  "fps": 30,
+  "word_count": 74,
+  "words": [
+    {
+      "word": "The",
+      "start_ms": 0,
+      "end_ms": 240,
+      "start_frame": 0,
+      "end_frame": 7
+    },
+    {
+      "word": "idea",
+      "start_ms": 240,
+      "end_ms": 660,
+      "start_frame": 7,
+      "end_frame": 20
+    },
+    {
+      "word": "is",
+      "start_ms": 660,
+      "end_ms": 820,
+      "start_frame": 20,
+      "end_frame": 25
+    },
+    {
+      "word": "simple.",
+      "start_ms": 820,
+      "end_ms": 1280,
+      "start_frame": 25,
+      "end_frame": 38
+    },
+    {
+      "word": "For",
+      "start_ms": 1580,
+      "end_ms": 1760,
+      "start_frame": 47,
+      "end_frame": 53
+    },
+    {
+      "word": "every",
+      "start_ms": 1760,
+      "end_ms": 2120,
+      "start_frame": 53,
+      "end_frame": 64
+    },
+    {
+      "word": "string,",
+      "start_ms": 2120,
+      "end_ms": 2580,
+      "start_frame": 64,
+      "end_frame": 77
+    },
+    {
+      "word": "write",
+      "start_ms": 3480,
+      "end_ms": 3720,
+      "start_frame": 104,
+      "end_frame": 112
+    },
+    {
+      "word": "its",
+      "start_ms": 3720,
+      "end_ms": 3980,
+      "start_frame": 112,
+      "end_frame": 119
+    },
+    {
+      "word": "length,",
+      "start_ms": 3980,
+      "end_ms": 4360,
+      "start_frame": 119,
+      "end_frame": 131
+    },
+    {
+      "word": "then",
+      "start_ms": 4960,
+      "end_ms": 5100,
+      "start_frame": 149,
+      "end_frame": 153
+    },
+    {
+      "word": "a",
+      "start_ms": 5100,
+      "end_ms": 5300,
+      "start_frame": 153,
+      "end_frame": 159
+    },
+    {
+      "word": "hash,",
+      "start_ms": 5300,
+      "end_ms": 5640,
+      "start_frame": 159,
+      "end_frame": 169
+    },
+    {
+      "word": "then",
+      "start_ms": 6040,
+      "end_ms": 6420,
+      "start_frame": 181,
+      "end_frame": 193
+    },
+    {
+      "word": "the",
+      "start_ms": 6420,
+      "end_ms": 6880,
+      "start_frame": 193,
+      "end_frame": 206
+    },
+    {
+      "word": "original",
+      "start_ms": 6880,
+      "end_ms": 7320,
+      "start_frame": 206,
+      "end_frame": 220
+    },
+    {
+      "word": "string.",
+      "start_ms": 7320,
+      "end_ms": 7760,
+      "start_frame": 220,
+      "end_frame": 233
+    },
+    {
+      "word": "So",
+      "start_ms": 8380,
+      "end_ms": 8540,
+      "start_frame": 251,
+      "end_frame": 256
+    },
+    {
+      "word": "our",
+      "start_ms": 8540,
+      "end_ms": 8800,
+      "start_frame": 256,
+      "end_frame": 264
+    },
+    {
+      "word": "record",
+      "start_ms": 8800,
+      "end_ms": 9180,
+      "start_frame": 264,
+      "end_frame": 275
+    },
+    {
+      "word": "format",
+      "start_ms": 9180,
+      "end_ms": 9640,
+      "start_frame": 275,
+      "end_frame": 289
+    },
+    {
+      "word": "becomes",
+      "start_ms": 9640,
+      "end_ms": 10220,
+      "start_frame": 289,
+      "end_frame": 307
+    },
+    {
+      "word": "length,",
+      "start_ms": 10220,
+      "end_ms": 10880,
+      "start_frame": 307,
+      "end_frame": 326
+    },
+    {
+      "word": "hash,",
+      "start_ms": 11380,
+      "end_ms": 11820,
+      "start_frame": 341,
+      "end_frame": 355
+    },
+    {
+      "word": "payload.",
+      "start_ms": 12220,
+      "end_ms": 12580,
+      "start_frame": 367,
+      "end_frame": 377
+    },
+    {
+      "word": "The",
+      "start_ms": 13580,
+      "end_ms": 13760,
+      "start_frame": 407,
+      "end_frame": 413
+    },
+    {
+      "word": "hash",
+      "start_ms": 13760,
+      "end_ms": 14080,
+      "start_frame": 413,
+      "end_frame": 422
+    },
+    {
+      "word": "ends",
+      "start_ms": 14080,
+      "end_ms": 14540,
+      "start_frame": 422,
+      "end_frame": 436
+    },
+    {
+      "word": "the",
+      "start_ms": 14540,
+      "end_ms": 14800,
+      "start_frame": 436,
+      "end_frame": 444
+    },
+    {
+      "word": "length",
+      "start_ms": 14800,
+      "end_ms": 15100,
+      "start_frame": 444,
+      "end_frame": 453
+    },
+    {
+      "word": "header.",
+      "start_ms": 15100,
+      "end_ms": 15480,
+      "start_frame": 453,
+      "end_frame": 464
+    },
+    {
+      "word": "After",
+      "start_ms": 16540,
+      "end_ms": 16880,
+      "start_frame": 496,
+      "end_frame": 506
+    },
+    {
+      "word": "that,",
+      "start_ms": 16880,
+      "end_ms": 17280,
+      "start_frame": 506,
+      "end_frame": 518
+    },
+    {
+      "word": "the",
+      "start_ms": 17520,
+      "end_ms": 17740,
+      "start_frame": 526,
+      "end_frame": 532
+    },
+    {
+      "word": "decoder",
+      "start_ms": 17740,
+      "end_ms": 18040,
+      "start_frame": 532,
+      "end_frame": 541
+    },
+    {
+      "word": "reads",
+      "start_ms": 18040,
+      "end_ms": 18420,
+      "start_frame": 541,
+      "end_frame": 553
+    },
+    {
+      "word": "exactly",
+      "start_ms": 18420,
+      "end_ms": 19060,
+      "start_frame": 553,
+      "end_frame": 572
+    },
+    {
+      "word": "the",
+      "start_ms": 19060,
+      "end_ms": 19360,
+      "start_frame": 572,
+      "end_frame": 581
+    },
+    {
+      "word": "specified",
+      "start_ms": 19360,
+      "end_ms": 19940,
+      "start_frame": 581,
+      "end_frame": 598
+    },
+    {
+      "word": "number",
+      "start_ms": 19940,
+      "end_ms": 20360,
+      "start_frame": 598,
+      "end_frame": 611
+    },
+    {
+      "word": "of",
+      "start_ms": 20360,
+      "end_ms": 20700,
+      "start_frame": 611,
+      "end_frame": 621
+    },
+    {
+      "word": "characters.",
+      "start_ms": 20700,
+      "end_ms": 21240,
+      "start_frame": 621,
+      "end_frame": 637
+    },
+    {
+      "word": "Even",
+      "start_ms": 22160,
+      "end_ms": 22480,
+      "start_frame": 665,
+      "end_frame": 674
+    },
+    {
+      "word": "if",
+      "start_ms": 22480,
+      "end_ms": 22660,
+      "start_frame": 674,
+      "end_frame": 680
+    },
+    {
+      "word": "the",
+      "start_ms": 22660,
+      "end_ms": 22920,
+      "start_frame": 680,
+      "end_frame": 688
+    },
+    {
+      "word": "payload",
+      "start_ms": 22920,
+      "end_ms": 23220,
+      "start_frame": 688,
+      "end_frame": 697
+    },
+    {
+      "word": "contains",
+      "start_ms": 23220,
+      "end_ms": 23880,
+      "start_frame": 697,
+      "end_frame": 716
+    },
+    {
+      "word": "a",
+      "start_ms": 23880,
+      "end_ms": 24160,
+      "start_frame": 716,
+      "end_frame": 725
+    },
+    {
+      "word": "hash,",
+      "start_ms": 24160,
+      "end_ms": 24480,
+      "start_frame": 725,
+      "end_frame": 734
+    },
+    {
+      "word": "it",
+      "start_ms": 25240,
+      "end_ms": 25420,
+      "start_frame": 757,
+      "end_frame": 763
+    },
+    {
+      "word": "is",
+      "start_ms": 25420,
+      "end_ms": 25740,
+      "start_frame": 763,
+      "end_frame": 772
+    },
+    {
+      "word": "safe.",
+      "start_ms": 25740,
+      "end_ms": 26220,
+      "start_frame": 772,
+      "end_frame": 787
+    },
+    {
+      "word": "And",
+      "start_ms": 27140,
+      "end_ms": 27460,
+      "start_frame": 814,
+      "end_frame": 824
+    },
+    {
+      "word": "after",
+      "start_ms": 27460,
+      "end_ms": 27780,
+      "start_frame": 824,
+      "end_frame": 833
+    },
+    {
+      "word": "each",
+      "start_ms": 27780,
+      "end_ms": 28140,
+      "start_frame": 833,
+      "end_frame": 844
+    },
+    {
+      "word": "record,",
+      "start_ms": 28140,
+      "end_ms": 28600,
+      "start_frame": 844,
+      "end_frame": 858
+    },
+    {
+      "word": "the",
+      "start_ms": 28600,
+      "end_ms": 29320,
+      "start_frame": 858,
+      "end_frame": 880
+    },
+    {
+      "word": "pointer,",
+      "start_ms": 29320,
+      "end_ms": 29900,
+      "start_frame": 880,
+      "end_frame": 897
+    },
+    {
+      "word": "I",
+      "start_ms": 30020,
+      "end_ms": 30360,
+      "start_frame": 901,
+      "end_frame": 911
+    },
+    {
+      "word": "must",
+      "start_ms": 30360,
+      "end_ms": 30620,
+      "start_frame": 911,
+      "end_frame": 919
+    },
+    {
+      "word": "reach",
+      "start_ms": 30620,
+      "end_ms": 30940,
+      "start_frame": 919,
+      "end_frame": 928
+    },
+    {
+      "word": "the",
+      "start_ms": 30940,
+      "end_ms": 31220,
+      "start_frame": 928,
+      "end_frame": 937
+    },
+    {
+      "word": "next",
+      "start_ms": 31220,
+      "end_ms": 31540,
+      "start_frame": 937,
+      "end_frame": 946
+    },
+    {
+      "word": "length",
+      "start_ms": 31540,
+      "end_ms": 31820,
+      "start_frame": 946,
+      "end_frame": 955
+    },
+    {
+      "word": "header.",
+      "start_ms": 31820,
+      "end_ms": 32160,
+      "start_frame": 955,
+      "end_frame": 965
+    },
+    {
+      "word": "That's",
+      "start_ms": 33160,
+      "end_ms": 33660,
+      "start_frame": 995,
+      "end_frame": 1010
+    },
+    {
+      "word": "the",
+      "start_ms": 33660,
+      "end_ms": 33840,
+      "start_frame": 1010,
+      "end_frame": 1015
+    },
+    {
+      "word": "protocol.",
+      "start_ms": 33840,
+      "end_ms": 34280,
+      "start_frame": 1015,
+      "end_frame": 1028
+    },
+    {
+      "word": "Now",
+      "start_ms": 35080,
+      "end_ms": 35300,
+      "start_frame": 1052,
+      "end_frame": 1059
+    },
+    {
+      "word": "let's",
+      "start_ms": 35300,
+      "end_ms": 35780,
+      "start_frame": 1059,
+      "end_frame": 1073
+    },
+    {
+      "word": "encode",
+      "start_ms": 35780,
+      "end_ms": 36220,
+      "start_frame": 1073,
+      "end_frame": 1087
+    },
+    {
+      "word": "our",
+      "start_ms": 36220,
+      "end_ms": 36460,
+      "start_frame": 1087,
+      "end_frame": 1094
+    },
+    {
+      "word": "full",
+      "start_ms": 36460,
+      "end_ms": 36660,
+      "start_frame": 1094,
+      "end_frame": 1100
+    },
+    {
+      "word": "example.",
+      "start_ms": 36660,
+      "end_ms": 37240,
+      "start_frame": 1100,
+      "end_frame": 1117
+    }
+  ],
+  "sentences": [
+    {
+      "text": "The idea is simple.",
+      "start_ms": 0,
+      "end_ms": 1280,
+      "start_frame": 0,
+      "end_frame": 38,
+      "word_count": 4
+    },
+    {
+      "text": "For every string, write its length, then a hash, then the original string.",
+      "start_ms": 1580,
+      "end_ms": 7760,
+      "start_frame": 47,
+      "end_frame": 233,
+      "word_count": 13
+    },
+    {
+      "text": "So our record format becomes length, hash, payload.",
+      "start_ms": 8380,
+      "end_ms": 12580,
+      "start_frame": 251,
+      "end_frame": 377,
+      "word_count": 8
+    },
+    {
+      "text": "The hash ends the length header.",
+      "start_ms": 13580,
+      "end_ms": 15480,
+      "start_frame": 407,
+      "end_frame": 464,
+      "word_count": 6
+    },
+    {
+      "text": "After that, the decoder reads exactly the specified number of characters.",
+      "start_ms": 16540,
+      "end_ms": 21240,
+      "start_frame": 496,
+      "end_frame": 637,
+      "word_count": 11
+    },
+    {
+      "text": "Even if the payload contains a hash, it is safe.",
+      "start_ms": 22160,
+      "end_ms": 26220,
+      "start_frame": 665,
+      "end_frame": 787,
+      "word_count": 10
+    },
+    {
+      "text": "And after each record, the pointer, I must reach the next length header.",
+      "start_ms": 27140,
+      "end_ms": 32160,
+      "start_frame": 814,
+      "end_frame": 965,
+      "word_count": 13
+    },
+    {
+      "text": "That's the protocol.",
+      "start_ms": 33160,
+      "end_ms": 34280,
+      "start_frame": 995,
+      "end_frame": 1028,
+      "word_count": 3
+    },
+    {
+      "text": "Now let's encode our full example.",
+      "start_ms": 35080,
+      "end_ms": 37240,
+      "start_frame": 1052,
+      "end_frame": 1117,
+      "word_count": 6
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "simple.",
+      "before_word": "For",
+      "start_ms": 1280,
+      "end_ms": 1580,
+      "duration_ms": 300,
+      "start_frame": 38,
+      "end_frame": 47,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "string,",
+      "before_word": "write",
+      "start_ms": 2580,
+      "end_ms": 3480,
+      "duration_ms": 900,
+      "start_frame": 77,
+      "end_frame": 104,
+      "duration_frames": 27
+    },
+    {
+      "after_word": "length,",
+      "before_word": "then",
+      "start_ms": 4360,
+      "end_ms": 4960,
+      "duration_ms": 600,
+      "start_frame": 131,
+      "end_frame": 149,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "hash,",
+      "before_word": "then",
+      "start_ms": 5640,
+      "end_ms": 6040,
+      "duration_ms": 400,
+      "start_frame": 169,
+      "end_frame": 181,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "string.",
+      "before_word": "So",
+      "start_ms": 7760,
+      "end_ms": 8380,
+      "duration_ms": 620,
+      "start_frame": 233,
+      "end_frame": 251,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "length,",
+      "before_word": "hash,",
+      "start_ms": 10880,
+      "end_ms": 11380,
+      "duration_ms": 500,
+      "start_frame": 326,
+      "end_frame": 341,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "hash,",
+      "before_word": "payload.",
+      "start_ms": 11820,
+      "end_ms": 12220,
+      "duration_ms": 400,
+      "start_frame": 355,
+      "end_frame": 367,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "payload.",
+      "before_word": "The",
+      "start_ms": 12580,
+      "end_ms": 13580,
+      "duration_ms": 1000,
+      "start_frame": 377,
+      "end_frame": 407,
+      "duration_frames": 30
+    },
+    {
+      "after_word": "header.",
+      "before_word": "After",
+      "start_ms": 15480,
+      "end_ms": 16540,
+      "duration_ms": 1060,
+      "start_frame": 464,
+      "end_frame": 496,
+      "duration_frames": 32
+    },
+    {
+      "after_word": "characters.",
+      "before_word": "Even",
+      "start_ms": 21240,
+      "end_ms": 22160,
+      "duration_ms": 920,
+      "start_frame": 637,
+      "end_frame": 665,
+      "duration_frames": 28
+    },
+    {
+      "after_word": "hash,",
+      "before_word": "it",
+      "start_ms": 24480,
+      "end_ms": 25240,
+      "duration_ms": 760,
+      "start_frame": 734,
+      "end_frame": 757,
+      "duration_frames": 23
+    },
+    {
+      "after_word": "safe.",
+      "before_word": "And",
+      "start_ms": 26220,
+      "end_ms": 27140,
+      "duration_ms": 920,
+      "start_frame": 787,
+      "end_frame": 814,
+      "duration_frames": 27
+    },
+    {
+      "after_word": "header.",
+      "before_word": "That's",
+      "start_ms": 32160,
+      "end_ms": 33160,
+      "duration_ms": 1000,
+      "start_frame": 965,
+      "end_frame": 995,
+      "duration_frames": 30
+    },
+    {
+      "after_word": "protocol.",
+      "before_word": "Now",
+      "start_ms": 34280,
+      "end_ms": 35080,
+      "duration_ms": 800,
+      "start_frame": 1028,
+      "end_frame": 1052,
+      "duration_frames": 24
+    }
+  ]
+}

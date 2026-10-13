@@ -1,0 +1,2013 @@
+{
+  "audio_file": "07-method2-code.mp3",
+  "duration_ms": 103140,
+  "duration_frames": 3094,
+  "fps": 30,
+  "word_count": 218,
+  "words": [
+    {
+      "word": "Start",
+      "start_ms": 0,
+      "end_ms": 420,
+      "start_frame": 0,
+      "end_frame": 13
+    },
+    {
+      "word": "with",
+      "start_ms": 420,
+      "end_ms": 600,
+      "start_frame": 13,
+      "end_frame": 18
+    },
+    {
+      "word": "a",
+      "start_ms": 600,
+      "end_ms": 800,
+      "start_frame": 18,
+      "end_frame": 24
+    },
+    {
+      "word": "frequency",
+      "start_ms": 800,
+      "end_ms": 1220,
+      "start_frame": 24,
+      "end_frame": 37
+    },
+    {
+      "word": "map.",
+      "start_ms": 1220,
+      "end_ms": 1540,
+      "start_frame": 37,
+      "end_frame": 46
+    },
+    {
+      "word": "Put",
+      "start_ms": 2140,
+      "end_ms": 2280,
+      "start_frame": 64,
+      "end_frame": 68
+    },
+    {
+      "word": "zero",
+      "start_ms": 2280,
+      "end_ms": 2700,
+      "start_frame": 68,
+      "end_frame": 81
+    },
+    {
+      "word": "with",
+      "start_ms": 2700,
+      "end_ms": 2940,
+      "start_frame": 81,
+      "end_frame": 88
+    },
+    {
+      "word": "frequency",
+      "start_ms": 2940,
+      "end_ms": 3460,
+      "start_frame": 88,
+      "end_frame": 104
+    },
+    {
+      "word": "one,",
+      "start_ms": 3460,
+      "end_ms": 4020,
+      "start_frame": 104,
+      "end_frame": 121
+    },
+    {
+      "word": "then",
+      "start_ms": 4520,
+      "end_ms": 4680,
+      "start_frame": 136,
+      "end_frame": 140
+    },
+    {
+      "word": "set",
+      "start_ms": 4680,
+      "end_ms": 4960,
+      "start_frame": 140,
+      "end_frame": 149
+    },
+    {
+      "word": "prefix",
+      "start_ms": 4960,
+      "end_ms": 5460,
+      "start_frame": 149,
+      "end_frame": 164
+    },
+    {
+      "word": "to",
+      "start_ms": 5460,
+      "end_ms": 5680,
+      "start_frame": 164,
+      "end_frame": 170
+    },
+    {
+      "word": "zero",
+      "start_ms": 5680,
+      "end_ms": 6240,
+      "start_frame": 170,
+      "end_frame": 187
+    },
+    {
+      "word": "and",
+      "start_ms": 6240,
+      "end_ms": 6700,
+      "start_frame": 187,
+      "end_frame": 201
+    },
+    {
+      "word": "answer",
+      "start_ms": 6700,
+      "end_ms": 7000,
+      "start_frame": 201,
+      "end_frame": 210
+    },
+    {
+      "word": "to",
+      "start_ms": 7000,
+      "end_ms": 7240,
+      "start_frame": 210,
+      "end_frame": 217
+    },
+    {
+      "word": "zero.",
+      "start_ms": 7240,
+      "end_ms": 7680,
+      "start_frame": 217,
+      "end_frame": 230
+    },
+    {
+      "word": "Now",
+      "start_ms": 8180,
+      "end_ms": 8480,
+      "start_frame": 245,
+      "end_frame": 254
+    },
+    {
+      "word": "move",
+      "start_ms": 8480,
+      "end_ms": 8740,
+      "start_frame": 254,
+      "end_frame": 262
+    },
+    {
+      "word": "through",
+      "start_ms": 8740,
+      "end_ms": 8980,
+      "start_frame": 262,
+      "end_frame": 269
+    },
+    {
+      "word": "the",
+      "start_ms": 8980,
+      "end_ms": 9220,
+      "start_frame": 269,
+      "end_frame": 277
+    },
+    {
+      "word": "array",
+      "start_ms": 9220,
+      "end_ms": 9560,
+      "start_frame": 277,
+      "end_frame": 287
+    },
+    {
+      "word": "one",
+      "start_ms": 9560,
+      "end_ms": 10220,
+      "start_frame": 287,
+      "end_frame": 307
+    },
+    {
+      "word": "value",
+      "start_ms": 10220,
+      "end_ms": 10700,
+      "start_frame": 307,
+      "end_frame": 321
+    },
+    {
+      "word": "at",
+      "start_ms": 10700,
+      "end_ms": 10940,
+      "start_frame": 321,
+      "end_frame": 328
+    },
+    {
+      "word": "a",
+      "start_ms": 10940,
+      "end_ms": 11140,
+      "start_frame": 328,
+      "end_frame": 334
+    },
+    {
+      "word": "time.",
+      "start_ms": 11140,
+      "end_ms": 11540,
+      "start_frame": 334,
+      "end_frame": 346
+    },
+    {
+      "word": "Add",
+      "start_ms": 12100,
+      "end_ms": 12260,
+      "start_frame": 363,
+      "end_frame": 368
+    },
+    {
+      "word": "the",
+      "start_ms": 12260,
+      "end_ms": 12500,
+      "start_frame": 368,
+      "end_frame": 375
+    },
+    {
+      "word": "current",
+      "start_ms": 12500,
+      "end_ms": 12740,
+      "start_frame": 375,
+      "end_frame": 382
+    },
+    {
+      "word": "value",
+      "start_ms": 12740,
+      "end_ms": 13120,
+      "start_frame": 382,
+      "end_frame": 394
+    },
+    {
+      "word": "to",
+      "start_ms": 13120,
+      "end_ms": 13300,
+      "start_frame": 394,
+      "end_frame": 399
+    },
+    {
+      "word": "the",
+      "start_ms": 13300,
+      "end_ms": 13480,
+      "start_frame": 399,
+      "end_frame": 404
+    },
+    {
+      "word": "prefix,",
+      "start_ms": 13480,
+      "end_ms": 13920,
+      "start_frame": 404,
+      "end_frame": 418
+    },
+    {
+      "word": "then",
+      "start_ms": 14460,
+      "end_ms": 14600,
+      "start_frame": 434,
+      "end_frame": 438
+    },
+    {
+      "word": "calculate",
+      "start_ms": 14600,
+      "end_ms": 15280,
+      "start_frame": 438,
+      "end_frame": 458
+    },
+    {
+      "word": "needed",
+      "start_ms": 15280,
+      "end_ms": 16020,
+      "start_frame": 458,
+      "end_frame": 481
+    },
+    {
+      "word": "equals",
+      "start_ms": 16020,
+      "end_ms": 16960,
+      "start_frame": 481,
+      "end_frame": 509
+    },
+    {
+      "word": "prefix",
+      "start_ms": 16960,
+      "end_ms": 17640,
+      "start_frame": 509,
+      "end_frame": 529
+    },
+    {
+      "word": "minus",
+      "start_ms": 17640,
+      "end_ms": 18180,
+      "start_frame": 529,
+      "end_frame": 545
+    },
+    {
+      "word": "K.",
+      "start_ms": 18180,
+      "end_ms": 18700,
+      "start_frame": 545,
+      "end_frame": 561
+    },
+    {
+      "word": "Now",
+      "start_ms": 19300,
+      "end_ms": 19620,
+      "start_frame": 579,
+      "end_frame": 589
+    },
+    {
+      "word": "query",
+      "start_ms": 19620,
+      "end_ms": 19940,
+      "start_frame": 589,
+      "end_frame": 598
+    },
+    {
+      "word": "the",
+      "start_ms": 19940,
+      "end_ms": 20260,
+      "start_frame": 598,
+      "end_frame": 608
+    },
+    {
+      "word": "frequency",
+      "start_ms": 20260,
+      "end_ms": 20740,
+      "start_frame": 608,
+      "end_frame": 622
+    },
+    {
+      "word": "map.",
+      "start_ms": 20740,
+      "end_ms": 21040,
+      "start_frame": 622,
+      "end_frame": 631
+    },
+    {
+      "word": "How",
+      "start_ms": 21600,
+      "end_ms": 21720,
+      "start_frame": 648,
+      "end_frame": 652
+    },
+    {
+      "word": "many",
+      "start_ms": 21720,
+      "end_ms": 22020,
+      "start_frame": 652,
+      "end_frame": 661
+    },
+    {
+      "word": "earlier",
+      "start_ms": 22020,
+      "end_ms": 22480,
+      "start_frame": 661,
+      "end_frame": 674
+    },
+    {
+      "word": "prefixes",
+      "start_ms": 22480,
+      "end_ms": 23120,
+      "start_frame": 674,
+      "end_frame": 694
+    },
+    {
+      "word": "equal",
+      "start_ms": 23120,
+      "end_ms": 23520,
+      "start_frame": 694,
+      "end_frame": 706
+    },
+    {
+      "word": "needed?",
+      "start_ms": 23520,
+      "end_ms": 23940,
+      "start_frame": 706,
+      "end_frame": 718
+    },
+    {
+      "word": "Add",
+      "start_ms": 24580,
+      "end_ms": 24840,
+      "start_frame": 737,
+      "end_frame": 745
+    },
+    {
+      "word": "that",
+      "start_ms": 24840,
+      "end_ms": 25100,
+      "start_frame": 745,
+      "end_frame": 753
+    },
+    {
+      "word": "frequency",
+      "start_ms": 25100,
+      "end_ms": 25600,
+      "start_frame": 753,
+      "end_frame": 768
+    },
+    {
+      "word": "to",
+      "start_ms": 25600,
+      "end_ms": 25760,
+      "start_frame": 768,
+      "end_frame": 773
+    },
+    {
+      "word": "the",
+      "start_ms": 25760,
+      "end_ms": 25980,
+      "start_frame": 773,
+      "end_frame": 779
+    },
+    {
+      "word": "answer.",
+      "start_ms": 25980,
+      "end_ms": 26440,
+      "start_frame": 779,
+      "end_frame": 793
+    },
+    {
+      "word": "Only",
+      "start_ms": 26960,
+      "end_ms": 27280,
+      "start_frame": 809,
+      "end_frame": 818
+    },
+    {
+      "word": "after",
+      "start_ms": 27280,
+      "end_ms": 27600,
+      "start_frame": 818,
+      "end_frame": 828
+    },
+    {
+      "word": "the",
+      "start_ms": 27600,
+      "end_ms": 27860,
+      "start_frame": 828,
+      "end_frame": 836
+    },
+    {
+      "word": "lookup,",
+      "start_ms": 27860,
+      "end_ms": 28520,
+      "start_frame": 836,
+      "end_frame": 856
+    },
+    {
+      "word": "increase",
+      "start_ms": 28520,
+      "end_ms": 29120,
+      "start_frame": 856,
+      "end_frame": 874
+    },
+    {
+      "word": "the",
+      "start_ms": 29120,
+      "end_ms": 29340,
+      "start_frame": 874,
+      "end_frame": 880
+    },
+    {
+      "word": "frequency",
+      "start_ms": 29340,
+      "end_ms": 29860,
+      "start_frame": 880,
+      "end_frame": 896
+    },
+    {
+      "word": "of",
+      "start_ms": 29860,
+      "end_ms": 30080,
+      "start_frame": 896,
+      "end_frame": 902
+    },
+    {
+      "word": "the",
+      "start_ms": 30080,
+      "end_ms": 30260,
+      "start_frame": 902,
+      "end_frame": 908
+    },
+    {
+      "word": "current",
+      "start_ms": 30260,
+      "end_ms": 30560,
+      "start_frame": 908,
+      "end_frame": 917
+    },
+    {
+      "word": "prefix,",
+      "start_ms": 30560,
+      "end_ms": 31100,
+      "start_frame": 917,
+      "end_frame": 933
+    },
+    {
+      "word": "then",
+      "start_ms": 31760,
+      "end_ms": 31880,
+      "start_frame": 953,
+      "end_frame": 956
+    },
+    {
+      "word": "continue",
+      "start_ms": 31880,
+      "end_ms": 32420,
+      "start_frame": 956,
+      "end_frame": 973
+    },
+    {
+      "word": "to",
+      "start_ms": 32420,
+      "end_ms": 32600,
+      "start_frame": 973,
+      "end_frame": 978
+    },
+    {
+      "word": "the",
+      "start_ms": 32600,
+      "end_ms": 32740,
+      "start_frame": 978,
+      "end_frame": 982
+    },
+    {
+      "word": "next",
+      "start_ms": 32740,
+      "end_ms": 33020,
+      "start_frame": 982,
+      "end_frame": 991
+    },
+    {
+      "word": "value.",
+      "start_ms": 33020,
+      "end_ms": 33620,
+      "start_frame": 991,
+      "end_frame": 1009
+    },
+    {
+      "word": "Finally,",
+      "start_ms": 34140,
+      "end_ms": 34700,
+      "start_frame": 1024,
+      "end_frame": 1041
+    },
+    {
+      "word": "return",
+      "start_ms": 35380,
+      "end_ms": 35800,
+      "start_frame": 1061,
+      "end_frame": 1074
+    },
+    {
+      "word": "the",
+      "start_ms": 35800,
+      "end_ms": 36040,
+      "start_frame": 1074,
+      "end_frame": 1081
+    },
+    {
+      "word": "answer.",
+      "start_ms": 36040,
+      "end_ms": 36660,
+      "start_frame": 1081,
+      "end_frame": 1100
+    },
+    {
+      "word": "Notice",
+      "start_ms": 37300,
+      "end_ms": 37500,
+      "start_frame": 1119,
+      "end_frame": 1125
+    },
+    {
+      "word": "the",
+      "start_ms": 37500,
+      "end_ms": 37780,
+      "start_frame": 1125,
+      "end_frame": 1133
+    },
+    {
+      "word": "order",
+      "start_ms": 37780,
+      "end_ms": 37980,
+      "start_frame": 1133,
+      "end_frame": 1139
+    },
+    {
+      "word": "again.",
+      "start_ms": 37980,
+      "end_ms": 38540,
+      "start_frame": 1139,
+      "end_frame": 1156
+    },
+    {
+      "word": "Update",
+      "start_ms": 39120,
+      "end_ms": 39560,
+      "start_frame": 1174,
+      "end_frame": 1187
+    },
+    {
+      "word": "prefix,",
+      "start_ms": 39560,
+      "end_ms": 40300,
+      "start_frame": 1187,
+      "end_frame": 1209
+    },
+    {
+      "word": "compute",
+      "start_ms": 40700,
+      "end_ms": 41020,
+      "start_frame": 1221,
+      "end_frame": 1231
+    },
+    {
+      "word": "needed,",
+      "start_ms": 41020,
+      "end_ms": 41560,
+      "start_frame": 1231,
+      "end_frame": 1247
+    },
+    {
+      "word": "query",
+      "start_ms": 42040,
+      "end_ms": 42340,
+      "start_frame": 1261,
+      "end_frame": 1270
+    },
+    {
+      "word": "earlier",
+      "start_ms": 42340,
+      "end_ms": 42800,
+      "start_frame": 1270,
+      "end_frame": 1284
+    },
+    {
+      "word": "prefixes,",
+      "start_ms": 42800,
+      "end_ms": 43480,
+      "start_frame": 1284,
+      "end_frame": 1304
+    },
+    {
+      "word": "add",
+      "start_ms": 44000,
+      "end_ms": 44220,
+      "start_frame": 1320,
+      "end_frame": 1327
+    },
+    {
+      "word": "matches,",
+      "start_ms": 44220,
+      "end_ms": 44700,
+      "start_frame": 1327,
+      "end_frame": 1341
+    },
+    {
+      "word": "then",
+      "start_ms": 45320,
+      "end_ms": 45520,
+      "start_frame": 1360,
+      "end_frame": 1366
+    },
+    {
+      "word": "store",
+      "start_ms": 45520,
+      "end_ms": 45880,
+      "start_frame": 1366,
+      "end_frame": 1376
+    },
+    {
+      "word": "current",
+      "start_ms": 45880,
+      "end_ms": 46260,
+      "start_frame": 1376,
+      "end_frame": 1388
+    },
+    {
+      "word": "prefix.",
+      "start_ms": 46260,
+      "end_ms": 46800,
+      "start_frame": 1388,
+      "end_frame": 1404
+    },
+    {
+      "word": "The",
+      "start_ms": 47700,
+      "end_ms": 47940,
+      "start_frame": 1431,
+      "end_frame": 1438
+    },
+    {
+      "word": "lookup",
+      "start_ms": 47940,
+      "end_ms": 48200,
+      "start_frame": 1438,
+      "end_frame": 1446
+    },
+    {
+      "word": "comes",
+      "start_ms": 48200,
+      "end_ms": 48480,
+      "start_frame": 1446,
+      "end_frame": 1454
+    },
+    {
+      "word": "before",
+      "start_ms": 48480,
+      "end_ms": 48960,
+      "start_frame": 1454,
+      "end_frame": 1469
+    },
+    {
+      "word": "the",
+      "start_ms": 48960,
+      "end_ms": 49220,
+      "start_frame": 1469,
+      "end_frame": 1477
+    },
+    {
+      "word": "insert.",
+      "start_ms": 49220,
+      "end_ms": 49560,
+      "start_frame": 1477,
+      "end_frame": 1487
+    },
+    {
+      "word": "That",
+      "start_ms": 50100,
+      "end_ms": 50280,
+      "start_frame": 1503,
+      "end_frame": 1508
+    },
+    {
+      "word": "is",
+      "start_ms": 50280,
+      "end_ms": 50560,
+      "start_frame": 1508,
+      "end_frame": 1517
+    },
+    {
+      "word": "part",
+      "start_ms": 50560,
+      "end_ms": 50840,
+      "start_frame": 1517,
+      "end_frame": 1525
+    },
+    {
+      "word": "of",
+      "start_ms": 50840,
+      "end_ms": 51260,
+      "start_frame": 1525,
+      "end_frame": 1538
+    },
+    {
+      "word": "correctness.",
+      "start_ms": 51260,
+      "end_ms": 51880,
+      "start_frame": 1538,
+      "end_frame": 1556
+    },
+    {
+      "word": "Now",
+      "start_ms": 52620,
+      "end_ms": 52820,
+      "start_frame": 1579,
+      "end_frame": 1585
+    },
+    {
+      "word": "the",
+      "start_ms": 52820,
+      "end_ms": 53020,
+      "start_frame": 1585,
+      "end_frame": 1591
+    },
+    {
+      "word": "complexity.",
+      "start_ms": 53020,
+      "end_ms": 53660,
+      "start_frame": 1591,
+      "end_frame": 1610
+    },
+    {
+      "word": "We",
+      "start_ms": 54160,
+      "end_ms": 54440,
+      "start_frame": 1625,
+      "end_frame": 1633
+    },
+    {
+      "word": "scan",
+      "start_ms": 54440,
+      "end_ms": 54700,
+      "start_frame": 1633,
+      "end_frame": 1641
+    },
+    {
+      "word": "the",
+      "start_ms": 54700,
+      "end_ms": 54980,
+      "start_frame": 1641,
+      "end_frame": 1649
+    },
+    {
+      "word": "array",
+      "start_ms": 54980,
+      "end_ms": 55280,
+      "start_frame": 1649,
+      "end_frame": 1658
+    },
+    {
+      "word": "once.",
+      "start_ms": 55280,
+      "end_ms": 55800,
+      "start_frame": 1658,
+      "end_frame": 1674
+    },
+    {
+      "word": "For",
+      "start_ms": 55800,
+      "end_ms": 56380,
+      "start_frame": 1674,
+      "end_frame": 1691
+    },
+    {
+      "word": "each",
+      "start_ms": 56380,
+      "end_ms": 56740,
+      "start_frame": 1691,
+      "end_frame": 1702
+    },
+    {
+      "word": "element,",
+      "start_ms": 56740,
+      "end_ms": 57220,
+      "start_frame": 1702,
+      "end_frame": 1717
+    },
+    {
+      "word": "we",
+      "start_ms": 57340,
+      "end_ms": 57520,
+      "start_frame": 1720,
+      "end_frame": 1726
+    },
+    {
+      "word": "do",
+      "start_ms": 57520,
+      "end_ms": 57740,
+      "start_frame": 1726,
+      "end_frame": 1732
+    },
+    {
+      "word": "a",
+      "start_ms": 57740,
+      "end_ms": 57920,
+      "start_frame": 1732,
+      "end_frame": 1738
+    },
+    {
+      "word": "constant",
+      "start_ms": 57920,
+      "end_ms": 58360,
+      "start_frame": 1738,
+      "end_frame": 1751
+    },
+    {
+      "word": "amount",
+      "start_ms": 58360,
+      "end_ms": 58860,
+      "start_frame": 1751,
+      "end_frame": 1766
+    },
+    {
+      "word": "of",
+      "start_ms": 58860,
+      "end_ms": 59140,
+      "start_frame": 1766,
+      "end_frame": 1774
+    },
+    {
+      "word": "arithmetic",
+      "start_ms": 59140,
+      "end_ms": 59660,
+      "start_frame": 1774,
+      "end_frame": 1790
+    },
+    {
+      "word": "and",
+      "start_ms": 59660,
+      "end_ms": 60320,
+      "start_frame": 1790,
+      "end_frame": 1810
+    },
+    {
+      "word": "expected",
+      "start_ms": 60320,
+      "end_ms": 60780,
+      "start_frame": 1810,
+      "end_frame": 1823
+    },
+    {
+      "word": "constant",
+      "start_ms": 60780,
+      "end_ms": 61440,
+      "start_frame": 1823,
+      "end_frame": 1843
+    },
+    {
+      "word": "time",
+      "start_ms": 61440,
+      "end_ms": 61860,
+      "start_frame": 1843,
+      "end_frame": 1856
+    },
+    {
+      "word": "hash",
+      "start_ms": 61860,
+      "end_ms": 62240,
+      "start_frame": 1856,
+      "end_frame": 1867
+    },
+    {
+      "word": "map",
+      "start_ms": 62240,
+      "end_ms": 62540,
+      "start_frame": 1867,
+      "end_frame": 1876
+    },
+    {
+      "word": "operations.",
+      "start_ms": 62540,
+      "end_ms": 63320,
+      "start_frame": 1876,
+      "end_frame": 1900
+    },
+    {
+      "word": "So",
+      "start_ms": 64060,
+      "end_ms": 64160,
+      "start_frame": 1922,
+      "end_frame": 1925
+    },
+    {
+      "word": "the",
+      "start_ms": 64160,
+      "end_ms": 64360,
+      "start_frame": 1925,
+      "end_frame": 1931
+    },
+    {
+      "word": "expected",
+      "start_ms": 64360,
+      "end_ms": 64840,
+      "start_frame": 1931,
+      "end_frame": 1945
+    },
+    {
+      "word": "time",
+      "start_ms": 64840,
+      "end_ms": 65220,
+      "start_frame": 1945,
+      "end_frame": 1957
+    },
+    {
+      "word": "complexity",
+      "start_ms": 65220,
+      "end_ms": 65820,
+      "start_frame": 1957,
+      "end_frame": 1975
+    },
+    {
+      "word": "is",
+      "start_ms": 65820,
+      "end_ms": 66320,
+      "start_frame": 1975,
+      "end_frame": 1990
+    },
+    {
+      "word": "O",
+      "start_ms": 66320,
+      "end_ms": 66660,
+      "start_frame": 1990,
+      "end_frame": 2000
+    },
+    {
+      "word": "of",
+      "start_ms": 66660,
+      "end_ms": 66840,
+      "start_frame": 2000,
+      "end_frame": 2005
+    },
+    {
+      "word": "N",
+      "start_ms": 66840,
+      "end_ms": 67360,
+      "start_frame": 2005,
+      "end_frame": 2021
+    },
+    {
+      "word": "for",
+      "start_ms": 67360,
+      "end_ms": 67880,
+      "start_frame": 2021,
+      "end_frame": 2036
+    },
+    {
+      "word": "auxiliary",
+      "start_ms": 67880,
+      "end_ms": 68500,
+      "start_frame": 2036,
+      "end_frame": 2055
+    },
+    {
+      "word": "space.",
+      "start_ms": 68500,
+      "end_ms": 69020,
+      "start_frame": 2055,
+      "end_frame": 2071
+    },
+    {
+      "word": "In",
+      "start_ms": 69860,
+      "end_ms": 70040,
+      "start_frame": 2096,
+      "end_frame": 2101
+    },
+    {
+      "word": "the",
+      "start_ms": 70040,
+      "end_ms": 70280,
+      "start_frame": 2101,
+      "end_frame": 2108
+    },
+    {
+      "word": "worst",
+      "start_ms": 70280,
+      "end_ms": 70460,
+      "start_frame": 2108,
+      "end_frame": 2114
+    },
+    {
+      "word": "case,",
+      "start_ms": 70460,
+      "end_ms": 70900,
+      "start_frame": 2114,
+      "end_frame": 2127
+    },
+    {
+      "word": "many",
+      "start_ms": 71180,
+      "end_ms": 71560,
+      "start_frame": 2135,
+      "end_frame": 2147
+    },
+    {
+      "word": "prefix",
+      "start_ms": 71560,
+      "end_ms": 72020,
+      "start_frame": 2147,
+      "end_frame": 2161
+    },
+    {
+      "word": "sums",
+      "start_ms": 72020,
+      "end_ms": 72360,
+      "start_frame": 2161,
+      "end_frame": 2171
+    },
+    {
+      "word": "can",
+      "start_ms": 72360,
+      "end_ms": 72700,
+      "start_frame": 2171,
+      "end_frame": 2181
+    },
+    {
+      "word": "be",
+      "start_ms": 72700,
+      "end_ms": 72940,
+      "start_frame": 2181,
+      "end_frame": 2188
+    },
+    {
+      "word": "different.",
+      "start_ms": 72940,
+      "end_ms": 73420,
+      "start_frame": 2188,
+      "end_frame": 2203
+    },
+    {
+      "word": "So",
+      "start_ms": 73840,
+      "end_ms": 74100,
+      "start_frame": 2215,
+      "end_frame": 2223
+    },
+    {
+      "word": "the",
+      "start_ms": 74100,
+      "end_ms": 74300,
+      "start_frame": 2223,
+      "end_frame": 2229
+    },
+    {
+      "word": "map",
+      "start_ms": 74300,
+      "end_ms": 74480,
+      "start_frame": 2229,
+      "end_frame": 2234
+    },
+    {
+      "word": "can",
+      "start_ms": 74480,
+      "end_ms": 74820,
+      "start_frame": 2234,
+      "end_frame": 2245
+    },
+    {
+      "word": "store",
+      "start_ms": 74820,
+      "end_ms": 75100,
+      "start_frame": 2245,
+      "end_frame": 2253
+    },
+    {
+      "word": "O",
+      "start_ms": 75100,
+      "end_ms": 75580,
+      "start_frame": 2253,
+      "end_frame": 2267
+    },
+    {
+      "word": "of",
+      "start_ms": 75580,
+      "end_ms": 75880,
+      "start_frame": 2267,
+      "end_frame": 2276
+    },
+    {
+      "word": "N",
+      "start_ms": 75880,
+      "end_ms": 76160,
+      "start_frame": 2276,
+      "end_frame": 2285
+    },
+    {
+      "word": "prefix",
+      "start_ms": 76160,
+      "end_ms": 76560,
+      "start_frame": 2285,
+      "end_frame": 2297
+    },
+    {
+      "word": "values.",
+      "start_ms": 76560,
+      "end_ms": 77180,
+      "start_frame": 2297,
+      "end_frame": 2315
+    },
+    {
+      "word": "Therefore",
+      "start_ms": 77600,
+      "end_ms": 78060,
+      "start_frame": 2328,
+      "end_frame": 2342
+    },
+    {
+      "word": "auxiliary",
+      "start_ms": 78060,
+      "end_ms": 78700,
+      "start_frame": 2342,
+      "end_frame": 2361
+    },
+    {
+      "word": "space",
+      "start_ms": 78700,
+      "end_ms": 79140,
+      "start_frame": 2361,
+      "end_frame": 2374
+    },
+    {
+      "word": "is",
+      "start_ms": 79140,
+      "end_ms": 79460,
+      "start_frame": 2374,
+      "end_frame": 2384
+    },
+    {
+      "word": "O",
+      "start_ms": 79460,
+      "end_ms": 79740,
+      "start_frame": 2384,
+      "end_frame": 2392
+    },
+    {
+      "word": "of",
+      "start_ms": 79740,
+      "end_ms": 79940,
+      "start_frame": 2392,
+      "end_frame": 2398
+    },
+    {
+      "word": "N.",
+      "start_ms": 79940,
+      "end_ms": 80320,
+      "start_frame": 2398,
+      "end_frame": 2410
+    },
+    {
+      "word": "So",
+      "start_ms": 80780,
+      "end_ms": 81060,
+      "start_frame": 2423,
+      "end_frame": 2432
+    },
+    {
+      "word": "method",
+      "start_ms": 81060,
+      "end_ms": 81360,
+      "start_frame": 2432,
+      "end_frame": 2441
+    },
+    {
+      "word": "two",
+      "start_ms": 81360,
+      "end_ms": 81820,
+      "start_frame": 2441,
+      "end_frame": 2455
+    },
+    {
+      "word": "changes",
+      "start_ms": 81820,
+      "end_ms": 82380,
+      "start_frame": 2455,
+      "end_frame": 2471
+    },
+    {
+      "word": "the",
+      "start_ms": 82380,
+      "end_ms": 82700,
+      "start_frame": 2471,
+      "end_frame": 2481
+    },
+    {
+      "word": "repeated",
+      "start_ms": 82700,
+      "end_ms": 83240,
+      "start_frame": 2481,
+      "end_frame": 2497
+    },
+    {
+      "word": "O",
+      "start_ms": 83240,
+      "end_ms": 83840,
+      "start_frame": 2497,
+      "end_frame": 2515
+    },
+    {
+      "word": "of",
+      "start_ms": 83840,
+      "end_ms": 84040,
+      "start_frame": 2515,
+      "end_frame": 2521
+    },
+    {
+      "word": "N",
+      "start_ms": 84040,
+      "end_ms": 84280,
+      "start_frame": 2521,
+      "end_frame": 2528
+    },
+    {
+      "word": "squared",
+      "start_ms": 84280,
+      "end_ms": 84640,
+      "start_frame": 2528,
+      "end_frame": 2539
+    },
+    {
+      "word": "range",
+      "start_ms": 84640,
+      "end_ms": 85040,
+      "start_frame": 2539,
+      "end_frame": 2551
+    },
+    {
+      "word": "search",
+      "start_ms": 85040,
+      "end_ms": 85460,
+      "start_frame": 2551,
+      "end_frame": 2564
+    },
+    {
+      "word": "into",
+      "start_ms": 85460,
+      "end_ms": 86160,
+      "start_frame": 2564,
+      "end_frame": 2585
+    },
+    {
+      "word": "one",
+      "start_ms": 86160,
+      "end_ms": 86400,
+      "start_frame": 2585,
+      "end_frame": 2592
+    },
+    {
+      "word": "expected",
+      "start_ms": 86400,
+      "end_ms": 87020,
+      "start_frame": 2592,
+      "end_frame": 2611
+    },
+    {
+      "word": "O",
+      "start_ms": 87020,
+      "end_ms": 87620,
+      "start_frame": 2611,
+      "end_frame": 2629
+    },
+    {
+      "word": "of",
+      "start_ms": 87620,
+      "end_ms": 87880,
+      "start_frame": 2629,
+      "end_frame": 2636
+    },
+    {
+      "word": "N",
+      "start_ms": 87880,
+      "end_ms": 88100,
+      "start_frame": 2636,
+      "end_frame": 2643
+    },
+    {
+      "word": "pass.",
+      "start_ms": 88100,
+      "end_ms": 88400,
+      "start_frame": 2643,
+      "end_frame": 2652
+    },
+    {
+      "word": "The",
+      "start_ms": 89300,
+      "end_ms": 89540,
+      "start_frame": 2679,
+      "end_frame": 2686
+    },
+    {
+      "word": "important",
+      "start_ms": 89540,
+      "end_ms": 89900,
+      "start_frame": 2686,
+      "end_frame": 2697
+    },
+    {
+      "word": "relation",
+      "start_ms": 89900,
+      "end_ms": 90380,
+      "start_frame": 2697,
+      "end_frame": 2711
+    },
+    {
+      "word": "is",
+      "start_ms": 90380,
+      "end_ms": 91040,
+      "start_frame": 2711,
+      "end_frame": 2731
+    },
+    {
+      "word": "current",
+      "start_ms": 91040,
+      "end_ms": 91540,
+      "start_frame": 2731,
+      "end_frame": 2746
+    },
+    {
+      "word": "prefix",
+      "start_ms": 91540,
+      "end_ms": 92180,
+      "start_frame": 2746,
+      "end_frame": 2765
+    },
+    {
+      "word": "minus",
+      "start_ms": 92180,
+      "end_ms": 92720,
+      "start_frame": 2765,
+      "end_frame": 2782
+    },
+    {
+      "word": "previous",
+      "start_ms": 92720,
+      "end_ms": 93340,
+      "start_frame": 2782,
+      "end_frame": 2800
+    },
+    {
+      "word": "prefix",
+      "start_ms": 93340,
+      "end_ms": 93940,
+      "start_frame": 2800,
+      "end_frame": 2818
+    },
+    {
+      "word": "equals",
+      "start_ms": 93940,
+      "end_ms": 94560,
+      "start_frame": 2818,
+      "end_frame": 2837
+    },
+    {
+      "word": "K",
+      "start_ms": 94560,
+      "end_ms": 95040,
+      "start_frame": 2837,
+      "end_frame": 2851
+    },
+    {
+      "word": "cause.",
+      "start_ms": 95040,
+      "end_ms": 95320,
+      "start_frame": 2851,
+      "end_frame": 2860
+    },
+    {
+      "word": "That",
+      "start_ms": 96220,
+      "end_ms": 96480,
+      "start_frame": 2887,
+      "end_frame": 2894
+    },
+    {
+      "word": "lets",
+      "start_ms": 96480,
+      "end_ms": 96740,
+      "start_frame": 2894,
+      "end_frame": 2902
+    },
+    {
+      "word": "us",
+      "start_ms": 96740,
+      "end_ms": 97040,
+      "start_frame": 2902,
+      "end_frame": 2911
+    },
+    {
+      "word": "replace",
+      "start_ms": 97040,
+      "end_ms": 97440,
+      "start_frame": 2911,
+      "end_frame": 2923
+    },
+    {
+      "word": "many",
+      "start_ms": 97440,
+      "end_ms": 97860,
+      "start_frame": 2923,
+      "end_frame": 2936
+    },
+    {
+      "word": "possible",
+      "start_ms": 97860,
+      "end_ms": 98440,
+      "start_frame": 2936,
+      "end_frame": 2953
+    },
+    {
+      "word": "starting",
+      "start_ms": 98440,
+      "end_ms": 98980,
+      "start_frame": 2953,
+      "end_frame": 2969
+    },
+    {
+      "word": "position",
+      "start_ms": 98980,
+      "end_ms": 99620,
+      "start_frame": 2969,
+      "end_frame": 2989
+    },
+    {
+      "word": "checks",
+      "start_ms": 99620,
+      "end_ms": 100040,
+      "start_frame": 2989,
+      "end_frame": 3001
+    },
+    {
+      "word": "with",
+      "start_ms": 100040,
+      "end_ms": 100860,
+      "start_frame": 3001,
+      "end_frame": 3026
+    },
+    {
+      "word": "one",
+      "start_ms": 100860,
+      "end_ms": 101240,
+      "start_frame": 3026,
+      "end_frame": 3037
+    },
+    {
+      "word": "required",
+      "start_ms": 101240,
+      "end_ms": 101940,
+      "start_frame": 3037,
+      "end_frame": 3058
+    },
+    {
+      "word": "prefix",
+      "start_ms": 101940,
+      "end_ms": 102620,
+      "start_frame": 3058,
+      "end_frame": 3079
+    },
+    {
+      "word": "lookup.",
+      "start_ms": 102620,
+      "end_ms": 103140,
+      "start_frame": 3079,
+      "end_frame": 3094
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Start with a frequency map.",
+      "start_ms": 0,
+      "end_ms": 1540,
+      "start_frame": 0,
+      "end_frame": 46,
+      "word_count": 5
+    },
+    {
+      "text": "Put zero with frequency one, then set prefix to zero and answer to zero.",
+      "start_ms": 2140,
+      "end_ms": 7680,
+      "start_frame": 64,
+      "end_frame": 230,
+      "word_count": 14
+    },
+    {
+      "text": "Now move through the array one value at a time.",
+      "start_ms": 8180,
+      "end_ms": 11540,
+      "start_frame": 245,
+      "end_frame": 346,
+      "word_count": 10
+    },
+    {
+      "text": "Add the current value to the prefix, then calculate needed equals prefix minus K.",
+      "start_ms": 12100,
+      "end_ms": 18700,
+      "start_frame": 363,
+      "end_frame": 561,
+      "word_count": 14
+    },
+    {
+      "text": "Now query the frequency map.",
+      "start_ms": 19300,
+      "end_ms": 21040,
+      "start_frame": 579,
+      "end_frame": 631,
+      "word_count": 5
+    },
+    {
+      "text": "How many earlier prefixes equal needed?",
+      "start_ms": 21600,
+      "end_ms": 23940,
+      "start_frame": 648,
+      "end_frame": 718,
+      "word_count": 6
+    },
+    {
+      "text": "Add that frequency to the answer.",
+      "start_ms": 24580,
+      "end_ms": 26440,
+      "start_frame": 737,
+      "end_frame": 793,
+      "word_count": 6
+    },
+    {
+      "text": "Only after the lookup, increase the frequency of the current prefix, then continue to the next value.",
+      "start_ms": 26960,
+      "end_ms": 33620,
+      "start_frame": 809,
+      "end_frame": 1009,
+      "word_count": 17
+    },
+    {
+      "text": "Finally, return the answer.",
+      "start_ms": 34140,
+      "end_ms": 36660,
+      "start_frame": 1024,
+      "end_frame": 1100,
+      "word_count": 4
+    },
+    {
+      "text": "Notice the order again.",
+      "start_ms": 37300,
+      "end_ms": 38540,
+      "start_frame": 1119,
+      "end_frame": 1156,
+      "word_count": 4
+    },
+    {
+      "text": "Update prefix, compute needed, query earlier prefixes, add matches, then store current prefix.",
+      "start_ms": 39120,
+      "end_ms": 46800,
+      "start_frame": 1174,
+      "end_frame": 1404,
+      "word_count": 13
+    },
+    {
+      "text": "The lookup comes before the insert.",
+      "start_ms": 47700,
+      "end_ms": 49560,
+      "start_frame": 1431,
+      "end_frame": 1487,
+      "word_count": 6
+    },
+    {
+      "text": "That is part of correctness.",
+      "start_ms": 50100,
+      "end_ms": 51880,
+      "start_frame": 1503,
+      "end_frame": 1556,
+      "word_count": 5
+    },
+    {
+      "text": "Now the complexity.",
+      "start_ms": 52620,
+      "end_ms": 53660,
+      "start_frame": 1579,
+      "end_frame": 1610,
+      "word_count": 3
+    },
+    {
+      "text": "We scan the array once.",
+      "start_ms": 54160,
+      "end_ms": 55800,
+      "start_frame": 1625,
+      "end_frame": 1674,
+      "word_count": 5
+    },
+    {
+      "text": "For each element, we do a constant amount of arithmetic and expected constant time hash map operations.",
+      "start_ms": 55800,
+      "end_ms": 63320,
+      "start_frame": 1674,
+      "end_frame": 1900,
+      "word_count": 17
+    },
+    {
+      "text": "So the expected time complexity is O of N for auxiliary space.",
+      "start_ms": 64060,
+      "end_ms": 69020,
+      "start_frame": 1922,
+      "end_frame": 2071,
+      "word_count": 12
+    },
+    {
+      "text": "In the worst case, many prefix sums can be different.",
+      "start_ms": 69860,
+      "end_ms": 73420,
+      "start_frame": 2096,
+      "end_frame": 2203,
+      "word_count": 10
+    },
+    {
+      "text": "So the map can store O of N prefix values.",
+      "start_ms": 73840,
+      "end_ms": 77180,
+      "start_frame": 2215,
+      "end_frame": 2315,
+      "word_count": 10
+    },
+    {
+      "text": "Therefore auxiliary space is O of N.",
+      "start_ms": 77600,
+      "end_ms": 80320,
+      "start_frame": 2328,
+      "end_frame": 2410,
+      "word_count": 7
+    },
+    {
+      "text": "So method two changes the repeated O of N squared range search into one expected O of N pass.",
+      "start_ms": 80780,
+      "end_ms": 88400,
+      "start_frame": 2423,
+      "end_frame": 2652,
+      "word_count": 19
+    },
+    {
+      "text": "The important relation is current prefix minus previous prefix equals K cause.",
+      "start_ms": 89300,
+      "end_ms": 95320,
+      "start_frame": 2679,
+      "end_frame": 2860,
+      "word_count": 12
+    },
+    {
+      "text": "That lets us replace many possible starting position checks with one required prefix lookup.",
+      "start_ms": 96220,
+      "end_ms": 103140,
+      "start_frame": 2887,
+      "end_frame": 3094,
+      "word_count": 14
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "map.",
+      "before_word": "Put",
+      "start_ms": 1540,
+      "end_ms": 2140,
+      "duration_ms": 600,
+      "start_frame": 46,
+      "end_frame": 64,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "one,",
+      "before_word": "then",
+      "start_ms": 4020,
+      "end_ms": 4520,
+      "duration_ms": 500,
+      "start_frame": 121,
+      "end_frame": 136,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "zero.",
+      "before_word": "Now",
+      "start_ms": 7680,
+      "end_ms": 8180,
+      "duration_ms": 500,
+      "start_frame": 230,
+      "end_frame": 245,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "time.",
+      "before_word": "Add",
+      "start_ms": 11540,
+      "end_ms": 12100,
+      "duration_ms": 560,
+      "start_frame": 346,
+      "end_frame": 363,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "prefix,",
+      "before_word": "then",
+      "start_ms": 13920,
+      "end_ms": 14460,
+      "duration_ms": 540,
+      "start_frame": 418,
+      "end_frame": 434,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "K.",
+      "before_word": "Now",
+      "start_ms": 18700,
+      "end_ms": 19300,
+      "duration_ms": 600,
+      "start_frame": 561,
+      "end_frame": 579,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "map.",
+      "before_word": "How",
+      "start_ms": 21040,
+      "end_ms": 21600,
+      "duration_ms": 560,
+      "start_frame": 631,
+      "end_frame": 648,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "needed?",
+      "before_word": "Add",
+      "start_ms": 23940,
+      "end_ms": 24580,
+      "duration_ms": 640,
+      "start_frame": 718,
+      "end_frame": 737,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "answer.",
+      "before_word": "Only",
+      "start_ms": 26440,
+      "end_ms": 26960,
+      "duration_ms": 520,
+      "start_frame": 793,
+      "end_frame": 809,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "prefix,",
+      "before_word": "then",
+      "start_ms": 31100,
+      "end_ms": 31760,
+      "duration_ms": 660,
+      "start_frame": 933,
+      "end_frame": 953,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "value.",
+      "before_word": "Finally,",
+      "start_ms": 33620,
+      "end_ms": 34140,
+      "duration_ms": 520,
+      "start_frame": 1009,
+      "end_frame": 1024,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "Finally,",
+      "before_word": "return",
+      "start_ms": 34700,
+      "end_ms": 35380,
+      "duration_ms": 680,
+      "start_frame": 1041,
+      "end_frame": 1061,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "answer.",
+      "before_word": "Notice",
+      "start_ms": 36660,
+      "end_ms": 37300,
+      "duration_ms": 640,
+      "start_frame": 1100,
+      "end_frame": 1119,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "again.",
+      "before_word": "Update",
+      "start_ms": 38540,
+      "end_ms": 39120,
+      "duration_ms": 580,
+      "start_frame": 1156,
+      "end_frame": 1174,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "prefix,",
+      "before_word": "compute",
+      "start_ms": 40300,
+      "end_ms": 40700,
+      "duration_ms": 400,
+      "start_frame": 1209,
+      "end_frame": 1221,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "needed,",
+      "before_word": "query",
+      "start_ms": 41560,
+      "end_ms": 42040,
+      "duration_ms": 480,
+      "start_frame": 1247,
+      "end_frame": 1261,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "prefixes,",
+      "before_word": "add",
+      "start_ms": 43480,
+      "end_ms": 44000,
+      "duration_ms": 520,
+      "start_frame": 1304,
+      "end_frame": 1320,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "matches,",
+      "before_word": "then",
+      "start_ms": 44700,
+      "end_ms": 45320,
+      "duration_ms": 620,
+      "start_frame": 1341,
+      "end_frame": 1360,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "prefix.",
+      "before_word": "The",
+      "start_ms": 46800,
+      "end_ms": 47700,
+      "duration_ms": 900,
+      "start_frame": 1404,
+      "end_frame": 1431,
+      "duration_frames": 27
+    },
+    {
+      "after_word": "insert.",
+      "before_word": "That",
+      "start_ms": 49560,
+      "end_ms": 50100,
+      "duration_ms": 540,
+      "start_frame": 1487,
+      "end_frame": 1503,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "correctness.",
+      "before_word": "Now",
+      "start_ms": 51880,
+      "end_ms": 52620,
+      "duration_ms": 740,
+      "start_frame": 1556,
+      "end_frame": 1579,
+      "duration_frames": 23
+    },
+    {
+      "after_word": "complexity.",
+      "before_word": "We",
+      "start_ms": 53660,
+      "end_ms": 54160,
+      "duration_ms": 500,
+      "start_frame": 1610,
+      "end_frame": 1625,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "operations.",
+      "before_word": "So",
+      "start_ms": 63320,
+      "end_ms": 64060,
+      "duration_ms": 740,
+      "start_frame": 1900,
+      "end_frame": 1922,
+      "duration_frames": 22
+    },
+    {
+      "after_word": "space.",
+      "before_word": "In",
+      "start_ms": 69020,
+      "end_ms": 69860,
+      "duration_ms": 840,
+      "start_frame": 2071,
+      "end_frame": 2096,
+      "duration_frames": 25
+    },
+    {
+      "after_word": "different.",
+      "before_word": "So",
+      "start_ms": 73420,
+      "end_ms": 73840,
+      "duration_ms": 420,
+      "start_frame": 2203,
+      "end_frame": 2215,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "values.",
+      "before_word": "Therefore",
+      "start_ms": 77180,
+      "end_ms": 77600,
+      "duration_ms": 420,
+      "start_frame": 2315,
+      "end_frame": 2328,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "N.",
+      "before_word": "So",
+      "start_ms": 80320,
+      "end_ms": 80780,
+      "duration_ms": 460,
+      "start_frame": 2410,
+      "end_frame": 2423,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "pass.",
+      "before_word": "The",
+      "start_ms": 88400,
+      "end_ms": 89300,
+      "duration_ms": 900,
+      "start_frame": 2652,
+      "end_frame": 2679,
+      "duration_frames": 27
+    },
+    {
+      "after_word": "cause.",
+      "before_word": "That",
+      "start_ms": 95320,
+      "end_ms": 96220,
+      "duration_ms": 900,
+      "start_frame": 2860,
+      "end_frame": 2887,
+      "duration_frames": 27
+    }
+  ]
+}

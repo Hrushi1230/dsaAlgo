@@ -1,0 +1,750 @@
+{
+  "audio_file": "08-correctness-complexity.mp3",
+  "duration_ms": 38420,
+  "duration_frames": 1153,
+  "fps": 30,
+  "word_count": 77,
+  "words": [
+    {
+      "word": "Why",
+      "start_ms": 0,
+      "end_ms": 380,
+      "start_frame": 0,
+      "end_frame": 11
+    },
+    {
+      "word": "does",
+      "start_ms": 380,
+      "end_ms": 600,
+      "start_frame": 11,
+      "end_frame": 18
+    },
+    {
+      "word": "this",
+      "start_ms": 600,
+      "end_ms": 800,
+      "start_frame": 18,
+      "end_frame": 24
+    },
+    {
+      "word": "work?",
+      "start_ms": 800,
+      "end_ms": 1200,
+      "start_frame": 24,
+      "end_frame": 36
+    },
+    {
+      "word": "Because",
+      "start_ms": 1540,
+      "end_ms": 1840,
+      "start_frame": 46,
+      "end_frame": 55
+    },
+    {
+      "word": "the",
+      "start_ms": 1840,
+      "end_ms": 2100,
+      "start_frame": 55,
+      "end_frame": 63
+    },
+    {
+      "word": "payload",
+      "start_ms": 2100,
+      "end_ms": 2480,
+      "start_frame": 63,
+      "end_frame": 74
+    },
+    {
+      "word": "does",
+      "start_ms": 2480,
+      "end_ms": 2900,
+      "start_frame": 74,
+      "end_frame": 87
+    },
+    {
+      "word": "not",
+      "start_ms": 2900,
+      "end_ms": 3200,
+      "start_frame": 87,
+      "end_frame": 96
+    },
+    {
+      "word": "decide",
+      "start_ms": 3200,
+      "end_ms": 3680,
+      "start_frame": 96,
+      "end_frame": 110
+    },
+    {
+      "word": "its",
+      "start_ms": 3680,
+      "end_ms": 3920,
+      "start_frame": 110,
+      "end_frame": 118
+    },
+    {
+      "word": "own",
+      "start_ms": 3920,
+      "end_ms": 4160,
+      "start_frame": 118,
+      "end_frame": 125
+    },
+    {
+      "word": "boundary.",
+      "start_ms": 4160,
+      "end_ms": 4640,
+      "start_frame": 125,
+      "end_frame": 139
+    },
+    {
+      "word": "The",
+      "start_ms": 5120,
+      "end_ms": 5440,
+      "start_frame": 154,
+      "end_frame": 163
+    },
+    {
+      "word": "stored",
+      "start_ms": 5440,
+      "end_ms": 5640,
+      "start_frame": 163,
+      "end_frame": 169
+    },
+    {
+      "word": "length",
+      "start_ms": 5640,
+      "end_ms": 6000,
+      "start_frame": 169,
+      "end_frame": 180
+    },
+    {
+      "word": "does.",
+      "start_ms": 6000,
+      "end_ms": 6480,
+      "start_frame": 180,
+      "end_frame": 194
+    },
+    {
+      "word": "Now,",
+      "start_ms": 6920,
+      "end_ms": 7380,
+      "start_frame": 208,
+      "end_frame": 221
+    },
+    {
+      "word": "complexity.",
+      "start_ms": 7560,
+      "end_ms": 8240,
+      "start_frame": 227,
+      "end_frame": 247
+    },
+    {
+      "word": "Let",
+      "start_ms": 9040,
+      "end_ms": 9180,
+      "start_frame": 271,
+      "end_frame": 275
+    },
+    {
+      "word": "C",
+      "start_ms": 9180,
+      "end_ms": 9540,
+      "start_frame": 275,
+      "end_frame": 286
+    },
+    {
+      "word": "be",
+      "start_ms": 9540,
+      "end_ms": 9720,
+      "start_frame": 286,
+      "end_frame": 292
+    },
+    {
+      "word": "the",
+      "start_ms": 9720,
+      "end_ms": 9880,
+      "start_frame": 292,
+      "end_frame": 296
+    },
+    {
+      "word": "total",
+      "start_ms": 9880,
+      "end_ms": 10320,
+      "start_frame": 296,
+      "end_frame": 310
+    },
+    {
+      "word": "number",
+      "start_ms": 10320,
+      "end_ms": 10720,
+      "start_frame": 310,
+      "end_frame": 322
+    },
+    {
+      "word": "of",
+      "start_ms": 10720,
+      "end_ms": 10960,
+      "start_frame": 322,
+      "end_frame": 329
+    },
+    {
+      "word": "payload",
+      "start_ms": 10960,
+      "end_ms": 11340,
+      "start_frame": 329,
+      "end_frame": 340
+    },
+    {
+      "word": "characters",
+      "start_ms": 11340,
+      "end_ms": 11960,
+      "start_frame": 340,
+      "end_frame": 359
+    },
+    {
+      "word": "and",
+      "start_ms": 11960,
+      "end_ms": 12900,
+      "start_frame": 359,
+      "end_frame": 387
+    },
+    {
+      "word": "N",
+      "start_ms": 12900,
+      "end_ms": 13320,
+      "start_frame": 387,
+      "end_frame": 400
+    },
+    {
+      "word": "be",
+      "start_ms": 13320,
+      "end_ms": 13620,
+      "start_frame": 400,
+      "end_frame": 409
+    },
+    {
+      "word": "the",
+      "start_ms": 13620,
+      "end_ms": 13740,
+      "start_frame": 409,
+      "end_frame": 412
+    },
+    {
+      "word": "number",
+      "start_ms": 13740,
+      "end_ms": 14040,
+      "start_frame": 412,
+      "end_frame": 421
+    },
+    {
+      "word": "of",
+      "start_ms": 14040,
+      "end_ms": 14300,
+      "start_frame": 421,
+      "end_frame": 429
+    },
+    {
+      "word": "strings.",
+      "start_ms": 14300,
+      "end_ms": 14920,
+      "start_frame": 429,
+      "end_frame": 448
+    },
+    {
+      "word": "Encoding",
+      "start_ms": 15800,
+      "end_ms": 16240,
+      "start_frame": 474,
+      "end_frame": 487
+    },
+    {
+      "word": "processes",
+      "start_ms": 16240,
+      "end_ms": 16840,
+      "start_frame": 487,
+      "end_frame": 505
+    },
+    {
+      "word": "every",
+      "start_ms": 16840,
+      "end_ms": 17460,
+      "start_frame": 505,
+      "end_frame": 524
+    },
+    {
+      "word": "string",
+      "start_ms": 17460,
+      "end_ms": 17820,
+      "start_frame": 524,
+      "end_frame": 535
+    },
+    {
+      "word": "and",
+      "start_ms": 17820,
+      "end_ms": 18240,
+      "start_frame": 535,
+      "end_frame": 547
+    },
+    {
+      "word": "copies",
+      "start_ms": 18240,
+      "end_ms": 18600,
+      "start_frame": 547,
+      "end_frame": 558
+    },
+    {
+      "word": "its",
+      "start_ms": 18600,
+      "end_ms": 18920,
+      "start_frame": 558,
+      "end_frame": 568
+    },
+    {
+      "word": "characters.",
+      "start_ms": 18920,
+      "end_ms": 19580,
+      "start_frame": 568,
+      "end_frame": 587
+    },
+    {
+      "word": "Time",
+      "start_ms": 20420,
+      "end_ms": 20780,
+      "start_frame": 613,
+      "end_frame": 623
+    },
+    {
+      "word": "complexity.",
+      "start_ms": 20780,
+      "end_ms": 21700,
+      "start_frame": 623,
+      "end_frame": 651
+    },
+    {
+      "word": "O",
+      "start_ms": 22340,
+      "end_ms": 22860,
+      "start_frame": 670,
+      "end_frame": 686
+    },
+    {
+      "word": "of",
+      "start_ms": 22860,
+      "end_ms": 23160,
+      "start_frame": 686,
+      "end_frame": 695
+    },
+    {
+      "word": "C",
+      "start_ms": 23160,
+      "end_ms": 23460,
+      "start_frame": 695,
+      "end_frame": 704
+    },
+    {
+      "word": "plus",
+      "start_ms": 23460,
+      "end_ms": 23740,
+      "start_frame": 704,
+      "end_frame": 712
+    },
+    {
+      "word": "N.",
+      "start_ms": 23740,
+      "end_ms": 24620,
+      "start_frame": 712,
+      "end_frame": 739
+    },
+    {
+      "word": "Decoding",
+      "start_ms": 25040,
+      "end_ms": 25460,
+      "start_frame": 751,
+      "end_frame": 764
+    },
+    {
+      "word": "reads",
+      "start_ms": 25460,
+      "end_ms": 25860,
+      "start_frame": 764,
+      "end_frame": 776
+    },
+    {
+      "word": "the",
+      "start_ms": 25860,
+      "end_ms": 26180,
+      "start_frame": 776,
+      "end_frame": 785
+    },
+    {
+      "word": "headers",
+      "start_ms": 26180,
+      "end_ms": 26500,
+      "start_frame": 785,
+      "end_frame": 795
+    },
+    {
+      "word": "and",
+      "start_ms": 26500,
+      "end_ms": 26920,
+      "start_frame": 795,
+      "end_frame": 808
+    },
+    {
+      "word": "payloads",
+      "start_ms": 26920,
+      "end_ms": 27580,
+      "start_frame": 808,
+      "end_frame": 827
+    },
+    {
+      "word": "in",
+      "start_ms": 27580,
+      "end_ms": 27820,
+      "start_frame": 827,
+      "end_frame": 835
+    },
+    {
+      "word": "one",
+      "start_ms": 27820,
+      "end_ms": 28240,
+      "start_frame": 835,
+      "end_frame": 847
+    },
+    {
+      "word": "forward",
+      "start_ms": 28240,
+      "end_ms": 28780,
+      "start_frame": 847,
+      "end_frame": 863
+    },
+    {
+      "word": "pass.",
+      "start_ms": 28780,
+      "end_ms": 29260,
+      "start_frame": 863,
+      "end_frame": 878
+    },
+    {
+      "word": "Again,",
+      "start_ms": 30020,
+      "end_ms": 30360,
+      "start_frame": 901,
+      "end_frame": 911
+    },
+    {
+      "word": "O",
+      "start_ms": 31300,
+      "end_ms": 31660,
+      "start_frame": 939,
+      "end_frame": 950
+    },
+    {
+      "word": "of",
+      "start_ms": 31660,
+      "end_ms": 31920,
+      "start_frame": 950,
+      "end_frame": 958
+    },
+    {
+      "word": "C",
+      "start_ms": 31920,
+      "end_ms": 32220,
+      "start_frame": 958,
+      "end_frame": 967
+    },
+    {
+      "word": "plus",
+      "start_ms": 32220,
+      "end_ms": 32480,
+      "start_frame": 967,
+      "end_frame": 974
+    },
+    {
+      "word": "N.",
+      "start_ms": 32480,
+      "end_ms": 32940,
+      "start_frame": 974,
+      "end_frame": 988
+    },
+    {
+      "word": "The",
+      "start_ms": 33420,
+      "end_ms": 33820,
+      "start_frame": 1003,
+      "end_frame": 1015
+    },
+    {
+      "word": "constructed",
+      "start_ms": 33820,
+      "end_ms": 34220,
+      "start_frame": 1015,
+      "end_frame": 1027
+    },
+    {
+      "word": "output",
+      "start_ms": 34220,
+      "end_ms": 34820,
+      "start_frame": 1027,
+      "end_frame": 1045
+    },
+    {
+      "word": "also",
+      "start_ms": 34820,
+      "end_ms": 35380,
+      "start_frame": 1045,
+      "end_frame": 1061
+    },
+    {
+      "word": "needs",
+      "start_ms": 35380,
+      "end_ms": 35880,
+      "start_frame": 1061,
+      "end_frame": 1076
+    },
+    {
+      "word": "O",
+      "start_ms": 35880,
+      "end_ms": 36760,
+      "start_frame": 1076,
+      "end_frame": 1103
+    },
+    {
+      "word": "of",
+      "start_ms": 36760,
+      "end_ms": 37040,
+      "start_frame": 1103,
+      "end_frame": 1111
+    },
+    {
+      "word": "C",
+      "start_ms": 37040,
+      "end_ms": 37380,
+      "start_frame": 1111,
+      "end_frame": 1121
+    },
+    {
+      "word": "plus",
+      "start_ms": 37380,
+      "end_ms": 37680,
+      "start_frame": 1121,
+      "end_frame": 1130
+    },
+    {
+      "word": "N",
+      "start_ms": 37680,
+      "end_ms": 38040,
+      "start_frame": 1130,
+      "end_frame": 1141
+    },
+    {
+      "word": "space.",
+      "start_ms": 38040,
+      "end_ms": 38420,
+      "start_frame": 1141,
+      "end_frame": 1153
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Why does this work?",
+      "start_ms": 0,
+      "end_ms": 1200,
+      "start_frame": 0,
+      "end_frame": 36,
+      "word_count": 4
+    },
+    {
+      "text": "Because the payload does not decide its own boundary.",
+      "start_ms": 1540,
+      "end_ms": 4640,
+      "start_frame": 46,
+      "end_frame": 139,
+      "word_count": 9
+    },
+    {
+      "text": "The stored length does.",
+      "start_ms": 5120,
+      "end_ms": 6480,
+      "start_frame": 154,
+      "end_frame": 194,
+      "word_count": 4
+    },
+    {
+      "text": "Now, complexity.",
+      "start_ms": 6920,
+      "end_ms": 8240,
+      "start_frame": 208,
+      "end_frame": 247,
+      "word_count": 2
+    },
+    {
+      "text": "Let C be the total number of payload characters and N be the number of strings.",
+      "start_ms": 9040,
+      "end_ms": 14920,
+      "start_frame": 271,
+      "end_frame": 448,
+      "word_count": 16
+    },
+    {
+      "text": "Encoding processes every string and copies its characters.",
+      "start_ms": 15800,
+      "end_ms": 19580,
+      "start_frame": 474,
+      "end_frame": 587,
+      "word_count": 8
+    },
+    {
+      "text": "Time complexity.",
+      "start_ms": 20420,
+      "end_ms": 21700,
+      "start_frame": 613,
+      "end_frame": 651,
+      "word_count": 2
+    },
+    {
+      "text": "O of C plus N.",
+      "start_ms": 22340,
+      "end_ms": 24620,
+      "start_frame": 670,
+      "end_frame": 739,
+      "word_count": 5
+    },
+    {
+      "text": "Decoding reads the headers and payloads in one forward pass.",
+      "start_ms": 25040,
+      "end_ms": 29260,
+      "start_frame": 751,
+      "end_frame": 878,
+      "word_count": 10
+    },
+    {
+      "text": "Again, O of C plus N.",
+      "start_ms": 30020,
+      "end_ms": 32940,
+      "start_frame": 901,
+      "end_frame": 988,
+      "word_count": 6
+    },
+    {
+      "text": "The constructed output also needs O of C plus N space.",
+      "start_ms": 33420,
+      "end_ms": 38420,
+      "start_frame": 1003,
+      "end_frame": 1153,
+      "word_count": 11
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "work?",
+      "before_word": "Because",
+      "start_ms": 1200,
+      "end_ms": 1540,
+      "duration_ms": 340,
+      "start_frame": 36,
+      "end_frame": 46,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "boundary.",
+      "before_word": "The",
+      "start_ms": 4640,
+      "end_ms": 5120,
+      "duration_ms": 480,
+      "start_frame": 139,
+      "end_frame": 154,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "does.",
+      "before_word": "Now,",
+      "start_ms": 6480,
+      "end_ms": 6920,
+      "duration_ms": 440,
+      "start_frame": 194,
+      "end_frame": 208,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "complexity.",
+      "before_word": "Let",
+      "start_ms": 8240,
+      "end_ms": 9040,
+      "duration_ms": 800,
+      "start_frame": 247,
+      "end_frame": 271,
+      "duration_frames": 24
+    },
+    {
+      "after_word": "strings.",
+      "before_word": "Encoding",
+      "start_ms": 14920,
+      "end_ms": 15800,
+      "duration_ms": 880,
+      "start_frame": 448,
+      "end_frame": 474,
+      "duration_frames": 26
+    },
+    {
+      "after_word": "characters.",
+      "before_word": "Time",
+      "start_ms": 19580,
+      "end_ms": 20420,
+      "duration_ms": 840,
+      "start_frame": 587,
+      "end_frame": 613,
+      "duration_frames": 26
+    },
+    {
+      "after_word": "complexity.",
+      "before_word": "O",
+      "start_ms": 21700,
+      "end_ms": 22340,
+      "duration_ms": 640,
+      "start_frame": 651,
+      "end_frame": 670,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "N.",
+      "before_word": "Decoding",
+      "start_ms": 24620,
+      "end_ms": 25040,
+      "duration_ms": 420,
+      "start_frame": 739,
+      "end_frame": 751,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "pass.",
+      "before_word": "Again,",
+      "start_ms": 29260,
+      "end_ms": 30020,
+      "duration_ms": 760,
+      "start_frame": 878,
+      "end_frame": 901,
+      "duration_frames": 23
+    },
+    {
+      "after_word": "Again,",
+      "before_word": "O",
+      "start_ms": 30360,
+      "end_ms": 31300,
+      "duration_ms": 940,
+      "start_frame": 911,
+      "end_frame": 939,
+      "duration_frames": 28
+    },
+    {
+      "after_word": "N.",
+      "before_word": "The",
+      "start_ms": 32940,
+      "end_ms": 33420,
+      "duration_ms": 480,
+      "start_frame": 988,
+      "end_frame": 1003,
+      "duration_frames": 15
+    }
+  ]
+}

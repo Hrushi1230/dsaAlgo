@@ -1,0 +1,151 @@
+{
+  "question": "Q17 Encode and Decode Strings",
+  "scene": 8,
+  "name": "Correctness + Complexity",
+  "stage": "GATE_A_PRE_AUDIO_ONLY",
+  "word_ids": "PENDING_SYNC",
+  "timing": "PENDING_MP3_SYNC",
+  "anchor_count": 14,
+  "anchors": [
+    {
+      "id": "S08:A001",
+      "source_narration_occurrence": 1,
+      "exact_spoken_phrase": "Why does this work?",
+      "visual_intent": "Clear decoder code; begin correctness reasoning with record format as center hero.",
+      "phase": "CORRECTNESS",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol relation; see geometry table",
+      "source_state": "Work derivations persist only after narrated; encoded protocol remains immutable."
+    },
+    {
+      "id": "S08:A002",
+      "source_narration_occurrence": 2,
+      "exact_spoken_phrase": "Because the payload does not decide its own boundary.",
+      "visual_intent": "Focus payload region but deny it delimiter authority; only metadata controls size.",
+      "phase": "CORRECTNESS",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol relation; see geometry table",
+      "source_state": "Work derivations persist only after narrated; encoded protocol remains immutable."
+    },
+    {
+      "id": "S08:A003",
+      "source_narration_occurrence": 3,
+      "exact_spoken_phrase": "The stored length does.",
+      "visual_intent": "Highlight `length` header as actual boundary authority and make relation to payload clear.",
+      "phase": "CORRECTNESS",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol relation; see geometry table",
+      "source_state": "Work derivations persist only after narrated; encoded protocol remains immutable."
+    },
+    {
+      "id": "S08:A004",
+      "source_narration_occurrence": 4,
+      "exact_spoken_phrase": "Now complexity.",
+      "visual_intent": "Clear correctness highlight; reserve space for work derivation.",
+      "phase": "COMPLEXITY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "derivation; see geometry table",
+      "source_state": "Work derivations persist only after narrated; encoded protocol remains immutable."
+    },
+    {
+      "id": "S08:A005",
+      "source_narration_occurrence": 5,
+      "exact_spoken_phrase": "Let `C` be the total number of payload characters ...",
+      "visual_intent": "Define `C` as total payload characters in large direct board chalk.",
+      "phase": "COMPLEXITY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "derivation; see geometry table",
+      "source_state": "Work derivations persist only after narrated; encoded protocol remains immutable."
+    },
+    {
+      "id": "S08:A006",
+      "source_narration_occurrence": 6,
+      "exact_spoken_phrase": "and `N` be the number of strings.",
+      "visual_intent": "Define `N` as number of source strings alongside C, separate symbols.",
+      "phase": "COMPLEXITY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "derivation; see geometry table",
+      "source_state": "Work derivations persist only after narrated; encoded protocol remains immutable."
+    },
+    {
+      "id": "S08:A007",
+      "source_narration_occurrence": 7,
+      "exact_spoken_phrase": "Encoding processes every string and copies its characters.",
+      "visual_intent": "Reveal encoder work `N headers + C copied characters` only after words establish both causes.",
+      "phase": "COMPLEXITY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "derivation; see geometry table",
+      "source_state": "Work derivations persist only after narrated; encoded protocol remains immutable."
+    },
+    {
+      "id": "S08:A008",
+      "source_narration_occurrence": 8,
+      "exact_spoken_phrase": "Time complexity ...",
+      "visual_intent": "Focus time-expression destination but keep final complexity hidden.",
+      "phase": "COMPLEXITY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "derivation; see geometry table",
+      "source_state": "Work derivations persist only after narrated; encoded protocol remains immutable."
+    },
+    {
+      "id": "S08:A009",
+      "source_narration_occurrence": 9,
+      "exact_spoken_phrase": "O of C plus N.",
+      "visual_intent": "Reveal `O(C + N)` under ENCODE time, not before.",
+      "phase": "COMPLEXITY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "derivation; see geometry table",
+      "source_state": "Work derivations persist only after narrated; encoded protocol remains immutable."
+    },
+    {
+      "id": "S08:A010",
+      "source_narration_occurrence": 10,
+      "exact_spoken_phrase": "Decoding reads the headers and payloads in one forward pass.",
+      "visual_intent": "Reveal decoder work `read each header + each payload once` as single left-to-right pass.",
+      "phase": "COMPLEXITY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "derivation; see geometry table",
+      "source_state": "Work derivations persist only after narrated; encoded protocol remains immutable."
+    },
+    {
+      "id": "S08:A011",
+      "source_narration_occurrence": 11,
+      "exact_spoken_phrase": "Again ...",
+      "visual_intent": "Shift focus to decoder time expression, no re-trace.",
+      "phase": "COMPLEXITY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "derivation; see geometry table",
+      "source_state": "Work derivations persist only after narrated; encoded protocol remains immutable."
+    },
+    {
+      "id": "S08:A012",
+      "source_narration_occurrence": 12,
+      "exact_spoken_phrase": "O of C plus N.",
+      "visual_intent": "Reveal `O(C + N)` under DECODE time.",
+      "phase": "COMPLEXITY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "derivation; see geometry table",
+      "source_state": "Work derivations persist only after narrated; encoded protocol remains immutable."
+    },
+    {
+      "id": "S08:A013",
+      "source_narration_occurrence": 13,
+      "exact_spoken_phrase": "The constructed output also needs ...",
+      "visual_intent": "Introduce constructed output storage category, not auxiliary in-place claim.",
+      "phase": "COMPLEXITY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "derivation; see geometry table",
+      "source_state": "Work derivations persist only after narrated; encoded protocol remains immutable."
+    },
+    {
+      "id": "S08:A014",
+      "source_narration_occurrence": 14,
+      "exact_spoken_phrase": "O of C plus N space.",
+      "visual_intent": "Reveal `O(C + N)` under OUTPUT SPACE; no extra complexity formulas or dark graph panels.",
+      "phase": "COMPLEXITY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "derivation; see geometry table",
+      "source_state": "Work derivations persist only after narrated; encoded protocol remains immutable."
+    }
+  ]
+}

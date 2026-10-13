@@ -1,0 +1,2059 @@
+{
+  "audio_file": "03-brute-trace.mp3",
+  "duration_ms": 83800,
+  "duration_frames": 2514,
+  "fps": 30,
+  "word_count": 190,
+  "words": [
+    {
+      "word": "The",
+      "start_ms": 0,
+      "end_ms": 280,
+      "start_frame": 0,
+      "end_frame": 8
+    },
+    {
+      "word": "array",
+      "start_ms": 280,
+      "end_ms": 600,
+      "start_frame": 8,
+      "end_frame": 18
+    },
+    {
+      "word": "stays",
+      "start_ms": 600,
+      "end_ms": 960,
+      "start_frame": 18,
+      "end_frame": 29
+    },
+    {
+      "word": "unchanged.",
+      "start_ms": 960,
+      "end_ms": 1620,
+      "start_frame": 29,
+      "end_frame": 49
+    },
+    {
+      "word": "Start",
+      "start_ms": 2160,
+      "end_ms": 2380,
+      "start_frame": 65,
+      "end_frame": 71
+    },
+    {
+      "word": "with",
+      "start_ms": 2380,
+      "end_ms": 2580,
+      "start_frame": 71,
+      "end_frame": 77
+    },
+    {
+      "word": "candidate",
+      "start_ms": 2580,
+      "end_ms": 2980,
+      "start_frame": 77,
+      "end_frame": 89
+    },
+    {
+      "word": "1",
+      "start_ms": 2980,
+      "end_ms": 3460,
+      "start_frame": 89,
+      "end_frame": 104
+    },
+    {
+      "word": "and",
+      "start_ms": 3460,
+      "end_ms": 4040,
+      "start_frame": 104,
+      "end_frame": 121
+    },
+    {
+      "word": "search",
+      "start_ms": 4040,
+      "end_ms": 4300,
+      "start_frame": 121,
+      "end_frame": 129
+    },
+    {
+      "word": "from",
+      "start_ms": 4300,
+      "end_ms": 4620,
+      "start_frame": 129,
+      "end_frame": 139
+    },
+    {
+      "word": "index",
+      "start_ms": 4620,
+      "end_ms": 4940,
+      "start_frame": 139,
+      "end_frame": 148
+    },
+    {
+      "word": "0.",
+      "start_ms": 4940,
+      "end_ms": 5400,
+      "start_frame": 148,
+      "end_frame": 162
+    },
+    {
+      "word": "3",
+      "start_ms": 5960,
+      "end_ms": 6220,
+      "start_frame": 179,
+      "end_frame": 187
+    },
+    {
+      "word": "is",
+      "start_ms": 6220,
+      "end_ms": 6480,
+      "start_frame": 187,
+      "end_frame": 194
+    },
+    {
+      "word": "not",
+      "start_ms": 6480,
+      "end_ms": 6680,
+      "start_frame": 194,
+      "end_frame": 200
+    },
+    {
+      "word": "1.",
+      "start_ms": 6680,
+      "end_ms": 7100,
+      "start_frame": 200,
+      "end_frame": 213
+    },
+    {
+      "word": "4",
+      "start_ms": 7420,
+      "end_ms": 7740,
+      "start_frame": 223,
+      "end_frame": 232
+    },
+    {
+      "word": "is",
+      "start_ms": 7740,
+      "end_ms": 8000,
+      "start_frame": 232,
+      "end_frame": 240
+    },
+    {
+      "word": "not",
+      "start_ms": 8000,
+      "end_ms": 8180,
+      "start_frame": 240,
+      "end_frame": 245
+    },
+    {
+      "word": "1.",
+      "start_ms": 8180,
+      "end_ms": 8560,
+      "start_frame": 245,
+      "end_frame": 257
+    },
+    {
+      "word": "Minus",
+      "start_ms": 9000,
+      "end_ms": 9440,
+      "start_frame": 270,
+      "end_frame": 283
+    },
+    {
+      "word": "1",
+      "start_ms": 9440,
+      "end_ms": 9680,
+      "start_frame": 283,
+      "end_frame": 290
+    },
+    {
+      "word": "is",
+      "start_ms": 9680,
+      "end_ms": 9940,
+      "start_frame": 290,
+      "end_frame": 298
+    },
+    {
+      "word": "not",
+      "start_ms": 9940,
+      "end_ms": 10180,
+      "start_frame": 298,
+      "end_frame": 305
+    },
+    {
+      "word": "1.",
+      "start_ms": 10180,
+      "end_ms": 10540,
+      "start_frame": 305,
+      "end_frame": 316
+    },
+    {
+      "word": "At",
+      "start_ms": 11040,
+      "end_ms": 11300,
+      "start_frame": 331,
+      "end_frame": 339
+    },
+    {
+      "word": "index",
+      "start_ms": 11300,
+      "end_ms": 11640,
+      "start_frame": 339,
+      "end_frame": 349
+    },
+    {
+      "word": "3,",
+      "start_ms": 11640,
+      "end_ms": 12180,
+      "start_frame": 349,
+      "end_frame": 365
+    },
+    {
+      "word": "we",
+      "start_ms": 12520,
+      "end_ms": 12820,
+      "start_frame": 376,
+      "end_frame": 385
+    },
+    {
+      "word": "find",
+      "start_ms": 12820,
+      "end_ms": 13120,
+      "start_frame": 385,
+      "end_frame": 394
+    },
+    {
+      "word": "1.",
+      "start_ms": 13120,
+      "end_ms": 13600,
+      "start_frame": 394,
+      "end_frame": 408
+    },
+    {
+      "word": "So",
+      "start_ms": 13960,
+      "end_ms": 14140,
+      "start_frame": 419,
+      "end_frame": 424
+    },
+    {
+      "word": "candidate",
+      "start_ms": 14140,
+      "end_ms": 14540,
+      "start_frame": 424,
+      "end_frame": 436
+    },
+    {
+      "word": "1",
+      "start_ms": 14540,
+      "end_ms": 14720,
+      "start_frame": 436,
+      "end_frame": 442
+    },
+    {
+      "word": "is",
+      "start_ms": 14720,
+      "end_ms": 15000,
+      "start_frame": 442,
+      "end_frame": 450
+    },
+    {
+      "word": "present.",
+      "start_ms": 15000,
+      "end_ms": 15320,
+      "start_frame": 450,
+      "end_frame": 460
+    },
+    {
+      "word": "Stop",
+      "start_ms": 15800,
+      "end_ms": 16140,
+      "start_frame": 474,
+      "end_frame": 484
+    },
+    {
+      "word": "this",
+      "start_ms": 16140,
+      "end_ms": 16400,
+      "start_frame": 484,
+      "end_frame": 492
+    },
+    {
+      "word": "search.",
+      "start_ms": 16400,
+      "end_ms": 16740,
+      "start_frame": 492,
+      "end_frame": 502
+    },
+    {
+      "word": "Now",
+      "start_ms": 17400,
+      "end_ms": 17640,
+      "start_frame": 522,
+      "end_frame": 529
+    },
+    {
+      "word": "candidate",
+      "start_ms": 17640,
+      "end_ms": 18060,
+      "start_frame": 529,
+      "end_frame": 542
+    },
+    {
+      "word": "2.",
+      "start_ms": 18060,
+      "end_ms": 18680,
+      "start_frame": 542,
+      "end_frame": 560
+    },
+    {
+      "word": "Start",
+      "start_ms": 19060,
+      "end_ms": 19320,
+      "start_frame": 572,
+      "end_frame": 580
+    },
+    {
+      "word": "again",
+      "start_ms": 19320,
+      "end_ms": 19620,
+      "start_frame": 580,
+      "end_frame": 589
+    },
+    {
+      "word": "at",
+      "start_ms": 19620,
+      "end_ms": 19940,
+      "start_frame": 589,
+      "end_frame": 598
+    },
+    {
+      "word": "index",
+      "start_ms": 19940,
+      "end_ms": 20260,
+      "start_frame": 598,
+      "end_frame": 608
+    },
+    {
+      "word": "0.",
+      "start_ms": 20260,
+      "end_ms": 20680,
+      "start_frame": 608,
+      "end_frame": 620
+    },
+    {
+      "word": "3",
+      "start_ms": 20920,
+      "end_ms": 21200,
+      "start_frame": 628,
+      "end_frame": 636
+    },
+    {
+      "word": "is",
+      "start_ms": 21200,
+      "end_ms": 21400,
+      "start_frame": 636,
+      "end_frame": 642
+    },
+    {
+      "word": "not",
+      "start_ms": 21400,
+      "end_ms": 21580,
+      "start_frame": 642,
+      "end_frame": 647
+    },
+    {
+      "word": "2.",
+      "start_ms": 21580,
+      "end_ms": 21920,
+      "start_frame": 647,
+      "end_frame": 658
+    },
+    {
+      "word": "4",
+      "start_ms": 22220,
+      "end_ms": 22480,
+      "start_frame": 667,
+      "end_frame": 674
+    },
+    {
+      "word": "is",
+      "start_ms": 22480,
+      "end_ms": 22720,
+      "start_frame": 674,
+      "end_frame": 682
+    },
+    {
+      "word": "not",
+      "start_ms": 22720,
+      "end_ms": 22860,
+      "start_frame": 682,
+      "end_frame": 686
+    },
+    {
+      "word": "2.",
+      "start_ms": 22860,
+      "end_ms": 23200,
+      "start_frame": 686,
+      "end_frame": 696
+    },
+    {
+      "word": "Minus",
+      "start_ms": 23600,
+      "end_ms": 23980,
+      "start_frame": 708,
+      "end_frame": 719
+    },
+    {
+      "word": "1",
+      "start_ms": 23980,
+      "end_ms": 24140,
+      "start_frame": 719,
+      "end_frame": 724
+    },
+    {
+      "word": "is",
+      "start_ms": 24140,
+      "end_ms": 24300,
+      "start_frame": 724,
+      "end_frame": 729
+    },
+    {
+      "word": "not",
+      "start_ms": 24300,
+      "end_ms": 24460,
+      "start_frame": 729,
+      "end_frame": 734
+    },
+    {
+      "word": "2.",
+      "start_ms": 24460,
+      "end_ms": 24820,
+      "start_frame": 734,
+      "end_frame": 745
+    },
+    {
+      "word": "The",
+      "start_ms": 25140,
+      "end_ms": 25380,
+      "start_frame": 754,
+      "end_frame": 761
+    },
+    {
+      "word": "first",
+      "start_ms": 25380,
+      "end_ms": 25600,
+      "start_frame": 761,
+      "end_frame": 768
+    },
+    {
+      "word": "one",
+      "start_ms": 25600,
+      "end_ms": 25760,
+      "start_frame": 768,
+      "end_frame": 773
+    },
+    {
+      "word": "is",
+      "start_ms": 25760,
+      "end_ms": 25920,
+      "start_frame": 773,
+      "end_frame": 778
+    },
+    {
+      "word": "not",
+      "start_ms": 25920,
+      "end_ms": 26100,
+      "start_frame": 778,
+      "end_frame": 783
+    },
+    {
+      "word": "2.",
+      "start_ms": 26100,
+      "end_ms": 26360,
+      "start_frame": 783,
+      "end_frame": 791
+    },
+    {
+      "word": "The",
+      "start_ms": 26740,
+      "end_ms": 27000,
+      "start_frame": 802,
+      "end_frame": 810
+    },
+    {
+      "word": "second",
+      "start_ms": 27000,
+      "end_ms": 27200,
+      "start_frame": 810,
+      "end_frame": 816
+    },
+    {
+      "word": "one",
+      "start_ms": 27200,
+      "end_ms": 27480,
+      "start_frame": 816,
+      "end_frame": 824
+    },
+    {
+      "word": "is",
+      "start_ms": 27480,
+      "end_ms": 27720,
+      "start_frame": 824,
+      "end_frame": 832
+    },
+    {
+      "word": "not",
+      "start_ms": 27720,
+      "end_ms": 27920,
+      "start_frame": 832,
+      "end_frame": 838
+    },
+    {
+      "word": "2.",
+      "start_ms": 27920,
+      "end_ms": 28280,
+      "start_frame": 838,
+      "end_frame": 848
+    },
+    {
+      "word": "10",
+      "start_ms": 28280,
+      "end_ms": 29000,
+      "start_frame": 848,
+      "end_frame": 870
+    },
+    {
+      "word": "is",
+      "start_ms": 29000,
+      "end_ms": 29420,
+      "start_frame": 870,
+      "end_frame": 883
+    },
+    {
+      "word": "not",
+      "start_ms": 29420,
+      "end_ms": 29680,
+      "start_frame": 883,
+      "end_frame": 890
+    },
+    {
+      "word": "2.",
+      "start_ms": 29680,
+      "end_ms": 30140,
+      "start_frame": 890,
+      "end_frame": 904
+    },
+    {
+      "word": "0",
+      "start_ms": 30580,
+      "end_ms": 30920,
+      "start_frame": 917,
+      "end_frame": 928
+    },
+    {
+      "word": "is",
+      "start_ms": 30920,
+      "end_ms": 31160,
+      "start_frame": 928,
+      "end_frame": 935
+    },
+    {
+      "word": "not",
+      "start_ms": 31160,
+      "end_ms": 31340,
+      "start_frame": 935,
+      "end_frame": 940
+    },
+    {
+      "word": "2.",
+      "start_ms": 31340,
+      "end_ms": 31840,
+      "start_frame": 940,
+      "end_frame": 955
+    },
+    {
+      "word": "At",
+      "start_ms": 32280,
+      "end_ms": 32420,
+      "start_frame": 968,
+      "end_frame": 973
+    },
+    {
+      "word": "the",
+      "start_ms": 32420,
+      "end_ms": 32560,
+      "start_frame": 973,
+      "end_frame": 977
+    },
+    {
+      "word": "last",
+      "start_ms": 32560,
+      "end_ms": 32860,
+      "start_frame": 977,
+      "end_frame": 986
+    },
+    {
+      "word": "index,",
+      "start_ms": 32860,
+      "end_ms": 33280,
+      "start_frame": 986,
+      "end_frame": 998
+    },
+    {
+      "word": "we",
+      "start_ms": 33620,
+      "end_ms": 33860,
+      "start_frame": 1009,
+      "end_frame": 1016
+    },
+    {
+      "word": "find",
+      "start_ms": 33860,
+      "end_ms": 34120,
+      "start_frame": 1016,
+      "end_frame": 1024
+    },
+    {
+      "word": "2.",
+      "start_ms": 34120,
+      "end_ms": 34500,
+      "start_frame": 1024,
+      "end_frame": 1035
+    },
+    {
+      "word": "So",
+      "start_ms": 35060,
+      "end_ms": 35280,
+      "start_frame": 1052,
+      "end_frame": 1058
+    },
+    {
+      "word": "2",
+      "start_ms": 35280,
+      "end_ms": 35440,
+      "start_frame": 1058,
+      "end_frame": 1063
+    },
+    {
+      "word": "is",
+      "start_ms": 35440,
+      "end_ms": 35700,
+      "start_frame": 1063,
+      "end_frame": 1071
+    },
+    {
+      "word": "present.",
+      "start_ms": 35700,
+      "end_ms": 35980,
+      "start_frame": 1071,
+      "end_frame": 1079
+    },
+    {
+      "word": "Next,",
+      "start_ms": 36600,
+      "end_ms": 37080,
+      "start_frame": 1098,
+      "end_frame": 1112
+    },
+    {
+      "word": "candidate",
+      "start_ms": 37260,
+      "end_ms": 37640,
+      "start_frame": 1118,
+      "end_frame": 1129
+    },
+    {
+      "word": "3.",
+      "start_ms": 37640,
+      "end_ms": 38120,
+      "start_frame": 1129,
+      "end_frame": 1144
+    },
+    {
+      "word": "At",
+      "start_ms": 38520,
+      "end_ms": 38700,
+      "start_frame": 1156,
+      "end_frame": 1161
+    },
+    {
+      "word": "index",
+      "start_ms": 38700,
+      "end_ms": 39040,
+      "start_frame": 1161,
+      "end_frame": 1171
+    },
+    {
+      "word": "0,",
+      "start_ms": 39040,
+      "end_ms": 39400,
+      "start_frame": 1171,
+      "end_frame": 1182
+    },
+    {
+      "word": "3",
+      "start_ms": 39700,
+      "end_ms": 40040,
+      "start_frame": 1191,
+      "end_frame": 1201
+    },
+    {
+      "word": "is",
+      "start_ms": 40040,
+      "end_ms": 40280,
+      "start_frame": 1201,
+      "end_frame": 1208
+    },
+    {
+      "word": "already",
+      "start_ms": 40280,
+      "end_ms": 40620,
+      "start_frame": 1208,
+      "end_frame": 1219
+    },
+    {
+      "word": "there.",
+      "start_ms": 40620,
+      "end_ms": 41060,
+      "start_frame": 1219,
+      "end_frame": 1232
+    },
+    {
+      "word": "Found.",
+      "start_ms": 41260,
+      "end_ms": 41540,
+      "start_frame": 1238,
+      "end_frame": 1246
+    },
+    {
+      "word": "Now",
+      "start_ms": 42320,
+      "end_ms": 42540,
+      "start_frame": 1270,
+      "end_frame": 1276
+    },
+    {
+      "word": "candidate",
+      "start_ms": 42540,
+      "end_ms": 42880,
+      "start_frame": 1276,
+      "end_frame": 1286
+    },
+    {
+      "word": "4.",
+      "start_ms": 42880,
+      "end_ms": 43420,
+      "start_frame": 1286,
+      "end_frame": 1303
+    },
+    {
+      "word": "Index",
+      "start_ms": 43740,
+      "end_ms": 43980,
+      "start_frame": 1312,
+      "end_frame": 1319
+    },
+    {
+      "word": "0",
+      "start_ms": 43980,
+      "end_ms": 44400,
+      "start_frame": 1319,
+      "end_frame": 1332
+    },
+    {
+      "word": "has",
+      "start_ms": 44400,
+      "end_ms": 44700,
+      "start_frame": 1332,
+      "end_frame": 1341
+    },
+    {
+      "word": "3,",
+      "start_ms": 44700,
+      "end_ms": 45280,
+      "start_frame": 1341,
+      "end_frame": 1358
+    },
+    {
+      "word": "not",
+      "start_ms": 45600,
+      "end_ms": 45840,
+      "start_frame": 1368,
+      "end_frame": 1375
+    },
+    {
+      "word": "4.",
+      "start_ms": 45840,
+      "end_ms": 46300,
+      "start_frame": 1375,
+      "end_frame": 1389
+    },
+    {
+      "word": "Index",
+      "start_ms": 46740,
+      "end_ms": 47040,
+      "start_frame": 1402,
+      "end_frame": 1411
+    },
+    {
+      "word": "1",
+      "start_ms": 47040,
+      "end_ms": 47360,
+      "start_frame": 1411,
+      "end_frame": 1421
+    },
+    {
+      "word": "has",
+      "start_ms": 47360,
+      "end_ms": 47640,
+      "start_frame": 1421,
+      "end_frame": 1429
+    },
+    {
+      "word": "4.",
+      "start_ms": 47640,
+      "end_ms": 48280,
+      "start_frame": 1429,
+      "end_frame": 1448
+    },
+    {
+      "word": "Found.",
+      "start_ms": 48540,
+      "end_ms": 48840,
+      "start_frame": 1456,
+      "end_frame": 1465
+    },
+    {
+      "word": "Now",
+      "start_ms": 49560,
+      "end_ms": 49720,
+      "start_frame": 1487,
+      "end_frame": 1492
+    },
+    {
+      "word": "candidate",
+      "start_ms": 49720,
+      "end_ms": 50080,
+      "start_frame": 1492,
+      "end_frame": 1502
+    },
+    {
+      "word": "5.",
+      "start_ms": 50080,
+      "end_ms": 50500,
+      "start_frame": 1502,
+      "end_frame": 1515
+    },
+    {
+      "word": "Search",
+      "start_ms": 50760,
+      "end_ms": 51040,
+      "start_frame": 1523,
+      "end_frame": 1531
+    },
+    {
+      "word": "from",
+      "start_ms": 51040,
+      "end_ms": 51280,
+      "start_frame": 1531,
+      "end_frame": 1538
+    },
+    {
+      "word": "the",
+      "start_ms": 51280,
+      "end_ms": 51480,
+      "start_frame": 1538,
+      "end_frame": 1544
+    },
+    {
+      "word": "beginning",
+      "start_ms": 51480,
+      "end_ms": 51680,
+      "start_frame": 1544,
+      "end_frame": 1550
+    },
+    {
+      "word": "again.",
+      "start_ms": 51680,
+      "end_ms": 52120,
+      "start_frame": 1550,
+      "end_frame": 1564
+    },
+    {
+      "word": "3",
+      "start_ms": 52500,
+      "end_ms": 53060,
+      "start_frame": 1575,
+      "end_frame": 1592
+    },
+    {
+      "word": "not",
+      "start_ms": 53060,
+      "end_ms": 53480,
+      "start_frame": 1592,
+      "end_frame": 1604
+    },
+    {
+      "word": "5.",
+      "start_ms": 53480,
+      "end_ms": 54040,
+      "start_frame": 1604,
+      "end_frame": 1621
+    },
+    {
+      "word": "4",
+      "start_ms": 54440,
+      "end_ms": 54880,
+      "start_frame": 1633,
+      "end_frame": 1646
+    },
+    {
+      "word": "not",
+      "start_ms": 54880,
+      "end_ms": 55280,
+      "start_frame": 1646,
+      "end_frame": 1658
+    },
+    {
+      "word": "5.",
+      "start_ms": 55280,
+      "end_ms": 55780,
+      "start_frame": 1658,
+      "end_frame": 1673
+    },
+    {
+      "word": "Minus",
+      "start_ms": 55960,
+      "end_ms": 56400,
+      "start_frame": 1679,
+      "end_frame": 1692
+    },
+    {
+      "word": "1",
+      "start_ms": 56400,
+      "end_ms": 56860,
+      "start_frame": 1692,
+      "end_frame": 1706
+    },
+    {
+      "word": "not",
+      "start_ms": 56860,
+      "end_ms": 57280,
+      "start_frame": 1706,
+      "end_frame": 1718
+    },
+    {
+      "word": "5.",
+      "start_ms": 57280,
+      "end_ms": 57720,
+      "start_frame": 1718,
+      "end_frame": 1732
+    },
+    {
+      "word": "1",
+      "start_ms": 57720,
+      "end_ms": 58440,
+      "start_frame": 1732,
+      "end_frame": 1753
+    },
+    {
+      "word": "not",
+      "start_ms": 58440,
+      "end_ms": 59020,
+      "start_frame": 1753,
+      "end_frame": 1771
+    },
+    {
+      "word": "5.",
+      "start_ms": 59020,
+      "end_ms": 59440,
+      "start_frame": 1771,
+      "end_frame": 1783
+    },
+    {
+      "word": "The",
+      "start_ms": 59760,
+      "end_ms": 59980,
+      "start_frame": 1793,
+      "end_frame": 1799
+    },
+    {
+      "word": "second",
+      "start_ms": 59980,
+      "end_ms": 60160,
+      "start_frame": 1799,
+      "end_frame": 1805
+    },
+    {
+      "word": "one",
+      "start_ms": 60160,
+      "end_ms": 60540,
+      "start_frame": 1805,
+      "end_frame": 1816
+    },
+    {
+      "word": "not",
+      "start_ms": 60540,
+      "end_ms": 60940,
+      "start_frame": 1816,
+      "end_frame": 1828
+    },
+    {
+      "word": "5.",
+      "start_ms": 60940,
+      "end_ms": 61480,
+      "start_frame": 1828,
+      "end_frame": 1844
+    },
+    {
+      "word": "10",
+      "start_ms": 61840,
+      "end_ms": 62300,
+      "start_frame": 1855,
+      "end_frame": 1869
+    },
+    {
+      "word": "not",
+      "start_ms": 62300,
+      "end_ms": 62880,
+      "start_frame": 1869,
+      "end_frame": 1886
+    },
+    {
+      "word": "5.",
+      "start_ms": 62880,
+      "end_ms": 63500,
+      "start_frame": 1886,
+      "end_frame": 1905
+    },
+    {
+      "word": "0",
+      "start_ms": 63800,
+      "end_ms": 64240,
+      "start_frame": 1914,
+      "end_frame": 1927
+    },
+    {
+      "word": "not",
+      "start_ms": 64240,
+      "end_ms": 64860,
+      "start_frame": 1927,
+      "end_frame": 1946
+    },
+    {
+      "word": "5.",
+      "start_ms": 64860,
+      "end_ms": 65340,
+      "start_frame": 1946,
+      "end_frame": 1960
+    },
+    {
+      "word": "2",
+      "start_ms": 65800,
+      "end_ms": 66180,
+      "start_frame": 1974,
+      "end_frame": 1985
+    },
+    {
+      "word": "not",
+      "start_ms": 66180,
+      "end_ms": 66840,
+      "start_frame": 1985,
+      "end_frame": 2005
+    },
+    {
+      "word": "5.",
+      "start_ms": 66840,
+      "end_ms": 67260,
+      "start_frame": 2005,
+      "end_frame": 2018
+    },
+    {
+      "word": "We",
+      "start_ms": 67800,
+      "end_ms": 67900,
+      "start_frame": 2034,
+      "end_frame": 2037
+    },
+    {
+      "word": "reach",
+      "start_ms": 67900,
+      "end_ms": 68120,
+      "start_frame": 2037,
+      "end_frame": 2044
+    },
+    {
+      "word": "the",
+      "start_ms": 68120,
+      "end_ms": 68320,
+      "start_frame": 2044,
+      "end_frame": 2050
+    },
+    {
+      "word": "end",
+      "start_ms": 68320,
+      "end_ms": 68440,
+      "start_frame": 2050,
+      "end_frame": 2053
+    },
+    {
+      "word": "without",
+      "start_ms": 68440,
+      "end_ms": 68760,
+      "start_frame": 2053,
+      "end_frame": 2063
+    },
+    {
+      "word": "finding",
+      "start_ms": 68760,
+      "end_ms": 69140,
+      "start_frame": 2063,
+      "end_frame": 2074
+    },
+    {
+      "word": "5.",
+      "start_ms": 69140,
+      "end_ms": 69500,
+      "start_frame": 2074,
+      "end_frame": 2085
+    },
+    {
+      "word": "We",
+      "start_ms": 70000,
+      "end_ms": 70140,
+      "start_frame": 2100,
+      "end_frame": 2104
+    },
+    {
+      "word": "have",
+      "start_ms": 70140,
+      "end_ms": 70300,
+      "start_frame": 2104,
+      "end_frame": 2109
+    },
+    {
+      "word": "already",
+      "start_ms": 70300,
+      "end_ms": 70660,
+      "start_frame": 2109,
+      "end_frame": 2120
+    },
+    {
+      "word": "found",
+      "start_ms": 70660,
+      "end_ms": 70960,
+      "start_frame": 2120,
+      "end_frame": 2129
+    },
+    {
+      "word": "1,",
+      "start_ms": 70960,
+      "end_ms": 71440,
+      "start_frame": 2129,
+      "end_frame": 2143
+    },
+    {
+      "word": "2,",
+      "start_ms": 71440,
+      "end_ms": 71920,
+      "start_frame": 2143,
+      "end_frame": 2158
+    },
+    {
+      "word": "3",
+      "start_ms": 72060,
+      "end_ms": 72440,
+      "start_frame": 2162,
+      "end_frame": 2173
+    },
+    {
+      "word": "and",
+      "start_ms": 72440,
+      "end_ms": 72800,
+      "start_frame": 2173,
+      "end_frame": 2184
+    },
+    {
+      "word": "4.",
+      "start_ms": 72800,
+      "end_ms": 73160,
+      "start_frame": 2184,
+      "end_frame": 2195
+    },
+    {
+      "word": "So",
+      "start_ms": 73580,
+      "end_ms": 73840,
+      "start_frame": 2207,
+      "end_frame": 2215
+    },
+    {
+      "word": "5",
+      "start_ms": 73840,
+      "end_ms": 74060,
+      "start_frame": 2215,
+      "end_frame": 2222
+    },
+    {
+      "word": "is",
+      "start_ms": 74060,
+      "end_ms": 74280,
+      "start_frame": 2222,
+      "end_frame": 2228
+    },
+    {
+      "word": "the",
+      "start_ms": 74280,
+      "end_ms": 74500,
+      "start_frame": 2228,
+      "end_frame": 2235
+    },
+    {
+      "word": "first",
+      "start_ms": 74500,
+      "end_ms": 74800,
+      "start_frame": 2235,
+      "end_frame": 2244
+    },
+    {
+      "word": "missing",
+      "start_ms": 74800,
+      "end_ms": 75160,
+      "start_frame": 2244,
+      "end_frame": 2255
+    },
+    {
+      "word": "positive.",
+      "start_ms": 75160,
+      "end_ms": 75800,
+      "start_frame": 2255,
+      "end_frame": 2274
+    },
+    {
+      "word": "Return",
+      "start_ms": 76320,
+      "end_ms": 76760,
+      "start_frame": 2290,
+      "end_frame": 2303
+    },
+    {
+      "word": "5.",
+      "start_ms": 76760,
+      "end_ms": 77380,
+      "start_frame": 2303,
+      "end_frame": 2321
+    },
+    {
+      "word": "Notice",
+      "start_ms": 77940,
+      "end_ms": 78360,
+      "start_frame": 2338,
+      "end_frame": 2351
+    },
+    {
+      "word": "the",
+      "start_ms": 78360,
+      "end_ms": 78580,
+      "start_frame": 2351,
+      "end_frame": 2357
+    },
+    {
+      "word": "repeated",
+      "start_ms": 78580,
+      "end_ms": 79040,
+      "start_frame": 2357,
+      "end_frame": 2371
+    },
+    {
+      "word": "work.",
+      "start_ms": 79040,
+      "end_ms": 79420,
+      "start_frame": 2371,
+      "end_frame": 2383
+    },
+    {
+      "word": "The",
+      "start_ms": 79980,
+      "end_ms": 80260,
+      "start_frame": 2399,
+      "end_frame": 2408
+    },
+    {
+      "word": "same",
+      "start_ms": 80260,
+      "end_ms": 80520,
+      "start_frame": 2408,
+      "end_frame": 2416
+    },
+    {
+      "word": "positions",
+      "start_ms": 80520,
+      "end_ms": 81120,
+      "start_frame": 2416,
+      "end_frame": 2434
+    },
+    {
+      "word": "were",
+      "start_ms": 81120,
+      "end_ms": 81480,
+      "start_frame": 2434,
+      "end_frame": 2444
+    },
+    {
+      "word": "checked",
+      "start_ms": 81480,
+      "end_ms": 81720,
+      "start_frame": 2444,
+      "end_frame": 2452
+    },
+    {
+      "word": "again",
+      "start_ms": 81720,
+      "end_ms": 82160,
+      "start_frame": 2452,
+      "end_frame": 2465
+    },
+    {
+      "word": "for",
+      "start_ms": 82160,
+      "end_ms": 82600,
+      "start_frame": 2465,
+      "end_frame": 2478
+    },
+    {
+      "word": "different",
+      "start_ms": 82600,
+      "end_ms": 83120,
+      "start_frame": 2478,
+      "end_frame": 2494
+    },
+    {
+      "word": "candidates.",
+      "start_ms": 83120,
+      "end_ms": 83800,
+      "start_frame": 2494,
+      "end_frame": 2514
+    }
+  ],
+  "sentences": [
+    {
+      "text": "The array stays unchanged.",
+      "start_ms": 0,
+      "end_ms": 1620,
+      "start_frame": 0,
+      "end_frame": 49,
+      "word_count": 4
+    },
+    {
+      "text": "Start with candidate 1 and search from index 0.",
+      "start_ms": 2160,
+      "end_ms": 5400,
+      "start_frame": 65,
+      "end_frame": 162,
+      "word_count": 9
+    },
+    {
+      "text": "3 is not 1.",
+      "start_ms": 5960,
+      "end_ms": 7100,
+      "start_frame": 179,
+      "end_frame": 213,
+      "word_count": 4
+    },
+    {
+      "text": "4 is not 1.",
+      "start_ms": 7420,
+      "end_ms": 8560,
+      "start_frame": 223,
+      "end_frame": 257,
+      "word_count": 4
+    },
+    {
+      "text": "Minus 1 is not 1.",
+      "start_ms": 9000,
+      "end_ms": 10540,
+      "start_frame": 270,
+      "end_frame": 316,
+      "word_count": 5
+    },
+    {
+      "text": "At index 3, we find 1.",
+      "start_ms": 11040,
+      "end_ms": 13600,
+      "start_frame": 331,
+      "end_frame": 408,
+      "word_count": 6
+    },
+    {
+      "text": "So candidate 1 is present.",
+      "start_ms": 13960,
+      "end_ms": 15320,
+      "start_frame": 419,
+      "end_frame": 460,
+      "word_count": 5
+    },
+    {
+      "text": "Stop this search.",
+      "start_ms": 15800,
+      "end_ms": 16740,
+      "start_frame": 474,
+      "end_frame": 502,
+      "word_count": 3
+    },
+    {
+      "text": "Now candidate 2.",
+      "start_ms": 17400,
+      "end_ms": 18680,
+      "start_frame": 522,
+      "end_frame": 560,
+      "word_count": 3
+    },
+    {
+      "text": "Start again at index 0.",
+      "start_ms": 19060,
+      "end_ms": 20680,
+      "start_frame": 572,
+      "end_frame": 620,
+      "word_count": 5
+    },
+    {
+      "text": "3 is not 2.",
+      "start_ms": 20920,
+      "end_ms": 21920,
+      "start_frame": 628,
+      "end_frame": 658,
+      "word_count": 4
+    },
+    {
+      "text": "4 is not 2.",
+      "start_ms": 22220,
+      "end_ms": 23200,
+      "start_frame": 667,
+      "end_frame": 696,
+      "word_count": 4
+    },
+    {
+      "text": "Minus 1 is not 2.",
+      "start_ms": 23600,
+      "end_ms": 24820,
+      "start_frame": 708,
+      "end_frame": 745,
+      "word_count": 5
+    },
+    {
+      "text": "The first one is not 2.",
+      "start_ms": 25140,
+      "end_ms": 26360,
+      "start_frame": 754,
+      "end_frame": 791,
+      "word_count": 6
+    },
+    {
+      "text": "The second one is not 2.",
+      "start_ms": 26740,
+      "end_ms": 28280,
+      "start_frame": 802,
+      "end_frame": 848,
+      "word_count": 6
+    },
+    {
+      "text": "10 is not 2.",
+      "start_ms": 28280,
+      "end_ms": 30140,
+      "start_frame": 848,
+      "end_frame": 904,
+      "word_count": 4
+    },
+    {
+      "text": "0 is not 2.",
+      "start_ms": 30580,
+      "end_ms": 31840,
+      "start_frame": 917,
+      "end_frame": 955,
+      "word_count": 4
+    },
+    {
+      "text": "At the last index, we find 2.",
+      "start_ms": 32280,
+      "end_ms": 34500,
+      "start_frame": 968,
+      "end_frame": 1035,
+      "word_count": 7
+    },
+    {
+      "text": "So 2 is present.",
+      "start_ms": 35060,
+      "end_ms": 35980,
+      "start_frame": 1052,
+      "end_frame": 1079,
+      "word_count": 4
+    },
+    {
+      "text": "Next, candidate 3.",
+      "start_ms": 36600,
+      "end_ms": 38120,
+      "start_frame": 1098,
+      "end_frame": 1144,
+      "word_count": 3
+    },
+    {
+      "text": "At index 0, 3 is already there.",
+      "start_ms": 38520,
+      "end_ms": 41060,
+      "start_frame": 1156,
+      "end_frame": 1232,
+      "word_count": 7
+    },
+    {
+      "text": "Found.",
+      "start_ms": 41260,
+      "end_ms": 41540,
+      "start_frame": 1238,
+      "end_frame": 1246,
+      "word_count": 1
+    },
+    {
+      "text": "Now candidate 4.",
+      "start_ms": 42320,
+      "end_ms": 43420,
+      "start_frame": 1270,
+      "end_frame": 1303,
+      "word_count": 3
+    },
+    {
+      "text": "Index 0 has 3, not 4.",
+      "start_ms": 43740,
+      "end_ms": 46300,
+      "start_frame": 1312,
+      "end_frame": 1389,
+      "word_count": 6
+    },
+    {
+      "text": "Index 1 has 4.",
+      "start_ms": 46740,
+      "end_ms": 48280,
+      "start_frame": 1402,
+      "end_frame": 1448,
+      "word_count": 4
+    },
+    {
+      "text": "Found.",
+      "start_ms": 48540,
+      "end_ms": 48840,
+      "start_frame": 1456,
+      "end_frame": 1465,
+      "word_count": 1
+    },
+    {
+      "text": "Now candidate 5.",
+      "start_ms": 49560,
+      "end_ms": 50500,
+      "start_frame": 1487,
+      "end_frame": 1515,
+      "word_count": 3
+    },
+    {
+      "text": "Search from the beginning again.",
+      "start_ms": 50760,
+      "end_ms": 52120,
+      "start_frame": 1523,
+      "end_frame": 1564,
+      "word_count": 5
+    },
+    {
+      "text": "3 not 5.",
+      "start_ms": 52500,
+      "end_ms": 54040,
+      "start_frame": 1575,
+      "end_frame": 1621,
+      "word_count": 3
+    },
+    {
+      "text": "4 not 5.",
+      "start_ms": 54440,
+      "end_ms": 55780,
+      "start_frame": 1633,
+      "end_frame": 1673,
+      "word_count": 3
+    },
+    {
+      "text": "Minus 1 not 5.",
+      "start_ms": 55960,
+      "end_ms": 57720,
+      "start_frame": 1679,
+      "end_frame": 1732,
+      "word_count": 4
+    },
+    {
+      "text": "1 not 5.",
+      "start_ms": 57720,
+      "end_ms": 59440,
+      "start_frame": 1732,
+      "end_frame": 1783,
+      "word_count": 3
+    },
+    {
+      "text": "The second one not 5.",
+      "start_ms": 59760,
+      "end_ms": 61480,
+      "start_frame": 1793,
+      "end_frame": 1844,
+      "word_count": 5
+    },
+    {
+      "text": "10 not 5.",
+      "start_ms": 61840,
+      "end_ms": 63500,
+      "start_frame": 1855,
+      "end_frame": 1905,
+      "word_count": 3
+    },
+    {
+      "text": "0 not 5.",
+      "start_ms": 63800,
+      "end_ms": 65340,
+      "start_frame": 1914,
+      "end_frame": 1960,
+      "word_count": 3
+    },
+    {
+      "text": "2 not 5.",
+      "start_ms": 65800,
+      "end_ms": 67260,
+      "start_frame": 1974,
+      "end_frame": 2018,
+      "word_count": 3
+    },
+    {
+      "text": "We reach the end without finding 5.",
+      "start_ms": 67800,
+      "end_ms": 69500,
+      "start_frame": 2034,
+      "end_frame": 2085,
+      "word_count": 7
+    },
+    {
+      "text": "We have already found 1, 2, 3 and 4.",
+      "start_ms": 70000,
+      "end_ms": 73160,
+      "start_frame": 2100,
+      "end_frame": 2195,
+      "word_count": 9
+    },
+    {
+      "text": "So 5 is the first missing positive.",
+      "start_ms": 73580,
+      "end_ms": 75800,
+      "start_frame": 2207,
+      "end_frame": 2274,
+      "word_count": 7
+    },
+    {
+      "text": "Return 5.",
+      "start_ms": 76320,
+      "end_ms": 77380,
+      "start_frame": 2290,
+      "end_frame": 2321,
+      "word_count": 2
+    },
+    {
+      "text": "Notice the repeated work.",
+      "start_ms": 77940,
+      "end_ms": 79420,
+      "start_frame": 2338,
+      "end_frame": 2383,
+      "word_count": 4
+    },
+    {
+      "text": "The same positions were checked again for different candidates.",
+      "start_ms": 79980,
+      "end_ms": 83800,
+      "start_frame": 2399,
+      "end_frame": 2514,
+      "word_count": 9
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "unchanged.",
+      "before_word": "Start",
+      "start_ms": 1620,
+      "end_ms": 2160,
+      "duration_ms": 540,
+      "start_frame": 49,
+      "end_frame": 65,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "0.",
+      "before_word": "3",
+      "start_ms": 5400,
+      "end_ms": 5960,
+      "duration_ms": 560,
+      "start_frame": 162,
+      "end_frame": 179,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "1.",
+      "before_word": "4",
+      "start_ms": 7100,
+      "end_ms": 7420,
+      "duration_ms": 320,
+      "start_frame": 213,
+      "end_frame": 223,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "1.",
+      "before_word": "Minus",
+      "start_ms": 8560,
+      "end_ms": 9000,
+      "duration_ms": 440,
+      "start_frame": 257,
+      "end_frame": 270,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "1.",
+      "before_word": "At",
+      "start_ms": 10540,
+      "end_ms": 11040,
+      "duration_ms": 500,
+      "start_frame": 316,
+      "end_frame": 331,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "3,",
+      "before_word": "we",
+      "start_ms": 12180,
+      "end_ms": 12520,
+      "duration_ms": 340,
+      "start_frame": 365,
+      "end_frame": 376,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "1.",
+      "before_word": "So",
+      "start_ms": 13600,
+      "end_ms": 13960,
+      "duration_ms": 360,
+      "start_frame": 408,
+      "end_frame": 419,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "present.",
+      "before_word": "Stop",
+      "start_ms": 15320,
+      "end_ms": 15800,
+      "duration_ms": 480,
+      "start_frame": 460,
+      "end_frame": 474,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "search.",
+      "before_word": "Now",
+      "start_ms": 16740,
+      "end_ms": 17400,
+      "duration_ms": 660,
+      "start_frame": 502,
+      "end_frame": 522,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "2.",
+      "before_word": "Start",
+      "start_ms": 18680,
+      "end_ms": 19060,
+      "duration_ms": 380,
+      "start_frame": 560,
+      "end_frame": 572,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "2.",
+      "before_word": "4",
+      "start_ms": 21920,
+      "end_ms": 22220,
+      "duration_ms": 300,
+      "start_frame": 658,
+      "end_frame": 667,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "2.",
+      "before_word": "Minus",
+      "start_ms": 23200,
+      "end_ms": 23600,
+      "duration_ms": 400,
+      "start_frame": 696,
+      "end_frame": 708,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "2.",
+      "before_word": "The",
+      "start_ms": 24820,
+      "end_ms": 25140,
+      "duration_ms": 320,
+      "start_frame": 745,
+      "end_frame": 754,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "2.",
+      "before_word": "The",
+      "start_ms": 26360,
+      "end_ms": 26740,
+      "duration_ms": 380,
+      "start_frame": 791,
+      "end_frame": 802,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "2.",
+      "before_word": "0",
+      "start_ms": 30140,
+      "end_ms": 30580,
+      "duration_ms": 440,
+      "start_frame": 904,
+      "end_frame": 917,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "2.",
+      "before_word": "At",
+      "start_ms": 31840,
+      "end_ms": 32280,
+      "duration_ms": 440,
+      "start_frame": 955,
+      "end_frame": 968,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "index,",
+      "before_word": "we",
+      "start_ms": 33280,
+      "end_ms": 33620,
+      "duration_ms": 340,
+      "start_frame": 998,
+      "end_frame": 1009,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "2.",
+      "before_word": "So",
+      "start_ms": 34500,
+      "end_ms": 35060,
+      "duration_ms": 560,
+      "start_frame": 1035,
+      "end_frame": 1052,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "present.",
+      "before_word": "Next,",
+      "start_ms": 35980,
+      "end_ms": 36600,
+      "duration_ms": 620,
+      "start_frame": 1079,
+      "end_frame": 1098,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "3.",
+      "before_word": "At",
+      "start_ms": 38120,
+      "end_ms": 38520,
+      "duration_ms": 400,
+      "start_frame": 1144,
+      "end_frame": 1156,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "0,",
+      "before_word": "3",
+      "start_ms": 39400,
+      "end_ms": 39700,
+      "duration_ms": 300,
+      "start_frame": 1182,
+      "end_frame": 1191,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "Found.",
+      "before_word": "Now",
+      "start_ms": 41540,
+      "end_ms": 42320,
+      "duration_ms": 780,
+      "start_frame": 1246,
+      "end_frame": 1270,
+      "duration_frames": 24
+    },
+    {
+      "after_word": "4.",
+      "before_word": "Index",
+      "start_ms": 43420,
+      "end_ms": 43740,
+      "duration_ms": 320,
+      "start_frame": 1303,
+      "end_frame": 1312,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "3,",
+      "before_word": "not",
+      "start_ms": 45280,
+      "end_ms": 45600,
+      "duration_ms": 320,
+      "start_frame": 1358,
+      "end_frame": 1368,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "4.",
+      "before_word": "Index",
+      "start_ms": 46300,
+      "end_ms": 46740,
+      "duration_ms": 440,
+      "start_frame": 1389,
+      "end_frame": 1402,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "Found.",
+      "before_word": "Now",
+      "start_ms": 48840,
+      "end_ms": 49560,
+      "duration_ms": 720,
+      "start_frame": 1465,
+      "end_frame": 1487,
+      "duration_frames": 22
+    },
+    {
+      "after_word": "again.",
+      "before_word": "3",
+      "start_ms": 52120,
+      "end_ms": 52500,
+      "duration_ms": 380,
+      "start_frame": 1564,
+      "end_frame": 1575,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "5.",
+      "before_word": "4",
+      "start_ms": 54040,
+      "end_ms": 54440,
+      "duration_ms": 400,
+      "start_frame": 1621,
+      "end_frame": 1633,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "5.",
+      "before_word": "The",
+      "start_ms": 59440,
+      "end_ms": 59760,
+      "duration_ms": 320,
+      "start_frame": 1783,
+      "end_frame": 1793,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "5.",
+      "before_word": "10",
+      "start_ms": 61480,
+      "end_ms": 61840,
+      "duration_ms": 360,
+      "start_frame": 1844,
+      "end_frame": 1855,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "5.",
+      "before_word": "0",
+      "start_ms": 63500,
+      "end_ms": 63800,
+      "duration_ms": 300,
+      "start_frame": 1905,
+      "end_frame": 1914,
+      "duration_frames": 9
+    },
+    {
+      "after_word": "5.",
+      "before_word": "2",
+      "start_ms": 65340,
+      "end_ms": 65800,
+      "duration_ms": 460,
+      "start_frame": 1960,
+      "end_frame": 1974,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "5.",
+      "before_word": "We",
+      "start_ms": 67260,
+      "end_ms": 67800,
+      "duration_ms": 540,
+      "start_frame": 2018,
+      "end_frame": 2034,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "5.",
+      "before_word": "We",
+      "start_ms": 69500,
+      "end_ms": 70000,
+      "duration_ms": 500,
+      "start_frame": 2085,
+      "end_frame": 2100,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "4.",
+      "before_word": "So",
+      "start_ms": 73160,
+      "end_ms": 73580,
+      "duration_ms": 420,
+      "start_frame": 2195,
+      "end_frame": 2207,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "positive.",
+      "before_word": "Return",
+      "start_ms": 75800,
+      "end_ms": 76320,
+      "duration_ms": 520,
+      "start_frame": 2274,
+      "end_frame": 2290,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "5.",
+      "before_word": "Notice",
+      "start_ms": 77380,
+      "end_ms": 77940,
+      "duration_ms": 560,
+      "start_frame": 2321,
+      "end_frame": 2338,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "work.",
+      "before_word": "The",
+      "start_ms": 79420,
+      "end_ms": 79980,
+      "duration_ms": 560,
+      "start_frame": 2383,
+      "end_frame": 2399,
+      "duration_frames": 16
+    }
+  ]
+}

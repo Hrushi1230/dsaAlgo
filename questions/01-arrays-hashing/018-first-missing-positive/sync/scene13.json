@@ -1,0 +1,554 @@
+{
+  "audio_file": "13-recap-roadmap.mp3",
+  "duration_ms": 29900,
+  "duration_frames": 897,
+  "fps": 30,
+  "word_count": 53,
+  "words": [
+    {
+      "word": "Brute",
+      "start_ms": 0,
+      "end_ms": 480,
+      "start_frame": 0,
+      "end_frame": 14
+    },
+    {
+      "word": "force",
+      "start_ms": 480,
+      "end_ms": 840,
+      "start_frame": 14,
+      "end_frame": 25
+    },
+    {
+      "word": "repeats",
+      "start_ms": 840,
+      "end_ms": 1380,
+      "start_frame": 25,
+      "end_frame": 41
+    },
+    {
+      "word": "searches.",
+      "start_ms": 1380,
+      "end_ms": 1980,
+      "start_frame": 41,
+      "end_frame": 59
+    },
+    {
+      "word": "Hash",
+      "start_ms": 2540,
+      "end_ms": 2680,
+      "start_frame": 76,
+      "end_frame": 80
+    },
+    {
+      "word": "set",
+      "start_ms": 2680,
+      "end_ms": 2960,
+      "start_frame": 80,
+      "end_frame": 89
+    },
+    {
+      "word": "fixes",
+      "start_ms": 2960,
+      "end_ms": 3360,
+      "start_frame": 89,
+      "end_frame": 101
+    },
+    {
+      "word": "time",
+      "start_ms": 3360,
+      "end_ms": 3820,
+      "start_frame": 101,
+      "end_frame": 115
+    },
+    {
+      "word": "but",
+      "start_ms": 3820,
+      "end_ms": 4020,
+      "start_frame": 115,
+      "end_frame": 121
+    },
+    {
+      "word": "uses",
+      "start_ms": 4020,
+      "end_ms": 4440,
+      "start_frame": 121,
+      "end_frame": 133
+    },
+    {
+      "word": "extra",
+      "start_ms": 4440,
+      "end_ms": 4920,
+      "start_frame": 133,
+      "end_frame": 148
+    },
+    {
+      "word": "memory.",
+      "start_ms": 4920,
+      "end_ms": 5420,
+      "start_frame": 148,
+      "end_frame": 163
+    },
+    {
+      "word": "In",
+      "start_ms": 5860,
+      "end_ms": 6160,
+      "start_frame": 176,
+      "end_frame": 185
+    },
+    {
+      "word": "-place",
+      "start_ms": 6160,
+      "end_ms": 6420,
+      "start_frame": 185,
+      "end_frame": 193
+    },
+    {
+      "word": "placement",
+      "start_ms": 6420,
+      "end_ms": 6860,
+      "start_frame": 193,
+      "end_frame": 206
+    },
+    {
+      "word": "uses",
+      "start_ms": 6860,
+      "end_ms": 7360,
+      "start_frame": 206,
+      "end_frame": 221
+    },
+    {
+      "word": "the",
+      "start_ms": 7360,
+      "end_ms": 7660,
+      "start_frame": 221,
+      "end_frame": 230
+    },
+    {
+      "word": "array",
+      "start_ms": 7660,
+      "end_ms": 7840,
+      "start_frame": 230,
+      "end_frame": 235
+    },
+    {
+      "word": "itself.",
+      "start_ms": 7840,
+      "end_ms": 8540,
+      "start_frame": 235,
+      "end_frame": 256
+    },
+    {
+      "word": "Value",
+      "start_ms": 9140,
+      "end_ms": 9540,
+      "start_frame": 274,
+      "end_frame": 286
+    },
+    {
+      "word": "x",
+      "start_ms": 9540,
+      "end_ms": 9860,
+      "start_frame": 286,
+      "end_frame": 296
+    },
+    {
+      "word": "belongs",
+      "start_ms": 9860,
+      "end_ms": 10280,
+      "start_frame": 296,
+      "end_frame": 308
+    },
+    {
+      "word": "at",
+      "start_ms": 10280,
+      "end_ms": 10680,
+      "start_frame": 308,
+      "end_frame": 320
+    },
+    {
+      "word": "index",
+      "start_ms": 10680,
+      "end_ms": 11040,
+      "start_frame": 320,
+      "end_frame": 331
+    },
+    {
+      "word": "x",
+      "start_ms": 11040,
+      "end_ms": 11500,
+      "start_frame": 331,
+      "end_frame": 345
+    },
+    {
+      "word": "minus",
+      "start_ms": 11500,
+      "end_ms": 11940,
+      "start_frame": 345,
+      "end_frame": 358
+    },
+    {
+      "word": "1.",
+      "start_ms": 11940,
+      "end_ms": 12320,
+      "start_frame": 358,
+      "end_frame": 370
+    },
+    {
+      "word": "The",
+      "start_ms": 12860,
+      "end_ms": 13100,
+      "start_frame": 386,
+      "end_frame": 393
+    },
+    {
+      "word": "first",
+      "start_ms": 13100,
+      "end_ms": 13340,
+      "start_frame": 393,
+      "end_frame": 400
+    },
+    {
+      "word": "mismatch",
+      "start_ms": 13340,
+      "end_ms": 13860,
+      "start_frame": 400,
+      "end_frame": 416
+    },
+    {
+      "word": "gives",
+      "start_ms": 13860,
+      "end_ms": 14180,
+      "start_frame": 416,
+      "end_frame": 425
+    },
+    {
+      "word": "the",
+      "start_ms": 14180,
+      "end_ms": 14420,
+      "start_frame": 425,
+      "end_frame": 433
+    },
+    {
+      "word": "answer.",
+      "start_ms": 14420,
+      "end_ms": 14980,
+      "start_frame": 433,
+      "end_frame": 449
+    },
+    {
+      "word": "Question",
+      "start_ms": 15860,
+      "end_ms": 16000,
+      "start_frame": 476,
+      "end_frame": 480
+    },
+    {
+      "word": "18,",
+      "start_ms": 16000,
+      "end_ms": 16740,
+      "start_frame": 480,
+      "end_frame": 502
+    },
+    {
+      "word": "complete.",
+      "start_ms": 17280,
+      "end_ms": 17680,
+      "start_frame": 518,
+      "end_frame": 530
+    },
+    {
+      "word": "18",
+      "start_ms": 18620,
+      "end_ms": 18920,
+      "start_frame": 559,
+      "end_frame": 568
+    },
+    {
+      "word": "out",
+      "start_ms": 18920,
+      "end_ms": 19280,
+      "start_frame": 568,
+      "end_frame": 578
+    },
+    {
+      "word": "of",
+      "start_ms": 19280,
+      "end_ms": 19480,
+      "start_frame": 578,
+      "end_frame": 584
+    },
+    {
+      "word": "227.",
+      "start_ms": 19480,
+      "end_ms": 21500,
+      "start_frame": 584,
+      "end_frame": 645
+    },
+    {
+      "word": "Arrays",
+      "start_ms": 21960,
+      "end_ms": 22300,
+      "start_frame": 659,
+      "end_frame": 669
+    },
+    {
+      "word": "and",
+      "start_ms": 22300,
+      "end_ms": 22660,
+      "start_frame": 669,
+      "end_frame": 680
+    },
+    {
+      "word": "hashing",
+      "start_ms": 22660,
+      "end_ms": 23020,
+      "start_frame": 680,
+      "end_frame": 691
+    },
+    {
+      "word": "is",
+      "start_ms": 23020,
+      "end_ms": 23300,
+      "start_frame": 691,
+      "end_frame": 699
+    },
+    {
+      "word": "complete.",
+      "start_ms": 23300,
+      "end_ms": 23840,
+      "start_frame": 699,
+      "end_frame": 715
+    },
+    {
+      "word": "Next,",
+      "start_ms": 24580,
+      "end_ms": 25100,
+      "start_frame": 737,
+      "end_frame": 753
+    },
+    {
+      "word": "question",
+      "start_ms": 25380,
+      "end_ms": 25780,
+      "start_frame": 761,
+      "end_frame": 773
+    },
+    {
+      "word": "19.",
+      "start_ms": 25780,
+      "end_ms": 26780,
+      "start_frame": 773,
+      "end_frame": 803
+    },
+    {
+      "word": "Valid",
+      "start_ms": 26780,
+      "end_ms": 27880,
+      "start_frame": 803,
+      "end_frame": 836
+    },
+    {
+      "word": "palindrome",
+      "start_ms": 27880,
+      "end_ms": 28620,
+      "start_frame": 836,
+      "end_frame": 859
+    },
+    {
+      "word": "in",
+      "start_ms": 28620,
+      "end_ms": 29120,
+      "start_frame": 859,
+      "end_frame": 874
+    },
+    {
+      "word": "two",
+      "start_ms": 29120,
+      "end_ms": 29500,
+      "start_frame": 874,
+      "end_frame": 885
+    },
+    {
+      "word": "pointers.",
+      "start_ms": 29500,
+      "end_ms": 29900,
+      "start_frame": 885,
+      "end_frame": 897
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Brute force repeats searches.",
+      "start_ms": 0,
+      "end_ms": 1980,
+      "start_frame": 0,
+      "end_frame": 59,
+      "word_count": 4
+    },
+    {
+      "text": "Hash set fixes time but uses extra memory.",
+      "start_ms": 2540,
+      "end_ms": 5420,
+      "start_frame": 76,
+      "end_frame": 163,
+      "word_count": 8
+    },
+    {
+      "text": "In -place placement uses the array itself.",
+      "start_ms": 5860,
+      "end_ms": 8540,
+      "start_frame": 176,
+      "end_frame": 256,
+      "word_count": 7
+    },
+    {
+      "text": "Value x belongs at index x minus 1.",
+      "start_ms": 9140,
+      "end_ms": 12320,
+      "start_frame": 274,
+      "end_frame": 370,
+      "word_count": 8
+    },
+    {
+      "text": "The first mismatch gives the answer.",
+      "start_ms": 12860,
+      "end_ms": 14980,
+      "start_frame": 386,
+      "end_frame": 449,
+      "word_count": 6
+    },
+    {
+      "text": "Question 18, complete.",
+      "start_ms": 15860,
+      "end_ms": 17680,
+      "start_frame": 476,
+      "end_frame": 530,
+      "word_count": 3
+    },
+    {
+      "text": "18 out of 227.",
+      "start_ms": 18620,
+      "end_ms": 21500,
+      "start_frame": 559,
+      "end_frame": 645,
+      "word_count": 4
+    },
+    {
+      "text": "Arrays and hashing is complete.",
+      "start_ms": 21960,
+      "end_ms": 23840,
+      "start_frame": 659,
+      "end_frame": 715,
+      "word_count": 5
+    },
+    {
+      "text": "Next, question 19.",
+      "start_ms": 24580,
+      "end_ms": 26780,
+      "start_frame": 737,
+      "end_frame": 803,
+      "word_count": 3
+    },
+    {
+      "text": "Valid palindrome in two pointers.",
+      "start_ms": 26780,
+      "end_ms": 29900,
+      "start_frame": 803,
+      "end_frame": 897,
+      "word_count": 5
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "searches.",
+      "before_word": "Hash",
+      "start_ms": 1980,
+      "end_ms": 2540,
+      "duration_ms": 560,
+      "start_frame": 59,
+      "end_frame": 76,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "memory.",
+      "before_word": "In",
+      "start_ms": 5420,
+      "end_ms": 5860,
+      "duration_ms": 440,
+      "start_frame": 163,
+      "end_frame": 176,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "itself.",
+      "before_word": "Value",
+      "start_ms": 8540,
+      "end_ms": 9140,
+      "duration_ms": 600,
+      "start_frame": 256,
+      "end_frame": 274,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "1.",
+      "before_word": "The",
+      "start_ms": 12320,
+      "end_ms": 12860,
+      "duration_ms": 540,
+      "start_frame": 370,
+      "end_frame": 386,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "answer.",
+      "before_word": "Question",
+      "start_ms": 14980,
+      "end_ms": 15860,
+      "duration_ms": 880,
+      "start_frame": 449,
+      "end_frame": 476,
+      "duration_frames": 27
+    },
+    {
+      "after_word": "18,",
+      "before_word": "complete.",
+      "start_ms": 16740,
+      "end_ms": 17280,
+      "duration_ms": 540,
+      "start_frame": 502,
+      "end_frame": 518,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "complete.",
+      "before_word": "18",
+      "start_ms": 17680,
+      "end_ms": 18620,
+      "duration_ms": 940,
+      "start_frame": 530,
+      "end_frame": 559,
+      "duration_frames": 29
+    },
+    {
+      "after_word": "227.",
+      "before_word": "Arrays",
+      "start_ms": 21500,
+      "end_ms": 21960,
+      "duration_ms": 460,
+      "start_frame": 645,
+      "end_frame": 659,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "complete.",
+      "before_word": "Next,",
+      "start_ms": 23840,
+      "end_ms": 24580,
+      "duration_ms": 740,
+      "start_frame": 715,
+      "end_frame": 737,
+      "duration_frames": 22
+    }
+  ]
+}

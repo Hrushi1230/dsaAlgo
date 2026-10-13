@@ -1,0 +1,638 @@
+{
+  "audio_file": "10-recap-roadmap.mp3",
+  "duration_ms": 37300,
+  "duration_frames": 1119,
+  "fps": 30,
+  "word_count": 57,
+  "words": [
+    {
+      "word": "Quick",
+      "start_ms": 0,
+      "end_ms": 400,
+      "start_frame": 0,
+      "end_frame": 12
+    },
+    {
+      "word": "recap.",
+      "start_ms": 400,
+      "end_ms": 900,
+      "start_frame": 12,
+      "end_frame": 27
+    },
+    {
+      "word": "Our",
+      "start_ms": 1780,
+      "end_ms": 1860,
+      "start_frame": 53,
+      "end_frame": 56
+    },
+    {
+      "word": "format",
+      "start_ms": 1860,
+      "end_ms": 2240,
+      "start_frame": 56,
+      "end_frame": 67
+    },
+    {
+      "word": "is",
+      "start_ms": 2240,
+      "end_ms": 2760,
+      "start_frame": 67,
+      "end_frame": 83
+    },
+    {
+      "word": "length",
+      "start_ms": 2760,
+      "end_ms": 3340,
+      "start_frame": 83,
+      "end_frame": 100
+    },
+    {
+      "word": "hash",
+      "start_ms": 3340,
+      "end_ms": 4340,
+      "start_frame": 100,
+      "end_frame": 130
+    },
+    {
+      "word": "payload.",
+      "start_ms": 4340,
+      "end_ms": 5000,
+      "start_frame": 130,
+      "end_frame": 150
+    },
+    {
+      "word": "The",
+      "start_ms": 5800,
+      "end_ms": 6040,
+      "start_frame": 174,
+      "end_frame": 181
+    },
+    {
+      "word": "decoder",
+      "start_ms": 6040,
+      "end_ms": 6400,
+      "start_frame": 181,
+      "end_frame": 192
+    },
+    {
+      "word": "reads",
+      "start_ms": 6400,
+      "end_ms": 6740,
+      "start_frame": 192,
+      "end_frame": 202
+    },
+    {
+      "word": "the",
+      "start_ms": 6740,
+      "end_ms": 7040,
+      "start_frame": 202,
+      "end_frame": 211
+    },
+    {
+      "word": "length,",
+      "start_ms": 7040,
+      "end_ms": 7340,
+      "start_frame": 211,
+      "end_frame": 220
+    },
+    {
+      "word": "then",
+      "start_ms": 7740,
+      "end_ms": 7940,
+      "start_frame": 232,
+      "end_frame": 238
+    },
+    {
+      "word": "consumes",
+      "start_ms": 7940,
+      "end_ms": 8440,
+      "start_frame": 238,
+      "end_frame": 253
+    },
+    {
+      "word": "exactly",
+      "start_ms": 8440,
+      "end_ms": 9160,
+      "start_frame": 253,
+      "end_frame": 275
+    },
+    {
+      "word": "that",
+      "start_ms": 9160,
+      "end_ms": 9540,
+      "start_frame": 275,
+      "end_frame": 286
+    },
+    {
+      "word": "many",
+      "start_ms": 9540,
+      "end_ms": 9820,
+      "start_frame": 286,
+      "end_frame": 295
+    },
+    {
+      "word": "characters.",
+      "start_ms": 9820,
+      "end_ms": 10460,
+      "start_frame": 295,
+      "end_frame": 314
+    },
+    {
+      "word": "The",
+      "start_ms": 11440,
+      "end_ms": 11720,
+      "start_frame": 343,
+      "end_frame": 352
+    },
+    {
+      "word": "reusable",
+      "start_ms": 11720,
+      "end_ms": 12220,
+      "start_frame": 352,
+      "end_frame": 367
+    },
+    {
+      "word": "idea",
+      "start_ms": 12220,
+      "end_ms": 12700,
+      "start_frame": 367,
+      "end_frame": 381
+    },
+    {
+      "word": "is",
+      "start_ms": 12700,
+      "end_ms": 13040,
+      "start_frame": 381,
+      "end_frame": 391
+    },
+    {
+      "word": "simple.",
+      "start_ms": 13040,
+      "end_ms": 13460,
+      "start_frame": 391,
+      "end_frame": 404
+    },
+    {
+      "word": "When",
+      "start_ms": 13800,
+      "end_ms": 13980,
+      "start_frame": 414,
+      "end_frame": 419
+    },
+    {
+      "word": "the",
+      "start_ms": 13980,
+      "end_ms": 14260,
+      "start_frame": 419,
+      "end_frame": 428
+    },
+    {
+      "word": "payload",
+      "start_ms": 14260,
+      "end_ms": 14540,
+      "start_frame": 428,
+      "end_frame": 436
+    },
+    {
+      "word": "can",
+      "start_ms": 14540,
+      "end_ms": 14860,
+      "start_frame": 436,
+      "end_frame": 446
+    },
+    {
+      "word": "contain",
+      "start_ms": 14860,
+      "end_ms": 15420,
+      "start_frame": 446,
+      "end_frame": 463
+    },
+    {
+      "word": "separate",
+      "start_ms": 15420,
+      "end_ms": 15940,
+      "start_frame": 463,
+      "end_frame": 478
+    },
+    {
+      "word": "our",
+      "start_ms": 15940,
+      "end_ms": 16280,
+      "start_frame": 478,
+      "end_frame": 488
+    },
+    {
+      "word": "characters,",
+      "start_ms": 16280,
+      "end_ms": 16700,
+      "start_frame": 488,
+      "end_frame": 501
+    },
+    {
+      "word": "store",
+      "start_ms": 17440,
+      "end_ms": 17620,
+      "start_frame": 523,
+      "end_frame": 529
+    },
+    {
+      "word": "explicit",
+      "start_ms": 17620,
+      "end_ms": 18480,
+      "start_frame": 529,
+      "end_frame": 554
+    },
+    {
+      "word": "boundary",
+      "start_ms": 18480,
+      "end_ms": 18980,
+      "start_frame": 554,
+      "end_frame": 569
+    },
+    {
+      "word": "information.",
+      "start_ms": 18980,
+      "end_ms": 19900,
+      "start_frame": 569,
+      "end_frame": 597
+    },
+    {
+      "word": "Question",
+      "start_ms": 21100,
+      "end_ms": 21180,
+      "start_frame": 633,
+      "end_frame": 635
+    },
+    {
+      "word": "17.",
+      "start_ms": 21180,
+      "end_ms": 22060,
+      "start_frame": 635,
+      "end_frame": 662
+    },
+    {
+      "word": "Encode",
+      "start_ms": 22780,
+      "end_ms": 23180,
+      "start_frame": 683,
+      "end_frame": 695
+    },
+    {
+      "word": "and",
+      "start_ms": 23180,
+      "end_ms": 23560,
+      "start_frame": 695,
+      "end_frame": 707
+    },
+    {
+      "word": "decode",
+      "start_ms": 23560,
+      "end_ms": 24040,
+      "start_frame": 707,
+      "end_frame": 721
+    },
+    {
+      "word": "strings.",
+      "start_ms": 24040,
+      "end_ms": 24640,
+      "start_frame": 721,
+      "end_frame": 739
+    },
+    {
+      "word": "Complete.",
+      "start_ms": 25240,
+      "end_ms": 25860,
+      "start_frame": 757,
+      "end_frame": 776
+    },
+    {
+      "word": "Our",
+      "start_ms": 26420,
+      "end_ms": 26800,
+      "start_frame": 793,
+      "end_frame": 804
+    },
+    {
+      "word": "progress",
+      "start_ms": 26800,
+      "end_ms": 27240,
+      "start_frame": 804,
+      "end_frame": 817
+    },
+    {
+      "word": "is",
+      "start_ms": 27240,
+      "end_ms": 27620,
+      "start_frame": 817,
+      "end_frame": 829
+    },
+    {
+      "word": "now.",
+      "start_ms": 27620,
+      "end_ms": 28080,
+      "start_frame": 829,
+      "end_frame": 842
+    },
+    {
+      "word": "17",
+      "start_ms": 28080,
+      "end_ms": 29460,
+      "start_frame": 842,
+      "end_frame": 884
+    },
+    {
+      "word": "out",
+      "start_ms": 29460,
+      "end_ms": 30180,
+      "start_frame": 884,
+      "end_frame": 905
+    },
+    {
+      "word": "of",
+      "start_ms": 30180,
+      "end_ms": 30620,
+      "start_frame": 905,
+      "end_frame": 919
+    },
+    {
+      "word": "227.",
+      "start_ms": 30620,
+      "end_ms": 32420,
+      "start_frame": 919,
+      "end_frame": 973
+    },
+    {
+      "word": "Next,",
+      "start_ms": 33020,
+      "end_ms": 33220,
+      "start_frame": 991,
+      "end_frame": 997
+    },
+    {
+      "word": "question",
+      "start_ms": 34000,
+      "end_ms": 34420,
+      "start_frame": 1020,
+      "end_frame": 1033
+    },
+    {
+      "word": "18.",
+      "start_ms": 34420,
+      "end_ms": 35120,
+      "start_frame": 1033,
+      "end_frame": 1054
+    },
+    {
+      "word": "First",
+      "start_ms": 35960,
+      "end_ms": 36180,
+      "start_frame": 1079,
+      "end_frame": 1085
+    },
+    {
+      "word": "missing",
+      "start_ms": 36180,
+      "end_ms": 36720,
+      "start_frame": 1085,
+      "end_frame": 1102
+    },
+    {
+      "word": "positive.",
+      "start_ms": 36720,
+      "end_ms": 37300,
+      "start_frame": 1102,
+      "end_frame": 1119
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Quick recap.",
+      "start_ms": 0,
+      "end_ms": 900,
+      "start_frame": 0,
+      "end_frame": 27,
+      "word_count": 2
+    },
+    {
+      "text": "Our format is length hash payload.",
+      "start_ms": 1780,
+      "end_ms": 5000,
+      "start_frame": 53,
+      "end_frame": 150,
+      "word_count": 6
+    },
+    {
+      "text": "The decoder reads the length, then consumes exactly that many characters.",
+      "start_ms": 5800,
+      "end_ms": 10460,
+      "start_frame": 174,
+      "end_frame": 314,
+      "word_count": 11
+    },
+    {
+      "text": "The reusable idea is simple.",
+      "start_ms": 11440,
+      "end_ms": 13460,
+      "start_frame": 343,
+      "end_frame": 404,
+      "word_count": 5
+    },
+    {
+      "text": "When the payload can contain separate our characters, store explicit boundary information.",
+      "start_ms": 13800,
+      "end_ms": 19900,
+      "start_frame": 414,
+      "end_frame": 597,
+      "word_count": 12
+    },
+    {
+      "text": "Question 17.",
+      "start_ms": 21100,
+      "end_ms": 22060,
+      "start_frame": 633,
+      "end_frame": 662,
+      "word_count": 2
+    },
+    {
+      "text": "Encode and decode strings.",
+      "start_ms": 22780,
+      "end_ms": 24640,
+      "start_frame": 683,
+      "end_frame": 739,
+      "word_count": 4
+    },
+    {
+      "text": "Complete.",
+      "start_ms": 25240,
+      "end_ms": 25860,
+      "start_frame": 757,
+      "end_frame": 776,
+      "word_count": 1
+    },
+    {
+      "text": "Our progress is now.",
+      "start_ms": 26420,
+      "end_ms": 28080,
+      "start_frame": 793,
+      "end_frame": 842,
+      "word_count": 4
+    },
+    {
+      "text": "17 out of 227.",
+      "start_ms": 28080,
+      "end_ms": 32420,
+      "start_frame": 842,
+      "end_frame": 973,
+      "word_count": 4
+    },
+    {
+      "text": "Next, question 18.",
+      "start_ms": 33020,
+      "end_ms": 35120,
+      "start_frame": 991,
+      "end_frame": 1054,
+      "word_count": 3
+    },
+    {
+      "text": "First missing positive.",
+      "start_ms": 35960,
+      "end_ms": 37300,
+      "start_frame": 1079,
+      "end_frame": 1119,
+      "word_count": 3
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "recap.",
+      "before_word": "Our",
+      "start_ms": 900,
+      "end_ms": 1780,
+      "duration_ms": 880,
+      "start_frame": 27,
+      "end_frame": 53,
+      "duration_frames": 26
+    },
+    {
+      "after_word": "payload.",
+      "before_word": "The",
+      "start_ms": 5000,
+      "end_ms": 5800,
+      "duration_ms": 800,
+      "start_frame": 150,
+      "end_frame": 174,
+      "duration_frames": 24
+    },
+    {
+      "after_word": "length,",
+      "before_word": "then",
+      "start_ms": 7340,
+      "end_ms": 7740,
+      "duration_ms": 400,
+      "start_frame": 220,
+      "end_frame": 232,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "characters.",
+      "before_word": "The",
+      "start_ms": 10460,
+      "end_ms": 11440,
+      "duration_ms": 980,
+      "start_frame": 314,
+      "end_frame": 343,
+      "duration_frames": 29
+    },
+    {
+      "after_word": "simple.",
+      "before_word": "When",
+      "start_ms": 13460,
+      "end_ms": 13800,
+      "duration_ms": 340,
+      "start_frame": 404,
+      "end_frame": 414,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "characters,",
+      "before_word": "store",
+      "start_ms": 16700,
+      "end_ms": 17440,
+      "duration_ms": 740,
+      "start_frame": 501,
+      "end_frame": 523,
+      "duration_frames": 22
+    },
+    {
+      "after_word": "information.",
+      "before_word": "Question",
+      "start_ms": 19900,
+      "end_ms": 21100,
+      "duration_ms": 1200,
+      "start_frame": 597,
+      "end_frame": 633,
+      "duration_frames": 36
+    },
+    {
+      "after_word": "17.",
+      "before_word": "Encode",
+      "start_ms": 22060,
+      "end_ms": 22780,
+      "duration_ms": 720,
+      "start_frame": 662,
+      "end_frame": 683,
+      "duration_frames": 21
+    },
+    {
+      "after_word": "strings.",
+      "before_word": "Complete.",
+      "start_ms": 24640,
+      "end_ms": 25240,
+      "duration_ms": 600,
+      "start_frame": 739,
+      "end_frame": 757,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "Complete.",
+      "before_word": "Our",
+      "start_ms": 25860,
+      "end_ms": 26420,
+      "duration_ms": 560,
+      "start_frame": 776,
+      "end_frame": 793,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "227.",
+      "before_word": "Next,",
+      "start_ms": 32420,
+      "end_ms": 33020,
+      "duration_ms": 600,
+      "start_frame": 973,
+      "end_frame": 991,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "Next,",
+      "before_word": "question",
+      "start_ms": 33220,
+      "end_ms": 34000,
+      "duration_ms": 780,
+      "start_frame": 997,
+      "end_frame": 1020,
+      "duration_frames": 23
+    },
+    {
+      "after_word": "18.",
+      "before_word": "First",
+      "start_ms": 35120,
+      "end_ms": 35960,
+      "duration_ms": 840,
+      "start_frame": 1054,
+      "end_frame": 1079,
+      "duration_frames": 25
+    }
+  ]
+}

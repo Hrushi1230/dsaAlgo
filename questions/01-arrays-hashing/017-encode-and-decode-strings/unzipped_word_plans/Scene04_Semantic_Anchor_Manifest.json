@@ -1,0 +1,711 @@
+{
+  "question": "Q17 Encode and Decode Strings",
+  "scene": 4,
+  "name": "Full Encode Trace",
+  "stage": "GATE_A_PRE_AUDIO_ONLY",
+  "word_ids": "PENDING_SYNC",
+  "timing": "PENDING_MP3_SYNC",
+  "anchor_count": 70,
+  "anchors": [
+    {
+      "id": "S04:A001",
+      "source_narration_occurrence": 1,
+      "exact_spoken_phrase": "Our input contains four strings.",
+      "visual_intent": "Introduce fixed four-row source-list stage; keep all source contents hidden until spoken.",
+      "phase": "INPUT / INITIALIZATION",
+      "trace_id": "Q17/ENC/INPUT_/_INITIALIZATION/A001",
+      "primary_zone": "source list x90..710, y190..725",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=none — source introduction; committed encoded accumulator=''; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A002",
+      "source_narration_occurrence": 2,
+      "exact_spoken_phrase": "A hash B ...",
+      "visual_intent": "Reveal source row 0 `\"a#b\"` and its original string identity.",
+      "phase": "INPUT / INITIALIZATION",
+      "trace_id": "Q17/ENC/INPUT_/_INITIALIZATION/A002",
+      "primary_zone": "source list x90..710, y190..725",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=none — source introduction; committed encoded accumulator=''; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A003",
+      "source_narration_occurrence": 3,
+      "exact_spoken_phrase": "an empty string ...",
+      "visual_intent": "Reveal source row 1 `\"\"`; no invented placeholder inside payload.",
+      "phase": "INPUT / INITIALIZATION",
+      "trace_id": "Q17/ENC/INPUT_/_INITIALIZATION/A003",
+      "primary_zone": "source list x90..710, y190..725",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=none — source introduction; committed encoded accumulator=''; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A004",
+      "source_narration_occurrence": 4,
+      "exact_spoken_phrase": "hello world ...",
+      "visual_intent": "Reveal source row 2 `\"hello world\"` with actual space.",
+      "phase": "INPUT / INITIALIZATION",
+      "trace_id": "Q17/ENC/INPUT_/_INITIALIZATION/A004",
+      "primary_zone": "source list x90..710, y190..725",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=none — source introduction; committed encoded accumulator=''; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A005",
+      "source_narration_occurrence": 5,
+      "exact_spoken_phrase": "and four two.",
+      "visual_intent": "Reveal source row 3 `\"42\"` as string of two characters.",
+      "phase": "INPUT / INITIALIZATION",
+      "trace_id": "Q17/ENC/INPUT_/_INITIALIZATION/A005",
+      "primary_zone": "source list x90..710, y190..725",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=none — source introduction; committed encoded accumulator=''; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A006",
+      "source_narration_occurrence": 6,
+      "exact_spoken_phrase": "We start with an empty encoded result.",
+      "visual_intent": "Initialize the encoded accumulator as the actual empty string `\"\"` in bottom lane; not a black panel.",
+      "phase": "INPUT / INITIALIZATION",
+      "trace_id": "Q17/ENC/INPUT_/_INITIALIZATION/A006",
+      "primary_zone": "source list x90..710, y190..725",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=none — source introduction; committed encoded accumulator=''; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A007",
+      "source_narration_occurrence": 7,
+      "exact_spoken_phrase": "First string ...",
+      "visual_intent": "Select source row 0; all other rows stay dim and fixed.",
+      "phase": "ENCODE RECORD 1",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_1/A007",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=0 — \"a#b\"; committed encoded accumulator=''; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A008",
+      "source_narration_occurrence": 8,
+      "exact_spoken_phrase": "A hash B.",
+      "visual_intent": "Give row 0 focus and copy `a#b` only to the record-builder source area; accumulator unchanged.",
+      "phase": "ENCODE RECORD 1",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_1/A008",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=0 — \"a#b\"; committed encoded accumulator=''; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A009",
+      "source_narration_occurrence": 9,
+      "exact_spoken_phrase": "Count its characters.",
+      "visual_intent": "Reserve three small counting marks under characters, but do not expose total yet.",
+      "phase": "ENCODE RECORD 1",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_1/A009",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=0 — \"a#b\"; committed encoded accumulator=''; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A010",
+      "source_narration_occurrence": 10,
+      "exact_spoken_phrase": "A ...",
+      "visual_intent": "Focus first character `a`; tally observed count `1` only; do not reveal the future total `3` before it is established.",
+      "phase": "ENCODE RECORD 1",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_1/A010",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=0 — \"a#b\"; committed encoded accumulator=''; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A011",
+      "source_narration_occurrence": 11,
+      "exact_spoken_phrase": "hash ...",
+      "visual_intent": "Focus literal payload hash as second character; treat it as data.",
+      "phase": "ENCODE RECORD 1",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_1/A011",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=0 — \"a#b\"; committed encoded accumulator=''; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A012",
+      "source_narration_occurrence": 12,
+      "exact_spoken_phrase": "B.",
+      "visual_intent": "Focus last character `b` as third character.",
+      "phase": "ENCODE RECORD 1",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_1/A012",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=0 — \"a#b\"; committed encoded accumulator=''; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A013",
+      "source_narration_occurrence": 13,
+      "exact_spoken_phrase": "Three characters.",
+      "visual_intent": "Confirm three visited characters, with all three glyphs visibly owned by payload.",
+      "phase": "ENCODE RECORD 1",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_1/A013",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=0 — \"a#b\"; committed encoded accumulator=''; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A014",
+      "source_narration_occurrence": 14,
+      "exact_spoken_phrase": "So the length is three.",
+      "visual_intent": "Write computed length `3` into the stable length-variable location.",
+      "phase": "ENCODE RECORD 1",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_1/A014",
+      "primary_zone": "length state x755..1115, y215..347",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=0 — \"a#b\"; committed encoded accumulator=''; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A015",
+      "source_narration_occurrence": 15,
+      "exact_spoken_phrase": "First, write three.",
+      "visual_intent": "Write record-builder header digit `3`; accumulator must still be empty.",
+      "phase": "ENCODE RECORD 1",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_1/A015",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=0 — \"a#b\"; committed encoded accumulator=''; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A016",
+      "source_narration_occurrence": 16,
+      "exact_spoken_phrase": "Then write the header hash.",
+      "visual_intent": "Append header terminator `#` immediately after `3` in the *record builder* only.",
+      "phase": "ENCODE RECORD 1",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_1/A016",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=0 — \"a#b\"; committed encoded accumulator=''; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A017",
+      "source_narration_occurrence": 17,
+      "exact_spoken_phrase": "Then copy the complete original string ...",
+      "visual_intent": "Start copying the selected original string into payload part of builder; copy source, do not move/delete original.",
+      "phase": "ENCODE RECORD 1",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_1/A017",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=0 — \"a#b\"; committed encoded accumulator=''; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A018",
+      "source_narration_occurrence": 18,
+      "exact_spoken_phrase": "A hash B.",
+      "visual_intent": "Show copied payload `a#b`, distinctly separate from header hash.",
+      "phase": "ENCODE RECORD 1",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_1/A018",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=0 — \"a#b\"; committed encoded accumulator=''; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A019",
+      "source_narration_occurrence": 19,
+      "exact_spoken_phrase": "Our first record is ...",
+      "visual_intent": "Highlight completed record builder `3#a#b` with exact token semantics.",
+      "phase": "ENCODE RECORD 1",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_1/A019",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=0 — \"a#b\"; committed encoded accumulator=''; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A020",
+      "source_narration_occurrence": 20,
+      "exact_spoken_phrase": "three hash A hash B.",
+      "visual_intent": "Confirm complete record text `3#a#b`; first and second hashes have distinct roles.",
+      "phase": "ENCODE RECORD 1",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_1/A020",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=0 — \"a#b\"; committed encoded accumulator=''; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A021",
+      "source_narration_occurrence": 21,
+      "exact_spoken_phrase": "And that becomes our current encoded result.",
+      "visual_intent": "Append record `3#a#b` to accumulator, producing its first visible prefix `3#a#b`.",
+      "phase": "ENCODE RECORD 1",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_1/A021",
+      "primary_zone": "accumulator x100..1810, y690..925",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=0 — \"a#b\"; committed encoded accumulator='3#a#b'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A022",
+      "source_narration_occurrence": 22,
+      "exact_spoken_phrase": "Now the second string.",
+      "visual_intent": "Select source row 1 and clear prior record-builder working state without erasing accumulator.",
+      "phase": "ENCODE RECORD 2",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_2/A022",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=1 — \"\"; committed encoded accumulator='3#a#b'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A023",
+      "source_narration_occurrence": 23,
+      "exact_spoken_phrase": "This one is empty.",
+      "visual_intent": "Focus actual empty string `\"\"` in input, not an omitted row.",
+      "phase": "ENCODE RECORD 2",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_2/A023",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=1 — \"\"; committed encoded accumulator='3#a#b'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A024",
+      "source_narration_occurrence": 24,
+      "exact_spoken_phrase": "How many characters?",
+      "visual_intent": "Prompt count with visibly zero payload glyphs.",
+      "phase": "ENCODE RECORD 2",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_2/A024",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=1 — \"\"; committed encoded accumulator='3#a#b'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A025",
+      "source_narration_occurrence": 25,
+      "exact_spoken_phrase": "Zero.",
+      "visual_intent": "Set length variable to `0` explicitly.",
+      "phase": "ENCODE RECORD 2",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_2/A025",
+      "primary_zone": "length state x755..1115, y215..347",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=1 — \"\"; committed encoded accumulator='3#a#b'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A026",
+      "source_narration_occurrence": 26,
+      "exact_spoken_phrase": "So write zero ...",
+      "visual_intent": "Write `0` into builder header and nothing into accumulator.",
+      "phase": "ENCODE RECORD 2",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_2/A026",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=1 — \"\"; committed encoded accumulator='3#a#b'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A027",
+      "source_narration_occurrence": 27,
+      "exact_spoken_phrase": "then hash.",
+      "visual_intent": "Write `#` after `0`, completing `0#` builder record.",
+      "phase": "ENCODE RECORD 2",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_2/A027",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=1 — \"\"; committed encoded accumulator='3#a#b'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A028",
+      "source_narration_occurrence": 28,
+      "exact_spoken_phrase": "There is no payload to copy.",
+      "visual_intent": "Keep payload region visually empty; no empty-substitute glyph is encoded.",
+      "phase": "ENCODE RECORD 2",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_2/A028",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=1 — \"\"; committed encoded accumulator='3#a#b'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A029",
+      "source_narration_occurrence": 29,
+      "exact_spoken_phrase": "That's perfectly valid.",
+      "visual_intent": "Confirm `0#` represents a valid record even with no payload.",
+      "phase": "ENCODE RECORD 2",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_2/A029",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=1 — \"\"; committed encoded accumulator='3#a#b'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A030",
+      "source_narration_occurrence": 30,
+      "exact_spoken_phrase": "Append this record to the previous result.",
+      "visual_intent": "Append `0#` as the second record; accumulator becomes `3#a#b0#`.",
+      "phase": "ENCODE RECORD 2",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_2/A030",
+      "primary_zone": "accumulator x100..1810, y690..925",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=1 — \"\"; committed encoded accumulator='3#a#b0#'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A031",
+      "source_narration_occurrence": 31,
+      "exact_spoken_phrase": "Now our encoded result is ...",
+      "visual_intent": "Shift focus to accumulator; do not reveal future `11#` or `2#`.",
+      "phase": "ENCODE RECORD 2",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_2/A031",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=1 — \"\"; committed encoded accumulator='3#a#b0#'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A032",
+      "source_narration_occurrence": 32,
+      "exact_spoken_phrase": "three hash A hash B ...",
+      "visual_intent": "Spotlight prior accumulated `3#a#b` segment already present.",
+      "phase": "ENCODE RECORD 2",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_2/A032",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=1 — \"\"; committed encoded accumulator='3#a#b0#'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A033",
+      "source_narration_occurrence": 33,
+      "exact_spoken_phrase": "followed by zero hash.",
+      "visual_intent": "Spotlight appended `0#` segment with adjacent boundary, not extra separator.",
+      "phase": "ENCODE RECORD 2",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_2/A033",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=1 — \"\"; committed encoded accumulator='3#a#b0#'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A034",
+      "source_narration_occurrence": 34,
+      "exact_spoken_phrase": "Next string ...",
+      "visual_intent": "Select source row 2; working builder resets while accumulator retains first 7 chars.",
+      "phase": "ENCODE RECORD 3",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_3/A034",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=2 — \"hello world\"; committed encoded accumulator='3#a#b0#'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A035",
+      "source_narration_occurrence": 35,
+      "exact_spoken_phrase": "hello world.",
+      "visual_intent": "Focus literal `\"hello world\"` as source payload.",
+      "phase": "ENCODE RECORD 3",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_3/A035",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=2 — \"hello world\"; committed encoded accumulator='3#a#b0#'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A036",
+      "source_narration_occurrence": 36,
+      "exact_spoken_phrase": "Let's count carefully.",
+      "visual_intent": "Open count annotation below the source only for this string.",
+      "phase": "ENCODE RECORD 3",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_3/A036",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=2 — \"hello world\"; committed encoded accumulator='3#a#b0#'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A037",
+      "source_narration_occurrence": 37,
+      "exact_spoken_phrase": "Hello has five characters.",
+      "visual_intent": "Underline `hello` as five counted characters.",
+      "phase": "ENCODE RECORD 3",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_3/A037",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=2 — \"hello world\"; committed encoded accumulator='3#a#b0#'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A038",
+      "source_narration_occurrence": 38,
+      "exact_spoken_phrase": "Then one space.",
+      "visual_intent": "Highlight the literal space as exactly one character, not omitted.",
+      "phase": "ENCODE RECORD 3",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_3/A038",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=2 — \"hello world\"; committed encoded accumulator='3#a#b0#'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A039",
+      "source_narration_occurrence": 39,
+      "exact_spoken_phrase": "Then world has five characters.",
+      "visual_intent": "Underline `world` as another five counted characters.",
+      "phase": "ENCODE RECORD 3",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_3/A039",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=2 — \"hello world\"; committed encoded accumulator='3#a#b0#'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A040",
+      "source_narration_occurrence": 40,
+      "exact_spoken_phrase": "So total length is eleven.",
+      "visual_intent": "Resolve length variable to `11` after `5 + 1 + 5` reasoning.",
+      "phase": "ENCODE RECORD 3",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_3/A040",
+      "primary_zone": "length state x755..1115, y215..347",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=2 — \"hello world\"; committed encoded accumulator='3#a#b0#'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A041",
+      "source_narration_occurrence": 41,
+      "exact_spoken_phrase": "This time our length has two digits.",
+      "visual_intent": "Emphasize both digits of `11`; don't split header at first digit.",
+      "phase": "ENCODE RECORD 3",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_3/A041",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=2 — \"hello world\"; committed encoded accumulator='3#a#b0#'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A042",
+      "source_narration_occurrence": 42,
+      "exact_spoken_phrase": "Write eleven.",
+      "visual_intent": "Write `11` in record-builder header.",
+      "phase": "ENCODE RECORD 3",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_3/A042",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=2 — \"hello world\"; committed encoded accumulator='3#a#b0#'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A043",
+      "source_narration_occurrence": 43,
+      "exact_spoken_phrase": "Then hash.",
+      "visual_intent": "Write single header `#` after two length digits.",
+      "phase": "ENCODE RECORD 3",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_3/A043",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=2 — \"hello world\"; committed encoded accumulator='3#a#b0#'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A044",
+      "source_narration_occurrence": 44,
+      "exact_spoken_phrase": "Then copy the complete payload ...",
+      "visual_intent": "Begin payload copying from unchanged source row.",
+      "phase": "ENCODE RECORD 3",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_3/A044",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=2 — \"hello world\"; committed encoded accumulator='3#a#b0#'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A045",
+      "source_narration_occurrence": 45,
+      "exact_spoken_phrase": "hello world.",
+      "visual_intent": "Fill builder payload with `hello world`, preserving internal space.",
+      "phase": "ENCODE RECORD 3",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_3/A045",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=2 — \"hello world\"; committed encoded accumulator='3#a#b0#'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A046",
+      "source_narration_occurrence": 46,
+      "exact_spoken_phrase": "The space is also part of the string.",
+      "visual_intent": "Focus the space as genuine payload data without changing 11.",
+      "phase": "ENCODE RECORD 3",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_3/A046",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=2 — \"hello world\"; committed encoded accumulator='3#a#b0#'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A047",
+      "source_narration_occurrence": 47,
+      "exact_spoken_phrase": "Now append this record.",
+      "visual_intent": "Append full record `11#hello world` to accumulator; no partial destination overwrite.",
+      "phase": "ENCODE RECORD 3",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_3/A047",
+      "primary_zone": "accumulator x100..1810, y690..925",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=2 — \"hello world\"; committed encoded accumulator='3#a#b0#11#hello world'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A048",
+      "source_narration_occurrence": 48,
+      "exact_spoken_phrase": "Our encoded result contains ...",
+      "visual_intent": "Focus accumulated stream where three complete records now exist.",
+      "phase": "ENCODE RECORD 3",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_3/A048",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=2 — \"hello world\"; committed encoded accumulator='3#a#b0#11#hello world'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A049",
+      "source_narration_occurrence": 49,
+      "exact_spoken_phrase": "three hash A hash B ...",
+      "visual_intent": "Focus first accumulated `3#a#b` section (no mutation).",
+      "phase": "ENCODE RECORD 3",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_3/A049",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=2 — \"hello world\"; committed encoded accumulator='3#a#b0#11#hello world'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A050",
+      "source_narration_occurrence": 50,
+      "exact_spoken_phrase": "zero hash ...",
+      "visual_intent": "Focus next `0#` section (no mutation).",
+      "phase": "ENCODE RECORD 3",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_3/A050",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=2 — \"hello world\"; committed encoded accumulator='3#a#b0#11#hello world'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A051",
+      "source_narration_occurrence": 51,
+      "exact_spoken_phrase": "eleven hash hello world.",
+      "visual_intent": "Focus appended `11#hello world` section; result ends at index 20.",
+      "phase": "ENCODE RECORD 3",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_3/A051",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=2 — \"hello world\"; committed encoded accumulator='3#a#b0#11#hello world'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A052",
+      "source_narration_occurrence": 52,
+      "exact_spoken_phrase": "Now the final string.",
+      "visual_intent": "Select final source row 3; builder resets but accumulator remains.",
+      "phase": "ENCODE RECORD 4",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_4/A052",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=3 — \"42\"; committed encoded accumulator='3#a#b0#11#hello world'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A053",
+      "source_narration_occurrence": 53,
+      "exact_spoken_phrase": "Four two.",
+      "visual_intent": "Focus string `\"42\"` unchanged.",
+      "phase": "ENCODE RECORD 4",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_4/A053",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=3 — \"42\"; committed encoded accumulator='3#a#b0#11#hello world'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A054",
+      "source_narration_occurrence": 54,
+      "exact_spoken_phrase": "These are two characters ...",
+      "visual_intent": "Highlight its two payload characters as string characters, not number forty-two.",
+      "phase": "ENCODE RECORD 4",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_4/A054",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=3 — \"42\"; committed encoded accumulator='3#a#b0#11#hello world'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A055",
+      "source_narration_occurrence": 55,
+      "exact_spoken_phrase": "four and two.",
+      "visual_intent": "Focus digit `4` then `2` in source (each one character).",
+      "phase": "ENCODE RECORD 4",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_4/A055",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=3 — \"42\"; committed encoded accumulator='3#a#b0#11#hello world'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A056",
+      "source_narration_occurrence": 56,
+      "exact_spoken_phrase": "So its length is two.",
+      "visual_intent": "Set length variable to `2`.",
+      "phase": "ENCODE RECORD 4",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_4/A056",
+      "primary_zone": "length state x755..1115, y215..347",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=3 — \"42\"; committed encoded accumulator='3#a#b0#11#hello world'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A057",
+      "source_narration_occurrence": 57,
+      "exact_spoken_phrase": "Write two ...",
+      "visual_intent": "Write header digit `2` into builder.",
+      "phase": "ENCODE RECORD 4",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_4/A057",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=3 — \"42\"; committed encoded accumulator='3#a#b0#11#hello world'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A058",
+      "source_narration_occurrence": 58,
+      "exact_spoken_phrase": "then hash ...",
+      "visual_intent": "Write header terminator `#` next to `2`.",
+      "phase": "ENCODE RECORD 4",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_4/A058",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=3 — \"42\"; committed encoded accumulator='3#a#b0#11#hello world'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A059",
+      "source_narration_occurrence": 59,
+      "exact_spoken_phrase": "then copy four two.",
+      "visual_intent": "Copy literal payload `42` into record builder.",
+      "phase": "ENCODE RECORD 4",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_4/A059",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=3 — \"42\"; committed encoded accumulator='3#a#b0#11#hello world'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A060",
+      "source_narration_occurrence": 60,
+      "exact_spoken_phrase": "That gives the record ...",
+      "visual_intent": "Focus complete record builder just before append.",
+      "phase": "ENCODE RECORD 4",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_4/A060",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=3 — \"42\"; committed encoded accumulator='3#a#b0#11#hello world'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A061",
+      "source_narration_occurrence": 61,
+      "exact_spoken_phrase": "two hash four two.",
+      "visual_intent": "Confirm exact builder text `2#42`.",
+      "phase": "ENCODE RECORD 4",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_4/A061",
+      "primary_zone": "builder x755..1805, y350..555; source x90..710",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=3 — \"42\"; committed encoded accumulator='3#a#b0#11#hello world'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A062",
+      "source_narration_occurrence": 62,
+      "exact_spoken_phrase": "Append it to the encoded result.",
+      "visual_intent": "Append `2#42` to accumulator, producing the final 25-character stream.",
+      "phase": "ENCODE RECORD 4",
+      "trace_id": "Q17/ENC/ENCODE_RECORD_4/A062",
+      "primary_zone": "accumulator x100..1810, y690..925",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=3 — \"42\"; committed encoded accumulator='3#a#b0#11#hello world2#42'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A063",
+      "source_narration_occurrence": 63,
+      "exact_spoken_phrase": "And we're done.",
+      "visual_intent": "Mark all four sources as processed; don't invent an extra empty record.",
+      "phase": "ENCODE RESULT / CLOSURE",
+      "trace_id": "Q17/ENC/ENCODE_RESULT_/_CLOSURE/A063",
+      "primary_zone": "accumulator x100..1810, y690..925",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=all 4 processed; committed encoded accumulator='3#a#b0#11#hello world2#42'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A064",
+      "source_narration_occurrence": 64,
+      "exact_spoken_phrase": "We have encoded all four strings into one continuous string.",
+      "visual_intent": "Settle full accumulator `3#a#b0#11#hello world2#42` as main hero.",
+      "phase": "ENCODE RESULT / CLOSURE",
+      "trace_id": "Q17/ENC/ENCODE_RESULT_/_CLOSURE/A064",
+      "primary_zone": "accumulator x100..1810, y690..925",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=all 4 processed; committed encoded accumulator='3#a#b0#11#hello world2#42'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A065",
+      "source_narration_occurrence": 65,
+      "exact_spoken_phrase": "Notice ...",
+      "visual_intent": "Shift from append mechanism to meaning of adjacent records.",
+      "phase": "ENCODE RESULT / CLOSURE",
+      "trace_id": "Q17/ENC/ENCODE_RESULT_/_CLOSURE/A065",
+      "primary_zone": "accumulator x100..1810, y690..925",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=all 4 processed; committed encoded accumulator='3#a#b0#11#hello world2#42'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A066",
+      "source_narration_occurrence": 66,
+      "exact_spoken_phrase": "we did not add any extra separator between records.",
+      "visual_intent": "Point to adjacency between `...b` and `0#`; no extra record-separator glyph inserted.",
+      "phase": "ENCODE RESULT / CLOSURE",
+      "trace_id": "Q17/ENC/ENCODE_RESULT_/_CLOSURE/A066",
+      "primary_zone": "accumulator x100..1810, y690..925",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=all 4 processed; committed encoded accumulator='3#a#b0#11#hello world2#42'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A067",
+      "source_narration_occurrence": 67,
+      "exact_spoken_phrase": "We don't need one.",
+      "visual_intent": "Confirm no additional delimiter needed; retain assembled string.",
+      "phase": "ENCODE RESULT / CLOSURE",
+      "trace_id": "Q17/ENC/ENCODE_RESULT_/_CLOSURE/A067",
+      "primary_zone": "accumulator x100..1810, y690..925",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=all 4 processed; committed encoded accumulator='3#a#b0#11#hello world2#42'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A068",
+      "source_narration_occurrence": 68,
+      "exact_spoken_phrase": "Every length header tells the decoder exactly where its payload ends ...",
+      "visual_intent": "Highlight stored lengths `3`, `0`, `11`, `2` in their actual header positions, without pre-running decoder.",
+      "phase": "ENCODE RESULT / CLOSURE",
+      "trace_id": "Q17/ENC/ENCODE_RESULT_/_CLOSURE/A068",
+      "primary_zone": "accumulator x100..1810, y690..925",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=all 4 processed; committed encoded accumulator='3#a#b0#11#hello world2#42'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A069",
+      "source_narration_occurrence": 69,
+      "exact_spoken_phrase": "and where the next record begins.",
+      "visual_intent": "Indicate that each record ends at payload length and next begins immediately; use boundary ticks at 5,7,21,25 only after narration introduces idea.",
+      "phase": "ENCODE RESULT / CLOSURE",
+      "trace_id": "Q17/ENC/ENCODE_RESULT_/_CLOSURE/A069",
+      "primary_zone": "accumulator x100..1810, y690..925",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=all 4 processed; committed encoded accumulator='3#a#b0#11#hello world2#42'; only committed stream prefix renders; builder is temporary; no future record visible."
+    },
+    {
+      "id": "S04:A070",
+      "source_narration_occurrence": 70,
+      "exact_spoken_phrase": "Now let's write the encoder.",
+      "visual_intent": "Finish trace; clear working builder/source focus and carry stream as scene-to-scene artifact.",
+      "phase": "ENCODE RESULT / CLOSURE",
+      "trace_id": "Q17/ENC/ENCODE_RESULT_/_CLOSURE/A070",
+      "primary_zone": "accumulator x100..1810, y690..925",
+      "source_state": "input=['a#b', '', 'hello world', '42']; active source row=all 4 processed; committed encoded accumulator='3#a#b0#11#hello world2#42'; only committed stream prefix renders; builder is temporary; no future record visible."
+    }
+  ]
+}

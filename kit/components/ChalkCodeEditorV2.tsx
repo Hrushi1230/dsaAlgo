@@ -45,6 +45,8 @@ export interface ChalkCodeEditorV2Props {
   opacity?: number;
   /** Vertical scroll translation offset in pixels (default: 0) */
   scrollY?: number;
+  /** Presentation variant: standard window or board-native transparent (default: "window") */
+  variant?: "window" | "board-native";
   className?: string;
   style?: React.CSSProperties;
 }
@@ -99,6 +101,7 @@ export const ChalkCodeEditorV2: React.FC<ChalkCodeEditorV2Props> = ({
   scale = 1,
   opacity = 1,
   scrollY,
+  variant = "window",
   className,
   style,
 }) => {
@@ -130,6 +133,7 @@ export const ChalkCodeEditorV2: React.FC<ChalkCodeEditorV2Props> = ({
   }
 
   const effectiveScrollY = scrollY !== undefined && scrollY !== null ? scrollY : computedScrollY;
+  const isBoardNative = variant === "board-native";
 
   return (
     <div
@@ -137,11 +141,12 @@ export const ChalkCodeEditorV2: React.FC<ChalkCodeEditorV2Props> = ({
       style={{
         width,
         height,
-        borderRadius: 18,
-        backgroundColor: "rgba(7, 24, 17, 0.97)",
-        border: "2px solid rgba(248, 246, 240, 0.28)",
-        boxShadow:
-          "0 20px 50px rgba(0, 0, 0, 0.75), 0 0 35px rgba(6, 214, 160, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.12)",
+        borderRadius: isBoardNative ? 0 : 18,
+        backgroundColor: isBoardNative ? "transparent" : "rgba(7, 24, 17, 0.97)",
+        border: isBoardNative ? "none" : "2px solid rgba(248, 246, 240, 0.28)",
+        boxShadow: isBoardNative
+          ? "none"
+          : "0 20px 50px rgba(0, 0, 0, 0.75), 0 0 35px rgba(6, 214, 160, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.12)",
         display: "flex",
         flexDirection: "column",
         overflow: "hidden",
@@ -152,96 +157,139 @@ export const ChalkCodeEditorV2: React.FC<ChalkCodeEditorV2Props> = ({
       }}
     >
       {/* 1. Header Title Bar */}
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          padding: "13px 20px",
-          borderBottom: "1.5px solid rgba(255, 253, 247, 0.16)",
-          backgroundColor: "rgba(5, 18, 13, 0.9)",
-        }}
-      >
-        <div style={{ display: "flex", alignItems: "center", gap: 9 }}>
-          <span
-            style={{
-              width: 12,
-              height: 12,
-              borderRadius: "50%",
-              backgroundColor: "#FF5F56",
-              border: "1px solid rgba(255, 95, 86, 0.4)",
-              boxShadow: "0 0 6px rgba(255, 95, 86, 0.4)",
-              display: "inline-block",
-            }}
-          />
-          <span
-            style={{
-              width: 12,
-              height: 12,
-              borderRadius: "50%",
-              backgroundColor: "#FFBD2E",
-              border: "1px solid rgba(255, 189, 46, 0.4)",
-              boxShadow: "0 0 6px rgba(255, 189, 46, 0.4)",
-              display: "inline-block",
-            }}
-          />
-          <span
-            style={{
-              width: 12,
-              height: 12,
-              borderRadius: "50%",
-              backgroundColor: "#27C93F",
-              border: "1px solid rgba(39, 201, 63, 0.4)",
-              boxShadow: "0 0 6px rgba(39, 201, 63, 0.4)",
-              display: "inline-block",
-            }}
-          />
-
-          {/* Active File Tab */}
+      {isBoardNative ? (
+        title ? (
           <div
             style={{
-              marginLeft: 14,
               display: "flex",
+              justifyContent: "space-between",
               alignItems: "center",
-              gap: 8,
-              padding: "4px 14px",
-              borderRadius: "6px 6px 0 0",
-              backgroundColor: "rgba(10, 36, 25, 0.95)",
-              border: "1px solid rgba(255, 253, 247, 0.18)",
-              borderBottom: "none",
+              padding: "4px 8px 12px 8px",
+              borderBottom: "1.5px solid rgba(255, 255, 255, 0.2)",
+              marginBottom: 12,
             }}
           >
-            <span style={{ fontSize: 13 }}>🐍</span>
-            <span
-              style={{
-                fontFamily: fonts.mono,
-                fontSize: 14,
-                fontWeight: 800,
-                color: "rgba(255, 253, 247, 0.92)",
-                letterSpacing: "0.02em",
-              }}
-            >
-              {title}
-            </span>
+            <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+              <span style={{ fontSize: 20 }}>🐍</span>
+              <span
+                style={{
+                  fontFamily: fonts.hand,
+                  fontSize: 26,
+                  fontWeight: "bold",
+                  color: theme.cyan,
+                  letterSpacing: 1,
+                }}
+              >
+                {title}
+              </span>
+            </div>
+            {language && (
+              <span
+                style={{
+                  fontFamily: fonts.mono,
+                  fontSize: 14,
+                  fontWeight: "bold",
+                  color: theme.good,
+                  letterSpacing: 1,
+                }}
+              >
+                {language}
+              </span>
+            )}
           </div>
-        </div>
-
+        ) : null
+      ) : (
         <div
           style={{
-            fontFamily: fonts.mono,
-            fontSize: 12,
-            fontWeight: 800,
-            color: "#6EE7B7",
-            letterSpacing: "0.08em",
-            padding: "3px 10px",
-            borderRadius: 6,
-            backgroundColor: "rgba(110, 231, 183, 0.12)",
-            border: "1px solid rgba(110, 231, 183, 0.25)",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            padding: "13px 20px",
+            borderBottom: "1.5px solid rgba(255, 253, 247, 0.16)",
+            backgroundColor: "rgba(5, 18, 13, 0.9)",
           }}
         >
-          {language}
+          <div style={{ display: "flex", alignItems: "center", gap: 9 }}>
+            <span
+              style={{
+                width: 12,
+                height: 12,
+                borderRadius: "50%",
+                backgroundColor: "#FF5F56",
+                border: "1px solid rgba(255, 95, 86, 0.4)",
+                boxShadow: "0 0 6px rgba(255, 95, 86, 0.4)",
+                display: "inline-block",
+              }}
+            />
+            <span
+              style={{
+                width: 12,
+                height: 12,
+                borderRadius: "50%",
+                backgroundColor: "#FFBD2E",
+                border: "1px solid rgba(255, 189, 46, 0.4)",
+                boxShadow: "0 0 6px rgba(255, 189, 46, 0.4)",
+                display: "inline-block",
+              }}
+            />
+            <span
+              style={{
+                width: 12,
+                height: 12,
+                borderRadius: "50%",
+                backgroundColor: "#27C93F",
+                border: "1px solid rgba(39, 201, 63, 0.4)",
+                boxShadow: "0 0 6px rgba(39, 201, 63, 0.4)",
+                display: "inline-block",
+              }}
+            />
+
+            {/* Active File Tab */}
+            <div
+              style={{
+                marginLeft: 14,
+                display: "flex",
+                alignItems: "center",
+                gap: 8,
+                padding: "4px 14px",
+                borderRadius: "6px 6px 0 0",
+                backgroundColor: "rgba(10, 36, 25, 0.95)",
+                border: "1px solid rgba(255, 253, 247, 0.18)",
+                borderBottom: "none",
+              }}
+            >
+              <span style={{ fontSize: 13 }}>🐍</span>
+              <span
+                style={{
+                  fontFamily: fonts.mono,
+                  fontSize: 14,
+                  fontWeight: 800,
+                  color: "rgba(255, 253, 247, 0.92)",
+                  letterSpacing: "0.02em",
+                }}
+              >
+                {title}
+              </span>
+            </div>
+          </div>
+
+          <div
+            style={{
+              fontFamily: fonts.mono,
+              fontSize: 12,
+              fontWeight: 800,
+              color: "#6EE7B7",
+              letterSpacing: "0.08em",
+              padding: "3px 10px",
+              borderRadius: 6,
+              backgroundColor: "rgba(110, 231, 183, 0.12)",
+              border: "1px solid rgba(110, 231, 183, 0.25)",
+            }}
+          >
+            {language}
+          </div>
         </div>
-      </div>
+      )}
 
       {/* 2. Code Lines Viewport */}
       <div

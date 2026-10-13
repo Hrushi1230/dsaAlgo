@@ -11,20 +11,45 @@ questions/01-arrays-hashing/006-group-anagrams/
 questions/01-arrays-hashing/007-top-k-frequent-elements/
 questions/01-arrays-hashing/008-product-of-array-except-self/
 questions/01-arrays-hashing/009-valid-sudoku/
-questions/01-arrays-hashing/016-subarray-sum-equals-k/
 
-# Exclude all media, audio, image, video, and archive files in questions
-questions/**/audio/
-questions/**/output/
-questions/**/*.mp3
-questions/**/*.wav
-questions/**/*.m4a
-questions/**/*.png
-questions/**/*.jpg
-questions/**/*.jpeg
-questions/**/*.webp
-questions/**/*.gif
-questions/**/*.zip
+# Exclude all media, audio, image, video, and archive files globally
+**/audio/
+**/output/
+**/proofs/
+**/stills/
+proofs/
+stills/
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.bmp
+*.ico
+*.tiff
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.flv
+*.wmv
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Python cache & bytecode
+__pycache__/
+*.pyc
 
 # Exclude remotion public directory and root public junction (all heavy assets, audio, video)
 public/

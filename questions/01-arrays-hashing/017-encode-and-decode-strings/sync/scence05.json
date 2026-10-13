@@ -1,0 +1,535 @@
+{
+  "audio_file": "05-encode-code.mp3",
+  "duration_ms": 23360,
+  "duration_frames": 701,
+  "fps": 30,
+  "word_count": 50,
+  "words": [
+    {
+      "word": "The",
+      "start_ms": 0,
+      "end_ms": 320,
+      "start_frame": 0,
+      "end_frame": 10
+    },
+    {
+      "word": "code",
+      "start_ms": 320,
+      "end_ms": 560,
+      "start_frame": 10,
+      "end_frame": 17
+    },
+    {
+      "word": "is",
+      "start_ms": 560,
+      "end_ms": 820,
+      "start_frame": 17,
+      "end_frame": 25
+    },
+    {
+      "word": "short.",
+      "start_ms": 820,
+      "end_ms": 1300,
+      "start_frame": 25,
+      "end_frame": 39
+    },
+    {
+      "word": "Create",
+      "start_ms": 2000,
+      "end_ms": 2300,
+      "start_frame": 60,
+      "end_frame": 69
+    },
+    {
+      "word": "an",
+      "start_ms": 2300,
+      "end_ms": 2600,
+      "start_frame": 69,
+      "end_frame": 78
+    },
+    {
+      "word": "empty",
+      "start_ms": 2600,
+      "end_ms": 2900,
+      "start_frame": 78,
+      "end_frame": 87
+    },
+    {
+      "word": "list",
+      "start_ms": 2900,
+      "end_ms": 3280,
+      "start_frame": 87,
+      "end_frame": 98
+    },
+    {
+      "word": "called",
+      "start_ms": 3280,
+      "end_ms": 3680,
+      "start_frame": 98,
+      "end_frame": 110
+    },
+    {
+      "word": "parts.",
+      "start_ms": 3680,
+      "end_ms": 4180,
+      "start_frame": 110,
+      "end_frame": 125
+    },
+    {
+      "word": "For",
+      "start_ms": 4940,
+      "end_ms": 5140,
+      "start_frame": 148,
+      "end_frame": 154
+    },
+    {
+      "word": "every",
+      "start_ms": 5140,
+      "end_ms": 5540,
+      "start_frame": 154,
+      "end_frame": 166
+    },
+    {
+      "word": "input",
+      "start_ms": 5540,
+      "end_ms": 5900,
+      "start_frame": 166,
+      "end_frame": 177
+    },
+    {
+      "word": "string,",
+      "start_ms": 5900,
+      "end_ms": 6400,
+      "start_frame": 177,
+      "end_frame": 192
+    },
+    {
+      "word": "append",
+      "start_ms": 7020,
+      "end_ms": 7240,
+      "start_frame": 211,
+      "end_frame": 217
+    },
+    {
+      "word": "its",
+      "start_ms": 7240,
+      "end_ms": 7520,
+      "start_frame": 217,
+      "end_frame": 226
+    },
+    {
+      "word": "length",
+      "start_ms": 7520,
+      "end_ms": 7900,
+      "start_frame": 226,
+      "end_frame": 237
+    },
+    {
+      "word": "as",
+      "start_ms": 7900,
+      "end_ms": 8340,
+      "start_frame": 237,
+      "end_frame": 250
+    },
+    {
+      "word": "text.",
+      "start_ms": 8340,
+      "end_ms": 8840,
+      "start_frame": 250,
+      "end_frame": 265
+    },
+    {
+      "word": "Append",
+      "start_ms": 9500,
+      "end_ms": 9840,
+      "start_frame": 285,
+      "end_frame": 295
+    },
+    {
+      "word": "the",
+      "start_ms": 9840,
+      "end_ms": 10020,
+      "start_frame": 295,
+      "end_frame": 301
+    },
+    {
+      "word": "hash.",
+      "start_ms": 10020,
+      "end_ms": 10380,
+      "start_frame": 301,
+      "end_frame": 311
+    },
+    {
+      "word": "Then",
+      "start_ms": 10820,
+      "end_ms": 11040,
+      "start_frame": 325,
+      "end_frame": 331
+    },
+    {
+      "word": "append",
+      "start_ms": 11040,
+      "end_ms": 11380,
+      "start_frame": 331,
+      "end_frame": 341
+    },
+    {
+      "word": "the",
+      "start_ms": 11380,
+      "end_ms": 11660,
+      "start_frame": 341,
+      "end_frame": 350
+    },
+    {
+      "word": "string",
+      "start_ms": 11660,
+      "end_ms": 11900,
+      "start_frame": 350,
+      "end_frame": 357
+    },
+    {
+      "word": "itself.",
+      "start_ms": 11900,
+      "end_ms": 12500,
+      "start_frame": 357,
+      "end_frame": 375
+    },
+    {
+      "word": "After",
+      "start_ms": 13360,
+      "end_ms": 13660,
+      "start_frame": 401,
+      "end_frame": 410
+    },
+    {
+      "word": "the",
+      "start_ms": 13660,
+      "end_ms": 13920,
+      "start_frame": 410,
+      "end_frame": 418
+    },
+    {
+      "word": "loop,",
+      "start_ms": 13920,
+      "end_ms": 14120,
+      "start_frame": 418,
+      "end_frame": 424
+    },
+    {
+      "word": "join",
+      "start_ms": 14680,
+      "end_ms": 15120,
+      "start_frame": 440,
+      "end_frame": 454
+    },
+    {
+      "word": "all",
+      "start_ms": 15120,
+      "end_ms": 15480,
+      "start_frame": 454,
+      "end_frame": 464
+    },
+    {
+      "word": "the",
+      "start_ms": 15480,
+      "end_ms": 15700,
+      "start_frame": 464,
+      "end_frame": 471
+    },
+    {
+      "word": "parts",
+      "start_ms": 15700,
+      "end_ms": 15960,
+      "start_frame": 471,
+      "end_frame": 479
+    },
+    {
+      "word": "into",
+      "start_ms": 15960,
+      "end_ms": 16420,
+      "start_frame": 479,
+      "end_frame": 493
+    },
+    {
+      "word": "one",
+      "start_ms": 16420,
+      "end_ms": 16840,
+      "start_frame": 493,
+      "end_frame": 505
+    },
+    {
+      "word": "string.",
+      "start_ms": 16840,
+      "end_ms": 17180,
+      "start_frame": 505,
+      "end_frame": 515
+    },
+    {
+      "word": "And",
+      "start_ms": 17840,
+      "end_ms": 18140,
+      "start_frame": 535,
+      "end_frame": 544
+    },
+    {
+      "word": "return",
+      "start_ms": 18140,
+      "end_ms": 18560,
+      "start_frame": 544,
+      "end_frame": 557
+    },
+    {
+      "word": "it.",
+      "start_ms": 18560,
+      "end_ms": 18860,
+      "start_frame": 557,
+      "end_frame": 566
+    },
+    {
+      "word": "That's",
+      "start_ms": 19620,
+      "end_ms": 20040,
+      "start_frame": 589,
+      "end_frame": 601
+    },
+    {
+      "word": "the",
+      "start_ms": 20040,
+      "end_ms": 20260,
+      "start_frame": 601,
+      "end_frame": 608
+    },
+    {
+      "word": "encoder.",
+      "start_ms": 20260,
+      "end_ms": 20740,
+      "start_frame": 608,
+      "end_frame": 622
+    },
+    {
+      "word": "Now",
+      "start_ms": 21280,
+      "end_ms": 21480,
+      "start_frame": 638,
+      "end_frame": 644
+    },
+    {
+      "word": "let's",
+      "start_ms": 21480,
+      "end_ms": 21860,
+      "start_frame": 644,
+      "end_frame": 656
+    },
+    {
+      "word": "decode",
+      "start_ms": 21860,
+      "end_ms": 22200,
+      "start_frame": 656,
+      "end_frame": 666
+    },
+    {
+      "word": "the",
+      "start_ms": 22200,
+      "end_ms": 22420,
+      "start_frame": 666,
+      "end_frame": 673
+    },
+    {
+      "word": "string",
+      "start_ms": 22420,
+      "end_ms": 22600,
+      "start_frame": 673,
+      "end_frame": 678
+    },
+    {
+      "word": "we",
+      "start_ms": 22600,
+      "end_ms": 22940,
+      "start_frame": 678,
+      "end_frame": 688
+    },
+    {
+      "word": "created.",
+      "start_ms": 22940,
+      "end_ms": 23360,
+      "start_frame": 688,
+      "end_frame": 701
+    }
+  ],
+  "sentences": [
+    {
+      "text": "The code is short.",
+      "start_ms": 0,
+      "end_ms": 1300,
+      "start_frame": 0,
+      "end_frame": 39,
+      "word_count": 4
+    },
+    {
+      "text": "Create an empty list called parts.",
+      "start_ms": 2000,
+      "end_ms": 4180,
+      "start_frame": 60,
+      "end_frame": 125,
+      "word_count": 6
+    },
+    {
+      "text": "For every input string, append its length as text.",
+      "start_ms": 4940,
+      "end_ms": 8840,
+      "start_frame": 148,
+      "end_frame": 265,
+      "word_count": 9
+    },
+    {
+      "text": "Append the hash.",
+      "start_ms": 9500,
+      "end_ms": 10380,
+      "start_frame": 285,
+      "end_frame": 311,
+      "word_count": 3
+    },
+    {
+      "text": "Then append the string itself.",
+      "start_ms": 10820,
+      "end_ms": 12500,
+      "start_frame": 325,
+      "end_frame": 375,
+      "word_count": 5
+    },
+    {
+      "text": "After the loop, join all the parts into one string.",
+      "start_ms": 13360,
+      "end_ms": 17180,
+      "start_frame": 401,
+      "end_frame": 515,
+      "word_count": 10
+    },
+    {
+      "text": "And return it.",
+      "start_ms": 17840,
+      "end_ms": 18860,
+      "start_frame": 535,
+      "end_frame": 566,
+      "word_count": 3
+    },
+    {
+      "text": "That's the encoder.",
+      "start_ms": 19620,
+      "end_ms": 20740,
+      "start_frame": 589,
+      "end_frame": 622,
+      "word_count": 3
+    },
+    {
+      "text": "Now let's decode the string we created.",
+      "start_ms": 21280,
+      "end_ms": 23360,
+      "start_frame": 638,
+      "end_frame": 701,
+      "word_count": 7
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "short.",
+      "before_word": "Create",
+      "start_ms": 1300,
+      "end_ms": 2000,
+      "duration_ms": 700,
+      "start_frame": 39,
+      "end_frame": 60,
+      "duration_frames": 21
+    },
+    {
+      "after_word": "parts.",
+      "before_word": "For",
+      "start_ms": 4180,
+      "end_ms": 4940,
+      "duration_ms": 760,
+      "start_frame": 125,
+      "end_frame": 148,
+      "duration_frames": 23
+    },
+    {
+      "after_word": "string,",
+      "before_word": "append",
+      "start_ms": 6400,
+      "end_ms": 7020,
+      "duration_ms": 620,
+      "start_frame": 192,
+      "end_frame": 211,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "text.",
+      "before_word": "Append",
+      "start_ms": 8840,
+      "end_ms": 9500,
+      "duration_ms": 660,
+      "start_frame": 265,
+      "end_frame": 285,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "hash.",
+      "before_word": "Then",
+      "start_ms": 10380,
+      "end_ms": 10820,
+      "duration_ms": 440,
+      "start_frame": 311,
+      "end_frame": 325,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "itself.",
+      "before_word": "After",
+      "start_ms": 12500,
+      "end_ms": 13360,
+      "duration_ms": 860,
+      "start_frame": 375,
+      "end_frame": 401,
+      "duration_frames": 26
+    },
+    {
+      "after_word": "loop,",
+      "before_word": "join",
+      "start_ms": 14120,
+      "end_ms": 14680,
+      "duration_ms": 560,
+      "start_frame": 424,
+      "end_frame": 440,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "string.",
+      "before_word": "And",
+      "start_ms": 17180,
+      "end_ms": 17840,
+      "duration_ms": 660,
+      "start_frame": 515,
+      "end_frame": 535,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "it.",
+      "before_word": "That's",
+      "start_ms": 18860,
+      "end_ms": 19620,
+      "duration_ms": 760,
+      "start_frame": 566,
+      "end_frame": 589,
+      "duration_frames": 23
+    },
+    {
+      "after_word": "encoder.",
+      "before_word": "Now",
+      "start_ms": 20740,
+      "end_ms": 21280,
+      "duration_ms": 540,
+      "start_frame": 622,
+      "end_frame": 638,
+      "duration_frames": 16
+    }
+  ]
+}

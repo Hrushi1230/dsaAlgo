@@ -1,0 +1,339 @@
+{
+  "audio_file": "01-roadmap.mp3",
+  "duration_ms": 20860,
+  "duration_frames": 626,
+  "fps": 30,
+  "word_count": 30,
+  "words": [
+    {
+      "word": "Question",
+      "start_ms": 0,
+      "end_ms": 700,
+      "start_frame": 0,
+      "end_frame": 21
+    },
+    {
+      "word": "17.",
+      "start_ms": 700,
+      "end_ms": 1840,
+      "start_frame": 21,
+      "end_frame": 55
+    },
+    {
+      "word": "Encode",
+      "start_ms": 2660,
+      "end_ms": 3240,
+      "start_frame": 80,
+      "end_frame": 97
+    },
+    {
+      "word": "and",
+      "start_ms": 3240,
+      "end_ms": 3640,
+      "start_frame": 97,
+      "end_frame": 109
+    },
+    {
+      "word": "decode",
+      "start_ms": 3640,
+      "end_ms": 4200,
+      "start_frame": 109,
+      "end_frame": 126
+    },
+    {
+      "word": "strings.",
+      "start_ms": 4200,
+      "end_ms": 4660,
+      "start_frame": 126,
+      "end_frame": 140
+    },
+    {
+      "word": "Is",
+      "start_ms": 5220,
+      "end_ms": 5540,
+      "start_frame": 157,
+      "end_frame": 166
+    },
+    {
+      "word": "complete.",
+      "start_ms": 5540,
+      "end_ms": 6040,
+      "start_frame": 166,
+      "end_frame": 181
+    },
+    {
+      "word": "We",
+      "start_ms": 6620,
+      "end_ms": 6760,
+      "start_frame": 199,
+      "end_frame": 203
+    },
+    {
+      "word": "are",
+      "start_ms": 6760,
+      "end_ms": 7000,
+      "start_frame": 203,
+      "end_frame": 210
+    },
+    {
+      "word": "at",
+      "start_ms": 7000,
+      "end_ms": 7300,
+      "start_frame": 210,
+      "end_frame": 219
+    },
+    {
+      "word": "17",
+      "start_ms": 7300,
+      "end_ms": 8100,
+      "start_frame": 219,
+      "end_frame": 243
+    },
+    {
+      "word": "out",
+      "start_ms": 8100,
+      "end_ms": 8660,
+      "start_frame": 243,
+      "end_frame": 260
+    },
+    {
+      "word": "of",
+      "start_ms": 8660,
+      "end_ms": 9040,
+      "start_frame": 260,
+      "end_frame": 271
+    },
+    {
+      "word": "227.",
+      "start_ms": 9040,
+      "end_ms": 11080,
+      "start_frame": 271,
+      "end_frame": 332
+    },
+    {
+      "word": "Now",
+      "start_ms": 11920,
+      "end_ms": 12380,
+      "start_frame": 358,
+      "end_frame": 371
+    },
+    {
+      "word": "question",
+      "start_ms": 12380,
+      "end_ms": 13560,
+      "start_frame": 371,
+      "end_frame": 407
+    },
+    {
+      "word": "18.",
+      "start_ms": 13560,
+      "end_ms": 14280,
+      "start_frame": 407,
+      "end_frame": 428
+    },
+    {
+      "word": "First",
+      "start_ms": 14760,
+      "end_ms": 15180,
+      "start_frame": 443,
+      "end_frame": 455
+    },
+    {
+      "word": "missing",
+      "start_ms": 15180,
+      "end_ms": 15580,
+      "start_frame": 455,
+      "end_frame": 467
+    },
+    {
+      "word": "positive.",
+      "start_ms": 15580,
+      "end_ms": 16180,
+      "start_frame": 467,
+      "end_frame": 485
+    },
+    {
+      "word": "This",
+      "start_ms": 17220,
+      "end_ms": 17480,
+      "start_frame": 517,
+      "end_frame": 524
+    },
+    {
+      "word": "is",
+      "start_ms": 17480,
+      "end_ms": 17720,
+      "start_frame": 524,
+      "end_frame": 532
+    },
+    {
+      "word": "our",
+      "start_ms": 17720,
+      "end_ms": 17900,
+      "start_frame": 532,
+      "end_frame": 537
+    },
+    {
+      "word": "last",
+      "start_ms": 17900,
+      "end_ms": 18280,
+      "start_frame": 537,
+      "end_frame": 548
+    },
+    {
+      "word": "question",
+      "start_ms": 18280,
+      "end_ms": 18840,
+      "start_frame": 548,
+      "end_frame": 565
+    },
+    {
+      "word": "in",
+      "start_ms": 18840,
+      "end_ms": 19440,
+      "start_frame": 565,
+      "end_frame": 583
+    },
+    {
+      "word": "arrays",
+      "start_ms": 19440,
+      "end_ms": 19920,
+      "start_frame": 583,
+      "end_frame": 598
+    },
+    {
+      "word": "and",
+      "start_ms": 19920,
+      "end_ms": 20440,
+      "start_frame": 598,
+      "end_frame": 613
+    },
+    {
+      "word": "hashing.",
+      "start_ms": 20440,
+      "end_ms": 20860,
+      "start_frame": 613,
+      "end_frame": 626
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Question 17.",
+      "start_ms": 0,
+      "end_ms": 1840,
+      "start_frame": 0,
+      "end_frame": 55,
+      "word_count": 2
+    },
+    {
+      "text": "Encode and decode strings.",
+      "start_ms": 2660,
+      "end_ms": 4660,
+      "start_frame": 80,
+      "end_frame": 140,
+      "word_count": 4
+    },
+    {
+      "text": "Is complete.",
+      "start_ms": 5220,
+      "end_ms": 6040,
+      "start_frame": 157,
+      "end_frame": 181,
+      "word_count": 2
+    },
+    {
+      "text": "We are at 17 out of 227.",
+      "start_ms": 6620,
+      "end_ms": 11080,
+      "start_frame": 199,
+      "end_frame": 332,
+      "word_count": 7
+    },
+    {
+      "text": "Now question 18.",
+      "start_ms": 11920,
+      "end_ms": 14280,
+      "start_frame": 358,
+      "end_frame": 428,
+      "word_count": 3
+    },
+    {
+      "text": "First missing positive.",
+      "start_ms": 14760,
+      "end_ms": 16180,
+      "start_frame": 443,
+      "end_frame": 485,
+      "word_count": 3
+    },
+    {
+      "text": "This is our last question in arrays and hashing.",
+      "start_ms": 17220,
+      "end_ms": 20860,
+      "start_frame": 517,
+      "end_frame": 626,
+      "word_count": 9
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "17.",
+      "before_word": "Encode",
+      "start_ms": 1840,
+      "end_ms": 2660,
+      "duration_ms": 820,
+      "start_frame": 55,
+      "end_frame": 80,
+      "duration_frames": 25
+    },
+    {
+      "after_word": "strings.",
+      "before_word": "Is",
+      "start_ms": 4660,
+      "end_ms": 5220,
+      "duration_ms": 560,
+      "start_frame": 140,
+      "end_frame": 157,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "complete.",
+      "before_word": "We",
+      "start_ms": 6040,
+      "end_ms": 6620,
+      "duration_ms": 580,
+      "start_frame": 181,
+      "end_frame": 199,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "227.",
+      "before_word": "Now",
+      "start_ms": 11080,
+      "end_ms": 11920,
+      "duration_ms": 840,
+      "start_frame": 332,
+      "end_frame": 358,
+      "duration_frames": 26
+    },
+    {
+      "after_word": "18.",
+      "before_word": "First",
+      "start_ms": 14280,
+      "end_ms": 14760,
+      "duration_ms": 480,
+      "start_frame": 428,
+      "end_frame": 443,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "positive.",
+      "before_word": "This",
+      "start_ms": 16180,
+      "end_ms": 17220,
+      "duration_ms": 1040,
+      "start_frame": 485,
+      "end_frame": 517,
+      "duration_frames": 32
+    }
+  ]
+}

@@ -1,0 +1,675 @@
+{
+  "audio_file": "08-limitation-bridge.mp3",
+  "duration_ms": 36160,
+  "duration_frames": 1085,
+  "fps": 30,
+  "word_count": 74,
+  "words": [
+    {
+      "word": "A",
+      "start_ms": 0,
+      "end_ms": 320,
+      "start_frame": 0,
+      "end_frame": 10
+    },
+    {
+      "word": "hash",
+      "start_ms": 320,
+      "end_ms": 560,
+      "start_frame": 10,
+      "end_frame": 17
+    },
+    {
+      "word": "set",
+      "start_ms": 560,
+      "end_ms": 840,
+      "start_frame": 17,
+      "end_frame": 25
+    },
+    {
+      "word": "gives",
+      "start_ms": 840,
+      "end_ms": 1160,
+      "start_frame": 25,
+      "end_frame": 35
+    },
+    {
+      "word": "expected",
+      "start_ms": 1160,
+      "end_ms": 1860,
+      "start_frame": 35,
+      "end_frame": 56
+    },
+    {
+      "word": "linear",
+      "start_ms": 1860,
+      "end_ms": 2280,
+      "start_frame": 56,
+      "end_frame": 68
+    },
+    {
+      "word": "time",
+      "start_ms": 2280,
+      "end_ms": 2780,
+      "start_frame": 68,
+      "end_frame": 83
+    },
+    {
+      "word": "but",
+      "start_ms": 2780,
+      "end_ms": 3220,
+      "start_frame": 83,
+      "end_frame": 97
+    },
+    {
+      "word": "can",
+      "start_ms": 3220,
+      "end_ms": 3460,
+      "start_frame": 97,
+      "end_frame": 104
+    },
+    {
+      "word": "hold",
+      "start_ms": 3460,
+      "end_ms": 3720,
+      "start_frame": 104,
+      "end_frame": 112
+    },
+    {
+      "word": "up",
+      "start_ms": 3720,
+      "end_ms": 3980,
+      "start_frame": 112,
+      "end_frame": 119
+    },
+    {
+      "word": "to",
+      "start_ms": 3980,
+      "end_ms": 4200,
+      "start_frame": 119,
+      "end_frame": 126
+    },
+    {
+      "word": "n",
+      "start_ms": 4200,
+      "end_ms": 4560,
+      "start_frame": 126,
+      "end_frame": 137
+    },
+    {
+      "word": "different",
+      "start_ms": 4560,
+      "end_ms": 5000,
+      "start_frame": 137,
+      "end_frame": 150
+    },
+    {
+      "word": "numbers,",
+      "start_ms": 5000,
+      "end_ms": 5660,
+      "start_frame": 150,
+      "end_frame": 170
+    },
+    {
+      "word": "that",
+      "start_ms": 6040,
+      "end_ms": 6280,
+      "start_frame": 181,
+      "end_frame": 188
+    },
+    {
+      "word": "is",
+      "start_ms": 6280,
+      "end_ms": 6580,
+      "start_frame": 188,
+      "end_frame": 197
+    },
+    {
+      "word": "O",
+      "start_ms": 6580,
+      "end_ms": 7080,
+      "start_frame": 197,
+      "end_frame": 212
+    },
+    {
+      "word": "of",
+      "start_ms": 7080,
+      "end_ms": 7320,
+      "start_frame": 212,
+      "end_frame": 220
+    },
+    {
+      "word": "n",
+      "start_ms": 7320,
+      "end_ms": 7840,
+      "start_frame": 220,
+      "end_frame": 235
+    },
+    {
+      "word": "extra",
+      "start_ms": 7840,
+      "end_ms": 8220,
+      "start_frame": 235,
+      "end_frame": 247
+    },
+    {
+      "word": "space.",
+      "start_ms": 8220,
+      "end_ms": 8700,
+      "start_frame": 247,
+      "end_frame": 261
+    },
+    {
+      "word": "And",
+      "start_ms": 9380,
+      "end_ms": 9640,
+      "start_frame": 281,
+      "end_frame": 289
+    },
+    {
+      "word": "the",
+      "start_ms": 9640,
+      "end_ms": 9780,
+      "start_frame": 289,
+      "end_frame": 293
+    },
+    {
+      "word": "question",
+      "start_ms": 9780,
+      "end_ms": 10240,
+      "start_frame": 293,
+      "end_frame": 307
+    },
+    {
+      "word": "allows",
+      "start_ms": 10240,
+      "end_ms": 10780,
+      "start_frame": 307,
+      "end_frame": 323
+    },
+    {
+      "word": "only",
+      "start_ms": 10780,
+      "end_ms": 11320,
+      "start_frame": 323,
+      "end_frame": 340
+    },
+    {
+      "word": "constant",
+      "start_ms": 11320,
+      "end_ms": 11940,
+      "start_frame": 340,
+      "end_frame": 358
+    },
+    {
+      "word": "extra",
+      "start_ms": 11940,
+      "end_ms": 12460,
+      "start_frame": 358,
+      "end_frame": 374
+    },
+    {
+      "word": "space.",
+      "start_ms": 12460,
+      "end_ms": 13000,
+      "start_frame": 374,
+      "end_frame": 390
+    },
+    {
+      "word": "So",
+      "start_ms": 13380,
+      "end_ms": 13580,
+      "start_frame": 401,
+      "end_frame": 407
+    },
+    {
+      "word": "we",
+      "start_ms": 13580,
+      "end_ms": 13760,
+      "start_frame": 407,
+      "end_frame": 413
+    },
+    {
+      "word": "cannot",
+      "start_ms": 13760,
+      "end_ms": 14100,
+      "start_frame": 413,
+      "end_frame": 423
+    },
+    {
+      "word": "carry",
+      "start_ms": 14100,
+      "end_ms": 14480,
+      "start_frame": 423,
+      "end_frame": 434
+    },
+    {
+      "word": "a",
+      "start_ms": 14480,
+      "end_ms": 14720,
+      "start_frame": 434,
+      "end_frame": 442
+    },
+    {
+      "word": "separate",
+      "start_ms": 14720,
+      "end_ms": 15180,
+      "start_frame": 442,
+      "end_frame": 455
+    },
+    {
+      "word": "set",
+      "start_ms": 15180,
+      "end_ms": 15540,
+      "start_frame": 455,
+      "end_frame": 466
+    },
+    {
+      "word": "into",
+      "start_ms": 15540,
+      "end_ms": 15880,
+      "start_frame": 466,
+      "end_frame": 476
+    },
+    {
+      "word": "the",
+      "start_ms": 15880,
+      "end_ms": 16160,
+      "start_frame": 476,
+      "end_frame": 485
+    },
+    {
+      "word": "final",
+      "start_ms": 16160,
+      "end_ms": 16520,
+      "start_frame": 485,
+      "end_frame": 496
+    },
+    {
+      "word": "solution.",
+      "start_ms": 16520,
+      "end_ms": 17080,
+      "start_frame": 496,
+      "end_frame": 512
+    },
+    {
+      "word": "We",
+      "start_ms": 17720,
+      "end_ms": 18000,
+      "start_frame": 532,
+      "end_frame": 540
+    },
+    {
+      "word": "still",
+      "start_ms": 18000,
+      "end_ms": 18340,
+      "start_frame": 540,
+      "end_frame": 550
+    },
+    {
+      "word": "need",
+      "start_ms": 18340,
+      "end_ms": 18560,
+      "start_frame": 550,
+      "end_frame": 557
+    },
+    {
+      "word": "to",
+      "start_ms": 18560,
+      "end_ms": 18780,
+      "start_frame": 557,
+      "end_frame": 563
+    },
+    {
+      "word": "know",
+      "start_ms": 18780,
+      "end_ms": 19020,
+      "start_frame": 563,
+      "end_frame": 571
+    },
+    {
+      "word": "which",
+      "start_ms": 19020,
+      "end_ms": 19380,
+      "start_frame": 571,
+      "end_frame": 581
+    },
+    {
+      "word": "positive",
+      "start_ms": 19380,
+      "end_ms": 20000,
+      "start_frame": 581,
+      "end_frame": 600
+    },
+    {
+      "word": "values",
+      "start_ms": 20000,
+      "end_ms": 20480,
+      "start_frame": 600,
+      "end_frame": 614
+    },
+    {
+      "word": "exist.",
+      "start_ms": 20480,
+      "end_ms": 21160,
+      "start_frame": 614,
+      "end_frame": 635
+    },
+    {
+      "word": "Could",
+      "start_ms": 22140,
+      "end_ms": 22340,
+      "start_frame": 664,
+      "end_frame": 670
+    },
+    {
+      "word": "the",
+      "start_ms": 22340,
+      "end_ms": 22680,
+      "start_frame": 670,
+      "end_frame": 680
+    },
+    {
+      "word": "original",
+      "start_ms": 22680,
+      "end_ms": 23220,
+      "start_frame": 680,
+      "end_frame": 697
+    },
+    {
+      "word": "array",
+      "start_ms": 23220,
+      "end_ms": 23720,
+      "start_frame": 697,
+      "end_frame": 712
+    },
+    {
+      "word": "positions",
+      "start_ms": 23720,
+      "end_ms": 24480,
+      "start_frame": 712,
+      "end_frame": 734
+    },
+    {
+      "word": "hold",
+      "start_ms": 24480,
+      "end_ms": 24920,
+      "start_frame": 734,
+      "end_frame": 748
+    },
+    {
+      "word": "that",
+      "start_ms": 24920,
+      "end_ms": 25360,
+      "start_frame": 748,
+      "end_frame": 761
+    },
+    {
+      "word": "information",
+      "start_ms": 25360,
+      "end_ms": 26160,
+      "start_frame": 761,
+      "end_frame": 785
+    },
+    {
+      "word": "for",
+      "start_ms": 26160,
+      "end_ms": 26480,
+      "start_frame": 785,
+      "end_frame": 794
+    },
+    {
+      "word": "us?",
+      "start_ms": 26480,
+      "end_ms": 27040,
+      "start_frame": 794,
+      "end_frame": 811
+    },
+    {
+      "word": "Without",
+      "start_ms": 27040,
+      "end_ms": 27980,
+      "start_frame": 811,
+      "end_frame": 839
+    },
+    {
+      "word": "another",
+      "start_ms": 27980,
+      "end_ms": 28480,
+      "start_frame": 839,
+      "end_frame": 854
+    },
+    {
+      "word": "data",
+      "start_ms": 28480,
+      "end_ms": 28940,
+      "start_frame": 854,
+      "end_frame": 868
+    },
+    {
+      "word": "structure?",
+      "start_ms": 28940,
+      "end_ms": 29460,
+      "start_frame": 868,
+      "end_frame": 884
+    },
+    {
+      "word": "Yes.",
+      "start_ms": 30420,
+      "end_ms": 30800,
+      "start_frame": 913,
+      "end_frame": 924
+    },
+    {
+      "word": "To",
+      "start_ms": 31920,
+      "end_ms": 32100,
+      "start_frame": 958,
+      "end_frame": 963
+    },
+    {
+      "word": "do",
+      "start_ms": 32100,
+      "end_ms": 32400,
+      "start_frame": 963,
+      "end_frame": 972
+    },
+    {
+      "word": "that,",
+      "start_ms": 32400,
+      "end_ms": 32860,
+      "start_frame": 972,
+      "end_frame": 986
+    },
+    {
+      "word": "we",
+      "start_ms": 33300,
+      "end_ms": 33540,
+      "start_frame": 999,
+      "end_frame": 1006
+    },
+    {
+      "word": "first",
+      "start_ms": 33540,
+      "end_ms": 33880,
+      "start_frame": 1006,
+      "end_frame": 1016
+    },
+    {
+      "word": "need",
+      "start_ms": 33880,
+      "end_ms": 34300,
+      "start_frame": 1016,
+      "end_frame": 1029
+    },
+    {
+      "word": "one",
+      "start_ms": 34300,
+      "end_ms": 34840,
+      "start_frame": 1029,
+      "end_frame": 1045
+    },
+    {
+      "word": "important",
+      "start_ms": 34840,
+      "end_ms": 35660,
+      "start_frame": 1045,
+      "end_frame": 1070
+    },
+    {
+      "word": "bound.",
+      "start_ms": 35660,
+      "end_ms": 36160,
+      "start_frame": 1070,
+      "end_frame": 1085
+    }
+  ],
+  "sentences": [
+    {
+      "text": "A hash set gives expected linear time but can hold up to n different numbers, that is O of n extra space.",
+      "start_ms": 0,
+      "end_ms": 8700,
+      "start_frame": 0,
+      "end_frame": 261,
+      "word_count": 22
+    },
+    {
+      "text": "And the question allows only constant extra space.",
+      "start_ms": 9380,
+      "end_ms": 13000,
+      "start_frame": 281,
+      "end_frame": 390,
+      "word_count": 8
+    },
+    {
+      "text": "So we cannot carry a separate set into the final solution.",
+      "start_ms": 13380,
+      "end_ms": 17080,
+      "start_frame": 401,
+      "end_frame": 512,
+      "word_count": 11
+    },
+    {
+      "text": "We still need to know which positive values exist.",
+      "start_ms": 17720,
+      "end_ms": 21160,
+      "start_frame": 532,
+      "end_frame": 635,
+      "word_count": 9
+    },
+    {
+      "text": "Could the original array positions hold that information for us?",
+      "start_ms": 22140,
+      "end_ms": 27040,
+      "start_frame": 664,
+      "end_frame": 811,
+      "word_count": 10
+    },
+    {
+      "text": "Without another data structure?",
+      "start_ms": 27040,
+      "end_ms": 29460,
+      "start_frame": 811,
+      "end_frame": 884,
+      "word_count": 4
+    },
+    {
+      "text": "Yes.",
+      "start_ms": 30420,
+      "end_ms": 30800,
+      "start_frame": 913,
+      "end_frame": 924,
+      "word_count": 1
+    },
+    {
+      "text": "To do that, we first need one important bound.",
+      "start_ms": 31920,
+      "end_ms": 36160,
+      "start_frame": 958,
+      "end_frame": 1085,
+      "word_count": 9
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "numbers,",
+      "before_word": "that",
+      "start_ms": 5660,
+      "end_ms": 6040,
+      "duration_ms": 380,
+      "start_frame": 170,
+      "end_frame": 181,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "space.",
+      "before_word": "And",
+      "start_ms": 8700,
+      "end_ms": 9380,
+      "duration_ms": 680,
+      "start_frame": 261,
+      "end_frame": 281,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "space.",
+      "before_word": "So",
+      "start_ms": 13000,
+      "end_ms": 13380,
+      "duration_ms": 380,
+      "start_frame": 390,
+      "end_frame": 401,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "solution.",
+      "before_word": "We",
+      "start_ms": 17080,
+      "end_ms": 17720,
+      "duration_ms": 640,
+      "start_frame": 512,
+      "end_frame": 532,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "exist.",
+      "before_word": "Could",
+      "start_ms": 21160,
+      "end_ms": 22140,
+      "duration_ms": 980,
+      "start_frame": 635,
+      "end_frame": 664,
+      "duration_frames": 29
+    },
+    {
+      "after_word": "structure?",
+      "before_word": "Yes.",
+      "start_ms": 29460,
+      "end_ms": 30420,
+      "duration_ms": 960,
+      "start_frame": 884,
+      "end_frame": 913,
+      "duration_frames": 29
+    },
+    {
+      "after_word": "Yes.",
+      "before_word": "To",
+      "start_ms": 30800,
+      "end_ms": 31920,
+      "duration_ms": 1120,
+      "start_frame": 924,
+      "end_frame": 958,
+      "duration_frames": 34
+    },
+    {
+      "after_word": "that,",
+      "before_word": "we",
+      "start_ms": 32860,
+      "end_ms": 33300,
+      "duration_ms": 440,
+      "start_frame": 986,
+      "end_frame": 999,
+      "duration_frames": 13
+    }
+  ]
+}

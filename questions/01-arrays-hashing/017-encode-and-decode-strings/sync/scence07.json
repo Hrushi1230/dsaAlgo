@@ -1,0 +1,804 @@
+{
+  "audio_file": "07-decode-code.mp3",
+  "duration_ms": 36700,
+  "duration_frames": 1101,
+  "fps": 30,
+  "word_count": 83,
+  "words": [
+    {
+      "word": "Start",
+      "start_ms": 0,
+      "end_ms": 440,
+      "start_frame": 0,
+      "end_frame": 13
+    },
+    {
+      "word": "with",
+      "start_ms": 440,
+      "end_ms": 580,
+      "start_frame": 13,
+      "end_frame": 17
+    },
+    {
+      "word": "an",
+      "start_ms": 580,
+      "end_ms": 800,
+      "start_frame": 17,
+      "end_frame": 24
+    },
+    {
+      "word": "empty",
+      "start_ms": 800,
+      "end_ms": 1080,
+      "start_frame": 24,
+      "end_frame": 32
+    },
+    {
+      "word": "result",
+      "start_ms": 1080,
+      "end_ms": 1480,
+      "start_frame": 32,
+      "end_frame": 44
+    },
+    {
+      "word": "list",
+      "start_ms": 1480,
+      "end_ms": 1960,
+      "start_frame": 44,
+      "end_frame": 59
+    },
+    {
+      "word": "and",
+      "start_ms": 1960,
+      "end_ms": 2700,
+      "start_frame": 59,
+      "end_frame": 81
+    },
+    {
+      "word": "set",
+      "start_ms": 2700,
+      "end_ms": 3080,
+      "start_frame": 81,
+      "end_frame": 92
+    },
+    {
+      "word": "i",
+      "start_ms": 3080,
+      "end_ms": 3380,
+      "start_frame": 92,
+      "end_frame": 101
+    },
+    {
+      "word": "to",
+      "start_ms": 3380,
+      "end_ms": 3540,
+      "start_frame": 101,
+      "end_frame": 106
+    },
+    {
+      "word": "0.",
+      "start_ms": 3540,
+      "end_ms": 4080,
+      "start_frame": 106,
+      "end_frame": 122
+    },
+    {
+      "word": "While",
+      "start_ms": 4900,
+      "end_ms": 5100,
+      "start_frame": 147,
+      "end_frame": 153
+    },
+    {
+      "word": "i",
+      "start_ms": 5100,
+      "end_ms": 5400,
+      "start_frame": 153,
+      "end_frame": 162
+    },
+    {
+      "word": "is",
+      "start_ms": 5400,
+      "end_ms": 5640,
+      "start_frame": 162,
+      "end_frame": 169
+    },
+    {
+      "word": "inside",
+      "start_ms": 5640,
+      "end_ms": 6020,
+      "start_frame": 169,
+      "end_frame": 181
+    },
+    {
+      "word": "the",
+      "start_ms": 6020,
+      "end_ms": 6260,
+      "start_frame": 181,
+      "end_frame": 188
+    },
+    {
+      "word": "encoded",
+      "start_ms": 6260,
+      "end_ms": 6720,
+      "start_frame": 188,
+      "end_frame": 202
+    },
+    {
+      "word": "string,",
+      "start_ms": 6720,
+      "end_ms": 7240,
+      "start_frame": 202,
+      "end_frame": 217
+    },
+    {
+      "word": "set",
+      "start_ms": 7680,
+      "end_ms": 7980,
+      "start_frame": 230,
+      "end_frame": 239
+    },
+    {
+      "word": "j",
+      "start_ms": 7980,
+      "end_ms": 8320,
+      "start_frame": 239,
+      "end_frame": 250
+    },
+    {
+      "word": "to",
+      "start_ms": 8320,
+      "end_ms": 8520,
+      "start_frame": 250,
+      "end_frame": 256
+    },
+    {
+      "word": "i.",
+      "start_ms": 8520,
+      "end_ms": 9040,
+      "start_frame": 256,
+      "end_frame": 271
+    },
+    {
+      "word": "Move",
+      "start_ms": 9440,
+      "end_ms": 9720,
+      "start_frame": 283,
+      "end_frame": 292
+    },
+    {
+      "word": "j",
+      "start_ms": 9720,
+      "end_ms": 10020,
+      "start_frame": 292,
+      "end_frame": 301
+    },
+    {
+      "word": "until",
+      "start_ms": 10020,
+      "end_ms": 10260,
+      "start_frame": 301,
+      "end_frame": 308
+    },
+    {
+      "word": "the",
+      "start_ms": 10260,
+      "end_ms": 10480,
+      "start_frame": 308,
+      "end_frame": 314
+    },
+    {
+      "word": "next",
+      "start_ms": 10480,
+      "end_ms": 10820,
+      "start_frame": 314,
+      "end_frame": 325
+    },
+    {
+      "word": "header",
+      "start_ms": 10820,
+      "end_ms": 11200,
+      "start_frame": 325,
+      "end_frame": 336
+    },
+    {
+      "word": "hash.",
+      "start_ms": 11200,
+      "end_ms": 11760,
+      "start_frame": 336,
+      "end_frame": 353
+    },
+    {
+      "word": "Convert",
+      "start_ms": 12220,
+      "end_ms": 12620,
+      "start_frame": 367,
+      "end_frame": 379
+    },
+    {
+      "word": "the",
+      "start_ms": 12620,
+      "end_ms": 12820,
+      "start_frame": 379,
+      "end_frame": 385
+    },
+    {
+      "word": "digits",
+      "start_ms": 12820,
+      "end_ms": 13040,
+      "start_frame": 385,
+      "end_frame": 391
+    },
+    {
+      "word": "from",
+      "start_ms": 13040,
+      "end_ms": 13280,
+      "start_frame": 391,
+      "end_frame": 398
+    },
+    {
+      "word": "i",
+      "start_ms": 13280,
+      "end_ms": 13680,
+      "start_frame": 398,
+      "end_frame": 410
+    },
+    {
+      "word": "to",
+      "start_ms": 13680,
+      "end_ms": 13800,
+      "start_frame": 410,
+      "end_frame": 414
+    },
+    {
+      "word": "j",
+      "start_ms": 13800,
+      "end_ms": 14080,
+      "start_frame": 414,
+      "end_frame": 422
+    },
+    {
+      "word": "into",
+      "start_ms": 14080,
+      "end_ms": 14300,
+      "start_frame": 422,
+      "end_frame": 429
+    },
+    {
+      "word": "the",
+      "start_ms": 14300,
+      "end_ms": 14500,
+      "start_frame": 429,
+      "end_frame": 435
+    },
+    {
+      "word": "length.",
+      "start_ms": 14500,
+      "end_ms": 14740,
+      "start_frame": 435,
+      "end_frame": 442
+    },
+    {
+      "word": "Now",
+      "start_ms": 15300,
+      "end_ms": 15580,
+      "start_frame": 459,
+      "end_frame": 467
+    },
+    {
+      "word": "start",
+      "start_ms": 15580,
+      "end_ms": 15820,
+      "start_frame": 467,
+      "end_frame": 475
+    },
+    {
+      "word": "is",
+      "start_ms": 15820,
+      "end_ms": 16080,
+      "start_frame": 475,
+      "end_frame": 482
+    },
+    {
+      "word": "j",
+      "start_ms": 16080,
+      "end_ms": 16420,
+      "start_frame": 482,
+      "end_frame": 493
+    },
+    {
+      "word": "plus",
+      "start_ms": 16420,
+      "end_ms": 16700,
+      "start_frame": 493,
+      "end_frame": 501
+    },
+    {
+      "word": "1,",
+      "start_ms": 16700,
+      "end_ms": 17020,
+      "start_frame": 501,
+      "end_frame": 511
+    },
+    {
+      "word": "end",
+      "start_ms": 17740,
+      "end_ms": 17880,
+      "start_frame": 532,
+      "end_frame": 536
+    },
+    {
+      "word": "is",
+      "start_ms": 17880,
+      "end_ms": 18140,
+      "start_frame": 536,
+      "end_frame": 544
+    },
+    {
+      "word": "start",
+      "start_ms": 18140,
+      "end_ms": 18480,
+      "start_frame": 544,
+      "end_frame": 554
+    },
+    {
+      "word": "plus",
+      "start_ms": 18480,
+      "end_ms": 18780,
+      "start_frame": 554,
+      "end_frame": 563
+    },
+    {
+      "word": "length.",
+      "start_ms": 18780,
+      "end_ms": 19160,
+      "start_frame": 563,
+      "end_frame": 575
+    },
+    {
+      "word": "Append",
+      "start_ms": 19840,
+      "end_ms": 20120,
+      "start_frame": 595,
+      "end_frame": 604
+    },
+    {
+      "word": "that",
+      "start_ms": 20120,
+      "end_ms": 20480,
+      "start_frame": 604,
+      "end_frame": 614
+    },
+    {
+      "word": "exact",
+      "start_ms": 20480,
+      "end_ms": 20800,
+      "start_frame": 614,
+      "end_frame": 624
+    },
+    {
+      "word": "slice",
+      "start_ms": 20800,
+      "end_ms": 21260,
+      "start_frame": 624,
+      "end_frame": 638
+    },
+    {
+      "word": "to",
+      "start_ms": 21260,
+      "end_ms": 21520,
+      "start_frame": 638,
+      "end_frame": 646
+    },
+    {
+      "word": "the",
+      "start_ms": 21520,
+      "end_ms": 21860,
+      "start_frame": 646,
+      "end_frame": 656
+    },
+    {
+      "word": "result,",
+      "start_ms": 21860,
+      "end_ms": 22260,
+      "start_frame": 656,
+      "end_frame": 668
+    },
+    {
+      "word": "then",
+      "start_ms": 22720,
+      "end_ms": 23040,
+      "start_frame": 682,
+      "end_frame": 691
+    },
+    {
+      "word": "set",
+      "start_ms": 23040,
+      "end_ms": 23360,
+      "start_frame": 691,
+      "end_frame": 701
+    },
+    {
+      "word": "i",
+      "start_ms": 23360,
+      "end_ms": 23680,
+      "start_frame": 701,
+      "end_frame": 710
+    },
+    {
+      "word": "to",
+      "start_ms": 23680,
+      "end_ms": 23880,
+      "start_frame": 710,
+      "end_frame": 716
+    },
+    {
+      "word": "end.",
+      "start_ms": 23880,
+      "end_ms": 24160,
+      "start_frame": 716,
+      "end_frame": 725
+    },
+    {
+      "word": "This",
+      "start_ms": 25320,
+      "end_ms": 25580,
+      "start_frame": 760,
+      "end_frame": 767
+    },
+    {
+      "word": "takes",
+      "start_ms": 25580,
+      "end_ms": 25880,
+      "start_frame": 767,
+      "end_frame": 776
+    },
+    {
+      "word": "us",
+      "start_ms": 25880,
+      "end_ms": 26180,
+      "start_frame": 776,
+      "end_frame": 785
+    },
+    {
+      "word": "to",
+      "start_ms": 26180,
+      "end_ms": 26320,
+      "start_frame": 785,
+      "end_frame": 790
+    },
+    {
+      "word": "the",
+      "start_ms": 26320,
+      "end_ms": 26500,
+      "start_frame": 790,
+      "end_frame": 795
+    },
+    {
+      "word": "next",
+      "start_ms": 26500,
+      "end_ms": 26840,
+      "start_frame": 795,
+      "end_frame": 805
+    },
+    {
+      "word": "record.",
+      "start_ms": 26840,
+      "end_ms": 27260,
+      "start_frame": 805,
+      "end_frame": 818
+    },
+    {
+      "word": "Repeat",
+      "start_ms": 27940,
+      "end_ms": 28440,
+      "start_frame": 838,
+      "end_frame": 853
+    },
+    {
+      "word": "until",
+      "start_ms": 28440,
+      "end_ms": 28920,
+      "start_frame": 853,
+      "end_frame": 868
+    },
+    {
+      "word": "the",
+      "start_ms": 28920,
+      "end_ms": 29340,
+      "start_frame": 868,
+      "end_frame": 880
+    },
+    {
+      "word": "string",
+      "start_ms": 29340,
+      "end_ms": 29620,
+      "start_frame": 880,
+      "end_frame": 889
+    },
+    {
+      "word": "is",
+      "start_ms": 29620,
+      "end_ms": 30080,
+      "start_frame": 889,
+      "end_frame": 902
+    },
+    {
+      "word": "finished.",
+      "start_ms": 30080,
+      "end_ms": 30580,
+      "start_frame": 902,
+      "end_frame": 917
+    },
+    {
+      "word": "Finally,",
+      "start_ms": 31660,
+      "end_ms": 32100,
+      "start_frame": 950,
+      "end_frame": 963
+    },
+    {
+      "word": "return",
+      "start_ms": 33340,
+      "end_ms": 33580,
+      "start_frame": 1000,
+      "end_frame": 1007
+    },
+    {
+      "word": "the",
+      "start_ms": 33580,
+      "end_ms": 33840,
+      "start_frame": 1007,
+      "end_frame": 1015
+    },
+    {
+      "word": "result.",
+      "start_ms": 33840,
+      "end_ms": 34200,
+      "start_frame": 1015,
+      "end_frame": 1026
+    },
+    {
+      "word": "That's",
+      "start_ms": 34840,
+      "end_ms": 35360,
+      "start_frame": 1045,
+      "end_frame": 1061
+    },
+    {
+      "word": "the",
+      "start_ms": 35360,
+      "end_ms": 35540,
+      "start_frame": 1061,
+      "end_frame": 1066
+    },
+    {
+      "word": "complete",
+      "start_ms": 35540,
+      "end_ms": 36080,
+      "start_frame": 1066,
+      "end_frame": 1082
+    },
+    {
+      "word": "decoder.",
+      "start_ms": 36080,
+      "end_ms": 36700,
+      "start_frame": 1082,
+      "end_frame": 1101
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Start with an empty result list and set i to 0.",
+      "start_ms": 0,
+      "end_ms": 4080,
+      "start_frame": 0,
+      "end_frame": 122,
+      "word_count": 11
+    },
+    {
+      "text": "While i is inside the encoded string, set j to i.",
+      "start_ms": 4900,
+      "end_ms": 9040,
+      "start_frame": 147,
+      "end_frame": 271,
+      "word_count": 11
+    },
+    {
+      "text": "Move j until the next header hash.",
+      "start_ms": 9440,
+      "end_ms": 11760,
+      "start_frame": 283,
+      "end_frame": 353,
+      "word_count": 7
+    },
+    {
+      "text": "Convert the digits from i to j into the length.",
+      "start_ms": 12220,
+      "end_ms": 14740,
+      "start_frame": 367,
+      "end_frame": 442,
+      "word_count": 10
+    },
+    {
+      "text": "Now start is j plus 1, end is start plus length.",
+      "start_ms": 15300,
+      "end_ms": 19160,
+      "start_frame": 459,
+      "end_frame": 575,
+      "word_count": 11
+    },
+    {
+      "text": "Append that exact slice to the result, then set i to end.",
+      "start_ms": 19840,
+      "end_ms": 24160,
+      "start_frame": 595,
+      "end_frame": 725,
+      "word_count": 12
+    },
+    {
+      "text": "This takes us to the next record.",
+      "start_ms": 25320,
+      "end_ms": 27260,
+      "start_frame": 760,
+      "end_frame": 818,
+      "word_count": 7
+    },
+    {
+      "text": "Repeat until the string is finished.",
+      "start_ms": 27940,
+      "end_ms": 30580,
+      "start_frame": 838,
+      "end_frame": 917,
+      "word_count": 6
+    },
+    {
+      "text": "Finally, return the result.",
+      "start_ms": 31660,
+      "end_ms": 34200,
+      "start_frame": 950,
+      "end_frame": 1026,
+      "word_count": 4
+    },
+    {
+      "text": "That's the complete decoder.",
+      "start_ms": 34840,
+      "end_ms": 36700,
+      "start_frame": 1045,
+      "end_frame": 1101,
+      "word_count": 4
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "0.",
+      "before_word": "While",
+      "start_ms": 4080,
+      "end_ms": 4900,
+      "duration_ms": 820,
+      "start_frame": 122,
+      "end_frame": 147,
+      "duration_frames": 25
+    },
+    {
+      "after_word": "string,",
+      "before_word": "set",
+      "start_ms": 7240,
+      "end_ms": 7680,
+      "duration_ms": 440,
+      "start_frame": 217,
+      "end_frame": 230,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "i.",
+      "before_word": "Move",
+      "start_ms": 9040,
+      "end_ms": 9440,
+      "duration_ms": 400,
+      "start_frame": 271,
+      "end_frame": 283,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "hash.",
+      "before_word": "Convert",
+      "start_ms": 11760,
+      "end_ms": 12220,
+      "duration_ms": 460,
+      "start_frame": 353,
+      "end_frame": 367,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "length.",
+      "before_word": "Now",
+      "start_ms": 14740,
+      "end_ms": 15300,
+      "duration_ms": 560,
+      "start_frame": 442,
+      "end_frame": 459,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "1,",
+      "before_word": "end",
+      "start_ms": 17020,
+      "end_ms": 17740,
+      "duration_ms": 720,
+      "start_frame": 511,
+      "end_frame": 532,
+      "duration_frames": 21
+    },
+    {
+      "after_word": "length.",
+      "before_word": "Append",
+      "start_ms": 19160,
+      "end_ms": 19840,
+      "duration_ms": 680,
+      "start_frame": 575,
+      "end_frame": 595,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "result,",
+      "before_word": "then",
+      "start_ms": 22260,
+      "end_ms": 22720,
+      "duration_ms": 460,
+      "start_frame": 668,
+      "end_frame": 682,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "end.",
+      "before_word": "This",
+      "start_ms": 24160,
+      "end_ms": 25320,
+      "duration_ms": 1160,
+      "start_frame": 725,
+      "end_frame": 760,
+      "duration_frames": 35
+    },
+    {
+      "after_word": "record.",
+      "before_word": "Repeat",
+      "start_ms": 27260,
+      "end_ms": 27940,
+      "duration_ms": 680,
+      "start_frame": 818,
+      "end_frame": 838,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "finished.",
+      "before_word": "Finally,",
+      "start_ms": 30580,
+      "end_ms": 31660,
+      "duration_ms": 1080,
+      "start_frame": 917,
+      "end_frame": 950,
+      "duration_frames": 33
+    },
+    {
+      "after_word": "Finally,",
+      "before_word": "return",
+      "start_ms": 32100,
+      "end_ms": 33340,
+      "duration_ms": 1240,
+      "start_frame": 963,
+      "end_frame": 1000,
+      "duration_frames": 37
+    },
+    {
+      "after_word": "result.",
+      "before_word": "That's",
+      "start_ms": 34200,
+      "end_ms": 34840,
+      "duration_ms": 640,
+      "start_frame": 1026,
+      "end_frame": 1045,
+      "duration_frames": 19
+    }
+  ]
+}

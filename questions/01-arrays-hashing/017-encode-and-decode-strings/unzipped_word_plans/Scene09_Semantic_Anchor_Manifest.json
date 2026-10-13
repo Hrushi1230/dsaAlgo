@@ -1,0 +1,141 @@
+{
+  "question": "Q17 Encode and Decode Strings",
+  "scene": 9,
+  "name": "Minimal Mistakes + Edge Cases",
+  "stage": "GATE_A_PRE_AUDIO_ONLY",
+  "word_ids": "PENDING_SYNC",
+  "timing": "PENDING_MP3_SYNC",
+  "anchor_count": 13,
+  "anchors": [
+    {
+      "id": "S09:A001",
+      "source_narration_occurrence": 1,
+      "exact_spoken_phrase": "Three quick things to remember.",
+      "visual_intent": "Open brief mistakes/edge stage with one centered teaching surface, no card grid.",
+      "phase": "MISTAKES",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "single centered line; see geometry table",
+      "source_state": "Current mistake/example only; next replacement clears previous teaching focus."
+    },
+    {
+      "id": "S09:A002",
+      "source_narration_occurrence": 2,
+      "exact_spoken_phrase": "Do not split the encoded string on every hash.",
+      "visual_intent": "Show `split(\"#\")` crossed once; hash can be payload data.",
+      "phase": "MISTAKES",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "single centered line; see geometry table",
+      "source_state": "Current mistake/example only; next replacement clears previous teaching focus."
+    },
+    {
+      "id": "S09:A003",
+      "source_narration_occurrence": 3,
+      "exact_spoken_phrase": "The length can have multiple digits.",
+      "visual_intent": "Replace first note with two-digit length `11#` demonstration (not full record trace).",
+      "phase": "MISTAKES",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "single centered line; see geometry table",
+      "source_state": "Current mistake/example only; next replacement clears previous teaching focus."
+    },
+    {
+      "id": "S09:A004",
+      "source_narration_occurrence": 4,
+      "exact_spoken_phrase": "And after decoding each payload ...",
+      "visual_intent": "Show invariant `after slice → i = end` without rerunning decoder.",
+      "phase": "MISTAKES",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "single centered line; see geometry table",
+      "source_state": "Current mistake/example only; next replacement clears previous teaching focus."
+    },
+    {
+      "id": "S09:A005",
+      "source_narration_occurrence": 5,
+      "exact_spoken_phrase": "always move `i` to end.",
+      "visual_intent": "Underline `i = end` as correction, single teaching point.",
+      "phase": "MISTAKES",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "single centered line; see geometry table",
+      "source_state": "Current mistake/example only; next replacement clears previous teaching focus."
+    },
+    {
+      "id": "S09:A006",
+      "source_narration_occurrence": 6,
+      "exact_spoken_phrase": "For edge cases ...",
+      "visual_intent": "Clear mistakes and enter short edge examples mode.",
+      "phase": "EDGE CASES",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "single centered example; see geometry table",
+      "source_state": "Current mistake/example only; next replacement clears previous teaching focus."
+    },
+    {
+      "id": "S09:A007",
+      "source_narration_occurrence": 7,
+      "exact_spoken_phrase": "an empty list encodes to an empty string.",
+      "visual_intent": "Write `[] → \"\"` as first full direct board example.",
+      "phase": "EDGE CASES",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "single centered example; see geometry table",
+      "source_state": "Current mistake/example only; next replacement clears previous teaching focus."
+    },
+    {
+      "id": "S09:A008",
+      "source_narration_occurrence": 8,
+      "exact_spoken_phrase": "One empty string encodes to ...",
+      "visual_intent": "Reveal source `[\"\"]` as next input, do not show encoded output early.",
+      "phase": "EDGE CASES",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "single centered example; see geometry table",
+      "source_state": "Current mistake/example only; next replacement clears previous teaching focus."
+    },
+    {
+      "id": "S09:A009",
+      "source_narration_occurrence": 9,
+      "exact_spoken_phrase": "zero hash.",
+      "visual_intent": "Resolve output `\"0#\"` below source only after spoken phrase.",
+      "phase": "EDGE CASES",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "single centered example; see geometry table",
+      "source_state": "Current mistake/example only; next replacement clears previous teaching focus."
+    },
+    {
+      "id": "S09:A010",
+      "source_narration_occurrence": 10,
+      "exact_spoken_phrase": "And a string containing only a hash ...",
+      "visual_intent": "Reveal next source `[\"#\"]`; visibly distinguish header vs payload hash.",
+      "phase": "EDGE CASES",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "single centered example; see geometry table",
+      "source_state": "Current mistake/example only; next replacement clears previous teaching focus."
+    },
+    {
+      "id": "S09:A011",
+      "source_narration_occurrence": 11,
+      "exact_spoken_phrase": "encodes to ...",
+      "visual_intent": "Hold result target blank until next spoken output phrase.",
+      "phase": "EDGE CASES",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "single centered example; see geometry table",
+      "source_state": "Current mistake/example only; next replacement clears previous teaching focus."
+    },
+    {
+      "id": "S09:A012",
+      "source_narration_occurrence": 12,
+      "exact_spoken_phrase": "one hash hash.",
+      "visual_intent": "Resolve `[\"#\"] → \"1##\"` exactly (one length digit, one header hash, one payload hash).",
+      "phase": "EDGE CASES",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "single centered example; see geometry table",
+      "source_state": "Current mistake/example only; next replacement clears previous teaching focus."
+    },
+    {
+      "id": "S09:A013",
+      "source_narration_occurrence": 13,
+      "exact_spoken_phrase": "The same protocol handles all of them.",
+      "visual_intent": "Settle examples in clean board-native relation; no extra two-empty-string example invented.",
+      "phase": "EDGE CASES",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "single centered example; see geometry table",
+      "source_state": "Current mistake/example only; next replacement clears previous teaching focus."
+    }
+  ]
+}

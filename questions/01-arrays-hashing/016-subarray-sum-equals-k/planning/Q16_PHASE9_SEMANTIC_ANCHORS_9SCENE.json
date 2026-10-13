@@ -1,0 +1,1565 @@
+{
+  "version": 3,
+  "question": "Q16 Subarray Sum Equals K",
+  "timing_status": "UNRESOLVED_UNTIL_FINAL_MP3_AND_EXACT_WORD_SYNC",
+  "scenes": {
+    "01": [
+      {
+        "id": "S01_A001",
+        "phrase": "We have finished Question Fifteen … Spiral Matrix."
+      },
+      {
+        "id": "S01_A002",
+        "phrase": "Our global progress is now fifteen out of two hundred twenty-seven."
+      },
+      {
+        "id": "S01_A003",
+        "phrase": "We are still inside Arrays and Hashing."
+      },
+      {
+        "id": "S01_A004",
+        "phrase": "And next … Question sixteen."
+      },
+      {
+        "id": "S01_A005",
+        "phrase": "Subarray Sum Equals K."
+      },
+      {
+        "id": "S01_A006",
+        "phrase": "This problem looks simple at first."
+      },
+      {
+        "id": "S01_A007",
+        "phrase": "We have an array … and a target `k`."
+      },
+      {
+        "id": "S01_A008",
+        "phrase": "And we need to count how many contiguous subarrays have sum exactly equal to `k`."
+      },
+      {
+        "id": "S01_A009",
+        "phrase": "Before we think about optimization … first, let us understand the question properly."
+      }
+    ],
+    "02": [
+      {
+        "id": "S02_A001",
+        "phrase": "For this lesson, we will use:"
+      },
+      {
+        "id": "S02_A002",
+        "phrase": "`[1, -1, 2, 1, 0, -2, 3]`"
+      },
+      {
+        "id": "S02_A003",
+        "phrase": "and `k` is three."
+      },
+      {
+        "id": "S02_A004",
+        "phrase": "We are not looking for just one subarray."
+      },
+      {
+        "id": "S02_A005",
+        "phrase": "We are not looking for the longest subarray."
+      },
+      {
+        "id": "S02_A006",
+        "phrase": "We need to count every contiguous, non-empty subarray whose sum is exactly three."
+      },
+      {
+        "id": "S02_A007",
+        "phrase": "For example …"
+      },
+      {
+        "id": "S02_A008",
+        "phrase": "`[2, 1]`"
+      },
+      {
+        "id": "S02_A009",
+        "phrase": "is contiguous … and its sum is three."
+      },
+      {
+        "id": "S02_A010",
+        "phrase": "So that is one valid subarray."
+      },
+      {
+        "id": "S02_A011",
+        "phrase": "Also …"
+      },
+      {
+        "id": "S02_A012",
+        "phrase": "`[3]`"
+      },
+      {
+        "id": "S02_A013",
+        "phrase": "by itself is a valid subarray."
+      },
+      {
+        "id": "S02_A014",
+        "phrase": "One element can also form a subarray."
+      },
+      {
+        "id": "S02_A015",
+        "phrase": "Now there is one important detail."
+      },
+      {
+        "id": "S02_A016",
+        "phrase": "This array contains negative numbers."
+      },
+      {
+        "id": "S02_A017",
+        "phrase": "So we cannot use the usual positive-number thinking like …"
+      },
+      {
+        "id": "S02_A018",
+        "phrase": "if the sum becomes too large … just stop or shrink."
+      },
+      {
+        "id": "S02_A019",
+        "phrase": "Look at this tiny example."
+      },
+      {
+        "id": "S02_A020",
+        "phrase": "`[4, -1]`"
+      },
+      {
+        "id": "S02_A021",
+        "phrase": "with `k = 3`."
+      },
+      {
+        "id": "S02_A022",
+        "phrase": "After the first value, the sum is four."
+      },
+      {
+        "id": "S02_A023",
+        "phrase": "Four is greater than three."
+      },
+      {
+        "id": "S02_A024",
+        "phrase": "But if we continue …"
+      },
+      {
+        "id": "S02_A025",
+        "phrase": "four plus minus one becomes three."
+      },
+      {
+        "id": "S02_A026",
+        "phrase": "So with negative numbers …"
+      },
+      {
+        "id": "S02_A027",
+        "phrase": "`sum greater than k`"
+      },
+      {
+        "id": "S02_A028",
+        "phrase": "does not mean we can safely stop."
+      },
+      {
+        "id": "S02_A029",
+        "phrase": "Now let us build the straightforward correct method."
+      },
+      {
+        "id": "S02_A030",
+        "phrase": "Choose one starting position."
+      },
+      {
+        "id": "S02_A031",
+        "phrase": "Set the running sum to zero."
+      },
+      {
+        "id": "S02_A032",
+        "phrase": "Then move the ending position to the right."
+      },
+      {
+        "id": "S02_A033",
+        "phrase": "Every time we include one more value …"
+      },
+      {
+        "id": "S02_A034",
+        "phrase": "add that value to the running sum."
+      },
+      {
+        "id": "S02_A035",
+        "phrase": "If the running sum becomes exactly `k` …"
+      },
+      {
+        "id": "S02_A036",
+        "phrase": "increase the answer."
+      },
+      {
+        "id": "S02_A037",
+        "phrase": "Then continue."
+      },
+      {
+        "id": "S02_A038",
+        "phrase": "When this start is finished …"
+      },
+      {
+        "id": "S02_A039",
+        "phrase": "move the start one position to the right …"
+      },
+      {
+        "id": "S02_A040",
+        "phrase": "reset the running sum …"
+      },
+      {
+        "id": "S02_A041",
+        "phrase": "and repeat."
+      },
+      {
+        "id": "S02_A042",
+        "phrase": "So Method One is:"
+      },
+      {
+        "id": "S02_A043",
+        "phrase": "fix the start …"
+      },
+      {
+        "id": "S02_A044",
+        "phrase": "extend the end …"
+      },
+      {
+        "id": "S02_A045",
+        "phrase": "update the running sum …"
+      },
+      {
+        "id": "S02_A046",
+        "phrase": "and count every match."
+      },
+      {
+        "id": "S02_A047",
+        "phrase": "Now let us execute it on the full array."
+      }
+    ],
+    "03": [
+      {
+        "id": "S03_A001",
+        "phrase": "We begin with start equal to zero."
+      },
+      {
+        "id": "S03_A002",
+        "phrase": "Running sum starts at zero."
+      },
+      {
+        "id": "S03_A003",
+        "phrase": "Include one …"
+      },
+      {
+        "id": "S03_A004",
+        "phrase": "the sum becomes one."
+      },
+      {
+        "id": "S03_A005",
+        "phrase": "Include minus one …"
+      },
+      {
+        "id": "S03_A006",
+        "phrase": "the sum comes back to zero."
+      },
+      {
+        "id": "S03_A007",
+        "phrase": "Include two …"
+      },
+      {
+        "id": "S03_A008",
+        "phrase": "the sum becomes two."
+      },
+      {
+        "id": "S03_A009",
+        "phrase": "Include one …"
+      },
+      {
+        "id": "S03_A010",
+        "phrase": "the sum becomes three."
+      },
+      {
+        "id": "S03_A011",
+        "phrase": "That is our first match."
+      },
+      {
+        "id": "S03_A012",
+        "phrase": "So answer becomes one."
+      },
+      {
+        "id": "S03_A013",
+        "phrase": "Now include zero."
+      },
+      {
+        "id": "S03_A014",
+        "phrase": "The running sum is still three."
+      },
+      {
+        "id": "S03_A015",
+        "phrase": "That is another valid subarray."
+      },
+      {
+        "id": "S03_A016",
+        "phrase": "So answer becomes two."
+      },
+      {
+        "id": "S03_A017",
+        "phrase": "Continue with minus two …"
+      },
+      {
+        "id": "S03_A018",
+        "phrase": "the sum becomes one."
+      },
+      {
+        "id": "S03_A019",
+        "phrase": "Then include three …"
+      },
+      {
+        "id": "S03_A020",
+        "phrase": "the sum becomes four."
+      },
+      {
+        "id": "S03_A021",
+        "phrase": "So for start zero … we found two matches."
+      },
+      {
+        "id": "S03_A022",
+        "phrase": "Now move start to one."
+      },
+      {
+        "id": "S03_A023",
+        "phrase": "Reset the running sum."
+      },
+      {
+        "id": "S03_A024",
+        "phrase": "We get:"
+      },
+      {
+        "id": "S03_A025",
+        "phrase": "minus one …"
+      },
+      {
+        "id": "S03_A026",
+        "phrase": "then one …"
+      },
+      {
+        "id": "S03_A027",
+        "phrase": "then two …"
+      },
+      {
+        "id": "S03_A028",
+        "phrase": "then two again …"
+      },
+      {
+        "id": "S03_A029",
+        "phrase": "then zero …"
+      },
+      {
+        "id": "S03_A030",
+        "phrase": "and finally three."
+      },
+      {
+        "id": "S03_A031",
+        "phrase": "At the final position, the running sum becomes three."
+      },
+      {
+        "id": "S03_A032",
+        "phrase": "So answer becomes three."
+      },
+      {
+        "id": "S03_A033",
+        "phrase": "Now start from index two."
+      },
+      {
+        "id": "S03_A034",
+        "phrase": "Running sum starts again from zero."
+      },
+      {
+        "id": "S03_A035",
+        "phrase": "Include two …"
+      },
+      {
+        "id": "S03_A036",
+        "phrase": "sum is two."
+      },
+      {
+        "id": "S03_A037",
+        "phrase": "Include one …"
+      },
+      {
+        "id": "S03_A038",
+        "phrase": "sum becomes three."
+      },
+      {
+        "id": "S03_A039",
+        "phrase": "Match."
+      },
+      {
+        "id": "S03_A040",
+        "phrase": "Answer becomes four."
+      },
+      {
+        "id": "S03_A041",
+        "phrase": "Include zero …"
+      },
+      {
+        "id": "S03_A042",
+        "phrase": "sum stays three."
+      },
+      {
+        "id": "S03_A043",
+        "phrase": "Another match."
+      },
+      {
+        "id": "S03_A044",
+        "phrase": "Answer becomes five."
+      },
+      {
+        "id": "S03_A045",
+        "phrase": "Then minus two makes the sum one …"
+      },
+      {
+        "id": "S03_A046",
+        "phrase": "and the final three makes it four."
+      },
+      {
+        "id": "S03_A047",
+        "phrase": "Now starts three, four, and five still have to be checked."
+      },
+      {
+        "id": "S03_A048",
+        "phrase": "We do not skip them."
+      },
+      {
+        "id": "S03_A049",
+        "phrase": "Start three gives:"
+      },
+      {
+        "id": "S03_A050",
+        "phrase": "one …"
+      },
+      {
+        "id": "S03_A051",
+        "phrase": "one …"
+      },
+      {
+        "id": "S03_A052",
+        "phrase": "minus one …"
+      },
+      {
+        "id": "S03_A053",
+        "phrase": "two."
+      },
+      {
+        "id": "S03_A054",
+        "phrase": "No match."
+      },
+      {
+        "id": "S03_A055",
+        "phrase": "Start four gives:"
+      },
+      {
+        "id": "S03_A056",
+        "phrase": "zero …"
+      },
+      {
+        "id": "S03_A057",
+        "phrase": "minus two …"
+      },
+      {
+        "id": "S03_A058",
+        "phrase": "one."
+      },
+      {
+        "id": "S03_A059",
+        "phrase": "No match."
+      },
+      {
+        "id": "S03_A060",
+        "phrase": "Start five gives:"
+      },
+      {
+        "id": "S03_A061",
+        "phrase": "minus two …"
+      },
+      {
+        "id": "S03_A062",
+        "phrase": "then one."
+      },
+      {
+        "id": "S03_A063",
+        "phrase": "No match."
+      },
+      {
+        "id": "S03_A064",
+        "phrase": "Finally start six."
+      },
+      {
+        "id": "S03_A065",
+        "phrase": "The only value is three."
+      },
+      {
+        "id": "S03_A066",
+        "phrase": "That is a match."
+      },
+      {
+        "id": "S03_A067",
+        "phrase": "So answer becomes six."
+      },
+      {
+        "id": "S03_A068",
+        "phrase": "Our final answer is six."
+      },
+      {
+        "id": "S03_A069",
+        "phrase": "The method is correct."
+      },
+      {
+        "id": "S03_A070",
+        "phrase": "But notice what happened."
+      },
+      {
+        "id": "S03_A071",
+        "phrase": "For start zero … we built many running sums."
+      },
+      {
+        "id": "S03_A072",
+        "phrase": "Then for start one … we built overlapping sums again."
+      },
+      {
+        "id": "S03_A073",
+        "phrase": "Then for start two … again."
+      },
+      {
+        "id": "S03_A074",
+        "phrase": "We keep rebuilding information for overlapping ranges."
+      },
+      {
+        "id": "S03_A075",
+        "phrase": "That repeated work is the real problem."
+      },
+      {
+        "id": "S03_A076",
+        "phrase": "Now let us write this exact method in code."
+      }
+    ],
+    "04": [
+      {
+        "id": "S04_A001",
+        "phrase": "First, create the answer and set it to zero."
+      },
+      {
+        "id": "S04_A002",
+        "phrase": "Now choose every possible starting position."
+      },
+      {
+        "id": "S04_A003",
+        "phrase": "For each new start …"
+      },
+      {
+        "id": "S04_A004",
+        "phrase": "reset the running sum to zero."
+      },
+      {
+        "id": "S04_A005",
+        "phrase": "Then let the ending position move from `start` to the end of the array."
+      },
+      {
+        "id": "S04_A006",
+        "phrase": "Add the current value to the running sum."
+      },
+      {
+        "id": "S04_A007",
+        "phrase": "If the running sum equals `k` …"
+      },
+      {
+        "id": "S04_A008",
+        "phrase": "increase the answer by one."
+      },
+      {
+        "id": "S04_A009",
+        "phrase": "When this start is finished …"
+      },
+      {
+        "id": "S04_A010",
+        "phrase": "the outer loop moves to the next start."
+      },
+      {
+        "id": "S04_A011",
+        "phrase": "And after all starting positions are processed …"
+      },
+      {
+        "id": "S04_A012",
+        "phrase": "return the answer."
+      },
+      {
+        "id": "S04_A013",
+        "phrase": "This code follows the same order as our trace."
+      },
+      {
+        "id": "S04_A014",
+        "phrase": "Choose start …"
+      },
+      {
+        "id": "S04_A015",
+        "phrase": "reset sum …"
+      },
+      {
+        "id": "S04_A016",
+        "phrase": "extend end …"
+      },
+      {
+        "id": "S04_A017",
+        "phrase": "update sum …"
+      },
+      {
+        "id": "S04_A018",
+        "phrase": "count a match."
+      },
+      {
+        "id": "S04_A019",
+        "phrase": "Now let us look at the time complexity."
+      },
+      {
+        "id": "S04_A020",
+        "phrase": "For the first start, we may inspect `n` elements."
+      },
+      {
+        "id": "S04_A021",
+        "phrase": "For the next start … `n minus one`."
+      },
+      {
+        "id": "S04_A022",
+        "phrase": "Then `n minus two`."
+      },
+      {
+        "id": "S04_A023",
+        "phrase": "And so on."
+      },
+      {
+        "id": "S04_A024",
+        "phrase": "So the total work is:"
+      },
+      {
+        "id": "S04_A025",
+        "phrase": "`n + n minus one + n minus two ... + one`."
+      },
+      {
+        "id": "S04_A026",
+        "phrase": "That is proportional to `n squared`."
+      },
+      {
+        "id": "S04_A027",
+        "phrase": "So the time complexity is `O of n squared`."
+      },
+      {
+        "id": "S04_A028",
+        "phrase": "For auxiliary space …"
+      },
+      {
+        "id": "S04_A029",
+        "phrase": "we only keep a few variables."
+      },
+      {
+        "id": "S04_A030",
+        "phrase": "Start …"
+      },
+      {
+        "id": "S04_A031",
+        "phrase": "end …"
+      },
+      {
+        "id": "S04_A032",
+        "phrase": "running sum …"
+      },
+      {
+        "id": "S04_A033",
+        "phrase": "and answer."
+      },
+      {
+        "id": "S04_A034",
+        "phrase": "So the auxiliary space is `O of one`."
+      },
+      {
+        "id": "S04_A035",
+        "phrase": "Method One is correct."
+      },
+      {
+        "id": "S04_A036",
+        "phrase": "But our problem is the repeated range-sum work."
+      },
+      {
+        "id": "S04_A037",
+        "phrase": "Can we know the sum of a range …"
+      },
+      {
+        "id": "S04_A038",
+        "phrase": "without rebuilding that whole range again?"
+      },
+      {
+        "id": "S04_A039",
+        "phrase": "That question leads us to prefix sums."
+      }
+    ],
+    "05": [
+      {
+        "id": "S05_A001",
+        "phrase": "We do not want to rebuild the same overlapping sums again and again."
+      },
+      {
+        "id": "S05_A002",
+        "phrase": "Suppose the current prefix sum is `S`."
+      },
+      {
+        "id": "S05_A003",
+        "phrase": "For a subarray sum to be exactly `k` ..."
+      },
+      {
+        "id": "S05_A004",
+        "phrase": "we need an earlier prefix equal to ..."
+      },
+      {
+        "id": "S05_A005",
+        "phrase": "`S minus k`."
+      },
+      {
+        "id": "S05_A006",
+        "phrase": "So at every position ..."
+      },
+      {
+        "id": "S05_A007",
+        "phrase": "we only need to look for ..."
+      },
+      {
+        "id": "S05_A008",
+        "phrase": "`current prefix minus k`."
+      },
+      {
+        "id": "S05_A009",
+        "phrase": "But the same prefix value can appear more than once."
+      },
+      {
+        "id": "S05_A010",
+        "phrase": "So we need frequency ..."
+      },
+      {
+        "id": "S05_A011",
+        "phrase": "not just existence."
+      },
+      {
+        "id": "S05_A012",
+        "phrase": "Our HashMap stores:"
+      },
+      {
+        "id": "S05_A013",
+        "phrase": "`prefix sum ... to frequency`."
+      },
+      {
+        "id": "S05_A014",
+        "phrase": "And initially ..."
+      },
+      {
+        "id": "S05_A015",
+        "phrase": "`zero maps to one`."
+      },
+      {
+        "id": "S05_A016",
+        "phrase": "Because before reading the array ..."
+      },
+      {
+        "id": "S05_A017",
+        "phrase": "there is already one prefix position with sum zero."
+      },
+      {
+        "id": "S05_A018",
+        "phrase": "One more important rule."
+      },
+      {
+        "id": "S05_A019",
+        "phrase": "The map should contain only earlier prefix positions."
+      },
+      {
+        "id": "S05_A020",
+        "phrase": "So first ..."
+      },
+      {
+        "id": "S05_A021",
+        "phrase": "update the current prefix."
+      },
+      {
+        "id": "S05_A022",
+        "phrase": "Then compute ..."
+      },
+      {
+        "id": "S05_A023",
+        "phrase": "`needed = prefix minus k`."
+      },
+      {
+        "id": "S05_A024",
+        "phrase": "Look up the frequency of `needed`."
+      },
+      {
+        "id": "S05_A025",
+        "phrase": "Add that frequency to the answer."
+      },
+      {
+        "id": "S05_A026",
+        "phrase": "And only after that ..."
+      },
+      {
+        "id": "S05_A027",
+        "phrase": "store the current prefix."
+      },
+      {
+        "id": "S05_A028",
+        "phrase": "So the order is:"
+      },
+      {
+        "id": "S05_A029",
+        "phrase": "update prefix ..."
+      },
+      {
+        "id": "S05_A030",
+        "phrase": "look back ..."
+      },
+      {
+        "id": "S05_A031",
+        "phrase": "count ..."
+      },
+      {
+        "id": "S05_A032",
+        "phrase": "then store."
+      },
+      {
+        "id": "S05_A033",
+        "phrase": "Now let us execute it on the full array."
+      }
+    ],
+    "06": [
+      {
+        "id": "S06_A001",
+        "phrase": "We start with:"
+      },
+      {
+        "id": "S06_A002",
+        "phrase": "prefix equals zero."
+      },
+      {
+        "id": "S06_A003",
+        "phrase": "answer equals zero."
+      },
+      {
+        "id": "S06_A004",
+        "phrase": "And the map contains:"
+      },
+      {
+        "id": "S06_A005",
+        "phrase": "zero to one."
+      },
+      {
+        "id": "S06_A006",
+        "phrase": "Our first value is one."
+      },
+      {
+        "id": "S06_A007",
+        "phrase": "Update the prefix."
+      },
+      {
+        "id": "S06_A008",
+        "phrase": "Zero plus one becomes one."
+      },
+      {
+        "id": "S06_A009",
+        "phrase": "Now needed is:"
+      },
+      {
+        "id": "S06_A010",
+        "phrase": "one minus three …"
+      },
+      {
+        "id": "S06_A011",
+        "phrase": "minus two."
+      },
+      {
+        "id": "S06_A012",
+        "phrase": "Do we have prefix minus two?"
+      },
+      {
+        "id": "S06_A013",
+        "phrase": "No."
+      },
+      {
+        "id": "S06_A014",
+        "phrase": "So answer stays zero."
+      },
+      {
+        "id": "S06_A015",
+        "phrase": "Now store current prefix one."
+      },
+      {
+        "id": "S06_A016",
+        "phrase": "The map now contains zero once … and one once."
+      },
+      {
+        "id": "S06_A017",
+        "phrase": "Next value is minus one."
+      },
+      {
+        "id": "S06_A018",
+        "phrase": "Current prefix is one."
+      },
+      {
+        "id": "S06_A019",
+        "phrase": "Add minus one …"
+      },
+      {
+        "id": "S06_A020",
+        "phrase": "prefix becomes zero."
+      },
+      {
+        "id": "S06_A021",
+        "phrase": "Needed is:"
+      },
+      {
+        "id": "S06_A022",
+        "phrase": "zero minus three …"
+      },
+      {
+        "id": "S06_A023",
+        "phrase": "minus three."
+      },
+      {
+        "id": "S06_A024",
+        "phrase": "We have no minus three."
+      },
+      {
+        "id": "S06_A025",
+        "phrase": "So answer stays zero."
+      },
+      {
+        "id": "S06_A026",
+        "phrase": "Now store the current prefix zero."
+      },
+      {
+        "id": "S06_A027",
+        "phrase": "Zero already had frequency one."
+      },
+      {
+        "id": "S06_A028",
+        "phrase": "Now it becomes two."
+      },
+      {
+        "id": "S06_A029",
+        "phrase": "That is important."
+      },
+      {
+        "id": "S06_A030",
+        "phrase": "We now have two different earlier prefix positions with prefix sum zero."
+      },
+      {
+        "id": "S06_A031",
+        "phrase": "Next value is two."
+      },
+      {
+        "id": "S06_A032",
+        "phrase": "Prefix becomes two."
+      },
+      {
+        "id": "S06_A033",
+        "phrase": "Needed is:"
+      },
+      {
+        "id": "S06_A034",
+        "phrase": "two minus three …"
+      },
+      {
+        "id": "S06_A035",
+        "phrase": "minus one."
+      },
+      {
+        "id": "S06_A036",
+        "phrase": "No match."
+      },
+      {
+        "id": "S06_A037",
+        "phrase": "Answer stays zero."
+      },
+      {
+        "id": "S06_A038",
+        "phrase": "Store prefix two with frequency one."
+      },
+      {
+        "id": "S06_A039",
+        "phrase": "Now we reach index three … value one."
+      },
+      {
+        "id": "S06_A040",
+        "phrase": "Current prefix is two."
+      },
+      {
+        "id": "S06_A041",
+        "phrase": "Add one …"
+      },
+      {
+        "id": "S06_A042",
+        "phrase": "prefix becomes three."
+      },
+      {
+        "id": "S06_A043",
+        "phrase": "Needed is:"
+      },
+      {
+        "id": "S06_A044",
+        "phrase": "three minus three …"
+      },
+      {
+        "id": "S06_A045",
+        "phrase": "zero."
+      },
+      {
+        "id": "S06_A046",
+        "phrase": "Now look at the map."
+      },
+      {
+        "id": "S06_A047",
+        "phrase": "Frequency of zero is two."
+      },
+      {
+        "id": "S06_A048",
+        "phrase": "So there are two valid starting boundaries."
+      },
+      {
+        "id": "S06_A049",
+        "phrase": "That means two valid subarrays end here."
+      },
+      {
+        "id": "S06_A050",
+        "phrase": "One starts from index zero."
+      },
+      {
+        "id": "S06_A051",
+        "phrase": "The other starts from index two."
+      },
+      {
+        "id": "S06_A052",
+        "phrase": "So answer jumps from zero to two."
+      },
+      {
+        "id": "S06_A053",
+        "phrase": "Only after counting those matches …"
+      },
+      {
+        "id": "S06_A054",
+        "phrase": "store current prefix three."
+      },
+      {
+        "id": "S06_A055",
+        "phrase": "Three now has frequency one."
+      },
+      {
+        "id": "S06_A056",
+        "phrase": "Next value is zero."
+      },
+      {
+        "id": "S06_A057",
+        "phrase": "Add zero …"
+      },
+      {
+        "id": "S06_A058",
+        "phrase": "the prefix stays three."
+      },
+      {
+        "id": "S06_A059",
+        "phrase": "But this is a new prefix position."
+      },
+      {
+        "id": "S06_A060",
+        "phrase": "Needed is still:"
+      },
+      {
+        "id": "S06_A061",
+        "phrase": "three minus three …"
+      },
+      {
+        "id": "S06_A062",
+        "phrase": "zero."
+      },
+      {
+        "id": "S06_A063",
+        "phrase": "Frequency of zero is still two."
+      },
+      {
+        "id": "S06_A064",
+        "phrase": "So again …"
+      },
+      {
+        "id": "S06_A065",
+        "phrase": "two valid subarrays end here."
+      },
+      {
+        "id": "S06_A066",
+        "phrase": "Answer goes from two to four."
+      },
+      {
+        "id": "S06_A067",
+        "phrase": "Now store the current prefix three."
+      },
+      {
+        "id": "S06_A068",
+        "phrase": "Three already occurred once."
+      },
+      {
+        "id": "S06_A069",
+        "phrase": "Now its frequency becomes two."
+      },
+      {
+        "id": "S06_A070",
+        "phrase": "Next value is minus two."
+      },
+      {
+        "id": "S06_A071",
+        "phrase": "Prefix changes from three to one."
+      },
+      {
+        "id": "S06_A072",
+        "phrase": "Needed is:"
+      },
+      {
+        "id": "S06_A073",
+        "phrase": "one minus three …"
+      },
+      {
+        "id": "S06_A074",
+        "phrase": "minus two."
+      },
+      {
+        "id": "S06_A075",
+        "phrase": "No previous prefix minus two."
+      },
+      {
+        "id": "S06_A076",
+        "phrase": "So answer stays four."
+      },
+      {
+        "id": "S06_A077",
+        "phrase": "Now store prefix one."
+      },
+      {
+        "id": "S06_A078",
+        "phrase": "One already occurred once."
+      },
+      {
+        "id": "S06_A079",
+        "phrase": "So frequency one becomes two."
+      },
+      {
+        "id": "S06_A080",
+        "phrase": "Now the final value is three."
+      },
+      {
+        "id": "S06_A081",
+        "phrase": "Current prefix is one."
+      },
+      {
+        "id": "S06_A082",
+        "phrase": "Add three …"
+      },
+      {
+        "id": "S06_A083",
+        "phrase": "prefix becomes four."
+      },
+      {
+        "id": "S06_A084",
+        "phrase": "Needed is:"
+      },
+      {
+        "id": "S06_A085",
+        "phrase": "four minus three …"
+      },
+      {
+        "id": "S06_A086",
+        "phrase": "one."
+      },
+      {
+        "id": "S06_A087",
+        "phrase": "Look at the map."
+      },
+      {
+        "id": "S06_A088",
+        "phrase": "Frequency of one is two."
+      },
+      {
+        "id": "S06_A089",
+        "phrase": "So again …"
+      },
+      {
+        "id": "S06_A090",
+        "phrase": "two valid starting boundaries."
+      },
+      {
+        "id": "S06_A091",
+        "phrase": "They give two valid subarrays ending at the final index."
+      },
+      {
+        "id": "S06_A092",
+        "phrase": "One is the range from index one to six."
+      },
+      {
+        "id": "S06_A093",
+        "phrase": "And the other is just index six …"
+      },
+      {
+        "id": "S06_A094",
+        "phrase": "the single value three."
+      },
+      {
+        "id": "S06_A095",
+        "phrase": "So answer goes from four to six."
+      },
+      {
+        "id": "S06_A096",
+        "phrase": "Then store current prefix four."
+      },
+      {
+        "id": "S06_A097",
+        "phrase": "Final answer is six."
+      },
+      {
+        "id": "S06_A098",
+        "phrase": "Notice the pattern."
+      },
+      {
+        "id": "S06_A099",
+        "phrase": "At index three …"
+      },
+      {
+        "id": "S06_A100",
+        "phrase": "one lookup added two."
+      },
+      {
+        "id": "S06_A101",
+        "phrase": "At index four …"
+      },
+      {
+        "id": "S06_A102",
+        "phrase": "one lookup added two again."
+      },
+      {
+        "id": "S06_A103",
+        "phrase": "At index six …"
+      },
+      {
+        "id": "S06_A104",
+        "phrase": "one lookup added two again."
+      },
+      {
+        "id": "S06_A105",
+        "phrase": "The map does not simply tell us whether a prefix exists."
+      },
+      {
+        "id": "S06_A106",
+        "phrase": "It tells us how many valid starting boundaries exist."
+      },
+      {
+        "id": "S06_A107",
+        "phrase": "Now let us translate this exact logic into code."
+      }
+    ],
+    "07": [
+      {
+        "id": "S07_A001",
+        "phrase": "Start with the frequency map."
+      },
+      {
+        "id": "S07_A002",
+        "phrase": "Put zero with frequency one."
+      },
+      {
+        "id": "S07_A003",
+        "phrase": "Then set prefix to zero."
+      },
+      {
+        "id": "S07_A004",
+        "phrase": "And answer to zero."
+      },
+      {
+        "id": "S07_A005",
+        "phrase": "Now move through the array one value at a time."
+      },
+      {
+        "id": "S07_A006",
+        "phrase": "Add the current value to the prefix."
+      },
+      {
+        "id": "S07_A007",
+        "phrase": "Then calculate:"
+      },
+      {
+        "id": "S07_A008",
+        "phrase": "needed equals prefix minus `k`."
+      },
+      {
+        "id": "S07_A009",
+        "phrase": "Now query the frequency map."
+      },
+      {
+        "id": "S07_A010",
+        "phrase": "How many earlier prefixes equal `needed`?"
+      },
+      {
+        "id": "S07_A011",
+        "phrase": "Add that frequency to the answer."
+      },
+      {
+        "id": "S07_A012",
+        "phrase": "Only after the lookup …"
+      },
+      {
+        "id": "S07_A013",
+        "phrase": "increase the frequency of the current prefix."
+      },
+      {
+        "id": "S07_A014",
+        "phrase": "Then continue to the next value."
+      },
+      {
+        "id": "S07_A015",
+        "phrase": "Finally … return the answer."
+      },
+      {
+        "id": "S07_A016",
+        "phrase": "Notice the order again."
+      },
+      {
+        "id": "S07_A017",
+        "phrase": "Update prefix …"
+      },
+      {
+        "id": "S07_A018",
+        "phrase": "compute needed …"
+      },
+      {
+        "id": "S07_A019",
+        "phrase": "query earlier prefixes …"
+      },
+      {
+        "id": "S07_A020",
+        "phrase": "add matches …"
+      },
+      {
+        "id": "S07_A021",
+        "phrase": "then store current prefix."
+      },
+      {
+        "id": "S07_A022",
+        "phrase": "The lookup comes before the insert."
+      },
+      {
+        "id": "S07_A023",
+        "phrase": "That is part of correctness."
+      },
+      {
+        "id": "S07_A024",
+        "phrase": "Now the complexity."
+      },
+      {
+        "id": "S07_A025",
+        "phrase": "We scan the array once."
+      },
+      {
+        "id": "S07_A026",
+        "phrase": "For each element, we do a constant amount of arithmetic …"
+      },
+      {
+        "id": "S07_A027",
+        "phrase": "and expected constant-time HashMap operations."
+      },
+      {
+        "id": "S07_A028",
+        "phrase": "So the expected time complexity is `O of n`."
+      },
+      {
+        "id": "S07_A029",
+        "phrase": "For auxiliary space …"
+      },
+      {
+        "id": "S07_A030",
+        "phrase": "in the worst case, many prefix sums can be different."
+      },
+      {
+        "id": "S07_A031",
+        "phrase": "So the map can store `O of n` prefix values."
+      },
+      {
+        "id": "S07_A032",
+        "phrase": "Therefore auxiliary space is `O of n`."
+      },
+      {
+        "id": "S07_A033",
+        "phrase": "So Method Two changes the repeated `O of n squared` range search …"
+      },
+      {
+        "id": "S07_A034",
+        "phrase": "into one expected `O of n` pass."
+      },
+      {
+        "id": "S07_A035",
+        "phrase": "The important relation is:"
+      },
+      {
+        "id": "S07_A037",
+        "phrase": "current prefix minus previous prefix equals `k`."
+      },
+      {
+        "id": "S07_A038",
+        "phrase": "That lets us replace many possible starting-position checks …"
+      },
+      {
+        "id": "S07_A039",
+        "phrase": "with one required-prefix lookup."
+      }
+    ],
+    "08": [
+      {
+        "id": "S08_A001",
+        "phrase": "Quick comparison."
+      },
+      {
+        "id": "S08_A002",
+        "phrase": "Method One ... running-sum enumeration."
+      },
+      {
+        "id": "S08_A003",
+        "phrase": "Time ... `O of n squared`."
+      },
+      {
+        "id": "S08_A004",
+        "phrase": "Auxiliary space ... `O of one`."
+      },
+      {
+        "id": "S08_A005",
+        "phrase": "Method Two ... prefix sum plus frequency HashMap."
+      },
+      {
+        "id": "S08_A006",
+        "phrase": "Expected time ... `O of n`."
+      },
+      {
+        "id": "S08_A007",
+        "phrase": "Auxiliary space ... `O of n`."
+      },
+      {
+        "id": "S08_A008",
+        "phrase": "Key mistakes."
+      },
+      {
+        "id": "S08_A009",
+        "phrase": "Normal sliding window is not reliable when negative numbers are allowed."
+      },
+      {
+        "id": "S08_A010",
+        "phrase": "Store prefix frequency ... not only existence."
+      },
+      {
+        "id": "S08_A011",
+        "phrase": "Start with: zero maps to one."
+      },
+      {
+        "id": "S08_A012",
+        "phrase": "Query before inserting the current prefix."
+      },
+      {
+        "id": "S08_A013",
+        "phrase": "And remember ... array index and prefix position are different."
+      },
+      {
+        "id": "S08_A014",
+        "phrase": "Important edge cases."
+      },
+      {
+        "id": "S08_A015",
+        "phrase": "`[3]`, target three ... answer one."
+      },
+      {
+        "id": "S08_A016",
+        "phrase": "`[0]`, target zero ... answer one."
+      },
+      {
+        "id": "S08_A017",
+        "phrase": "`[0, 0, 0]`, target zero ... answer six."
+      },
+      {
+        "id": "S08_A018",
+        "phrase": "The key rule is:"
+      },
+      {
+        "id": "S08_A019",
+        "phrase": "answer plus equals frequency of needed prefix."
+      }
+    ],
+    "09": [
+      {
+        "id": "S09_A001",
+        "phrase": "Quick recap."
+      },
+      {
+        "id": "S09_A002",
+        "phrase": "Method One ... fix start ... extend end ... update running sum ... count the match."
+      },
+      {
+        "id": "S09_A003",
+        "phrase": "Time ... `O of n squared`."
+      },
+      {
+        "id": "S09_A004",
+        "phrase": "Space ... `O of one`."
+      },
+      {
+        "id": "S09_A005",
+        "phrase": "Core relation: current prefix minus previous prefix equals `k`."
+      },
+      {
+        "id": "S09_A006",
+        "phrase": "So: needed previous prefix equals current prefix minus `k`."
+      },
+      {
+        "id": "S09_A007",
+        "phrase": "Method Two ... update prefix ... compute needed ... query its frequency ... add the matches ... then store the current prefix."
+      },
+      {
+        "id": "S09_A008",
+        "phrase": "Expected time ... `O of n`."
+      },
+      {
+        "id": "S09_A009",
+        "phrase": "Space ... `O of n`."
+      },
+      {
+        "id": "S09_A010",
+        "phrase": "Reusable pattern:"
+      },
+      {
+        "id": "S09_A011",
+        "phrase": "if a range condition can be written as: current cumulative state minus earlier cumulative state equals target ..."
+      },
+      {
+        "id": "S09_A012",
+        "phrase": "look for: current minus target."
+      },
+      {
+        "id": "S09_A013",
+        "phrase": "And if multiple earlier states can create valid ranges ... store frequency."
+      },
+      {
+        "id": "S09_A014",
+        "phrase": "Now Question Sixteen ... Subarray Sum Equals K ... is complete."
+      },
+      {
+        "id": "S09_A015",
+        "phrase": "Our global progress moves from fifteen out of two hundred twenty-seven ... to sixteen out of two hundred twenty-seven."
+      },
+      {
+        "id": "S09_A016",
+        "phrase": "Next in Arrays and Hashing ... Question seventeen."
+      },
+      {
+        "id": "S09_A017",
+        "phrase": "Encode and Decode Strings."
+      }
+    ]
+  }
+}

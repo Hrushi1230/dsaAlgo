@@ -307,9 +307,13 @@ Current state:
 - #010 Longest Consecutive Sequence — complete/regression reference
 - #011 Sort Colors (LC 75) — complete
 - #012 Next Permutation (LC 31) — complete (all 10 scenes & master video assembled)
-- #013 Set Matrix Zeroes (LC 73) — implementation complete (all 13 scenes coded in Remotion; master video render pending)
+- #013 Set Matrix Zeroes (LC 73) — implementation complete (all 13 scenes coded in Remotion)
 - #014 Rotate Image (LC 48) — complete (all 13 scenes coded & master 2K video rendered)
-- #015 Spiral Matrix (LC 54) — next production problem
+- #015 Spiral Matrix (LC 54) — complete (all 10 scenes coded & master 2K video rendered)
+- #016 Subarray Sum Equals K (LC 560) — complete (all 9 scenes coded & master 2K video rendered)
+- #017 Encode and Decode Strings (LC 271) — complete (all 10 scenes coded & master 2K video rendered)
+- #018 First Missing Positive (LC 41) — complete (all 13 scenes coded, audited & master 2K video rendered)
+- #019 Valid Palindrome (LC 125) — next production problem (Pattern 02 · Two Pointers)
 
 Do not infer a different next problem.
 

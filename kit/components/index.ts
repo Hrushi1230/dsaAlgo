@@ -51,3 +51,9 @@ export * from "./array";
 export * from "./ChalkCodeEditorV2";
 export * from "./MasterRoadmapV2";
 
+// Mobile-First Board-Native Layout Primitives (Q18+)
+export * from "./ChalkBoardNativeCode";
+export * from "./ChalkVariablesPanel";
+export * from "./ChalkReasoningPanel";
+export * from "./MobileStyleProof";
+

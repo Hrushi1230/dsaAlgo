@@ -1,0 +1,961 @@
+{
+  "audio_file": "04-brute-code.mp3",
+  "duration_ms": 49620,
+  "duration_frames": 1489,
+  "fps": 30,
+  "word_count": 96,
+  "words": [
+    {
+      "word": "Start",
+      "start_ms": 0,
+      "end_ms": 540,
+      "start_frame": 0,
+      "end_frame": 16
+    },
+    {
+      "word": "candidate",
+      "start_ms": 540,
+      "end_ms": 1140,
+      "start_frame": 16,
+      "end_frame": 34
+    },
+    {
+      "word": "at",
+      "start_ms": 1140,
+      "end_ms": 1440,
+      "start_frame": 34,
+      "end_frame": 43
+    },
+    {
+      "word": "1,",
+      "start_ms": 1440,
+      "end_ms": 1960,
+      "start_frame": 43,
+      "end_frame": 59
+    },
+    {
+      "word": "because",
+      "start_ms": 2540,
+      "end_ms": 2760,
+      "start_frame": 76,
+      "end_frame": 83
+    },
+    {
+      "word": "our",
+      "start_ms": 2760,
+      "end_ms": 3060,
+      "start_frame": 83,
+      "end_frame": 92
+    },
+    {
+      "word": "answer",
+      "start_ms": 3060,
+      "end_ms": 3400,
+      "start_frame": 92,
+      "end_frame": 102
+    },
+    {
+      "word": "must",
+      "start_ms": 3400,
+      "end_ms": 3760,
+      "start_frame": 102,
+      "end_frame": 113
+    },
+    {
+      "word": "be",
+      "start_ms": 3760,
+      "end_ms": 4060,
+      "start_frame": 113,
+      "end_frame": 122
+    },
+    {
+      "word": "positive,",
+      "start_ms": 4060,
+      "end_ms": 4740,
+      "start_frame": 122,
+      "end_frame": 142
+    },
+    {
+      "word": "and",
+      "start_ms": 5200,
+      "end_ms": 5400,
+      "start_frame": 156,
+      "end_frame": 162
+    },
+    {
+      "word": "we",
+      "start_ms": 5400,
+      "end_ms": 5700,
+      "start_frame": 162,
+      "end_frame": 171
+    },
+    {
+      "word": "need",
+      "start_ms": 5700,
+      "end_ms": 5900,
+      "start_frame": 171,
+      "end_frame": 177
+    },
+    {
+      "word": "the",
+      "start_ms": 5900,
+      "end_ms": 6200,
+      "start_frame": 177,
+      "end_frame": 186
+    },
+    {
+      "word": "smallest.",
+      "start_ms": 6200,
+      "end_ms": 6680,
+      "start_frame": 186,
+      "end_frame": 200
+    },
+    {
+      "word": "The",
+      "start_ms": 7360,
+      "end_ms": 7640,
+      "start_frame": 221,
+      "end_frame": 229
+    },
+    {
+      "word": "outer",
+      "start_ms": 7640,
+      "end_ms": 7980,
+      "start_frame": 229,
+      "end_frame": 239
+    },
+    {
+      "word": "loop",
+      "start_ms": 7980,
+      "end_ms": 8260,
+      "start_frame": 239,
+      "end_frame": 248
+    },
+    {
+      "word": "keeps",
+      "start_ms": 8260,
+      "end_ms": 8620,
+      "start_frame": 248,
+      "end_frame": 259
+    },
+    {
+      "word": "trying",
+      "start_ms": 8620,
+      "end_ms": 9140,
+      "start_frame": 259,
+      "end_frame": 274
+    },
+    {
+      "word": "candidates,",
+      "start_ms": 9140,
+      "end_ms": 9840,
+      "start_frame": 274,
+      "end_frame": 295
+    },
+    {
+      "word": "one",
+      "start_ms": 10220,
+      "end_ms": 10560,
+      "start_frame": 307,
+      "end_frame": 317
+    },
+    {
+      "word": "after",
+      "start_ms": 10560,
+      "end_ms": 11160,
+      "start_frame": 317,
+      "end_frame": 335
+    },
+    {
+      "word": "another.",
+      "start_ms": 11160,
+      "end_ms": 11720,
+      "start_frame": 335,
+      "end_frame": 352
+    },
+    {
+      "word": "For",
+      "start_ms": 12360,
+      "end_ms": 12560,
+      "start_frame": 371,
+      "end_frame": 377
+    },
+    {
+      "word": "each",
+      "start_ms": 12560,
+      "end_ms": 12920,
+      "start_frame": 377,
+      "end_frame": 388
+    },
+    {
+      "word": "new",
+      "start_ms": 12920,
+      "end_ms": 13260,
+      "start_frame": 388,
+      "end_frame": 398
+    },
+    {
+      "word": "candidate,",
+      "start_ms": 13260,
+      "end_ms": 13840,
+      "start_frame": 398,
+      "end_frame": 415
+    },
+    {
+      "word": "reset",
+      "start_ms": 14200,
+      "end_ms": 14800,
+      "start_frame": 426,
+      "end_frame": 444
+    },
+    {
+      "word": "found",
+      "start_ms": 14800,
+      "end_ms": 15320,
+      "start_frame": 444,
+      "end_frame": 460
+    },
+    {
+      "word": "to",
+      "start_ms": 15320,
+      "end_ms": 15640,
+      "start_frame": 460,
+      "end_frame": 469
+    },
+    {
+      "word": "false.",
+      "start_ms": 15640,
+      "end_ms": 16040,
+      "start_frame": 469,
+      "end_frame": 481
+    },
+    {
+      "word": "An",
+      "start_ms": 17040,
+      "end_ms": 17340,
+      "start_frame": 511,
+      "end_frame": 520
+    },
+    {
+      "word": "earlier",
+      "start_ms": 17340,
+      "end_ms": 17740,
+      "start_frame": 520,
+      "end_frame": 532
+    },
+    {
+      "word": "candidate's",
+      "start_ms": 17740,
+      "end_ms": 18520,
+      "start_frame": 532,
+      "end_frame": 556
+    },
+    {
+      "word": "result",
+      "start_ms": 18520,
+      "end_ms": 18880,
+      "start_frame": 556,
+      "end_frame": 566
+    },
+    {
+      "word": "must",
+      "start_ms": 18880,
+      "end_ms": 19200,
+      "start_frame": 566,
+      "end_frame": 576
+    },
+    {
+      "word": "not",
+      "start_ms": 19200,
+      "end_ms": 19560,
+      "start_frame": 576,
+      "end_frame": 587
+    },
+    {
+      "word": "carry",
+      "start_ms": 19560,
+      "end_ms": 20000,
+      "start_frame": 587,
+      "end_frame": 600
+    },
+    {
+      "word": "over.",
+      "start_ms": 20000,
+      "end_ms": 20420,
+      "start_frame": 600,
+      "end_frame": 613
+    },
+    {
+      "word": "The",
+      "start_ms": 20900,
+      "end_ms": 21220,
+      "start_frame": 627,
+      "end_frame": 637
+    },
+    {
+      "word": "inner",
+      "start_ms": 21220,
+      "end_ms": 21540,
+      "start_frame": 637,
+      "end_frame": 646
+    },
+    {
+      "word": "loop",
+      "start_ms": 21540,
+      "end_ms": 21860,
+      "start_frame": 646,
+      "end_frame": 656
+    },
+    {
+      "word": "searches",
+      "start_ms": 21860,
+      "end_ms": 22360,
+      "start_frame": 656,
+      "end_frame": 671
+    },
+    {
+      "word": "the",
+      "start_ms": 22360,
+      "end_ms": 22720,
+      "start_frame": 671,
+      "end_frame": 682
+    },
+    {
+      "word": "array",
+      "start_ms": 22720,
+      "end_ms": 23080,
+      "start_frame": 682,
+      "end_frame": 692
+    },
+    {
+      "word": "for",
+      "start_ms": 23080,
+      "end_ms": 23300,
+      "start_frame": 692,
+      "end_frame": 699
+    },
+    {
+      "word": "that",
+      "start_ms": 23300,
+      "end_ms": 23640,
+      "start_frame": 699,
+      "end_frame": 709
+    },
+    {
+      "word": "candidate.",
+      "start_ms": 23640,
+      "end_ms": 24180,
+      "start_frame": 709,
+      "end_frame": 725
+    },
+    {
+      "word": "If",
+      "start_ms": 24560,
+      "end_ms": 24740,
+      "start_frame": 737,
+      "end_frame": 742
+    },
+    {
+      "word": "a",
+      "start_ms": 24740,
+      "end_ms": 25000,
+      "start_frame": 742,
+      "end_frame": 750
+    },
+    {
+      "word": "value",
+      "start_ms": 25000,
+      "end_ms": 25360,
+      "start_frame": 750,
+      "end_frame": 761
+    },
+    {
+      "word": "matches,",
+      "start_ms": 25360,
+      "end_ms": 25900,
+      "start_frame": 761,
+      "end_frame": 777
+    },
+    {
+      "word": "set",
+      "start_ms": 26260,
+      "end_ms": 26540,
+      "start_frame": 788,
+      "end_frame": 796
+    },
+    {
+      "word": "found",
+      "start_ms": 26540,
+      "end_ms": 26880,
+      "start_frame": 796,
+      "end_frame": 806
+    },
+    {
+      "word": "to",
+      "start_ms": 26880,
+      "end_ms": 27160,
+      "start_frame": 806,
+      "end_frame": 815
+    },
+    {
+      "word": "true",
+      "start_ms": 27160,
+      "end_ms": 27540,
+      "start_frame": 815,
+      "end_frame": 826
+    },
+    {
+      "word": "and",
+      "start_ms": 27540,
+      "end_ms": 28280,
+      "start_frame": 826,
+      "end_frame": 848
+    },
+    {
+      "word": "break.",
+      "start_ms": 28280,
+      "end_ms": 28660,
+      "start_frame": 848,
+      "end_frame": 860
+    },
+    {
+      "word": "More",
+      "start_ms": 29340,
+      "end_ms": 29840,
+      "start_frame": 880,
+      "end_frame": 895
+    },
+    {
+      "word": "checks",
+      "start_ms": 29840,
+      "end_ms": 30140,
+      "start_frame": 895,
+      "end_frame": 904
+    },
+    {
+      "word": "cannot",
+      "start_ms": 30140,
+      "end_ms": 30540,
+      "start_frame": 904,
+      "end_frame": 916
+    },
+    {
+      "word": "change",
+      "start_ms": 30540,
+      "end_ms": 31100,
+      "start_frame": 916,
+      "end_frame": 933
+    },
+    {
+      "word": "that",
+      "start_ms": 31100,
+      "end_ms": 31400,
+      "start_frame": 933,
+      "end_frame": 942
+    },
+    {
+      "word": "result.",
+      "start_ms": 31400,
+      "end_ms": 31800,
+      "start_frame": 942,
+      "end_frame": 954
+    },
+    {
+      "word": "After",
+      "start_ms": 32600,
+      "end_ms": 32920,
+      "start_frame": 978,
+      "end_frame": 988
+    },
+    {
+      "word": "the",
+      "start_ms": 32920,
+      "end_ms": 33180,
+      "start_frame": 988,
+      "end_frame": 995
+    },
+    {
+      "word": "search,",
+      "start_ms": 33180,
+      "end_ms": 33480,
+      "start_frame": 995,
+      "end_frame": 1004
+    },
+    {
+      "word": "if",
+      "start_ms": 33720,
+      "end_ms": 33900,
+      "start_frame": 1012,
+      "end_frame": 1017
+    },
+    {
+      "word": "found",
+      "start_ms": 33900,
+      "end_ms": 34300,
+      "start_frame": 1017,
+      "end_frame": 1029
+    },
+    {
+      "word": "is",
+      "start_ms": 34300,
+      "end_ms": 34640,
+      "start_frame": 1029,
+      "end_frame": 1039
+    },
+    {
+      "word": "still",
+      "start_ms": 34640,
+      "end_ms": 34980,
+      "start_frame": 1039,
+      "end_frame": 1049
+    },
+    {
+      "word": "false,",
+      "start_ms": 34980,
+      "end_ms": 35440,
+      "start_frame": 1049,
+      "end_frame": 1063
+    },
+    {
+      "word": "return",
+      "start_ms": 35960,
+      "end_ms": 36400,
+      "start_frame": 1079,
+      "end_frame": 1092
+    },
+    {
+      "word": "the",
+      "start_ms": 36400,
+      "end_ms": 36620,
+      "start_frame": 1092,
+      "end_frame": 1099
+    },
+    {
+      "word": "candidate.",
+      "start_ms": 36620,
+      "end_ms": 37020,
+      "start_frame": 1099,
+      "end_frame": 1111
+    },
+    {
+      "word": "That's",
+      "start_ms": 38100,
+      "end_ms": 38600,
+      "start_frame": 1143,
+      "end_frame": 1158
+    },
+    {
+      "word": "the",
+      "start_ms": 38600,
+      "end_ms": 38860,
+      "start_frame": 1158,
+      "end_frame": 1166
+    },
+    {
+      "word": "first",
+      "start_ms": 38860,
+      "end_ms": 39160,
+      "start_frame": 1166,
+      "end_frame": 1175
+    },
+    {
+      "word": "number",
+      "start_ms": 39160,
+      "end_ms": 39620,
+      "start_frame": 1175,
+      "end_frame": 1189
+    },
+    {
+      "word": "missing.",
+      "start_ms": 39620,
+      "end_ms": 40180,
+      "start_frame": 1189,
+      "end_frame": 1205
+    },
+    {
+      "word": "Otherwise,",
+      "start_ms": 41040,
+      "end_ms": 41640,
+      "start_frame": 1231,
+      "end_frame": 1249
+    },
+    {
+      "word": "increase",
+      "start_ms": 42020,
+      "end_ms": 42440,
+      "start_frame": 1261,
+      "end_frame": 1273
+    },
+    {
+      "word": "the",
+      "start_ms": 42440,
+      "end_ms": 42720,
+      "start_frame": 1273,
+      "end_frame": 1282
+    },
+    {
+      "word": "candidate",
+      "start_ms": 42720,
+      "end_ms": 43100,
+      "start_frame": 1282,
+      "end_frame": 1293
+    },
+    {
+      "word": "by",
+      "start_ms": 43100,
+      "end_ms": 43560,
+      "start_frame": 1293,
+      "end_frame": 1307
+    },
+    {
+      "word": "1",
+      "start_ms": 43560,
+      "end_ms": 43960,
+      "start_frame": 1307,
+      "end_frame": 1319
+    },
+    {
+      "word": "and",
+      "start_ms": 43960,
+      "end_ms": 44700,
+      "start_frame": 1319,
+      "end_frame": 1341
+    },
+    {
+      "word": "repeat.",
+      "start_ms": 44700,
+      "end_ms": 45260,
+      "start_frame": 1341,
+      "end_frame": 1358
+    },
+    {
+      "word": "Correct!",
+      "start_ms": 46260,
+      "end_ms": 46620,
+      "start_frame": 1388,
+      "end_frame": 1399
+    },
+    {
+      "word": "But",
+      "start_ms": 47220,
+      "end_ms": 47440,
+      "start_frame": 1417,
+      "end_frame": 1423
+    },
+    {
+      "word": "the",
+      "start_ms": 47440,
+      "end_ms": 47820,
+      "start_frame": 1423,
+      "end_frame": 1435
+    },
+    {
+      "word": "repeated",
+      "start_ms": 47820,
+      "end_ms": 48180,
+      "start_frame": 1435,
+      "end_frame": 1445
+    },
+    {
+      "word": "scans",
+      "start_ms": 48180,
+      "end_ms": 48680,
+      "start_frame": 1445,
+      "end_frame": 1460
+    },
+    {
+      "word": "cost",
+      "start_ms": 48680,
+      "end_ms": 49180,
+      "start_frame": 1460,
+      "end_frame": 1475
+    },
+    {
+      "word": "time.",
+      "start_ms": 49180,
+      "end_ms": 49620,
+      "start_frame": 1475,
+      "end_frame": 1489
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Start candidate at 1, because our answer must be positive, and we need the smallest.",
+      "start_ms": 0,
+      "end_ms": 6680,
+      "start_frame": 0,
+      "end_frame": 200,
+      "word_count": 15
+    },
+    {
+      "text": "The outer loop keeps trying candidates, one after another.",
+      "start_ms": 7360,
+      "end_ms": 11720,
+      "start_frame": 221,
+      "end_frame": 352,
+      "word_count": 9
+    },
+    {
+      "text": "For each new candidate, reset found to false.",
+      "start_ms": 12360,
+      "end_ms": 16040,
+      "start_frame": 371,
+      "end_frame": 481,
+      "word_count": 8
+    },
+    {
+      "text": "An earlier candidate's result must not carry over.",
+      "start_ms": 17040,
+      "end_ms": 20420,
+      "start_frame": 511,
+      "end_frame": 613,
+      "word_count": 8
+    },
+    {
+      "text": "The inner loop searches the array for that candidate.",
+      "start_ms": 20900,
+      "end_ms": 24180,
+      "start_frame": 627,
+      "end_frame": 725,
+      "word_count": 9
+    },
+    {
+      "text": "If a value matches, set found to true and break.",
+      "start_ms": 24560,
+      "end_ms": 28660,
+      "start_frame": 737,
+      "end_frame": 860,
+      "word_count": 10
+    },
+    {
+      "text": "More checks cannot change that result.",
+      "start_ms": 29340,
+      "end_ms": 31800,
+      "start_frame": 880,
+      "end_frame": 954,
+      "word_count": 6
+    },
+    {
+      "text": "After the search, if found is still false, return the candidate.",
+      "start_ms": 32600,
+      "end_ms": 37020,
+      "start_frame": 978,
+      "end_frame": 1111,
+      "word_count": 11
+    },
+    {
+      "text": "That's the first number missing.",
+      "start_ms": 38100,
+      "end_ms": 40180,
+      "start_frame": 1143,
+      "end_frame": 1205,
+      "word_count": 5
+    },
+    {
+      "text": "Otherwise, increase the candidate by 1 and repeat.",
+      "start_ms": 41040,
+      "end_ms": 45260,
+      "start_frame": 1231,
+      "end_frame": 1358,
+      "word_count": 8
+    },
+    {
+      "text": "Correct!",
+      "start_ms": 46260,
+      "end_ms": 46620,
+      "start_frame": 1388,
+      "end_frame": 1399,
+      "word_count": 1
+    },
+    {
+      "text": "But the repeated scans cost time.",
+      "start_ms": 47220,
+      "end_ms": 49620,
+      "start_frame": 1417,
+      "end_frame": 1489,
+      "word_count": 6
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "1,",
+      "before_word": "because",
+      "start_ms": 1960,
+      "end_ms": 2540,
+      "duration_ms": 580,
+      "start_frame": 59,
+      "end_frame": 76,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "positive,",
+      "before_word": "and",
+      "start_ms": 4740,
+      "end_ms": 5200,
+      "duration_ms": 460,
+      "start_frame": 142,
+      "end_frame": 156,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "smallest.",
+      "before_word": "The",
+      "start_ms": 6680,
+      "end_ms": 7360,
+      "duration_ms": 680,
+      "start_frame": 200,
+      "end_frame": 221,
+      "duration_frames": 21
+    },
+    {
+      "after_word": "candidates,",
+      "before_word": "one",
+      "start_ms": 9840,
+      "end_ms": 10220,
+      "duration_ms": 380,
+      "start_frame": 295,
+      "end_frame": 307,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "another.",
+      "before_word": "For",
+      "start_ms": 11720,
+      "end_ms": 12360,
+      "duration_ms": 640,
+      "start_frame": 352,
+      "end_frame": 371,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "candidate,",
+      "before_word": "reset",
+      "start_ms": 13840,
+      "end_ms": 14200,
+      "duration_ms": 360,
+      "start_frame": 415,
+      "end_frame": 426,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "false.",
+      "before_word": "An",
+      "start_ms": 16040,
+      "end_ms": 17040,
+      "duration_ms": 1000,
+      "start_frame": 481,
+      "end_frame": 511,
+      "duration_frames": 30
+    },
+    {
+      "after_word": "over.",
+      "before_word": "The",
+      "start_ms": 20420,
+      "end_ms": 20900,
+      "duration_ms": 480,
+      "start_frame": 613,
+      "end_frame": 627,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "candidate.",
+      "before_word": "If",
+      "start_ms": 24180,
+      "end_ms": 24560,
+      "duration_ms": 380,
+      "start_frame": 725,
+      "end_frame": 737,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "matches,",
+      "before_word": "set",
+      "start_ms": 25900,
+      "end_ms": 26260,
+      "duration_ms": 360,
+      "start_frame": 777,
+      "end_frame": 788,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "break.",
+      "before_word": "More",
+      "start_ms": 28660,
+      "end_ms": 29340,
+      "duration_ms": 680,
+      "start_frame": 860,
+      "end_frame": 880,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "result.",
+      "before_word": "After",
+      "start_ms": 31800,
+      "end_ms": 32600,
+      "duration_ms": 800,
+      "start_frame": 954,
+      "end_frame": 978,
+      "duration_frames": 24
+    },
+    {
+      "after_word": "false,",
+      "before_word": "return",
+      "start_ms": 35440,
+      "end_ms": 35960,
+      "duration_ms": 520,
+      "start_frame": 1063,
+      "end_frame": 1079,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "candidate.",
+      "before_word": "That's",
+      "start_ms": 37020,
+      "end_ms": 38100,
+      "duration_ms": 1080,
+      "start_frame": 1111,
+      "end_frame": 1143,
+      "duration_frames": 32
+    },
+    {
+      "after_word": "missing.",
+      "before_word": "Otherwise,",
+      "start_ms": 40180,
+      "end_ms": 41040,
+      "duration_ms": 860,
+      "start_frame": 1205,
+      "end_frame": 1231,
+      "duration_frames": 26
+    },
+    {
+      "after_word": "Otherwise,",
+      "before_word": "increase",
+      "start_ms": 41640,
+      "end_ms": 42020,
+      "duration_ms": 380,
+      "start_frame": 1249,
+      "end_frame": 1261,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "repeat.",
+      "before_word": "Correct!",
+      "start_ms": 45260,
+      "end_ms": 46260,
+      "duration_ms": 1000,
+      "start_frame": 1358,
+      "end_frame": 1388,
+      "duration_frames": 30
+    },
+    {
+      "after_word": "Correct!",
+      "before_word": "But",
+      "start_ms": 46620,
+      "end_ms": 47220,
+      "duration_ms": 600,
+      "start_frame": 1399,
+      "end_frame": 1417,
+      "duration_frames": 18
+    }
+  ]
+}

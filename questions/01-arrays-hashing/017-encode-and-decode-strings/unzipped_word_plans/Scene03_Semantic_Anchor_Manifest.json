@@ -1,0 +1,151 @@
+{
+  "question": "Q17 Encode and Decode Strings",
+  "scene": 3,
+  "name": "Length-Prefix Idea",
+  "stage": "GATE_A_PRE_AUDIO_ONLY",
+  "word_ids": "PENDING_SYNC",
+  "timing": "PENDING_MP3_SYNC",
+  "anchor_count": 14,
+  "anchors": [
+    {
+      "id": "S03:A001",
+      "source_narration_occurrence": 1,
+      "exact_spoken_phrase": "The idea is simple.",
+      "visual_intent": "Clear raw-delimiter failure; center stage stays deliberately empty until the protocol begins.",
+      "phase": "IDEA ONLY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol formula; see geometry table",
+      "source_state": "Generic `length#payload` relation only; no master encoded bytes or decoded output."
+    },
+    {
+      "id": "S03:A002",
+      "source_narration_occurrence": 2,
+      "exact_spoken_phrase": "For every string ...",
+      "visual_intent": "Introduce one generic source string `s` on left; reserve formula stage, no encoded master string.",
+      "phase": "IDEA ONLY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol formula; see geometry table",
+      "source_state": "Generic `length#payload` relation only; no master encoded bytes or decoded output."
+    },
+    {
+      "id": "S03:A003",
+      "source_narration_occurrence": 3,
+      "exact_spoken_phrase": "write its length ...",
+      "visual_intent": "Reveal length token `len(s)` at left of center formula, large gold chalk.",
+      "phase": "IDEA ONLY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol formula; see geometry table",
+      "source_state": "Generic `length#payload` relation only; no master encoded bytes or decoded output."
+    },
+    {
+      "id": "S03:A004",
+      "source_narration_occurrence": 4,
+      "exact_spoken_phrase": "then a hash ...",
+      "visual_intent": "Reveal `#` immediately after `len(s)`, visually classified as header terminator, not payload separator.",
+      "phase": "IDEA ONLY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol formula; see geometry table",
+      "source_state": "Generic `length#payload` relation only; no master encoded bytes or decoded output."
+    },
+    {
+      "id": "S03:A005",
+      "source_narration_occurrence": 5,
+      "exact_spoken_phrase": "then the original string.",
+      "visual_intent": "Reveal payload `s` after header hash; all three token groups remain fixed.",
+      "phase": "IDEA ONLY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol formula; see geometry table",
+      "source_state": "Generic `length#payload` relation only; no master encoded bytes or decoded output."
+    },
+    {
+      "id": "S03:A006",
+      "source_narration_occurrence": 6,
+      "exact_spoken_phrase": "So our record format becomes ...",
+      "visual_intent": "Shift reading focus to the assembled record formula; no extra trace calculations.",
+      "phase": "IDEA ONLY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol formula; see geometry table",
+      "source_state": "Generic `length#payload` relation only; no master encoded bytes or decoded output."
+    },
+    {
+      "id": "S03:A007",
+      "source_narration_occurrence": 7,
+      "exact_spoken_phrase": "length ... hash ... payload.",
+      "visual_intent": "Center hero becomes `length  #  payload` using separated semantic colors; nothing more.",
+      "phase": "IDEA ONLY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol formula; see geometry table",
+      "source_state": "Generic `length#payload` relation only; no master encoded bytes or decoded output."
+    },
+    {
+      "id": "S03:A008",
+      "source_narration_occurrence": 8,
+      "exact_spoken_phrase": "The hash ends the length header.",
+      "visual_intent": "Underline `length#` as the metadata header; do NOT suggest later hashes are delimiters.",
+      "phase": "IDEA ONLY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol formula; see geometry table",
+      "source_state": "Generic `length#payload` relation only; no master encoded bytes or decoded output."
+    },
+    {
+      "id": "S03:A009",
+      "source_narration_occurrence": 9,
+      "exact_spoken_phrase": "After that, the decoder reads exactly the specified number of characters.",
+      "visual_intent": "Reveal a direct chalk arrow `read exactly length characters` pointing across payload, no character-by-character replay.",
+      "phase": "IDEA ONLY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol formula; see geometry table",
+      "source_state": "Generic `length#payload` relation only; no master encoded bytes or decoded output."
+    },
+    {
+      "id": "S03:A010",
+      "source_narration_occurrence": 10,
+      "exact_spoken_phrase": "Even if the payload contains a hash ... it is safe.",
+      "visual_intent": "Emphasize a hash inside a generic payload as ordinary data; preserve the header/payload semantic difference.",
+      "phase": "IDEA ONLY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol formula; see geometry table",
+      "source_state": "Generic `length#payload` relation only; no master encoded bytes or decoded output."
+    },
+    {
+      "id": "S03:A011",
+      "source_narration_occurrence": 11,
+      "exact_spoken_phrase": "And after each record ...",
+      "visual_intent": "Begin next-record invariant cue below formula; the next record remains abstract and hidden.",
+      "phase": "IDEA ONLY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol formula; see geometry table",
+      "source_state": "Generic `length#payload` relation only; no master encoded bytes or decoded output."
+    },
+    {
+      "id": "S03:A012",
+      "source_narration_occurrence": 12,
+      "exact_spoken_phrase": "the pointer `i` must reach the next length header.",
+      "visual_intent": "Reveal stable pointer invariant `i = start of next length header` in board-native lower lane.",
+      "phase": "IDEA ONLY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol formula; see geometry table",
+      "source_state": "Generic `length#payload` relation only; no master encoded bytes or decoded output."
+    },
+    {
+      "id": "S03:A013",
+      "source_narration_occurrence": 13,
+      "exact_spoken_phrase": "That's the protocol.",
+      "visual_intent": "Settle final protocol without a decoder execution; no full trace, no final encoded result.",
+      "phase": "IDEA ONLY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol formula; see geometry table",
+      "source_state": "Generic `length#payload` relation only; no master encoded bytes or decoded output."
+    },
+    {
+      "id": "S03:A014",
+      "source_narration_occurrence": 14,
+      "exact_spoken_phrase": "Now let's encode our full example.",
+      "visual_intent": "Clear generic demonstration on transition; prepare input-list focus for Scene04's first source phrase.",
+      "phase": "IDEA ONLY",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol formula; see geometry table",
+      "source_state": "Generic `length#payload` relation only; no master encoded bytes or decoded output."
+    }
+  ]
+}

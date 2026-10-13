@@ -1,0 +1,161 @@
+{
+  "question": "Q17 Encode and Decode Strings",
+  "scene": 7,
+  "name": "Decode Code",
+  "stage": "GATE_A_PRE_AUDIO_ONLY",
+  "word_ids": "PENDING_SYNC",
+  "timing": "PENDING_MP3_SYNC",
+  "anchor_count": 15,
+  "anchors": [
+    {
+      "id": "S07:A001",
+      "source_narration_occurrence": 1,
+      "exact_spoken_phrase": "Start with an empty result list.",
+      "visual_intent": "Reveal `result = []` in board-native code stage, output remains conceptual.",
+      "phase": "DECODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist; i=end invariant is support, not a second trace."
+    },
+    {
+      "id": "S07:A002",
+      "source_narration_occurrence": 2,
+      "exact_spoken_phrase": "And set `i` to zero.",
+      "visual_intent": "Reveal `i = 0`; invariant state cue may appear on right.",
+      "phase": "DECODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist; i=end invariant is support, not a second trace."
+    },
+    {
+      "id": "S07:A003",
+      "source_narration_occurrence": 3,
+      "exact_spoken_phrase": "While `i` is inside the encoded string ...",
+      "visual_intent": "Reveal `while i < len(s):` and make loop extent legible without dark IDE chrome.",
+      "phase": "DECODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist; i=end invariant is support, not a second trace."
+    },
+    {
+      "id": "S07:A004",
+      "source_narration_occurrence": 4,
+      "exact_spoken_phrase": "set `j` to `i`.",
+      "visual_intent": "Reveal `j = i` within outer loop.",
+      "phase": "DECODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist; i=end invariant is support, not a second trace."
+    },
+    {
+      "id": "S07:A005",
+      "source_narration_occurrence": 5,
+      "exact_spoken_phrase": "Move `j` until the next header hash.",
+      "visual_intent": "Reveal `while s[j] != \"#\":` and inner advance `j += 1` as the spoken single scan unit.",
+      "phase": "DECODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist; i=end invariant is support, not a second trace."
+    },
+    {
+      "id": "S07:A006",
+      "source_narration_occurrence": 6,
+      "exact_spoken_phrase": "Convert the digits from `i` to `j` into the length.",
+      "visual_intent": "Reveal `length = int(s[i:j])`; highlight digits-as-header, not payload.",
+      "phase": "DECODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist; i=end invariant is support, not a second trace."
+    },
+    {
+      "id": "S07:A007",
+      "source_narration_occurrence": 7,
+      "exact_spoken_phrase": "Now start is `j` plus one.",
+      "visual_intent": "Reveal `start = j + 1` and stable start formula support.",
+      "phase": "DECODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist; i=end invariant is support, not a second trace."
+    },
+    {
+      "id": "S07:A008",
+      "source_narration_occurrence": 8,
+      "exact_spoken_phrase": "End is start plus length.",
+      "visual_intent": "Reveal `end = start + length`; show exclusive right boundary in small support cue.",
+      "phase": "DECODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist; i=end invariant is support, not a second trace."
+    },
+    {
+      "id": "S07:A009",
+      "source_narration_occurrence": 9,
+      "exact_spoken_phrase": "Append that exact slice to the result.",
+      "visual_intent": "Reveal `result.append(s[start:end])`; keep exact Python half-open slice syntax.",
+      "phase": "DECODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist; i=end invariant is support, not a second trace."
+    },
+    {
+      "id": "S07:A010",
+      "source_narration_occurrence": 10,
+      "exact_spoken_phrase": "Then set `i` to end.",
+      "visual_intent": "Reveal `i = end` as key hot/invariant restoring line.",
+      "phase": "DECODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist; i=end invariant is support, not a second trace."
+    },
+    {
+      "id": "S07:A011",
+      "source_narration_occurrence": 11,
+      "exact_spoken_phrase": "This takes us to the next record.",
+      "visual_intent": "Underline `i = end` while displaying invariant `next header` in support stage.",
+      "phase": "DECODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist; i=end invariant is support, not a second trace."
+    },
+    {
+      "id": "S07:A012",
+      "source_narration_occurrence": 12,
+      "exact_spoken_phrase": "Repeat until the string is finished.",
+      "visual_intent": "Settle loop repetition concept; no full four-record example retrace.",
+      "phase": "DECODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist; i=end invariant is support, not a second trace."
+    },
+    {
+      "id": "S07:A013",
+      "source_narration_occurrence": 13,
+      "exact_spoken_phrase": "Finally ...",
+      "visual_intent": "Do not show return before spoken conclusion.",
+      "phase": "DECODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist; i=end invariant is support, not a second trace."
+    },
+    {
+      "id": "S07:A014",
+      "source_narration_occurrence": 14,
+      "exact_spoken_phrase": "return the result.",
+      "visual_intent": "Reveal `return result` only now.",
+      "phase": "DECODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist; i=end invariant is support, not a second trace."
+    },
+    {
+      "id": "S07:A015",
+      "source_narration_occurrence": 15,
+      "exact_spoken_phrase": "That's the complete decoder.",
+      "visual_intent": "Settle full decoder code; board-native no black editor.",
+      "phase": "DECODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist; i=end invariant is support, not a second trace."
+    }
+  ]
+}

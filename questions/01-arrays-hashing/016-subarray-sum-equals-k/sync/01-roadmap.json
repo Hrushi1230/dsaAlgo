@@ -1,0 +1,839 @@
+{
+  "audio_file": "01-roadmap.mp3",
+  "duration_ms": 43860,
+  "duration_frames": 1316,
+  "fps": 30,
+  "word_count": 90,
+  "words": [
+    {
+      "word": "We",
+      "start_ms": 0,
+      "end_ms": 220,
+      "start_frame": 0,
+      "end_frame": 7
+    },
+    {
+      "word": "have",
+      "start_ms": 220,
+      "end_ms": 480,
+      "start_frame": 7,
+      "end_frame": 14
+    },
+    {
+      "word": "finished",
+      "start_ms": 480,
+      "end_ms": 840,
+      "start_frame": 14,
+      "end_frame": 25
+    },
+    {
+      "word": "question",
+      "start_ms": 840,
+      "end_ms": 1320,
+      "start_frame": 25,
+      "end_frame": 40
+    },
+    {
+      "word": "15,",
+      "start_ms": 1320,
+      "end_ms": 2560,
+      "start_frame": 40,
+      "end_frame": 77
+    },
+    {
+      "word": "spiral",
+      "start_ms": 2920,
+      "end_ms": 3280,
+      "start_frame": 88,
+      "end_frame": 98
+    },
+    {
+      "word": "matrix.",
+      "start_ms": 3280,
+      "end_ms": 3860,
+      "start_frame": 98,
+      "end_frame": 116
+    },
+    {
+      "word": "So",
+      "start_ms": 4460,
+      "end_ms": 4600,
+      "start_frame": 134,
+      "end_frame": 138
+    },
+    {
+      "word": "our",
+      "start_ms": 4600,
+      "end_ms": 4920,
+      "start_frame": 138,
+      "end_frame": 148
+    },
+    {
+      "word": "global",
+      "start_ms": 4920,
+      "end_ms": 5280,
+      "start_frame": 148,
+      "end_frame": 158
+    },
+    {
+      "word": "progress",
+      "start_ms": 5280,
+      "end_ms": 5760,
+      "start_frame": 158,
+      "end_frame": 173
+    },
+    {
+      "word": "is",
+      "start_ms": 5760,
+      "end_ms": 6020,
+      "start_frame": 173,
+      "end_frame": 181
+    },
+    {
+      "word": "now",
+      "start_ms": 6020,
+      "end_ms": 6860,
+      "start_frame": 181,
+      "end_frame": 206
+    },
+    {
+      "word": "15",
+      "start_ms": 6860,
+      "end_ms": 7460,
+      "start_frame": 206,
+      "end_frame": 224
+    },
+    {
+      "word": "out",
+      "start_ms": 7460,
+      "end_ms": 7740,
+      "start_frame": 224,
+      "end_frame": 232
+    },
+    {
+      "word": "of",
+      "start_ms": 7740,
+      "end_ms": 7960,
+      "start_frame": 232,
+      "end_frame": 239
+    },
+    {
+      "word": "227,",
+      "start_ms": 7960,
+      "end_ms": 9200,
+      "start_frame": 239,
+      "end_frame": 276
+    },
+    {
+      "word": "and",
+      "start_ms": 9600,
+      "end_ms": 9700,
+      "start_frame": 288,
+      "end_frame": 291
+    },
+    {
+      "word": "we",
+      "start_ms": 9700,
+      "end_ms": 9900,
+      "start_frame": 291,
+      "end_frame": 297
+    },
+    {
+      "word": "are",
+      "start_ms": 9900,
+      "end_ms": 10140,
+      "start_frame": 297,
+      "end_frame": 304
+    },
+    {
+      "word": "still",
+      "start_ms": 10140,
+      "end_ms": 10480,
+      "start_frame": 304,
+      "end_frame": 314
+    },
+    {
+      "word": "inside",
+      "start_ms": 10480,
+      "end_ms": 11060,
+      "start_frame": 314,
+      "end_frame": 332
+    },
+    {
+      "word": "arrays",
+      "start_ms": 11060,
+      "end_ms": 11560,
+      "start_frame": 332,
+      "end_frame": 347
+    },
+    {
+      "word": "and",
+      "start_ms": 11560,
+      "end_ms": 11860,
+      "start_frame": 347,
+      "end_frame": 356
+    },
+    {
+      "word": "hashing.",
+      "start_ms": 11860,
+      "end_ms": 12540,
+      "start_frame": 356,
+      "end_frame": 376
+    },
+    {
+      "word": "Next,",
+      "start_ms": 13520,
+      "end_ms": 13520,
+      "start_frame": 406,
+      "end_frame": 406
+    },
+    {
+      "word": "question",
+      "start_ms": 14260,
+      "end_ms": 14420,
+      "start_frame": 428,
+      "end_frame": 433
+    },
+    {
+      "word": "16,",
+      "start_ms": 14420,
+      "end_ms": 15120,
+      "start_frame": 433,
+      "end_frame": 454
+    },
+    {
+      "word": "subarray",
+      "start_ms": 15800,
+      "end_ms": 16240,
+      "start_frame": 474,
+      "end_frame": 487
+    },
+    {
+      "word": "sum",
+      "start_ms": 16240,
+      "end_ms": 16540,
+      "start_frame": 487,
+      "end_frame": 496
+    },
+    {
+      "word": "equals",
+      "start_ms": 16540,
+      "end_ms": 17100,
+      "start_frame": 496,
+      "end_frame": 513
+    },
+    {
+      "word": "k.",
+      "start_ms": 17100,
+      "end_ms": 17440,
+      "start_frame": 513,
+      "end_frame": 523
+    },
+    {
+      "word": "At",
+      "start_ms": 18260,
+      "end_ms": 18540,
+      "start_frame": 548,
+      "end_frame": 556
+    },
+    {
+      "word": "first,",
+      "start_ms": 18540,
+      "end_ms": 18820,
+      "start_frame": 556,
+      "end_frame": 565
+    },
+    {
+      "word": "this",
+      "start_ms": 18820,
+      "end_ms": 19120,
+      "start_frame": 565,
+      "end_frame": 574
+    },
+    {
+      "word": "problem",
+      "start_ms": 19120,
+      "end_ms": 19460,
+      "start_frame": 574,
+      "end_frame": 584
+    },
+    {
+      "word": "looks",
+      "start_ms": 19460,
+      "end_ms": 19760,
+      "start_frame": 584,
+      "end_frame": 593
+    },
+    {
+      "word": "very",
+      "start_ms": 19760,
+      "end_ms": 20380,
+      "start_frame": 593,
+      "end_frame": 611
+    },
+    {
+      "word": "simple.",
+      "start_ms": 20380,
+      "end_ms": 20840,
+      "start_frame": 611,
+      "end_frame": 625
+    },
+    {
+      "word": "We",
+      "start_ms": 21220,
+      "end_ms": 21400,
+      "start_frame": 637,
+      "end_frame": 642
+    },
+    {
+      "word": "have",
+      "start_ms": 21400,
+      "end_ms": 21600,
+      "start_frame": 642,
+      "end_frame": 648
+    },
+    {
+      "word": "an",
+      "start_ms": 21600,
+      "end_ms": 21800,
+      "start_frame": 648,
+      "end_frame": 654
+    },
+    {
+      "word": "array,",
+      "start_ms": 21800,
+      "end_ms": 22160,
+      "start_frame": 654,
+      "end_frame": 665
+    },
+    {
+      "word": "we",
+      "start_ms": 22700,
+      "end_ms": 22840,
+      "start_frame": 681,
+      "end_frame": 685
+    },
+    {
+      "word": "have",
+      "start_ms": 22840,
+      "end_ms": 23040,
+      "start_frame": 685,
+      "end_frame": 691
+    },
+    {
+      "word": "a",
+      "start_ms": 23040,
+      "end_ms": 23260,
+      "start_frame": 691,
+      "end_frame": 698
+    },
+    {
+      "word": "target,",
+      "start_ms": 23260,
+      "end_ms": 23720,
+      "start_frame": 698,
+      "end_frame": 712
+    },
+    {
+      "word": "k,",
+      "start_ms": 24320,
+      "end_ms": 24720,
+      "start_frame": 730,
+      "end_frame": 742
+    },
+    {
+      "word": "e,",
+      "start_ms": 24740,
+      "end_ms": 25160,
+      "start_frame": 742,
+      "end_frame": 755
+    },
+    {
+      "word": "and",
+      "start_ms": 25860,
+      "end_ms": 26020,
+      "start_frame": 776,
+      "end_frame": 781
+    },
+    {
+      "word": "we",
+      "start_ms": 26020,
+      "end_ms": 26280,
+      "start_frame": 781,
+      "end_frame": 788
+    },
+    {
+      "word": "need",
+      "start_ms": 26280,
+      "end_ms": 26440,
+      "start_frame": 788,
+      "end_frame": 793
+    },
+    {
+      "word": "to",
+      "start_ms": 26440,
+      "end_ms": 26720,
+      "start_frame": 793,
+      "end_frame": 802
+    },
+    {
+      "word": "count",
+      "start_ms": 26720,
+      "end_ms": 27000,
+      "start_frame": 802,
+      "end_frame": 810
+    },
+    {
+      "word": "how",
+      "start_ms": 27000,
+      "end_ms": 27460,
+      "start_frame": 810,
+      "end_frame": 824
+    },
+    {
+      "word": "many",
+      "start_ms": 27460,
+      "end_ms": 27760,
+      "start_frame": 824,
+      "end_frame": 833
+    },
+    {
+      "word": "contiguous",
+      "start_ms": 27760,
+      "end_ms": 28380,
+      "start_frame": 833,
+      "end_frame": 851
+    },
+    {
+      "word": "subarrays",
+      "start_ms": 28380,
+      "end_ms": 29080,
+      "start_frame": 851,
+      "end_frame": 872
+    },
+    {
+      "word": "have",
+      "start_ms": 29080,
+      "end_ms": 29460,
+      "start_frame": 872,
+      "end_frame": 884
+    },
+    {
+      "word": "sum",
+      "start_ms": 29460,
+      "end_ms": 29820,
+      "start_frame": 884,
+      "end_frame": 895
+    },
+    {
+      "word": "exactly",
+      "start_ms": 29820,
+      "end_ms": 30720,
+      "start_frame": 895,
+      "end_frame": 922
+    },
+    {
+      "word": "equal",
+      "start_ms": 30720,
+      "end_ms": 31260,
+      "start_frame": 922,
+      "end_frame": 938
+    },
+    {
+      "word": "to",
+      "start_ms": 31260,
+      "end_ms": 31540,
+      "start_frame": 938,
+      "end_frame": 946
+    },
+    {
+      "word": "k.",
+      "start_ms": 31540,
+      "end_ms": 31800,
+      "start_frame": 946,
+      "end_frame": 954
+    },
+    {
+      "word": "But",
+      "start_ms": 32620,
+      "end_ms": 32800,
+      "start_frame": 979,
+      "end_frame": 984
+    },
+    {
+      "word": "there",
+      "start_ms": 32800,
+      "end_ms": 33020,
+      "start_frame": 984,
+      "end_frame": 991
+    },
+    {
+      "word": "are",
+      "start_ms": 33020,
+      "end_ms": 33200,
+      "start_frame": 991,
+      "end_frame": 996
+    },
+    {
+      "word": "a",
+      "start_ms": 33200,
+      "end_ms": 33340,
+      "start_frame": 996,
+      "end_frame": 1000
+    },
+    {
+      "word": "few",
+      "start_ms": 33340,
+      "end_ms": 33540,
+      "start_frame": 1000,
+      "end_frame": 1006
+    },
+    {
+      "word": "small",
+      "start_ms": 33540,
+      "end_ms": 33900,
+      "start_frame": 1006,
+      "end_frame": 1017
+    },
+    {
+      "word": "details",
+      "start_ms": 33900,
+      "end_ms": 34420,
+      "start_frame": 1017,
+      "end_frame": 1033
+    },
+    {
+      "word": "here",
+      "start_ms": 34420,
+      "end_ms": 34740,
+      "start_frame": 1033,
+      "end_frame": 1042
+    },
+    {
+      "word": "that",
+      "start_ms": 34740,
+      "end_ms": 34980,
+      "start_frame": 1042,
+      "end_frame": 1049
+    },
+    {
+      "word": "completely",
+      "start_ms": 34980,
+      "end_ms": 35720,
+      "start_frame": 1049,
+      "end_frame": 1072
+    },
+    {
+      "word": "change",
+      "start_ms": 35720,
+      "end_ms": 36260,
+      "start_frame": 1072,
+      "end_frame": 1088
+    },
+    {
+      "word": "how",
+      "start_ms": 36260,
+      "end_ms": 36520,
+      "start_frame": 1088,
+      "end_frame": 1096
+    },
+    {
+      "word": "we",
+      "start_ms": 36520,
+      "end_ms": 36780,
+      "start_frame": 1096,
+      "end_frame": 1103
+    },
+    {
+      "word": "solve",
+      "start_ms": 36780,
+      "end_ms": 37000,
+      "start_frame": 1103,
+      "end_frame": 1110
+    },
+    {
+      "word": "it.",
+      "start_ms": 37000,
+      "end_ms": 37480,
+      "start_frame": 1110,
+      "end_frame": 1124
+    },
+    {
+      "word": "So",
+      "start_ms": 37880,
+      "end_ms": 38100,
+      "start_frame": 1136,
+      "end_frame": 1143
+    },
+    {
+      "word": "before",
+      "start_ms": 38100,
+      "end_ms": 38480,
+      "start_frame": 1143,
+      "end_frame": 1154
+    },
+    {
+      "word": "thinking",
+      "start_ms": 38480,
+      "end_ms": 38920,
+      "start_frame": 1154,
+      "end_frame": 1168
+    },
+    {
+      "word": "about",
+      "start_ms": 38920,
+      "end_ms": 39480,
+      "start_frame": 1168,
+      "end_frame": 1184
+    },
+    {
+      "word": "optimization,",
+      "start_ms": 39480,
+      "end_ms": 40420,
+      "start_frame": 1184,
+      "end_frame": 1213
+    },
+    {
+      "word": "let",
+      "start_ms": 41120,
+      "end_ms": 41380,
+      "start_frame": 1234,
+      "end_frame": 1241
+    },
+    {
+      "word": "us",
+      "start_ms": 41380,
+      "end_ms": 41840,
+      "start_frame": 1241,
+      "end_frame": 1255
+    },
+    {
+      "word": "understand",
+      "start_ms": 41840,
+      "end_ms": 42500,
+      "start_frame": 1255,
+      "end_frame": 1275
+    },
+    {
+      "word": "the",
+      "start_ms": 42500,
+      "end_ms": 42800,
+      "start_frame": 1275,
+      "end_frame": 1284
+    },
+    {
+      "word": "question",
+      "start_ms": 42800,
+      "end_ms": 43320,
+      "start_frame": 1284,
+      "end_frame": 1300
+    },
+    {
+      "word": "properly.",
+      "start_ms": 43320,
+      "end_ms": 43860,
+      "start_frame": 1300,
+      "end_frame": 1316
+    }
+  ],
+  "sentences": [
+    {
+      "text": "We have finished question 15, spiral matrix.",
+      "start_ms": 0,
+      "end_ms": 3860,
+      "start_frame": 0,
+      "end_frame": 116,
+      "word_count": 7
+    },
+    {
+      "text": "So our global progress is now 15 out of 227, and we are still inside arrays and hashing.",
+      "start_ms": 4460,
+      "end_ms": 12540,
+      "start_frame": 134,
+      "end_frame": 376,
+      "word_count": 18
+    },
+    {
+      "text": "Next, question 16, subarray sum equals k.",
+      "start_ms": 13520,
+      "end_ms": 17440,
+      "start_frame": 406,
+      "end_frame": 523,
+      "word_count": 7
+    },
+    {
+      "text": "At first, this problem looks very simple.",
+      "start_ms": 18260,
+      "end_ms": 20840,
+      "start_frame": 548,
+      "end_frame": 625,
+      "word_count": 7
+    },
+    {
+      "text": "We have an array, we have a target, k, e, and we need to count how many contiguous subarrays have sum exactly equal to k.",
+      "start_ms": 21220,
+      "end_ms": 31800,
+      "start_frame": 637,
+      "end_frame": 954,
+      "word_count": 25
+    },
+    {
+      "text": "But there are a few small details here that completely change how we solve it.",
+      "start_ms": 32620,
+      "end_ms": 37480,
+      "start_frame": 979,
+      "end_frame": 1124,
+      "word_count": 15
+    },
+    {
+      "text": "So before thinking about optimization, let us understand the question properly.",
+      "start_ms": 37880,
+      "end_ms": 43860,
+      "start_frame": 1136,
+      "end_frame": 1316,
+      "word_count": 11
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "15,",
+      "before_word": "spiral",
+      "start_ms": 2560,
+      "end_ms": 2920,
+      "duration_ms": 360,
+      "start_frame": 77,
+      "end_frame": 88,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "matrix.",
+      "before_word": "So",
+      "start_ms": 3860,
+      "end_ms": 4460,
+      "duration_ms": 600,
+      "start_frame": 116,
+      "end_frame": 134,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "227,",
+      "before_word": "and",
+      "start_ms": 9200,
+      "end_ms": 9600,
+      "duration_ms": 400,
+      "start_frame": 276,
+      "end_frame": 288,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "hashing.",
+      "before_word": "Next,",
+      "start_ms": 12540,
+      "end_ms": 13520,
+      "duration_ms": 980,
+      "start_frame": 376,
+      "end_frame": 406,
+      "duration_frames": 30
+    },
+    {
+      "after_word": "Next,",
+      "before_word": "question",
+      "start_ms": 13520,
+      "end_ms": 14260,
+      "duration_ms": 740,
+      "start_frame": 406,
+      "end_frame": 428,
+      "duration_frames": 22
+    },
+    {
+      "after_word": "16,",
+      "before_word": "subarray",
+      "start_ms": 15120,
+      "end_ms": 15800,
+      "duration_ms": 680,
+      "start_frame": 454,
+      "end_frame": 474,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "k.",
+      "before_word": "At",
+      "start_ms": 17440,
+      "end_ms": 18260,
+      "duration_ms": 820,
+      "start_frame": 523,
+      "end_frame": 548,
+      "duration_frames": 25
+    },
+    {
+      "after_word": "simple.",
+      "before_word": "We",
+      "start_ms": 20840,
+      "end_ms": 21220,
+      "duration_ms": 380,
+      "start_frame": 625,
+      "end_frame": 637,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "array,",
+      "before_word": "we",
+      "start_ms": 22160,
+      "end_ms": 22700,
+      "duration_ms": 540,
+      "start_frame": 665,
+      "end_frame": 681,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "target,",
+      "before_word": "k,",
+      "start_ms": 23720,
+      "end_ms": 24320,
+      "duration_ms": 600,
+      "start_frame": 712,
+      "end_frame": 730,
+      "duration_frames": 18
+    },
+    {
+      "after_word": "e,",
+      "before_word": "and",
+      "start_ms": 25160,
+      "end_ms": 25860,
+      "duration_ms": 700,
+      "start_frame": 755,
+      "end_frame": 776,
+      "duration_frames": 21
+    },
+    {
+      "after_word": "k.",
+      "before_word": "But",
+      "start_ms": 31800,
+      "end_ms": 32620,
+      "duration_ms": 820,
+      "start_frame": 954,
+      "end_frame": 979,
+      "duration_frames": 25
+    },
+    {
+      "after_word": "it.",
+      "before_word": "So",
+      "start_ms": 37480,
+      "end_ms": 37880,
+      "duration_ms": 400,
+      "start_frame": 1124,
+      "end_frame": 1136,
+      "duration_frames": 12
+    },
+    {
+      "after_word": "optimization,",
+      "before_word": "let",
+      "start_ms": 40420,
+      "end_ms": 41120,
+      "duration_ms": 700,
+      "start_frame": 1213,
+      "end_frame": 1234,
+      "duration_frames": 21
+    }
+  ]
+}

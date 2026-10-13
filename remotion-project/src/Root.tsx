@@ -19,10 +19,14 @@ import { NextPermutationFolder } from "../../questions/01-arrays-hashing/012-nex
 import { SetMatrixZeroesFolder } from "../../questions/01-arrays-hashing/013-set-matrix-zeroes/src";
 import { RotateImageFolder } from "../../questions/01-arrays-hashing/014-rotate-image/src";
 import { SpiralMatrixFolder } from "../../questions/01-arrays-hashing/015-spiral-matrix/src";
+import { SubarraySumEqualsKFolder } from "../../questions/01-arrays-hashing/016-subarray-sum-equals-k/src";
+import { EncodeAndDecodeStringsFolder } from "../../questions/01-arrays-hashing/017-encode-and-decode-strings/src";
+import { FirstMissingPositiveFolder } from "../../questions/01-arrays-hashing/018-first-missing-positive/src";
 
 import { Composition } from "remotion";
 import { SceneTitleCard } from "../../kit/components/SceneTitleCard";
 import { Phase2VisualProof } from "../../kit/components/Phase2VisualProof";
+import { MobileStyleProof } from "../../kit/components/MobileStyleProof";
 import { TitleStudyComparison } from "../../kit/components/TitleStudyComparison";
 import { MotionGrammarProof } from "../../kit/components/MotionGrammarProof";
 import { MorphGrammarProof, StudyCCheckpoints } from "../../kit/components/MorphGrammarProof";
@@ -57,6 +61,14 @@ import { ArraySystemProof, ARRAY_PROOF_DURATION } from "../../kit/components/arr
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="MobileStyleProof"
+        component={MobileStyleProof}
+        durationInFrames={60}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
       <Composition
         id="FoundationV2-Phase9-ArraySystem"
         component={ArraySystemProof}
@@ -313,6 +325,9 @@ export const RemotionRoot: React.FC = () => {
         <SetMatrixZeroesFolder />
         <RotateImageFolder />
         <SpiralMatrixFolder />
+        <SubarraySumEqualsKFolder />
+        <EncodeAndDecodeStringsFolder />
+        <FirstMissingPositiveFolder />
       </Folder>
     </>
   );

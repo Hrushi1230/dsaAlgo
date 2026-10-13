@@ -1,0 +1,518 @@
+{
+  "audio_file": "01-roadmap.mp3",
+  "duration_ms": 25980,
+  "duration_frames": 779,
+  "fps": 30,
+  "word_count": 49,
+  "words": [
+    {
+      "word": "We",
+      "start_ms": 0,
+      "end_ms": 260,
+      "start_frame": 0,
+      "end_frame": 8
+    },
+    {
+      "word": "have",
+      "start_ms": 260,
+      "end_ms": 540,
+      "start_frame": 8,
+      "end_frame": 16
+    },
+    {
+      "word": "finished",
+      "start_ms": 540,
+      "end_ms": 780,
+      "start_frame": 16,
+      "end_frame": 23
+    },
+    {
+      "word": "question",
+      "start_ms": 780,
+      "end_ms": 1300,
+      "start_frame": 23,
+      "end_frame": 39
+    },
+    {
+      "word": "16.",
+      "start_ms": 1300,
+      "end_ms": 2100,
+      "start_frame": 39,
+      "end_frame": 63
+    },
+    {
+      "word": "Subarray.",
+      "start_ms": 3240,
+      "end_ms": 3960,
+      "start_frame": 97,
+      "end_frame": 119
+    },
+    {
+      "word": "Sum",
+      "start_ms": 4080,
+      "end_ms": 4340,
+      "start_frame": 122,
+      "end_frame": 130
+    },
+    {
+      "word": "equals",
+      "start_ms": 4340,
+      "end_ms": 4960,
+      "start_frame": 130,
+      "end_frame": 149
+    },
+    {
+      "word": "k.",
+      "start_ms": 4960,
+      "end_ms": 5320,
+      "start_frame": 149,
+      "end_frame": 160
+    },
+    {
+      "word": "Our",
+      "start_ms": 5460,
+      "end_ms": 5840,
+      "start_frame": 164,
+      "end_frame": 175
+    },
+    {
+      "word": "progress",
+      "start_ms": 5840,
+      "end_ms": 6240,
+      "start_frame": 175,
+      "end_frame": 187
+    },
+    {
+      "word": "is",
+      "start_ms": 6240,
+      "end_ms": 6520,
+      "start_frame": 187,
+      "end_frame": 196
+    },
+    {
+      "word": "now",
+      "start_ms": 6520,
+      "end_ms": 6820,
+      "start_frame": 196,
+      "end_frame": 205
+    },
+    {
+      "word": "16",
+      "start_ms": 6820,
+      "end_ms": 7460,
+      "start_frame": 205,
+      "end_frame": 224
+    },
+    {
+      "word": "out",
+      "start_ms": 7460,
+      "end_ms": 7780,
+      "start_frame": 224,
+      "end_frame": 233
+    },
+    {
+      "word": "of",
+      "start_ms": 7780,
+      "end_ms": 8100,
+      "start_frame": 233,
+      "end_frame": 243
+    },
+    {
+      "word": "227.",
+      "start_ms": 8100,
+      "end_ms": 9680,
+      "start_frame": 243,
+      "end_frame": 290
+    },
+    {
+      "word": "Next,",
+      "start_ms": 10300,
+      "end_ms": 10660,
+      "start_frame": 309,
+      "end_frame": 320
+    },
+    {
+      "word": "question",
+      "start_ms": 11760,
+      "end_ms": 12140,
+      "start_frame": 353,
+      "end_frame": 364
+    },
+    {
+      "word": "17.",
+      "start_ms": 12140,
+      "end_ms": 12820,
+      "start_frame": 364,
+      "end_frame": 385
+    },
+    {
+      "word": "Encode",
+      "start_ms": 13320,
+      "end_ms": 13700,
+      "start_frame": 400,
+      "end_frame": 411
+    },
+    {
+      "word": "and",
+      "start_ms": 13700,
+      "end_ms": 13980,
+      "start_frame": 411,
+      "end_frame": 419
+    },
+    {
+      "word": "decode",
+      "start_ms": 13980,
+      "end_ms": 14460,
+      "start_frame": 419,
+      "end_frame": 434
+    },
+    {
+      "word": "strings.",
+      "start_ms": 14460,
+      "end_ms": 14900,
+      "start_frame": 434,
+      "end_frame": 447
+    },
+    {
+      "word": "Here,",
+      "start_ms": 15440,
+      "end_ms": 15780,
+      "start_frame": 463,
+      "end_frame": 473
+    },
+    {
+      "word": "we",
+      "start_ms": 16120,
+      "end_ms": 16180,
+      "start_frame": 484,
+      "end_frame": 485
+    },
+    {
+      "word": "need",
+      "start_ms": 16180,
+      "end_ms": 16380,
+      "start_frame": 485,
+      "end_frame": 491
+    },
+    {
+      "word": "to",
+      "start_ms": 16380,
+      "end_ms": 16620,
+      "start_frame": 491,
+      "end_frame": 499
+    },
+    {
+      "word": "convert",
+      "start_ms": 16620,
+      "end_ms": 16900,
+      "start_frame": 499,
+      "end_frame": 507
+    },
+    {
+      "word": "a",
+      "start_ms": 16900,
+      "end_ms": 17140,
+      "start_frame": 507,
+      "end_frame": 514
+    },
+    {
+      "word": "list",
+      "start_ms": 17140,
+      "end_ms": 17300,
+      "start_frame": 514,
+      "end_frame": 519
+    },
+    {
+      "word": "of",
+      "start_ms": 17300,
+      "end_ms": 17600,
+      "start_frame": 519,
+      "end_frame": 528
+    },
+    {
+      "word": "strings",
+      "start_ms": 17600,
+      "end_ms": 17880,
+      "start_frame": 528,
+      "end_frame": 536
+    },
+    {
+      "word": "into",
+      "start_ms": 17880,
+      "end_ms": 18300,
+      "start_frame": 536,
+      "end_frame": 549
+    },
+    {
+      "word": "one",
+      "start_ms": 18300,
+      "end_ms": 18700,
+      "start_frame": 549,
+      "end_frame": 561
+    },
+    {
+      "word": "string.",
+      "start_ms": 18700,
+      "end_ms": 19060,
+      "start_frame": 561,
+      "end_frame": 572
+    },
+    {
+      "word": "And",
+      "start_ms": 19860,
+      "end_ms": 20120,
+      "start_frame": 596,
+      "end_frame": 604
+    },
+    {
+      "word": "later,",
+      "start_ms": 20120,
+      "end_ms": 20540,
+      "start_frame": 604,
+      "end_frame": 616
+    },
+    {
+      "word": "decode",
+      "start_ms": 20960,
+      "end_ms": 21240,
+      "start_frame": 629,
+      "end_frame": 637
+    },
+    {
+      "word": "it",
+      "start_ms": 21240,
+      "end_ms": 21520,
+      "start_frame": 637,
+      "end_frame": 646
+    },
+    {
+      "word": "back",
+      "start_ms": 21520,
+      "end_ms": 21820,
+      "start_frame": 646,
+      "end_frame": 655
+    },
+    {
+      "word": "into",
+      "start_ms": 21820,
+      "end_ms": 22180,
+      "start_frame": 655,
+      "end_frame": 665
+    },
+    {
+      "word": "the",
+      "start_ms": 22180,
+      "end_ms": 22440,
+      "start_frame": 665,
+      "end_frame": 673
+    },
+    {
+      "word": "exact",
+      "start_ms": 22440,
+      "end_ms": 23100,
+      "start_frame": 673,
+      "end_frame": 693
+    },
+    {
+      "word": "original",
+      "start_ms": 23100,
+      "end_ms": 23920,
+      "start_frame": 693,
+      "end_frame": 718
+    },
+    {
+      "word": "list.",
+      "start_ms": 23920,
+      "end_ms": 24340,
+      "start_frame": 718,
+      "end_frame": 730
+    },
+    {
+      "word": "That's",
+      "start_ms": 25000,
+      "end_ms": 25460,
+      "start_frame": 750,
+      "end_frame": 764
+    },
+    {
+      "word": "our",
+      "start_ms": 25460,
+      "end_ms": 25660,
+      "start_frame": 764,
+      "end_frame": 770
+    },
+    {
+      "word": "goal.",
+      "start_ms": 25660,
+      "end_ms": 25980,
+      "start_frame": 770,
+      "end_frame": 779
+    }
+  ],
+  "sentences": [
+    {
+      "text": "We have finished question 16.",
+      "start_ms": 0,
+      "end_ms": 2100,
+      "start_frame": 0,
+      "end_frame": 63,
+      "word_count": 5
+    },
+    {
+      "text": "Subarray.",
+      "start_ms": 3240,
+      "end_ms": 3960,
+      "start_frame": 97,
+      "end_frame": 119,
+      "word_count": 1
+    },
+    {
+      "text": "Sum equals k.",
+      "start_ms": 4080,
+      "end_ms": 5320,
+      "start_frame": 122,
+      "end_frame": 160,
+      "word_count": 3
+    },
+    {
+      "text": "Our progress is now 16 out of 227.",
+      "start_ms": 5460,
+      "end_ms": 9680,
+      "start_frame": 164,
+      "end_frame": 290,
+      "word_count": 8
+    },
+    {
+      "text": "Next, question 17.",
+      "start_ms": 10300,
+      "end_ms": 12820,
+      "start_frame": 309,
+      "end_frame": 385,
+      "word_count": 3
+    },
+    {
+      "text": "Encode and decode strings.",
+      "start_ms": 13320,
+      "end_ms": 14900,
+      "start_frame": 400,
+      "end_frame": 447,
+      "word_count": 4
+    },
+    {
+      "text": "Here, we need to convert a list of strings into one string.",
+      "start_ms": 15440,
+      "end_ms": 19060,
+      "start_frame": 463,
+      "end_frame": 572,
+      "word_count": 12
+    },
+    {
+      "text": "And later, decode it back into the exact original list.",
+      "start_ms": 19860,
+      "end_ms": 24340,
+      "start_frame": 596,
+      "end_frame": 730,
+      "word_count": 10
+    },
+    {
+      "text": "That's our goal.",
+      "start_ms": 25000,
+      "end_ms": 25980,
+      "start_frame": 750,
+      "end_frame": 779,
+      "word_count": 3
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "16.",
+      "before_word": "Subarray.",
+      "start_ms": 2100,
+      "end_ms": 3240,
+      "duration_ms": 1140,
+      "start_frame": 63,
+      "end_frame": 97,
+      "duration_frames": 34
+    },
+    {
+      "after_word": "227.",
+      "before_word": "Next,",
+      "start_ms": 9680,
+      "end_ms": 10300,
+      "duration_ms": 620,
+      "start_frame": 290,
+      "end_frame": 309,
+      "duration_frames": 19
+    },
+    {
+      "after_word": "Next,",
+      "before_word": "question",
+      "start_ms": 10660,
+      "end_ms": 11760,
+      "duration_ms": 1100,
+      "start_frame": 320,
+      "end_frame": 353,
+      "duration_frames": 33
+    },
+    {
+      "after_word": "17.",
+      "before_word": "Encode",
+      "start_ms": 12820,
+      "end_ms": 13320,
+      "duration_ms": 500,
+      "start_frame": 385,
+      "end_frame": 400,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "strings.",
+      "before_word": "Here,",
+      "start_ms": 14900,
+      "end_ms": 15440,
+      "duration_ms": 540,
+      "start_frame": 447,
+      "end_frame": 463,
+      "duration_frames": 16
+    },
+    {
+      "after_word": "Here,",
+      "before_word": "we",
+      "start_ms": 15780,
+      "end_ms": 16120,
+      "duration_ms": 340,
+      "start_frame": 473,
+      "end_frame": 484,
+      "duration_frames": 11
+    },
+    {
+      "after_word": "string.",
+      "before_word": "And",
+      "start_ms": 19060,
+      "end_ms": 19860,
+      "duration_ms": 800,
+      "start_frame": 572,
+      "end_frame": 596,
+      "duration_frames": 24
+    },
+    {
+      "after_word": "later,",
+      "before_word": "decode",
+      "start_ms": 20540,
+      "end_ms": 20960,
+      "duration_ms": 420,
+      "start_frame": 616,
+      "end_frame": 629,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "list.",
+      "before_word": "That's",
+      "start_ms": 24340,
+      "end_ms": 25000,
+      "duration_ms": 660,
+      "start_frame": 730,
+      "end_frame": 750,
+      "duration_frames": 20
+    }
+  ]
+}

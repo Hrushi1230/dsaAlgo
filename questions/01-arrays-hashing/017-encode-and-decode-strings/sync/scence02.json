@@ -1,0 +1,814 @@
+{
+  "audio_file": "02-understand.mp3",
+  "duration_ms": 40800,
+  "duration_frames": 1224,
+  "fps": 30,
+  "word_count": 83,
+  "words": [
+    {
+      "word": "For",
+      "start_ms": 0,
+      "end_ms": 300,
+      "start_frame": 0,
+      "end_frame": 9
+    },
+    {
+      "word": "our",
+      "start_ms": 300,
+      "end_ms": 540,
+      "start_frame": 9,
+      "end_frame": 16
+    },
+    {
+      "word": "example,",
+      "start_ms": 540,
+      "end_ms": 1020,
+      "start_frame": 16,
+      "end_frame": 31
+    },
+    {
+      "word": "we",
+      "start_ms": 1180,
+      "end_ms": 1340,
+      "start_frame": 35,
+      "end_frame": 40
+    },
+    {
+      "word": "have",
+      "start_ms": 1340,
+      "end_ms": 1540,
+      "start_frame": 40,
+      "end_frame": 46
+    },
+    {
+      "word": "four",
+      "start_ms": 1540,
+      "end_ms": 1940,
+      "start_frame": 46,
+      "end_frame": 58
+    },
+    {
+      "word": "strings,",
+      "start_ms": 1940,
+      "end_ms": 2420,
+      "start_frame": 58,
+      "end_frame": 73
+    },
+    {
+      "word": "a",
+      "start_ms": 2880,
+      "end_ms": 3100,
+      "start_frame": 86,
+      "end_frame": 93
+    },
+    {
+      "word": "hash",
+      "start_ms": 3100,
+      "end_ms": 3420,
+      "start_frame": 93,
+      "end_frame": 103
+    },
+    {
+      "word": "B,",
+      "start_ms": 3420,
+      "end_ms": 3760,
+      "start_frame": 103,
+      "end_frame": 113
+    },
+    {
+      "word": "an",
+      "start_ms": 4220,
+      "end_ms": 4500,
+      "start_frame": 127,
+      "end_frame": 135
+    },
+    {
+      "word": "empty",
+      "start_ms": 4500,
+      "end_ms": 4820,
+      "start_frame": 135,
+      "end_frame": 145
+    },
+    {
+      "word": "string,",
+      "start_ms": 4820,
+      "end_ms": 5320,
+      "start_frame": 145,
+      "end_frame": 160
+    },
+    {
+      "word": "hello",
+      "start_ms": 5780,
+      "end_ms": 6060,
+      "start_frame": 173,
+      "end_frame": 182
+    },
+    {
+      "word": "world,",
+      "start_ms": 6060,
+      "end_ms": 6440,
+      "start_frame": 182,
+      "end_frame": 193
+    },
+    {
+      "word": "and",
+      "start_ms": 7220,
+      "end_ms": 7420,
+      "start_frame": 217,
+      "end_frame": 223
+    },
+    {
+      "word": "the",
+      "start_ms": 7420,
+      "end_ms": 7680,
+      "start_frame": 223,
+      "end_frame": 230
+    },
+    {
+      "word": "string",
+      "start_ms": 7680,
+      "end_ms": 7880,
+      "start_frame": 230,
+      "end_frame": 236
+    },
+    {
+      "word": "containing",
+      "start_ms": 7880,
+      "end_ms": 8400,
+      "start_frame": 236,
+      "end_frame": 252
+    },
+    {
+      "word": "4",
+      "start_ms": 8400,
+      "end_ms": 8980,
+      "start_frame": 252,
+      "end_frame": 269
+    },
+    {
+      "word": "and",
+      "start_ms": 8980,
+      "end_ms": 9240,
+      "start_frame": 269,
+      "end_frame": 277
+    },
+    {
+      "word": "2.",
+      "start_ms": 9240,
+      "end_ms": 9640,
+      "start_frame": 277,
+      "end_frame": 289
+    },
+    {
+      "word": "Now",
+      "start_ms": 10200,
+      "end_ms": 10440,
+      "start_frame": 306,
+      "end_frame": 313
+    },
+    {
+      "word": "suppose",
+      "start_ms": 10440,
+      "end_ms": 10740,
+      "start_frame": 313,
+      "end_frame": 322
+    },
+    {
+      "word": "we",
+      "start_ms": 10740,
+      "end_ms": 11040,
+      "start_frame": 322,
+      "end_frame": 331
+    },
+    {
+      "word": "simply",
+      "start_ms": 11040,
+      "end_ms": 11400,
+      "start_frame": 331,
+      "end_frame": 342
+    },
+    {
+      "word": "join",
+      "start_ms": 11400,
+      "end_ms": 11720,
+      "start_frame": 342,
+      "end_frame": 352
+    },
+    {
+      "word": "strings",
+      "start_ms": 11720,
+      "end_ms": 12200,
+      "start_frame": 352,
+      "end_frame": 366
+    },
+    {
+      "word": "using",
+      "start_ms": 12200,
+      "end_ms": 12700,
+      "start_frame": 366,
+      "end_frame": 381
+    },
+    {
+      "word": "a",
+      "start_ms": 12700,
+      "end_ms": 12960,
+      "start_frame": 381,
+      "end_frame": 389
+    },
+    {
+      "word": "hash.",
+      "start_ms": 12960,
+      "end_ms": 13280,
+      "start_frame": 389,
+      "end_frame": 398
+    },
+    {
+      "word": "Think",
+      "start_ms": 14100,
+      "end_ms": 14360,
+      "start_frame": 423,
+      "end_frame": 431
+    },
+    {
+      "word": "about",
+      "start_ms": 14360,
+      "end_ms": 14620,
+      "start_frame": 431,
+      "end_frame": 439
+    },
+    {
+      "word": "two",
+      "start_ms": 14620,
+      "end_ms": 14900,
+      "start_frame": 439,
+      "end_frame": 447
+    },
+    {
+      "word": "different",
+      "start_ms": 14900,
+      "end_ms": 15240,
+      "start_frame": 447,
+      "end_frame": 457
+    },
+    {
+      "word": "lists.",
+      "start_ms": 15240,
+      "end_ms": 15680,
+      "start_frame": 457,
+      "end_frame": 470
+    },
+    {
+      "word": "One",
+      "start_ms": 16160,
+      "end_ms": 16400,
+      "start_frame": 485,
+      "end_frame": 492
+    },
+    {
+      "word": "contains",
+      "start_ms": 16400,
+      "end_ms": 16960,
+      "start_frame": 492,
+      "end_frame": 509
+    },
+    {
+      "word": "a",
+      "start_ms": 16960,
+      "end_ms": 17680,
+      "start_frame": 509,
+      "end_frame": 530
+    },
+    {
+      "word": "hash",
+      "start_ms": 17680,
+      "end_ms": 17940,
+      "start_frame": 530,
+      "end_frame": 538
+    },
+    {
+      "word": "B",
+      "start_ms": 17940,
+      "end_ms": 18320,
+      "start_frame": 538,
+      "end_frame": 550
+    },
+    {
+      "word": "and",
+      "start_ms": 18320,
+      "end_ms": 18720,
+      "start_frame": 550,
+      "end_frame": 562
+    },
+    {
+      "word": "C.",
+      "start_ms": 18720,
+      "end_ms": 19140,
+      "start_frame": 562,
+      "end_frame": 574
+    },
+    {
+      "word": "The",
+      "start_ms": 19480,
+      "end_ms": 19680,
+      "start_frame": 584,
+      "end_frame": 590
+    },
+    {
+      "word": "other",
+      "start_ms": 19680,
+      "end_ms": 19900,
+      "start_frame": 590,
+      "end_frame": 597
+    },
+    {
+      "word": "contains",
+      "start_ms": 19900,
+      "end_ms": 20580,
+      "start_frame": 597,
+      "end_frame": 617
+    },
+    {
+      "word": "a",
+      "start_ms": 20580,
+      "end_ms": 21600,
+      "start_frame": 617,
+      "end_frame": 648
+    },
+    {
+      "word": "B",
+      "start_ms": 21600,
+      "end_ms": 22620,
+      "start_frame": 648,
+      "end_frame": 679
+    },
+    {
+      "word": "and",
+      "start_ms": 22620,
+      "end_ms": 23440,
+      "start_frame": 679,
+      "end_frame": 703
+    },
+    {
+      "word": "C.",
+      "start_ms": 23440,
+      "end_ms": 24100,
+      "start_frame": 703,
+      "end_frame": 723
+    },
+    {
+      "word": "Both",
+      "start_ms": 24540,
+      "end_ms": 24840,
+      "start_frame": 736,
+      "end_frame": 745
+    },
+    {
+      "word": "produce",
+      "start_ms": 24840,
+      "end_ms": 25340,
+      "start_frame": 745,
+      "end_frame": 760
+    },
+    {
+      "word": "the",
+      "start_ms": 25340,
+      "end_ms": 25640,
+      "start_frame": 760,
+      "end_frame": 769
+    },
+    {
+      "word": "same",
+      "start_ms": 25640,
+      "end_ms": 25980,
+      "start_frame": 769,
+      "end_frame": 779
+    },
+    {
+      "word": "joint",
+      "start_ms": 25980,
+      "end_ms": 26340,
+      "start_frame": 779,
+      "end_frame": 790
+    },
+    {
+      "word": "text,",
+      "start_ms": 26340,
+      "end_ms": 26900,
+      "start_frame": 790,
+      "end_frame": 807
+    },
+    {
+      "word": "a",
+      "start_ms": 27410,
+      "end_ms": 27760,
+      "start_frame": 822,
+      "end_frame": 833
+    },
+    {
+      "word": "hash",
+      "start_ms": 27760,
+      "end_ms": 28040,
+      "start_frame": 833,
+      "end_frame": 841
+    },
+    {
+      "word": "B",
+      "start_ms": 28040,
+      "end_ms": 28500,
+      "start_frame": 841,
+      "end_frame": 855
+    },
+    {
+      "word": "hash",
+      "start_ms": 28500,
+      "end_ms": 28860,
+      "start_frame": 855,
+      "end_frame": 866
+    },
+    {
+      "word": "C.",
+      "start_ms": 28860,
+      "end_ms": 29400,
+      "start_frame": 866,
+      "end_frame": 882
+    },
+    {
+      "word": "So",
+      "start_ms": 30260,
+      "end_ms": 30480,
+      "start_frame": 908,
+      "end_frame": 914
+    },
+    {
+      "word": "how",
+      "start_ms": 30480,
+      "end_ms": 30700,
+      "start_frame": 914,
+      "end_frame": 921
+    },
+    {
+      "word": "will",
+      "start_ms": 30700,
+      "end_ms": 30920,
+      "start_frame": 921,
+      "end_frame": 928
+    },
+    {
+      "word": "the",
+      "start_ms": 30920,
+      "end_ms": 31180,
+      "start_frame": 928,
+      "end_frame": 935
+    },
+    {
+      "word": "decoder",
+      "start_ms": 31180,
+      "end_ms": 31480,
+      "start_frame": 935,
+      "end_frame": 944
+    },
+    {
+      "word": "know",
+      "start_ms": 31480,
+      "end_ms": 31800,
+      "start_frame": 944,
+      "end_frame": 954
+    },
+    {
+      "word": "the",
+      "start_ms": 31800,
+      "end_ms": 32120,
+      "start_frame": 954,
+      "end_frame": 964
+    },
+    {
+      "word": "original",
+      "start_ms": 32120,
+      "end_ms": 32560,
+      "start_frame": 964,
+      "end_frame": 977
+    },
+    {
+      "word": "boundaries?",
+      "start_ms": 32560,
+      "end_ms": 33100,
+      "start_frame": 977,
+      "end_frame": 993
+    },
+    {
+      "word": "It",
+      "start_ms": 33860,
+      "end_ms": 34060,
+      "start_frame": 1016,
+      "end_frame": 1022
+    },
+    {
+      "word": "cannot?",
+      "start_ms": 34060,
+      "end_ms": 34460,
+      "start_frame": 1022,
+      "end_frame": 1034
+    },
+    {
+      "word": "A",
+      "start_ms": 35680,
+      "end_ms": 35880,
+      "start_frame": 1070,
+      "end_frame": 1076
+    },
+    {
+      "word": "raw",
+      "start_ms": 35880,
+      "end_ms": 36160,
+      "start_frame": 1076,
+      "end_frame": 1085
+    },
+    {
+      "word": "separator",
+      "start_ms": 36160,
+      "end_ms": 36800,
+      "start_frame": 1085,
+      "end_frame": 1104
+    },
+    {
+      "word": "is",
+      "start_ms": 36800,
+      "end_ms": 37080,
+      "start_frame": 1104,
+      "end_frame": 1112
+    },
+    {
+      "word": "not",
+      "start_ms": 37080,
+      "end_ms": 37340,
+      "start_frame": 1112,
+      "end_frame": 1120
+    },
+    {
+      "word": "enough.",
+      "start_ms": 37340,
+      "end_ms": 37680,
+      "start_frame": 1120,
+      "end_frame": 1130
+    },
+    {
+      "word": "We",
+      "start_ms": 38260,
+      "end_ms": 38420,
+      "start_frame": 1148,
+      "end_frame": 1153
+    },
+    {
+      "word": "need",
+      "start_ms": 38420,
+      "end_ms": 38660,
+      "start_frame": 1153,
+      "end_frame": 1160
+    },
+    {
+      "word": "explicit",
+      "start_ms": 38660,
+      "end_ms": 39500,
+      "start_frame": 1160,
+      "end_frame": 1185
+    },
+    {
+      "word": "boundary",
+      "start_ms": 39500,
+      "end_ms": 40100,
+      "start_frame": 1185,
+      "end_frame": 1203
+    },
+    {
+      "word": "information.",
+      "start_ms": 40100,
+      "end_ms": 40800,
+      "start_frame": 1203,
+      "end_frame": 1224
+    }
+  ],
+  "sentences": [
+    {
+      "text": "For our example, we have four strings, a hash B, an empty string, hello world, and the string containing 4 and 2.",
+      "start_ms": 0,
+      "end_ms": 9640,
+      "start_frame": 0,
+      "end_frame": 289,
+      "word_count": 22
+    },
+    {
+      "text": "Now suppose we simply join strings using a hash.",
+      "start_ms": 10200,
+      "end_ms": 13280,
+      "start_frame": 306,
+      "end_frame": 398,
+      "word_count": 9
+    },
+    {
+      "text": "Think about two different lists.",
+      "start_ms": 14100,
+      "end_ms": 15680,
+      "start_frame": 423,
+      "end_frame": 470,
+      "word_count": 5
+    },
+    {
+      "text": "One contains a hash B and C.",
+      "start_ms": 16160,
+      "end_ms": 19140,
+      "start_frame": 485,
+      "end_frame": 574,
+      "word_count": 7
+    },
+    {
+      "text": "The other contains a B and C.",
+      "start_ms": 19480,
+      "end_ms": 24100,
+      "start_frame": 584,
+      "end_frame": 723,
+      "word_count": 7
+    },
+    {
+      "text": "Both produce the same joint text, a hash B hash C.",
+      "start_ms": 24540,
+      "end_ms": 29400,
+      "start_frame": 736,
+      "end_frame": 882,
+      "word_count": 11
+    },
+    {
+      "text": "So how will the decoder know the original boundaries?",
+      "start_ms": 30260,
+      "end_ms": 33100,
+      "start_frame": 908,
+      "end_frame": 993,
+      "word_count": 9
+    },
+    {
+      "text": "It cannot?",
+      "start_ms": 33860,
+      "end_ms": 34460,
+      "start_frame": 1016,
+      "end_frame": 1034,
+      "word_count": 2
+    },
+    {
+      "text": "A raw separator is not enough.",
+      "start_ms": 35680,
+      "end_ms": 37680,
+      "start_frame": 1070,
+      "end_frame": 1130,
+      "word_count": 6
+    },
+    {
+      "text": "We need explicit boundary information.",
+      "start_ms": 38260,
+      "end_ms": 40800,
+      "start_frame": 1148,
+      "end_frame": 1224,
+      "word_count": 5
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "strings,",
+      "before_word": "a",
+      "start_ms": 2420,
+      "end_ms": 2880,
+      "duration_ms": 460,
+      "start_frame": 73,
+      "end_frame": 86,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "B,",
+      "before_word": "an",
+      "start_ms": 3760,
+      "end_ms": 4220,
+      "duration_ms": 460,
+      "start_frame": 113,
+      "end_frame": 127,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "string,",
+      "before_word": "hello",
+      "start_ms": 5320,
+      "end_ms": 5780,
+      "duration_ms": 460,
+      "start_frame": 160,
+      "end_frame": 173,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "world,",
+      "before_word": "and",
+      "start_ms": 6440,
+      "end_ms": 7220,
+      "duration_ms": 780,
+      "start_frame": 193,
+      "end_frame": 217,
+      "duration_frames": 24
+    },
+    {
+      "after_word": "2.",
+      "before_word": "Now",
+      "start_ms": 9640,
+      "end_ms": 10200,
+      "duration_ms": 560,
+      "start_frame": 289,
+      "end_frame": 306,
+      "duration_frames": 17
+    },
+    {
+      "after_word": "hash.",
+      "before_word": "Think",
+      "start_ms": 13280,
+      "end_ms": 14100,
+      "duration_ms": 820,
+      "start_frame": 398,
+      "end_frame": 423,
+      "duration_frames": 25
+    },
+    {
+      "after_word": "lists.",
+      "before_word": "One",
+      "start_ms": 15680,
+      "end_ms": 16160,
+      "duration_ms": 480,
+      "start_frame": 470,
+      "end_frame": 485,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "C.",
+      "before_word": "The",
+      "start_ms": 19140,
+      "end_ms": 19480,
+      "duration_ms": 340,
+      "start_frame": 574,
+      "end_frame": 584,
+      "duration_frames": 10
+    },
+    {
+      "after_word": "C.",
+      "before_word": "Both",
+      "start_ms": 24100,
+      "end_ms": 24540,
+      "duration_ms": 440,
+      "start_frame": 723,
+      "end_frame": 736,
+      "duration_frames": 13
+    },
+    {
+      "after_word": "text,",
+      "before_word": "a",
+      "start_ms": 26900,
+      "end_ms": 27410,
+      "duration_ms": 510,
+      "start_frame": 807,
+      "end_frame": 822,
+      "duration_frames": 15
+    },
+    {
+      "after_word": "C.",
+      "before_word": "So",
+      "start_ms": 29400,
+      "end_ms": 30260,
+      "duration_ms": 860,
+      "start_frame": 882,
+      "end_frame": 908,
+      "duration_frames": 26
+    },
+    {
+      "after_word": "boundaries?",
+      "before_word": "It",
+      "start_ms": 33100,
+      "end_ms": 33860,
+      "duration_ms": 760,
+      "start_frame": 993,
+      "end_frame": 1016,
+      "duration_frames": 23
+    },
+    {
+      "after_word": "cannot?",
+      "before_word": "A",
+      "start_ms": 34460,
+      "end_ms": 35680,
+      "duration_ms": 1220,
+      "start_frame": 1034,
+      "end_frame": 1070,
+      "duration_frames": 36
+    },
+    {
+      "after_word": "enough.",
+      "before_word": "We",
+      "start_ms": 37680,
+      "end_ms": 38260,
+      "duration_ms": 580,
+      "start_frame": 1130,
+      "end_frame": 1148,
+      "duration_frames": 18
+    }
+  ]
+}

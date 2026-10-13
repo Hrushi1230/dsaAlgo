@@ -1,0 +1,132 @@
+{
+  "package": "Q16_Subarray_Sum_Equals_K_Phase9_9Scene_WordPlan_100",
+  "scene_count": 9,
+  "planning_score": 100,
+  "files": [
+    {
+      "path": "00_Q16_PHASE9_V3_AUTHORITATIVE_MASTER_HANDOFF.md",
+      "bytes": 1956,
+      "sha256": "ac104b9d3907074fbbeea24e76d7d911b5a426cae975200e539506d512766684"
+    },
+    {
+      "path": "01_SCENE01_ROADMAP_RESUME_Q16_ACTIVATION_WORD_BASED_VISUAL_PLAN.md",
+      "bytes": 11348,
+      "sha256": "ac582e811a0927f38d7ee2094032be6c0056ccbfdd29da540c023e9c0f15b6c1"
+    },
+    {
+      "path": "02_SCENE02_UNDERSTAND_QUESTION_METHOD1_IDEA_WORD_BASED_VISUAL_PLAN.md",
+      "bytes": 43907,
+      "sha256": "b92a7b631e0aa4b1c145376b6484ce9bbc637705c731fb263b93472ef2bc2269"
+    },
+    {
+      "path": "03_SCENE03_METHOD1_FULL_TRACE_RUNNING_SUM_ENUMERATION_WORD_BASED_VISUAL_PLAN.md",
+      "bytes": 81422,
+      "sha256": "a52bc9b3479e38889851a5a5c440c70110090ca2c89460206d5d0095895983bf"
+    },
+    {
+      "path": "04_SCENE04_METHOD1_CODE_COMPLEXITY_WORD_BASED_VISUAL_PLAN.md",
+      "bytes": 45574,
+      "sha256": "09364e30be5d82a9ed18dd9d05d3f1a756b420d09f0853b197b57b2e4d993c56"
+    },
+    {
+      "path": "05_SCENE05_OPTIMAL_IDEA_WORD_BASED_VISUAL_PLAN.md",
+      "bytes": 29826,
+      "sha256": "ba1d56a11721653c92fbf5bf2863455fb424a5c2601fa6d783dd39c8de03a62a"
+    },
+    {
+      "path": "06_SCENE06_METHOD2_FULL_TRACE_PREFIX_FREQUENCY_WORD_BASED_VISUAL_PLAN.md",
+      "bytes": 106808,
+      "sha256": "ed5294474d2de1809ca073c7482fb458a3a9534a0fa3e7422b199624da40e26b"
+    },
+    {
+      "path": "07_SCENE07_METHOD2_CODE_COMPLEXITY_WORD_BASED_VISUAL_PLAN.md",
+      "bytes": 46535,
+      "sha256": "04ba814cd261c9958432afbe4182d56819097c1ccc3b28bb592f3ee016bfd16e"
+    },
+    {
+      "path": "08_SCENE08_MINIMAL_COMPARE_MISTAKES_EDGE_CASES_WORD_BASED_VISUAL_PLAN.md",
+      "bytes": 17484,
+      "sha256": "dcf6480ec665c2ebb2e4394a930ad60803104fd379936ad43c7791fc3fd7cf64"
+    },
+    {
+      "path": "09_SCENE09_MINIMAL_RECAP_TRANSFERABLE_PATTERN_ROADMAP_WORD_BASED_VISUAL_PLAN.md",
+      "bytes": 16223,
+      "sha256": "39b694be9b57510827ff371b75087adaf96a4629abcebea5f60f0d1b24b6009f"
+    },
+    {
+      "path": "99_Q16_PHASE9_V3_MASTER_AUDIT_100.md",
+      "bytes": 2072,
+      "sha256": "33cd5770433d6c90875cf072078fb5f56532d16af211b97ead39a80c73b1cd8d"
+    },
+    {
+      "path": "ANTIGRAVITY_POST_AUDIO_EXACT_WORDSYNC_TO_FRAMES_V3.md",
+      "bytes": 2705,
+      "sha256": "ea8662bf7be730e94854418ae347b0c3033ef957332575bdb71829b7a9c51fe9"
+    },
+    {
+      "path": "Q16_KIT_VISUAL_SOURCE_DECISIONS_V3.md",
+      "bytes": 3442,
+      "sha256": "0f7816e1977ceb70479f093a8af49f727a1c095b1129e93e423a495383635014"
+    },
+    {
+      "path": "Q16_PHASE9_SEMANTIC_ANCHORS_9SCENE.json",
+      "bytes": 35939,
+      "sha256": "c20e936d5cc42fe3b90c91a5d945bc0b0dfe6c67c38d1878ed78af8ecb983069"
+    },
+    {
+      "path": "Q16_Subarray_Sum_Equals_K_ElevenLabs_Final_NoGuess.md",
+      "bytes": 12657,
+      "sha256": "ac4b81151828f2c95eb5820e9f7db6d6230c1d71eb5d2e8ab75f9dfb49d6c7ae"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1147,
+      "sha256": "fee9170e383ba566f17587110953d85fd776de897d360c7d1c6ce6c8c596c440"
+    },
+    {
+      "path": "audits/01_SCENE01_AUDIT_100.md",
+      "bytes": 383,
+      "sha256": "dcd5e36dc12ed91c96949536fb446cd23b4cea0be461810a6e362e1edf4f922e"
+    },
+    {
+      "path": "audits/02_SCENE02_AUDIT_100.md",
+      "bytes": 384,
+      "sha256": "ab014e28ddde2a90f3c070cfead81dc5f03a3f4edf1bc3d9886d1e0064d6c666"
+    },
+    {
+      "path": "audits/03_SCENE03_AUDIT_100.md",
+      "bytes": 384,
+      "sha256": "79d6f68fa7be8a451196fd211501f82ef84fe797de8169528edae53fef6b52df"
+    },
+    {
+      "path": "audits/04_SCENE04_AUDIT_100.md",
+      "bytes": 384,
+      "sha256": "f534ac039df014b71ebc0825390fdef8da3fd8a9e78c56139ebf2aa73a7aca4e"
+    },
+    {
+      "path": "audits/05_SCENE05_AUDIT_100.md",
+      "bytes": 384,
+      "sha256": "e17c57aefd97a0bc2bec31d44e87fffbba4da8795c3cf20d2ef05494d6acd24c"
+    },
+    {
+      "path": "audits/06_SCENE06_AUDIT_100.md",
+      "bytes": 385,
+      "sha256": "5a9a929bdf7df1b7113c5a1089394444a35facd9dd0bcb577e73cce28fc988a3"
+    },
+    {
+      "path": "audits/07_SCENE07_AUDIT_100.md",
+      "bytes": 384,
+      "sha256": "1a6bc847bb74762dcf345618de22fb8ac67de229300afcd99eabeda9644ee98f"
+    },
+    {
+      "path": "audits/08_SCENE08_AUDIT_100.md",
+      "bytes": 384,
+      "sha256": "c26ad67bd15df6b3cb115ea060588beeb1eb8fc39b24049a3d53d6f03fb3fa30"
+    },
+    {
+      "path": "audits/09_SCENE09_AUDIT_100.md",
+      "bytes": 384,
+      "sha256": "2d4619ffc308c636fe3271d07cbb31ef9297d8f071f1038fed1e450365223231"
+    }
+  ]
+}

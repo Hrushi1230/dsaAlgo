@@ -1,0 +1,121 @@
+{
+  "question": "Q17 Encode and Decode Strings",
+  "scene": 5,
+  "name": "Encode Code",
+  "stage": "GATE_A_PRE_AUDIO_ONLY",
+  "word_ids": "PENDING_SYNC",
+  "timing": "PENDING_MP3_SYNC",
+  "anchor_count": 11,
+  "anchors": [
+    {
+      "id": "S05:A001",
+      "source_narration_occurrence": 1,
+      "exact_spoken_phrase": "The code is short.",
+      "visual_intent": "Clear trace visuals; reserve board-native code stage. No code lines prematurely revealed.",
+      "phase": "ENCODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist and unspoken lines stay 100% hidden; code changes do not mutate master input."
+    },
+    {
+      "id": "S05:A002",
+      "source_narration_occurrence": 2,
+      "exact_spoken_phrase": "Create an empty list called `parts`.",
+      "visual_intent": "Reveal `parts = []` as first real code line; indicate variable as empty parts list.",
+      "phase": "ENCODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist and unspoken lines stay 100% hidden; code changes do not mutate master input."
+    },
+    {
+      "id": "S05:A003",
+      "source_narration_occurrence": 3,
+      "exact_spoken_phrase": "For every input string ...",
+      "visual_intent": "Reveal `for s in strs:`; an optional source-string cue on right is secondary, no full trace.",
+      "phase": "ENCODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist and unspoken lines stay 100% hidden; code changes do not mutate master input."
+    },
+    {
+      "id": "S05:A004",
+      "source_narration_occurrence": 4,
+      "exact_spoken_phrase": "append its length as text ...",
+      "visual_intent": "Reveal `parts.append(str(len(s)))`; emphasize length-to-text conversion.",
+      "phase": "ENCODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist and unspoken lines stay 100% hidden; code changes do not mutate master input."
+    },
+    {
+      "id": "S05:A005",
+      "source_narration_occurrence": 5,
+      "exact_spoken_phrase": "append the hash ...",
+      "visual_intent": "Reveal `parts.append(\"#\")`; mark one header hash only.",
+      "phase": "ENCODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist and unspoken lines stay 100% hidden; code changes do not mutate master input."
+    },
+    {
+      "id": "S05:A006",
+      "source_narration_occurrence": 6,
+      "exact_spoken_phrase": "then append the string itself.",
+      "visual_intent": "Reveal `parts.append(s)`; copy payload as string data.",
+      "phase": "ENCODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist and unspoken lines stay 100% hidden; code changes do not mutate master input."
+    },
+    {
+      "id": "S05:A007",
+      "source_narration_occurrence": 7,
+      "exact_spoken_phrase": "After the loop ...",
+      "visual_intent": "Focus loop scope as completed; do not introduce a second example trace.",
+      "phase": "ENCODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist and unspoken lines stay 100% hidden; code changes do not mutate master input."
+    },
+    {
+      "id": "S05:A008",
+      "source_narration_occurrence": 8,
+      "exact_spoken_phrase": "join all the parts into one string.",
+      "visual_intent": "Reveal `return \"\".join(parts)`; show join only once.",
+      "phase": "ENCODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist and unspoken lines stay 100% hidden; code changes do not mutate master input."
+    },
+    {
+      "id": "S05:A009",
+      "source_narration_occurrence": 9,
+      "exact_spoken_phrase": "And return it.",
+      "visual_intent": "Give return keyword active focus; joined value is conceptual, not reveal all trace steps again.",
+      "phase": "ENCODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist and unspoken lines stay 100% hidden; code changes do not mutate master input."
+    },
+    {
+      "id": "S05:A010",
+      "source_narration_occurrence": 10,
+      "exact_spoken_phrase": "That's the encoder.",
+      "visual_intent": "Settle five-step encoder causal flow, no cards and no second walkthrough.",
+      "phase": "ENCODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist and unspoken lines stay 100% hidden; code changes do not mutate master input."
+    },
+    {
+      "id": "S05:A011",
+      "source_narration_occurrence": 11,
+      "exact_spoken_phrase": "Now let's decode the string we created.",
+      "visual_intent": "Clear code emphasis; pass final encoded string from previous trace as conceptual next-scene input.",
+      "phase": "ENCODER CODE",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "source code; see geometry table",
+      "source_state": "Already spoken code lines persist and unspoken lines stay 100% hidden; code changes do not mutate master input."
+    }
+  ]
+}

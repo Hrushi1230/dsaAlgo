@@ -1,0 +1,171 @@
+{
+  "question": "Q17 Encode and Decode Strings",
+  "scene": 10,
+  "name": "Minimal Recap + Roadmap",
+  "stage": "GATE_A_PRE_AUDIO_ONLY",
+  "word_ids": "PENDING_SYNC",
+  "timing": "PENDING_MP3_SYNC",
+  "anchor_count": 16,
+  "anchors": [
+    {
+      "id": "S10:A001",
+      "source_narration_occurrence": 1,
+      "exact_spoken_phrase": "Quick recap.",
+      "visual_intent": "Open board-native recap directly on green board; no roadmap chrome yet.",
+      "phase": "RECAP ON BOARD",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol/takeaway; see geometry table",
+      "source_state": "Stable board-native teaching content only."
+    },
+    {
+      "id": "S10:A002",
+      "source_narration_occurrence": 2,
+      "exact_spoken_phrase": "Our format is ...",
+      "visual_intent": "Reserve record formula stage; no future Q18 information yet.",
+      "phase": "RECAP ON BOARD",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol/takeaway; see geometry table",
+      "source_state": "Stable board-native teaching content only."
+    },
+    {
+      "id": "S10:A003",
+      "source_narration_occurrence": 3,
+      "exact_spoken_phrase": "length ... hash ... payload.",
+      "visual_intent": "Reveal record `length  #  payload` at center, the protocol hero.",
+      "phase": "RECAP ON BOARD",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol/takeaway; see geometry table",
+      "source_state": "Stable board-native teaching content only."
+    },
+    {
+      "id": "S10:A004",
+      "source_narration_occurrence": 4,
+      "exact_spoken_phrase": "The decoder reads the length ...",
+      "visual_intent": "Focus `length` header as decoder's first operation.",
+      "phase": "RECAP ON BOARD",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol/takeaway; see geometry table",
+      "source_state": "Stable board-native teaching content only."
+    },
+    {
+      "id": "S10:A005",
+      "source_narration_occurrence": 5,
+      "exact_spoken_phrase": "then consumes exactly that many characters.",
+      "visual_intent": "Focus bounded payload span `read exactly length`, no re-trace.",
+      "phase": "RECAP ON BOARD",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol/takeaway; see geometry table",
+      "source_state": "Stable board-native teaching content only."
+    },
+    {
+      "id": "S10:A006",
+      "source_narration_occurrence": 6,
+      "exact_spoken_phrase": "The reusable idea is simple.",
+      "visual_intent": "Clear code mechanics to a simple transferable-rule area.",
+      "phase": "RECAP ON BOARD",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol/takeaway; see geometry table",
+      "source_state": "Stable board-native teaching content only."
+    },
+    {
+      "id": "S10:A007",
+      "source_narration_occurrence": 7,
+      "exact_spoken_phrase": "When the payload can contain separator characters ...",
+      "visual_intent": "Show abstract payload containing separator as possibility, not actual full testcase.",
+      "phase": "RECAP ON BOARD",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol/takeaway; see geometry table",
+      "source_state": "Stable board-native teaching content only."
+    },
+    {
+      "id": "S10:A008",
+      "source_narration_occurrence": 8,
+      "exact_spoken_phrase": "store explicit boundary information.",
+      "visual_intent": "Reveal large takeaway `Store explicit boundary information` directly on board.",
+      "phase": "RECAP ON BOARD",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol/takeaway; see geometry table",
+      "source_state": "Stable board-native teaching content only."
+    },
+    {
+      "id": "S10:A009",
+      "source_narration_occurrence": 9,
+      "exact_spoken_phrase": "Question Seventeen ...",
+      "visual_intent": "Prepare Q17 completion handoff but keep roadmap hidden until completion announcement.",
+      "phase": "RECAP ON BOARD",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol/takeaway; see geometry table",
+      "source_state": "Stable board-native teaching content only."
+    },
+    {
+      "id": "S10:A010",
+      "source_narration_occurrence": 10,
+      "exact_spoken_phrase": "Encode and Decode Strings ...",
+      "visual_intent": "Name `Encode and Decode Strings` as the closing lesson identity, no new method.",
+      "phase": "RECAP ON BOARD",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "protocol/takeaway; see geometry table",
+      "source_state": "Stable board-native teaching content only."
+    },
+    {
+      "id": "S10:A011",
+      "source_narration_occurrence": 11,
+      "exact_spoken_phrase": "complete.",
+      "visual_intent": "Mark Q17 complete and initiate transition to full-screen `MasterRoadmapV2` only now.",
+      "phase": "ROADMAP RETURN",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "roadmap full-screen x0..1920 y0..1080; recap cleared",
+      "source_state": "ROADMAP: 16/227 until A013 authorizes 17/227; 17/227 afterwards; completed rows [1..17] only after A013; Q18 up-next at A015; never mark Q18 completed."
+    },
+    {
+      "id": "S10:A012",
+      "source_narration_occurrence": 12,
+      "exact_spoken_phrase": "Our progress is now ...",
+      "visual_intent": "Focus roadmap progress value but do not yet increment before announced new count.",
+      "phase": "ROADMAP RETURN",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "roadmap full-screen x0..1920 y0..1080; recap cleared",
+      "source_state": "ROADMAP: 16/227 until A013 authorizes 17/227; 17/227 afterwards; completed rows [1..17] only after A013; Q18 up-next at A015; never mark Q18 completed."
+    },
+    {
+      "id": "S10:A013",
+      "source_narration_occurrence": 13,
+      "exact_spoken_phrase": "seventeen out of two hundred twenty-seven.",
+      "visual_intent": "Advance completed count to 17/227 and mark row 17 completed.",
+      "phase": "ROADMAP RETURN",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "roadmap full-screen x0..1920 y0..1080; recap cleared",
+      "source_state": "ROADMAP: 16/227 until A013 authorizes 17/227; 17/227 afterwards; completed rows [1..17] only after A013; Q18 up-next at A015; never mark Q18 completed."
+    },
+    {
+      "id": "S10:A014",
+      "source_narration_occurrence": 14,
+      "exact_spoken_phrase": "Next ...",
+      "visual_intent": "Focus next-row cue while progress stays at 17.",
+      "phase": "ROADMAP RETURN",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "roadmap full-screen x0..1920 y0..1080; recap cleared",
+      "source_state": "ROADMAP: 16/227 until A013 authorizes 17/227; 17/227 afterwards; completed rows [1..17] only after A013; Q18 up-next at A015; never mark Q18 completed."
+    },
+    {
+      "id": "S10:A015",
+      "source_narration_occurrence": 15,
+      "exact_spoken_phrase": "Question Eighteen.",
+      "visual_intent": "Activate Q18 as `UP NEXT`, not completed, no Q18 solution preview.",
+      "phase": "ROADMAP RETURN",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "roadmap full-screen x0..1920 y0..1080; recap cleared",
+      "source_state": "ROADMAP: 16/227 until A013 authorizes 17/227; 17/227 afterwards; completed rows [1..17] only after A013; Q18 up-next at A015; never mark Q18 completed."
+    },
+    {
+      "id": "S10:A016",
+      "source_narration_occurrence": 16,
+      "exact_spoken_phrase": "First Missing Positive.",
+      "visual_intent": "Settle `First Missing Positive` title inside roadmap; scene ends on 17/227 and Q18 up next.",
+      "phase": "ROADMAP RETURN",
+      "trace_id": "N/A — non-trace scene",
+      "primary_zone": "roadmap full-screen x0..1920 y0..1080; recap cleared",
+      "source_state": "ROADMAP: 16/227 until A013 authorizes 17/227; 17/227 afterwards; completed rows [1..17] only after A013; Q18 up-next at A015; never mark Q18 completed."
+    }
+  ]
+}

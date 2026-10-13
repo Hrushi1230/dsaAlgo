@@ -1,0 +1,600 @@
+{
+  "audio_file": "09-mistakes-edge-cases.mp3",
+  "duration_ms": 31700,
+  "duration_frames": 951,
+  "fps": 30,
+  "word_count": 67,
+  "words": [
+    {
+      "word": "Three",
+      "start_ms": 0,
+      "end_ms": 380,
+      "start_frame": 0,
+      "end_frame": 11
+    },
+    {
+      "word": "quick",
+      "start_ms": 380,
+      "end_ms": 740,
+      "start_frame": 11,
+      "end_frame": 22
+    },
+    {
+      "word": "things",
+      "start_ms": 740,
+      "end_ms": 1100,
+      "start_frame": 22,
+      "end_frame": 33
+    },
+    {
+      "word": "to",
+      "start_ms": 1100,
+      "end_ms": 1300,
+      "start_frame": 33,
+      "end_frame": 39
+    },
+    {
+      "word": "remember.",
+      "start_ms": 1300,
+      "end_ms": 1940,
+      "start_frame": 39,
+      "end_frame": 58
+    },
+    {
+      "word": "Do",
+      "start_ms": 2600,
+      "end_ms": 2720,
+      "start_frame": 78,
+      "end_frame": 82
+    },
+    {
+      "word": "not",
+      "start_ms": 2720,
+      "end_ms": 2980,
+      "start_frame": 82,
+      "end_frame": 89
+    },
+    {
+      "word": "split",
+      "start_ms": 2980,
+      "end_ms": 3260,
+      "start_frame": 89,
+      "end_frame": 98
+    },
+    {
+      "word": "the",
+      "start_ms": 3260,
+      "end_ms": 3540,
+      "start_frame": 98,
+      "end_frame": 106
+    },
+    {
+      "word": "encoded",
+      "start_ms": 3540,
+      "end_ms": 4040,
+      "start_frame": 106,
+      "end_frame": 121
+    },
+    {
+      "word": "string",
+      "start_ms": 4040,
+      "end_ms": 4400,
+      "start_frame": 121,
+      "end_frame": 132
+    },
+    {
+      "word": "on",
+      "start_ms": 4400,
+      "end_ms": 4780,
+      "start_frame": 132,
+      "end_frame": 143
+    },
+    {
+      "word": "every",
+      "start_ms": 4780,
+      "end_ms": 5220,
+      "start_frame": 143,
+      "end_frame": 157
+    },
+    {
+      "word": "hash.",
+      "start_ms": 5220,
+      "end_ms": 5580,
+      "start_frame": 157,
+      "end_frame": 167
+    },
+    {
+      "word": "The",
+      "start_ms": 6340,
+      "end_ms": 6580,
+      "start_frame": 190,
+      "end_frame": 197
+    },
+    {
+      "word": "length",
+      "start_ms": 6580,
+      "end_ms": 6780,
+      "start_frame": 197,
+      "end_frame": 203
+    },
+    {
+      "word": "can",
+      "start_ms": 6780,
+      "end_ms": 6980,
+      "start_frame": 203,
+      "end_frame": 209
+    },
+    {
+      "word": "have",
+      "start_ms": 6980,
+      "end_ms": 7220,
+      "start_frame": 209,
+      "end_frame": 217
+    },
+    {
+      "word": "multiple",
+      "start_ms": 7220,
+      "end_ms": 7740,
+      "start_frame": 217,
+      "end_frame": 232
+    },
+    {
+      "word": "digits,",
+      "start_ms": 7740,
+      "end_ms": 8200,
+      "start_frame": 232,
+      "end_frame": 246
+    },
+    {
+      "word": "and",
+      "start_ms": 8680,
+      "end_ms": 8760,
+      "start_frame": 260,
+      "end_frame": 263
+    },
+    {
+      "word": "after",
+      "start_ms": 8760,
+      "end_ms": 9100,
+      "start_frame": 263,
+      "end_frame": 273
+    },
+    {
+      "word": "decoding",
+      "start_ms": 9100,
+      "end_ms": 9700,
+      "start_frame": 273,
+      "end_frame": 291
+    },
+    {
+      "word": "each",
+      "start_ms": 9700,
+      "end_ms": 10180,
+      "start_frame": 291,
+      "end_frame": 305
+    },
+    {
+      "word": "payload,",
+      "start_ms": 10180,
+      "end_ms": 10660,
+      "start_frame": 305,
+      "end_frame": 320
+    },
+    {
+      "word": "always",
+      "start_ms": 11560,
+      "end_ms": 11940,
+      "start_frame": 347,
+      "end_frame": 358
+    },
+    {
+      "word": "move",
+      "start_ms": 11940,
+      "end_ms": 12240,
+      "start_frame": 358,
+      "end_frame": 367
+    },
+    {
+      "word": "i",
+      "start_ms": 12240,
+      "end_ms": 12480,
+      "start_frame": 367,
+      "end_frame": 374
+    },
+    {
+      "word": "to",
+      "start_ms": 12480,
+      "end_ms": 12660,
+      "start_frame": 374,
+      "end_frame": 380
+    },
+    {
+      "word": "end.",
+      "start_ms": 12660,
+      "end_ms": 12980,
+      "start_frame": 380,
+      "end_frame": 389
+    },
+    {
+      "word": "For",
+      "start_ms": 13640,
+      "end_ms": 13880,
+      "start_frame": 409,
+      "end_frame": 416
+    },
+    {
+      "word": "edge",
+      "start_ms": 13880,
+      "end_ms": 14160,
+      "start_frame": 416,
+      "end_frame": 425
+    },
+    {
+      "word": "cases,",
+      "start_ms": 14160,
+      "end_ms": 14580,
+      "start_frame": 425,
+      "end_frame": 437
+    },
+    {
+      "word": "an",
+      "start_ms": 15240,
+      "end_ms": 15380,
+      "start_frame": 457,
+      "end_frame": 461
+    },
+    {
+      "word": "empty",
+      "start_ms": 15380,
+      "end_ms": 15720,
+      "start_frame": 461,
+      "end_frame": 472
+    },
+    {
+      "word": "list",
+      "start_ms": 15720,
+      "end_ms": 16040,
+      "start_frame": 472,
+      "end_frame": 481
+    },
+    {
+      "word": "encodes",
+      "start_ms": 16040,
+      "end_ms": 16520,
+      "start_frame": 481,
+      "end_frame": 496
+    },
+    {
+      "word": "to",
+      "start_ms": 16520,
+      "end_ms": 16740,
+      "start_frame": 496,
+      "end_frame": 502
+    },
+    {
+      "word": "an",
+      "start_ms": 16740,
+      "end_ms": 17040,
+      "start_frame": 502,
+      "end_frame": 511
+    },
+    {
+      "word": "empty",
+      "start_ms": 17040,
+      "end_ms": 17380,
+      "start_frame": 511,
+      "end_frame": 521
+    },
+    {
+      "word": "string.",
+      "start_ms": 17380,
+      "end_ms": 17800,
+      "start_frame": 521,
+      "end_frame": 534
+    },
+    {
+      "word": "One",
+      "start_ms": 18540,
+      "end_ms": 18800,
+      "start_frame": 556,
+      "end_frame": 564
+    },
+    {
+      "word": "empty",
+      "start_ms": 18800,
+      "end_ms": 19100,
+      "start_frame": 564,
+      "end_frame": 573
+    },
+    {
+      "word": "string",
+      "start_ms": 19100,
+      "end_ms": 19640,
+      "start_frame": 573,
+      "end_frame": 589
+    },
+    {
+      "word": "encodes",
+      "start_ms": 19640,
+      "end_ms": 20300,
+      "start_frame": 589,
+      "end_frame": 609
+    },
+    {
+      "word": "to",
+      "start_ms": 20300,
+      "end_ms": 21240,
+      "start_frame": 609,
+      "end_frame": 637
+    },
+    {
+      "word": "0",
+      "start_ms": 21240,
+      "end_ms": 22160,
+      "start_frame": 637,
+      "end_frame": 665
+    },
+    {
+      "word": "hash",
+      "start_ms": 22160,
+      "end_ms": 22740,
+      "start_frame": 665,
+      "end_frame": 682
+    },
+    {
+      "word": "and",
+      "start_ms": 22740,
+      "end_ms": 23220,
+      "start_frame": 682,
+      "end_frame": 697
+    },
+    {
+      "word": "a",
+      "start_ms": 23220,
+      "end_ms": 23520,
+      "start_frame": 697,
+      "end_frame": 706
+    },
+    {
+      "word": "string",
+      "start_ms": 23520,
+      "end_ms": 23720,
+      "start_frame": 706,
+      "end_frame": 712
+    },
+    {
+      "word": "containing",
+      "start_ms": 23720,
+      "end_ms": 24240,
+      "start_frame": 712,
+      "end_frame": 727
+    },
+    {
+      "word": "only",
+      "start_ms": 24240,
+      "end_ms": 24660,
+      "start_frame": 727,
+      "end_frame": 740
+    },
+    {
+      "word": "a",
+      "start_ms": 24660,
+      "end_ms": 24900,
+      "start_frame": 740,
+      "end_frame": 747
+    },
+    {
+      "word": "hash",
+      "start_ms": 24900,
+      "end_ms": 25380,
+      "start_frame": 747,
+      "end_frame": 761
+    },
+    {
+      "word": "encodes",
+      "start_ms": 25380,
+      "end_ms": 26280,
+      "start_frame": 761,
+      "end_frame": 788
+    },
+    {
+      "word": "to",
+      "start_ms": 26280,
+      "end_ms": 27140,
+      "start_frame": 788,
+      "end_frame": 814
+    },
+    {
+      "word": "1",
+      "start_ms": 27140,
+      "end_ms": 27700,
+      "start_frame": 814,
+      "end_frame": 831
+    },
+    {
+      "word": "hash",
+      "start_ms": 27700,
+      "end_ms": 28040,
+      "start_frame": 831,
+      "end_frame": 841
+    },
+    {
+      "word": "hash.",
+      "start_ms": 28040,
+      "end_ms": 28420,
+      "start_frame": 841,
+      "end_frame": 853
+    },
+    {
+      "word": "The",
+      "start_ms": 28420,
+      "end_ms": 29240,
+      "start_frame": 853,
+      "end_frame": 877
+    },
+    {
+      "word": "same",
+      "start_ms": 29240,
+      "end_ms": 29600,
+      "start_frame": 877,
+      "end_frame": 888
+    },
+    {
+      "word": "protocol",
+      "start_ms": 29600,
+      "end_ms": 30200,
+      "start_frame": 888,
+      "end_frame": 906
+    },
+    {
+      "word": "handles",
+      "start_ms": 30200,
+      "end_ms": 30820,
+      "start_frame": 906,
+      "end_frame": 925
+    },
+    {
+      "word": "all",
+      "start_ms": 30820,
+      "end_ms": 31320,
+      "start_frame": 925,
+      "end_frame": 940
+    },
+    {
+      "word": "of",
+      "start_ms": 31320,
+      "end_ms": 31560,
+      "start_frame": 940,
+      "end_frame": 947
+    },
+    {
+      "word": "them.",
+      "start_ms": 31560,
+      "end_ms": 31700,
+      "start_frame": 947,
+      "end_frame": 951
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Three quick things to remember.",
+      "start_ms": 0,
+      "end_ms": 1940,
+      "start_frame": 0,
+      "end_frame": 58,
+      "word_count": 5
+    },
+    {
+      "text": "Do not split the encoded string on every hash.",
+      "start_ms": 2600,
+      "end_ms": 5580,
+      "start_frame": 78,
+      "end_frame": 167,
+      "word_count": 9
+    },
+    {
+      "text": "The length can have multiple digits, and after decoding each payload, always move i to end.",
+      "start_ms": 6340,
+      "end_ms": 12980,
+      "start_frame": 190,
+      "end_frame": 389,
+      "word_count": 16
+    },
+    {
+      "text": "For edge cases, an empty list encodes to an empty string.",
+      "start_ms": 13640,
+      "end_ms": 17800,
+      "start_frame": 409,
+      "end_frame": 534,
+      "word_count": 11
+    },
+    {
+      "text": "One empty string encodes to 0 hash and a string containing only a hash encodes to 1 hash hash.",
+      "start_ms": 18540,
+      "end_ms": 28420,
+      "start_frame": 556,
+      "end_frame": 853,
+      "word_count": 19
+    },
+    {
+      "text": "The same protocol handles all of them.",
+      "start_ms": 28420,
+      "end_ms": 31700,
+      "start_frame": 853,
+      "end_frame": 951,
+      "word_count": 7
+    }
+  ],
+  "pauses": [
+    {
+      "after_word": "remember.",
+      "before_word": "Do",
+      "start_ms": 1940,
+      "end_ms": 2600,
+      "duration_ms": 660,
+      "start_frame": 58,
+      "end_frame": 78,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "hash.",
+      "before_word": "The",
+      "start_ms": 5580,
+      "end_ms": 6340,
+      "duration_ms": 760,
+      "start_frame": 167,
+      "end_frame": 190,
+      "duration_frames": 23
+    },
+    {
+      "after_word": "digits,",
+      "before_word": "and",
+      "start_ms": 8200,
+      "end_ms": 8680,
+      "duration_ms": 480,
+      "start_frame": 246,
+      "end_frame": 260,
+      "duration_frames": 14
+    },
+    {
+      "after_word": "payload,",
+      "before_word": "always",
+      "start_ms": 10660,
+      "end_ms": 11560,
+      "duration_ms": 900,
+      "start_frame": 320,
+      "end_frame": 347,
+      "duration_frames": 27
+    },
+    {
+      "after_word": "end.",
+      "before_word": "For",
+      "start_ms": 12980,
+      "end_ms": 13640,
+      "duration_ms": 660,
+      "start_frame": 389,
+      "end_frame": 409,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "cases,",
+      "before_word": "an",
+      "start_ms": 14580,
+      "end_ms": 15240,
+      "duration_ms": 660,
+      "start_frame": 437,
+      "end_frame": 457,
+      "duration_frames": 20
+    },
+    {
+      "after_word": "string.",
+      "before_word": "One",
+      "start_ms": 17800,
+      "end_ms": 18540,
+      "duration_ms": 740,
+      "start_frame": 534,
+      "end_frame": 556,
+      "duration_frames": 22
+    }
+  ]
+}
